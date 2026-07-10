@@ -1,24 +1,41 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ImagePlus, X } from "lucide-react";
 import { LISTING_TYPES } from "@/lib/config/site";
 import { CATEGORIES, SCHOOL_CERTIFICATIONS, PRODUCT_CATEGORIES, LISTING_LANGUAGES } from "@/lib/config/categories";
 import CountrySelect from "@/components/ui/CountrySelect";
 
 type FormState = "idle" | "loading" | "success" | "error";
 
+const PRICE_RANGES = [
+  { value: "$",    label: "$ — Budget" },
+  { value: "$$",   label: "$$ — Mid" },
+  { value: "$$$",  label: "$$$ — Premium" },
+  { value: "$$$$", label: "$$$$ — Elite" },
+] as const;
+
+const MAX_IMAGES     = 3;
+const MAX_IMAGE_SIZE = 4 * 1024 * 1024; // 4MB
+
 const INITIAL = {
   name:              "",
   type:              "",
   email:             "",
+  phone:             "",
   website:           "",
+  address:           "",
   city:              "",
   country:           "",
+  tagline:           "",
   description:       "",
   specialties:       [] as string[],
   experience_levels: [] as string[],
   languages:         [] as string[],
+  price_range:       "",
+  social_instagram:  "",
+  social_facebook:   "",
+  social_youtube:    "",
   certification_id:  "",
   notes:             "",
 };
@@ -30,8 +47,30 @@ const labelClass = "block font-sans text-label-sm uppercase text-on-surface-vari
 
 export default function SubmitPage() {
   const [form,    setForm]    = useState(INITIAL);
+  const [images,  setImages]  = useState<{ file: File; preview: string }[]>([]);
+  const [imageError, setImageError] = useState("");
   const [status,  setStatus]  = useState<FormState>("idle");
   const [message, setMessage] = useState("");
+
+  const addImages = (files: FileList | null) => {
+    if (!files) return;
+    setImageError("");
+    const next = [...images];
+    for (const file of Array.from(files)) {
+      if (next.length >= MAX_IMAGES) { setImageError(`Maximum ${MAX_IMAGES} images.`); break; }
+      if (!file.type.startsWith("image/")) { setImageError("Only image files are accepted."); continue; }
+      if (file.size > MAX_IMAGE_SIZE) { setImageError("Each image must be under 4MB."); continue; }
+      next.push({ file, preview: URL.createObjectURL(file) });
+    }
+    setImages(next);
+  };
+
+  const removeImage = (index: number) => {
+    setImages(prev => {
+      URL.revokeObjectURL(prev[index]?.preview);
+      return prev.filter((_, i) => i !== index);
+    });
+  };
 
   const toggle = (style: string) => {
     setForm(f => ({
@@ -55,16 +94,22 @@ export default function SubmitPage() {
     e.preventDefault();
     setStatus("loading");
     try {
+      // Multipart: JSON payload + image files
+      const formData = new FormData();
+      formData.set("payload", JSON.stringify(form));
+      images.forEach((img, i) => formData.set(`image${i}`, img.file));
+
       const res = await fetch("/api/business/submit", {
-        method:  "POST",
-        headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify(form),
+        method: "POST",
+        body:   formData,
       });
       const data = await res.json();
       if (res.ok) {
         setStatus("success");
         setMessage(data.message ?? "Thank you. We'll review your listing within 2–3 business days.");
         setForm(INITIAL);
+        images.forEach(img => URL.revokeObjectURL(img.preview));
+        setImages([]);
       } else {
         setStatus("error");
         setMessage(data.error ?? "Something went wrong. Please try again.");
@@ -190,6 +235,30 @@ export default function SubmitPage() {
 
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
+                  <label className={labelClass}>Phone</label>
+                  <input
+                    type="tel"
+                    value={form.phone}
+                    onChange={e => setForm(f => ({ ...f, phone: e.target.value }))}
+                    placeholder="604-555-0123"
+                    className={inputClass}
+                  />
+                </div>
+
+                <div>
+                  <label className={labelClass}>Address / Neighbourhood</label>
+                  <input
+                    type="text"
+                    value={form.address}
+                    onChange={e => setForm(f => ({ ...f, address: e.target.value }))}
+                    placeholder="1131 West Georgia St, Downtown"
+                    className={inputClass}
+                  />
+                </div>
+              </div>
+
+              <div className="grid sm:grid-cols-2 gap-5">
+                <div>
                   <label className={labelClass}>
                     City <span className="text-primary">*</span>
                   </label>
@@ -240,6 +309,21 @@ export default function SubmitPage() {
               </h2>
 
               <div>
+                <label className={labelClass}>Tagline</label>
+                <input
+                  type="text"
+                  maxLength={200}
+                  value={form.tagline}
+                  onChange={e => setForm(f => ({ ...f, tagline: e.target.value }))}
+                  placeholder="One sharp line that sells your space"
+                  className={inputClass}
+                />
+                <p className="font-sans text-xs text-on-surface-variant/60 mt-2">
+                  Shown on your listing card. Keep it short and confident.
+                </p>
+              </div>
+
+              <div>
                 <label className={labelClass}>
                   Description <span className="text-primary">*</span>
                 </label>
@@ -251,6 +335,132 @@ export default function SubmitPage() {
                   placeholder="Describe your space, your approach, what makes you unique, who you train..."
                   className={`${inputClass} resize-none`}
                 />
+              </div>
+            </div>
+
+            {/* Images */}
+            <div className="bg-surface-low p-8">
+              <h2 className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-2">
+                Photos
+              </h2>
+              <p className="font-sans text-sm text-on-surface-variant mb-6">
+                Up to {MAX_IMAGES} images, 4MB each. The first one is your cover — lead with your strongest shot of the space.
+              </p>
+
+              <div className="grid grid-cols-3 gap-3">
+                {images.map((img, i) => (
+                  <div key={img.preview} className="relative aspect-[4/3] bg-surface-input overflow-hidden group">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={img.preview} alt={`Upload ${i + 1}`} className="w-full h-full object-cover" />
+                    {i === 0 && (
+                      <span className="absolute top-2 left-2 px-2 py-0.5 bg-primary text-primary-on font-sans text-label-sm uppercase">
+                        Cover
+                      </span>
+                    )}
+                    <button
+                      type="button"
+                      onClick={() => removeImage(i)}
+                      aria-label="Remove image"
+                      className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center bg-bg/80 text-on-surface hover:bg-error hover:text-on-surface transition-colors"
+                    >
+                      <X size={14} />
+                    </button>
+                  </div>
+                ))}
+
+                {images.length < MAX_IMAGES && (
+                  <label className="aspect-[4/3] bg-surface-input flex flex-col items-center justify-center gap-2 cursor-pointer text-on-surface-variant hover:bg-surface-bright hover:text-on-surface transition-colors">
+                    <ImagePlus size={22} />
+                    <span className="font-sans text-label-sm uppercase">Add Photo</span>
+                    <input
+                      type="file"
+                      accept="image/jpeg,image/png,image/webp,image/avif"
+                      multiple
+                      className="hidden"
+                      onChange={e => { addImages(e.target.files); e.target.value = ""; }}
+                    />
+                  </label>
+                )}
+              </div>
+
+              {imageError && (
+                <p className="font-sans text-xs text-error mt-3">{imageError}</p>
+              )}
+              <p className="font-sans text-xs text-on-surface-variant/60 mt-4">
+                By uploading, you confirm you own these images or have the right to publish them.
+              </p>
+            </div>
+
+            {/* Pricing */}
+            <div className="bg-surface-low p-8">
+              <h2 className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-2">
+                Pricing
+              </h2>
+              <p className="font-sans text-sm text-on-surface-variant mb-6">
+                Give visitors a sense of your price point. Put specifics (drop-in rates, memberships, packages) in your description.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {PRICE_RANGES.map(p => (
+                  <button
+                    key={p.value}
+                    type="button"
+                    onClick={() => setForm(f => ({ ...f, price_range: f.price_range === p.value ? "" : p.value }))}
+                    className={`px-4 py-2.5 font-sans text-label-sm uppercase transition-colors duration-300 ${
+                      form.price_range === p.value
+                        ? "bg-primary text-primary-on"
+                        : "bg-surface-input text-on-surface-variant hover:bg-surface-bright hover:text-on-surface"
+                    }`}
+                  >
+                    {p.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Social Media */}
+            <div className="bg-surface-low p-8 space-y-5">
+              <div>
+                <h2 className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-2">
+                  Social Media
+                </h2>
+                <p className="font-sans text-sm text-on-surface-variant">
+                  Where can people follow your work?
+                </p>
+              </div>
+
+              <div>
+                <label className={labelClass}>Instagram</label>
+                <input
+                  type="url"
+                  value={form.social_instagram}
+                  onChange={e => setForm(f => ({ ...f, social_instagram: e.target.value }))}
+                  placeholder="https://instagram.com/yourspace"
+                  className={inputClass}
+                />
+              </div>
+
+              <div className="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label className={labelClass}>Facebook</label>
+                  <input
+                    type="url"
+                    value={form.social_facebook}
+                    onChange={e => setForm(f => ({ ...f, social_facebook: e.target.value }))}
+                    placeholder="https://facebook.com/yourspace"
+                    className={inputClass}
+                  />
+                </div>
+
+                <div>
+                  <label className={labelClass}>YouTube</label>
+                  <input
+                    type="url"
+                    value={form.social_youtube}
+                    onChange={e => setForm(f => ({ ...f, social_youtube: e.target.value }))}
+                    placeholder="https://youtube.com/@yourspace"
+                    className={inputClass}
+                  />
+                </div>
               </div>
             </div>
 
