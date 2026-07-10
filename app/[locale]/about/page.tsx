@@ -91,36 +91,36 @@ export default function AboutPage() {
             <div className="relative overflow-hidden bg-surface-card aspect-[4/3]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/about/tst-games.jpg"
-                alt="FitBodega Vancouver FC match day at TST 7v7"
-                className="w-full h-full object-cover"
+                src="/about/fc-reel-1.jpg"
+                alt="FitBodega Vancouver FC player in the white FitBodega Supplements away kit"
+                className="w-full h-full object-cover object-[center_42%]"
                 loading="lazy"
               />
             </div>
             <div className="relative overflow-hidden bg-surface-card aspect-[4/3]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/about/team.jpg"
-                alt="FitBodega Vancouver FC goalkeeper in the FitBodega Supplements kit"
-                className="w-full h-full object-cover object-top"
+                src="/about/fc-reel-3.jpg"
+                alt="FitBodega Vancouver FC player in the green kit on the pitch at TST"
+                className="w-full h-full object-cover object-[center_35%]"
                 loading="lazy"
               />
             </div>
             <div className="relative overflow-hidden bg-surface-card aspect-[4/3]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/about/training.jpg"
-                alt="FitBodega Vancouver FC training session"
-                className="w-full h-full object-cover"
+                src="/about/fc-reel-4.jpg"
+                alt="FitBodega Vancouver FC squad and staff between games at TST"
+                className="w-full h-full object-cover object-[center_60%]"
                 loading="lazy"
               />
             </div>
             <div className="relative overflow-hidden bg-surface-card aspect-[4/3]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/about/pregame.jpg"
-                alt="FitBodega Vancouver FC pre-game at TST 7v7"
-                className="w-full h-full object-cover"
+                src="/about/fc-reel-2.jpg"
+                alt="FitBodega Vancouver FC night match action at TST 7v7"
+                className="w-full h-full object-cover object-[center_60%]"
                 loading="lazy"
               />
             </div>
