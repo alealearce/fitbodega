@@ -52,45 +52,23 @@ export default function HeroSection() {
           {COPY.hero.subheadline}
         </p>
 
+        {/* Search — bare input on the void; the rail below is the only
+            category wayfinding, so no duplicate filter chips or CTAs here */}
+        <div className="mt-12 max-w-3xl">
+          <SearchBar placeholder={COPY.searchPlaceholder} showFilters={false} />
+        </div>
+
         {/* Category rail — sharp rectangular chips, mockup-style */}
-        <div className="flex flex-wrap gap-2 mt-10">
-          <span className="px-4 py-2.5 bg-primary text-primary-on font-sans text-label-sm uppercase">
-            All Spaces
-          </span>
+        <div className="flex flex-wrap gap-2 mt-6 max-w-3xl">
           {LISTING_TYPES.map(t => (
             <Link
               key={t.id}
               href={`/${t.slug}`}
-              className="px-4 py-2.5 bg-surface-input text-on-surface font-sans text-label-sm uppercase hover:bg-surface-bright transition-colors duration-300"
+              className="px-4 py-2.5 bg-surface-input text-on-surface-variant font-sans text-label-sm uppercase hover:bg-primary hover:text-primary-on transition-colors duration-300"
             >
               {t.label}
             </Link>
           ))}
-        </div>
-
-        {/* Search — Level 1 tonal block, no card chrome */}
-        <div className="bg-surface-low p-6 lg:p-8 mt-12 max-w-3xl">
-          <p className="font-sans text-label-sm uppercase text-on-surface-variant mb-4">
-            Locate
-          </p>
-          <SearchBar placeholder={COPY.searchPlaceholder} showFilters={true} />
-        </div>
-
-        {/* CTAs */}
-        <div className="flex flex-wrap gap-3 mt-10">
-          <Link
-            href="/recovery"
-            className="px-8 py-4 bg-lime-gradient text-primary-on font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
-          >
-            {COPY.hero.cta}
-          </Link>
-          <Link
-            href="/submit"
-            className="px-8 py-4 font-sans text-sm font-bold tracking-wide uppercase text-on-surface bg-transparent transition-colors duration-400 hover:bg-surface-low"
-            style={{ boxShadow: "inset 0 0 0 1px rgba(72,72,71,0.3)" }}
-          >
-            {COPY.hero.ctaSecondary}
-          </Link>
         </div>
       </div>
     </section>

@@ -1,8 +1,14 @@
 /**
  * lib/demo/listings.ts — FitBodega demo seed
- * Sample Vancouver listings used by the mock Supabase client when no
- * database is configured (local preview) — and as the go-live seed base.
- * Names are fictional, drawn from the brand mockups.
+ * REAL Vancouver businesses, researched and verified against their own
+ * websites (2026-07-10). Used by the mock Supabase client for the local
+ * preview and as the go-live seed base.
+ *
+ * Notes:
+ * - rating_avg stays 0 (we have no verified review data; the UI hides it).
+ * - Photo covers in public/listings/ were pulled from each business's own
+ *   og:image; logo-only images were replaced with branded placeholders.
+ *   At go-live, request or license proper imagery per listing.
  */
 import type { Listing } from "@/lib/supabase/types";
 
@@ -50,122 +56,165 @@ function listing(partial: Partial<Listing> & Pick<Listing, "id" | "name" | "slug
 }
 
 export const DEMO_LISTINGS: Listing[] = [
+  // ── Recovery ────────────────────────────────────────────────────────────
   listing({
-    id: "demo-01", name: "Zenith Lab", slug: "zenith-lab", type: "recovery",
-    tagline: "Contrast therapy circuits, red light, and performance diagnostics.",
-    description: "A recovery sanctuary in Mount Pleasant. Cedar sauna, twin cold plunges, red light suites, and DEXA scanning for those who treat recovery as training.",
-    specialties: ["Cold Plunge", "Infrared Sauna", "Red Light Therapy", "DEXA / VO2 Max"],
-    images: ["/demo/zenith-lab.svg"], price_range: "$$$",
-    is_featured: true, is_verified: true, rating_avg: 4.8, rating_count: 63,
-    address: "Mount Pleasant", city: "Vancouver",
+    id: "real-01", name: "Circle Wellness", slug: "circle-wellness", type: "recovery",
+    tagline: "Your own private thermal circuit, no strangers included.",
+    description: "Circle Wellness on Granville Island runs a self-guided, automated six-step thermal spa circuit — open-air shower, cedar soak, Himalayan salt sauna, cold plunge, and heated riverstone bed — booked in private 90- or 120-minute pods for up to two people.",
+    specialties: ["Private Thermal Circuit", "Cedar Soaking Tub", "Himalayan Salt Sauna", "Cold Plunge"],
+    images: ["/listings/circle-wellness.webp"], price_range: "$$$$",
+    website: "https://circlewellnessspas.com/", phone: "604-881-1759",
+    social_instagram: "https://www.instagram.com/circlewellnessspas/",
+    address: "1297 Johnston St, Granville Island", is_featured: true,
   }),
   listing({
-    id: "demo-02", name: "The Banya House", slug: "the-banya-house", type: "recovery",
-    tagline: "Eastern European heat rituals. Aufguss, banya, and ice.",
-    description: "Traditional banya culture in a modern West Coast space — guided Aufguss rounds, plunge pools, and rest lounges.",
-    specialties: ["Banya", "Aufguss", "Ice Bath", "Contrast Therapy"],
-    images: ["/demo/banya-house.svg"], price_range: "$$",
-    is_featured: true, is_verified: true, rating_avg: 4.9, rating_count: 88,
-    address: "Chinatown", city: "Vancouver",
+    id: "real-02", name: "AetherHaus", slug: "aetherhaus", type: "recovery",
+    tagline: "Sauna and cold plunge, Eastern European style — phones stay in the locker.",
+    description: "AetherHaus is a Slavic- and Nordic-inspired sauna and cold plunge studio on Davie Street in the West End, offering Himalayan salt sauna sessions, communal cold plunge pools, Aufguss rituals, and a tea lounge. Sessions run silent, casual, or social, and devices are checked at the door.",
+    specialties: ["Himalayan Salt Sauna", "Communal Cold Plunge", "Aufguss", "Tea Lounge"],
+    images: ["/listings/aetherhaus.svg"],
+    website: "https://www.aetherhaus.ca/", phone: "604-336-0776",
+    social_instagram: "https://www.instagram.com/aetherhaus/",
+    address: "1768 Davie St, West End", is_featured: true,
   }),
   listing({
-    id: "demo-03", name: "Float North", slug: "float-north", type: "recovery",
-    tagline: "Sensory deprivation and hyperbaric recovery on the North Shore.",
-    specialties: ["Float Tank", "Hyperbaric Oxygen", "Compression Therapy"],
-    images: ["/demo/float-north.svg"], price_range: "$$",
-    is_verified: true, rating_avg: 4.7, rating_count: 41,
-    city: "North Vancouver",
+    id: "real-03", name: "Regen Recovery", slug: "regen-recovery", type: "recovery",
+    tagline: "Sauna, plunge, and a DEXA scan before you leave.",
+    description: "Regen Recovery in Cedar Cottage offers private-room sauna and cold plunge bookings alongside red light therapy, hyperbaric oxygen, DEXA body composition scans, VO2 max testing, and IV drips, with physiotherapy and RMT on site.",
+    specialties: ["Infrared Sauna", "Cold Plunge", "Red Light Therapy", "DEXA / VO2 Max", "IV Therapy"],
+    images: ["/listings/regen-recovery.svg"], price_range: "$$$",
+    website: "https://regen-recovery.ca/", phone: "604-336-8141",
+    social_instagram: "https://www.instagram.com/regenrecovery",
+    address: "1433 Cedar Cottage Mews",
+  }),
+
+  // ── Gyms & Studios ──────────────────────────────────────────────────────
+  listing({
+    id: "real-04", name: "House Concepts", slug: "house-concepts", type: "gym",
+    tagline: "Four disciplines, one roof — run, box, strengthen, stretch.",
+    description: "House Concepts is the flagship fitness studio at Vancouver House, housing four training concepts — Basecamp Athletics, Butterfly Boxing, Guest House, and Bond Run Club — under one 15,000-square-foot roof. Private training includes an InBody 270 assessment and a custom-built program.",
+    specialties: ["Running", "Boxing", "Strength Training", "Mobility", "Private Training"],
+    images: ["/listings/house-concepts.svg"],
+    website: "https://houseconcepts.com/", phone: "604-566-8980",
+    social_instagram: "https://www.instagram.com/houseconcepts/",
+    address: "701-1431 Continental St, Beach District", is_featured: true,
   }),
   listing({
-    id: "demo-04", name: "Iron Archive", slug: "iron-archive", type: "gym",
-    tagline: "A strength library. Barbells, platforms, and no machines you don't need.",
-    description: "Downtown's dedicated strength floor — calibrated plates, competition racks, and coaching for powerlifting and olympic lifting.",
-    specialties: ["Powerlifting", "Olympic Weightlifting", "Functional Strength"],
-    images: ["/demo/iron-archive.svg"], price_range: "$$",
-    is_featured: true, is_verified: true, rating_avg: 4.6, rating_count: 112,
-    address: "Downtown", city: "Vancouver",
+    id: "real-05", name: "Equinox Vancouver", slug: "equinox-vancouver", type: "gym",
+    tagline: "Six studios, one downtown address, zero shortcuts.",
+    description: "Equinox's West Georgia Street club was the brand's first Canadian location, a 33,000-square-foot facility with dedicated yoga, barre, boxing, and cycling studios plus a full-service spa. Membership includes unlimited access to group classes across every format.",
+    specialties: ["Personal Training", "Group Fitness", "Boxing", "Cycling", "Spa"],
+    images: ["/listings/equinox-vancouver.svg"], price_range: "$$$$",
+    website: "https://www.equinox.com/clubs/canada/vancouver/westgeorgiast", phone: "604-449-3002",
+    social_instagram: "https://www.instagram.com/equinox/",
+    address: "1131 West Georgia St, Downtown", is_featured: true,
+  }),
+
+  // ── Coaches & Trainers ──────────────────────────────────────────────────
+  listing({
+    id: "real-06", name: "The Program Fitness", slug: "the-program-fitness", type: "trainer",
+    tagline: "A real gym built for independent trainers to run their own book.",
+    description: "The Program Fitness on Gore Avenue is a training facility where certified personal trainers and kinesiologists operate independent practices, offering strength, hybrid, running, and youth development classes alongside ICBC active rehabilitation.",
+    specialties: ["Personal Training", "Kinesiology", "Active Rehab", "Strength Classes"],
+    images: ["/listings/the-program-fitness.svg"],
+    website: "https://theprogramfitness.com/",
+    social_instagram: "https://www.instagram.com/theprogramfitness/",
+    address: "747 Gore Ave, Strathcona",
   }),
   listing({
-    id: "demo-05", name: "Void Boxing", slug: "void-boxing", type: "gym",
-    tagline: "Industrial aesthetics meet high-performance combat training.",
-    specialties: ["Boxing", "Kickboxing", "Muay Thai"],
-    images: ["/demo/void-boxing.svg"], price_range: "$$",
-    is_featured: true, is_verified: true, rating_avg: 5.0, rating_count: 74,
-    address: "Strathcona", city: "Vancouver",
+    id: "real-07", name: "Le Physique", slug: "le-physique", type: "trainer",
+    tagline: "One-on-one training in False Creek, no crowd, no guesswork.",
+    description: "Le Physique is a private personal training studio at Leg-In-Boot Square in False Creek offering exclusive 1:1 sessions built around Smart Programming, plus kinesiology, ICBC active rehab, and nutrition coaching.",
+    specialties: ["1:1 Personal Training", "Kinesiology", "Active Rehab", "Nutrition Coaching"],
+    images: ["/listings/le-physique.svg"],
+    website: "https://www.lephysique.com/", phone: "604-873-2255",
+    address: "662 Leg-In-Boot Square, False Creek",
+  }),
+
+  // ── Clubs ───────────────────────────────────────────────────────────────
+  listing({
+    id: "real-08", name: "Flight Crew Run Club", slug: "flight-crew-run-club", type: "club",
+    tagline: "No-drop group runs out of Kitsilano, every pace welcome.",
+    description: "Flight Crew Run Club, based out of Vancouver Running Company on West 4th Avenue, hosts free Thursday evening road runs at 3K, 5K, and 10K distances plus monthly trail outings, led by volunteer run leaders.",
+    specialties: ["Run Club", "Free Group Runs", "Trail Runs", "No-Drop Policy"],
+    images: ["/listings/flight-crew-run-club.svg"],
+    website: "https://vanrunco.com/pages/flight-crew", phone: "778-379-8511",
+    social_instagram: "https://www.instagram.com/flightcrewrunclub/",
+    address: "2033 W 4th Ave, Kitsilano", is_featured: true,
   }),
   listing({
-    id: "demo-06", name: "Flow State Pilates", slug: "flow-state-pilates", type: "gym",
-    tagline: "Reformer work for athletes — mobility as a discipline.",
-    specialties: ["Reformer Pilates", "Mobility", "Breathwork"],
-    images: ["/demo/flow-state.svg"], price_range: "$$$",
-    is_verified: true, rating_avg: 4.6, rating_count: 39,
-    address: "Kitsilano", city: "Vancouver",
+    id: "real-09", name: "Lotus Cycling Club", slug: "lotus-cycling-club", type: "club",
+    tagline: "Group rides out of UBC for riders who actually train.",
+    description: "Lotus Cycling Club is a Vancouver road cycling club running weekly training rides departing from University Hill, alongside bike mechanics workshops, coaching partnerships, and cause-oriented fundraiser rides.",
+    specialties: ["Cycling Club", "Group Road Rides", "Race Training", "Mechanics Workshops"],
+    images: ["/listings/lotus-cycling-club.svg"],
+    website: "https://www.lotuscyclingclub.com/", phone: "604-619-8101",
+    social_instagram: "https://www.instagram.com/lotus.cycling.club/",
+    address: "University Hill, UBC",
+  }),
+
+  // ── Nutritionists ───────────────────────────────────────────────────────
+  listing({
+    id: "real-10", name: "Vanguard Performance", slug: "vanguard-performance", type: "nutritionist",
+    tagline: "Downtown sports nutrition, built around your training block.",
+    description: "Vanguard Performance's registered dietitian, based at their West Hastings Street clinic downtown, builds nutrition plans for athletes and active clients covering performance fueling, weight management, and supplement review.",
+    specialties: ["Sports Nutrition", "Registered Dietitian", "Supplement Review"],
+    images: ["/listings/vanguard-performance.jpg"],
+    website: "https://www.vanguardperformance.ca/clinic/dietitian/", phone: "236-427-4283",
+    social_instagram: "https://www.instagram.com/vanguard_vancouver/",
+    address: "420 W Hastings St #270, Downtown",
   }),
   listing({
-    id: "demo-07", name: "The Summit Athletic Club", slug: "the-summit-athletic-club", type: "gym",
-    tagline: "Elite conditioning. HIIT, rowing, and altitude training.",
-    specialties: ["HIIT", "Circuit Training", "Rowing"],
-    images: ["/demo/the-summit.svg"], price_range: "$$$$",
-    is_featured: true, rating_avg: 4.9, rating_count: 56,
-    address: "Coal Harbour", city: "Vancouver",
+    id: "real-11", name: "No Sweat Nutrition", slug: "no-sweat-nutrition", type: "nutritionist",
+    tagline: "Fueling endurance athletes who train past what's sustainable.",
+    description: "No Sweat Nutrition is a Vancouver-based virtual sports nutrition practice led by a clinical dietitian and competitive distance runner, specializing in RED-S, fueling for endurance training and racing, and GI and iron-deficiency issues in athletes.",
+    specialties: ["Endurance Fueling", "RED-S", "Registered Dietitian", "Iron & Micronutrients"],
+    images: ["/listings/no-sweat-nutrition.svg"], price_range: "$$$",
+    website: "https://nosweatnutrition.ca/",
+    social_instagram: "https://www.instagram.com/nosweatnutrition/",
+  }),
+
+  // ── Health Food Stores ──────────────────────────────────────────────────
+  listing({
+    id: "real-12", name: "Body Energy Club", slug: "body-energy-club", type: "store",
+    tagline: "Vancouver's original supplement-and-smoothie corner store.",
+    description: "Body Energy Club opened on Davie Street in 2002 and has grown into a multi-location Metro Vancouver chain stocking 300+ supplement brands alongside a full smoothie, protein shake, and acai bowl bar.",
+    specialties: ["Supplements", "Smoothie Bar", "Protein & Creatine"],
+    images: ["/listings/body-energy-club.svg"], price_range: "$$",
+    website: "https://www.bodyenergyclub.com/", phone: "778-653-4105",
+    social_instagram: "https://www.instagram.com/bodyenergyclub/",
+    address: "746 Davie St, Davie Village",
   }),
   listing({
-    id: "demo-08", name: "Marcus Vance", slug: "marcus-vance", type: "trainer",
-    tagline: "Elite performance coach. High-threshold strength and metabolic conditioning.",
-    description: "12 years, 450+ clients. Marcus fuses brutalist physical principles with modern physiological science to rebuild the human machine from the ground up.",
-    specialties: ["Functional Strength", "Sports Nutrition", "Athletic Development"],
-    images: ["/demo/marcus-vance.svg"], price_range: "$$$",
-    is_featured: true, is_verified: true, rating_avg: 5.0, rating_count: 47,
-    city: "Vancouver",
+    id: "real-13", name: "Greens Organic & Natural Market", slug: "greens-organic-natural-market", type: "store",
+    tagline: "Kitsilano's organic grocery since before it was a trend.",
+    description: "Greens Organic & Natural Market has run an independently owned organic grocery on West Broadway in Kitsilano since 2010, covering produce, meat, poultry, and seafood alongside natural packaged goods.",
+    specialties: ["Organic Produce", "Natural Grocery", "Health Foods"],
+    images: ["/listings/greens-market.webp"], price_range: "$$$",
+    website: "https://greensmarket.ca/", phone: "604-568-3079",
+    social_instagram: "https://www.instagram.com/greensmarket/",
+    address: "1978 W Broadway, Kitsilano",
+  }),
+
+  // ── Youth Sports ────────────────────────────────────────────────────────
+  listing({
+    id: "real-14", name: "Vancouver United FC", slug: "vancouver-united-fc", type: "youth",
+    tagline: "2,800 kids, one westside club, Canada Soccer's top license.",
+    description: "Vancouver United FC is a westside youth soccer club formed from three legacy associations — Dunbar, Kerrisdale, and Point Grey — running programs from First Kicks (U4) through U18 divisional and BCSPL play, and holds Canada Soccer's National Youth Club License.",
+    specialties: ["Youth Soccer U4-U18", "BCSPL", "Academy Program"],
+    images: ["/listings/vancouver-united-fc.svg"],
+    website: "https://vancouverunitedfc.com/", phone: "604-674-4109",
+    social_instagram: "https://www.instagram.com/vanufc/",
+    address: "Westside", is_featured: true,
   }),
   listing({
-    id: "demo-09", name: "Sara Blanc", slug: "sara-blanc", type: "trainer",
-    tagline: "Mobility specialist — fascial release and active range of motion.",
-    specialties: ["Mobility", "Stretching", "Athletic Therapy"],
-    images: ["/demo/sara-blanc.svg"], price_range: "$$",
-    is_verified: true, rating_avg: 4.8, rating_count: 29,
-    city: "Vancouver",
-  }),
-  listing({
-    id: "demo-13", name: "The Sunday Run Club", slug: "the-sunday-run-club", type: "club",
-    tagline: "Elevated community movement. Every Sunday at 07:00.",
-    description: "A run crew for those who show up. All paces, one standard — consistency. Coffee after, always.",
-    specialties: ["Run Club", "Social Wellness Club"],
-    images: ["/demo/sunday-run-club.svg"], price_range: "$",
-    is_featured: true, is_verified: true, rating_avg: 4.9, rating_count: 52,
-    address: "Seawall", city: "Vancouver",
-  }),
-  listing({
-    id: "demo-14", name: "Pacific Masters Swim", slug: "pacific-masters-swim", type: "club",
-    tagline: "Structured masters swim — technique, threshold, and open water.",
-    specialties: ["Masters Swim", "Swim Club", "Triathlon Club"],
-    images: ["/demo/pacific-masters.svg"], price_range: "$$",
-    is_verified: true, rating_avg: 4.7, rating_count: 26,
-    city: "Vancouver",
-  }),
-  listing({
-    id: "demo-10", name: "Meridian Nutrition", slug: "meridian-nutrition", type: "nutritionist",
-    tagline: "Registered dietitians for training, recovery, and body composition.",
-    specialties: ["Sports Nutrition", "Registered Dietitian", "Meal Prep"],
-    images: ["/demo/meridian.svg"], price_range: "$$",
-    is_verified: true, rating_avg: 4.7, rating_count: 22,
-    address: "Fairview", city: "Vancouver",
-  }),
-  listing({
-    id: "demo-11", name: "The Apothecary Pantry", slug: "the-apothecary-pantry", type: "store",
-    tagline: "Pure compounds, zero fillers — supplements and whole-food fuel.",
-    specialties: ["Supplements", "Health Foods"],
-    images: ["/demo/apothecary.svg"], price_range: "$$",
-    rating_avg: 4.5, rating_count: 18,
-    address: "Main Street", city: "Vancouver",
-  }),
-  listing({
-    id: "demo-12", name: "Pacific Rise FC Academy", slug: "pacific-rise-fc-academy", type: "youth",
-    tagline: "Technical soccer development for U6–U18 — pathways, not promises.",
-    description: "Licensed coaches, small-group technical sessions, and a clear development pathway from grassroots to high performance.",
-    specialties: ["Soccer Academies", "Private Coaching", "Camps"],
-    images: ["/demo/pacific-rise.svg"], price_range: "$$",
-    is_featured: true, is_verified: true, rating_avg: 4.9, rating_count: 35,
-    city: "Vancouver",
+    id: "real-15", name: "KLM Soccer Club", slug: "klm-soccer-club", type: "youth",
+    tagline: "Community soccer on Fraser Street, ninety-nine bucks and a jersey.",
+    description: "KLM Soccer Club is a volunteer-run, non-profit youth soccer club based on Fraser Street, offering U4-U18 programs, after-school leagues, and camps at a flat $99 program fee with financial assistance available.",
+    specialties: ["Youth Soccer U4-U18", "Non-Profit", "After-School Leagues", "Camps"],
+    images: ["/listings/klm-soccer-club.jpg"], price_range: "$",
+    website: "https://klmsoccer.ca/",
+    social_instagram: "https://www.instagram.com/klmsoccerclub/",
+    address: "185-6647 Fraser St, Sunset",
   }),
 ];
