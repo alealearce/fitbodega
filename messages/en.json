@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "defaultTitle": "FitBodega — The Fitness & Recovery Network",
+    "defaultDescription": "The curated directory for recovery studios, gyms, coaches, nutritionists, and health food stores — starting in Vancouver. Sauna, cold plunge, strength, and everything your training demands."
+  },
+  "home": {
+    "featuredTitle": "Featured Spaces",
+    "browseByCity": "Browse by Location",
+    "ctaTitle": "Own a recovery studio, gym, or practice?",
+    "ctaSubtitle": "Join the curated network — claim your space in the directory.",
+    "ctaButton": "Submit Your Space",
+    "viewAll": "View all",
+    "viewMore": "View More"
+  },
+  "nav": {
+    "home": "Home",
+    "search": "Directory",
+    "claim": "Submit Your Space",
+    "suggest": "Something missing?",
+    "login": "Log In",
+    "language": ""
+  },
+  "hero": {
+    "headline": "Curated Spaces.",
+    "subheadline": "Recovery studios, gyms, coaches, and nutrition — hand-picked for those who demand absolute excellence from their training and recovery.",
+    "searchPlaceholder": "Search saunas, cold plunge, gyms, coaches..."
+  },
+  "categories": {
+    "recovery": "Recovery",
+    "gym": "Gyms & Studios",
+    "trainer": "Coaches & Trainers",
+    "club": "Clubs",
+    "nutritionist": "Nutritionists",
+    "store": "Health Food Stores",
+    "youth": "Youth Sports"
+  },
+  "search": {
+    "placeholder": "Search saunas, cold plunge, gyms, coaches...",
+    "noResults": "No results found — try a different search",
+    "filters": "Search",
+    "results": "results",
+    "searchIn": "Search in",
+    "allCities": "All Locations",
+    "allCategories": "All Categories",
+    "verified": "Verified Only"
+  },
+  "business": {
+    "contact": "Contact",
+    "website": "Visit Website",
+    "claim": "Claim This Listing",
+    "verified": "Verified",
+    "reviews": "reviews",
+    "sendMessage": "Send a Message",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "yourPhone": "Phone (optional)",
+    "yourMessage": "Message",
+    "featured": "Featured Spaces"
+  },
+  "lead": {
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Phone (optional)",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Message sent. They will get back to you soon.",
+    "error": "Something went wrong. Try again."
+  },
+  "chatbot": {
+    "greeting": "Welcome to FitBodega. I can point you to recovery studios, gyms, coaches, nutritionists, or youth sports programs in the network. What are you training for?",
+    "placeholder": "Ask Coach anything",
+    "title": "Coach · FitBodega Concierge",
+    "open": "Ask Coach"
+  },
+  "footer": {
+    "tagline": "The Fitness & Recovery Network",
+    "copyright": "© 2026 FitBodega. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "suggest": "Something missing?"
+  },
+  "claim": {
+    "title": "Claim Your Space",
+    "subtitle": "Own a recovery studio, gym, or practice? Get verified and join the curated network.",
+    "searchBusiness": "Find your space",
+    "selectListing": "Select your listing",
+    "createAccount": "Create or sign in",
+    "submitted": "Listing submitted.",
+    "submittedDesc": "We'll review your submission and get back to you within 24 hours."
+  },
+  "dashboard": {
+    "title": "Business Dashboard",
+    "editListing": "Edit Listing",
+    "leads": "Leads",
+    "noLeads": "No leads yet. Share your listing to get inquiries.",
+    "requestVerified": "Request Verified Badge",
+    "save": "Save Changes",
+    "saved": "Changes saved."
+  },
+  "upgrade": {
+    "pageTitle": "Grow Your Business",
+    "pageSubtitle": "Build trust, get verified, and reach more people training and recovering seriously",
+    "sylvitaSays": "A verified badge instantly builds trust with the network.",
+    "mostPopular": "Most Popular",
+    "perMonth": "/month USD",
+    "getStarted": "Get Started",
+    "currentPlan": "Your Current Plan",
+    "freeTierName": "Standard",
+    "freeTierPrice": "Free",
+    "freeTierDesc": "Get listed in the directory with basic business info",
+    "premiumTierName": "Verified",
+    "premiumTierDesc": "Build trust with a verified badge and unlock more features",
+    "featuredTierName": "Featured",
+    "featuredTierDesc": "Maximum visibility at the top of category pages",
+    "industryLeaderTierName": "Industry Leader",
+    "industryLeaderTierDesc": "The ultimate package for market leaders",
+    "freeFeature1": "Listed in directory with basic info",
+    "freeFeature2": "Single category listing",
+    "freeFeature3": "Contact form",
+    "freeFeature4": "No outbound links",
+    "premiumFeature1": "Verified badge",
+    "premiumFeature2": "Clickable website & social links",
+    "premiumFeature3": "Review management tools",
+    "premiumFeature4": "Email notification for every lead",
+    "premiumFeature5": "Up to 3 category listings",
+    "premiumFeature6": "Trust Score displayed on listing",
+    "featuredFeature1": "Everything in Verified",
+    "featuredFeature2": "Featured at top of category pages",
+    "featuredFeature3": "Highlighted card design",
+    "featuredFeature4": "Clickable product links",
+    "featuredFeature5": "Business blog section (auto-updated monthly)",
+    "featuredFeature6": "Monthly performance report",
+    "industryLeaderFeature1": "Everything in Featured",
+    "industryLeaderFeature2": "Homepage spotlight",
+    "industryLeaderFeature3": "Top search results position",
+    "industryLeaderFeature4": "Monthly Backlink Article on Main Industry Blog",
+    "industryLeaderFeature5": "Direct phone number displayed",
+    "industryLeaderFeature6": "$200/month Google PPC budget",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "Can I cancel anytime?",
+    "faq1A": "Yes — cancel anytime from your dashboard. Your verified status stays active until the end of the billing period.",
+    "faq2Q": "How does billing work?",
+    "faq2A": "Subscriptions are billed monthly. Your card is charged immediately when you sign up. Cancel anytime before the next renewal date to avoid the next charge.",
+    "faq3Q": "What does the Verified badge mean?",
+    "faq3A": "It tells the network your business has been reviewed and confirmed as legitimate by the FitBodega team."
+  },
+  "upgradeSuccess": {
+    "title": "You're live!",
+    "subtitle": "Your listing has been upgraded. Welcome to FitBodega.",
+    "whatIsActive": "What's now active on your listing:",
+    "gotoDashboard": "Go to My Dashboard",
+    "shareYourListing": "Share Your Listing"
+  },
+  "upgradeBanner": {
+    "title": "Unlock more leads",
+    "subtitle": "Upgrade to Verified to build trust and appear at the top of search results.",
+    "cta": "See Plans"
+  },
+  "blog": {
+    "title": "The Journal",
+    "subtitle": "Training, recovery, and nutrition — researched, tested, written straight.",
+    "all": "All",
+    "noPostsTitle": "No posts yet",
+    "noPostsDesc": "Check back soon — we publish new articles regularly."
+  },
+  "newsletter": {
+    "title": "The Dispatch",
+    "subtitle": "Recovery science, training intel, and new spaces in the network — weekly, no filler.",
+    "emailPlaceholder": "Your email address",
+    "cityPlaceholder": "Your location",
+    "subscribe": "Subscribe",
+    "success": "You're subscribed. Welcome to FitBodega.",
+    "error": "Something went wrong. Try again."
+  },
+  "unsubscribe": {
+    "title": "Unsubscribed",
+    "subtitle": "You've been removed from the FitBodega newsletter.",
+    "back": "Go back to FitBodega"
+  }
+}

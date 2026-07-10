@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Display voice — Manrope (bold, tight). Utility voice — Inter. */
+    --font-serif: "Manrope", system-ui, sans-serif;
+    --font-sans: "Inter", system-ui, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0e0e0e;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: #d1fc00;
+    color: #161900;
+  }
+}
+
+@layer utilities {
+  .duration-400 {
+    transition-duration: 400ms;
+  }
+  /* Tracked-out all-caps utility label, per DESIGN.md label spec */
+  .label-kicker {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
