@@ -113,9 +113,21 @@ export default async function CommunityPage({
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <Link
               href={`/${featured.slug}`}
-              className="group block bg-surface-low hover:bg-surface-card transition-colors duration-400 p-8 lg:p-12"
+              className="group grid lg:grid-cols-2 bg-surface-low hover:bg-surface-card transition-colors duration-400"
             >
-              <div className="max-w-3xl">
+              {featured.cover_image && (
+                <div className="relative overflow-hidden bg-surface-card aspect-[16/10] lg:aspect-auto lg:order-2">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={featured.cover_image}
+                    alt={featured.title}
+                    loading="lazy"
+                    decoding="async"
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-[800ms]"
+                  />
+                </div>
+              )}
+              <div className="max-w-3xl p-8 lg:p-12">
                 <div className="flex flex-wrap items-center gap-3 mb-6">
                   <p className="font-sans text-label-md uppercase text-primary">
                     Featured Story
@@ -201,6 +213,18 @@ function BlogPostCard({ post }: { post: BlogPost }) {
       href={`/${post.slug}`}
       className="group block bg-surface-low hover:bg-surface-card transition-colors duration-300"
     >
+      {post.cover_image && (
+        <div className="relative aspect-[16/10] overflow-hidden bg-surface-card">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={post.cover_image}
+            alt={post.title}
+            loading="lazy"
+            decoding="async"
+            className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-[800ms]"
+          />
+        </div>
+      )}
       <div className="p-5 pt-6">
         {post.category && (
           <span className="inline-block mb-3 px-2.5 py-1 bg-surface-input font-sans text-label-sm uppercase text-on-surface-variant">
