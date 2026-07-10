@@ -80,8 +80,13 @@ export default function Navbar() {
               <NavLink href="/gyms">Gyms</NavLink>
               <NavLink href="/trainers">Coaches</NavLink>
 
-              {/* Network Dropdown */}
-              <div ref={networkRef} className="relative">
+              {/* Network Dropdown — opens on hover (desktop) and click (touch) */}
+              <div
+                ref={networkRef}
+                className="relative"
+                onMouseEnter={() => setNetworkOpen(true)}
+                onMouseLeave={() => setNetworkOpen(false)}
+              >
                 <button
                   onClick={() => setNetworkOpen(v => !v)}
                   className="flex items-center gap-1 font-sans text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors duration-300"
@@ -93,16 +98,17 @@ export default function Navbar() {
                   />
                 </button>
 
-                {/* Dropdown Panel — Level 2 tonal block, sharp */}
+                {/* Dropdown Panel — Level 2 tonal block, sharp. The gap between
+                    trigger and panel is padding (not margin) so the pointer
+                    never leaves the wrapper while crossing it. */}
                 <div
                   className={cn(
-                    "absolute top-full left-1/2 -translate-x-1/2 mt-4 w-72",
-                    "bg-surface-input overflow-hidden",
+                    "absolute top-full left-1/2 -translate-x-1/2 pt-4 w-72",
                     "transition-all duration-300 origin-top",
                     networkOpen ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-2 pointer-events-none"
                   )}
                 >
-                  <div className="p-2">
+                  <div className="bg-surface-input overflow-hidden p-2">
                     {NETWORK_ITEMS.map(item => (
                       <Link
                         key={item.href}

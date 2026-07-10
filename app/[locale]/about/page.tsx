@@ -46,7 +46,7 @@ export default function AboutPage() {
             </p>
             <p className="text-on-surface">
               {SITE.name} exists to put those people on the record — a magazine for
-              the city&apos;s fitness and recovery culture.
+              fitness and recovery culture.
             </p>
             <p>
               The directory is the index. The Journal is the stories: how these
@@ -65,11 +65,19 @@ export default function AboutPage() {
             <p className="font-sans text-label-md uppercase text-primary">We&apos;ve backed local talent before</p>
           </div>
           <p className="font-sans text-lg text-on-surface-variant leading-relaxed max-w-2xl mt-6">
-            In 2024 we sponsored FitBodega Vancouver FC — a squad of Vancouver
-            players who carried our name to The Soccer Tournament, training at home
-            and competing against teams backed by football legends. These photos are
-            from that run. Supporting the city&apos;s athletes is where this whole
-            thing started.
+            In 2024 we sponsored{" "}
+            <a
+              href="https://www.instagram.com/fitbodegavancouverfc/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-on-surface underline underline-offset-4 decoration-primary hover:text-primary transition-colors duration-300"
+            >
+              FitBodega Vancouver FC
+            </a>{" "}
+            — a squad of Vancouver players who carried our name to The Soccer
+            Tournament, training at home and competing against teams backed by
+            football legends. These photos are from that run. Supporting the
+            city&apos;s athletes is where this whole thing started.
           </p>
 
           {/* Editorial photo composition — asymmetric, sharp, full-bleed */}
