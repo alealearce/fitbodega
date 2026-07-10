@@ -85,7 +85,16 @@ export default function PrivacyPage() {
                 <li>Law enforcement or legal processes when required by law</li>
               </ul>
               <p className="mt-4">
-                Listing information you submit (name, location, website, description, specialties) is displayed publicly on our directory by design.
+                <strong className="text-on-surface">Listings are public by design.</strong> All listing information you submit — business name, address, phone number, email, website, social media links, images, descriptions, and specialties — is published openly on our directory. It can be viewed by anyone, indexed by search engines and AI systems, and may appear in our social media posts, share images, and marketing materials.
+              </p>
+              <p>
+                You choose what goes into your listing, and you are responsible for that choice. Do not include information you are not comfortable making public — for example, a personal cell number or home address. If you include personal information about other people (such as staff names or photos), you are responsible for having their consent.
+              </p>
+              <p>
+                You can request corrections to your listing, or its removal from the directory, at any time by contacting{" "}
+                <a href={`mailto:${SITE.email}`} className="text-primary hover:underline">
+                  {SITE.email}
+                </a>. Note that removed listings may persist for a time in search engine caches and other third-party copies we do not control.
               </p>
             </LegalSection>
 
