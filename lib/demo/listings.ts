@@ -38,6 +38,7 @@ function listing(partial: Partial<Listing> & Pick<Listing, "id" | "name" | "slug
     social_instagram: null,
     social_facebook: null,
     social_youtube: null,
+    social_tiktok: null,
     status: "approved",
     is_featured: false,
     is_verified: false,

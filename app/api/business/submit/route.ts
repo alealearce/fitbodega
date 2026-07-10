@@ -22,6 +22,7 @@ const SubmitSchema = z.object({
   social_instagram: z.string().url().optional().or(z.literal('')),
   social_facebook:  z.string().url().optional().or(z.literal('')),
   social_youtube:   z.string().url().optional().or(z.literal('')),
+  social_tiktok:    z.string().url().optional().or(z.literal('')),
   certification_id: z.string().max(60).optional().or(z.literal('')),
 });
 
@@ -91,7 +92,7 @@ export async function POST(req: NextRequest) {
       name, type, email, website, phone, address,
       city, country, description, specialties, languages, tagline,
       price_range, social_instagram, social_facebook, social_youtube,
-      certification_id,
+      social_tiktok, certification_id,
     } = parsed.data;
 
     const supabase = createAdminClient();
@@ -133,6 +134,7 @@ export async function POST(req: NextRequest) {
       social_instagram: social_instagram || null,
       social_facebook:  social_facebook  || null,
       social_youtube:   social_youtube   || null,
+      social_tiktok:    social_tiktok    || null,
       status:        'pending',
       is_featured:   false,
       is_verified:   false,

@@ -29,6 +29,7 @@ export interface Listing {
   social_instagram: string | null;
   social_facebook: string | null;
   social_youtube: string | null;
+  social_tiktok: string | null;
   status: ListingStatus;
   is_featured: boolean;
   is_verified: boolean;

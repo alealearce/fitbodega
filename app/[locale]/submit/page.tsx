@@ -36,6 +36,7 @@ const INITIAL = {
   social_instagram:  "",
   social_facebook:   "",
   social_youtube:    "",
+  social_tiktok:     "",
   certification_id:  "",
   notes:             "",
 };
@@ -428,15 +429,28 @@ export default function SubmitPage() {
                 </p>
               </div>
 
-              <div>
-                <label className={labelClass}>Instagram</label>
-                <input
-                  type="url"
-                  value={form.social_instagram}
-                  onChange={e => setForm(f => ({ ...f, social_instagram: e.target.value }))}
-                  placeholder="https://instagram.com/yourspace"
-                  className={inputClass}
-                />
+              <div className="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label className={labelClass}>Instagram</label>
+                  <input
+                    type="url"
+                    value={form.social_instagram}
+                    onChange={e => setForm(f => ({ ...f, social_instagram: e.target.value }))}
+                    placeholder="https://instagram.com/yourspace"
+                    className={inputClass}
+                  />
+                </div>
+
+                <div>
+                  <label className={labelClass}>TikTok</label>
+                  <input
+                    type="url"
+                    value={form.social_tiktok}
+                    onChange={e => setForm(f => ({ ...f, social_tiktok: e.target.value }))}
+                    placeholder="https://tiktok.com/@yourspace"
+                    className={inputClass}
+                  />
+                </div>
               </div>
 
               <div className="grid sm:grid-cols-2 gap-5">

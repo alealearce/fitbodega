@@ -65,6 +65,7 @@ export default function ListingJsonLd({ listing, reviews }: Props) {
     listing.social_instagram,
     listing.social_facebook,
     listing.social_youtube,
+    listing.social_tiktok,
   ].filter(Boolean) as string[];
   if (sameAs.length > 0) entity.sameAs = sameAs;
 

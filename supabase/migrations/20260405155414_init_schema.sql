@@ -88,6 +88,7 @@ create table listings (
   social_instagram        text,
   social_facebook         text,
   social_youtube          text,
+  social_tiktok           text,
 
   -- Admin
   status                  listing_status not null default 'pending',
