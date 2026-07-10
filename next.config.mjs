@@ -40,6 +40,7 @@ const nextConfig = {
       { source: '/tag/:path*',        destination: '/community', permanent: true },
       { source: '/author/:path*',     destination: '/community', permanent: true },
       { source: '/blog',              destination: '/community', permanent: true },
+      { source: '/blogs/:path*',      destination: '/community', permanent: true },
     ];
   },
 
