@@ -85,9 +85,9 @@ export const COPY = {
     cta:      "View all",
   },
   communitySection: {
-    kicker:   "Bodega Labs",
+    kicker:   "The Magazine",
     title:    "The Journal",
-    subtitle: "Training, recovery, and nutrition — researched, tested, written straight.",
+    subtitle: "The stories behind the city's spaces — how they started, how they train, where they're going.",
     cta:      "Read the Journal",
   },
   submitCta: {
