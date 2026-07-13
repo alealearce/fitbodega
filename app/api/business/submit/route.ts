@@ -73,7 +73,6 @@ export async function POST(req: NextRequest) {
     // Plain JSON bodies are still accepted for backwards compatibility.
     let fields: unknown;
     const imageFiles: File[] = [];
-    const storyImageFiles: File[] = [];
 
     const contentType = req.headers.get('content-type') ?? '';
     if (contentType.includes('multipart/form-data')) {
@@ -83,8 +82,8 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: 'Missing payload' }, { status: 400 });
       }
       fields = JSON.parse(payload);
-      const collect = (key: string, into: File[]): NextResponse | null => {
-        const file = formData.get(key);
+      for (let i = 0; i < MAX_IMAGES; i++) {
+        const file = formData.get(`image${i}`);
         if (file instanceof File && file.size > 0) {
           if (!(file.type in IMAGE_TYPES)) {
             return NextResponse.json({ error: 'Images must be JPG, PNG, WebP, or AVIF' }, { status: 400 });
@@ -92,13 +91,8 @@ export async function POST(req: NextRequest) {
           if (file.size > MAX_IMAGE_SIZE) {
             return NextResponse.json({ error: 'Each image must be under 4MB' }, { status: 400 });
           }
-          into.push(file);
+          imageFiles.push(file);
         }
-        return null;
-      };
-      for (let i = 0; i < MAX_IMAGES; i++) {
-        const bad = collect(`image${i}`, imageFiles) ?? collect(`storyImage${i}`, storyImageFiles);
-        if (bad) return bad;
       }
     } else {
       fields = await req.json();
@@ -145,22 +139,6 @@ export async function POST(req: NextRequest) {
       if (pub?.publicUrl) imageUrls.push(pub.publicUrl);
     }
 
-    // Spotlight photos land in the same bucket under a story/ suffix.
-    const storyImageUrls: string[] = [];
-    for (let i = 0; i < storyImageFiles.length; i++) {
-      const file = storyImageFiles[i];
-      const ext = IMAGE_TYPES[file.type];
-      const path = `submissions/${slug}/story-${i}.${ext}`;
-      const { error: uploadError } = await supabase.storage
-        .from('listing-images')
-        .upload(path, file, { contentType: file.type, upsert: true });
-      if (uploadError) {
-        console.error('[business/submit] story image upload error:', uploadError.message);
-        continue;
-      }
-      const { data: pub } = supabase.storage.from('listing-images').getPublicUrl(path);
-      if (pub?.publicUrl) storyImageUrls.push(pub.publicUrl);
-    }
 
     const { error: insertError } = await supabase.from('listings').insert({
       name,
@@ -189,8 +167,10 @@ export async function POST(req: NextRequest) {
       languages:     languages ?? [],
       plan:          'free',
       certification_id: certification_id || null,
+      // Spotlight photos are the listing photos — one uploader on the form.
+      // Owners can swap in dedicated spotlight photos later from /dashboard/story.
       founder_story: cleanFounderStory(founder_story),
-      founder_images: storyImageUrls,
+      founder_images: imageUrls,
       story_opt_out: story_opt_out ?? false,
     });
 

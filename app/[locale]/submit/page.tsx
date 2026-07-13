@@ -16,7 +16,6 @@ const PRICE_RANGES = [
 ] as const;
 
 const MAX_IMAGES       = 3;
-const MAX_STORY_PHOTOS = 3;
 const MAX_IMAGE_SIZE   = 4 * 1024 * 1024; // 4MB
 const STORY_ANSWER_MAX = 600;
 
@@ -54,8 +53,6 @@ export default function SubmitPage() {
   const [form,    setForm]    = useState(INITIAL);
   const [images,  setImages]  = useState<{ file: File; preview: string }[]>([]);
   const [imageError, setImageError] = useState("");
-  const [storyImages, setStoryImages] = useState<{ file: File; preview: string }[]>([]);
-  const [storyImageError, setStoryImageError] = useState("");
   const [status,  setStatus]  = useState<FormState>("idle");
   const [message, setMessage] = useState("");
 
@@ -74,26 +71,6 @@ export default function SubmitPage() {
 
   const removeImage = (index: number) => {
     setImages(prev => {
-      URL.revokeObjectURL(prev[index]?.preview);
-      return prev.filter((_, i) => i !== index);
-    });
-  };
-
-  const addStoryImages = (files: FileList | null) => {
-    if (!files) return;
-    setStoryImageError("");
-    const next = [...storyImages];
-    for (const file of Array.from(files)) {
-      if (next.length >= MAX_STORY_PHOTOS) { setStoryImageError(`Maximum ${MAX_STORY_PHOTOS} photos.`); break; }
-      if (!file.type.startsWith("image/")) { setStoryImageError("Only image files are accepted."); continue; }
-      if (file.size > MAX_IMAGE_SIZE) { setStoryImageError("Each photo must be under 4MB."); continue; }
-      next.push({ file, preview: URL.createObjectURL(file) });
-    }
-    setStoryImages(next);
-  };
-
-  const removeStoryImage = (index: number) => {
-    setStoryImages(prev => {
       URL.revokeObjectURL(prev[index]?.preview);
       return prev.filter((_, i) => i !== index);
     });
@@ -129,7 +106,6 @@ export default function SubmitPage() {
       const formData = new FormData();
       formData.set("payload", JSON.stringify(form));
       images.forEach((img, i) => formData.set(`image${i}`, img.file));
-      storyImages.forEach((img, i) => formData.set(`storyImage${i}`, img.file));
 
       const res = await fetch("/api/business/submit", {
         method: "POST",
@@ -142,8 +118,6 @@ export default function SubmitPage() {
         setForm(INITIAL);
         images.forEach(img => URL.revokeObjectURL(img.preview));
         setImages([]);
-        storyImages.forEach(img => URL.revokeObjectURL(img.preview));
-        setStoryImages([]);
       } else {
         setStatus("error");
         setMessage(data.error ?? "Something went wrong. Please try again.");
@@ -372,121 +346,13 @@ export default function SubmitPage() {
               </div>
             </div>
 
-            {/* Member Spotlight — story questions + photos */}
-            <div className="bg-surface-low p-8 space-y-6">
-              <div>
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="w-7 h-[3px] bg-primary" aria-hidden />
-                  <p className="font-sans text-label-md uppercase text-primary">Member Spotlight</p>
-                </div>
-                <h2 className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-3">
-                  Get featured
-                </h2>
-                <p className="font-sans text-sm text-on-surface-variant leading-relaxed">
-                  Every member who joins gets introduced: a spotlight published in The Journal
-                  and featured across our channels. Answer in your own words — two or three
-                  sentences each is plenty. We shape it into your introduction.
-                </p>
-              </div>
-
-              {/* Opt-out toggle */}
-              <button
-                type="button"
-                onClick={() => setForm(f => ({ ...f, story_opt_out: !f.story_opt_out }))}
-                className="flex items-center gap-3 text-left group"
-              >
-                <span
-                  className={`w-5 h-5 flex-shrink-0 flex items-center justify-center transition-colors duration-300 ${
-                    form.story_opt_out ? "bg-primary text-primary-on" : "bg-surface-input"
-                  }`}
-                  aria-hidden
-                >
-                  {form.story_opt_out && <X size={13} />}
-                </span>
-                <span className="font-sans text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">
-                  Prefer not to be featured? Check this and we simply list your space — no
-                  spotlight, no social feature.
-                </span>
-              </button>
-
-              {!form.story_opt_out && (
-                <>
-                  {FOUNDER_QUESTIONS.map(q => (
-                    <div key={q.key}>
-                      <label className={labelClass}>{q.label}</label>
-                      <textarea
-                        rows={3}
-                        maxLength={STORY_ANSWER_MAX}
-                        value={form.founder_story[q.key] ?? ""}
-                        onChange={e => setAnswer(q.key, e.target.value)}
-                        placeholder="In your own words..."
-                        className={`${inputClass} resize-none`}
-                      />
-                      <p className="font-sans text-xs text-on-surface-variant/60 mt-1 text-right">
-                        {(form.founder_story[q.key] ?? "").length}/{STORY_ANSWER_MAX}
-                      </p>
-                    </div>
-                  ))}
-
-                  <div>
-                    <p className="font-sans text-sm text-on-surface-variant mb-4">
-                      Add up to {MAX_STORY_PHOTOS} photos of you and your space — a portrait
-                      works best as the first one. It leads your spotlight and the social feature.
-                    </p>
-                    <div className="grid grid-cols-3 gap-3">
-                      {storyImages.map((img, i) => (
-                        <div key={img.preview} className="relative aspect-[4/3] bg-surface-input overflow-hidden group">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img src={img.preview} alt={`Spotlight photo ${i + 1}`} className="w-full h-full object-cover" />
-                          {i === 0 && (
-                            <span className="absolute top-2 left-2 px-2 py-0.5 bg-primary text-primary-on font-sans text-label-sm uppercase">
-                              Lead
-                            </span>
-                          )}
-                          <button
-                            type="button"
-                            onClick={() => removeStoryImage(i)}
-                            aria-label="Remove photo"
-                            className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center bg-bg/80 text-on-surface hover:bg-error hover:text-on-surface transition-colors"
-                          >
-                            <X size={14} />
-                          </button>
-                        </div>
-                      ))}
-
-                      {storyImages.length < MAX_STORY_PHOTOS && (
-                        <label className="aspect-[4/3] bg-surface-input flex flex-col items-center justify-center gap-2 cursor-pointer text-on-surface-variant hover:bg-surface-bright hover:text-on-surface transition-colors">
-                          <ImagePlus size={22} />
-                          <span className="font-sans text-label-sm uppercase">Add Photo</span>
-                          <input
-                            type="file"
-                            accept="image/jpeg,image/png,image/webp,image/avif"
-                            multiple
-                            className="hidden"
-                            onChange={e => { addStoryImages(e.target.files); e.target.value = ""; }}
-                          />
-                        </label>
-                      )}
-                    </div>
-                    {storyImageError && (
-                      <p className="font-sans text-xs text-error mt-3">{storyImageError}</p>
-                    )}
-                    <p className="font-sans text-xs text-on-surface-variant/60 mt-4">
-                      Answer at least 3 questions and add at least 1 photo to qualify. All of it
-                      stays editable from your dashboard.
-                    </p>
-                  </div>
-                </>
-              )}
-            </div>
-
             {/* Images */}
             <div className="bg-surface-low p-8">
               <h2 className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-2">
                 Photos
               </h2>
               <p className="font-sans text-sm text-on-surface-variant mb-6">
-                Up to {MAX_IMAGES} images, 4MB each. The first one is your cover — lead with your strongest shot of the space.
+                Up to {MAX_IMAGES} images, 4MB each. The first one is your cover — lead with your strongest shot of the space. The same photos front your Member Spotlight below.
               </p>
 
               <div className="grid grid-cols-3 gap-3">
@@ -531,6 +397,71 @@ export default function SubmitPage() {
               <p className="font-sans text-xs text-on-surface-variant/60 mt-4">
                 By uploading, you confirm you own these images or have the right to publish them.
               </p>
+            </div>
+
+            {/* Member Spotlight — story questions; reuses the photos above */}
+            <div className="bg-surface-low p-8 space-y-6">
+              <div>
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                  <p className="font-sans text-label-md uppercase text-primary">Member Spotlight</p>
+                </div>
+                <h2 className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-3">
+                  Get featured
+                </h2>
+                <p className="font-sans text-sm text-on-surface-variant leading-relaxed">
+                  Every member who joins gets introduced: a spotlight published in The Journal
+                  and featured across our channels, led by the photos you added above. Answer in
+                  your own words — two or three sentences each is plenty. We shape it into your
+                  introduction.
+                </p>
+              </div>
+
+              {/* Opt-out toggle */}
+              <button
+                type="button"
+                onClick={() => setForm(f => ({ ...f, story_opt_out: !f.story_opt_out }))}
+                className="flex items-center gap-3 text-left group"
+              >
+                <span
+                  className={`w-5 h-5 flex-shrink-0 flex items-center justify-center transition-colors duration-300 ${
+                    form.story_opt_out ? "bg-primary text-primary-on" : "bg-surface-input"
+                  }`}
+                  aria-hidden
+                >
+                  {form.story_opt_out && <X size={13} />}
+                </span>
+                <span className="font-sans text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">
+                  Prefer not to be featured? Check this and we simply list your space — no
+                  spotlight, no social feature.
+                </span>
+              </button>
+
+              {!form.story_opt_out && (
+                <>
+                  {FOUNDER_QUESTIONS.map(q => (
+                    <div key={q.key}>
+                      <label className={labelClass}>{q.label}</label>
+                      <textarea
+                        rows={3}
+                        maxLength={STORY_ANSWER_MAX}
+                        value={form.founder_story[q.key] ?? ""}
+                        onChange={e => setAnswer(q.key, e.target.value)}
+                        placeholder="In your own words..."
+                        className={`${inputClass} resize-none`}
+                      />
+                      <p className="font-sans text-xs text-on-surface-variant/60 mt-1 text-right">
+                        {(form.founder_story[q.key] ?? "").length}/{STORY_ANSWER_MAX}
+                      </p>
+                    </div>
+                  ))}
+
+                  <p className="font-sans text-xs text-on-surface-variant/60">
+                    Answer at least 3 questions to qualify — your photos above lead the spotlight
+                    and the social feature. All of it stays editable from your dashboard.
+                  </p>
+                </>
+              )}
             </div>
 
             {/* Pricing */}
