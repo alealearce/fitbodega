@@ -1,10 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient, createAdminClient } from '@/lib/supabase/server';
-import { sendApprovalEmail, sendRejectionEmail } from '@/lib/email/resend';
+import { sendApprovalEmail, sendRejectionEmail, sendSpotlightLiveEmail } from '@/lib/email/resend';
 import { SITE, isAdminEmail } from '@/lib/config/site';
 import { getListingUrl } from '@/lib/utils/listingUrl';
+import { runMemberSpotlight } from '@/lib/social/story';
 
-const VALID_ACTIONS = ['approve', 'reject', 'feature', 'verify', 'delete'] as const;
+// Approve runs the spotlight pipeline inline (Claude + Blotato) — allow time.
+export const maxDuration = 300;
+
+const VALID_ACTIONS = ['approve', 'reject', 'feature', 'verify', 'delete', 'story'] as const;
 type AdminAction = typeof VALID_ACTIONS[number];
 
 export async function POST(req: NextRequest) {
@@ -44,15 +48,35 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        // Send approval email to listing owner. Awaited — un-awaited promises
-        // die when Vercel freezes the function after the response is sent.
+        // Member Spotlight pipeline — failure must never fail the approval.
+        // Skips itself when ineligible (opt-out, <3 answers, no photo, or
+        // already published via story_post_id).
+        let storyStatus: 'published' | 'skipped' | 'failed' = 'skipped';
+        let storyUrl: string | undefined;
+        try {
+          const spotlight = await runMemberSpotlight(id);
+          if (spotlight.ok && spotlight.postSlug) {
+            storyStatus = 'published';
+            storyUrl = spotlight.storyUrl;
+          } else if (!spotlight.ok) {
+            storyStatus = 'failed';
+            console.error('[admin/approve] spotlight failed:', spotlight.error);
+          }
+        } catch (err) {
+          storyStatus = 'failed';
+          console.error('[admin/approve] spotlight threw:', err);
+        }
+
+        // Send approval email to listing owner (one email covers listing +
+        // spotlight). Awaited — un-awaited promises die when Vercel freezes
+        // the function after the response is sent.
         if (listing?.email && listing?.name && listing?.slug) {
           const listingUrl = `${SITE.url}${getListingUrl(listing.type, listing.slug)}`;
-          await sendApprovalEmail(listing.email, listing.name, listing.name, listingUrl).catch((err) =>
+          await sendApprovalEmail(listing.email, listing.name, listing.name, listingUrl, storyUrl).catch((err) =>
             console.error('[admin/approve] approval email error:', err)
           );
         }
-        break;
+        return NextResponse.json({ ok: true, storyStatus, storyUrl });
       }
 
       case 'reject': {
@@ -128,6 +152,33 @@ export async function POST(req: NextRequest) {
           return NextResponse.json({ error: toggleError.message }, { status: 500 });
         }
         break;
+      }
+
+      case 'story': {
+        // Manual/retry spotlight run for an already-approved listing.
+        // Idempotent: runMemberSpotlight skips when story_post_id is set.
+        const result = await runMemberSpotlight(id);
+        if (!result.ok) {
+          return NextResponse.json(
+            { ok: false, storyStatus: 'failed', error: result.error },
+            { status: 500 }
+          );
+        }
+        if (result.skipped) {
+          return NextResponse.json({ ok: true, storyStatus: 'skipped', reason: result.skipped });
+        }
+
+        const { data: listing } = await supabase
+          .from('listings')
+          .select('name, email')
+          .eq('id', id)
+          .single();
+        if (listing?.email && listing?.name && result.storyUrl) {
+          await sendSpotlightLiveEmail(listing.email, listing.name, result.storyUrl).catch((err) =>
+            console.error('[admin/story] spotlight email error:', err)
+          );
+        }
+        return NextResponse.json({ ok: true, storyStatus: 'published', storyUrl: result.storyUrl });
       }
 
       case 'delete': {

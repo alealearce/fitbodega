@@ -114,9 +114,20 @@ export async function sendApprovalEmail(
   to: string,
   name: string,
   listingName: string,
-  listingUrl: string
+  listingUrl: string,
+  spotlightUrl?: string
 ) {
-  const subject = `Your listing "${listingName}" is now live on ${SITE.name}`;
+  const subject = spotlightUrl
+    ? `You're live on ${SITE.name} — and so is your Spotlight`
+    : `Your listing "${listingName}" is now live on ${SITE.name}`;
+  const spotlightBlock = spotlightUrl
+    ? `
+    <p style="margin:0 0 16px;">And there's more — as a new member of the network, we've published your <strong>Member Spotlight</strong> in The Journal and featured you across our channels.</p>
+    <p style="margin:0 0 24px;text-align:center;">
+      ${buttonHtml(spotlightUrl, 'Read Your Spotlight')}
+    </p>
+    <p style="margin:0 0 24px;">Share it with your audience — it links straight back to your listing and tells people exactly why to train with you.</p>`
+    : '';
   const body = `
     <p style="margin:0 0 16px;">Dear ${name},</p>
     <p style="margin:0 0 16px;">Good news — <strong>${listingName}</strong> has been approved and is now live on ${SITE.name}.</p>
@@ -124,6 +135,7 @@ export async function sendApprovalEmail(
     <p style="margin:0 0 24px;text-align:center;">
       ${buttonHtml(listingUrl, 'View Your Listing')}
     </p>
+    ${spotlightBlock}
     <p style="margin:0 0 16px;">To maximize your visibility, consider upgrading to a <strong>Verified</strong> or <strong>Pro</strong> plan for a featured placement and enhanced profile options.</p>
     <p style="margin:0;">The ${SITE.name} Team</p>
   `;
@@ -132,7 +144,29 @@ export async function sendApprovalEmail(
     from: FROM_EMAIL,
     to,
     subject,
-    html: baseTemplate(`${listingName} is Live`, body),
+    html: baseTemplate(spotlightUrl ? `${listingName} is Live — Spotlight Included` : `${listingName} is Live`, body),
+  });
+}
+
+// ── Spotlight Live Email (manual/retry path — listing already approved) ─────
+
+export async function sendSpotlightLiveEmail(to: string, name: string, spotlightUrl: string) {
+  const subject = `Your Member Spotlight is live on ${SITE.name}`;
+  const body = `
+    <p style="margin:0 0 16px;">Dear ${name},</p>
+    <p style="margin:0 0 16px;">Your <strong>Member Spotlight</strong> has been published in The Journal and featured across the ${SITE.name} channels.</p>
+    <p style="margin:0 0 24px;text-align:center;">
+      ${buttonHtml(spotlightUrl, 'Read Your Spotlight')}
+    </p>
+    <p style="margin:0 0 16px;">Share it with your audience — it links straight back to your listing.</p>
+    <p style="margin:0;">The ${SITE.name} Team</p>
+  `;
+
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to,
+    subject,
+    html: baseTemplate('Your Spotlight is Live', body),
   });
 }
 

@@ -55,6 +55,33 @@ export default async function HomePage() {
     <>
       <HeroSection />
 
+      {/* ── Member Spotlight banner — join the network, get featured ── */}
+      <section className="bg-primary">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-10 lg:py-12 grid gap-6 lg:grid-cols-[auto_1fr_auto] lg:items-center lg:gap-12">
+          <div>
+            <div className="flex items-center gap-3 mb-3">
+              <span className="w-7 h-[3px] bg-primary-on" aria-hidden />
+              <p className="font-sans text-label-md uppercase text-primary-on">
+                {COPY.spotlightBanner.kicker}
+              </p>
+            </div>
+            <h2 className="font-serif text-3xl lg:text-4xl font-extrabold uppercase tracking-tight text-primary-on whitespace-pre-line">
+              {COPY.spotlightBanner.headline}
+            </h2>
+          </div>
+          <p className="font-sans text-sm lg:text-base text-primary-on/80 leading-relaxed max-w-xl">
+            {COPY.spotlightBanner.body}
+          </p>
+          <Link
+            href="/submit"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90 whitespace-nowrap"
+          >
+            {COPY.spotlightBanner.cta}
+            <ArrowUpRight size={16} />
+          </Link>
+        </div>
+      </section>
+
       {/* ── Featured Spaces — Level 1 tonal section ── */}
       <section className="py-24 lg:py-32 bg-surface-low">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">

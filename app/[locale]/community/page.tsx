@@ -7,6 +7,7 @@ import { SITE, COPY, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 
 // Ids must match the categories emitted by /api/admin/daily-blog.
 const BLOG_CATEGORIES = [
+  { id: "member_spotlight", label: "Member Spotlight" },
   { id: "mission",          label: "The Network" },
   { id: "finding_training", label: "Finding a Space" },
   { id: "gym_guides",       label: "Training Guides" },

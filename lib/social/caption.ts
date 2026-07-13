@@ -180,3 +180,42 @@ export function igHandle(raw: string): string {
   const m = raw.trim().match(/(?:instagram\.com\/)?@?([A-Za-z0-9._]+)\/?$/);
   return m ? `@${m[1]}` : '';
 }
+
+// ─────────────────────────── member spotlight ────────────────────────────────
+
+const STORY_SYS = `You write confident, terse Instagram captions for ${SITE.name} welcoming a new member to the fitness and recovery network.
+Voice: calm authority, editorial, warm but not gushing. No exclamation marks, no "amazing/awesome", no hedging.
+Write 2–4 short lines introducing this member and why they matter. No hashtags, no links, no @handles — those are appended separately. No emojis. Never use the word "story". Output ONLY the caption text.`;
+
+export async function buildStoryCaption(
+  listing: Pick<Listing, 'name' | 'type' | 'city' | 'country' | 'description' | 'long_description' | 'tagline' | 'social_instagram'>,
+  storyUrl: string,
+  pullQuote: string
+): Promise<string> {
+  const label = TYPE_LABEL[listing.type] ?? 'Member';
+  const loc = [listing.city, listing.country].filter(Boolean).join(', ');
+  const hashtags = tags(TYPE_TAGS[listing.type] ?? [], BASE_TAGS);
+  const firstName = listing.name.split(/\s+/)[0];
+
+  const body =
+    (await ask(
+      STORY_SYS,
+      `New member: ${listing.name} (${label})\nLocation: ${loc || 'worldwide'}\nAbout: ${showcaseBlurb(listing)}\nTheir words: "${pullQuote}"`
+    )) || `${listing.name} just joined the network${loc ? ` from ${loc}` : ''}. ${showcaseBlurb(listing)}`;
+
+  const handle = listing.social_instagram ? igHandle(listing.social_instagram) : '';
+  return [
+    `Please welcome ${listing.name} to the network.`,
+    '',
+    body,
+    '',
+    `"${pullQuote.trim()}"`,
+    '',
+    `Read ${firstName}'s full spotlight in The Journal — ${storyUrl}`,
+    handle ? `In collaboration with ${handle}` : '',
+    '',
+    hashtags,
+  ]
+    .filter((l) => l !== '')
+    .join('\n');
+}

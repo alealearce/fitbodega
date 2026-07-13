@@ -24,7 +24,29 @@ const SubmitSchema = z.object({
   social_youtube:   z.string().url().optional().or(z.literal('')),
   social_tiktok:    z.string().url().optional().or(z.literal('')),
   certification_id: z.string().max(60).optional().or(z.literal('')),
+  founder_story: z.object({
+    origin:     z.string().max(1000).optional(),
+    leap:       z.string().max(1000).optional(),
+    hard_truth: z.string().max(1000).optional(),
+    train_with: z.string().max(1000).optional(),
+    why_you:    z.string().max(1000).optional(),
+    feeling:    z.string().max(1000).optional(),
+  }).optional(),
+  story_opt_out: z.boolean().optional().default(false),
 });
+
+/** Strip blank answers; return null when nothing meaningful was written. */
+function cleanFounderStory(
+  story: Record<string, string | undefined> | undefined
+): Record<string, string> | null {
+  if (!story) return null;
+  const cleaned: Record<string, string> = {};
+  for (const [key, value] of Object.entries(story)) {
+    const v = typeof value === 'string' ? value.trim() : '';
+    if (v) cleaned[key] = v;
+  }
+  return Object.keys(cleaned).length > 0 ? cleaned : null;
+}
 
 const MAX_IMAGES     = 3;
 const MAX_IMAGE_SIZE = 4 * 1024 * 1024; // 4MB
@@ -51,6 +73,7 @@ export async function POST(req: NextRequest) {
     // Plain JSON bodies are still accepted for backwards compatibility.
     let fields: unknown;
     const imageFiles: File[] = [];
+    const storyImageFiles: File[] = [];
 
     const contentType = req.headers.get('content-type') ?? '';
     if (contentType.includes('multipart/form-data')) {
@@ -60,8 +83,8 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: 'Missing payload' }, { status: 400 });
       }
       fields = JSON.parse(payload);
-      for (let i = 0; i < MAX_IMAGES; i++) {
-        const file = formData.get(`image${i}`);
+      const collect = (key: string, into: File[]): NextResponse | null => {
+        const file = formData.get(key);
         if (file instanceof File && file.size > 0) {
           if (!(file.type in IMAGE_TYPES)) {
             return NextResponse.json({ error: 'Images must be JPG, PNG, WebP, or AVIF' }, { status: 400 });
@@ -69,8 +92,13 @@ export async function POST(req: NextRequest) {
           if (file.size > MAX_IMAGE_SIZE) {
             return NextResponse.json({ error: 'Each image must be under 4MB' }, { status: 400 });
           }
-          imageFiles.push(file);
+          into.push(file);
         }
+        return null;
+      };
+      for (let i = 0; i < MAX_IMAGES; i++) {
+        const bad = collect(`image${i}`, imageFiles) ?? collect(`storyImage${i}`, storyImageFiles);
+        if (bad) return bad;
       }
     } else {
       fields = await req.json();
@@ -92,7 +120,7 @@ export async function POST(req: NextRequest) {
       name, type, email, website, phone, address,
       city, country, description, specialties, languages, tagline,
       price_range, social_instagram, social_facebook, social_youtube,
-      social_tiktok, certification_id,
+      social_tiktok, certification_id, founder_story, story_opt_out,
     } = parsed.data;
 
     const supabase = createAdminClient();
@@ -115,6 +143,23 @@ export async function POST(req: NextRequest) {
       }
       const { data: pub } = supabase.storage.from('listing-images').getPublicUrl(path);
       if (pub?.publicUrl) imageUrls.push(pub.publicUrl);
+    }
+
+    // Spotlight photos land in the same bucket under a story/ suffix.
+    const storyImageUrls: string[] = [];
+    for (let i = 0; i < storyImageFiles.length; i++) {
+      const file = storyImageFiles[i];
+      const ext = IMAGE_TYPES[file.type];
+      const path = `submissions/${slug}/story-${i}.${ext}`;
+      const { error: uploadError } = await supabase.storage
+        .from('listing-images')
+        .upload(path, file, { contentType: file.type, upsert: true });
+      if (uploadError) {
+        console.error('[business/submit] story image upload error:', uploadError.message);
+        continue;
+      }
+      const { data: pub } = supabase.storage.from('listing-images').getPublicUrl(path);
+      if (pub?.publicUrl) storyImageUrls.push(pub.publicUrl);
     }
 
     const { error: insertError } = await supabase.from('listings').insert({
@@ -144,6 +189,9 @@ export async function POST(req: NextRequest) {
       languages:     languages ?? [],
       plan:          'free',
       certification_id: certification_id || null,
+      founder_story: cleanFounderStory(founder_story),
+      founder_images: storyImageUrls,
+      story_opt_out: story_opt_out ?? false,
     });
 
     if (insertError) {
@@ -154,11 +202,12 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Send emails — fire-and-forget to keep response fast
-    sendWelcomeEmail(email, name).catch((err) =>
+    // Send emails — awaited: un-awaited promises die when Vercel freezes the
+    // function after the response is sent.
+    await sendWelcomeEmail(email, name).catch((err) =>
       console.error('[business/submit] welcome email error:', err)
     );
-    sendAdminNewListing(name, type, email).catch((err) =>
+    await sendAdminNewListing(name, type, email).catch((err) =>
       console.error('[business/submit] admin email error:', err)
     );
 

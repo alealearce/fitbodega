@@ -295,6 +295,97 @@ function ShowcaseCta({ name, handle }: { name: string; handle: string }) {
   );
 }
 
+// ════════════════════ MEMBER SPOTLIGHT (story carousel) ═══════════════════════
+
+function StoryHero({ name, kind, city, img }: { name: string; kind: string; city: string; img: string }) {
+  const sub = [kind, city].filter(Boolean).join(' · ');
+  return (
+    <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', position: 'relative', background: BG }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={img} alt="" width={W} height={H} style={{ position: 'absolute', top: 0, left: 0, width: W, height: H, objectFit: 'cover' }} />
+      <div style={{ position: 'absolute', top: 0, left: 0, width: W, height: H, display: 'flex', background: 'linear-gradient(180deg, rgba(14,14,14,0.6) 0%, rgba(14,14,14,0.05) 38%, rgba(14,14,14,0.4) 66%, rgba(14,14,14,0.94) 100%)' }} />
+      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '70px', position: 'relative' }}>
+        <div style={{ display: 'flex', justifyContent: 'center' }}><Logo color="#ffffff" /></div>
+        <div style={{ display: 'flex', flex: 1 }} />
+        <div style={{ display: 'flex' }}><LimePill label="Member Spotlight" /></div>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '30px', letterSpacing: '3px', color: 'rgba(255,255,255,0.9)', marginTop: '30px', textTransform: 'uppercase' }}>
+          Welcome to the network
+        </div>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: `${fit(name, 90, 74, 56)}px`, lineHeight: 1.02, color: '#ffffff', marginTop: '16px', letterSpacing: '-2px', textTransform: 'uppercase' }}>
+          {name}
+        </div>
+        {sub ? (
+          <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '34px', color: 'rgba(255,255,255,0.86)', marginTop: '18px' }}>{sub}</div>
+        ) : null}
+        <div style={{ display: 'flex', marginTop: '34px' }}><SwipeChip color="#ffffff" /></div>
+      </div>
+    </div>
+  );
+}
+
+function StoryQuote({ quote }: { quote: string }) {
+  return (
+    <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', position: 'relative', background: SURFACE_LOW, padding: '76px 78px' }}>
+      <DottedBg />
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', position: 'relative' }}>
+        <Logo compact />
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '3px', color: MUTED, textTransform: 'uppercase' }}>Member Spotlight</div>
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center', position: 'relative' }}>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: '150px', lineHeight: 1, color: LIME }}>&ldquo;</div>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: `${quote.length > 140 ? 44 : 54}px`, lineHeight: 1.22, color: WHITE, letterSpacing: '-1px', marginTop: '-20px' }}>
+          {quote}
+        </div>
+        <div style={{ display: 'flex', width: '72px', height: '3px', background: LIME, marginTop: '44px' }} />
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '28px', color: MUTED, marginTop: '24px' }}>
+          In their own words
+        </div>
+      </div>
+      <div style={{ position: 'relative', display: 'flex', width: '100%' }}><ShareSave /></div>
+    </div>
+  );
+}
+
+function StoryBlurb({ blurb }: { blurb: string }) {
+  return (
+    <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', position: 'relative', background: SURFACE_CARD, padding: '70px' }}>
+      <DottedBg />
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', position: 'relative' }}>
+        <Logo compact />
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '3px', color: MUTED, textTransform: 'uppercase' }}>Member Spotlight</div>
+      </div>
+      <div style={{ display: 'flex', marginTop: '80px', position: 'relative' }}>
+        <LimePill label="Why they built it" fontSize={38} />
+      </div>
+      <div style={{ display: 'flex', flex: 1, fontFamily: 'Manrope', fontWeight: 800, fontSize: `${blurb.length > 130 ? 46 : 56}px`, lineHeight: 1.2, color: WHITE, marginTop: '44px', position: 'relative', letterSpacing: '-1px' }}>
+        {blurb}
+      </div>
+      <div style={{ position: 'relative', display: 'flex', width: '100%' }}><ShareSave /></div>
+    </div>
+  );
+}
+
+function StoryCta({ name, url }: { name: string; url: string }) {
+  const firstName = name.split(' ')[0] || name;
+  return (
+    <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: BG, padding: '78px' }}>
+      <Mark size={140} />
+      <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '4px', color: LIME, marginTop: '50px', textTransform: 'uppercase' }}>
+        Member Spotlight
+      </div>
+      <div style={{ display: 'flex', textAlign: 'center', fontFamily: 'Manrope', fontWeight: 800, fontSize: '56px', lineHeight: 1.08, color: '#ffffff', marginTop: '20px', maxWidth: '860px', textTransform: 'uppercase', letterSpacing: '-1px' }}>
+        Read {firstName}&apos;s spotlight in The Journal
+      </div>
+      <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '32px', color: MUTED, marginTop: '34px', textAlign: 'center', maxWidth: '760px' }}>
+        Every member who joins the network gets introduced.
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '28px', padding: '22px 44px', marginTop: '50px' }}>
+        {url}
+      </div>
+    </div>
+  );
+}
+
 // ───────────────────────────── handler ──────────────────────────────────────
 
 export async function GET(req: NextRequest) {
@@ -319,6 +410,23 @@ export async function GET(req: NextRequest) {
     else if (slide === 1) node = <ShowcaseBody index={2} total={4} eyebrow="Why it stands out" heading={`Meet ${name}`} body={blurb} />;
     else if (slide === 2) node = <ShowcaseBody index={3} total={4} eyebrow="The specialty" heading={style ? `${style} — and more` : 'A space worth finding'} body={[style && `Specialty: ${style}`, [city, country].filter(Boolean).join(', ') && `Based in ${[city, country].filter(Boolean).join(', ')}`, 'Verified on FitBodega.'].filter(Boolean).join('  ·  ')} />;
     else node = <ShowcaseCta name={name} handle={handle} />;
+    return new ImageResponse(node, opts);
+  }
+
+  if (type === 'story') {
+    const name = q.get('name') || 'New Member';
+    const kind = q.get('kind') || 'Member';
+    const city = q.get('city') || '';
+    const img = q.get('img') || 'https://images.unsplash.com/photo-1545389336-cf090694435e?w=1080&h=1350&fit=crop&q=80';
+    const quote = q.get('quote') || 'Welcome to the network.';
+    const blurb = q.get('blurb') || 'A new member of the FitBodega network.';
+    const url = q.get('url') || 'fitbodega.com';
+
+    let node: JSX.Element;
+    if (slide === 0) node = <StoryHero name={name} kind={kind} city={city} img={img} />;
+    else if (slide === 1) node = <StoryQuote quote={quote} />;
+    else if (slide === 2) node = <StoryBlurb blurb={blurb} />;
+    else node = <StoryCta name={name} url={url} />;
     return new ImageResponse(node, opts);
   }
 

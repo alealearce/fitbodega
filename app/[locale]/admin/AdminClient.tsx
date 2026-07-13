@@ -1,9 +1,11 @@
 "use client";
 
-import { useState } from "react";
-import { Check, Trash2 } from "lucide-react";
+import { Fragment, useState } from "react";
+import { Check, Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import type { Listing } from "@/lib/supabase/types";
 import Badge from "@/components/ui/Badge";
+import { FOUNDER_QUESTIONS } from "@/lib/config/site";
+import { ineligibleReason, answeredCount } from "@/lib/social/eligibility";
 
 type AdminListing = Pick<
   Listing,
@@ -18,6 +20,10 @@ type AdminListing = Pick<
   | "country"
   | "plan"
   | "created_at"
+  | "founder_story"
+  | "founder_images"
+  | "story_opt_out"
+  | "story_post_id"
 >;
 
 interface Props {
@@ -25,17 +31,72 @@ interface Props {
   all: AdminListing[];
 }
 
+type ActionResult = { ok: boolean; storyStatus?: string; storyUrl?: string; reason?: string; error?: string };
+
 async function callAction(
   action: string,
   id: string,
   value?: boolean
-): Promise<boolean> {
+): Promise<ActionResult> {
   const res = await fetch("/api/admin/action", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ action, id, value }),
   });
-  return res.ok;
+  const data = (await res.json().catch(() => ({}))) as Partial<ActionResult>;
+  return { ok: res.ok && data.ok !== false, ...data };
+}
+
+/** Compact spotlight readiness summary for a pending row. */
+function spotlightSummary(l: AdminListing): { label: string; ready: boolean } {
+  if (l.story_opt_out) return { label: "Spotlight: opted out", ready: false };
+  if (l.story_post_id) return { label: "Spotlight: published", ready: true };
+  const reason = ineligibleReason(l);
+  const answered = answeredCount(l);
+  if (reason) return { label: `Spotlight: not ready (${answered}/${FOUNDER_QUESTIONS.length} answered, ${l.founder_images?.length ?? 0} photos)`, ready: false };
+  return { label: `Spotlight: ready — publishes on approve (${answered}/${FOUNDER_QUESTIONS.length} answered)`, ready: true };
+}
+
+/** Expanded pending-row detail: the member's answers + spotlight photos. */
+function StoryDetail({ listing }: { listing: AdminListing }) {
+  if (listing.story_opt_out) {
+    return (
+      <p className="font-sans text-sm text-on-surface-variant">
+        This member opted out of the spotlight — approve publishes the listing only.
+      </p>
+    );
+  }
+  const answers = FOUNDER_QUESTIONS.map((q) => ({
+    label: q.label,
+    value: listing.founder_story?.[q.key]?.trim() ?? "",
+  })).filter((a) => a.value);
+
+  if (answers.length === 0 && (listing.founder_images?.length ?? 0) === 0) {
+    return (
+      <p className="font-sans text-sm text-on-surface-variant">
+        No spotlight answers or photos were submitted.
+      </p>
+    );
+  }
+
+  return (
+    <div className="space-y-4">
+      {answers.map((a) => (
+        <div key={a.label}>
+          <p className="font-sans text-label-sm uppercase text-on-surface-variant mb-1">{a.label}</p>
+          <p className="font-sans text-sm text-on-surface leading-relaxed">&ldquo;{a.value}&rdquo;</p>
+        </div>
+      ))}
+      {(listing.founder_images?.length ?? 0) > 0 && (
+        <div className="flex gap-3 pt-2">
+          {listing.founder_images.map((url, i) => (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img key={url} src={url} alt={`Spotlight photo ${i + 1}`} className="w-24 h-24 object-cover bg-surface-input" />
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default function AdminClient({ pending: initialPending, all: initialAll }: Props) {
@@ -43,25 +104,48 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
   const [all, setAll] = useState(initialAll);
   const [busy, setBusy] = useState<string | null>(null);
   const [tab, setTab] = useState<"pending" | "all">("pending");
+  const [expanded, setExpanded] = useState<string | null>(null);
 
   const approve = async (id: string) => {
     setBusy(id);
-    const ok = await callAction("approve", id);
-    if (ok) {
-      const item = pending.find((l) => l.id === id);
+    const result = await callAction("approve", id);
+    if (result.ok) {
       setPending((prev) => prev.filter((l) => l.id !== id));
-      if (item) {
-        setAll((prev) =>
-          prev.map((l) => (l.id === id ? { ...l, status: "approved" } : l))
-        );
+      setAll((prev) =>
+        prev.map((l) =>
+          l.id === id
+            ? { ...l, status: "approved", story_post_id: result.storyStatus === "published" ? (l.story_post_id ?? "pending-refresh") : l.story_post_id }
+            : l
+        )
+      );
+      if (result.storyStatus === "published" && result.storyUrl) {
+        window.alert(`Approved. Spotlight published: ${result.storyUrl}`);
+      } else if (result.storyStatus === "failed") {
+        window.alert("Approved, but the spotlight failed to generate. Use the Spotlight button on the All Listings tab to retry.");
       }
+    }
+    setBusy(null);
+  };
+
+  const generateSpotlight = async (id: string) => {
+    setBusy(id + "-story");
+    const result = await callAction("story", id);
+    if (result.ok && result.storyStatus === "published") {
+      setAll((prev) =>
+        prev.map((l) => (l.id === id ? { ...l, story_post_id: "pending-refresh" } : l))
+      );
+      window.alert(`Spotlight published: ${result.storyUrl ?? ""}`);
+    } else if (result.ok && result.storyStatus === "skipped") {
+      window.alert(`Spotlight skipped: ${result.reason ?? "not eligible"}`);
+    } else {
+      window.alert(`Spotlight failed: ${result.error ?? "unknown error"}`);
     }
     setBusy(null);
   };
 
   const reject = async (id: string) => {
     setBusy(id);
-    const ok = await callAction("reject", id);
+    const { ok } = await callAction("reject", id);
     if (ok) {
       setPending((prev) => prev.filter((l) => l.id !== id));
       setAll((prev) =>
@@ -73,7 +157,7 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
 
   const toggleFeatured = async (id: string, current: boolean) => {
     setBusy(id + "-featured");
-    const ok = await callAction("feature", id, !current);
+    const { ok } = await callAction("feature", id, !current);
     if (ok) {
       setAll((prev) =>
         prev.map((l) => (l.id === id ? { ...l, is_featured: !current } : l))
@@ -84,7 +168,7 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
 
   const toggleVerified = async (id: string, current: boolean) => {
     setBusy(id + "-verified");
-    const ok = await callAction("verify", id, !current);
+    const { ok } = await callAction("verify", id, !current);
     if (ok) {
       setAll((prev) =>
         prev.map((l) => (l.id === id ? { ...l, is_verified: !current } : l))
@@ -102,7 +186,7 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
       return;
     }
     setBusy(id + "-delete");
-    const ok = await callAction("delete", id);
+    const { ok } = await callAction("delete", id);
     if (ok) {
       setPending((prev) => prev.filter((l) => l.id !== id));
       setAll((prev) => prev.filter((l) => l.id !== id));
@@ -165,7 +249,8 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
                 </thead>
                 <tbody className="divide-y divide-outline-variant/10">
                   {pending.map((listing) => (
-                    <tr key={listing.id} className="hover:bg-surface-low transition-colors">
+                    <Fragment key={listing.id}>
+                    <tr className="hover:bg-surface-low transition-colors">
                       <td className="px-5 py-4">
                         <p className="font-sans font-semibold text-sm text-on-surface">
                           {listing.name}
@@ -173,6 +258,15 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
                         <p className="font-sans text-xs text-on-surface-variant mt-0.5">
                           {listing.slug}
                         </p>
+                        <button
+                          onClick={() => setExpanded(expanded === listing.id ? null : listing.id)}
+                          className={`inline-flex items-center gap-1 font-sans text-xs mt-1.5 transition-colors ${
+                            spotlightSummary(listing).ready ? "text-primary" : "text-on-surface-variant"
+                          } hover:text-on-surface`}
+                        >
+                          {spotlightSummary(listing).label}
+                          {expanded === listing.id ? <ChevronUp size={12} /> : <ChevronDown size={12} />}
+                        </button>
                       </td>
                       <td className="px-5 py-4">
                         <span className="font-sans text-sm text-on-surface capitalize">
@@ -215,6 +309,14 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
                         </div>
                       </td>
                     </tr>
+                    {expanded === listing.id && (
+                      <tr>
+                        <td colSpan={5} className="px-5 py-5 bg-surface-low">
+                          <StoryDetail listing={listing} />
+                        </td>
+                      </tr>
+                    )}
+                    </Fragment>
                   ))}
                 </tbody>
               </table>
@@ -304,6 +406,21 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
                       >
                         {listing.is_verified ? "✓ Verified" : "Verify"}
                       </button>
+                      {listing.status === "approved" && (
+                        listing.story_post_id ? (
+                          <span className="px-3 py-1 rounded-full font-sans text-xs font-semibold bg-primary/10 text-primary">
+                            Spotlight live
+                          </span>
+                        ) : !listing.story_opt_out ? (
+                          <button
+                            onClick={() => generateSpotlight(listing.id)}
+                            disabled={busy === listing.id + "-story"}
+                            className="px-3 py-1 rounded-full font-sans text-xs font-semibold bg-surface-low text-on-surface-variant hover:bg-secondary-container transition-colors disabled:opacity-50"
+                          >
+                            {busy === listing.id + "-story" ? "Publishing..." : "Spotlight"}
+                          </button>
+                        ) : null
+                      )}
                       <button
                         onClick={() => removeListing(listing.id, listing.name)}
                         disabled={busy === listing.id + "-delete"}

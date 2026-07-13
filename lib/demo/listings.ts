@@ -52,6 +52,10 @@ function listing(partial: Partial<Listing> & Pick<Listing, "id" | "name" | "slug
     plan_expires_at: null,
     certification_id: null,
     last_featured_at: null,
+    founder_story: null,
+    founder_images: [],
+    story_opt_out: false,
+    story_post_id: null,
     ...partial,
   };
 }

@@ -22,7 +22,14 @@ type AdminListing = Pick<
   | "country"
   | "plan"
   | "created_at"
+  | "founder_story"
+  | "founder_images"
+  | "story_opt_out"
+  | "story_post_id"
 >;
+
+const LISTING_COLUMNS =
+  "id, name, slug, type, status, is_featured, is_verified, city, country, plan, created_at, founder_story, founder_images, story_opt_out, story_post_id";
 
 export default async function AdminPage() {
   const supabase = await createClient();
@@ -40,17 +47,14 @@ export default async function AdminPage() {
   ] = await Promise.all([
     adminSupabase
       .from("listings")
-      .select("id, name, slug, type, status, is_featured, is_verified, city, country, plan, created_at")
+      .select(LISTING_COLUMNS)
       .eq("status", "pending")
       .order("created_at", { ascending: false })
       .limit(100),
 
     adminSupabase
       .from("listings")
-      .select(
-        "id, name, slug, type, status, is_featured, is_verified, city, country, plan, created_at",
-        { count: "exact" },
-      )
+      .select(LISTING_COLUMNS, { count: "exact" })
       .order("created_at", { ascending: false })
       .limit(1000),
 

@@ -138,6 +138,12 @@ export default async function DashboardPage() {
                     </Link>
                   )}
                   <Link
+                    href={`/dashboard/story/${listing.slug}`}
+                    className="inline-flex items-center justify-center px-5 py-2 rounded-full font-sans text-sm font-semibold bg-secondary-container text-primary hover:bg-secondary-container/80 transition-all duration-300"
+                  >
+                    Spotlight
+                  </Link>
+                  <Link
                     href={`/dashboard/edit/${listing.slug}`}
                     className="inline-flex items-center justify-center px-5 py-2 rounded-full font-sans text-sm font-semibold bg-secondary-container text-primary hover:bg-secondary-container/80 transition-all duration-300"
                   >

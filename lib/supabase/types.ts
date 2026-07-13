@@ -43,6 +43,17 @@ export interface Listing {
   plan_expires_at: string | null;
   certification_id: string | null;
   last_featured_at: string | null;
+  founder_story: {
+    origin?: string;
+    leap?: string;
+    hard_truth?: string;
+    train_with?: string;
+    why_you?: string;
+    feeling?: string;
+  } | null;
+  founder_images: string[];
+  story_opt_out: boolean;
+  story_post_id: string | null;
 }
 
 export interface Review {

@@ -60,6 +60,21 @@ export const LISTING_TYPES = [
 
 export type ListingTypeId = typeof LISTING_TYPES[number]["id"];
 
+// ── Member Spotlight story questions ─────────────────────────────────────────
+// Asked at submission and editable from the dashboard. Answers live in
+// listings.founder_story (jsonb, keyed by `key`). Public framing is always
+// "Member Spotlight" — never "story". Tune wording here; form, admin, and
+// the generation prompt all read from this constant.
+export const FOUNDER_QUESTIONS = [
+  { key: "origin",     label: "What first brought you to this work?" },
+  { key: "leap",       label: "What made you open your doors — or go out on your own?" },
+  { key: "hard_truth", label: "What's the hardest part of this work that most people never see?" },
+  { key: "train_with", label: "When and where can people train with you? Hours, drop-in details, how to book a first session." },
+  { key: "why_you",    label: "Why train with you and not anyone else? Say it straight." },
+  { key: "feeling",    label: "What do you want people to feel when they walk out?" },
+] as const;
+export type FounderQuestionKey = (typeof FOUNDER_QUESTIONS)[number]["key"];
+
 // ── AI Chatbot ───────────────────────────────────────────────────────────────
 export const CHATBOT = {
   name:     "Coach",
@@ -89,6 +104,12 @@ export const COPY = {
     title:    "The Journal",
     subtitle: "The stories behind the city's spaces — how they started, how they train, where they're going.",
     cta:      "Read the Journal",
+  },
+  spotlightBanner: {
+    kicker:   "Member Spotlight",
+    headline: "JOIN. GET FEATURED.",
+    body:     "Every member who joins the network gets introduced — a spotlight in The Journal and a feature across our channels. Your space, your voice, told to the people training seriously.",
+    cta:      "Claim Your Spotlight",
   },
   submitCta: {
     title:    "READY TO BE FOUND?",
