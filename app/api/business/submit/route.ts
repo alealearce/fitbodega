@@ -2,14 +2,22 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { createAdminClient } from '@/lib/supabase/server';
 import { sendWelcomeEmail, sendAdminNewListing } from '@/lib/email/resend';
+import { normalizeUrl, friendlyValidationError } from '@/lib/utils/validation';
 
 const PRICE_RANGES = ['$', '$$', '$$$', '$$$$'] as const;
+
+// URL fields accept bare domains ("yourspace.com") — https:// is prepended
+// before validation so people aren't rejected for skipping the protocol.
+const urlField = z.preprocess(
+  (v) => (typeof v === 'string' ? normalizeUrl(v) : v),
+  z.string().url().optional().or(z.literal(''))
+);
 
 const SubmitSchema = z.object({
   name:        z.string().min(2).max(100),
   type:        z.enum(['gym', 'trainer', 'recovery', 'club', 'nutritionist', 'store', 'youth']),
   email:       z.string().email(),
-  website:     z.string().url().optional().or(z.literal('')),
+  website:     urlField,
   phone:       z.string().max(30).optional().or(z.literal('')),
   address:     z.string().max(160).optional().or(z.literal('')),
   city:        z.string().min(2).max(100),
@@ -19,10 +27,10 @@ const SubmitSchema = z.object({
   specialties: z.array(z.string().max(60)).max(20).optional(),
   languages:   z.array(z.string().max(40)).max(20).optional(),
   price_range: z.enum(PRICE_RANGES).optional().or(z.literal('')),
-  social_instagram: z.string().url().optional().or(z.literal('')),
-  social_facebook:  z.string().url().optional().or(z.literal('')),
-  social_youtube:   z.string().url().optional().or(z.literal('')),
-  social_tiktok:    z.string().url().optional().or(z.literal('')),
+  social_instagram: urlField,
+  social_facebook:  urlField,
+  social_youtube:   urlField,
+  social_tiktok:    urlField,
   certification_id: z.string().max(60).optional().or(z.literal('')),
   founder_story: z.object({
     origin:     z.string().max(1000).optional(),
@@ -105,7 +113,7 @@ export async function POST(req: NextRequest) {
       const field = firstIssue?.path?.join('.') ?? 'unknown';
       const msg   = firstIssue?.message ?? 'Invalid input';
       return NextResponse.json(
-        { error: `Invalid input: ${field} — ${msg}` },
+        { error: friendlyValidationError(field, msg) },
         { status: 400 }
       );
     }

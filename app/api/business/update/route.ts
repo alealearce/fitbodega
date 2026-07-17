@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { createClient, createAdminClient } from '@/lib/supabase/server';
+import { normalizeUrl, friendlyValidationError } from '@/lib/utils/validation';
 
 /**
  * POST /api/business/update — owner-scoped edit of a listing's public
@@ -18,6 +19,13 @@ const IMAGE_TYPES: Record<string, string> = {
   'image/avif': 'avif',
 };
 
+// URL fields accept bare domains ("yourspace.com") — https:// is prepended
+// before validation so people aren't rejected for skipping the protocol.
+const urlField = z.preprocess(
+  (v) => (typeof v === 'string' ? normalizeUrl(v) : v),
+  z.string().url().optional().or(z.literal(''))
+);
+
 const UpdateSchema = z.object({
   slug:        z.string().min(1).max(120),
   name:        z.string().min(2).max(100),
@@ -25,15 +33,15 @@ const UpdateSchema = z.object({
   description: z.string().max(2000).optional().or(z.literal('')),
   email:       z.string().email(),
   phone:       z.string().max(30).optional().or(z.literal('')),
-  website:     z.string().url().optional().or(z.literal('')),
+  website:     urlField,
   address:     z.string().max(160).optional().or(z.literal('')),
   city:        z.string().min(2).max(100),
   country:     z.string().min(2).max(100),
   specialties: z.array(z.string().max(60)).max(20).optional().default([]),
-  social_instagram: z.string().url().optional().or(z.literal('')),
-  social_facebook:  z.string().url().optional().or(z.literal('')),
-  social_youtube:   z.string().url().optional().or(z.literal('')),
-  social_tiktok:    z.string().url().optional().or(z.literal('')),
+  social_instagram: urlField,
+  social_facebook:  urlField,
+  social_youtube:   urlField,
+  social_tiktok:    urlField,
   // Existing photo URLs the owner chose to keep, in order. Validated against
   // the listing's current images so arbitrary URLs can't be injected.
   existing_images: z.array(z.string().url()).max(MAX_IMAGES).optional().default([]),
@@ -62,7 +70,7 @@ export async function POST(req: NextRequest) {
     if (!parsed.success) {
       const firstIssue = parsed.error.issues[0];
       return NextResponse.json(
-        { error: `Invalid input: ${firstIssue?.path?.join('.') ?? 'unknown'} — ${firstIssue?.message ?? 'invalid'}` },
+        { error: friendlyValidationError(firstIssue?.path?.join('.') ?? 'unknown', firstIssue?.message ?? 'invalid') },
         { status: 400 }
       );
     }

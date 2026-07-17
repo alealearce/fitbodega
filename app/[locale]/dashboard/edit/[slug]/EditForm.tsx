@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { ImagePlus, X, Check } from "lucide-react";
 import { CATEGORIES } from "@/lib/config/categories";
 import CountrySelect from "@/components/ui/CountrySelect";
 import type { Listing } from "@/lib/supabase/types";
 import { compressImage } from "@/lib/utils/compressImage";
+import { normalizeUrl } from "@/lib/utils/validation";
 
 const MAX_IMAGES = 3;
 const MAX_IMAGE_SIZE = 4 * 1024 * 1024; // 4MB
@@ -45,6 +46,7 @@ export default function EditForm({ listing }: { listing: EditListing }) {
   const [photoError, setPhotoError] = useState("");
   const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const [message, setMessage] = useState("");
+  const errorRef = useRef<HTMLParagraphElement>(null);
 
   const totalPhotos = existing.length + newPhotos.length;
 
@@ -89,9 +91,19 @@ export default function EditForm({ listing }: { listing: EditListing }) {
     setMessage("");
     try {
       const formData = new FormData();
+      // Accept bare domains — prepend https:// so "yourspace.com" just works.
       formData.set(
         "payload",
-        JSON.stringify({ slug: listing.slug, ...form, existing_images: existing })
+        JSON.stringify({
+          slug: listing.slug,
+          ...form,
+          website:          normalizeUrl(form.website),
+          social_instagram: normalizeUrl(form.social_instagram),
+          social_facebook:  normalizeUrl(form.social_facebook),
+          social_youtube:   normalizeUrl(form.social_youtube),
+          social_tiktok:    normalizeUrl(form.social_tiktok),
+          existing_images: existing,
+        })
       );
       newPhotos.forEach((p, i) => formData.set(`image${i}`, p.file));
 
@@ -107,10 +119,12 @@ export default function EditForm({ listing }: { listing: EditListing }) {
       } else {
         setStatus("error");
         setMessage(data.error ?? "Something went wrong. Please try again.");
+        setTimeout(() => errorRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }), 50);
       }
     } catch {
       setStatus("error");
       setMessage("Something went wrong. Please try again.");
+      setTimeout(() => errorRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }), 50);
     }
   };
 
@@ -194,7 +208,8 @@ export default function EditForm({ listing }: { listing: EditListing }) {
           <div>
             <label className={labelClass}>Website</label>
             <input
-              type="url"
+              type="text"
+              inputMode="url"
               value={form.website}
               onChange={e => setForm(f => ({ ...f, website: e.target.value }))}
               placeholder="https://yourspace.com"
@@ -275,7 +290,8 @@ export default function EditForm({ listing }: { listing: EditListing }) {
           <div>
             <label className={labelClass}>Instagram</label>
             <input
-              type="url"
+              type="text"
+              inputMode="url"
               value={form.social_instagram}
               onChange={e => setForm(f => ({ ...f, social_instagram: e.target.value }))}
               placeholder="https://instagram.com/yourspace"
@@ -286,7 +302,8 @@ export default function EditForm({ listing }: { listing: EditListing }) {
           <div>
             <label className={labelClass}>TikTok</label>
             <input
-              type="url"
+              type="text"
+              inputMode="url"
               value={form.social_tiktok}
               onChange={e => setForm(f => ({ ...f, social_tiktok: e.target.value }))}
               placeholder="https://tiktok.com/@yourspace"
@@ -299,7 +316,8 @@ export default function EditForm({ listing }: { listing: EditListing }) {
           <div>
             <label className={labelClass}>Facebook</label>
             <input
-              type="url"
+              type="text"
+              inputMode="url"
               value={form.social_facebook}
               onChange={e => setForm(f => ({ ...f, social_facebook: e.target.value }))}
               placeholder="https://facebook.com/yourspace"
@@ -310,7 +328,8 @@ export default function EditForm({ listing }: { listing: EditListing }) {
           <div>
             <label className={labelClass}>YouTube</label>
             <input
-              type="url"
+              type="text"
+              inputMode="url"
               value={form.social_youtube}
               onChange={e => setForm(f => ({ ...f, social_youtube: e.target.value }))}
               placeholder="https://youtube.com/@yourspace"
@@ -415,7 +434,7 @@ export default function EditForm({ listing }: { listing: EditListing }) {
 
       {/* Error */}
       {status === "error" && (
-        <p className="font-sans text-sm text-error bg-surface-low px-4 py-3">{message}</p>
+        <p ref={errorRef} className="font-sans text-sm text-error bg-surface-low px-4 py-3">{message}</p>
       )}
 
       {/* Save */}

@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { ArrowUpRight, ImagePlus, X } from "lucide-react";
 import { LISTING_TYPES, FOUNDER_QUESTIONS } from "@/lib/config/site";
 import { CATEGORIES, SCHOOL_CERTIFICATIONS, PRODUCT_CATEGORIES, LISTING_LANGUAGES } from "@/lib/config/categories";
 import CountrySelect from "@/components/ui/CountrySelect";
 import { compressImage } from "@/lib/utils/compressImage";
+import { normalizeUrl } from "@/lib/utils/validation";
 
 type FormState = "idle" | "loading" | "success" | "error";
 
@@ -56,6 +57,7 @@ export default function SubmitPage() {
   const [imageError, setImageError] = useState("");
   const [status,  setStatus]  = useState<FormState>("idle");
   const [message, setMessage] = useState("");
+  const errorRef = useRef<HTMLParagraphElement>(null);
 
   const addImages = async (files: FileList | null) => {
     if (!files) return;
@@ -107,7 +109,15 @@ export default function SubmitPage() {
     try {
       // Multipart: JSON payload + image files
       const formData = new FormData();
-      formData.set("payload", JSON.stringify(form));
+      // Accept bare domains — prepend https:// so "yourspace.com" just works.
+      formData.set("payload", JSON.stringify({
+        ...form,
+        website:          normalizeUrl(form.website),
+        social_instagram: normalizeUrl(form.social_instagram),
+        social_facebook:  normalizeUrl(form.social_facebook),
+        social_youtube:   normalizeUrl(form.social_youtube),
+        social_tiktok:    normalizeUrl(form.social_tiktok),
+      }));
       images.forEach((img, i) => formData.set(`image${i}`, img.file));
 
       const res = await fetch("/api/business/submit", {
@@ -124,10 +134,12 @@ export default function SubmitPage() {
       } else {
         setStatus("error");
         setMessage(data.error ?? "Something went wrong. Please try again.");
+        setTimeout(() => errorRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }), 50);
       }
     } catch {
       setStatus("error");
       setMessage("Something went wrong. Please try again.");
+      setTimeout(() => errorRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }), 50);
     }
   };
 
@@ -235,7 +247,8 @@ export default function SubmitPage() {
                 <div>
                   <label className={labelClass}>Website</label>
                   <input
-                    type="url"
+                    type="text"
+                    inputMode="url"
                     value={form.website}
                     onChange={e => setForm(f => ({ ...f, website: e.target.value }))}
                     placeholder="https://yourspace.com"
@@ -508,7 +521,8 @@ export default function SubmitPage() {
                 <div>
                   <label className={labelClass}>Instagram</label>
                   <input
-                    type="url"
+                    type="text"
+                    inputMode="url"
                     value={form.social_instagram}
                     onChange={e => setForm(f => ({ ...f, social_instagram: e.target.value }))}
                     placeholder="https://instagram.com/yourspace"
@@ -519,7 +533,8 @@ export default function SubmitPage() {
                 <div>
                   <label className={labelClass}>TikTok</label>
                   <input
-                    type="url"
+                    type="text"
+                    inputMode="url"
                     value={form.social_tiktok}
                     onChange={e => setForm(f => ({ ...f, social_tiktok: e.target.value }))}
                     placeholder="https://tiktok.com/@yourspace"
@@ -532,7 +547,8 @@ export default function SubmitPage() {
                 <div>
                   <label className={labelClass}>Facebook</label>
                   <input
-                    type="url"
+                    type="text"
+                    inputMode="url"
                     value={form.social_facebook}
                     onChange={e => setForm(f => ({ ...f, social_facebook: e.target.value }))}
                     placeholder="https://facebook.com/yourspace"
@@ -543,7 +559,8 @@ export default function SubmitPage() {
                 <div>
                   <label className={labelClass}>YouTube</label>
                   <input
-                    type="url"
+                    type="text"
+                    inputMode="url"
                     value={form.social_youtube}
                     onChange={e => setForm(f => ({ ...f, social_youtube: e.target.value }))}
                     placeholder="https://youtube.com/@yourspace"
@@ -687,7 +704,7 @@ export default function SubmitPage() {
 
             {/* Error */}
             {status === "error" && (
-              <p className="font-sans text-sm text-error bg-surface-low px-4 py-3">
+              <p ref={errorRef} className="font-sans text-sm text-error bg-surface-low px-4 py-3">
                 {message}
               </p>
             )}
