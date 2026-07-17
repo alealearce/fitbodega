@@ -7,6 +7,7 @@ import { CATEGORIES, SCHOOL_CERTIFICATIONS, PRODUCT_CATEGORIES, LISTING_LANGUAGE
 import CountrySelect from "@/components/ui/CountrySelect";
 import { compressImage } from "@/lib/utils/compressImage";
 import { normalizeUrl } from "@/lib/utils/validation";
+import FMark from "@/components/ui/FMark";
 
 type FormState = "idle" | "loading" | "success" | "error";
 
@@ -146,20 +147,45 @@ export default function SubmitPage() {
   if (status === "success") {
     return (
       <div className="min-h-screen bg-bg flex items-center justify-center px-6">
-        <div className="max-w-md text-center py-20">
-          <p className="font-serif text-5xl font-extrabold text-primary mb-6">FB</p>
-          <h1 className="font-serif text-display-sm uppercase text-on-surface mb-4">
-            You&apos;re in the queue
+        <div className="max-w-lg text-center py-20">
+          <FMark className="inline-block h-14 w-12 text-primary mb-8" />
+          <h1 className="font-serif text-display-sm uppercase text-on-surface mb-5">
+            Welcome to<br />the network
           </h1>
-          <p className="font-sans text-base text-on-surface-variant leading-relaxed mb-8">
-            {message}
+          <p className="font-sans text-base text-on-surface leading-relaxed mb-4">
+            We&apos;re excited you&apos;re joining FitBodega. We&apos;ll review your listing
+            within 2&ndash;3 business days and confirm by email.
           </p>
-          <a
-            href="/"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
-          >
-            Back to Home
-          </a>
+          <p className="font-sans text-base text-on-surface-variant leading-relaxed mb-10">
+            We look forward to connecting with you &mdash; follow{" "}
+            <a
+              href="https://www.instagram.com/fitbodegashop/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-semibold hover:underline"
+            >
+              @fitbodegashop
+            </a>{" "}
+            so you&apos;re there the moment your listing goes live.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://www.instagram.com/fitbodegashop/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
+            >
+              Follow @fitbodegashop
+              <ArrowUpRight size={16} />
+            </a>
+            <a
+              href="/"
+              className="inline-flex items-center gap-2 px-8 py-4 font-sans text-sm font-bold tracking-wide uppercase text-on-surface transition-colors hover:text-primary"
+              style={{ boxShadow: "inset 0 0 0 1px rgba(72,72,71,0.3)" }}
+            >
+              Back to Home
+            </a>
+          </div>
         </div>
       </div>
     );
