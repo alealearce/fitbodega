@@ -5,6 +5,7 @@ import { ImagePlus, X, Check } from "lucide-react";
 import { CATEGORIES } from "@/lib/config/categories";
 import CountrySelect from "@/components/ui/CountrySelect";
 import type { Listing } from "@/lib/supabase/types";
+import { compressImage } from "@/lib/utils/compressImage";
 
 const MAX_IMAGES = 3;
 const MAX_IMAGE_SIZE = 4 * 1024 * 1024; // 4MB
@@ -47,17 +48,19 @@ export default function EditForm({ listing }: { listing: EditListing }) {
 
   const totalPhotos = existing.length + newPhotos.length;
 
-  const addPhotos = (files: FileList | null) => {
+  const addPhotos = async (files: FileList | null) => {
     if (!files) return;
     setPhotoError("");
     const next = [...newPhotos];
-    for (const file of Array.from(files)) {
+    for (const raw of Array.from(files)) {
       if (existing.length + next.length >= MAX_IMAGES) {
         setPhotoError(`Maximum ${MAX_IMAGES} images.`);
         break;
       }
-      if (!file.type.startsWith("image/")) { setPhotoError("Only image files are accepted."); continue; }
-      if (file.size > MAX_IMAGE_SIZE) { setPhotoError("Each image must be under 4MB."); continue; }
+      if (!raw.type.startsWith("image/")) { setPhotoError("Only image files are accepted."); continue; }
+      // Oversized picks are compressed in the browser — no work for the user.
+      const file = raw.size > MAX_IMAGE_SIZE ? await compressImage(raw) : raw;
+      if (file.size > MAX_IMAGE_SIZE) { setPhotoError("We couldn't process that image — please try a smaller one."); continue; }
       next.push({ file, preview: URL.createObjectURL(file) });
     }
     setNewPhotos(next);
