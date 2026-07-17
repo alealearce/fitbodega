@@ -5,6 +5,7 @@ import type { Listing } from "@/lib/supabase/types";
 import Badge from "@/components/ui/Badge";
 import { getListingUrl } from "@/lib/utils/listingUrl";
 import { SITE } from "@/lib/config/site";
+import FMark from "@/components/ui/FMark";
 
 export const metadata = {
   title: `My Dashboard — ${SITE.name}`,
@@ -67,7 +68,7 @@ export default async function DashboardPage() {
         {/* Empty state */}
         {items.length === 0 && (
           <div className="bg-surface-card p-12 text-center">
-            <p className="font-serif text-4xl font-extrabold text-primary mb-5">FB</p>
+            <FMark className="inline-block h-9 w-8 text-primary mb-5" />
             <h2 className="font-serif text-xl uppercase font-extrabold text-on-surface mb-3">
               You haven&apos;t listed a space yet
             </h2>

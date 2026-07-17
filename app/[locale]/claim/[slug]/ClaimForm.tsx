@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
+import FMark from "@/components/ui/FMark";
 
 interface Props {
   slug: string;
@@ -49,7 +50,7 @@ export default function ClaimForm({ slug, existingYaId, userEmail }: Props) {
   if (status === "success") {
     return (
       <div className="bg-surface-low p-8 text-center space-y-4">
-        <p className="font-serif text-4xl font-extrabold text-primary">FB</p>
+        <FMark className="inline-block h-9 w-8 text-primary" />
         <h2 className="font-serif text-xl uppercase font-extrabold text-on-surface">Claim received</h2>
         <p className="font-sans text-sm text-on-surface-variant">{message}</p>
       </div>

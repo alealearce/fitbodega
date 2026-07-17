@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { createAdminClient } from "@/lib/supabase/server";
 import { SITE } from "@/lib/config/site";
+import FMark from "@/components/ui/FMark";
 
 export const metadata = {
   title: `Unsubscribed — ${SITE.name}`,
@@ -29,7 +30,7 @@ export default async function UnsubscribePage({
   return (
     <div className="min-h-screen bg-bg flex items-center justify-center px-6 py-24">
       <div className="text-center max-w-md">
-        <p className="font-serif text-5xl font-extrabold text-primary mb-8">FB</p>
+        <FMark className="inline-block h-12 w-10 text-primary mb-8" />
 
         {success || !token ? (
           <>

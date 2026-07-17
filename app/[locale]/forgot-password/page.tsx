@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Check } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
+import FMark from "@/components/ui/FMark";
 
 type State = "idle" | "loading" | "success" | "error";
 
@@ -41,7 +42,7 @@ export default function ForgotPasswordPage() {
       <div className="w-full max-w-md">
 
         <div className="text-center mb-10">
-          <p className="font-serif text-4xl font-extrabold text-primary mb-4">FB</p>
+          <FMark className="inline-block h-9 w-8 text-primary mb-4" />
           <h1 className="font-serif text-display-sm uppercase text-on-surface mb-2">
             Reset your password
           </h1>

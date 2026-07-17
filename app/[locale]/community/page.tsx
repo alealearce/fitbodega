@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import type { BlogPost } from "@/lib/supabase/types";
 import { SITE, COPY, DEFAULT_OG_IMAGE } from "@/lib/config/site";
+import FMark from "@/components/ui/FMark";
 
 // Ids must match the categories emitted by /api/admin/daily-blog.
 const BLOG_CATEGORIES = [
@@ -174,7 +175,7 @@ export default async function CommunityPage({
         <section className="pb-16 bg-bg">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="bg-surface-low p-16 text-center">
-              <p className="font-serif text-5xl font-extrabold text-primary mb-4">FB</p>
+              <FMark className="inline-block h-12 w-10 text-primary mb-4" />
               <h2 className="font-serif text-xl uppercase font-extrabold text-on-surface mb-2">
                 Stories coming soon
               </h2>

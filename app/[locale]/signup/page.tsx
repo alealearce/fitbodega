@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import { Eye, EyeOff } from "lucide-react";
+import FMark from "@/components/ui/FMark";
 
 type FormState = "idle" | "loading" | "error" | "success";
 
@@ -69,7 +70,7 @@ export default function SignupPage() {
 
         {/* Logo / Brand */}
         <div className="text-center mb-10">
-          <p className="font-serif text-4xl font-extrabold text-primary mb-4">FB</p>
+          <FMark className="inline-block h-9 w-8 text-primary mb-4" />
           <h1 className="font-serif text-display-sm uppercase text-on-surface mb-2">
             Create your account
           </h1>
