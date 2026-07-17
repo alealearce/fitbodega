@@ -19,6 +19,7 @@ import { SITE, FOUNDER_QUESTIONS, type FounderQuestionKey } from '@/lib/config/s
 import { buildStoryCaption } from '@/lib/social/caption';
 import { configuredPlatforms, SINGLE_IMAGE_ONLY, uploadAll, publish, clampCaption, type Platform } from '@/lib/social/blotato';
 import { ineligibleReason, isStoryEligible } from '@/lib/social/eligibility';
+import { getListingUrl } from '@/lib/utils/listingUrl';
 import type { Listing } from '@/lib/supabase/types';
 
 export { isStoryEligible };
@@ -58,7 +59,7 @@ STRICT RULES
 - The title MUST follow a "Welcome to the Network: {Name}" or "Member Spotlight: {Name}" pattern. Never use the word "story".
 - Weave the member's own answers into the piece as direct quotes, inside quotation marks. Quote them VERBATIM — never paraphrase text that sits inside quote marks.
 - If a question was not answered, skip that beat ENTIRELY. Never invent biographical facts, details, or quotes that weren't given to you.
-- If they answered the "when and where can people train with you" question, close the piece with a clearly-labeled "Train with them" beat carrying that practical detail (hours, drop-ins, how to book) plus a nod to their FitBodega listing. Otherwise close with the listing nod alone.
+- If they answered the "when and where can people train with you" question, close the piece with a clearly-labeled "Train with them" beat carrying that practical detail (hours, drop-ins, how to book). Whatever the closing beat, end it with a markdown link to their FitBodega profile using the exact listing URL given in the user message.
 - 500–700 words of markdown. Clean structure: a short welcome intro, then the woven Q&A, then the closing.
 - Where the user message gives you image URLs to embed, place each as its own markdown image line (\`![alt](url)\`) roughly evenly spaced between sections of the piece — never inside a paragraph of running text.
 
@@ -100,6 +101,7 @@ function buildUserPrompt(listing: Listing): string {
   return `New member: ${listing.name}
 Type: ${TYPE_LABEL[listing.type] ?? listing.type}
 Location: ${loc || 'worldwide'}
+Their FitBodega profile URL (link to this in the closing): ${SITE.url}${getListingUrl(listing.type, listing.slug)}
 About (from their listing): ${listing.description || listing.long_description || listing.tagline || '(no listing description provided)'}
 
 Their answers to our spotlight questions (ONLY these are answered — do not address any question not listed here):
@@ -144,6 +146,13 @@ function ensureImagesEmbedded(content: string, images: string[], name: string): 
     paragraphs.splice(insertAt, 0, md);
   });
   return paragraphs.join('\n\n');
+}
+
+/** Guarantee the piece links to the member's profile — append a closing line if the model dropped it. */
+function ensureListingLinked(content: string, listing: Listing): string {
+  const url = `${SITE.url}${getListingUrl(listing.type, listing.slug)}`;
+  if (content.includes(url)) return content;
+  return `${content.trimEnd()}\n\nFind ${listing.name} in the directory: [${listing.name} on ${SITE.name}](${url}).`;
 }
 
 function estimateReadingMinutes(markdown: string): number {
@@ -290,7 +299,10 @@ export async function runMemberSpotlight(
     return { ok: false, error: `Spotlight generation failed: ${err instanceof Error ? err.message : String(err)}` };
   }
 
-  const contentWithImages = ensureImagesEmbedded(generated.content, listing.founder_images ?? [], listing.name);
+  const contentWithImages = ensureListingLinked(
+    ensureImagesEmbedded(generated.content, listing.founder_images ?? [], listing.name),
+    listing
+  );
   const baseSlug = `welcome-${listing.slug}`;
 
   if (dry) {

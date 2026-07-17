@@ -2,9 +2,10 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
-import type { BlogPost } from "@/lib/supabase/types";
+import type { BlogPost, Listing } from "@/lib/supabase/types";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
-import { Clock, Calendar, ArrowLeft } from "lucide-react";
+import { getListingUrl } from "@/lib/utils/listingUrl";
+import { Clock, Calendar, ArrowLeft, ArrowUpRight } from "lucide-react";
 
 /**
  * Root-level article route — /:slug
@@ -75,6 +76,19 @@ export default async function ArticlePage({ params }: Props) {
   if (!post) notFound();
 
   const related: BlogPost[] = relatedRes.data ?? [];
+
+  // Member Spotlight cross-link: the featured member's listing, found via
+  // listings.story_post_id (set when the spotlight was published).
+  let member: Pick<Listing, "name" | "type" | "slug" | "tagline" | "city"> | null = null;
+  if (post.category === "member_spotlight") {
+    const { data: m } = await supabase
+      .from("listings")
+      .select("name, type, slug, tagline, city")
+      .eq("story_post_id", post.id)
+      .eq("status", "approved")
+      .maybeSingle();
+    member = m ?? null;
+  }
 
   const date = new Date(post.published_at ?? post.created_at).toLocaleDateString("en-US", {
     year: "numeric", month: "long", day: "numeric",
@@ -197,24 +211,46 @@ export default async function ArticlePage({ params }: Props) {
             dangerouslySetInnerHTML={{ __html: renderContent(post) }}
           />
 
-          {/* Directory CTA — tonal block */}
-          <div className="mt-14 p-8 bg-surface-low">
-            <p className="font-sans text-label-md uppercase text-primary mb-3">
-              The Directory
-            </p>
-            <p className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-2">
-              Train it. Recover from it.
-            </p>
-            <p className="font-sans text-sm text-on-surface-variant mb-6">
-              Find recovery studios, gyms, coaches, and nutritionists in the {SITE.name} network.
-            </p>
-            <Link
-              href="/recovery"
-              className="inline-flex items-center bg-primary text-primary-on font-sans text-label-sm uppercase px-6 py-3.5 hover:opacity-90 transition-opacity"
-            >
-              Explore the Network
-            </Link>
-          </div>
+          {/* CTA — the featured member's profile on spotlight posts,
+              otherwise the generic directory block */}
+          {member ? (
+            <div className="mt-14 p-8 bg-surface-low">
+              <p className="font-sans text-label-md uppercase text-primary mb-3">
+                Now in the Directory
+              </p>
+              <p className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-2">
+                {member.name}
+              </p>
+              <p className="font-sans text-sm text-on-surface-variant mb-6">
+                {member.tagline || `Hours, contact, and how to train with them — live on ${SITE.name}${member.city ? ` in ${member.city}` : ""}.`}
+              </p>
+              <Link
+                href={getListingUrl(member.type, member.slug)}
+                className="inline-flex items-center gap-2 bg-primary text-primary-on font-sans text-label-sm uppercase px-6 py-3.5 hover:opacity-90 transition-opacity"
+              >
+                Visit Their Profile
+                <ArrowUpRight size={14} />
+              </Link>
+            </div>
+          ) : (
+            <div className="mt-14 p-8 bg-surface-low">
+              <p className="font-sans text-label-md uppercase text-primary mb-3">
+                The Directory
+              </p>
+              <p className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-2">
+                Train it. Recover from it.
+              </p>
+              <p className="font-sans text-sm text-on-surface-variant mb-6">
+                Find recovery studios, gyms, coaches, and nutritionists in the {SITE.name} network.
+              </p>
+              <Link
+                href="/recovery"
+                className="inline-flex items-center bg-primary text-primary-on font-sans text-label-sm uppercase px-6 py-3.5 hover:opacity-90 transition-opacity"
+              >
+                Explore the Network
+              </Link>
+            </div>
+          )}
         </div>
       </article>
 

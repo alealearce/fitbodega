@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
 import type { Listing, Review } from "@/lib/supabase/types";
-import { MapPin, Globe, Mail, Phone, BadgeCheck, Star, Instagram, Facebook, Youtube, ArrowLeft } from "lucide-react";
+import { MapPin, Globe, Mail, Phone, BadgeCheck, Star, Instagram, Facebook, Youtube, ArrowLeft, ArrowUpRight } from "lucide-react";
 import { SITE, DEFAULT_OG_IMAGE, LISTING_TYPES } from "@/lib/config/site";
 import { getListingUrl } from "@/lib/utils/listingUrl";
 import CoverImage from "@/components/ui/CoverImage";
@@ -70,6 +70,18 @@ export default async function ListingPage({ params }: Props) {
 
   const listing: Listing | null = listingRes.data;
   if (!listing) notFound();
+
+  // Member Spotlight cross-link: set once the welcome post is published.
+  let spotlight: { slug: string; title: string } | null = null;
+  if (listing.story_post_id) {
+    const { data: sp } = await supabase
+      .from("blog_posts")
+      .select("slug, title")
+      .eq("id", listing.story_post_id)
+      .eq("is_published", true)
+      .maybeSingle();
+    spotlight = sp ?? null;
+  }
 
   // Filter reviews for this listing
   const allReviews: Review[] = reviewsRes.data ?? [];
@@ -141,6 +153,28 @@ export default async function ListingPage({ params }: Props) {
               <p className="font-sans text-xl text-on-surface leading-relaxed max-w-2xl">
                 {listing.tagline}
               </p>
+            )}
+
+            {/* Member Spotlight — link to the welcome post in The Journal */}
+            {spotlight && (
+              <div>
+                <div className="flex items-center gap-3 mb-5">
+                  <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                  <p className="font-sans text-label-md uppercase text-primary">Member Spotlight</p>
+                </div>
+                <Link
+                  href={`/${spotlight.slug}`}
+                  className="group block bg-surface-low p-6 hover:bg-surface-card transition-colors duration-300 max-w-2xl"
+                >
+                  <p className="font-serif text-lg font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300 mb-1.5">
+                    {spotlight.title}
+                  </p>
+                  <p className="inline-flex items-center gap-1.5 font-sans text-sm text-on-surface-variant">
+                    Read {listing.name}&apos;s introduction in The Journal
+                    <ArrowUpRight size={13} className="text-primary" />
+                  </p>
+                </Link>
+              </div>
             )}
 
             {/* Specialties */}
