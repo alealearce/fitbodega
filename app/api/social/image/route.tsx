@@ -386,6 +386,132 @@ function StoryCta({ name, url }: { name: string; url: string }) {
   );
 }
 
+// ════════════════════ BLOG COVER (1200×800, seeded per post) ══════════════════
+// Every post gets a unique, deterministic cover: the slug hashes to one of
+// five Brutalist Sanctuary layouts plus geometry parameters, so no two posts
+// share a cover and the same post always renders the same image.
+
+const CW = 1200;
+const CH = 800;
+
+function hashStr(s: string): number {
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+function CoverDots({ w, h, gap }: { w: number; h: number; gap: number }) {
+  const dots = [];
+  for (let y = 48; y < h; y += gap) {
+    for (let x = 48; x < w; x += gap) {
+      dots.push(<circle key={`${x}-${y}`} cx={x} cy={y} r={3} fill="#262626" />);
+    }
+  }
+  return (
+    <svg width={w} height={h} style={{ display: 'flex', position: 'absolute', top: 0, left: 0 }} xmlns="http://www.w3.org/2000/svg">{dots}</svg>
+  );
+}
+
+function coverTitleSize(title: string): number {
+  if (title.length > 80) return 52;
+  if (title.length > 50) return 62;
+  return 76;
+}
+
+function BlogCover({ title, category, slug }: { title: string; category: string; slug: string }) {
+  const h = hashStr(slug || title);
+  const variant = h % 5;
+  const monogram = (title.replace(/^(the|a|an|how|why|what)\s+/i, '').trim()[0] || 'F').toUpperCase();
+  const num = String((h % 89) + 10); // stable 2-digit accent number
+  const eyebrow = `The Journal · ${category.replace(/_/g, ' ').toUpperCase()}`;
+  const size = coverTitleSize(title);
+  const titleStyle = {
+    display: 'flex',
+    fontFamily: 'Manrope',
+    fontWeight: 800,
+    lineHeight: 1.04,
+    color: WHITE,
+    letterSpacing: '-2px',
+    textTransform: 'uppercase' as const,
+  };
+
+  if (variant === 0) {
+    // Giant backdrop monogram, title lower-left, lime baseline bar.
+    return (
+      <div style={{ width: CW, height: CH, display: 'flex', flexDirection: 'column', background: BG, padding: '64px 72px', position: 'relative' }}>
+        <div style={{ position: 'absolute', top: '-140px', right: '-30px', display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: '620px', lineHeight: 1, color: SURFACE_CARD }}>{monogram}</div>
+        <div style={{ display: 'flex', position: 'relative' }}><Logo compact /></div>
+        <div style={{ display: 'flex', flex: 1 }} />
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '21px', letterSpacing: '4px', color: LIME, marginBottom: '20px', textTransform: 'uppercase', position: 'relative' }}>{eyebrow}</div>
+        <div style={{ ...titleStyle, fontSize: `${size}px`, maxWidth: '980px', position: 'relative' }}>{title}</div>
+        <div style={{ display: 'flex', width: '110px', height: '4px', background: LIME, marginTop: '34px', position: 'relative' }} />
+      </div>
+    );
+  }
+
+  if (variant === 1) {
+    // Dot grid, centered composition, lime pill category.
+    return (
+      <div style={{ width: CW, height: CH, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: SURFACE_LOW, padding: '72px', position: 'relative' }}>
+        <CoverDots w={CW} h={CH} gap={52 + (h % 3) * 8} />
+        <div style={{ display: 'flex', position: 'relative' }}><Logo compact /></div>
+        <div style={{ display: 'flex', marginTop: '46px', position: 'relative' }}><LimePill label={category.replace(/_/g, ' ')} fontSize={24} /></div>
+        <div style={{ ...titleStyle, fontSize: `${size}px`, textAlign: 'center', maxWidth: '960px', marginTop: '30px', position: 'relative', justifyContent: 'center' }}>{title}</div>
+        <div style={{ display: 'flex', width: '84px', height: '4px', background: LIME, marginTop: '36px', position: 'relative' }} />
+      </div>
+    );
+  }
+
+  if (variant === 2) {
+    // Left lime edge rail + giant muted index number right.
+    return (
+      <div style={{ width: CW, height: CH, display: 'flex', background: BG, position: 'relative' }}>
+        <div style={{ display: 'flex', width: '16px', height: CH, background: LIME }} />
+        <div style={{ position: 'absolute', bottom: '-90px', right: '24px', display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: '430px', lineHeight: 1, color: SURFACE_LOW }}>{num}</div>
+        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '60px 68px', position: 'relative' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Logo compact />
+            <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '20px', letterSpacing: '3px', color: MUTED, textTransform: 'uppercase' }}>The Journal</div>
+          </div>
+          <div style={{ display: 'flex', flex: 1 }} />
+          <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '21px', letterSpacing: '4px', color: LIME, marginBottom: '20px', textTransform: 'uppercase' }}>{category.replace(/_/g, ' ')}</div>
+          <div style={{ ...titleStyle, fontSize: `${size}px`, maxWidth: '900px' }}>{title}</div>
+        </div>
+      </div>
+    );
+  }
+
+  if (variant === 3) {
+    // Top tonal band with oversized monogram square, title below.
+    return (
+      <div style={{ width: CW, height: CH, display: 'flex', flexDirection: 'column', background: BG }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: SURFACE_CARD, padding: '40px 68px' }}>
+          <Logo compact />
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '84px', height: '84px', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '40px' }}>{monogram}</div>
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '56px 68px', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '21px', letterSpacing: '4px', color: LIME, marginBottom: '22px', textTransform: 'uppercase' }}>{eyebrow}</div>
+          <div style={{ ...titleStyle, fontSize: `${size}px`, maxWidth: '1020px' }}>{title}</div>
+        </div>
+        <div style={{ display: 'flex', width: CW, height: '10px', background: LIME }} />
+      </div>
+    );
+  }
+
+  // variant 4 — big lime block lower-right, asymmetric title top-left.
+  return (
+    <div style={{ width: CW, height: CH, display: 'flex', flexDirection: 'column', background: SURFACE_LOW, padding: '60px 68px', position: 'relative' }}>
+      <div style={{ position: 'absolute', bottom: 0, right: 0, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', width: `${300 + (h % 5) * 30}px`, height: `${220 + (h % 4) * 30}px`, background: LIME, padding: '28px' }}>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: '30px', color: LIME_TEXT, textTransform: 'uppercase', letterSpacing: '-1px' }}>The Journal</div>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '20px', color: LIME_TEXT, textTransform: 'uppercase', letterSpacing: '2px', marginTop: '6px' }}>{category.replace(/_/g, ' ')}</div>
+      </div>
+      <div style={{ display: 'flex' }}><Logo compact /></div>
+      <div style={{ ...titleStyle, fontSize: `${size}px`, maxWidth: '860px', marginTop: '70px' }}>{title}</div>
+      <div style={{ display: 'flex', width: '110px', height: '4px', background: LIME, marginTop: '34px' }} />
+    </div>
+  );
+}
+
 // ───────────────────────────── handler ──────────────────────────────────────
 
 export async function GET(req: NextRequest) {
@@ -394,6 +520,16 @@ export async function GET(req: NextRequest) {
   const slide = Number(q.get('slide') ?? 0);
   const fonts = await loadFonts();
   const opts = { width: W, height: H, fonts, headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=3600' } } as const;
+
+  if (type === 'cover') {
+    const title = q.get('title') || 'From The Journal';
+    const category = q.get('category') || 'finding_training';
+    const slug = q.get('slug') || title;
+    return new ImageResponse(
+      <BlogCover title={title} category={category} slug={slug} />,
+      { width: CW, height: CH, fonts, headers: { 'Cache-Control': 'public, max-age=86400, s-maxage=86400' } },
+    );
+  }
 
   if (type === 'showcase') {
     const name = q.get('name') || 'Featured Listing';

@@ -65,18 +65,10 @@ Return ONLY a JSON object (no code fences, no commentary) with these fields:
   "meta_description": "130–155 chars",
   "tags": ["tag1", "tag2", "tag3"],
   "reading_time_minutes": 8,
-  "cover_image": "https://images.unsplash.com/photo-...?w=1200&h=800&fit=crop&q=80"
+  "cover_image": ""
 }
 
-Cover image: pick one of these pre-vetted Unsplash URLs, rotating so you don't repeat today's choice too close to yesterday's if possible:
-- https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=1200&h=800&fit=crop&q=80
-- https://images.unsplash.com/photo-1588286840104-8957b019727f?w=1200&h=800&fit=crop&q=80
-- https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop&q=80
-- https://images.unsplash.com/photo-1545389336-cf090694435e?w=1200&h=800&fit=crop&q=80
-- https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=1200&h=800&fit=crop&q=80
-- https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=800&fit=crop&q=80
-- https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&h=800&fit=crop&q=80
-- https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=1200&h=800&fit=crop&q=80`;
+Cover image: always set cover_image to an empty string — a unique branded cover is generated automatically per post from the title and slug.`;
 
 // ── Mission content ──────────────────────────────────────────────────────────
 // Every second post advances FitBodega's mission: grow access to serious
@@ -321,7 +313,8 @@ Pick a fresh keyword (rotate content types A–E; prefer types under-represented
       reading_time_minutes: post.reading_time_minutes,
       meta_title: post.meta_title,
       meta_description: post.meta_description,
-      cover_image: post.cover_image,
+      // Unique deterministic branded cover per post — never stock rotation.
+      cover_image: `${SITE.url}/api/social/image?type=cover&slug=${encodeURIComponent(post.slug)}&title=${encodeURIComponent(post.title)}&category=${encodeURIComponent(post.category)}`,
       generated_by: 'claude',
     })
     .select('id, slug, title')
