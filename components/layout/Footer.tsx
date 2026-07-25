@@ -113,10 +113,7 @@ export default function Footer() {
         {/* Bottom bar — deeper tonal step, no divider line */}
         <div className="mt-20 -mx-6 lg:-mx-8 px-6 lg:px-8 py-6 bg-bg flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-sans text-xs text-on-surface-variant/70">
-            © {new Date().getFullYear()} FitBodega. All rights reserved. Created by{' '}
-            <a href="https://alejandroarce.com" target="_blank" rel="noopener noreferrer" className="hover:text-on-surface transition-colors underline underline-offset-2">
-              Alejandro Arce
-            </a>
+            © {new Date().getFullYear()} FitBodega. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             {FOOTER_LINKS.legal.map(link => (
