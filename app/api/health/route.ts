@@ -61,16 +61,45 @@ async function checkResend(): Promise<Status> {
   }
 }
 
+// The daily-blog cron publishes one post a day (18:07 UTC). If the newest
+// published post is older than 36h, today's run failed — this catches a
+// silently dead blog (invalid Anthropic key, exhausted credits, retired
+// model id), which presence-only env checks cannot see.
+const BLOG_MAX_AGE_MS = 36 * 60 * 60 * 1000;
+
+async function checkBlogFresh(): Promise<Status> {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !key) return 'fail';
+  try {
+    const res = await fetch(
+      `${url}/rest/v1/blog_posts?select=published_at&is_published=eq.true&order=published_at.desc&limit=1`,
+      { headers: { apikey: key, Authorization: `Bearer ${key}` }, signal: AbortSignal.timeout(6000) },
+    );
+    if (!res.ok) return 'fail';
+    const rows: { published_at: string }[] = await res.json();
+    if (!rows.length) return 'fail';
+    return Date.now() - new Date(rows[0].published_at).getTime() < BLOG_MAX_AGE_MS ? 'ok' : 'fail';
+  } catch {
+    return 'fail';
+  }
+}
+
 export async function GET() {
   if (cache && Date.now() - cache.at < CACHE_TTL_MS) {
     return NextResponse.json({ ...cache.payload, cached: true }, { status: cache.httpStatus });
   }
 
-  const [database, resend] = await Promise.all([checkDatabase(), checkResend()]);
+  const [database, resend, blog] = await Promise.all([
+    checkDatabase(),
+    checkResend(),
+    checkBlogFresh(),
+  ]);
 
   const checks: Record<string, Status> = {
     database,
     resend,
+    blog,
     // Presence-only (never the value): validating these would cost tokens/charges.
     anthropic: process.env.ANTHROPIC_API_KEY ? 'ok' : 'fail',
     siteUrl: /^https:\/\//.test(process.env.NEXT_PUBLIC_SITE_URL ?? '') ? 'ok' : 'fail',

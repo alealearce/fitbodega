@@ -51,6 +51,13 @@ WRITING REQUIREMENTS
   e.g. [Find gyms on FitBodega](/gyms)
 - Tags: 3–5 short relevant tags as a JSON string array.
 - Written for people training and recovering seriously — beginners to advanced.
+- END every post (before Key Takeaways) with one short owner-facing paragraph:
+  if the reader runs a gym, studio, or coaching practice, they can
+  [list it free on FitBodega](/submit) — every new member gets a Member
+  Spotlight feature in The Journal plus a shout-out across our social
+  channels, and a listing link they can use from their own site. Keep it
+  to 2-3 sentences, natural, never salesy — this is the growth engine of
+  the directory, worded as an invitation to be found.
 
 OUTPUT FORMAT
 Return ONLY a JSON object (no code fences, no commentary) with these fields:
