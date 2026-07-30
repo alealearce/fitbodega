@@ -39,7 +39,7 @@ const METRICS: [string, string, string][] = [
   ['listings_total', 'listings', ''],
   ['listings_verified', 'listings', 'is_verified=eq.true'],
   ['leads_total', 'leads', ''],
-  ['newsletter_subscribers', 'newsletter_subscribers', 'subscribed=eq.true'],
+  ['newsletter_subscribers', 'newsletter_subscribers', ''],
   ['blog_posts_published', 'blog_posts', 'is_published=eq.true'],
   ['reviews_total', 'reviews', ''],
   ['social_posts_published', 'social_posts', 'status=eq.published'],
