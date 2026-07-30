@@ -42,6 +42,7 @@ const METRICS: [string, string, string][] = [
   ['newsletter_subscribers', 'newsletter_subscribers', 'subscribed=eq.true'],
   ['blog_posts_published', 'blog_posts', 'is_published=eq.true'],
   ['reviews_total', 'reviews', ''],
+  ['social_posts_published', 'social_posts', 'status=eq.published'],
 ];
 
 export async function GET() {
