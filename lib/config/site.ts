@@ -31,6 +31,7 @@ export const SITE = {
   fromEmail:   "FitBodega <hello@fitbodega.com>",
   social: {
     instagram: "https://www.instagram.com/fitbodegashop/",
+    tiktok: "https://www.tiktok.com/@fitbodegashop",
     instagramSports: "https://www.instagram.com/fitbodegavancouverfc/",
   },
   logo:    "/images/logo.svg",

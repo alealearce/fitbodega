@@ -7,7 +7,6 @@ import { Menu, X, ChevronDown, User, LayoutDashboard } from "lucide-react";
 import { SITE } from "@/lib/config/site";
 import { cn } from "@/lib/utils/cn";
 import { createClient } from "@/lib/supabase/client";
-import { TOP100_LISTS } from "@/components/top100/lists";
 
 const DIRECTORY_ITEMS = [
   { label: "Recovery",           href: "/recovery",           desc: "Saunas, cold plunge & bodywork studios" },
@@ -18,12 +17,6 @@ const DIRECTORY_ITEMS = [
   { label: "Health Food Stores", href: "/health-food-stores", desc: "Supplements & whole-food fuel" },
   { label: "Youth Sports",       href: "/youth-sports",       desc: "Soccer clubs, academies & camps" },
 ];
-
-const TOP100_ITEMS = TOP100_LISTS.map((l) => ({
-  label: l.navLabel,
-  href: l.slug,
-  desc: l.desc,
-}));
 
 type DropdownItem = { label: string; href: string; desc: string };
 
@@ -96,10 +89,8 @@ export default function Navbar() {
   const [scrolled,      setScrolled]      = useState(false);
   const [mobileOpen,    setMobileOpen]    = useState(false);
   const [directoryOpen, setDirectoryOpen] = useState(false);
-  const [top100Open,    setTop100Open]    = useState(false);
   const [isAuthed,      setIsAuthed]      = useState(false);
   const directoryRef = useRef<HTMLDivElement>(null);
-  const top100Ref    = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -121,9 +112,6 @@ export default function Navbar() {
     const handler = (e: MouseEvent) => {
       if (directoryRef.current && !directoryRef.current.contains(e.target as Node)) {
         setDirectoryOpen(false);
-      }
-      if (top100Ref.current && !top100Ref.current.contains(e.target as Node)) {
-        setTop100Open(false);
       }
     };
     document.addEventListener("mousedown", handler);
@@ -165,13 +153,7 @@ export default function Navbar() {
                 setOpen={setDirectoryOpen}
                 innerRef={directoryRef}
               />
-              <NavDropdown
-                label="Top 100"
-                items={TOP100_ITEMS}
-                open={top100Open}
-                setOpen={setTop100Open}
-                innerRef={top100Ref}
-              />
+              <NavLink href="/top-100">Top 100</NavLink>
               <NavLink href="/community">Journal</NavLink>
               <NavLink href="/about">About</NavLink>
             </nav>
@@ -258,24 +240,8 @@ export default function Navbar() {
                 ))}
               </div>
 
-              {/* Top 100 Group */}
-              <div className="pt-4 pb-1">
-                <p className="font-sans text-label-sm uppercase text-on-surface-variant px-3 mb-2">
-                  Top 100
-                </p>
-                {TOP100_ITEMS.map(item => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setMobileOpen(false)}
-                    className="flex items-center gap-3 px-3 py-2.5 font-sans text-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-card transition-colors"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-
               <div className="pt-4">
+                <MobileNavLink href="/top-100" onClick={() => setMobileOpen(false)}>Top 100</MobileNavLink>
                 <MobileNavLink href="/community" onClick={() => setMobileOpen(false)}>Journal</MobileNavLink>
                 <MobileNavLink href="/about" onClick={() => setMobileOpen(false)}>About</MobileNavLink>
               </div>
