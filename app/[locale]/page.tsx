@@ -7,6 +7,7 @@ import type { Listing, BlogPost } from "@/lib/supabase/types";
 import type { Metadata } from "next";
 import HeroSection from "@/components/home/HeroSection";
 import ListingCard from "@/components/directory/ListingCard";
+import { TOP100_LISTS } from "@/components/top100/lists";
 
 export const metadata: Metadata = {
   title: `${SITE.name} — ${SITE.tagline}`,
@@ -185,8 +186,51 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── The Journal — Bodega Labs ── */}
+      {/* ── The FitBodega 100 — ranked world lists ── */}
       <section className="py-24 lg:py-32 bg-surface-low">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex items-center gap-3 mb-4">
+            <span className="w-7 h-[3px] bg-primary" aria-hidden />
+            <p className="font-sans text-label-md uppercase text-primary">Ranked monthly</p>
+          </div>
+          <h2 className="font-serif text-display-md uppercase text-on-surface mb-4">
+            The FitBodega 100
+          </h2>
+          <p className="font-sans text-base text-on-surface-variant max-w-xl mb-14">
+            Six world rankings, one scoring system. The people, places, and spaces that define
+            training culture.
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {TOP100_LISTS.map((list, i) => (
+              <Link
+                key={list.slug}
+                href={list.slug}
+                className="group bg-surface-card hover:bg-surface-input transition-colors duration-300 p-7 lg:p-8 flex flex-col min-h-[180px]"
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <span className="font-sans text-label-sm text-on-surface-variant tabular-nums">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <ArrowUpRight
+                    size={20}
+                    className="flex-shrink-0 text-outline-variant group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
+                  />
+                </div>
+                <div className="mt-auto pt-8">
+                  <h3 className="font-serif text-xl lg:text-2xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
+                    {list.navLabel}
+                  </h3>
+                  <p className="font-sans text-sm text-on-surface-variant mt-2">{list.desc}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── The Journal — Bodega Labs ── */}
+      <section className="py-24 lg:py-32 bg-bg">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
             <div>

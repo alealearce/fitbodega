@@ -1,16 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-
-// Every list in the FitBodega 100 series. Add new lists here and every list
-// page's "More of the series" section picks them up.
-export const TOP100_LISTS = [
-  { slug: "/top-100-fitness-influencers", title: "Top 100 Fitness Influencers" },
-  { slug: "/top-100-gyms", title: "Top 100 Gyms in the World" },
-  { slug: "/top-100-fitness-retreats", title: "Top 100 Fitness Retreats & Wellness Resorts" },
-  { slug: "/top-100-hyrox-athletes", title: "Top 100 Hyrox Athletes to Follow" },
-  { slug: "/top-100-online-fitness-coaches", title: "Top 100 Online Fitness Coaches" },
-  { slug: "/top-100-recovery-spaces", title: "Top 100 Recovery Spaces" },
-] as const;
+import { TOP100_LISTS } from "./lists";
 
 export default function SeriesLinks({ current }: { current: string }) {
   const others = TOP100_LISTS.filter((l) => l.slug !== current);
