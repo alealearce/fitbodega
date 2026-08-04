@@ -10,10 +10,10 @@ import {
   ChevronRight,
   AlertTriangle,
   Zap,
-  ArrowUpRight,
   type LucideIcon,
 } from "lucide-react";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
+import SeriesLinks from "@/components/top100/SeriesLinks";
 import data from "@/data/top-100/fitness-influencers.json";
 
 const WEIGHT_ICONS: Record<string, LucideIcon> = {
@@ -292,27 +292,7 @@ export default function Top100FitnessInfluencersPage() {
         </section>
       )}
 
-      {/* ── Series cross-link ── */}
-      <section className="py-20 lg:py-24 bg-bg">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="w-7 h-[3px] bg-primary" aria-hidden />
-            <p className="font-sans text-label-md uppercase text-primary">More of the series</p>
-          </div>
-          <Link
-            href="/top-100-gyms"
-            className="group flex items-baseline justify-between gap-6 py-7 hover:bg-surface-low -mx-6 lg:-mx-8 px-6 lg:px-8 transition-colors duration-300"
-          >
-            <h3 className="font-serif text-2xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
-              Top 100 Gyms in the World
-            </h3>
-            <ArrowUpRight
-              size={22}
-              className="flex-shrink-0 text-outline-variant group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
-            />
-          </Link>
-        </div>
-      </section>
+      <SeriesLinks current="/top-100-fitness-influencers" />
 
       {/* ── Outro CTA ── */}
       <section className="pb-20 lg:pb-24 bg-bg">

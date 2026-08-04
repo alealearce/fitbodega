@@ -73,6 +73,34 @@ const LISTS = {
   },
 };
 
+LISTS.retreats = {
+  segPattern: /^ret-seg-.*\.json$/,
+  weights: {
+    program: 0.2,
+    prestige: 0.2,
+    facility: 0.15,
+    setting: 0.15,
+    reach: 0.15,
+    results: 0.15,
+  },
+  discountTier: null,
+  discount: 1,
+  reachBase: { count: 15e3, score: 40 },
+  meta: {
+    title: "Top 100 Fitness Retreats & Wellness Resorts 2026",
+    subtitle:
+      "The world's best places to book a stay and train — ranked. Transformation camps, longevity clinics, sport meccas, and the resorts where fitness is the point of the trip.",
+    scoreModel: {
+      name: "Retreat Influence Score",
+      gate: "Bookable stays with a genuine fitness or movement program only — no pure spas or beauty clinics. Training camps and wellness resorts are scored on the same scale.",
+      notes:
+        "Reach is log-scaled and recomputed from each property's researched follower counts. The five judgment factors — program, prestige, facility, setting, results — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+    },
+    disclaimer:
+      "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; programs, prices, and properties change — check before you book.",
+  },
+};
+
 const [segDir, outFile, listId = "influencers"] = process.argv.slice(2);
 const LIST = LISTS[listId];
 if (!segDir || !outFile || !LIST) {

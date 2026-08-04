@@ -1,27 +1,28 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
-  Landmark,
-  Trophy,
-  Dumbbell,
-  Users,
+  ClipboardCheck,
+  Award,
+  Building2,
+  Palmtree,
   Megaphone,
-  MapPin,
+  TrendingUp,
   ChevronRight,
   AlertTriangle,
+  MapPin,
   type LucideIcon,
 } from "lucide-react";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import SeriesLinks from "@/components/top100/SeriesLinks";
-import data from "@/data/top-100/gyms.json";
+import data from "@/data/top-100/retreats.json";
 
 const WEIGHT_ICONS: Record<string, LucideIcon> = {
-  legacy: Landmark,
-  talent: Trophy,
-  facility: Dumbbell,
-  community: Users,
+  program: ClipboardCheck,
+  prestige: Award,
+  facility: Building2,
+  setting: Palmtree,
   reach: Megaphone,
-  destination: MapPin,
+  results: TrendingUp,
 };
 
 const HANDLE_LABELS: Record<string, string> = {
@@ -32,18 +33,18 @@ const HANDLE_LABELS: Record<string, string> = {
   facebook: "Facebook",
 };
 
-const PAGE_TITLE = "Top 100 Gyms in the World 2026";
+const PAGE_TITLE = "Top 100 Fitness Retreats & Wellness Resorts 2026";
 const PAGE_DESC =
-  "The most influential training grounds on earth, ranked by the Gym Influence Score — legacy, talent, facility, community, reach, and destination pull. Reviewed monthly.";
+  "The world's best fitness vacations, ranked by the Retreat Influence Score — program, prestige, facility, setting, reach, and results. Training camps, longevity clinics, and wellness resorts. Reviewed monthly.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
   description: PAGE_DESC,
-  alternates: { canonical: `${SITE.url}/top-100-gyms` },
+  alternates: { canonical: `${SITE.url}/top-100-fitness-retreats` },
   openGraph: {
     title: PAGE_TITLE,
     description: PAGE_DESC,
-    url: `${SITE.url}/top-100-gyms`,
+    url: `${SITE.url}/top-100-fitness-retreats`,
     images: [DEFAULT_OG_IMAGE],
     siteName: SITE.name,
     locale: "en_US",
@@ -78,7 +79,7 @@ type Meta = {
   scoreModel: { name: string; gate: string; weights: Record<string, number>; notes: string };
 };
 
-export default function Top100GymsPage() {
+export default function Top100FitnessRetreatsPage() {
   const meta = data.meta as unknown as Meta;
   const entries = data.entries as unknown as Entry[];
   const bubbling = (data.bubblingUnder ?? []) as unknown as Bubbling[];
@@ -113,8 +114,8 @@ export default function Top100GymsPage() {
               {e.city}
             </span>
           )}
-          {e.tier === "chain-flagship" && (
-            <span className="font-sans text-label-sm uppercase text-primary">Flagship</span>
+          {e.tier === "training-camp" && (
+            <span className="font-sans text-label-sm uppercase text-primary">Camp</span>
           )}
         </span>
         <span
@@ -191,8 +192,8 @@ export default function Top100GymsPage() {
             <span className="w-7 h-[3px] bg-primary" aria-hidden />
             <p className="font-sans text-label-md uppercase text-primary">{meta.series}</p>
           </div>
-          <h1 className="font-serif text-display-lg lg:text-display-xl uppercase tracking-tight text-on-surface max-w-4xl">
-            Top 100 <span className="text-primary">Gyms</span> in the World 2026
+          <h1 className="font-serif text-display-lg lg:text-display-xl uppercase tracking-tight text-on-surface max-w-5xl">
+            Top 100 Fitness <span className="text-primary">Retreats</span> 2026
           </h1>
           <p className="font-sans text-base lg:text-lg text-on-surface-variant mt-6 max-w-2xl">
             {meta.subtitle}
@@ -281,17 +282,17 @@ export default function Top100GymsPage() {
         </section>
       )}
 
-      <SeriesLinks current="/top-100-gyms" />
+      <SeriesLinks current="/top-100-fitness-retreats" />
 
       {/* ── Outro CTA ── */}
       <section className="pb-20 lg:pb-24 bg-bg">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="bg-primary px-8 py-12 lg:px-14 lg:py-16">
             <h2 className="font-serif text-display-md uppercase text-primary-on max-w-2xl">
-              Run a gym that belongs here?
+              Run a retreat that belongs here?
             </h2>
             <p className="font-sans text-base text-primary-on/80 mt-4 max-w-xl">
-              The ranking is reviewed {meta.reviewCadence}. Corrections, disputes, and gyms we
+              The ranking is reviewed {meta.reviewCadence}. Corrections, disputes, and places we
               should be tracking:{" "}
               <a href={`mailto:${SITE.email}`} className="font-bold underline underline-offset-4">
                 {SITE.email}
@@ -301,7 +302,7 @@ export default function Top100GymsPage() {
               href="/submit"
               className="inline-block mt-8 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
             >
-              List your gym on FitBodega
+              List your space on FitBodega
             </Link>
           </div>
         </div>

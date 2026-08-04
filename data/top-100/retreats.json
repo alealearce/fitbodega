@@ -1,0 +1,2973 @@
+{
+  "meta": {
+    "title": "Top 100 Fitness Retreats & Wellness Resorts 2026",
+    "subtitle": "The world's best places to book a stay and train — ranked. Transformation camps, longevity clinics, sport meccas, and the resorts where fitness is the point of the trip.",
+    "scoreModel": {
+      "name": "Retreat Influence Score",
+      "gate": "Bookable stays with a genuine fitness or movement program only — no pure spas or beauty clinics. Training camps and wellness resorts are scored on the same scale.",
+      "notes": "Reach is log-scaled and recomputed from each property's researched follower counts. The five judgment factors — program, prestige, facility, setting, results — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+      "weights": {
+        "program": 0.2,
+        "prestige": 0.2,
+        "facility": 0.15,
+        "setting": 0.15,
+        "reach": 0.15,
+        "results": 0.15
+      }
+    },
+    "disclaimer": "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; programs, prices, and properties change — check before you book.",
+    "series": "The FitBodega 100",
+    "updated": "2026-08-04",
+    "reviewCadence": "monthly"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "name": "Club La Santa",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Lanzarote",
+      "country": "ES",
+      "who": "Self-contained multisport campus on Lanzarote's lava coast, with stays from a few days to several weeks and full swim/bike/run infrastructure.",
+      "why": "The original multisport training mecca, running since 1979 and the home base of IRONMAN Lanzarote.",
+      "factors": {
+        "program": 87,
+        "prestige": 92,
+        "facility": 90,
+        "setting": 80,
+        "reach": 57,
+        "results": 77
+      },
+      "reach": "IG 105K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.clublasanta.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/clublasanta/"
+      },
+      "warning": null,
+      "score": 81
+    },
+    {
+      "rank": 2,
+      "name": "Sensei Lanai, A Four Seasons Resort",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Lanai, Hawaii",
+      "country": "US",
+      "who": "Larry Ellison-backed science-driven retreat pairing personal Sensei guides with movement, nutrition, and sleep programs, from ~$2,500/night.",
+      "why": "The most heavily funded new wellness-resort concept of the last decade, co-run with Four Seasons on a private Hawaiian island.",
+      "factors": {
+        "program": 80,
+        "prestige": 86,
+        "facility": 83,
+        "setting": 88,
+        "reach": 54,
+        "results": 78
+      },
+      "reach": "IG 74K (verified 2026-08, @fslanai)",
+      "reachVerified": true,
+      "website": "https://www.sensei.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/fslanai/"
+      },
+      "warning": null,
+      "score": 79
+    },
+    {
+      "rank": 3,
+      "name": "Tiger Muay Thai",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Chalong, Phuket",
+      "country": "TH",
+      "who": "Stay-and-train Muay Thai/MMA camp with 150+ classes a week across fitness, yoga, BJJ, strength & conditioning and beach bootcamps; dorm rooms from ~6,000 baht/month up to bungalows.",
+      "why": "The largest and most internationally recognized combat-sports training camp in the world, drawing fighters and fitness travelers from every continent year-round.",
+      "factors": {
+        "program": 88,
+        "prestige": 85,
+        "facility": 81,
+        "setting": 71,
+        "reach": 76,
+        "results": 71
+      },
+      "reach": "IG 924K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.tigermuaythai.com/",
+      "handles": {
+        "instagram": "https://instagram.com/tigermuaythai"
+      },
+      "warning": null,
+      "score": 79
+    },
+    {
+      "rank": 4,
+      "name": "SHA Wellness Clinic",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "L'Alfàs del Pi, Alicante",
+      "country": "ES",
+      "who": "Oceanfront medical-wellness flagship, 4-21 night stays, macrobiotic cuisine and full diagnostic medicine; from ~$900/night.",
+      "why": "The clinic most other medical resorts get compared to; pioneered the integrative-medicine-plus-fitness format in Europe.",
+      "factors": {
+        "program": 80,
+        "prestige": 83,
+        "facility": 83,
+        "setting": 80,
+        "reach": 67,
+        "results": 77
+      },
+      "reach": "IG 29K @shawellness_spain (verified 2026-08); brand-wide @shawellness 301K",
+      "reachVerified": true,
+      "website": "https://shawellness.com/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/shawellness_spain/"
+      },
+      "warning": null,
+      "score": 79
+    },
+    {
+      "rank": 5,
+      "name": "Clinique La Prairie",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Montreux",
+      "country": "CH",
+      "who": "Lake Geneva longevity clinic operating since 1931, revitalization and cellular-therapy programs plus a full fitness and movement wing; from ~$1,500/night.",
+      "why": "The longest-running name in medical longevity tourism; near-century of celebrity clientele and press.",
+      "factors": {
+        "program": 80,
+        "prestige": 87,
+        "facility": 83,
+        "setting": 85,
+        "reach": 57,
+        "results": 80
+      },
+      "reach": "IG 104K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://cliniquelaprairie.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/cliniquelaprairie/"
+      },
+      "warning": null,
+      "score": 79
+    },
+    {
+      "rank": 6,
+      "name": "Canyon Ranch Tucson",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Tucson, Arizona",
+      "country": "US",
+      "who": "Original destination-spa resort on a 150-acre Sonoran desert campus, all-inclusive stays from ~$1,200/night.",
+      "why": "The property that invented the modern destination spa in 1979; Michelin Guide gave it its top Three Keys honor in 2025.",
+      "factors": {
+        "program": 78,
+        "prestige": 90,
+        "facility": 86,
+        "setting": 80,
+        "reach": 59,
+        "results": 73
+      },
+      "reach": "IG 141K (verified 2026-08, shared @canyonranch brand account)",
+      "reachVerified": true,
+      "website": "https://www.canyonranch.com/tucson",
+      "handles": {
+        "instagram": "https://www.instagram.com/canyonranch/"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 7,
+      "name": "Kamalaya Koh Samui",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Koh Samui",
+      "country": "TH",
+      "who": "Wellness sanctuary built around a former monk's cave; week-long detox, burnout, and fitness programs led by an in-house team of doctors, TCM practitioners, and trainers.",
+      "why": "Regularly ranked among the world's top wellness resorts by Conde Nast and Travel+Leisure.",
+      "factors": {
+        "program": 77,
+        "prestige": 87,
+        "facility": 81,
+        "setting": 87,
+        "reach": 51,
+        "results": 81
+      },
+      "reach": "IG 55K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.kamalaya.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/kamalayakohsamui/"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 8,
+      "name": "Lanserhof Tegernsee",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Bad Wiessee, Bavaria",
+      "country": "DE",
+      "who": "Modernist medical health resort built around the Lanserhof/F.X. Mayr cure, with in-house physicians and diagnostics; from ~$1,100/night.",
+      "why": "Widely cited as the benchmark European medical spa; the architecture and Mayr-cure protocol both get copied.",
+      "factors": {
+        "program": 83,
+        "prestige": 85,
+        "facility": 85,
+        "setting": 77,
+        "reach": 55,
+        "results": 80
+      },
+      "reach": "IG ~112K brand-wide @lanserhof (verified 2026-08, no site-specific handle found)",
+      "reachVerified": true,
+      "website": "https://lanserhof.com/en/lanserhof-tegernsee/",
+      "handles": {
+        "instagram": "https://www.instagram.com/lanserhof/"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 9,
+      "name": "Palazzo Fiuggi",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Fiuggi",
+      "country": "IT",
+      "who": "Early-1900s palace near Rome converted in 2021 into a high-tech longevity clinic with full diagnostics, gym, and Pilates/yoga studios; from ~$1,300/night.",
+      "why": "Fastest-rising name in medical wellness; Oprah's publicly named favorite and a 2025 Condé Nast Best Destination Spa winner.",
+      "factors": {
+        "program": 82,
+        "prestige": 83,
+        "facility": 85,
+        "setting": 80,
+        "reach": 53,
+        "results": 80
+      },
+      "reach": "IG 67K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.palazzofiuggi.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/palazzofiuggi/"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 10,
+      "name": "Surf Simply",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Nosara",
+      "country": "CR",
+      "who": "All-inclusive boutique surf-coaching resort; week-long stays built entirely around technical, video-analyzed surf instruction, from about $4,000/week.",
+      "why": "Pioneered systemized surf coaching and is the most media-covered dedicated surf-coaching resort (NYT, Conde Nast, WSJ, CNN).",
+      "factors": {
+        "program": 90,
+        "prestige": 82,
+        "facility": 67,
+        "setting": 84,
+        "reach": 65,
+        "results": 72
+      },
+      "reach": "IG 275K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://surfsimply.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/surfsimply/"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 11,
+      "name": "Rancho La Puerta",
+      "segment": "Americas Resorts",
+      "tier": "training-camp",
+      "city": "Tecate, Baja California",
+      "country": "MX",
+      "who": "80-plus-year-old fitness ranch on a mountain estate with six gyms, dozens of daily classes, and an organic farm, from ~$650/night all-inclusive.",
+      "why": "The oldest destination fitness resort in the Americas and a direct model for Golden Door and Canyon Ranch.",
+      "factors": {
+        "program": 83,
+        "prestige": 86,
+        "facility": 80,
+        "setting": 86,
+        "reach": 49,
+        "results": 76
+      },
+      "reach": "IG 42K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://rancholapuerta.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/rancholapuerta/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 12,
+      "name": "Chiva-Som International Health Resorts",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Hua Hin",
+      "country": "TH",
+      "who": "Beachfront medical-wellness resort; 3-14 night programs pairing naturopathy and spa with daily fitness classes and personal training, from ~$700/night.",
+      "why": "Opened in 1995 and set the template the modern destination-wellness-resort category still follows.",
+      "factors": {
+        "program": 74,
+        "prestige": 91,
+        "facility": 84,
+        "setting": 79,
+        "reach": 49,
+        "results": 79
+      },
+      "reach": "IG 43K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.chivasom.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/chivasomhuahin/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 13,
+      "name": "Ananda in the Himalayas",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Rishikesh, Uttarakhand",
+      "country": "IN",
+      "who": "Wellness resort inside a former Maharaja's palace estate in the Himalayan foothills; Ayurveda, yoga, and structured fitness or weight-management programs of 5-14 nights.",
+      "why": "25 years running as India's flagship destination-wellness address, with repeat #1 finishes in global spa-resort rankings.",
+      "factors": {
+        "program": 75,
+        "prestige": 86,
+        "facility": 79,
+        "setting": 87,
+        "reach": 56,
+        "results": 79
+      },
+      "reach": "IG 92K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.anandaspa.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/anandainthehimalayas/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 14,
+      "name": "The Farm at San Benito",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Lipa, Batangas",
+      "country": "PH",
+      "who": "Medical-wellness resort south of Manila; multi-day fasting, detox, and fitness programs under physician supervision, from ~$400/night.",
+      "why": "Southeast Asia's best-known medical-wellness address, a magnet for regional celebrities and executives.",
+      "factors": {
+        "program": 79,
+        "prestige": 79,
+        "facility": 81,
+        "setting": 77,
+        "reach": 62,
+        "results": 84
+      },
+      "reach": "IG 195K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.thefarmatsanbenito.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/thefarmatsanbenito/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 15,
+      "name": "Euphoria Retreat",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Mystras",
+      "country": "GR",
+      "who": "Destination spa retreat in the Peloponnese running 4-14 night holistic programs (yoga, Pilates, TCM, detox); from ~$800/night.",
+      "why": "The most awarded and widely covered wellness retreat in Greece, seen as continental Europe's holistic benchmark.",
+      "factors": {
+        "program": 78,
+        "prestige": 85,
+        "facility": 81,
+        "setting": 91,
+        "reach": 48,
+        "results": 75
+      },
+      "reach": "IG 37K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.euphoriaretreat.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/euphoriaretreat/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 16,
+      "name": "Lanserhof Sylt",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Sylt",
+      "country": "DE",
+      "who": "Lanserhof's newer North Sea-island outpost, dune-set architecture and the same medical Mayr-cure program; from ~$1,100/night.",
+      "why": "Extends the Lanserhof standard to Germany's most exclusive island resort market.",
+      "factors": {
+        "program": 82,
+        "prestige": 80,
+        "facility": 83,
+        "setting": 83,
+        "reach": 55,
+        "results": 78
+      },
+      "reach": "IG ~112K brand-wide @lanserhof (verified 2026-08, no site-specific handle found)",
+      "reachVerified": true,
+      "website": "https://lanserhof.com/en/lanserhof-sylt/",
+      "handles": {
+        "instagram": "https://www.instagram.com/lanserhof/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 17,
+      "name": "The Ranch Malibu",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Malibu, California",
+      "country": "US",
+      "who": "4- and 7-night residential retreat: 4-6 hours of coached daily hiking, plant-based meals, no phones, capped at 20-24 guests; from ~$1,200/night.",
+      "why": "The benchmark hiking-based transformation retreat since 2010; the format every later hiking bootcamp on this list copies, with a long, quiet celebrity guest history.",
+      "factors": {
+        "program": 91,
+        "prestige": 91,
+        "facility": 65,
+        "setting": 88,
+        "reach": 25,
+        "results": 85
+      },
+      "reach": "IG 1.5K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.theranchlife.com/locations/malibu/",
+      "handles": {
+        "instagram": "https://instagram.com/theranchmalibu"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 18,
+      "name": "Chenot Palace Weggis",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Weggis",
+      "country": "CH",
+      "who": "Lake Lucerne palace hotel running the Chenot Method detox and diagnostics program in a 5,000 sqm medical spa; from ~$1,000/night.",
+      "why": "Henri Chenot's original detox methodology, now franchised worldwide, still headquarters here.",
+      "factors": {
+        "program": 80,
+        "prestige": 80,
+        "facility": 80,
+        "setting": 83,
+        "reach": 56,
+        "results": 77
+      },
+      "reach": "IG 94K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.chenot.com/chenot-palace/weggis/",
+      "handles": {
+        "instagram": "https://www.instagram.com/chenotpalaceweggis/"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 19,
+      "name": "Playitas Resort",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Fuerteventura",
+      "country": "ES",
+      "who": "All-inclusive sports resort built around a multisport complex; week-long triathlon, athletics, and team-sport camps for pros and amateurs.",
+      "why": "Voted among Europe's top triathlon training centres by pro athletes and coaches; hosts national federations year-round.",
+      "factors": {
+        "program": 84,
+        "prestige": 80,
+        "facility": 87,
+        "setting": 77,
+        "reach": 50,
+        "results": 74
+      },
+      "reach": "IG 50K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.playitas.net",
+      "handles": {
+        "instagram": "https://www.instagram.com/playitasresort/"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 20,
+      "name": "Miraval Arizona",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Tucson, Arizona",
+      "country": "US",
+      "who": "Mindfulness-and-movement resort (zip line, equine therapy, fitness classes) that popularized the wellness-resort format for a celebrity clientele.",
+      "why": "One of the most media-covered US wellness resorts of the past two decades; spawned sister properties nationwide.",
+      "factors": {
+        "program": 76,
+        "prestige": 83,
+        "facility": 80,
+        "setting": 82,
+        "reach": 56,
+        "results": 70
+      },
+      "reach": "IG 98K (verified 2026-08, @miravalresorts brand account covers all locations)",
+      "reachVerified": true,
+      "website": "https://www.miravalresorts.com/arizona",
+      "handles": {
+        "instagram": "https://www.instagram.com/miravalarizona/"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
+      "rank": 21,
+      "name": "Golden Door",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "San Marcos, California",
+      "country": "US",
+      "who": "Ultra-exclusive fitness-and-spa retreat capped at around a dozen guests a week, from ~$1,600/night.",
+      "why": "The benchmark for boutique luxury fitness retreats since 1958; still the model other high-end resorts imitate.",
+      "factors": {
+        "program": 83,
+        "prestige": 86,
+        "facility": 73,
+        "setting": 78,
+        "reach": 48,
+        "results": 76
+      },
+      "reach": "IG 38K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.goldendoor.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/thegoldendoor/"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
+      "rank": 22,
+      "name": "Amanpuri",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Phuket",
+      "country": "TH",
+      "who": "Original Aman flagship resort; Holistic Wellness Centre runs multi-day wellness immersions of Pilates, Muay Thai, yoga, and beach bootcamps alongside standard resort stays, from ~$1,500/night.",
+      "why": "The property that popularized ultra-luxury resort wellness across Asia and remains the category's aspirational benchmark.",
+      "factors": {
+        "program": 67,
+        "prestige": 89,
+        "facility": 79,
+        "setting": 89,
+        "reach": 57,
+        "results": 64
+      },
+      "reach": "IG 111K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.aman.com/resorts/amanpuri",
+      "handles": {
+        "instagram": "https://www.instagram.com/amanpuri/"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
+      "rank": 23,
+      "name": "IMG Academy",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Bradenton, Florida",
+      "country": "US",
+      "who": "Multi-sport athletic campus running adult and family performance camps across 11 sports nearly every week of the year, with discounted stays at the on-site Legacy Hotel.",
+      "why": "The most recognized sports-performance brand in the US, built on decades of producing pro and Olympic athletes.",
+      "factors": {
+        "program": 82,
+        "prestige": 84,
+        "facility": 87,
+        "setting": 57,
+        "reach": 65,
+        "results": 67
+      },
+      "reach": "IG 282K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.imgacademy.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/imgacademy/"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
+      "rank": 24,
+      "name": "Chable Yucatan",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Chocholá, Yucatan",
+      "country": "MX",
+      "who": "Ultra-luxury jungle resort built around a cenote, with a longevity clinic and fitness program, from ~$1,200/night.",
+      "why": "Named to The World's 50 Best Hotels list in 2025, giving it outsized prestige for a wellness-focused property.",
+      "factors": {
+        "program": 68,
+        "prestige": 83,
+        "facility": 78,
+        "setting": 88,
+        "reach": 56,
+        "results": 73
+      },
+      "reach": "IG 93K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.chablehotels.com/en/chable-yucatan",
+      "handles": {
+        "instagram": "https://www.instagram.com/chableyucatan/"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 25,
+      "name": "Kurotel",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Gramado, Rio Grande do Sul",
+      "country": "BR",
+      "who": "Medical longevity center and spa with personal training, Pilates, aquatic fitness, and morning hikes alongside clinical diagnostics, from ~$700/night.",
+      "why": "Elected Best Spa of the Americas; over 40 years of medical-grade longevity and integrative-health programming.",
+      "factors": {
+        "program": 76,
+        "prestige": 78,
+        "facility": 80,
+        "setting": 66,
+        "reach": 57,
+        "results": 83
+      },
+      "reach": "IG 105K (verified 2026-08, @kuroteloficial)",
+      "reachVerified": true,
+      "website": "https://www.kurotel.com.br/",
+      "handles": {
+        "instagram": "https://www.instagram.com/kuroteloficial/"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 26,
+      "name": "COMO Shambhala Estate",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Ubud, Bali",
+      "country": "ID",
+      "who": "Rainforest wellness estate above the Ayung River; multi-day programs combining yoga, personal training, and Ayurvedic/TCM consultations in private villas, from ~$900/night.",
+      "why": "One of the properties that defined Bali wellness luxury in the 2000s and still draws repeat A-list guests.",
+      "factors": {
+        "program": 71,
+        "prestige": 84,
+        "facility": 77,
+        "setting": 89,
+        "reach": 48,
+        "results": 74
+      },
+      "reach": "IG 39K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.comohotels.com/bali/como-shambhala-estate",
+      "handles": {
+        "instagram": "https://www.instagram.com/comoshambhalaestate/"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 27,
+      "name": "Grantley Hall (ELITE Gym)",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "training-camp",
+      "city": "Yorkshire",
+      "country": "GB",
+      "who": "Yorkshire country-house hotel built around the ELITE performance gym: personal training, cryotherapy and half/full-day fitness experiences; from ~$600/night.",
+      "why": "Widely covered as the UK's most serious hotel gym, pairing five-star hospitality with genuine strength-and-conditioning depth.",
+      "factors": {
+        "program": 81,
+        "prestige": 75,
+        "facility": 88,
+        "setting": 78,
+        "reach": 59,
+        "results": 61
+      },
+      "reach": "IG 134K (verified 2026-08, hotel account)",
+      "reachVerified": true,
+      "website": "https://www.grantleyhall.co.uk/spa-wellness/elite-gym/",
+      "handles": {
+        "instagram": "https://www.instagram.com/grantleyhall_/"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 28,
+      "name": "SIRO One Za'abeel",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "training-camp",
+      "city": "Dubai",
+      "country": "AE",
+      "who": "Dubai's first purpose-built fitness-and-recovery hotel, with biometric onboarding, cryotherapy and a science-based training program; from ~$500/night.",
+      "why": "Kerzner's 2024 launch was covered globally as a new hotel category: fitness and recovery as the entire guest journey, not an add-on.",
+      "factors": {
+        "program": 85,
+        "prestige": 78,
+        "facility": 91,
+        "setting": 68,
+        "reach": 51,
+        "results": 68
+      },
+      "reach": "IG 55K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.onezaabeel.com/siro/",
+      "handles": {
+        "instagram": "https://www.instagram.com/siroonezaabeel/"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 29,
+      "name": "The BodyHoliday",
+      "segment": "Americas Resorts",
+      "tier": "training-camp",
+      "city": "Cap Estate",
+      "country": "LC",
+      "who": "All-inclusive Caribbean fitness resort with a structured daily sport program (gym, watersports, personal training) built into the room rate, from ~$700/night.",
+      "why": "The Caribbean's original and best-known fitness-first resort, running the same all-inclusive training model for over 40 years.",
+      "factors": {
+        "program": 80,
+        "prestige": 78,
+        "facility": 76,
+        "setting": 83,
+        "reach": 49,
+        "results": 70
+      },
+      "reach": "IG 42K (verified 2026-07)",
+      "reachVerified": true,
+      "website": "https://www.thebodyholiday.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/thebodyholiday/"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 30,
+      "name": "Six Senses Vana",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Dehradun, Uttarakhand",
+      "country": "IN",
+      "who": "Long-running wellness retreat (est. 2014) folded into the Six Senses portfolio in 2023 under its original owner; multi-week Ayurveda, yoga, and fitness immersions.",
+      "why": "One of the few India retreats with genuine medical/Ayurveda depth, now backed by a global luxury-wellness brand's distribution.",
+      "factors": {
+        "program": 73,
+        "prestige": 79,
+        "facility": 77,
+        "setting": 81,
+        "reach": 51,
+        "results": 77
+      },
+      "reach": "IG 54K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/india/vana/",
+      "handles": {
+        "instagram": "https://www.instagram.com/sixsensesvana/"
+      },
+      "warning": "Rebranded from independent 'Vana' to 'Six Senses Vana' in 2023; same owner and team.",
+      "score": 73
+    },
+    {
+      "rank": 31,
+      "name": "Aro Ha Wellness Retreat",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "training-camp",
+      "city": "Glenorchy",
+      "country": "NZ",
+      "who": "Adventure-fitness retreat in the Southern Alps; 4-7 night programs of daily hiking, HIIT, and yoga with plant-based meals, for small groups of about 20.",
+      "why": "The reference 'get fit in nature' retreat of the Southern Hemisphere, repeatedly named New Zealand's top wellness address.",
+      "factors": {
+        "program": 81,
+        "prestige": 74,
+        "facility": 64,
+        "setting": 91,
+        "reach": 50,
+        "results": 77
+      },
+      "reach": "IG 48K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.aro-ha.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/aroharetreats/"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 32,
+      "name": "SHA Mexico",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Costa Mujeres, Quintana Roo",
+      "country": "MX",
+      "who": "SHA's Caribbean sister clinic on a private beach, same integrative-medicine method as the Spain original; from ~$900/night.",
+      "why": "Brings the SHA method to the Americas with a beachfront setting the Spain original lacks.",
+      "factors": {
+        "program": 77,
+        "prestige": 70,
+        "facility": 80,
+        "setting": 83,
+        "reach": 57,
+        "results": 73
+      },
+      "reach": "IG 107K @shawellness_mexico (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://shawellness.com/en/locations/sha-mexico/",
+      "handles": {
+        "instagram": "https://www.instagram.com/shawellness_mexico/"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 33,
+      "name": "Sensei Porcupine Creek",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Rancho Mirage, California",
+      "country": "US",
+      "who": "Sensei's desert retreat on Larry Ellison's former estate, 22 rooms, golf, tennis and evidence-based wellness programming; from ~$2,000/night.",
+      "why": "Confirmed open and operating in 2026; expands the Sensei method into the Palm Springs desert wellness market.",
+      "factors": {
+        "program": 80,
+        "prestige": 75,
+        "facility": 77,
+        "setting": 80,
+        "reach": 46,
+        "results": 75
+      },
+      "reach": "IG ~76K brand-wide @sensei across Lanai/Porcupine Creek/Zadun (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://sensei.com/retreats/porcupine-creek/",
+      "handles": {
+        "instagram": "https://www.instagram.com/sensei/"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 34,
+      "name": "VIVAMAYR Maria Wörth",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Maria Wörth, Carinthia",
+      "country": "AT",
+      "who": "Lakeside medical health resort built on F.X. Mayr digestive medicine, with full diagnostics, movement and nutrition coaching; from ~$700/night.",
+      "why": "One of the two flagship VIVAMAYR sites that popularized the Mayr cure internationally.",
+      "factors": {
+        "program": 77,
+        "prestige": 77,
+        "facility": 73,
+        "setting": 77,
+        "reach": 58,
+        "results": 75
+      },
+      "reach": "IG 116K @vivamayrmariawoerth (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.vivamayr.com/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/vivamayrmariawoerth/"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 35,
+      "name": "Buchinger Wilhelmi",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Uberlingen, Lake Constance",
+      "country": "DE",
+      "who": "The original medically supervised therapeutic-fasting clinic, running since the 1920s, with daily movement and physician oversight; from ~$500/night.",
+      "why": "The clinic that invented modern medical fasting; still the most cited name in fasting research and longevity press.",
+      "factors": {
+        "program": 80,
+        "prestige": 80,
+        "facility": 70,
+        "setting": 73,
+        "reach": 52,
+        "results": 80
+      },
+      "reach": "IG 59K @buchingerwilhelmi (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.buchinger-wilhelmi.com/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/buchingerwilhelmi/"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 36,
+      "name": "Gwinganna Lifestyle Retreat",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Tallebudgera Valley, Gold Coast",
+      "country": "AU",
+      "who": "Hilltop lifestyle retreat above the Gold Coast; 4-10 night stays built around daily bootcamp-style training, yoga, and health-coaching seminars, with microbiome testing added for 2026.",
+      "why": "Australia's longest-running fitness-forward wellness retreat, long favored by local executives and celebrities.",
+      "factors": {
+        "program": 77,
+        "prestige": 77,
+        "facility": 67,
+        "setting": 81,
+        "reach": 51,
+        "results": 74
+      },
+      "reach": "IG 52K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.gwinganna.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/gwinganna/"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 37,
+      "name": "Six Senses Ibiza",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Ibiza",
+      "country": "ES",
+      "who": "Cliffside wellness resort on Ibiza's northern tip with an Alchemy Bar biohacking lab, fitness classes and longevity diagnostics; from ~$700/night.",
+      "why": "Six Senses' flagship European biohacking property, blending measurable diagnostics with resort-level design and setting.",
+      "factors": {
+        "program": 65,
+        "prestige": 73,
+        "facility": 78,
+        "setting": 88,
+        "reach": 60,
+        "results": 68
+      },
+      "reach": "IG 146K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.sixsenses.com/en/hotels-resorts/ibiza",
+      "handles": {
+        "instagram": "https://www.instagram.com/sixsenses.ibiza/"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 38,
+      "name": "RAKxa Integrative Wellness",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Bangkok",
+      "country": "TH",
+      "who": "Riverside medical-wellness retreat blending Western diagnostics with Ayurveda, Traditional Chinese and Thai medicine, plus fitness and movement studios; from ~$600/night.",
+      "why": "Thailand's leading medical-integrative resort, from the founders of Chiva-Som, and a fast-growing regional benchmark.",
+      "factors": {
+        "program": 75,
+        "prestige": 73,
+        "facility": 80,
+        "setting": 73,
+        "reach": 55,
+        "results": 73
+      },
+      "reach": "IG 85K @rakxawellness (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://rakxawellness.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/rakxawellness/"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 39,
+      "name": "Joali Being",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Bodufushi Island, Raa Atoll",
+      "country": "MV",
+      "who": "A private Maldivian island fully dedicated to well-living rather than à la carte spa, with personalised Mind/Skin/Microbiome/Energy programmes and daily movement; from ~$2,000/night.",
+      "why": "The first Maldives resort built entirely around structured wellbeing science rather than beach-and-spa leisure.",
+      "factors": {
+        "program": 67,
+        "prestige": 73,
+        "facility": 77,
+        "setting": 87,
+        "reach": 61,
+        "results": 67
+      },
+      "reach": "IG 160K @joalibeing (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.joali.com/joali-being/",
+      "handles": {
+        "instagram": "https://www.instagram.com/joalibeing/"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 40,
+      "name": "explora",
+      "segment": "Americas Resorts",
+      "tier": "training-camp",
+      "city": "Atacama Desert & Patagonia",
+      "country": "CL",
+      "who": "Adventure-fitness lodges with graded daily guided hiking, trekking, and biking excursions across Chile's most extreme landscapes.",
+      "why": "The benchmark adventure-lodge operator in South America, multi-award-winning across nine lodges in four countries.",
+      "factors": {
+        "program": 73,
+        "prestige": 80,
+        "facility": 63,
+        "setting": 90,
+        "reach": 60,
+        "results": 53
+      },
+      "reach": "IG 153K (verified 2026-08, @exploratravel)",
+      "reachVerified": true,
+      "website": "https://www.explora.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/exploratravel/"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 41,
+      "name": "The Body Camp",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Ibiza",
+      "country": "ES",
+      "who": "7-, 14-night and multi-week bootcamp in a rustic Ibizan countryside villa: boxing, circuits, TRX, hikes, ice baths, plant-forward meals; returned to Ibiza for 2026-2027 after runs in Mallorca.",
+      "why": "Entering its 11th year under coach Ricki Parcell, one of Europe's longest-running transformation bootcamp brands, with a large following built on visible client results.",
+      "factors": {
+        "program": 83,
+        "prestige": 71,
+        "facility": 58,
+        "setting": 81,
+        "reach": 59,
+        "results": 71
+      },
+      "reach": "IG 131K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://thebodycamp.com/",
+      "handles": {
+        "instagram": "https://instagram.com/thebodycampofficial"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 42,
+      "name": "Lefay Resort & SPA Lago di Garda",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Gargnano",
+      "country": "IT",
+      "who": "Hillside wellness resort above Lake Garda with a 4,300-square-meter spa temple and movement, TCM and detox programs; from ~$500/night.",
+      "why": "Repeat Conde Nast Traveller and World Spa Award winner, ranked among Europe's top wellness architecture and programming.",
+      "factors": {
+        "program": 58,
+        "prestige": 71,
+        "facility": 83,
+        "setting": 88,
+        "reach": 63,
+        "results": 58
+      },
+      "reach": "IG 213K (verified 2026-08, brand account covers 2 resorts)",
+      "reachVerified": true,
+      "website": "https://lagodigarda.lefayresorts.com/en",
+      "handles": {
+        "instagram": "https://www.instagram.com/lefayresorts/"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 43,
+      "name": "Zulal Wellness Resort by Chiva-Som",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Al Ruwais",
+      "country": "QA",
+      "who": "The Middle East's largest immersive medical wellness resort, gender-segregated wings, full diagnostics and structured movement programs; from ~$800/night.",
+      "why": "Qatar's flagship wellness investment and the region's biggest medical-resort infrastructure play.",
+      "factors": {
+        "program": 73,
+        "prestige": 70,
+        "facility": 83,
+        "setting": 70,
+        "reach": 53,
+        "results": 71
+      },
+      "reach": "IG 68K @zulalwellnessresort (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://zulal.com/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/zulalwellnessresort/"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 44,
+      "name": "Mii amo",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Sedona, Arizona",
+      "country": "US",
+      "who": "Small luxury destination spa inside Enchantment Resort's red-rock canyon, with hiking, movement classes, and energy work.",
+      "why": "One of the most photographed wellness settings in the US, repeatedly ranked among the world's top spas.",
+      "factors": {
+        "program": 68,
+        "prestige": 76,
+        "facility": 70,
+        "setting": 86,
+        "reach": 49,
+        "results": 66
+      },
+      "reach": "IG 40K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://miiamo.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/mii_amo_spa/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 45,
+      "name": "Castle Hot Springs",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Morristown, Arizona",
+      "country": "US",
+      "who": "Historic geothermal-springs resort reopened in 2019, combining hiking and training with natural hot pools on a National Historic Landmark site.",
+      "why": "Arizona's oldest resort site, reborn as a design-forward wellness destination with a strong social following for its scale.",
+      "factors": {
+        "program": 66,
+        "prestige": 73,
+        "facility": 70,
+        "setting": 83,
+        "reach": 59,
+        "results": 60
+      },
+      "reach": "IG 129K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.castlehotsprings.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/castlehotsprings/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 46,
+      "name": "The Ranch Hudson Valley",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Hudson Valley, New York",
+      "country": "US",
+      "who": "East Coast sister of The Ranch Malibu, opened 2024: same 4- to 7-night guided-hiking, plant-based, digital-detox format an hour from NYC.",
+      "why": "Extends The Ranch's proven hiking-retreat formula to the East Coast; fast becoming the default alternative for guests who can't get to Malibu.",
+      "factors": {
+        "program": 87,
+        "prestige": 69,
+        "facility": 68,
+        "setting": 81,
+        "reach": 25,
+        "results": 77
+      },
+      "reach": "IG under 2K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.theranchlife.com/locations/hudson-valley/",
+      "handles": {},
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 47,
+      "name": "The Ashram",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Calabasas, California",
+      "country": "US",
+      "who": "Week-long residential program in the Santa Monica Mountains: sunrise yoga, daily hiking, fitness sessions, massage and plant-based meals; also runs international editions in Mallorca and Japan.",
+      "why": "Founded more than 50 years ago and one of the earliest hiking-and-fitness retreats to attract a celebrity following (Cindy Crawford, Gwyneth Paltrow, Oprah have all attended).",
+      "factors": {
+        "program": 77,
+        "prestige": 81,
+        "facility": 58,
+        "setting": 81,
+        "reach": 36,
+        "results": 73
+      },
+      "reach": "IG 10K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.theashram.com/",
+      "handles": {
+        "instagram": "https://instagram.com/theashram"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 48,
+      "name": "Verdura Resort",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "training-camp",
+      "city": "Sciacca, Sicily",
+      "country": "IT",
+      "who": "Rocco Forte coastal resort in Sicily running multi-sport 'Academies with the Stars' clinics (golf, tennis, football, gymnastics) alongside three championship golf courses; from ~$700/night.",
+      "why": "Hosts pro tournaments (Sicilian Open, Rocco Forte Open) and pairs elite sport infrastructure with celebrity-coach clinics.",
+      "factors": {
+        "program": 73,
+        "prestige": 75,
+        "facility": 81,
+        "setting": 83,
+        "reach": 45,
+        "results": 53
+      },
+      "reach": "IG ~60K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.roccofortehotels.com/hotels-and-resorts/verdura-resort/",
+      "handles": {},
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 49,
+      "name": "Grand Resort Bad Ragaz",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Bad Ragaz",
+      "country": "CH",
+      "who": "150-year-old thermal-water resort with an onsite medical clinic and rehab center alongside spa and golf; from ~$700/night.",
+      "why": "One of Europe's oldest medical-thermal resorts, still ranked among the continent's top medical wellness properties.",
+      "factors": {
+        "program": 70,
+        "prestige": 73,
+        "facility": 77,
+        "setting": 73,
+        "reach": 51,
+        "results": 70
+      },
+      "reach": "IG 53K @resortragaz (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.resortragaz.ch/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/resortragaz/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 50,
+      "name": "Canyon Ranch Lenox",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Lenox, Massachusetts",
+      "country": "US",
+      "who": "Berkshires sister property to the Tucson flagship, same all-inclusive fitness-and-spa program in a forested New England setting.",
+      "why": "A long-running East Coast anchor for the Canyon Ranch brand, drawing on the same 45-year program pedigree.",
+      "factors": {
+        "program": 73,
+        "prestige": 76,
+        "facility": 76,
+        "setting": 76,
+        "reach": 35,
+        "results": 68
+      },
+      "reach": "IG ~8K (approx 2026, no dedicated account found; shares @canyonranch brand)",
+      "reachVerified": false,
+      "website": "https://www.canyonranch.com/lenox",
+      "handles": {},
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 51,
+      "name": "COMO Parrot Cay",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Parrot Cay",
+      "country": "TC",
+      "who": "Private-island luxury resort with the COMO Shambhala wellness program: daily yoga and pilates, a full fitness center, and personal training, from ~$1,500/night.",
+      "why": "One of the Caribbean's most celebrated wellness private islands, with an award-winning in-house program.",
+      "factors": {
+        "program": 66,
+        "prestige": 76,
+        "facility": 68,
+        "setting": 88,
+        "reach": 50,
+        "results": 60
+      },
+      "reach": "IG 45K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.comohotels.com/turks-and-caicos/como-parrot-cay",
+      "handles": {
+        "instagram": "https://www.instagram.com/comoparrotcay/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 52,
+      "name": "Fivelements Retreat Bali",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Ubud, Bali",
+      "country": "ID",
+      "who": "Plant-based healing sanctuary on the Ayung River; multi-day raw-food, yoga, and movement retreats in bamboo architecture, from ~$500/night.",
+      "why": "A pioneer of Bali's plant-based, raw-food wellness scene with a devoted international following.",
+      "factors": {
+        "program": 64,
+        "prestige": 71,
+        "facility": 69,
+        "setting": 87,
+        "reach": 50,
+        "results": 67
+      },
+      "reach": "IG 47K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://fivelementsbali.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/fivelementsretreats/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 53,
+      "name": "Eden Health Retreat",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Currumbin Valley, Gold Coast",
+      "country": "AU",
+      "who": "Rainforest health retreat on almost 400 acres in the Gold Coast hinterland; 3-14 night stays of daily fitness sessions, hikes, and health coaching.",
+      "why": "Billed as Australia's longest-running health retreat, with a large and loyal repeat-guest base.",
+      "factors": {
+        "program": 73,
+        "prestige": 67,
+        "facility": 64,
+        "setting": 79,
+        "reach": 55,
+        "results": 69
+      },
+      "reach": "IG 80K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://eden.com.au",
+      "handles": {
+        "instagram": "https://www.instagram.com/edenretreat.au/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 54,
+      "name": "Forte Village Sports Academies",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "training-camp",
+      "city": "Santa Margherita di Pula, Sardinia",
+      "country": "IT",
+      "who": "Sprawling beachfront family resort in Sardinia running year-round tennis, football and multi-sport academies alongside standard holiday stays; from ~$250/night.",
+      "why": "Decades of Grand Slam-champion clinics and pro-coached junior camps make it one of Europe's original resort sports academies.",
+      "factors": {
+        "program": 71,
+        "prestige": 71,
+        "facility": 81,
+        "setting": 75,
+        "reach": 59,
+        "results": 51
+      },
+      "reach": "IG 139K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.fortevillageresort.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/fortevillage/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 55,
+      "name": "Six Senses Zighy Bay",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Musandam Peninsula",
+      "country": "OM",
+      "who": "Omani beach-and-mountain resort reached by paragliding or 4x4, running tailored wellness programs (detox, sleep, immunity) alongside adventure activity; from ~$900/night.",
+      "why": "One of the most photographed resort arrivals in the world, with a wellness program that pairs adventure with genuine diagnostics.",
+      "factors": {
+        "program": 58,
+        "prestige": 75,
+        "facility": 65,
+        "setting": 93,
+        "reach": 60,
+        "results": 58
+      },
+      "reach": "IG 147K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/oman/zighy-bay/",
+      "handles": {
+        "instagram": "https://www.instagram.com/sixsenseszighybay/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 56,
+      "name": "VIVAMAYR Altaussee",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Altaussee, Styria",
+      "country": "AT",
+      "who": "VIVAMAYR's smaller alpine-lake outpost, same Mayr-cure medical program in a quieter mountain setting; from ~$650/night.",
+      "why": "Extends the VIVAMAYR medical method to a second, more secluded Austrian lake location.",
+      "factors": {
+        "program": 73,
+        "prestige": 70,
+        "facility": 65,
+        "setting": 80,
+        "reach": 48,
+        "results": 71
+      },
+      "reach": "IG follower count not separately confirmed; brand-wide @vivamayr and @vivamayrmariawoerth verified 2026-08",
+      "reachVerified": false,
+      "website": "https://www.vivamayr.com/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/vivamayr/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 57,
+      "name": "Thanyapura Sports Resort",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Phuket",
+      "country": "TH",
+      "who": "Multisport campus resort with an Olympic-standard pool, athletics track, and structured triathlon/running programs; stays from days to months.",
+      "why": "One of Asia's most established sport-science-backed training resorts, popular with pro triathletes overwintering in Thailand.",
+      "factors": {
+        "program": 80,
+        "prestige": 67,
+        "facility": 84,
+        "setting": 70,
+        "reach": 42,
+        "results": 64
+      },
+      "reach": "IG 18K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.thanyapura-phuket.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/thanyapuraphuket/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 58,
+      "name": "Crowie's Kona Training Camp",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Mauna Lani, Big Island, Hawaii",
+      "country": "US",
+      "who": "Multi-day triathlon training camp hosted at the Mauna Lani resort by three-time IRONMAN world champion Craig 'Crowie' Alexander, run on the Kona race course itself.",
+      "why": "Led by a Kona legend on the actual world-championship course, the highest-prestige short-stay triathlon camp tied to a single race.",
+      "factors": {
+        "program": 80,
+        "prestige": 74,
+        "facility": 67,
+        "setting": 84,
+        "reach": 35,
+        "results": 62
+      },
+      "reach": "IG ~10K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://teamzoot.com/pages/kona-camp",
+      "handles": {},
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 59,
+      "name": "Palmaia, The House of AiA",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Playa del Carmen, Riviera Maya",
+      "country": "MX",
+      "who": "All-inclusive jungle-beachfront wellness resort with daily yoga and fitness classes and plant-based dining, from ~$400/night.",
+      "why": "Built one of the largest social followings of any wellness resort in the world through highly shareable design and content.",
+      "factors": {
+        "program": 63,
+        "prestige": 68,
+        "facility": 66,
+        "setting": 83,
+        "reach": 67,
+        "results": 58
+      },
+      "reach": "IG 334K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://thehouseofaia.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/thehouseofaia/"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 60,
+      "name": "Mountain Trek Health Reset Retreat",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Ainsworth Hot Springs, British Columbia",
+      "country": "CA",
+      "who": "6- to 7-night hiking-based health reset in a glass-front timber lodge on Kootenay Lake: daily guided hikes, functional fitness, yoga, therapeutic massage, chef-prepared meals.",
+      "why": "35+ years and 10,000+ guests running Canada's most decorated hiking retreat, self-styled and widely cited as the #1 rated health retreat in Canada.",
+      "factors": {
+        "program": 79,
+        "prestige": 65,
+        "facility": 63,
+        "setting": 85,
+        "reach": 33,
+        "results": 75
+      },
+      "reach": "IG 6.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://mountaintrek.com/",
+      "handles": {
+        "instagram": "https://instagram.com/mountaintrek"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 61,
+      "name": "Lake Austin Spa Resort",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Austin, Texas",
+      "country": "US",
+      "who": "Lakeside destination spa with daily fitness classes, yoga, and canoeing, styled as a relaxed Texas Hill Country retreat.",
+      "why": "A consistent top-10 US destination spa in Travel + Leisure and Conde Nast reader polls for over a decade.",
+      "factors": {
+        "program": 70,
+        "prestige": 70,
+        "facility": 66,
+        "setting": 76,
+        "reach": 48,
+        "results": 63
+      },
+      "reach": "IG 36K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.lakeaustin.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/lakeaustinspa/"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 62,
+      "name": "Cal-a-Vie Health Spa",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Vista, California",
+      "country": "US",
+      "who": "European-village-style boutique fitness retreat near San Diego, with small groups, personal training, and hillside hiking.",
+      "why": "A long-running Southern California fitness-retreat fixture with a loyal repeat-guest base.",
+      "factors": {
+        "program": 76,
+        "prestige": 70,
+        "facility": 63,
+        "setting": 73,
+        "reach": 45,
+        "results": 66
+      },
+      "reach": "IG 26K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.cal-a-vie.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/calaviespa/"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 63,
+      "name": "Komune Resort & Beach Club Keramas",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "training-camp",
+      "city": "Keramas, Gianyar, Bali",
+      "country": "ID",
+      "who": "Surf-and-fitness resort on Bali's best right-hand reef break; daily STOTT Pilates, a recovery centre, and 'Art of Longevity' programming alongside surf coaching.",
+      "why": "Fused world-class surf access with structured daily training, drawing a global surf-fitness crowd.",
+      "factors": {
+        "program": 69,
+        "prestige": 64,
+        "facility": 67,
+        "setting": 81,
+        "reach": 56,
+        "results": 61
+      },
+      "reach": "IG 92K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.komuneresorts.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/komunebali/"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 64,
+      "name": "Amanoi",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Ninh Thuan",
+      "country": "VN",
+      "who": "Aman resort inside Nui Chua National Park; wellness immersions blend personal training, Pilates, and yoga with spa and hydrotherapy, from ~$1,300/night.",
+      "why": "Vietnam's answer to Amanpuri: an ultra-luxury Aman property with a genuinely structured wellness program rather than a spa menu alone.",
+      "factors": {
+        "program": 59,
+        "prestige": 81,
+        "facility": 71,
+        "setting": 89,
+        "reach": 40,
+        "results": 54
+      },
+      "reach": "IG ~35K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.aman.com/resorts/amanoi",
+      "handles": {
+        "instagram": "https://www.instagram.com/amanoi/"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 65,
+      "name": "Unit 27",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Chalong, Phuket",
+      "country": "TH",
+      "who": "Original strength-and-conditioning box on Phuket's 'Fitness Street': CrossFit, Olympic lifting, team endurance events, women-only strength classes, military-influenced coaching.",
+      "why": "Founded the Phuket fitness-tourism scene that Titan and others later joined; still runs the island's benchmark CrossFit Open and monthly throwdown competitions.",
+      "factors": {
+        "program": 81,
+        "prestige": 63,
+        "facility": 68,
+        "setting": 68,
+        "reach": 50,
+        "results": 65
+      },
+      "reach": "IG 47K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.unit-27.com/",
+      "handles": {
+        "instagram": "https://instagram.com/unit27thailand"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 66,
+      "name": "Premier Fitness Camp",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Carlsbad, California",
+      "country": "US",
+      "who": "Adult weight-loss camp based at the Omni La Costa Resort: 4-5 hours of daily coached training at 3:1-4:1 client-to-coach ratios, behavioral-health and nutrition education; ~$6,000/week all-inclusive.",
+      "why": "Leads its category on documented outcomes, citing UCSD-backed data on fat-loss-to-muscle-preservation ratios well above typical weight-loss-camp results.",
+      "factors": {
+        "program": 85,
+        "prestige": 58,
+        "facility": 73,
+        "setting": 65,
+        "reach": 20,
+        "results": 88
+      },
+      "reach": "minimal (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.premierfitnesscamp.com/",
+      "handles": {},
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 67,
+      "name": "Schloss Elmau",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Kruen, Bavaria",
+      "country": "DE",
+      "who": "Bavarian Alps luxury spa hideaway with a sports center, gym and Jivamukti yoga studio alongside its famous cultural and spa program; from ~$700/night.",
+      "why": "A globally recognized name (host of the 2015 and 2022 G7 summits) whose fitness offering rides alongside its cultural and spa prestige.",
+      "factors": {
+        "program": 53,
+        "prestige": 78,
+        "facility": 73,
+        "setting": 93,
+        "reach": 54,
+        "results": 48
+      },
+      "reach": "IG 76K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.schloss-elmau.de/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/schlosselmau/"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 68,
+      "name": "The Lodge at Woodloch",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Hawley, Pennsylvania",
+      "country": "US",
+      "who": "Luxury destination spa on 500 wooded acres in the Poconos, with fitness classes, yoga, and guided hikes.",
+      "why": "A repeat top-ranked US destination spa in national travel-magazine reader surveys.",
+      "factors": {
+        "program": 66,
+        "prestige": 68,
+        "facility": 66,
+        "setting": 73,
+        "reach": 53,
+        "results": 60
+      },
+      "reach": "IG 66K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.thelodgeatwoodloch.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/thelodgeatwoodloch/"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 69,
+      "name": "Paradis Plage",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "training-camp",
+      "city": "Agadir",
+      "country": "MA",
+      "who": "Eco-resort on Morocco's Atlantic coast combining three daily yoga sessions, an outdoor CrossFit area and Rip Curl surf coaching; from ~$250/night.",
+      "why": "Morocco's original surf-yoga-fitness resort, a genuine niche category leader since the mid-2000s.",
+      "factors": {
+        "program": 71,
+        "prestige": 65,
+        "facility": 65,
+        "setting": 78,
+        "reach": 49,
+        "results": 58
+      },
+      "reach": "IG 44K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.paradisplage.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/paradisplage/"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 70,
+      "name": "Fairtex Training Center Pattaya",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Pattaya",
+      "country": "TH",
+      "who": "Legacy Muay Thai/MMA/BJJ camp with on-site dorms to private rooms; day drop-ins to monthly all-inclusive packages, open six days a week since 1971.",
+      "why": "One of the sport's oldest and most fighter-decorated camps, having produced multiple Muay Thai champions under the Fairtex name.",
+      "factors": {
+        "program": 80,
+        "prestige": 72,
+        "facility": 67,
+        "setting": 52,
+        "reach": 48,
+        "results": 64
+      },
+      "reach": "IG ~40K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://fairtextrainingcenter.com",
+      "handles": {},
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 71,
+      "name": "Vuokatti Sport",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Vuokatti",
+      "country": "FI",
+      "who": "Olympic training-center resort with a ski tunnel, biathlon range, and roller-ski tracks; hotel/apartment stays from about EUR 95/night full board.",
+      "why": "Scandinavia's benchmark winter-sport training base, used by World Cup ski and biathlon teams and open to public training camps.",
+      "factors": {
+        "program": 80,
+        "prestige": 70,
+        "facility": 82,
+        "setting": 64,
+        "reach": 32,
+        "results": 57
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://vuokattisport.fi",
+      "handles": {},
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 72,
+      "name": "The Retreat Costa Rica",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Atenas, Alajuela",
+      "country": "CR",
+      "who": "Mountain wellness resort and spa with a dedicated Fitness Reboot program, yoga shala, and a fitness club added in 2025.",
+      "why": "Ranked a top-10 destination spa in the world by Conde Nast Traveler readers, the strongest fitness-forward name in Costa Rica.",
+      "factors": {
+        "program": 73,
+        "prestige": 60,
+        "facility": 66,
+        "setting": 78,
+        "reach": 35,
+        "results": 68
+      },
+      "reach": "IG ~20K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://theretreatcostarica.com/",
+      "handles": {},
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 73,
+      "name": "Six Senses Douro Valley",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Lamego",
+      "country": "PT",
+      "who": "Vineyard-estate wellness resort above the Douro River with yoga, hiking and light fitness programming built around wine-country relaxation; from ~$500/night.",
+      "why": "One of Portugal's most photographed wellness properties, though its program leans toward relaxation more than structured training.",
+      "factors": {
+        "program": 53,
+        "prestige": 71,
+        "facility": 65,
+        "setting": 85,
+        "reach": 61,
+        "results": 51
+      },
+      "reach": "IG 164K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.sixsenses.com/en/hotels-resorts/douro-valley",
+      "handles": {
+        "instagram": "https://www.instagram.com/sixsensesdourovalley/"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 74,
+      "name": "Champneys Tring",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Tring, Hertfordshire",
+      "country": "GB",
+      "who": "The original English health farm (opened 1925) with a full fitness studio, classes and membership gym alongside its spa; from ~$300/night.",
+      "why": "A century of history as Britain's first health resort, still running structured fitness classes rather than spa-only treatments.",
+      "factors": {
+        "program": 61,
+        "prestige": 73,
+        "facility": 65,
+        "setting": 63,
+        "reach": 63,
+        "results": 55
+      },
+      "reach": "IG 203K (verified 2026-08, brand account)",
+      "reachVerified": true,
+      "website": "https://www.champneys.com/spa-resorts/tring/health-spa.html",
+      "handles": {
+        "instagram": "https://www.instagram.com/champneysspas/"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 75,
+      "name": "HATC Iten",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Iten",
+      "country": "KE",
+      "who": "Lornah Kiplagat's high-altitude running base at 2,400m, with a gym, 400m track, and 25m pool; open bookings for recreational-to-elite runners, capped at 35 guests.",
+      "why": "Founded by a five-time world champion; the best-known gateway into Kenya's Rift Valley running culture.",
+      "factors": {
+        "program": 77,
+        "prestige": 74,
+        "facility": 62,
+        "setting": 67,
+        "reach": 28,
+        "results": 70
+      },
+      "reach": "IG ~1.1K (verified 2026-08, official account; most guest volume comes through partner tour operators)",
+      "reachVerified": true,
+      "website": "https://hatc-iten.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/highaltitudetrainningcentre/"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 76,
+      "name": "Centro de Alto Rendimiento Sierra Nevada",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Monachil",
+      "country": "ES",
+      "who": "Spain's national high-altitude training center at 2,320m, with a 50m pool and indoor/outdoor tracks; individuals and clubs book stays through specialist camp operators.",
+      "why": "The reference altitude base for Spanish and visiting international athletics, cycling, and swimming squads for decades.",
+      "factors": {
+        "program": 77,
+        "prestige": 70,
+        "facility": 84,
+        "setting": 62,
+        "reach": 22,
+        "results": 64
+      },
+      "reach": "IG ~3K (approx 2026, federation-run facility account)",
+      "reachVerified": false,
+      "website": "https://www.carsierranevada.com",
+      "handles": {},
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 77,
+      "name": "CIVANA Wellness Resort & Spa",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Carefree, Arizona",
+      "country": "US",
+      "who": "Newer desert wellness resort with movement studios, sound healing, and a dedicated fitness program alongside spa services.",
+      "why": "Has built an outsized social following fast for a young property, helping normalize the wellness-resort format for a broader audience.",
+      "factors": {
+        "program": 66,
+        "prestige": 60,
+        "facility": 63,
+        "setting": 73,
+        "reach": 61,
+        "results": 56
+      },
+      "reach": "IG 174K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.civanacarefree.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/civanaresort/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 78,
+      "name": "REVIVO Wellness Resort",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Nusa Dua, Bali",
+      "country": "ID",
+      "who": "18-suite wellness resort with a dedicated fitness center, hydrotherapy, and vitality programs; 3-10 night stays, from ~$450/night.",
+      "why": "One of Bali's newer purpose-built wellness resorts, designed around structured multi-day programs rather than a spa-hotel retrofit.",
+      "factors": {
+        "program": 69,
+        "prestige": 54,
+        "facility": 71,
+        "setting": 77,
+        "reach": 41,
+        "results": 64
+      },
+      "reach": "IG 17K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.revivoresorts.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/revivo_wellness_resorts/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 79,
+      "name": "Naad Wellness",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Sonipat, Haryana (Delhi NCR)",
+      "country": "IN",
+      "who": "New-generation luxury Ayurveda and naturopathy retreat near Delhi; personalized multi-week healing programs including yoga, naturopathy, and fitness therapy.",
+      "why": "One of India's fastest-rising high-end wellness addresses, positioned to compete with Ananda and Six Senses Vana.",
+      "factors": {
+        "program": 69,
+        "prestige": 59,
+        "facility": 69,
+        "setting": 64,
+        "reach": 50,
+        "results": 64
+      },
+      "reach": "IG 46K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.naadwellness.in",
+      "handles": {
+        "instagram": "https://www.instagram.com/naad_wellness/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 80,
+      "name": "38 Degrees North",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Ibiza & Marbella",
+      "country": "ES",
+      "who": "3- to 6-night boutique fitness retreats at five-star hotels (Aguas de Ibiza, Six Senses Ibiza), plus periodic London pop-ups; short-break format for fast fitness resets.",
+      "why": "Running since 2012 with a steady stream of UK wellness-industry awards (2025-2026), known for pairing serious daily training blocks with luxury hotel settings.",
+      "factors": {
+        "program": 67,
+        "prestige": 63,
+        "facility": 71,
+        "setting": 83,
+        "reach": 36,
+        "results": 58
+      },
+      "reach": "IG under 10K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://thirtyeightdegreesnorth.com/",
+      "handles": {},
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 81,
+      "name": "Live In Fitness",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Scottsdale, Arizona",
+      "country": "US",
+      "who": "Residential weight-loss and body-transformation camp, 5-7 hours of daily coaching, customized meal plans and aftercare; from ~$3,490/week. Long-running Long Beach site also active; Hilton Head location closed.",
+      "why": "29 years trusted by pro athletes and TV networks (Dr. Phil, The Doctors), with a celebrity client list including Jessica Biel, Chris Paul and Angela Bassett.",
+      "factors": {
+        "program": 81,
+        "prestige": 68,
+        "facility": 58,
+        "setting": 58,
+        "reach": 25,
+        "results": 78
+      },
+      "reach": "minimal on IG (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.liveinfitness.com/",
+      "handles": {},
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 82,
+      "name": "Preidlhof",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Naturno, South Tyrol",
+      "country": "IT",
+      "who": "Adults-only alpine dolce-vita resort with a large spa, gym and movement studios above the fitness-hotel tier but below clinical-medical; from ~$600/night.",
+      "why": "One of South Tyrol's best-known luxury wellness names, though closer to a premium spa hotel than a medical clinic.",
+      "factors": {
+        "program": 60,
+        "prestige": 60,
+        "facility": 73,
+        "setting": 77,
+        "reach": 53,
+        "results": 57
+      },
+      "reach": "IG 66K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.preidlhof.com/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/preidlhof/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 83,
+      "name": "Villa Stephanie at Brenners Park-Hotel & Spa",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Baden-Baden",
+      "country": "DE",
+      "who": "The medical-spa wing of the historic Brenners Park hotel, offering health checks and body programs alongside a grand-hotel stay; from ~$700/night.",
+      "why": "A storied European spa-town address, though its Instagram presence and program now run under the main Brenners Park account.",
+      "factors": {
+        "program": 55,
+        "prestige": 73,
+        "facility": 70,
+        "setting": 77,
+        "reach": 48,
+        "results": 55
+      },
+      "reach": "IG 37K under merged @brennersparkhotel handle (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.brenners.com/en/villa-stephanie/",
+      "handles": {
+        "instagram": "https://www.instagram.com/brennersparkhotel/"
+      },
+      "warning": "Villa Stephanie's own Instagram account has been folded into the main Brenners Park-Hotel handle.",
+      "score": 63
+    },
+    {
+      "rank": 84,
+      "name": "Zafiro Palace Alcudia",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Puerto de Alcudia, Mallorca",
+      "country": "ES",
+      "who": "5-star cycling-dedicated hotel with 350-bike storage, workshop, rental fleet, and organized routes; multi-night stays for clubs and individuals.",
+      "why": "Mallorca's benchmark cycling hotel and an official IRONMAN Mallorca sponsor, drawing cycling clubs from across Europe each spring.",
+      "factors": {
+        "program": 62,
+        "prestige": 70,
+        "facility": 80,
+        "setting": 77,
+        "reach": 42,
+        "results": 47
+      },
+      "reach": "IG ~20K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.zafirohotels.com/en/zafiro-palace-alcudia/",
+      "handles": {},
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 85,
+      "name": "Six Senses Botanique",
+      "segment": "Americas Resorts",
+      "tier": "wellness-resort",
+      "city": "Campos do Jordao",
+      "country": "BR",
+      "who": "Mountain wellness retreat in Brazil's Serra da Mantiqueira, with tai chi, yoga, hiking, and a jungle gym alongside spa treatments.",
+      "why": "Brazil's best-known destination spa, recently absorbed into the global Six Senses brand, raising its profile further.",
+      "factors": {
+        "program": 58,
+        "prestige": 70,
+        "facility": 63,
+        "setting": 83,
+        "reach": 40,
+        "results": 56
+      },
+      "reach": "IG ~15K (approx 2026, property-specific handle)",
+      "reachVerified": false,
+      "website": "https://www.sixsenses.com/",
+      "handles": {},
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 86,
+      "name": "Titan Fitness Camp",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Chalong, Phuket",
+      "country": "TH",
+      "who": "All-inclusive outdoor fitness camp since 2013: boot camp circuits, obstacle courses, Hyrox training, cycling and yoga, plus a 'Work Train Travel' package for remote workers.",
+      "why": "A well-established Fitness Street anchor with the strongest facility build-out on the strip — indoor gym, pool, sauna, ice baths — for its price point.",
+      "factors": {
+        "program": 75,
+        "prestige": 55,
+        "facility": 71,
+        "setting": 68,
+        "reach": 42,
+        "results": 61
+      },
+      "reach": "IG 20K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.titanfitnesscamp.com/",
+      "handles": {
+        "instagram": "https://instagram.com/titanfitnessthailand"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 87,
+      "name": "Elysia Wellness Retreat",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Pokolbin, Hunter Valley",
+      "country": "AU",
+      "who": "Boutique health retreat in Hunter Valley wine country under Minor Hotels; 3-7 night stays combining daily fitness classes, spa, and nutrition coaching.",
+      "why": "Descended from the original Golden Door health-retreat concept that introduced structured fitness retreats to Australia.",
+      "factors": {
+        "program": 67,
+        "prestige": 61,
+        "facility": 61,
+        "setting": 74,
+        "reach": 38,
+        "results": 64
+      },
+      "reach": "IG 12K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.elysiaretreat.com.au",
+      "handles": {
+        "instagram": "https://www.instagram.com/elysiawellnessretreat/"
+      },
+      "warning": "Rebranded from Golden Door Elysia after Minor Hotels acquired the property in 2019; same site, new brand.",
+      "score": 61
+    },
+    {
+      "rank": 88,
+      "name": "Amatara Welleisure Resort",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Phuket",
+      "country": "TH",
+      "who": "Cliffside 'welleisure' resort coining its own wellness-plus-leisure category; daily yoga, Muay Thai, and fitness classes alongside spa and detox menus.",
+      "why": "Regularly shortlisted at the Conde Nast Johansens Awards; a well-known mid-tier Phuket wellness address.",
+      "factors": {
+        "program": 61,
+        "prestige": 59,
+        "facility": 64,
+        "setting": 81,
+        "reach": 45,
+        "results": 57
+      },
+      "reach": "IG 26K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://amatara.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/amatararesort/"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 89,
+      "name": "No1 Bootcamp",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "North Norfolk coast (year-round); also Ibiza, St Tropez, Marrakech, Portugal",
+      "country": "UK",
+      "who": "Residential weight-loss and fitness camps, 15+ years running: 5-6 coached sessions a day, InBody body-composition scanning, chef-prepared meals; from ~£1,000/week.",
+      "why": "The best-known year-round UK fat camp, now a 4-country operation off the original Norfolk site; regular UK press coverage of client transformations.",
+      "factors": {
+        "program": 75,
+        "prestige": 61,
+        "facility": 58,
+        "setting": 58,
+        "reach": 45,
+        "results": 65
+      },
+      "reach": "IG 5-10K range (approx 2026, official handle unconfirmed)",
+      "reachVerified": false,
+      "website": "https://www.no1bootcamp.com/",
+      "handles": {},
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 90,
+      "name": "Hilton Head Health",
+      "segment": "Americas Resorts",
+      "tier": "training-camp",
+      "city": "Hilton Head Island, South Carolina",
+      "country": "US",
+      "who": "45-year-old metabolic-health and weight-management retreat with daily coached movement classes and nutrition support.",
+      "why": "One of the oldest continuously operating fitness retreats in the US, still built around a structured, coach-led program.",
+      "factors": {
+        "program": 73,
+        "prestige": 58,
+        "facility": 56,
+        "setting": 60,
+        "reach": 35,
+        "results": 73
+      },
+      "reach": "IG ~9K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.hhhealth.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/hiltonheadhealth/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 91,
+      "name": "Marbella Club Wellness",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Marbella",
+      "country": "ES",
+      "who": "Historic beachfront club on Marbella's Golden Mile offering 1-7 night wellbeing, nutrition and fitness programs; from ~$600/night.",
+      "why": "The original 1954 Riviera-of-the-Med club, now running a dedicated Thalasso and fitness wing alongside its celebrity history.",
+      "factors": {
+        "program": 58,
+        "prestige": 65,
+        "facility": 63,
+        "setting": 81,
+        "reach": 37,
+        "results": 53
+      },
+      "reach": "IG 11K (verified 2026-08, wellness sub-account)",
+      "reachVerified": true,
+      "website": "https://www.marbellaclub.com/wellness",
+      "handles": {
+        "instagram": "https://www.instagram.com/mch_wellness/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 92,
+      "name": "Puente Romano Tennis & Fitness Club",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "training-camp",
+      "city": "Marbella",
+      "country": "ES",
+      "who": "Marbella beachfront resort with a 16-court tennis-and-padel club plus a full performance gym, open to hotel guests and members; from ~$450/night.",
+      "why": "RFET-affiliated and rated among southern Europe's best clubs, hosting professional tournaments and year-round coaching.",
+      "factors": {
+        "program": 65,
+        "prestige": 63,
+        "facility": 71,
+        "setting": 78,
+        "reach": 35,
+        "results": 48
+      },
+      "reach": "IG 8.1K (verified 2026-08, tennis club account)",
+      "reachVerified": true,
+      "website": "https://www.puenteromano.com/things-to-do/tennis-padel/",
+      "handles": {
+        "instagram": "https://www.instagram.com/puenteromanotennisclub/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 93,
+      "name": "Eat Sleep Cycle",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Girona",
+      "country": "ES",
+      "who": "Cycling tour operator and bike hub running multi-day packaged camps (bike, hotel, guided rides) out of pro-cyclist territory near Girona.",
+      "why": "The best-known cycling-travel brand built around Girona's status as a pro-cyclist training hub.",
+      "factors": {
+        "program": 67,
+        "prestige": 64,
+        "facility": 57,
+        "setting": 72,
+        "reach": 45,
+        "results": 52
+      },
+      "reach": "IG 27K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.eatsleepcycle.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/eat_sleep_cycle/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 94,
+      "name": "Skyterra Wellness Retreat",
+      "segment": "Americas Resorts",
+      "tier": "training-camp",
+      "city": "Pisgah Forest, North Carolina",
+      "country": "US",
+      "who": "Small-group weight-loss and fitness retreat in the Blue Ridge Mountains, with coached daily training and hiking.",
+      "why": "One of the longer-running US medically informed fitness retreats, built around structured coaching rather than resort spa services.",
+      "factors": {
+        "program": 76,
+        "prestige": 53,
+        "facility": 53,
+        "setting": 70,
+        "reach": 30,
+        "results": 70
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://skyterrawellness.com/",
+      "handles": {},
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 95,
+      "name": "Absolute Sanctuary",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Koh Samui",
+      "country": "TH",
+      "who": "Boutique wellness and longevity resort with a strong yoga-teacher-training and detox program calendar; 3-14 night stays.",
+      "why": "A long-standing Koh Samui yoga and detox specialist with an international teacher-training reputation.",
+      "factors": {
+        "program": 67,
+        "prestige": 57,
+        "facility": 61,
+        "setting": 74,
+        "reach": 33,
+        "results": 61
+      },
+      "reach": "IG 6.5K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.absolutesanctuary.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/absolutesanctuarysamui/"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 96,
+      "name": "Phuket Cleanse",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Rawai, Phuket",
+      "country": "TH",
+      "who": "All-inclusive detox-and-fitness retreat in a garden villa compound: bootcamps, Muay Thai, strength sessions and yoga paired with plant-based nutrition, infrared sauna and ice baths.",
+      "why": "Fills the fitness-plus-detox niche in Phuket's crowded training-camp scene, with restorative facilities most pure bootcamps on the street don't offer.",
+      "factors": {
+        "program": 68,
+        "prestige": 51,
+        "facility": 63,
+        "setting": 71,
+        "reach": 40,
+        "results": 58
+      },
+      "reach": "under 15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.wellbeingescapes.com/thailand-retreats/phuket-cleanse/278",
+      "handles": {},
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 97,
+      "name": "Ragdale Hall",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Melton Mowbray, Leicestershire",
+      "country": "GB",
+      "who": "Leicestershire health hydro and spa with a dedicated fitness studio, classes and thermal spa circuit; from ~$300/night.",
+      "why": "One of the UK's most established health-hydro brands, with decades of repeat-guest loyalty and broad press coverage.",
+      "factors": {
+        "program": 58,
+        "prestige": 65,
+        "facility": 63,
+        "setting": 58,
+        "reach": 58,
+        "results": 53
+      },
+      "reach": "IG 116K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.ragdalehall.co.uk/",
+      "handles": {
+        "instagram": "https://www.instagram.com/ragdalehallspa/"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 98,
+      "name": "Viva Blue & Spa (Playa de Muro)",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Playa de Muro, Mallorca",
+      "country": "ES",
+      "who": "4-star beach hotel that hosts week-long, coach-run triathlon training camps (25m pool, gym, quiet cycling roads) from about GBP 900/person.",
+      "why": "One of Mallorca's most established third-party triathlon-camp venues, booked season after season by UK training operators.",
+      "factors": {
+        "program": 70,
+        "prestige": 57,
+        "facility": 64,
+        "setting": 74,
+        "reach": 25,
+        "results": 60
+      },
+      "reach": "IG ~5K (approx 2026, hotel account; camp audience is carried mainly by tour operators)",
+      "reachVerified": false,
+      "website": "https://www.hotelsviva.com/en/viva-blue",
+      "handles": {},
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 99,
+      "name": "Boot Camp Marbella",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Marbella",
+      "country": "ES",
+      "who": "Year-round all-inclusive active holidays from a 4-star hotel base, training at Mike's Gym in Puerto Banus (ranked among Men's Health's top 10 world gyms) and on the Marbella Club beachfront.",
+      "why": "Distinct from New You/Prestige, this operator's headline draw is training access to a genuinely elite gym facility rather than a generic outdoor circuit.",
+      "factors": {
+        "program": 69,
+        "prestige": 53,
+        "facility": 65,
+        "setting": 71,
+        "reach": 28,
+        "results": 58
+      },
+      "reach": "IG 3.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://bootcamp-marbella.com/",
+      "handles": {
+        "instagram": "https://instagram.com/bootcampmarbella"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 100,
+      "name": "Kasbah du Toubkal",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "training-camp",
+      "city": "Imlil, Atlas Mountains",
+      "country": "MA",
+      "who": "Berber-run hilltop ecolodge in the High Atlas Mountains running multi-day guided treks up Jbel Toubkal and a dedicated trekking lodge; from ~$150/night.",
+      "why": "North Africa's best-known trekking base, decades of expedition credibility and genuine physical demand rather than gym infrastructure.",
+      "factors": {
+        "program": 65,
+        "prestige": 61,
+        "facility": 43,
+        "setting": 88,
+        "reach": 36,
+        "results": 53
+      },
+      "reach": "IG 9.7K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.kasbahdutoubkal.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/kasbahdutoubkal/"
+      },
+      "warning": null,
+      "score": 58
+    }
+  ],
+  "bubblingUnder": [
+    {
+      "name": "Kandui Villas",
+      "segment": "Sport & Endurance Travel",
+      "tier": "wellness-resort",
+      "city": "Mentawai Islands",
+      "country": "ID",
+      "who": "Luxury surf resort and boat-accessible villas in the Mentawais, with optional paid surf coaching, video analysis, and theory sessions.",
+      "why": "One of the most recognized names in Mentawai surf travel, sitting on some of Indonesia's most consistent reef breaks.",
+      "factors": {
+        "program": 47,
+        "prestige": 62,
+        "facility": 57,
+        "setting": 90,
+        "reach": 55,
+        "results": 42
+      },
+      "reach": "IG 82K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.kanduivillas.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/kanduivillas/"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "name": "Talise Fitness, Madinat Jumeirah",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "training-camp",
+      "city": "Dubai",
+      "country": "AE",
+      "who": "Fitness club within Dubai's Madinat Jumeirah resort offering HIIT, BodyPump, tennis and squash coaching plus InBody assessments; day and stay access.",
+      "why": "A serious multi-sport club inside one of Dubai's most-visited resort complexes, though it functions as a hotel amenity rather than a dedicated retreat.",
+      "factors": {
+        "program": 63,
+        "prestige": 58,
+        "facility": 71,
+        "setting": 71,
+        "reach": 30,
+        "results": 48
+      },
+      "reach": "IG ~10K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.jumeirah.com/en/stay/dubai/madinat-jumeirah/wellbeing/talise-fitness",
+      "handles": {},
+      "warning": "Some directories list this specific location as rebranded to 'J Club' at the Mina A'Salam wing of Madinat Jumeirah; the Talise Fitness brand remains active elsewhere in Jumeirah's Dubai portfolio, but confirm the current name before booking.",
+      "score": 57
+    },
+    {
+      "name": "RunningInKenya.com Kaptagat Camp",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Kaptagat",
+      "country": "KE",
+      "who": "All-inclusive weekly running camps at 2,400m in Kaptagat — shared rooms, full board, structured altitude sessions plus optional safari add-ons.",
+      "why": "Kaptagat is the training base of the NN Running Team and multiple world-record marathoners; these camps put recreational runners on the same roads.",
+      "factors": {
+        "program": 72,
+        "prestige": 67,
+        "facility": 47,
+        "setting": 62,
+        "reach": 25,
+        "results": 62
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://run-in-kenya.com",
+      "handles": {},
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Alba Wellness Valley by Fusion",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "wellness-resort",
+      "city": "Hue",
+      "country": "VN",
+      "who": "Hot-spring wellness valley outside Hue; multi-day programs pairing thermal-mineral therapy with daily fitness and yoga classes, from ~$250/night.",
+      "why": "Vietnam's leading purpose-built wellness resort, repeatedly named the country's best upcountry property.",
+      "factors": {
+        "program": 61,
+        "prestige": 54,
+        "facility": 64,
+        "setting": 74,
+        "reach": 25,
+        "results": 59
+      },
+      "reach": "IG 2.3K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://fusion-collection.com/albawellnessvalleyhue/en/homepage/",
+      "handles": {
+        "instagram": "https://www.instagram.com/albawellnessvalley/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Prestige Boot Camp",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "London, plus Portugal and Spain camps",
+      "country": "UK",
+      "who": "Luxury weight-loss boot camp, established 2008, marketed as Europe's largest provider: intensive multi-session days aiming for 8-12 lbs lost per week.",
+      "why": "Long-running, self-styled market leader in UK/European weight-loss boot camps, with a celebrity-fan page and steady Trustpilot review volume.",
+      "factors": {
+        "program": 71,
+        "prestige": 58,
+        "facility": 53,
+        "setting": 58,
+        "reach": 30,
+        "results": 61
+      },
+      "reach": "under 5K across channels (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.prestigebootcamp.com/",
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Soul & Surf",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Sri Lanka, Portugal & India (multi-location)",
+      "country": "LK",
+      "who": "Boutique surf, yoga, and massage retreats across three countries; all-inclusive week-long stays from about GBP 156/night.",
+      "why": "A long-running, design-forward surf-retreat brand with a loyal following and a strong European client base.",
+      "factors": {
+        "program": 57,
+        "prestige": 57,
+        "facility": 52,
+        "setting": 80,
+        "reach": 43,
+        "results": 47
+      },
+      "reach": "IG 22K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.soulandsurf.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/soulandsurf/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Berghotel Turlwand",
+      "segment": "Sport & Endurance Travel",
+      "tier": "training-camp",
+      "city": "Ramsau am Dachstein",
+      "country": "AT",
+      "who": "Family-run mountain hotel at 1,750m in Austria's Nordic-ski showcase region, booking single athletes or whole training camps against 220km of groomed trails and a biathlon range.",
+      "why": "The lodging anchor of Ramsau's international Nordic training center, used by cross-country and biathlon national teams and open to individual bookings.",
+      "factors": {
+        "program": 67,
+        "prestige": 60,
+        "facility": 64,
+        "setting": 67,
+        "reach": 24,
+        "results": 50
+      },
+      "reach": "IG ~4K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.tuerlwand.at",
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Wildfitness",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Various (originated Watamu, Kenya)",
+      "country": "KE",
+      "who": "Movement-and-nature retreats built around natural-movement training, beach and bush workouts, and deep-rest programming; runs seasonal retreats across the UK, Europe and its original Kenyan coast base.",
+      "why": "One of the original 'ancestral fitness' retreat brands (25 years running), predating the natural-movement trend it helped popularize.",
+      "factors": {
+        "program": 65,
+        "prestige": 58,
+        "facility": 48,
+        "setting": 73,
+        "reach": 30,
+        "results": 53
+      },
+      "reach": "IG under 5K (approx 2026)",
+      "reachVerified": true,
+      "website": "https://wildfitness.com/",
+      "handles": {},
+      "warning": null,
+      "score": 55
+    },
+    {
+      "name": "Bikini Bootcamp",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Tulum",
+      "country": "MX",
+      "who": "Women-only weeklong retreat at Amansala: beach walks, morning yoga, fitness classes, sculpting sessions, yin yoga and spa services, running continuously since the early 2000s.",
+      "why": "One of the pioneer women's fitness-retreat brands that helped put Tulum on the wellness-travel map, still running multiple dated retreats every year.",
+      "factors": {
+        "program": 58,
+        "prestige": 58,
+        "facility": 48,
+        "setting": 78,
+        "reach": 40,
+        "results": 48
+      },
+      "reach": "under 15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.bikinibootcamp.com/",
+      "handles": {
+        "instagram": "https://instagram.com/bikinibootcamptulum"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "name": "Longevity Health & Wellness Hotel",
+      "segment": "Medical & Longevity Clinics",
+      "tier": "wellness-resort",
+      "city": "Alvor, Algarve",
+      "country": "PT",
+      "who": "Coastal Algarve hotel focused on longevity health checks, detox and fitness programming at a more accessible price point; from ~$350/night.",
+      "why": "A smaller-scale entry point into medical-longevity tourism, more affordable than the Alpine and Swiss clinics.",
+      "factors": {
+        "program": 57,
+        "prestige": 50,
+        "facility": 60,
+        "setting": 67,
+        "reach": 39,
+        "results": 55
+      },
+      "reach": "IG 14K @longevityalvor (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.longevityalvor.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/longevityalvor/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "name": "Sante Wellness Retreat & Spa",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "Paarl",
+      "country": "ZA",
+      "who": "Winelands wellness retreat near Paarl with a dedicated Fitness Boost program (cardio, weights, Pilates reformers) plus nutrition coaching; from ~$300/night.",
+      "why": "One of the few Southern African properties with a genuinely structured fitness-and-nutrition program, not just spa treatments.",
+      "factors": {
+        "program": 63,
+        "prestige": 51,
+        "facility": 58,
+        "setting": 68,
+        "reach": 22,
+        "results": 58
+      },
+      "reach": "IG ~4K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.santewellness.co.za/",
+      "handles": {},
+      "warning": null,
+      "score": 54
+    },
+    {
+      "name": "Chewton Glen",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "New Forest, Hampshire",
+      "country": "GB",
+      "who": "New Forest country-house hotel with a gym, fitness classes and treehouse suites alongside its spa; from ~$400/night.",
+      "why": "A long-running, well-reviewed English resort where fitness is a minor pillar next to its spa and grounds.",
+      "factors": {
+        "program": 43,
+        "prestige": 61,
+        "facility": 58,
+        "setting": 75,
+        "reach": 40,
+        "results": 38
+      },
+      "reach": "IG ~55K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.chewtonglen.com/",
+      "handles": {},
+      "warning": null,
+      "score": 52
+    },
+    {
+      "name": "New You Boot Camp / New You Escapes",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Marbella and Somerset/Suffolk",
+      "country": "ES",
+      "who": "All-inclusive fitness holidays (rebranding under 'New You Escapes'), averaging ~6 hours of exercise a day; from ~£633/week.",
+      "why": "One of the original 2000s-era UK boot-camp-holiday operators, still trading nearly two decades on, now spanning Spain and UK venues.",
+      "factors": {
+        "program": 63,
+        "prestige": 48,
+        "facility": 48,
+        "setting": 65,
+        "reach": 20,
+        "results": 55
+      },
+      "reach": "minimal (approx 2026)",
+      "reachVerified": false,
+      "website": "https://newyouescapes.com/",
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "name": "Karkloof Safari Villas & Spa",
+      "segment": "Europe, Middle East & Africa Resorts",
+      "tier": "wellness-resort",
+      "city": "KwaZulu-Natal",
+      "country": "ZA",
+      "who": "Private game-reserve lodge in KwaZulu-Natal combining safari drives with yoga, tai chi and a large spa; from ~$400/night.",
+      "why": "Billed as home to Africa's largest spa, it draws a loyal regional following pairing wildlife with light movement programming.",
+      "factors": {
+        "program": 48,
+        "prestige": 48,
+        "facility": 58,
+        "setting": 81,
+        "reach": 25,
+        "results": 43
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.karkloofsafarispa.com/",
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "name": "Northern Bootcamp",
+      "segment": "Bootcamps & Training Camps",
+      "tier": "training-camp",
+      "city": "Belford, Northumberland",
+      "country": "UK",
+      "who": "Family-run residential weight-loss boot camp at the Golden Hill Retreat on the Northumberland coast: boxing, circuits, dune runs, coasteering, plus a dedicated Military Prep course for armed-forces fitness tests.",
+      "why": "A well-reviewed regional UK operator with a genuine niche — its Military Prep program specifically trains candidates for Royal Marine, Army, Navy and RAF fitness entry standards.",
+      "factors": {
+        "program": 65,
+        "prestige": 43,
+        "facility": 48,
+        "setting": 65,
+        "reach": 15,
+        "results": 53
+      },
+      "reach": "minimal (approx 2026)",
+      "reachVerified": false,
+      "website": "https://northernbootcamp.co.uk/",
+      "handles": {},
+      "warning": null,
+      "score": 49
+    },
+    {
+      "name": "PhuketFit",
+      "segment": "Asia-Pacific Resorts",
+      "tier": "training-camp",
+      "city": "Rawai, Phuket",
+      "country": "TH",
+      "who": "All-inclusive weight-loss and fitness bootcamp near Ya Nui Beach; 1-4 week programs of daily group training and calorie-controlled meals, from ~$150/night.",
+      "why": "A budget-tier fixture of Phuket's fitness-camp scene, self-marketed as Thailand's #1 health and fitness retreat.",
+      "factors": {
+        "program": 59,
+        "prestige": 39,
+        "facility": 44,
+        "setting": 54,
+        "reach": 30,
+        "results": 54
+      },
+      "reach": "IG 4.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://phuketfit.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/phuketfit_th/"
+      },
+      "warning": null,
+      "score": 47
+    }
+  ]
+}
