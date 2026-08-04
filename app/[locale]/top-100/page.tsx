@@ -13,9 +13,9 @@ import runclubs from "@/data/top-100/runclubs.json";
 import stores from "@/data/top-100/stores.json";
 import nutritionists from "@/data/top-100/nutritionists.json";
 
-const PAGE_TITLE = "The FitBodega 100 — Nine World Rankings";
+const PAGE_TITLE = "The FitBodega 100 — Training Culture, Ranked";
 const PAGE_DESC =
-  "Nine Top-100 world rankings, one scoring system: fitness influencers, gyms, retreats, Hyrox athletes, online coaches, recovery spaces, run clubs, health food stores, and nutritionists. Reviewed monthly.";
+  "Top-100 world rankings of the people, places, and spaces that define training culture. One scoring system, hard editorial gates, reviewed monthly.";
 
 export const metadata: Metadata = {
   title: "The FitBodega 100",
@@ -95,7 +95,7 @@ export default function Top100HubPage() {
           <div className="flex items-center gap-3 mb-6">
             <span className="w-7 h-[3px] bg-primary" aria-hidden />
             <p className="font-sans text-label-md uppercase text-primary">
-              Nine rankings · One system
+              The rankings of record
             </p>
           </div>
           <h1 className="font-serif text-display-lg lg:text-display-xl uppercase tracking-tight text-on-surface max-w-4xl">
@@ -112,9 +112,9 @@ export default function Top100HubPage() {
         </div>
       </section>
 
-      {/* ── The nine lists — poster-card wall. The 3x3 grid's diagonal
-          (cards 1, 5, 9) is permanently lime; dark cards invert to lime on
-          hover. A giant cropped "100" numeral textures every card. ── */}
+      {/* ── The list wall — poster cards from the registry. Every 4th card
+          is permanently lime; dark cards invert to lime on hover. A giant
+          cropped "100" numeral textures every card. ── */}
       <section className="py-20 lg:py-24 bg-surface-low">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
