@@ -1,0 +1,2506 @@
+{
+  "meta": {
+    "title": "Top 100 Hyrox Athletes to Follow 2026",
+    "subtitle": "The racers and voices defining fitness racing — ranked. World champions, Elite 15 regulars, doubles stars, and the creators teaching the sport.",
+    "scoreModel": {
+      "name": "Hyrox Follow Score",
+      "gate": "Two tiers on one scale. Elite — races elite heats and podiums at majors, scored results-first. Creators — coaches and media voices who may race sub-elite but shape how the sport is trained and watched.",
+      "notes": "Reach is log-scaled and recomputed from researched follower counts. The five judgment factors — results, content, momentum, crossover, longevity — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+      "weights": {
+        "results": 0.25,
+        "reach": 0.15,
+        "content": 0.15,
+        "momentum": 0.15,
+        "crossover": 0.15,
+        "longevity": 0.15
+      }
+    },
+    "disclaimer": "Rosters and results move fast in Hyrox; the ranking is reviewed monthly against the current season. Educational and editorial — inclusion is not an endorsement.",
+    "series": "The FitBodega 100",
+    "updated": "2026-08-04",
+    "reviewCadence": "monthly"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "name": "Lauren Weeks",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "US",
+      "who": "American Hyrox pioneer and three-time World Champion (2020, 2021, 2023), still ranked world No. 1 in 2026.",
+      "why": "The most decorated racer in the sport's history and the benchmark every Elite 15 season is measured against.",
+      "factors": {
+        "results": 97,
+        "reach": 57,
+        "content": 57,
+        "momentum": 87,
+        "crossover": 62,
+        "longevity": 87
+      },
+      "reach": "IG 68K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/lauren_e_weeks"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 2,
+      "name": "Jake Dearden",
+      "segment": "Creators, Coaches & Media",
+      "tier": "elite",
+      "country": "GB",
+      "who": "247 Gym head coach and Red Bull athlete; Men's Doubles World Champion 2024, Elite 15 regular with a 49:07 PB at EMEA London 2026.",
+      "why": "Follow him for polished high-performance training content and race breakdowns from someone who still races Elite 15 himself.",
+      "factors": {
+        "results": 83,
+        "reach": 77,
+        "content": 78,
+        "momentum": 78,
+        "crossover": 78,
+        "longevity": 58
+      },
+      "reach": "IG 681K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/jakedearden_/"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 3,
+      "name": "Hunter McIntyre",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "US",
+      "who": "American Elite 15 racer, three-time HYROX World Champion (2020, 2022, 2023) and former OCR/CrossFit Games competitor.",
+      "why": "The sport's biggest crossover name — still winning Pro titles in 2026 and the athlete non-Hyrox fans have actually heard of.",
+      "factors": {
+        "results": 92,
+        "reach": 55,
+        "content": 62,
+        "momentum": 77,
+        "crossover": 77,
+        "longevity": 82
+      },
+      "reach": "IG follower count not independently verified this session (approx, unverified 2026)",
+      "reachVerified": false,
+      "website": "https://www.huntermcintyre.com/",
+      "handles": {
+        "instagram": "https://instagram.com/huntermcintyre"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 4,
+      "name": "Alexander Rončević",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "elite",
+      "country": "AT",
+      "who": "Austrian Elite 15 world-record holder in singles who, with Tim Wenisch, won the 2026 Stockholm Doubles World Championship and set the Men's Pro Doubles world record (47:40) in London.",
+      "why": "The most dominant all-around men's racer in the sport right now, singles and doubles both.",
+      "factors": {
+        "results": 94,
+        "reach": 64,
+        "content": 59,
+        "momentum": 89,
+        "crossover": 54,
+        "longevity": 59
+      },
+      "reach": "IG 150K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/alexander.roncevic/"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 5,
+      "name": "Joanna Wietrzyk",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "AU",
+      "who": "Australia's fastest Hyrox woman; 2025 World Championship runner-up and multiple major-race winner.",
+      "why": "A consistent podium threat with a growing sponsor roster including Puma and Amazfit.",
+      "factors": {
+        "results": 90,
+        "reach": 57,
+        "content": 57,
+        "momentum": 87,
+        "crossover": 57,
+        "longevity": 57
+      },
+      "reach": "IG 68K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/joannawietrzyk"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 6,
+      "name": "Tia-Clair Toomey-Orr",
+      "segment": "Crossover Athletes",
+      "tier": "elite",
+      "country": "AU",
+      "who": "Eight-time CrossFit Fittest Woman on Earth who now races Hyrox mixed doubles, pairing with husband Shane Orr and with CrossFit star James Newbury.",
+      "why": "The most decorated CrossFitter alive racing Hyrox doubles brings the whole CrossFit fanbase along with her.",
+      "factors": {
+        "results": 62,
+        "reach": 86,
+        "content": 57,
+        "momentum": 82,
+        "crossover": 97,
+        "longevity": 37
+      },
+      "reach": "IG 2M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/tiaclair1"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 7,
+      "name": "Tim Wenisch",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "elite",
+      "country": "DE",
+      "who": "German Elite 15 racer who swept singles and Pro Doubles at the 2025 Chicago Worlds, then took the 2026 Stockholm Doubles title and the Men's Pro Doubles world record with Alexander Rončević.",
+      "why": "The most decorated men's doubles racer active right now, and only 26.",
+      "factors": {
+        "results": 94,
+        "reach": 55,
+        "content": 54,
+        "momentum": 89,
+        "crossover": 44,
+        "longevity": 54
+      },
+      "reach": "IG 54K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/tim_wenisch/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 8,
+      "name": "Dylan Scott",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "US",
+      "who": "American Elite 15 racer, the 2026 HYROX World Champion after a chaotic wall-ball finish in Stockholm.",
+      "why": "The reigning world champion right now — his 2025 bronze-to-2026 gold arc is the story of the season.",
+      "factors": {
+        "results": 92,
+        "reach": 54,
+        "content": 57,
+        "momentum": 87,
+        "crossover": 47,
+        "longevity": 57
+      },
+      "reach": "IG 52K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/thehybridraccoon"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 9,
+      "name": "Jake Williamson",
+      "segment": "Rising & Pro Scene",
+      "tier": "elite",
+      "country": "GB",
+      "who": "British men's open doubles world-record holder (47:57 with Fabi Eisenlauer, Berlin 2025); Puma-sponsored, part of Instagram's Athletes for Purpose roster.",
+      "why": "Follow for the record-breaking doubles racing and for an openly gay athlete pushing HYROX toward a wider, more inclusive audience.",
+      "factors": {
+        "results": 71,
+        "reach": 66,
+        "content": 61,
+        "momentum": 76,
+        "crossover": 86,
+        "longevity": 46
+      },
+      "reach": "IG 204K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/jakewilliamson"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 10,
+      "name": "Linda Meier",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "DE",
+      "who": "Reigning 2025 Hyrox World Champion (58:56), a German IT specialist turned Elite 15 racer.",
+      "why": "The athlete who just took the world title heading into her title defense in Stockholm.",
+      "factors": {
+        "results": 97,
+        "reach": 45,
+        "content": 47,
+        "momentum": 92,
+        "crossover": 42,
+        "longevity": 62
+      },
+      "reach": "IG 17K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/lindaaa.jm"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 11,
+      "name": "Meg Martin",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "AU",
+      "who": "Australian Elite 15 doubles racer; with Calypso Sheridan holds the women's doubles world record (53:21) and placed 5th at the 2026 World Championships.",
+      "why": "A record-setting doubles specialist whose M3GA brand and run clubs reach well beyond the racecourse.",
+      "factors": {
+        "results": 70,
+        "reach": 69,
+        "content": 67,
+        "momentum": 77,
+        "crossover": 62,
+        "longevity": 47
+      },
+      "reach": "IG 267K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/megsutherland"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 12,
+      "name": "James Kelly",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "AU",
+      "who": "Australia's fastest HYROX athlete, Elite 15 racer, 4th at the 2025 World Championships and part of Australia's winning 2026 relay team.",
+      "why": "One of the most consistent vloggers in the sport — weekly training breakdowns make him a go-to for how to actually train.",
+      "factors": {
+        "results": 75,
+        "reach": 52,
+        "content": 77,
+        "momentum": 72,
+        "crossover": 52,
+        "longevity": 62
+      },
+      "reach": "IG 42K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/jk.james.kelly"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 13,
+      "name": "Camilla Massa",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "IT",
+      "who": "Captain of Italy's Elite 15 squad; 2023 Hyrox AG (30-34) & Overall World Champion, added a 2025 AG (35-39) title.",
+      "why": "The clearest window into Italy's Elite 15 push right now, with steady training and race-day content in a scene still building depth.",
+      "factors": {
+        "results": 66,
+        "reach": 64,
+        "content": 66,
+        "momentum": 76,
+        "crossover": 56,
+        "longevity": 61
+      },
+      "reach": "IG 163K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/camillamassa.athlete"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 14,
+      "name": "Megan Jacoby",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "US",
+      "who": "2024 Hyrox World Champion and the first woman ever to break one hour; sat out the 2025 world final.",
+      "why": "The athlete who broke the sub-hour barrier — her return to a start line is the story to watch.",
+      "factors": {
+        "results": 87,
+        "reach": 58,
+        "content": 57,
+        "momentum": 57,
+        "crossover": 57,
+        "longevity": 52
+      },
+      "reach": "IG 78K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/mjac0by"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 15,
+      "name": "Rich Ryan",
+      "segment": "Creators, Coaches & Media",
+      "tier": "elite",
+      "country": "US",
+      "who": "Founder of Reinforced Running; Elite 15 racer who ran 53:57 in Phoenix and is heading to the Stockholm World Championships.",
+      "why": "His breakdowns of running strategy inside a Hyrox race are some of the most concretely useful coaching content in the sport.",
+      "factors": {
+        "results": 68,
+        "reach": 48,
+        "content": 78,
+        "momentum": 68,
+        "crossover": 58,
+        "longevity": 53
+      },
+      "reach": "IG 26K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.rmr.training/",
+      "handles": {
+        "instagram": "https://www.instagram.com/richryan610/",
+        "youtube": "https://www.youtube.com/channel/UCmoN1fJNlC-zTWqTF7LdpmQ"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 16,
+      "name": "James Newbury",
+      "segment": "Crossover Athletes",
+      "tier": "elite",
+      "country": "AU",
+      "who": "Five-time CrossFit Games athlete and CrossFit Games Team champion, former semi-pro rugby player, now racing Hyrox Elite 15 doubles.",
+      "why": "Podiums with Toomey in mixed doubles make him one of the clearest CrossFit-to-Hyrox pipelines to watch.",
+      "factors": {
+        "results": 62,
+        "reach": 66,
+        "content": 52,
+        "momentum": 77,
+        "crossover": 82,
+        "longevity": 42
+      },
+      "reach": "IG 210K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/jamesnewbury"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 17,
+      "name": "Kris Rugloski",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "US",
+      "who": "2022 Hyrox World Champion and a 65-race veteran who fought back from a torn meniscus to reclaim her Elite 15 spot at the Barcelona Last Chance Qualifier.",
+      "why": "A comeback story with real depth — she also races ultras, having debuted at the Barkley Marathons.",
+      "factors": {
+        "results": 77,
+        "reach": 48,
+        "content": 47,
+        "momentum": 67,
+        "crossover": 47,
+        "longevity": 82
+      },
+      "reach": "IG 24K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/krisrugloski"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 18,
+      "name": "Eugenio Bianchi",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "IT",
+      "who": "Italy's Hyrox Pro record holder (55:57), on the Elite 15 roster three seasons running, with a long Spartan Race podium history before switching sports.",
+      "why": "One of the most-followed Italian Hyrox profiles, bridging an OCR audience into the sport with regular race breakdowns.",
+      "factors": {
+        "results": 69,
+        "reach": 59,
+        "content": 61,
+        "momentum": 66,
+        "crossover": 56,
+        "longevity": 66
+      },
+      "reach": "IG 92K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/eugenioleowhite"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 19,
+      "name": "Lukas Storath",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "DE",
+      "who": "The first Hyrox World Champion; now CEO and founder of Athletic Camps, running online Hyrox coaching.",
+      "why": "One of the few voices who can talk about the sport's early days and its current programming with equal authority.",
+      "factors": {
+        "results": 68,
+        "reach": 49,
+        "content": 63,
+        "momentum": 48,
+        "crossover": 48,
+        "longevity": 83
+      },
+      "reach": "IG 28K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/lukefithyrox/"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 20,
+      "name": "Nick Bare",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "US",
+      "who": "Fitness YouTuber (1.46M subscribers) whose cinematic, multi-part 'Hyrox Prep' series documented his own build toward the sport.",
+      "why": "Brings a massive outside fitness/military audience into Hyrox with genuinely watchable long-form content.",
+      "factors": {
+        "results": 33,
+        "reach": 83,
+        "content": 78,
+        "momentum": 63,
+        "crossover": 88,
+        "longevity": 38
+      },
+      "reach": "YouTube 1.46M subs (verified 2026-06)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "youtube": "https://www.youtube.com/@nickbarefitness"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 21,
+      "name": "Pelayo Menendez",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "ES",
+      "who": "Spanish Elite 15 racer and founder of PELE Performance, back on the 2026 World Championships doubles podium a year after a ruptured Achilles.",
+      "why": "The leading Spanish-language voice in the sport — constant Instagram lives, podcasts, and Facebook-group coaching.",
+      "factors": {
+        "results": 67,
+        "reach": 35,
+        "content": 72,
+        "momentum": 67,
+        "crossover": 57,
+        "longevity": 62
+      },
+      "reach": "IG ~17K (approx, unverified 2026)",
+      "reachVerified": false,
+      "website": "https://www.pele-performance.com",
+      "handles": {
+        "instagram": "https://instagram.com/pelayofelechosa"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 22,
+      "name": "Jonathon Wynn",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "AU",
+      "who": "Australian ex-special-forces soldier and Elite 15 regular, top 10 at three straight World Championships (6th, 9th, 5th).",
+      "why": "A sobriety-since-2020 story layered on genuine elite results, plus he's outspoken about being passed over for Australia's relay squad.",
+      "factors": {
+        "results": 71,
+        "reach": 44,
+        "content": 61,
+        "momentum": 66,
+        "crossover": 56,
+        "longevity": 61
+      },
+      "reach": "IG 16K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/jonwynnfitnessandsobriety"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 23,
+      "name": "Jack Driscoll",
+      "segment": "Rising & Pro Scene",
+      "tier": "creator",
+      "country": "US",
+      "who": "American HYROX Elite hopeful and full-time firefighter; sub-60 Pro Solo winner (Vancouver) chasing his first Elite 15 spot.",
+      "why": "Follow for in-depth, reference-quality training breakdowns filmed with actual Elite 15 athletes, from a firefighter with a sub-5 mile and a 500lb squat.",
+      "factors": {
+        "results": 51,
+        "reach": 60,
+        "content": 81,
+        "momentum": 76,
+        "crossover": 66,
+        "longevity": 41
+      },
+      "reach": "IG 98K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/jack.d_fitness"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 24,
+      "name": "Kristi Eramo O'Connell",
+      "segment": "Crossover Athletes",
+      "tier": "elite",
+      "country": "US",
+      "who": "Seven-time CrossFit Games competitor who retired from CrossFit and won her Hyrox pro debut in Houston, then took Mixed Doubles in Dallas.",
+      "why": "A CrossFit veteran who didn't just dabble in Hyrox — she won straight out of the gate and kept winning.",
+      "factors": {
+        "results": 72,
+        "reach": 45,
+        "content": 57,
+        "momentum": 87,
+        "crossover": 67,
+        "longevity": 27
+      },
+      "reach": "IG ~150K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 25,
+      "name": "Cole Learn",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "CA",
+      "who": "Canadian Elite 15 racer, 2026 HYROX Americas Champion and Chicago Pro winner (54:36) with a public addiction-recovery story.",
+      "why": "Fast-rising racer whose personal story pulls readers who have never heard of HYROX before.",
+      "factors": {
+        "results": 72,
+        "reach": 48,
+        "content": 62,
+        "momentum": 82,
+        "crossover": 57,
+        "longevity": 32
+      },
+      "reach": "IG 25K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/colelearn"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 26,
+      "name": "Fabian Eisenlauer",
+      "segment": "Rising & Pro Scene",
+      "tier": "elite",
+      "country": "DE",
+      "who": "German HYROX Elite athlete and running coach; set the men's open doubles world record with Jake Williamson in 2025 and holds one of the fastest men's open times ever.",
+      "why": "Follow for a genuine ex-smoker-to-elite transformation story and running-coach breakdowns that double as real training content.",
+      "factors": {
+        "results": 66,
+        "reach": 47,
+        "content": 76,
+        "momentum": 76,
+        "crossover": 56,
+        "longevity": 36
+      },
+      "reach": "IG 23K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/fabi_eisenlauer"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 27,
+      "name": "Sinéad Bent",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "GB",
+      "who": "UK physiotherapist and Elite 15 athlete who went from newcomer to elite level in a single year.",
+      "why": "A fast-rising British racer with a genuinely engaged following and brand deals (Gymshark, Garmin) to match.",
+      "factors": {
+        "results": 74,
+        "reach": 55,
+        "content": 57,
+        "momentum": 82,
+        "crossover": 42,
+        "longevity": 42
+      },
+      "reach": "IG 55K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/sineadbentx"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 28,
+      "name": "Mat Fraser",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "US",
+      "who": "Five-time CrossFit Games champion (2016-2020) who came out of retirement to race Hyrox doubles in New York and Las Vegas.",
+      "why": "The most dominant CrossFitter ever taking Hyrox seriously, on camera, is the single biggest crossover storyline the sport has right now.",
+      "factors": {
+        "results": 37,
+        "reach": 87,
+        "content": 57,
+        "momentum": 72,
+        "crossover": 92,
+        "longevity": 22
+      },
+      "reach": "IG 2.2M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/mathewfras"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 29,
+      "name": "Hidde Weersma",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "NL",
+      "who": "Dutch Elite 15 racer and coach who broke the Men's Pro world record (52:42) at the 2026 EMEA Championships in London.",
+      "why": "First man under 53 minutes and the mind behind LO:HYROX, a data-driven training program other Elite 15 racers use.",
+      "factors": {
+        "results": 75,
+        "reach": 30,
+        "content": 67,
+        "momentum": 85,
+        "crossover": 42,
+        "longevity": 37
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 30,
+      "name": "Vivian Tafuto",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "US",
+      "who": "Full-time actuary and Elite 15 podium regular; with Lauren Weeks holds the women's doubles world record (52:59).",
+      "why": "Proof a full-time job and elite Hyrox racing aren't mutually exclusive, plus a doubles world record.",
+      "factors": {
+        "results": 80,
+        "reach": 34,
+        "content": 42,
+        "momentum": 82,
+        "crossover": 37,
+        "longevity": 57
+      },
+      "reach": "IG 4.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/viviantafuto"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 31,
+      "name": "Charlie Botterill",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "GB",
+      "who": "English Elite 15 racer and former pro cyclist, part of the second-fastest Men's Pro Doubles time ever run (48:05, Barcelona 2026).",
+      "why": "Quit his job to go all-in on HYROX in 2026 — a fast-rising name with a genuinely different backstory.",
+      "factors": {
+        "results": 65,
+        "reach": 35,
+        "content": 67,
+        "momentum": 82,
+        "crossover": 52,
+        "longevity": 37
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 32,
+      "name": "Harry Thompson",
+      "segment": "Rising & Pro Scene",
+      "tier": "elite",
+      "country": "GB",
+      "who": "English HYROX Elite athlete; 2025 Men's Pro World Champion (all age groups, Chicago) and member of England's bronze-medal 2026 Mixed Relay team.",
+      "why": "Follow for an honest, no-filter look at life as a world champion who left corporate law to race and coach full-time.",
+      "factors": {
+        "results": 69,
+        "reach": 30,
+        "content": 66,
+        "momentum": 71,
+        "crossover": 51,
+        "longevity": 46
+      },
+      "reach": "IG ~2K (approx 2026)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/hyrox_harry"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 33,
+      "name": "Lucy Procter",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "GB",
+      "who": "22-year-old Red Bull/Puma-backed Elite 15 racer and 2024 Hyrox U24 world champion.",
+      "why": "One of the youngest names in the Elite 15 and already climbing the senior world rankings.",
+      "factors": {
+        "results": 72,
+        "reach": 50,
+        "content": 47,
+        "momentum": 82,
+        "crossover": 47,
+        "longevity": 37
+      },
+      "reach": "IG 30K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/_lucyprocter"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 34,
+      "name": "Quentin Pingliez",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "FR",
+      "who": "French coach who says he took the Mixed World and EU overall title in 2025; posts as @coach_pgz.",
+      "why": "A rising French voice mixing his own recent results with day-to-day coaching content.",
+      "factors": {
+        "results": 63,
+        "reach": 46,
+        "content": 58,
+        "momentum": 73,
+        "crossover": 48,
+        "longevity": 43
+      },
+      "reach": "IG 21K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/coach_pgz/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 35,
+      "name": "Choi Seung-yeon",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "KR",
+      "who": "4x CrossFit Games athlete and Physical: Asia star who took 2nd in Doubles at Hyrox Singapore 2025 alongside Amotti.",
+      "why": "Elite CrossFit credibility plus mainstream Netflix fame makes her a strong entry point for new fans.",
+      "factors": {
+        "results": 48,
+        "reach": 64,
+        "content": 58,
+        "momentum": 63,
+        "crossover": 83,
+        "longevity": 28
+      },
+      "reach": "IG 166K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/seungyeon_choi_/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 36,
+      "name": "Tiago Lousa",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "PT",
+      "who": "Portuguese Hyrox coach with 58 races and 55 podiums logged; runs coaching under TheLousaWay.",
+      "why": "Few coaches have that much race volume to draw lessons from, and he shares it openly.",
+      "factors": {
+        "results": 53,
+        "reach": 49,
+        "content": 58,
+        "momentum": 58,
+        "crossover": 48,
+        "longevity": 63
+      },
+      "reach": "IG 29K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/thelousaway/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 37,
+      "name": "Amotti",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "KR",
+      "who": "Physical: 100 Season 2 winner and Team Korea member who took 2nd in the Doubles race at AIA Hyrox Singapore 2025.",
+      "why": "Pulls a huge Netflix-built audience into Hyrox through upbeat training vlogs.",
+      "factors": {
+        "results": 43,
+        "reach": 55,
+        "content": 63,
+        "momentum": 63,
+        "crossover": 83,
+        "longevity": 28
+      },
+      "reach": "IG follower count not independently confirmed; Physical: 100-driven following (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/amottivation/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 38,
+      "name": "Marc Dean",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "elite",
+      "country": "GB",
+      "who": "2024 Pro Doubles World Champion alongside Jake Dearden, and a Hyrox coach who breaks down doubles strategy for his own athletes.",
+      "why": "A genuine doubles-title résumé plus a coaching voice aimed squarely at age-group doubles teams.",
+      "factors": {
+        "results": 77,
+        "reach": 49,
+        "content": 54,
+        "momentum": 44,
+        "crossover": 34,
+        "longevity": 54
+      },
+      "reach": "IG 27K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/marcdean_/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 39,
+      "name": "Rebecca Mason",
+      "segment": "Rising & Pro Scene",
+      "tier": "creator",
+      "country": "GB",
+      "who": "Britain's most successful female HYROX racer historically; 2022 age-group World Champion and Elite 15 competitor 2022-2024, now a full-time HYROX 1-1 coach.",
+      "why": "Follow for coaching grounded in real Elite 15 experience, from a former elite gymnast who built her own path in the sport.",
+      "factors": {
+        "results": 61,
+        "reach": 39,
+        "content": 71,
+        "momentum": 56,
+        "crossover": 41,
+        "longevity": 61
+      },
+      "reach": "IG 9.2K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/becmasonpt"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 40,
+      "name": "Saskia Millard",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "GB",
+      "who": "London A&E doctor who set a European Hyrox Pro record (57:26) just months into her racing career.",
+      "why": "A near-zero-training-time breakout in a sport that's getting more professionalized by the season — worth watching how far it goes.",
+      "factors": {
+        "results": 69,
+        "reach": 38,
+        "content": 46,
+        "momentum": 86,
+        "crossover": 51,
+        "longevity": 31
+      },
+      "reach": "IG 7.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/saskiamillard"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 41,
+      "name": "Seena Akbary",
+      "segment": "National Standouts",
+      "tier": "creator",
+      "country": "AE",
+      "who": "Dubai-based founder of Energy Camp and 2024 Hyrox Cape Town Champion, now an Under Armour Middle East athlete.",
+      "why": "By far the biggest following of any Hyrox figure in the Gulf, and a genuine builder of the region's scene rather than just a racer.",
+      "factors": {
+        "results": 41,
+        "reach": 67,
+        "content": 61,
+        "momentum": 56,
+        "crossover": 71,
+        "longevity": 41
+      },
+      "reach": "IG 234K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://energycamp.ae",
+      "handles": {
+        "instagram": "https://instagram.com/seenaakbary"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 42,
+      "name": "Jade Skillen",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "GB",
+      "who": "Hyrox performance coach sponsored by Puma and Mira Fit, the most-followed Hyrox coach on this list.",
+      "why": "Consistent, brand-backed training content aimed at everyday racers, not just the elite field.",
+      "factors": {
+        "results": 28,
+        "reach": 62,
+        "content": 73,
+        "momentum": 68,
+        "crossover": 63,
+        "longevity": 48
+      },
+      "reach": "IG 121K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/jade_skillen/"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 43,
+      "name": "Max Pineau",
+      "segment": "Rising & Pro Scene",
+      "tier": "creator",
+      "country": "FR",
+      "who": "French HYROX Pro athlete and TikTok star (posts as \"pinaliste\"); races doubles and solo Pro divisions while building one of the sport's biggest short-form followings.",
+      "why": "Follow for high-volume, high-energy running and HYROX content that pulls a huge general-fitness audience into the sport.",
+      "factors": {
+        "results": 36,
+        "reach": 73,
+        "content": 71,
+        "momentum": 66,
+        "crossover": 61,
+        "longevity": 31
+      },
+      "reach": "TikTok 460K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "tiktok": "https://tiktok.com/@pinaliste"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 44,
+      "name": "Till Schenk",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "DE",
+      "who": "Hyrox livestream co-commentator and Global Event Emcee/TV host for Hyrox and Eurosport, based in Munich; former 14-season Ironman athlete.",
+      "why": "His race-day commentary is the voice most fans associate with the sport's biggest broadcasts.",
+      "factors": {
+        "results": 23,
+        "reach": 35,
+        "content": 78,
+        "momentum": 68,
+        "crossover": 73,
+        "longevity": 63
+      },
+      "reach": "IG count not found (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/tillschenklive/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 45,
+      "name": "Louis Osselaer",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "BE",
+      "who": "Belgian Elite 15 racer who went from age-group world champion to 2026 HYROX World Championships silver medalist.",
+      "why": "This season's breakout — the sled-pull specialist nobody was talking about until he nearly won Stockholm.",
+      "factors": {
+        "results": 77,
+        "reach": 30,
+        "content": 42,
+        "momentum": 85,
+        "crossover": 37,
+        "longevity": 32
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 46,
+      "name": "Joffrey Voisin",
+      "segment": "National Standouts",
+      "tier": "creator",
+      "country": "FR",
+      "who": "France's best-known Hyrox name, a four-time Masters (40+) World Champion who only started racing in his 40s.",
+      "why": "A late-start comeback story with French-language coaching content that doubles as the entry point for French fans discovering the sport.",
+      "factors": {
+        "results": 46,
+        "reach": 45,
+        "content": 61,
+        "momentum": 61,
+        "crossover": 56,
+        "longevity": 51
+      },
+      "reach": "IG 17.7K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/joffreyvoisin_"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 47,
+      "name": "Noah Ohlsen",
+      "segment": "Crossover Athletes",
+      "tier": "elite",
+      "country": "US",
+      "who": "Multi-time CrossFit Games veteran, 2019 Games runner-up and 'Spirit of the Games' award winner, who raced Hyrox Elite Doubles at the 2026 World Championships.",
+      "why": "One of CrossFit's most respected names lends the format his credibility and his built-in following.",
+      "factors": {
+        "results": 57,
+        "reach": 50,
+        "content": 52,
+        "momentum": 57,
+        "crossover": 67,
+        "longevity": 27
+      },
+      "reach": "IG ~250K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 48,
+      "name": "Tomas Tvrdik",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "CZ",
+      "who": "Czech soldier and Elite 15 racer, EMEA champion in 2026 with a sub-55-minute personal best at age 40.",
+      "why": "No man over 40 has gone faster — a genuine outlier chasing a world title on almost no training volume.",
+      "factors": {
+        "results": 69,
+        "reach": 25,
+        "content": 52,
+        "momentum": 72,
+        "crossover": 42,
+        "longevity": 42
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 49,
+      "name": "Graham Halliday",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "GB",
+      "who": "Scottish Elite 15 racer, widely regarded as the UK's fastest HYROX athlete, 10th at the 2025 World Championships.",
+      "why": "Full-time coach and gym owner whose podcast and YouTube channel teach the sport from race-day intensity down to basics.",
+      "factors": {
+        "results": 57,
+        "reach": 46,
+        "content": 62,
+        "momentum": 52,
+        "crossover": 32,
+        "longevity": 57
+      },
+      "reach": "IG 20K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/grahamhalliday_"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 50,
+      "name": "Kyle Schoonbee",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "ZA",
+      "who": "Tokyo 2020 Olympic rower turned South African Hyrox champion, winning Men's Pro at both Cape Town and Johannesburg.",
+      "why": "An Olympic-caliber engine redirected at Hyrox, in a South African scene that's still young — a genuine crossover story to watch grow.",
+      "factors": {
+        "results": 61,
+        "reach": 28,
+        "content": 46,
+        "momentum": 71,
+        "crossover": 61,
+        "longevity": 36
+      },
+      "reach": "IG 2.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/kyle.schoonbee"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 51,
+      "name": "Katherine Fahsbender",
+      "segment": "Rising & Pro Scene",
+      "tier": "elite",
+      "country": "US",
+      "who": "American HYROX Pro racer who went from casual runner to Pro Women's winner (Atlanta) and Pro Doubles winner (Houston) in about 18 months.",
+      "why": "Follow to watch one of the sport's fastest-rising talents in real time as she pushes toward Elite 15 contention.",
+      "factors": {
+        "results": 56,
+        "reach": 40,
+        "content": 56,
+        "momentum": 89,
+        "crossover": 41,
+        "longevity": 26
+      },
+      "reach": "IG unconfirmed, growing fast (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/fahsyfit"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 52,
+      "name": "David Wetherill",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "creator",
+      "country": "GB",
+      "who": "British Paralympian (three Games in table tennis) turned Hyrox Adaptive ambassador, racing with mobility aids and helping shape the division's rules.",
+      "why": "The face of Hyrox Adaptive — his 2025 Worlds moment, a spontaneous cheer circle at the final wall-ball station, defined the division.",
+      "factors": {
+        "results": 44,
+        "reach": 51,
+        "content": 54,
+        "momentum": 64,
+        "crossover": 59,
+        "longevity": 39
+      },
+      "reach": "IG 37K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/wetherill.para.fit/"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 53,
+      "name": "Gustav Cordua",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "DK",
+      "who": "Danish Elite 15 Doubles athlete and graduate engineering student who set the Danish national Pro record (55:29) at home in Copenhagen.",
+      "why": "A student-athlete balancing a master's degree with Elite 15 racing, with a running doubles storyline alongside partner Sebastian Ifversen.",
+      "factors": {
+        "results": 63,
+        "reach": 35,
+        "content": 46,
+        "momentum": 66,
+        "crossover": 41,
+        "longevity": 46
+      },
+      "reach": "IG 5.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/gustav_cordua"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 54,
+      "name": "Maarten Enthoven",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "NL",
+      "who": "Dutch engineer and Elite-15-calibre athlete who broke into the all-time Pro men's rankings with a 54:58 win at Hyrox Dublin.",
+      "why": "Founder of Pro Hyrox Stats — the follow for data-driven breakdowns of the sport as much as for his own racing.",
+      "factors": {
+        "results": 63,
+        "reach": 26,
+        "content": 66,
+        "momentum": 71,
+        "crossover": 31,
+        "longevity": 41
+      },
+      "reach": "IG 2K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://maartenenthoven.com",
+      "handles": {
+        "instagram": "https://instagram.com/maartenenthoven"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 55,
+      "name": "Greg Williams",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "US",
+      "who": "Hyrox livestream co-commentator and host of Rox Lyfe, the weekly Hyrox podcast interviewing top athletes and coaches.",
+      "why": "The closest thing the sport has to a reference show — deep athlete interviews every week.",
+      "factors": {
+        "results": 23,
+        "reach": 35,
+        "content": 83,
+        "momentum": 68,
+        "crossover": 53,
+        "longevity": 58
+      },
+      "reach": "IG count not found; weekly podcast across Spotify/Apple/Amazon (approx 2026)",
+      "reachVerified": false,
+      "website": "https://roxlyfe.com/",
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "rank": 56,
+      "name": "Laura Horvath",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "HU",
+      "who": "2023 CrossFit Games champion and three-time Rogue Invitational winner who raced Hyrox mixed doubles with her brother Kristof at the 2026 World Championships (58:43).",
+      "why": "One of CrossFit's biggest current stars showing up on a Hyrox start line pulls a fresh audience toward the sport.",
+      "factors": {
+        "results": 42,
+        "reach": 50,
+        "content": 47,
+        "momentum": 67,
+        "crossover": 77,
+        "longevity": 22
+      },
+      "reach": "IG ~300K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "rank": 57,
+      "name": "Mirjam Von Rohr",
+      "segment": "Crossover Athletes",
+      "tier": "elite",
+      "country": "CH",
+      "who": "Reigning Swiss, European, and World Functional Fitness Champion and 2024-25 CrossFit Open winner who raced Hyrox Pro Women for Switzerland, finishing 7th at the 2026 World Championships.",
+      "why": "A genuine multi-discipline champion — CrossFit, weightlifting, powerlifting — adding Hyrox pulls functional-fitness diehards along with her.",
+      "factors": {
+        "results": 62,
+        "reach": 30,
+        "content": 42,
+        "momentum": 72,
+        "crossover": 57,
+        "longevity": 27
+      },
+      "reach": "IG ~10K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "rank": 58,
+      "name": "Celia Duff",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "creator",
+      "country": "GB",
+      "who": "\"Badass Gran\" — retired doctor who took up Hyrox at 68 and became age-group world champion at 65-69 (2023) and 70-74 (2024/25), and holds the 70-74 world record.",
+      "why": "Proof Hyrox has no age ceiling, and a joyful presence who has pulled thousands of older adults toward the sport.",
+      "factors": {
+        "results": 39,
+        "reach": 40,
+        "content": 54,
+        "momentum": 69,
+        "crossover": 59,
+        "longevity": 44
+      },
+      "reach": "IG account active; follower count not confirmed in search; Women's Health and CNN coverage (2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "rank": 59,
+      "name": "Annie Emilsson",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "SE",
+      "who": "Swedish national Pro record holder who broke into the sport's all-time fastest women's times just seven months after her Hyrox debut.",
+      "why": "One of the fastest rises anywhere in the sport right now — worth following before she's a household name.",
+      "factors": {
+        "results": 66,
+        "reach": 31,
+        "content": 41,
+        "momentum": 91,
+        "crossover": 36,
+        "longevity": 26
+      },
+      "reach": "IG 3.4K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/anniemilsson"
+      },
+      "warning": null,
+      "score": 50
+    },
+    {
+      "rank": 60,
+      "name": "Willy Georges",
+      "segment": "Crossover Athletes",
+      "tier": "elite",
+      "country": "FR",
+      "who": "Leading French CrossFit Games athlete and former rugby player who raced Hyrox Pro Men at the 2026 World Championships, ranking first in the sled push.",
+      "why": "Brings France's CrossFit following to Hyrox and shows raw strength translates directly to the sled stations.",
+      "factors": {
+        "results": 52,
+        "reach": 40,
+        "content": 42,
+        "momentum": 67,
+        "crossover": 62,
+        "longevity": 27
+      },
+      "reach": "IG ~60K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 61,
+      "name": "Choi Min-ho",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "KR",
+      "who": "SHINee member and actor, known as Minho, who raced Hyrox Singapore's Men's Doubles alongside Physical:100's Hong Beom-seok, finishing 2nd.",
+      "why": "A K-pop idol podiuming at Hyrox is the kind of mainstream press the sport cannot buy.",
+      "factors": {
+        "results": 37,
+        "reach": 70,
+        "content": 32,
+        "momentum": 57,
+        "crossover": 92,
+        "longevity": 12
+      },
+      "reach": "IG ~9M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 62,
+      "name": "Rachael Wade",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "US",
+      "who": "Alabama-based registered dietitian and mother of two who won three straight US Pro races (Houston, Miami, Ottawa) on just 7-8 training hours a week.",
+      "why": "A genuinely different story than most elite content in this sport: low-volume training, real job, real kids, real wins.",
+      "factors": {
+        "results": 63,
+        "reach": 26,
+        "content": 41,
+        "momentum": 81,
+        "crossover": 41,
+        "longevity": 31
+      },
+      "reach": "IG 1.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/rachaelwade_"
+      },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 63,
+      "name": "Araya A. Hargate",
+      "segment": "National Standouts",
+      "tier": "creator",
+      "country": "TH",
+      "who": "Thai actress and one of Thailand's most-followed public figures, who completed her Hyrox debut in Women's Doubles at Bangkok 2026.",
+      "why": "Her debut pulled mainstream Thai press coverage most Hyrox racers never get — the clearest crossover moment the sport has had in Southeast Asia.",
+      "factors": {
+        "results": 21,
+        "reach": 100,
+        "content": 21,
+        "momentum": 61,
+        "crossover": 96,
+        "longevity": 11
+      },
+      "reach": "IG 11.3M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/chomismaterialgirl"
+      },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 64,
+      "name": "Robert James",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "GB",
+      "who": "Official Hyrox Ambassador and coach behind the Sub-60 program, built on science-backed pacing plans.",
+      "why": "Go to him for a structured, data-driven path to breaking sub-60, not just motivation.",
+      "factors": {
+        "results": 33,
+        "reach": 50,
+        "content": 63,
+        "momentum": 53,
+        "crossover": 48,
+        "longevity": 53
+      },
+      "reach": "IG 33K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/r.jamescoaching/"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 65,
+      "name": "Hong Beom-seok",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "KR",
+      "who": "Physical:100 season-two runner-up and former South Korean special-forces soldier and firefighter who has raced Hyrox Seoul and Hyrox Singapore, taking 2nd in doubles with SHINee's Minho.",
+      "why": "His military-toughness fame from Physical:100 is exactly the audience Hyrox wants watching a race.",
+      "factors": {
+        "results": 42,
+        "reach": 45,
+        "content": 47,
+        "momentum": 62,
+        "crossover": 82,
+        "longevity": 17
+      },
+      "reach": "IG ~500K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 66,
+      "name": "Claire Nesbitt",
+      "segment": "National Standouts",
+      "tier": "creator",
+      "country": "HK",
+      "who": "Former wine critic turned full-time coach, now a Hyrox Hong Kong ambassador representing HK at the World Championships for a fourth straight year.",
+      "why": "One of the only dedicated Hyrox voices building the sport specifically for Hong Kong and the wider Asia scene.",
+      "factors": {
+        "results": 56,
+        "reach": 34,
+        "content": 46,
+        "momentum": 56,
+        "crossover": 41,
+        "longevity": 51
+      },
+      "reach": "IG 5.3K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.clairenesbittcoaching.com",
+      "handles": {
+        "instagram": "https://instagram.com/claire.nesbitt_"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 67,
+      "name": "Aoife O'Rourke",
+      "segment": "Rising & Pro Scene",
+      "tier": "creator",
+      "country": "IE",
+      "who": "Two-time Olympic boxer and 2025 World Championship boxing silver medalist from Ireland; won a HYROX doubles age-group World title with sister Lisa in 2025.",
+      "why": "Follow for the novelty of an Olympic-level combat-sport athlete crossing over into HYROX and bringing her boxing following with her.",
+      "factors": {
+        "results": 46,
+        "reach": 40,
+        "content": 31,
+        "momentum": 61,
+        "crossover": 91,
+        "longevity": 21
+      },
+      "reach": "IG 10K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/aoifeorourke327"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 68,
+      "name": "Calypso Sheridan",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "AU",
+      "who": "Australian Elite 15 singles and doubles racer; with Meg Martin set the women's doubles world record (53:21) and finished top 5 at the 2026 Worlds.",
+      "why": "A double threat racing both the singles Elite 15 and record-setting doubles.",
+      "factors": {
+        "results": 67,
+        "reach": 25,
+        "content": 37,
+        "momentum": 77,
+        "crossover": 32,
+        "longevity": 37
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 69,
+      "name": "Madelyn Eybergen",
+      "segment": "National Standouts",
+      "tier": "elite",
+      "country": "CA",
+      "who": "Canadian university cross-country champion turned Hyrox convert — the first Canadian woman under 60 minutes and a Pro 20-24 World Champion.",
+      "why": "A running pedigree this deep rarely crosses into Hyrox this fast — worth watching as she moves up divisions.",
+      "factors": {
+        "results": 61,
+        "reach": 25,
+        "content": 36,
+        "momentum": 81,
+        "crossover": 46,
+        "longevity": 21
+      },
+      "reach": "IG 1.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/maddy.strength"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "rank": 70,
+      "name": "Aldo Lozano Marquez",
+      "segment": "National Standouts",
+      "tier": "creator",
+      "country": "MX",
+      "who": "Mexican Hyrox ambassador on the Puma Mexico roster with 20-plus podiums racing across Mexico, Brazil, Spain, and the US.",
+      "why": "The face of HYROX Mexico's ambassador program — the follow for LatAm race coverage and hybrid-performance coaching.",
+      "factors": {
+        "results": 46,
+        "reach": 39,
+        "content": 51,
+        "momentum": 51,
+        "crossover": 46,
+        "longevity": 51
+      },
+      "reach": "IG 9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/marquez_aldo_coach"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "rank": 71,
+      "name": "Jannik Czapla",
+      "segment": "Rising & Pro Scene",
+      "tier": "elite",
+      "country": "DE",
+      "who": "German HYROX Elite 15 athlete and HYROX Germany ambassador; part of Germany's silver-medal 2026 Mixed Relay team alongside Tim Wenisch and Linda Meier.",
+      "why": "Follow a young German elite building a coaching brand alongside his own Elite 15 racing career.",
+      "factors": {
+        "results": 56,
+        "reach": 35,
+        "content": 56,
+        "momentum": 61,
+        "crossover": 31,
+        "longevity": 36
+      },
+      "reach": "IG 5.4K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/jannik_czapla_99"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "rank": 72,
+      "name": "Lily Sharp",
+      "segment": "Rising & Pro Scene",
+      "tier": "creator",
+      "country": "AU",
+      "who": "Australian HYROX Pro Doubles athlete with results across multiple seasons and partners (national top-3 rankings); active HYROX content creator.",
+      "why": "Follow for a working Pro-division racer's view of the doubles circuit, from qualifiers through World Championships.",
+      "factors": {
+        "results": 41,
+        "reach": 53,
+        "content": 61,
+        "momentum": 56,
+        "crossover": 31,
+        "longevity": 46
+      },
+      "reach": "IG 43K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/lilysharp__"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "rank": 73,
+      "name": "Danél Louw",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "ZA",
+      "who": "South African Hyrox Pro-division champion (Johannesburg, Cape Town) chasing an Elite 15 World Championship podium.",
+      "why": "The sport's clearest breakout story out of South Africa, now backed by a growing brand roster.",
+      "factors": {
+        "results": 62,
+        "reach": 25,
+        "content": 37,
+        "momentum": 82,
+        "crossover": 32,
+        "longevity": 32
+      },
+      "reach": "IG 1.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/danel_louw1"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "rank": 74,
+      "name": "Tobias Lautwein",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "DE",
+      "who": "German HYROX World Champion (2021) and European Champion (2022), a former world-record holder now racing at Pro rather than Elite 15 level.",
+      "why": "One of the sport's earliest champions — still racing and still a name podcasts want, though he dropped out of the Elite 15 for 2025-26.",
+      "factors": {
+        "results": 47,
+        "reach": 25,
+        "content": 52,
+        "momentum": 27,
+        "crossover": 37,
+        "longevity": 82
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 45
+    },
+    {
+      "rank": 75,
+      "name": "Nico Bolzico",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "AR",
+      "who": "Argentine-born fitness entrepreneur and Philippine media personality who completed his Hyrox debut in Seoul in 1:16 alongside the country's fastest Hyrox Pro racer.",
+      "why": "A fitness-focused celebrity who trained and actually finished, not just showed up for photos.",
+      "factors": {
+        "results": 32,
+        "reach": 50,
+        "content": 47,
+        "momentum": 52,
+        "crossover": 77,
+        "longevity": 12
+      },
+      "reach": "IG ~3M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 44
+    },
+    {
+      "rank": 76,
+      "name": "Maurice Andre",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "creator",
+      "country": "DE",
+      "who": "Paraplegic adaptive athlete, posting as @SCImotivation, who took up Hyrox after a paragliding accident and was named Hyrox's Inspirational Athlete of the Year 2024.",
+      "why": "Advocacy-first content from Team Hyrox Allgäu that has opened the adaptive division to a wider audience.",
+      "factors": {
+        "results": 39,
+        "reach": 35,
+        "content": 54,
+        "momentum": 59,
+        "crossover": 49,
+        "longevity": 34
+      },
+      "reach": "IG account active; follower count not confirmed in search (2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/scimotivation/"
+      },
+      "warning": null,
+      "score": 44
+    },
+    {
+      "rank": 77,
+      "name": "Charlotte Haglund",
+      "segment": "Rising & Pro Scene",
+      "tier": "elite",
+      "country": "SE",
+      "who": "Swedish HYROX Pro Women athlete who ranked 13th of 731 (top 1%) at the 2025 World Championships and raced on Sweden's 2026 Elite 15 and Mixed Relay teams.",
+      "why": "Follow a quietly excellent Nordic racer whose results outpace her current profile.",
+      "factors": {
+        "results": 69,
+        "reach": 25,
+        "content": 31,
+        "momentum": 61,
+        "crossover": 26,
+        "longevity": 36
+      },
+      "reach": "IG ~1.7K (approx 2026)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/haglundcharlie_"
+      },
+      "warning": null,
+      "score": 44
+    },
+    {
+      "rank": 78,
+      "name": "Jonne Koski",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "FI",
+      "who": "Finnish CrossFit-scene veteran who teamed up with Olympic cross-country skiing champion Iivo Niskanen for a Hyrox doubles debut in Helsinki (Pro Doubles 30-34, 58:02).",
+      "why": "The Koski-Niskanen pairing pulled Finland's ski and CrossFit crowds into a Hyrox stream at the same time.",
+      "factors": {
+        "results": 37,
+        "reach": 35,
+        "content": 47,
+        "momentum": 57,
+        "crossover": 67,
+        "longevity": 17
+      },
+      "reach": "IG ~30K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 43
+    },
+    {
+      "rank": 79,
+      "name": "Anne Curtis",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "PH",
+      "who": "Filipino actress and TV host who raced Hyrox Seoul with husband Erwan Heussaff as a celebrity-couple entry.",
+      "why": "One of the Philippines' biggest media stars racing Hyrox brings a huge Southeast Asian audience with her.",
+      "factors": {
+        "results": 22,
+        "reach": 65,
+        "content": 32,
+        "momentum": 52,
+        "crossover": 92,
+        "longevity": 12
+      },
+      "reach": "IG ~20M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 43
+    },
+    {
+      "rank": 80,
+      "name": "Emilie Dahmen",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "NL",
+      "who": "Dutch Elite 15 singles racer, ranked inside the current world top 10 heading into the 2026 World Championships.",
+      "why": "The Netherlands' top Hyrox export, holding a steady top-10 world ranking.",
+      "factors": {
+        "results": 64,
+        "reach": 20,
+        "content": 32,
+        "momentum": 67,
+        "crossover": 27,
+        "longevity": 37
+      },
+      "reach": "IG ~7K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 43
+    },
+    {
+      "rank": 81,
+      "name": "Dong Hyun Kim",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "KR",
+      "who": "Former UFC welterweight ('Stun Gun') who anchored Team South Korea to victory at the Hyrox x Stan Browney creator race.",
+      "why": "A legit ex-UFC fighter winning a Hyrox creator event shows the format rewards real athletic pedigree, not just influencer clout.",
+      "factors": {
+        "results": 37,
+        "reach": 40,
+        "content": 37,
+        "momentum": 57,
+        "crossover": 72,
+        "longevity": 12
+      },
+      "reach": "IG ~200K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 42
+    },
+    {
+      "rank": 82,
+      "name": "Sebastian Ifversen",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "DK",
+      "who": "Danish Elite 15 racer with dozens of races across six seasons and consistent top-10 major finishes.",
+      "why": "A dependable Elite 15 name for readers tracking the full field, not just the podium.",
+      "factors": {
+        "results": 57,
+        "reach": 25,
+        "content": 37,
+        "momentum": 52,
+        "crossover": 27,
+        "longevity": 47
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/ifversen1"
+      },
+      "warning": null,
+      "score": 42
+    },
+    {
+      "rank": 83,
+      "name": "Agnieszka Maciejewska",
+      "segment": "National Standouts",
+      "tier": "creator",
+      "country": "PL",
+      "who": "HYROX Poland ambassador with 13 gold and 4 silver national medals and a 2022 Spartan Race World Championship age-group title.",
+      "why": "A veteran of Poland's obstacle-racing-to-Hyrox pipeline, now coaching business and personal-effectiveness clients alongside her own racing.",
+      "factors": {
+        "results": 41,
+        "reach": 32,
+        "content": 41,
+        "momentum": 46,
+        "crossover": 36,
+        "longevity": 56
+      },
+      "reach": "IG 3.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/agnieszka_maciejewska_hyrox"
+      },
+      "warning": null,
+      "score": 42
+    },
+    {
+      "rank": 84,
+      "name": "Seka Arning",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "DE",
+      "who": "German Elite 15 singles racer for the 2026 World Championships in Stockholm.",
+      "why": "One of three Germans in the current Elite 15 women's field, evidence of the country's rising depth.",
+      "factors": {
+        "results": 62,
+        "reach": 20,
+        "content": 32,
+        "momentum": 67,
+        "crossover": 27,
+        "longevity": 32
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 42
+    },
+    {
+      "rank": 85,
+      "name": "Alyssa McElheny",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "US",
+      "who": "American Elite 15 singles racer for the 2026 World Championships in Stockholm.",
+      "why": "Part of the deep US contingent pushing the pace at every major.",
+      "factors": {
+        "results": 60,
+        "reach": 20,
+        "content": 32,
+        "momentum": 62,
+        "crossover": 27,
+        "longevity": 32
+      },
+      "reach": "IG ~6K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 41
+    },
+    {
+      "rank": 86,
+      "name": "George Edwards",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "GB",
+      "who": "Hyrox coach and athlete linked to The Hybrid Project, posting as @ge_training.",
+      "why": "A smaller-following coach worth a follow for straightforward, no-frills Hyrox programming.",
+      "factors": {
+        "results": 28,
+        "reach": 39,
+        "content": 53,
+        "momentum": 43,
+        "crossover": 48,
+        "longevity": 38
+      },
+      "reach": "IG 9.2K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/ge_training/"
+      },
+      "warning": null,
+      "score": 40
+    },
+    {
+      "rank": 87,
+      "name": "Delphin Kruithof Kremer",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "NL",
+      "who": "Hyrox ambassador, athlete, and head coach offering triathlon, running, and Hyrox programming.",
+      "why": "Worth following for programming that bridges endurance racing and Hyrox-specific training.",
+      "factors": {
+        "results": 28,
+        "reach": 37,
+        "content": 53,
+        "momentum": 43,
+        "crossover": 48,
+        "longevity": 38
+      },
+      "reach": "IG 7.4K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/dphn.coach/"
+      },
+      "warning": null,
+      "score": 40
+    },
+    {
+      "rank": 88,
+      "name": "Iivo Niskanen",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "FI",
+      "who": "Three-time Olympic cross-country skiing champion who raced his first Hyrox doubles event in Helsinki alongside CrossFit's Jonne Koski.",
+      "why": "One of Finland's biggest sporting names trying the format on camera brings mainstream endurance-sport eyes to Hyrox.",
+      "factors": {
+        "results": 27,
+        "reach": 45,
+        "content": 27,
+        "momentum": 52,
+        "crossover": 87,
+        "longevity": 12
+      },
+      "reach": "IG ~80K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 40
+    },
+    {
+      "rank": 89,
+      "name": "Erwan Heussaff",
+      "segment": "Crossover Athletes",
+      "tier": "creator",
+      "country": "PH",
+      "who": "Entrepreneur and media personality who completed Hyrox Seoul as part of a celebrity-couple entry with wife Anne Curtis.",
+      "why": "A Philippine lifestyle-media heavyweight actually finishing Hyrox is free exposure to an audience the sport hasn't reached yet.",
+      "factors": {
+        "results": 22,
+        "reach": 55,
+        "content": 37,
+        "momentum": 47,
+        "crossover": 82,
+        "longevity": 12
+      },
+      "reach": "IG ~5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 40
+    },
+    {
+      "rank": 90,
+      "name": "Isaac Sanderson",
+      "segment": "Rising & Pro Scene",
+      "tier": "creator",
+      "country": "CA",
+      "who": "Canadian HYROX Pro athlete sponsored by LSKD and 1st Phorm; regular Pro-division racer across Canadian events.",
+      "why": "Follow for an under-the-radar Canadian racer's-eye view of the Pro circuit and sponsor-backed training content.",
+      "factors": {
+        "results": 41,
+        "reach": 26,
+        "content": 46,
+        "momentum": 51,
+        "crossover": 31,
+        "longevity": 41
+      },
+      "reach": "IG 2.1K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/isaacsanderson18"
+      },
+      "warning": null,
+      "score": 40
+    },
+    {
+      "rank": 91,
+      "name": "Jess Pettrow",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "AU",
+      "who": "Australian Elite 15 singles racer, part of the country's deep women's contingent alongside Wietrzyk and Sheridan.",
+      "why": "A steady major-race performer with room to climb the Elite 15 ranks.",
+      "factors": {
+        "results": 57,
+        "reach": 20,
+        "content": 32,
+        "momentum": 62,
+        "crossover": 27,
+        "longevity": 32
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 40
+    },
+    {
+      "rank": 92,
+      "name": "Renaud Boutillier",
+      "segment": "Creators, Coaches & Media",
+      "tier": "creator",
+      "country": "FR",
+      "who": "French Hyrox coach posting training content as @renaud.hyrox.coach.",
+      "why": "A smaller French-language voice for athletes who want coaching content outside English-language channels.",
+      "factors": {
+        "results": 28,
+        "reach": 30,
+        "content": 48,
+        "momentum": 43,
+        "crossover": 43,
+        "longevity": 38
+      },
+      "reach": "IG follower count not found (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/renaud.hyrox.coach/"
+      },
+      "warning": null,
+      "score": 37
+    },
+    {
+      "rank": 93,
+      "name": "Alejandro Rojas-Marcos & Julio Paneque",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "creator",
+      "country": "ES",
+      "who": "Former mayor of Sevilla, 85, and his partner Julio Paneque, 59 — combined age 144 — who won age-group doubles bronze at the 2026 Hyrox World Championships in Stockholm.",
+      "why": "The most-shared age-group story of the 2026 season, and a case study in no upper age limit for Hyrox doubles.",
+      "factors": {
+        "results": 37,
+        "reach": 10,
+        "content": 19,
+        "momentum": 69,
+        "crossover": 54,
+        "longevity": 29
+      },
+      "reach": "No social following found; Spanish and English press coverage only (2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 36
+    },
+    {
+      "rank": 94,
+      "name": "Dexter Buchanan",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "NZ",
+      "who": "New Zealand racer, one of seven new qualifiers to the 2026 HYROX Elite 15 men's field.",
+      "why": "Worth watching as a first-season Elite 15 name from a country new to the sport's top tier.",
+      "factors": {
+        "results": 52,
+        "reach": 20,
+        "content": 22,
+        "momentum": 62,
+        "crossover": 22,
+        "longevity": 27
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 36
+    },
+    {
+      "rank": 95,
+      "name": "Sean Noble",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "IE",
+      "who": "Irish racer, one of seven new qualifiers to the 2026 HYROX Elite 15 men's field.",
+      "why": "A first-season Elite 15 name to watch as Ireland's presence in the sport's top tier grows.",
+      "factors": {
+        "results": 52,
+        "reach": 20,
+        "content": 22,
+        "momentum": 62,
+        "crossover": 22,
+        "longevity": 27
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 36
+    },
+    {
+      "rank": 96,
+      "name": "Luke Greer",
+      "segment": "Elite Men",
+      "tier": "elite",
+      "country": "GB",
+      "who": "English racer, one of seven new qualifiers to the 2026 HYROX Elite 15 men's field.",
+      "why": "New to the Elite 15 in 2026 and part of a deep British contingent at the top of the sport.",
+      "factors": {
+        "results": 52,
+        "reach": 20,
+        "content": 22,
+        "momentum": 62,
+        "crossover": 22,
+        "longevity": 27
+      },
+      "reach": "IG follower count unconfirmed (approx, 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 36
+    },
+    {
+      "rank": 97,
+      "name": "Morgan Schulz",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "US",
+      "who": "American Elite 15 singles racer for the 2026 World Championships in Stockholm.",
+      "why": "Another deep-bench US racer keeping the field honest week to week.",
+      "factors": {
+        "results": 54,
+        "reach": 15,
+        "content": 27,
+        "momentum": 57,
+        "crossover": 22,
+        "longevity": 27
+      },
+      "reach": "IG ~4K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 36
+    },
+    {
+      "rank": 98,
+      "name": "Gabrielle Nikora-Baker",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "NZ",
+      "who": "New Zealand's Elite 15 singles racer for the 2026 World Championships.",
+      "why": "The only Kiwi in the current Elite 15 women's field.",
+      "factors": {
+        "results": 57,
+        "reach": 15,
+        "content": 27,
+        "momentum": 57,
+        "crossover": 22,
+        "longevity": 27
+      },
+      "reach": "IG ~4K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 36
+    },
+    {
+      "rank": 99,
+      "name": "Lena Putters",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "BE",
+      "who": "Belgian Elite 15 singles racer for the 2026 World Championships.",
+      "why": "Belgium's flag-bearer in the world's toughest field.",
+      "factors": {
+        "results": 54,
+        "reach": 15,
+        "content": 27,
+        "momentum": 57,
+        "crossover": 22,
+        "longevity": 27
+      },
+      "reach": "IG ~3K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 36
+    },
+    {
+      "rank": 100,
+      "name": "Stefanie Oswald",
+      "segment": "Elite Women",
+      "tier": "elite",
+      "country": "DE",
+      "who": "German Elite 15 singles racer for the 2026 World Championships in Stockholm.",
+      "why": "The third German name in the current Elite 15 — depth that's reshaping the leaderboard.",
+      "factors": {
+        "results": 54,
+        "reach": 15,
+        "content": 27,
+        "momentum": 57,
+        "crossover": 22,
+        "longevity": 27
+      },
+      "reach": "IG ~3K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 36
+    }
+  ],
+  "bubblingUnder": [
+    {
+      "name": "Pete Langsjoen",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "creator",
+      "country": "US",
+      "who": "Became a Hyrox world champion in the men's 75-79 age group at 77, training out of Life Time facilities in California.",
+      "why": "A lifelong-training blueprint that shows the sport scales to any age, profiled in Experience Life magazine.",
+      "factors": {
+        "results": 39,
+        "reach": 10,
+        "content": 19,
+        "momentum": 54,
+        "crossover": 39,
+        "longevity": 29
+      },
+      "reach": "No social presence found; Experience Life magazine profile only (2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 32
+    },
+    {
+      "name": "Annie Reid",
+      "segment": "Doubles, Relay & Age Group",
+      "tier": "creator",
+      "country": "GB",
+      "who": "75-year-old breast cancer survivor from Essex who raced solo at the 2026 Hyrox World Championships in Stockholm, finishing 12th in the women's 70-74 category, and aims to be the first woman to race solo at 80.",
+      "why": "One of the sport's most-covered human-interest stories, pure grit with no following required.",
+      "factors": {
+        "results": 29,
+        "reach": 10,
+        "content": 14,
+        "momentum": 59,
+        "crossover": 44,
+        "longevity": 29
+      },
+      "reach": "No social presence found; BBC, Yahoo Sports and Boxrox coverage only (2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 31
+    }
+  ]
+}

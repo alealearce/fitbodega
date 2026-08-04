@@ -101,6 +101,90 @@ LISTS.retreats = {
   },
 };
 
+LISTS.hyrox = {
+  segPattern: /^hyrox-seg-.*\.json$/,
+  weights: {
+    results: 0.25,
+    reach: 0.15,
+    content: 0.15,
+    momentum: 0.15,
+    crossover: 0.15,
+    longevity: 0.15,
+  },
+  discountTier: null,
+  discount: 1,
+  reachBase: { count: 10e3, score: 40 },
+  meta: {
+    title: "Top 100 Hyrox Athletes to Follow 2026",
+    subtitle:
+      "The racers and voices defining fitness racing — ranked. World champions, Elite 15 regulars, doubles stars, and the creators teaching the sport.",
+    scoreModel: {
+      name: "Hyrox Follow Score",
+      gate: "Two tiers on one scale. Elite — races elite heats and podiums at majors, scored results-first. Creators — coaches and media voices who may race sub-elite but shape how the sport is trained and watched.",
+      notes:
+        "Reach is log-scaled and recomputed from researched follower counts. The five judgment factors — results, content, momentum, crossover, longevity — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+    },
+    disclaimer:
+      "Rosters and results move fast in Hyrox; the ranking is reviewed monthly against the current season. Educational and editorial — inclusion is not an endorsement.",
+  },
+};
+
+LISTS.coaches = {
+  segPattern: /^coach-seg-.*\.json$/,
+  weights: {
+    coaching: 0.25,
+    content: 0.2,
+    reach: 0.15,
+    credibility: 0.15,
+    business: 0.15,
+    engagement: 0.1,
+  },
+  discountTier: null,
+  discount: 1,
+  reachBase: { count: 150e3, score: 40 },
+  meta: {
+    title: "Top 100 Online Fitness Coaches 2026",
+    subtitle:
+      "The best coaches you can actually hire on the internet — ranked. Evidence-based physique coaches, transformation PTs, endurance coaches, and the podcasts and creators with real coaching arms.",
+    scoreModel: {
+      name: "Coaching Influence Score",
+      gate: "One hard gate: everyone on this list sells real coaching — 1:1 online coaching, coached programs with feedback, or a coaching app they author. Podcasters and content creators qualify only through a genuine coaching arm.",
+      notes:
+        "Reach is log-scaled and platform-weighted, recomputed from researched follower counts. The five judgment factors — coaching, content, credibility, business, engagement — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+    },
+    disclaimer:
+      "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement and scores measure influence and coaching footprint, not results guarantees — vet any coach before you pay.",
+  },
+};
+
+LISTS.recovery = {
+  segPattern: /^rec-seg-.*\.json$/,
+  weights: {
+    legacy: 0.2,
+    experience: 0.2,
+    facility: 0.15,
+    community: 0.15,
+    reach: 0.15,
+    destination: 0.15,
+  },
+  discountTier: null,
+  discount: 1,
+  reachBase: { count: 15e3, score: 40 },
+  meta: {
+    title: "Top 100 Recovery Spaces 2026",
+    subtitle:
+      "The world's best places to recover — ranked. Historic bathhouses, sauna temples, geothermal lagoons, jjimjilbang, and the new wave of social recovery clubs.",
+    scoreModel: {
+      name: "Recovery Space Score",
+      gate: "Specific, currently-operating venues the public can book or walk into. Heritage bathhouses and modern recovery studios are scored on the same scale; beauty salons and medical-aesthetic clinics do not qualify.",
+      notes:
+        "Reach is log-scaled and recomputed from each venue's researched follower counts. The five judgment factors — legacy, experience, facility, community, destination — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+    },
+    disclaimer:
+      "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; venues renovate, change access rules, and close — check before you travel.",
+  },
+};
+
 const [segDir, outFile, listId = "influencers"] = process.argv.slice(2);
 const LIST = LISTS[listId];
 if (!segDir || !outFile || !LIST) {
@@ -180,6 +264,8 @@ for (const e of entries) {
 const byName = new Map();
 for (const e of entries) {
   const key = e.name
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
     .replace(/\(.*?\)/g, "")
     .replace(/[^a-z0-9]/g, "");

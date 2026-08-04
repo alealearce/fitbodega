@@ -1,0 +1,2986 @@
+{
+  "meta": {
+    "title": "Top 100 Recovery Spaces 2026",
+    "subtitle": "The world's best places to recover — ranked. Historic bathhouses, sauna temples, geothermal lagoons, jjimjilbang, and the new wave of social recovery clubs.",
+    "scoreModel": {
+      "name": "Recovery Space Score",
+      "gate": "Specific, currently-operating venues the public can book or walk into. Heritage bathhouses and modern recovery studios are scored on the same scale; beauty salons and medical-aesthetic clinics do not qualify.",
+      "notes": "Reach is log-scaled and recomputed from each venue's researched follower counts. The five judgment factors — legacy, experience, facility, community, destination — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+      "weights": {
+        "legacy": 0.2,
+        "experience": 0.2,
+        "facility": 0.15,
+        "community": 0.15,
+        "reach": 0.15,
+        "destination": 0.15
+      }
+    },
+    "disclaimer": "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; venues renovate, change access rules, and close — check before you travel.",
+    "series": "The FitBodega 100",
+    "updated": "2026-08-04",
+    "reviewCadence": "monthly"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "name": "Blue Lagoon",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Grindavik",
+      "country": "IS",
+      "who": "Milky-blue geothermal lagoon fed by power-plant runoff, day tickets + the members-only Retreat spa/hotel.",
+      "why": "The venue that put geothermal bathing on the world tourism map; still Iceland's single most-visited attraction.",
+      "factors": {
+        "legacy": 74,
+        "experience": 79,
+        "facility": 89,
+        "community": 54,
+        "reach": 70,
+        "destination": 94
+      },
+      "reach": "IG 460K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.bluelagoon.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/bluelagoonis/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 2,
+      "name": "Friedrichsbad",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Baden-Baden",
+      "country": "DE",
+      "who": "1877 Roman-Irish bathing house running a fixed 17-step nude circuit, day and session tickets.",
+      "why": "The definitive European Roman-Irish bath ritual, still run in an unchanged Belle Epoque hall.",
+      "factors": {
+        "legacy": 89,
+        "experience": 84,
+        "facility": 86,
+        "community": 69,
+        "reach": 42,
+        "destination": 79
+      },
+      "reach": "IG 18K (verified 2026-08, shared account with Caracalla Spa)",
+      "reachVerified": true,
+      "website": "https://www.carasana.de/en/friedrichsbad/",
+      "handles": {
+        "instagram": "https://instagram.com/caracallatherme_friedrichsbad"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 3,
+      "name": "Szechenyi Thermal Bath",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Budapest",
+      "country": "HU",
+      "who": "Neo-Baroque thermal bath complex with 15+ indoor and outdoor pools, open daily on a walk-in day-ticket model.",
+      "why": "Budapest's largest and most photographed bath, the default bucket-list soak in the city.",
+      "factors": {
+        "legacy": 84,
+        "experience": 79,
+        "facility": 84,
+        "community": 69,
+        "reach": 38,
+        "destination": 84
+      },
+      "reach": "IG 12K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.szechenyibath.hu",
+      "handles": {
+        "instagram": "https://instagram.com/szechenyithermalbath"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 4,
+      "name": "Sanduny Banya",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Moscow",
+      "country": "RU",
+      "who": "1808 Russian banya palace with Baroque-decorated halls, several ticket classes for day/session bathing.",
+      "why": "Russia's most famous banya and the historic reference point for the entire banya tradition.",
+      "factors": {
+        "legacy": 86,
+        "experience": 74,
+        "facility": 84,
+        "community": 79,
+        "reach": 42,
+        "destination": 69
+      },
+      "reach": "IG 20K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://sanduny.ru",
+      "handles": {
+        "instagram": "https://instagram.com/sanduny"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 5,
+      "name": "The Oriental Spa, Mandarin Oriental Bangkok",
+      "segment": "Hotel & Destination Spas",
+      "tier": "heritage",
+      "city": "Bangkok",
+      "country": "TH",
+      "who": "Riverside spa reached by private ferry across the Chao Phraya, inside a hotel operating since 1876; non-resident guests are welcomed by reservation.",
+      "why": "Opened in 1993 as one of the first purpose-built luxury hotel spas in Asia and widely credited with defining the modern Asian resort-spa template.",
+      "factors": {
+        "legacy": 75,
+        "experience": 85,
+        "facility": 85,
+        "community": 55,
+        "reach": 57,
+        "destination": 75
+      },
+      "reach": "IG 102K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness/the-spa",
+      "handles": {
+        "instagram": "https://instagram.com/mo_bangkok"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 6,
+      "name": "Terme di Saturnia",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Saturnia",
+      "country": "IT",
+      "who": "Sulfur hot-spring resort on an Etruscan/Roman thermal site, five-star spa with day-access tickets.",
+      "why": "A thermal source used for millennia, now anchoring one of Italy's best-known spa resorts.",
+      "factors": {
+        "legacy": 82,
+        "experience": 79,
+        "facility": 79,
+        "community": 49,
+        "reach": 59,
+        "destination": 79
+      },
+      "reach": "IG 136K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.termedisaturnia.it",
+      "handles": {
+        "instagram": "https://instagram.com/termedisaturnia"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 7,
+      "name": "7132 Therme (Therme Vals)",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Vals",
+      "country": "CH",
+      "who": "Peter Zumthor's 1996 quartzite thermal bath carved into an Alpine hillside; day access plus the 7132 Hotel.",
+      "why": "The reference point for thermal-bath architecture worldwide — every minimalist stone spa since owes it a debt.",
+      "factors": {
+        "legacy": 64,
+        "experience": 79,
+        "facility": 94,
+        "community": 54,
+        "reach": 55,
+        "destination": 84
+      },
+      "reach": "IG 84K (verified 2026-08, hotel account)",
+      "reachVerified": true,
+      "website": "https://7132.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/7132hotel/"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 8,
+      "name": "Pamukkale (Hierapolis Thermal Pools)",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "heritage",
+      "city": "Denizli",
+      "country": "TR",
+      "who": "UNESCO travertine terraces and Cleopatra's Antique Pool (Roman columns underwater); combined site ticket plus a separate pool ticket, reopened after 2026 renovation.",
+      "why": "A natural wonder that's also a bathing site — 2,000-year-old thermal water over white calcium terraces, still swimmable.",
+      "factors": {
+        "legacy": 94,
+        "experience": 64,
+        "facility": 89,
+        "community": 39,
+        "reach": 55,
+        "destination": 89
+      },
+      "reach": "IG ~45K (approx 2026, official site account)",
+      "reachVerified": false,
+      "website": "https://pamukkale.gov.tr",
+      "handles": {},
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 9,
+      "name": "Bürgenstock Alpine Spa",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Obbürgen",
+      "country": "CH",
+      "who": "10,000 sqm alpine spa at the Bürgenstock Resort above Lake Lucerne; non-guests buy 4-hour or full-day passes online.",
+      "why": "Cliff-top infinity pool and glass-walled saunas over Lake Lucerne make it one of Europe's largest and most photographed resort spas.",
+      "factors": {
+        "legacy": 55,
+        "experience": 80,
+        "facility": 90,
+        "community": 55,
+        "reach": 68,
+        "destination": 80
+      },
+      "reach": "IG 365K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://burgenstockresort.com/en/offers/buergenstock-alpine-spa-entrances",
+      "handles": {
+        "instagram": "https://instagram.com/burgenstockresort"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 10,
+      "name": "Othership",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Toronto & New York City",
+      "country": "CA/US",
+      "who": "Guided breathwork bathhouse chain (sauna, ice bath, communal ritual classes); day passes and memberships, four locations across Toronto and NYC/Brooklyn.",
+      "why": "Defined the current group-breathwork-and-heat movement; devoted regular crowd and near-cult community culture.",
+      "factors": {
+        "legacy": 46,
+        "experience": 86,
+        "facility": 81,
+        "community": 94,
+        "reach": 59,
+        "destination": 66
+      },
+      "reach": "IG 139K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.othership.us/",
+      "handles": {
+        "instagram": "https://www.instagram.com/othership/"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 11,
+      "name": "Bathhouse",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "New York City (Williamsburg, Flatiron, Atlantic Ave)",
+      "country": "US",
+      "who": "Upscale communal bathhouse with saunas, steam, pools, and cold plunge; day pass and membership access, no invite needed.",
+      "why": "The design-forward flagship of NYC's bathhouse boom, with the strongest regular scene and media footprint in the category.",
+      "factors": {
+        "legacy": 36,
+        "experience": 81,
+        "facility": 91,
+        "community": 81,
+        "reach": 66,
+        "destination": 71
+      },
+      "reach": "IG 289K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.abathhouse.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/bathhouse/"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 12,
+      "name": "Therme Erding",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Erding (Munich)",
+      "country": "DE",
+      "who": "The world's largest thermal spa complex, multiple sauna villages, Aufguss shows, water park, day tickets and multi-day passes.",
+      "why": "Sheer scale defines it: no other thermal complex on earth packs in this much sauna, water, and staged Aufguss ritual under one roof.",
+      "factors": {
+        "legacy": 45,
+        "experience": 85,
+        "facility": 95,
+        "community": 55,
+        "reach": 68,
+        "destination": 78
+      },
+      "reach": "IG 375K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.therme-erding.de/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/thermeerding/"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 13,
+      "name": "Cagaloglu Hamami",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Istanbul",
+      "country": "TR",
+      "who": "1741 Ottoman hamam near Hagia Sophia with a grand marble hararet chamber, walk-in sessions and treatments.",
+      "why": "Nearly 300 years of continuous hamam service in one of Istanbul's grandest bath halls.",
+      "factors": {
+        "legacy": 89,
+        "experience": 69,
+        "facility": 79,
+        "community": 54,
+        "reach": 40,
+        "destination": 74
+      },
+      "reach": "IG 15K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.cagalogluhamami.com.tr",
+      "handles": {
+        "instagram": "https://instagram.com/cagalogluhamam"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 14,
+      "name": "QC Terme Bagni Vecchi di Bormio",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Bormio",
+      "country": "IT",
+      "who": "Roman/medieval-origin Alpine thermal complex with historic bathing caves plus QC Terme's spa circuit, day tickets.",
+      "why": "Thermal bathing on a site used since Roman times, now QC Terme's flagship historic property.",
+      "factors": {
+        "legacy": 76,
+        "experience": 79,
+        "facility": 82,
+        "community": 49,
+        "reach": 45,
+        "destination": 74
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.qcterme.com",
+      "handles": {},
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 15,
+      "name": "La Mamounia Spa",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Marrakech",
+      "country": "MA",
+      "who": "Legendary hotel spa with twin hammams; non-guests book a Pass Detente day package (treatment/hammam plus lunch).",
+      "why": "Marrakech's most iconic hotel spa, pairing 1920s glamour with a traditional hammam ritual.",
+      "factors": {
+        "legacy": 64,
+        "experience": 74,
+        "facility": 86,
+        "community": 39,
+        "reach": 68,
+        "destination": 82
+      },
+      "reach": "IG 370K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.mamounia.com",
+      "handles": {
+        "instagram": "https://instagram.com/lamamouniamarrakech"
+      },
+      "warning": "General day pass is gone; non-guest access now requires booking a treatment, hammam, or the paid Pass Detente package.",
+      "score": 69
+    },
+    {
+      "rank": 16,
+      "name": "Kinosaki Onsen",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "heritage",
+      "city": "Toyooka",
+      "country": "JP",
+      "who": "Willow-lined onsen town with seven public bathhouses (sotoyu); ryokan guests get a free hopping pass, day visitors buy a JPY 1,500 pass.",
+      "why": "The gold standard for onsen-town culture: strolling between historic bathhouses in yukata is the whole ritual, not just the soak.",
+      "factors": {
+        "legacy": 84,
+        "experience": 74,
+        "facility": 69,
+        "community": 79,
+        "reach": 30,
+        "destination": 74
+      },
+      "reach": "IG ~12K (approx 2026, town account)",
+      "reachVerified": false,
+      "website": "https://visitkinosaki.com",
+      "handles": {},
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 17,
+      "name": "SoJo Spa Club",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Edgewater, NJ",
+      "country": "US",
+      "who": "Large-scale Korean-style spa and jjimjilbah with rooftop infinity pools facing Manhattan; day admission, no membership needed.",
+      "why": "A purpose-built thermal resort at day-trip scale, with the biggest social reach of any US Korean-spa venue.",
+      "factors": {
+        "legacy": 36,
+        "experience": 86,
+        "facility": 91,
+        "community": 66,
+        "reach": 67,
+        "destination": 71
+      },
+      "reach": "IG 333K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://sojospaclub.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/sojospaclub/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 18,
+      "name": "AIRE Ancient Baths",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "New York City",
+      "country": "US",
+      "who": "Candlelit thermal-bath circuit in a landmark building, recreating Roman/Ottoman bathing tradition; day pass and treatment bookings.",
+      "why": "A new-build homage to ancient bathing with genuinely dramatic architecture, more special-occasion ritual than daily habit.",
+      "factors": {
+        "legacy": 56,
+        "experience": 86,
+        "facility": 91,
+        "community": 46,
+        "reach": 65,
+        "destination": 71
+      },
+      "reach": "IG 260K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://beaire.com/en/aire-ancient-baths-newyork",
+      "handles": {
+        "instagram": "https://www.instagram.com/aireancientbaths/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 19,
+      "name": "Loyly",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Helsinki",
+      "country": "FI",
+      "who": "Design-award-winning public sauna and restaurant on the Helsinki waterfront, timber-clad, walk-in and ticketed sessions, sea swimming off its own rocks.",
+      "why": "The building that put contemporary Finnish sauna architecture on the world map and turned sauna-going into a destination outing.",
+      "factors": {
+        "legacy": 55,
+        "experience": 78,
+        "facility": 90,
+        "community": 65,
+        "reach": 50,
+        "destination": 78
+      },
+      "reach": "IG 49K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.loylyhelsinki.fi/en",
+      "handles": {
+        "instagram": "https://www.instagram.com/loylyhelsinki/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 20,
+      "name": "Spa Land Centum City",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Busan",
+      "country": "KR",
+      "who": "Department-store jjimjilbang with 18 hot-spring pools and 13 themed sauna rooms, walk-in day pass.",
+      "why": "Korea's best-known modern bathhouse and the benchmark for jjimjilbang scale and design since 2009.",
+      "factors": {
+        "legacy": 46,
+        "experience": 86,
+        "facility": 89,
+        "community": 66,
+        "reach": 45,
+        "destination": 79
+      },
+      "reach": "IG ~20K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 21,
+      "name": "Hurshimchung (Heosimcheong Spa)",
+      "segment": "Asian Spa Culture",
+      "tier": "heritage",
+      "city": "Busan",
+      "country": "KR",
+      "who": "Largest hot-spring spa in Asia (40+ baths, 3,000-person capacity) fed by the 1,300-year Dongnae geothermal spring.",
+      "why": "Anchors Korea's oldest continuously used hot-spring district and remains the scale benchmark for hot-spring bathing in Asia.",
+      "factors": {
+        "legacy": 79,
+        "experience": 79,
+        "facility": 83,
+        "community": 59,
+        "reach": 35,
+        "destination": 63
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 22,
+      "name": "The Peninsula Spa, Hong Kong",
+      "segment": "Hotel & Destination Spas",
+      "tier": "heritage",
+      "city": "Hong Kong",
+      "country": "HK",
+      "who": "Harbour-view spa atop a hotel operating since 1928, with separate male and female thermal areas; non-guests gain facility access by booking a treatment.",
+      "why": "One of Asia's original grand-hotel spas, consistently ranked among the world's best hotel spas.",
+      "factors": {
+        "legacy": 70,
+        "experience": 80,
+        "facility": 80,
+        "community": 50,
+        "reach": 55,
+        "destination": 70
+      },
+      "reach": "IG 85K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.peninsula.com/en/hong-kong/wellness/luxury-hotel-spa",
+      "handles": {
+        "instagram": "https://instagram.com/peninsulahongkong"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 23,
+      "name": "Takaragawa Onsen",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "heritage",
+      "city": "Minakami",
+      "country": "JP",
+      "who": "Riverside rotenburo (open-air bath) ryokan in the Gunma mountains, mixed-bathing pools along the Takaragawa river; day visits bookable.",
+      "why": "One of Japan's most famous outdoor onsen settings — vast river-stone pools ringed by forest, unchanged for generations.",
+      "factors": {
+        "legacy": 79,
+        "experience": 79,
+        "facility": 79,
+        "community": 64,
+        "reach": 30,
+        "destination": 69
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.takaragawa.com",
+      "handles": {},
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 24,
+      "name": "Spa World Osaka",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Osaka",
+      "country": "JP",
+      "who": "24-hour hot-spring theme park with globally themed baths, rooftop water park, hotel and gym.",
+      "why": "One of the world's largest bathing complexes and a signature Osaka wellness landmark.",
+      "factors": {
+        "legacy": 56,
+        "experience": 83,
+        "facility": 91,
+        "community": 56,
+        "reach": 39,
+        "destination": 76
+      },
+      "reach": "IG 14K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.spaworld.co.jp/english/",
+      "handles": {
+        "instagram": "https://www.instagram.com/spaworld_jp/"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 25,
+      "name": "Kilic Ali Pasa Hamami",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Istanbul",
+      "country": "TR",
+      "who": "1580 Mimar Sinan-designed hamam in Tophane, restored single-dome hararet, walk-in sessions and treatments.",
+      "why": "A Sinan-designed bathhouse restored to its original grandeur, an architecture-first hamam experience.",
+      "factors": {
+        "legacy": 84,
+        "experience": 69,
+        "facility": 84,
+        "community": 49,
+        "reach": 34,
+        "destination": 69
+      },
+      "reach": "IG 7.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.kilicalipasahamami.com",
+      "handles": {
+        "instagram": "https://instagram.com/kilicalipasahamami"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 26,
+      "name": "Hurrem Sultan Hamami",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Istanbul",
+      "country": "TR",
+      "who": "1556 twin hamam commissioned by Hurrem Sultan between Hagia Sophia and the Blue Mosque, guided day sessions.",
+      "why": "A sultan-commissioned double hamam standing on Istanbul's single most historic square.",
+      "factors": {
+        "legacy": 86,
+        "experience": 69,
+        "facility": 82,
+        "community": 44,
+        "reach": 30,
+        "destination": 76
+      },
+      "reach": "IG ~10K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.hurremsultanhamami.com/en/",
+      "handles": {
+        "instagram": "https://instagram.com/ayasofyahurremsultanhamami"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 27,
+      "name": "Rudas Baths",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Budapest",
+      "country": "HU",
+      "who": "16th-century Ottoman-era bathhouse with a domed octagonal pool, day tickets plus weekend night bathing.",
+      "why": "The best-preserved Turkish bath in Budapest, with the tradition's defining domed-pool architecture.",
+      "factors": {
+        "legacy": 84,
+        "experience": 69,
+        "facility": 76,
+        "community": 64,
+        "reach": 25,
+        "destination": 66
+      },
+      "reach": "IG 1.5K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.rudasfurdo.hu/en",
+      "handles": {
+        "instagram": "https://instagram.com/rudasbath"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 28,
+      "name": "Esalen Institute Hot Springs",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "heritage",
+      "city": "Big Sur",
+      "country": "US",
+      "who": "Cliffside sulfur baths over the Pacific at the retreat that helped invent the modern human-potential movement; public access is a limited nightly 1-3am reservation.",
+      "why": "The single most storied hot spring in American counterculture history — even with a narrow public window, it belongs.",
+      "factors": {
+        "legacy": 79,
+        "experience": 64,
+        "facility": 74,
+        "community": 59,
+        "reach": 35,
+        "destination": 74
+      },
+      "reach": "IG ~30K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.esalen.org",
+      "handles": {},
+      "warning": "Public bathing is reservation-only, limited to roughly 1-3am nightly and capped at ~20 guests; daytime access is workshop/lodging guests only.",
+      "score": 65
+    },
+    {
+      "rank": 29,
+      "name": "vabali spa Berlin",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Berlin",
+      "country": "DE",
+      "who": "Balinese-themed wellness resort with 13 saunas and steam baths, pools, a large sauna garden, and fireplace rooms, day-ticket access.",
+      "why": "Berlin's biggest and most photographed sauna resort, credited with popularizing large-format Aufguss culture in the city.",
+      "factors": {
+        "legacy": 40,
+        "experience": 80,
+        "facility": 85,
+        "community": 55,
+        "reach": 66,
+        "destination": 68
+      },
+      "reach": "IG 287K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.vabali.de/en/berlin/",
+      "handles": {
+        "instagram": "https://www.instagram.com/vabalispa_official/"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 30,
+      "name": "Spa Castle New York",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Queens",
+      "country": "US",
+      "who": "15+ year all-season spa resort in College Point with saunas, hydrotherapy pools, day spa, poolside bar and restaurants.",
+      "why": "The East Coast's landmark Korean-style bath resort and a NYC weekend-escape institution.",
+      "factors": {
+        "legacy": 46,
+        "experience": 76,
+        "facility": 81,
+        "community": 63,
+        "reach": 52,
+        "destination": 69
+      },
+      "reach": "IG 62K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://ny.spacastleusa.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/spacastlenewyork/"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 31,
+      "name": "Wat Pho Thai Traditional Massage School",
+      "segment": "Asian Spa Culture",
+      "tier": "heritage",
+      "city": "Bangkok",
+      "country": "TH",
+      "who": "Massage school and clinic inside the Wat Pho temple complex, offering public Thai massage and foot massage sessions.",
+      "why": "The founding institution of traditional Thai massage, government-recognized since 1955 and rooted in the temple's centuries-old healing tradition.",
+      "factors": {
+        "legacy": 91,
+        "experience": 63,
+        "facility": 61,
+        "community": 56,
+        "reach": 25,
+        "destination": 81
+      },
+      "reach": "IG unconfirmed -- no verified follower count found (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.watpho.com/en/massage-school",
+      "handles": {},
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 32,
+      "name": "Cemberlitas Hamami",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Istanbul",
+      "country": "TR",
+      "who": "1584 Sinan-designed hamam next to the Grand Bazaar, twin men's/women's sections, walk-in sessions.",
+      "why": "Often called the best-known Turkish bath in Istanbul, a Sinan landmark still bathing tourists and locals daily.",
+      "factors": {
+        "legacy": 86,
+        "experience": 66,
+        "facility": 79,
+        "community": 49,
+        "reach": 25,
+        "destination": 72
+      },
+      "reach": "IG 2.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.cemberlitashamami.com.tr",
+      "handles": {
+        "instagram": "https://instagram.com/cemberlitashamami"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 33,
+      "name": "Bota Bota, spa-sur-l'eau",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Montreal",
+      "country": "CA",
+      "who": "A repurposed ferryboat moored in the Old Port with four decks of saunas, cold baths and an Aufguss ritual sauna; pure day-spa model, no lodging.",
+      "why": "The only major spa built inside a boat, and an instant Montreal landmark with real bathing-culture etiquette.",
+      "factors": {
+        "legacy": 40,
+        "experience": 75,
+        "facility": 90,
+        "community": 70,
+        "reach": 51,
+        "destination": 65
+      },
+      "reach": "IG 54K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://botabota.ca/en/",
+      "handles": {
+        "instagram": "https://instagram.com/botabotamtl"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 34,
+      "name": "Nordik Spa-Nature",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Chelsea",
+      "country": "CA",
+      "who": "10 outdoor baths, 9 saunas and 4 restaurants on a forested hillside at the edge of Gatineau Park; walk-in day-spa model, no hotel attached.",
+      "why": "Widely cited as the largest spa in North America, with a real thermotherapy-circuit culture among regulars.",
+      "factors": {
+        "legacy": 35,
+        "experience": 80,
+        "facility": 85,
+        "community": 65,
+        "reach": 57,
+        "destination": 65
+      },
+      "reach": "IG 102K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.nordikspa-nature.com/en/",
+      "handles": {
+        "instagram": "https://instagram.com/nordikchelsea"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 35,
+      "name": "Sainokawara Rotenburo (Kusatsu Onsen)",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "heritage",
+      "city": "Kusatsu",
+      "country": "JP",
+      "who": "Large public open-air bath fed by Kusatsu's famously acidic, high-volume hot spring water; walk-in day admission.",
+      "why": "Kusatsu is one of Japan's three great historic onsen towns, and this rotenburo is its signature public soak.",
+      "factors": {
+        "legacy": 84,
+        "experience": 74,
+        "facility": 64,
+        "community": 64,
+        "reach": 25,
+        "destination": 64
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.kusatsu-onsen.ne.jp",
+      "handles": {},
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 36,
+      "name": "Tropical Islands Resort",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Krausnick",
+      "country": "DE",
+      "who": "Sauna and spa complex inside a former airship hangar near Berlin, seven themed sauna areas modeled on Southeast Asian temple sites, professional Aufguss masters, day and overnight access.",
+      "why": "Europe's largest tropical sauna complex, built at a scale and inside a structure no competitor can replicate.",
+      "factors": {
+        "legacy": 35,
+        "experience": 78,
+        "facility": 92,
+        "community": 50,
+        "reach": 62,
+        "destination": 72
+      },
+      "reach": "IG 197K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.tropical-islands.de/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/tropicalislandsresort/"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 37,
+      "name": "Royal Mansour Hammam",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Marrakech",
+      "country": "MA",
+      "who": "Palace-hotel hammam in marble treatment suites; non-guests can book the hammam and treatments by advance reservation.",
+      "why": "The most architecturally lavish hammam in Marrakech, set inside a five-star riad-palace.",
+      "factors": {
+        "legacy": 39,
+        "experience": 79,
+        "facility": 89,
+        "community": 34,
+        "reach": 65,
+        "destination": 76
+      },
+      "reach": "IG 267K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.royalmansour.com/en/marrakech/spa-wellness/hammam/",
+      "handles": {
+        "instagram": "https://instagram.com/royalmansourmarrakech"
+      },
+      "warning": "Hammam and spa treatments are bookable by non-guests; pool and garden access stays reserved for hotel guests.",
+      "score": 63
+    },
+    {
+      "rank": 38,
+      "name": "Orbeliani Baths (Chreli-Abano)",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Tbilisi",
+      "country": "GE",
+      "who": "Historic domed sulfur bathhouse in Abanotubani, renovated and reopened 2017, private rooms plus communal hall, day bookings.",
+      "why": "The most photogenic of Tbilisi's brick-domed sulfur bathhouses, still fed by the city's natural hot springs.",
+      "factors": {
+        "legacy": 79,
+        "experience": 69,
+        "facility": 79,
+        "community": 54,
+        "reach": 30,
+        "destination": 59
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 39,
+      "name": "Sky Lagoon",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Reykjavik",
+      "country": "IS",
+      "who": "Infinity-edge oceanfront lagoon minutes from downtown Reykjavik with a 7-step Skjol ritual (sauna, cold plunge, mist, salt scrub, steam).",
+      "why": "Design-forward answer to Blue Lagoon's crowds — turf-roofed, basalt-set, built the ritual-circuit format other new lagoons now copy.",
+      "factors": {
+        "legacy": 39,
+        "experience": 74,
+        "facility": 84,
+        "community": 54,
+        "reach": 57,
+        "destination": 74
+      },
+      "reach": "IG 109K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.skylagoon.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/skylagooniceland/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 40,
+      "name": "Peninsula Hot Springs",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Fingal, Mornington Peninsula",
+      "country": "AU",
+      "who": "Australia's original geothermal bathing destination — hillside pool amphitheatre, cave pools, and a bathhouse; day and adults-only sessions.",
+      "why": "Built Australia's hot-springs category from nothing in 2005 and remains its biggest and most complete circuit.",
+      "factors": {
+        "legacy": 54,
+        "experience": 74,
+        "facility": 79,
+        "community": 64,
+        "reach": 40,
+        "destination": 64
+      },
+      "reach": "IG ~35K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.peninsulahotsprings.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/peninsulahotsprings/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 41,
+      "name": "World Spa",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Brooklyn, NY",
+      "country": "US",
+      "who": "50,000-square-foot Korean-style spa near Coney Island with saunas, pools, and banya-style rooms; day pass access.",
+      "why": "One of the largest purpose-built modern spa complexes in the US, drawing a citywide crowd, not just locals.",
+      "factors": {
+        "legacy": 36,
+        "experience": 81,
+        "facility": 86,
+        "community": 61,
+        "reach": 59,
+        "destination": 61
+      },
+      "reach": "IG 136K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://worldspa.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/worldspanyc/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 42,
+      "name": "Rajaportti Sauna",
+      "segment": "Sauna Culture",
+      "tier": "heritage",
+      "city": "Tampere",
+      "country": "FI",
+      "who": "Wood-fired public bathhouse open since 1906, the oldest running public sauna in Finland, pay-per-visit with separate men's and women's sides.",
+      "why": "Barely changed in over a century; the reference point for the working-class Finnish public-sauna tradition.",
+      "factors": {
+        "legacy": 92,
+        "experience": 58,
+        "facility": 55,
+        "community": 85,
+        "reach": 25,
+        "destination": 55
+      },
+      "reach": "IG 1.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.rajaportinsauna.fi/sauna.en.html",
+      "handles": {
+        "instagram": "https://www.instagram.com/rajaportinsauna/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 43,
+      "name": "Talise Ottoman Spa",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Dubai",
+      "country": "AE",
+      "who": "8,200 sqm Ottoman-palace-style spa at Jumeirah Zabeel Saray on Palm Jumeirah, with 42 treatment rooms and separate hammams; day visitors book via treatments.",
+      "why": "Built as a full-scale Ottoman palace replica and marketed as the largest spa in the Middle East.",
+      "factors": {
+        "legacy": 35,
+        "experience": 80,
+        "facility": 90,
+        "community": 50,
+        "reach": 49,
+        "destination": 70
+      },
+      "reach": "IG 41K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.jumeirah.com/en/stay/dubai/jumeirah-zabeel-saray/wellbeing/signature-talise-ottoman-spa",
+      "handles": {
+        "instagram": "https://instagram.com/talisespa"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 44,
+      "name": "The Spa at Gleneagles",
+      "segment": "Hotel & Destination Spas",
+      "tier": "heritage",
+      "city": "Auchterarder",
+      "country": "GB",
+      "who": "Spa inside a country-house hotel that opened in 1924; day spa packages (treatment, spa/health-club access, lunch) are sold to non-residents.",
+      "why": "Anchor wellness offering of Scotland's most famous resort hotel, part of an estate identity built on golf, sport and hospitality history.",
+      "factors": {
+        "legacy": 70,
+        "experience": 70,
+        "facility": 75,
+        "community": 55,
+        "reach": 38,
+        "destination": 60
+      },
+      "reach": "IG unverified — @thegleneagleshotel not isolated to the spa (2026-08)",
+      "reachVerified": false,
+      "website": "https://gleneagles.com/spa-wellness/",
+      "handles": {
+        "instagram": "https://instagram.com/thegleneagleshotel"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 45,
+      "name": "Termas Geometricas",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Coñaripe",
+      "country": "CL",
+      "who": "17 red-stained wooden pools linked by a raised walkway through a volcanic ravine in Villarrica National Park; open daily year-round.",
+      "why": "The most architecturally distinct hot spring in South America — a slot canyon reimagined as a bathing circuit.",
+      "factors": {
+        "legacy": 39,
+        "experience": 74,
+        "facility": 89,
+        "community": 49,
+        "reach": 51,
+        "destination": 74
+      },
+      "reach": "IG 56K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.termasgeometricas.cl",
+      "handles": {
+        "instagram": "https://www.instagram.com/termas_geometricas/"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 46,
+      "name": "Remedy Place",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "New York City / Los Angeles / Boston",
+      "country": "US",
+      "who": "\"Social wellness club\" with ice baths, saunas, IV drips, NAD+, HBOT, and acupuncture in boutique clubs; bookable without membership.",
+      "why": "Coined the social-wellness-club category and pulled it into celebrity culture, though breadth of services beats depth of any single ritual.",
+      "factors": {
+        "legacy": 36,
+        "experience": 71,
+        "facility": 76,
+        "community": 76,
+        "reach": 58,
+        "destination": 61
+      },
+      "reach": "IG 118K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.remedyplace.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/remedyplace/"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 47,
+      "name": "KOK Oslo",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Oslo",
+      "country": "NO",
+      "who": "Architect-designed floating saunas moored at Aker Brygge and Langkaia in the Oslo fjord, book-by-the-hour, wood-fired with fjord-water plunges.",
+      "why": "The venue that turned floating sauna into an Oslo institution and a template copied around the Nordics.",
+      "factors": {
+        "legacy": 40,
+        "experience": 72,
+        "facility": 82,
+        "community": 70,
+        "reach": 44,
+        "destination": 65
+      },
+      "reach": "IG 23K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://koknorge.no/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/kokoslo.no/"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 48,
+      "name": "Liquidrom",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Berlin",
+      "country": "DE",
+      "who": "Domed urban spa in Kreuzberg built around a 36-degree saltwater pool with underwater sound and light, plus steam rooms and a Finnish sauna running Aufguss sessions, open daily.",
+      "why": "A cult Berlin design object as much as a spa: light, sound, and water staged as one immersive room, unlike anything else in the segment.",
+      "factors": {
+        "legacy": 50,
+        "experience": 72,
+        "facility": 88,
+        "community": 60,
+        "reach": 42,
+        "destination": 62
+      },
+      "reach": "IG 18K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.liquidrom-berlin.de/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/liquidrom.berlin/"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 49,
+      "name": "ESPA Life at Corinthia",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "London",
+      "country": "GB",
+      "who": "Three-floor, 20,000 sq ft basement spa under a five-star hotel; day-guest treatments plus a paid annual membership for repeat access.",
+      "why": "Repeat winner of 'Best UK Spa' awards and the flagship showcase for the global ESPA brand.",
+      "factors": {
+        "legacy": 45,
+        "experience": 80,
+        "facility": 85,
+        "community": 55,
+        "reach": 37,
+        "destination": 65
+      },
+      "reach": "IG 11K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.corinthia.com/en-gb/london/spa-at-corinthia-london/",
+      "handles": {
+        "instagram": "https://instagram.com/espalifeatcorinthia"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 50,
+      "name": "Therme Bucuresti",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Balotesti",
+      "country": "RO",
+      "who": "Europe's largest thermal wellness complex — pools, water park, and Bali- and palm-themed halls near Bucharest.",
+      "why": "Sheer scale: a whole indoor tropical world of thermal pools, saunas, and rituals under one roof.",
+      "factors": {
+        "legacy": 29,
+        "experience": 74,
+        "facility": 89,
+        "community": 49,
+        "reach": 66,
+        "destination": 64
+      },
+      "reach": "IG 304K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.thermebucuresti.ro",
+      "handles": {
+        "instagram": "https://www.instagram.com/therme_bucuresti/"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 51,
+      "name": "Ten Thousand Waves",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Santa Fe",
+      "country": "US",
+      "who": "Japanese-style mountain bathhouse above Santa Fe with communal and private outdoor hot tubs, spa, and inn; day access bookable.",
+      "why": "Introduced Japanese onsen etiquette and design to the American Southwest in 1981 and still defines it.",
+      "factors": {
+        "legacy": 59,
+        "experience": 74,
+        "facility": 74,
+        "community": 59,
+        "reach": 45,
+        "destination": 54
+      },
+      "reach": "IG 26K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://tenthousandwaves.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/tenthousandwavesjapaneseresort/"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 52,
+      "name": "Kotiharjun Sauna",
+      "segment": "Sauna Culture",
+      "tier": "heritage",
+      "city": "Helsinki",
+      "country": "FI",
+      "who": "Helsinki's last wood-heated public courtyard sauna, running since 1928, open Tue-Sun afternoons, whisks and towels for rent.",
+      "why": "The living link to Helsinki's vanished network of neighborhood saunas, still wood-fired and still open to anyone.",
+      "factors": {
+        "legacy": 88,
+        "experience": 60,
+        "facility": 55,
+        "community": 82,
+        "reach": 25,
+        "destination": 50
+      },
+      "reach": "IG 2.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.kotiharjunsauna.fi/",
+      "handles": {
+        "instagram": "https://www.instagram.com/kotiharjunsauna/"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 53,
+      "name": "Mooska Smoke Sauna Farm",
+      "segment": "Sauna Culture",
+      "tier": "heritage",
+      "city": "Haanja, Voru County",
+      "country": "EE",
+      "who": "Working farm in South Estonia offering guided sessions in a traditional Voromaa smoke sauna, the tradition UNESCO listed as Intangible Cultural Heritage in 2014, booking by appointment.",
+      "why": "The clearest public gateway into a centuries-old smoke-sauna tradition that UNESCO itself recognizes as a living cultural practice, not a spa product.",
+      "factors": {
+        "legacy": 90,
+        "experience": 72,
+        "facility": 45,
+        "community": 70,
+        "reach": 20,
+        "destination": 58
+      },
+      "reach": "FB ~1.4K (approx 2026)",
+      "reachVerified": true,
+      "website": "https://mooska.eu/en/",
+      "handles": {},
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 54,
+      "name": "Spa LaQua",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Tokyo",
+      "country": "JP",
+      "who": "Urban hot-spring spa inside Tokyo Dome City drawing natural spring water pumped from 1,700m underground.",
+      "why": "A central-Tokyo onsen escape inside one of the city's biggest entertainment complexes.",
+      "factors": {
+        "legacy": 46,
+        "experience": 71,
+        "facility": 81,
+        "community": 51,
+        "reach": 45,
+        "destination": 69
+      },
+      "reach": "IG ~20K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://en.www.laqua.jp/spa/",
+      "handles": {},
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 55,
+      "name": "Dior Spa, Hôtel Plaza Athénée",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Paris",
+      "country": "FR",
+      "who": "Ultra-private spa relaunched by Dior in 2023 inside a five-star hotel on Avenue Montaigne; access runs mainly through hotel guests and Dior clients, plus a weekly public evening ritual.",
+      "why": "The most talked-about luxury hotel-spa reopening in Paris in years, a full couture-house takeover in the middle of the Golden Triangle.",
+      "factors": {
+        "legacy": 40,
+        "experience": 80,
+        "facility": 90,
+        "community": 40,
+        "reach": 40,
+        "destination": 70
+      },
+      "reach": "IG unverified — spa has no isolated handle from the hotel account (2026-08)",
+      "reachVerified": false,
+      "website": "https://www.dorchestercollection.com/paris/hotel-plaza-athenee/spa-wellness",
+      "handles": {},
+      "warning": "Primarily hotel-guest and Dior-client access; public access is limited to the weekly 'Les Jeudis Étoilés' evening. Included for its cultural weight, but confirm current access terms before booking.",
+      "score": 60
+    },
+    {
+      "rank": 56,
+      "name": "Oslo Badstuforening",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Oslo",
+      "country": "NO",
+      "who": "Non-profit sauna association running a fleet of named floating saunas (Maken, Stampen, Skarven, Havornen, Anda, Trosten) across the Oslo fjord, single tickets or membership, one fully wheelchair-accessible raft.",
+      "why": "Built the fjord's floating-sauna network as a public-good project rather than a single luxury venue, scaling the format city-wide.",
+      "factors": {
+        "legacy": 42,
+        "experience": 70,
+        "facility": 75,
+        "community": 78,
+        "reach": 39,
+        "destination": 60
+      },
+      "reach": "IG 13.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://oslobadstuforening.no/en/home/",
+      "handles": {
+        "instagram": "https://www.instagram.com/oslobadstuforening/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 57,
+      "name": "Aquafield",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Goyang",
+      "country": "KR",
+      "who": "E-Land luxury jjimjilbang-meets-waterpark chain (Goyang, Hanam, Anseong) with Korea's longest infinity pool.",
+      "why": "Redefined the Korean bathhouse as a design-forward day resort for families and couples.",
+      "factors": {
+        "legacy": 31,
+        "experience": 79,
+        "facility": 86,
+        "community": 56,
+        "reach": 41,
+        "destination": 63
+      },
+      "reach": "IG 17K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://aquafield.co.kr/",
+      "handles": {
+        "instagram": "https://www.instagram.com/aquafield.official/"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 58,
+      "name": "Thermae Bath Spa",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Bath",
+      "country": "GB",
+      "who": "2006-built spa on the UK's only natural hot springs, open-air rooftop pool, day sessions and treatments.",
+      "why": "The sole legal way to bathe in the naturally hot water that made the city of Bath a Roman and Georgian spa town.",
+      "factors": {
+        "legacy": 54,
+        "experience": 64,
+        "facility": 74,
+        "community": 44,
+        "reach": 51,
+        "destination": 69
+      },
+      "reach": "IG 56K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.thermaebathspa.com",
+      "handles": {
+        "instagram": "https://instagram.com/thermaebathspa"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 59,
+      "name": "Hammam Al Andalus",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Granada",
+      "country": "ES",
+      "who": "Moorish-revival hammam built 2004 in Granada's Albaicin, hot/cold bath circuit plus treatments, day sessions.",
+      "why": "Recreated Andalusian hammam architecture that revived Spain's Moorish bathing culture for modern visitors.",
+      "factors": {
+        "legacy": 49,
+        "experience": 69,
+        "facility": 74,
+        "community": 49,
+        "reach": 54,
+        "destination": 59
+      },
+      "reach": "IG 73K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.hammamalandalus.com",
+      "handles": {
+        "instagram": "https://instagram.com/hammamalandalus"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 60,
+      "name": "The Spa at Adare Manor",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Adare",
+      "country": "IE",
+      "who": "Spa inside a restored 19th-century manor-house hotel; day spa packages exist but non-resident terms vary by season.",
+      "why": "Ireland's most talked-about luxury-estate hotel, first in the country to offer 111SKIN treatments, riding a growing golf-and-wellness pilgrimage trade.",
+      "factors": {
+        "legacy": 45,
+        "experience": 65,
+        "facility": 80,
+        "community": 45,
+        "reach": 62,
+        "destination": 60
+      },
+      "reach": "IG 187K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.adaremanor.com/spa/",
+      "handles": {
+        "instagram": "https://instagram.com/theadaremanor"
+      },
+      "warning": "Day-spa terms are promotion-driven; confirm current non-resident access before booking.",
+      "score": 59
+    },
+    {
+      "rank": 61,
+      "name": "Aman Spa Houses, Aman New York",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "New York",
+      "country": "US",
+      "who": "Private Banya and Hammam 'Spa Houses' inside the landmark Crown Building; access is for hotel guests, residents and Aman Club members, with only occasional discretionary outside bookings.",
+      "why": "The most architecturally distinct spa concept to open in New York in years, with genuine banya and hammam craft inside a landmark building.",
+      "factors": {
+        "legacy": 30,
+        "experience": 85,
+        "facility": 85,
+        "community": 35,
+        "reach": 58,
+        "destination": 60
+      },
+      "reach": "IG 123K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.aman.com/hotels/aman-new-york/wellness/spa-houses",
+      "handles": {
+        "instagram": "https://instagram.com/amannewyork"
+      },
+      "warning": "Access is restricted to hotel guests, residents and Aman Club members; outside bookings are discretionary and inconsistent. Included for its singular design, but this is genuinely close to guests-only — judge before ranking high.",
+      "score": 59
+    },
+    {
+      "rank": 62,
+      "name": "Allas Sea Pool",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Helsinki",
+      "country": "FI",
+      "who": "Seaside lido in the harbor with three pools (seawater, warm, kids') plus sauna and cafe, open year-round with day tickets.",
+      "why": "Central Helsinki's default sauna-and-swim social spot, floating right on the harbor water.",
+      "factors": {
+        "legacy": 40,
+        "experience": 68,
+        "facility": 78,
+        "community": 68,
+        "reach": 44,
+        "destination": 60
+      },
+      "reach": "IG 25K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.allaspool.fi/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/allaspool/"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 63,
+      "name": "Longnaitang",
+      "segment": "Asian Spa Culture",
+      "tier": "heritage",
+      "city": "Taipei",
+      "country": "TW",
+      "who": "Beitou's oldest working public hot-spring bathhouse, a simple wooden communal bath open since 1907.",
+      "why": "Taiwan's oldest continuously operating hot spring and the closest thing left to a century-old public bathing ritual.",
+      "factors": {
+        "legacy": 93,
+        "experience": 56,
+        "facility": 51,
+        "community": 61,
+        "reach": 20,
+        "destination": 56
+      },
+      "reach": "IG minimal (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 64,
+      "name": "Scandinave Spa Whistler",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Whistler",
+      "country": "CA",
+      "who": "Outdoor Nordic thermal-circuit day spa in the forest outside Whistler village; walk-in/booked day access, no lodging on site.",
+      "why": "The flagship of a small Canadian chain that popularized the hot-cold circuit format for North American ski towns.",
+      "factors": {
+        "legacy": 35,
+        "experience": 75,
+        "facility": 70,
+        "community": 60,
+        "reach": 54,
+        "destination": 55
+      },
+      "reach": "IG 71K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.scandinave.com/whistler",
+      "handles": {
+        "instagram": "https://instagram.com/scandinavewhis"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 65,
+      "name": "Tierra Santa Healing House",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Miami Beach",
+      "country": "US",
+      "who": "22,000 sq ft South-American-inspired wet spa on the Faena hotel's third floor with direct pool and beach access; day spa packages sold Monday-Thursday.",
+      "why": "Faena's theatrical art-hotel setting makes this one of the most photographed spas in the US, built around a genuinely distinct healing-tradition concept.",
+      "factors": {
+        "legacy": 30,
+        "experience": 70,
+        "facility": 85,
+        "community": 50,
+        "reach": 53,
+        "destination": 65
+      },
+      "reach": "IG 67K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.faena.com/miami-beach/wellness/tierra-santa-healing-house",
+      "handles": {
+        "instagram": "https://instagram.com/faenamiamibeach"
+      },
+      "warning": "Day spa packages are advertised Monday-Thursday and historically restricted to Florida residents; confirm current terms before booking.",
+      "score": 58
+    },
+    {
+      "rank": 66,
+      "name": "Sauna House",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Asheville, NC (flagship) — NC/FL chain",
+      "country": "US",
+      "who": "Nordic-style spa chain in repurposed historic buildings with sauna, cold plunge, and integrative massage; day pass and membership.",
+      "why": "A well-reviewed Nordic thermal-journey format now franchising through the Southeast US.",
+      "factors": {
+        "legacy": 36,
+        "experience": 76,
+        "facility": 71,
+        "community": 71,
+        "reach": 45,
+        "destination": 51
+      },
+      "reach": "IG 26K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.saunahouse.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/sauna_house/"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 67,
+      "name": "Hellasgarden",
+      "segment": "Sauna Culture",
+      "tier": "heritage",
+      "city": "Stockholm",
+      "country": "SE",
+      "who": "Lakeside outdoor recreation area since the 1930s with wood-fired sauna huts, cold plunge, and a rowdy after-work sauna scene, day access and membership options.",
+      "why": "Stockholm's oldest and most devoted sauna-and-lake club, where the after-work crowd has run its own rituals for decades.",
+      "factors": {
+        "legacy": 72,
+        "experience": 60,
+        "facility": 55,
+        "community": 80,
+        "reach": 30,
+        "destination": 45
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": true,
+      "website": "https://hellasgarden.se/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/hellasgarden/"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 68,
+      "name": "Cimer",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Incheon",
+      "country": "KR",
+      "who": "European-styled spa inside the Paradise City resort, blending jjimjilbang tradition with pool-party events.",
+      "why": "The luxury-resort take on Korean bathhouse culture, steps from Incheon airport.",
+      "factors": {
+        "legacy": 31,
+        "experience": 76,
+        "facility": 83,
+        "community": 56,
+        "reach": 40,
+        "destination": 61
+      },
+      "reach": "IG 15K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.p-city.com/front/cimer/overview",
+      "handles": {
+        "instagram": "https://www.instagram.com/pcitycimer/"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 69,
+      "name": "King Spa & Sauna Dallas",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Dallas",
+      "country": "US",
+      "who": "Korean-inspired 24-hour spa and waterpark resort in the DFW suburbs, open since 2014.",
+      "why": "The Texas anchor of the King Spa chain and a major hub for Korean-diaspora bath culture in the US South.",
+      "factors": {
+        "legacy": 36,
+        "experience": 71,
+        "facility": 73,
+        "community": 61,
+        "reach": 42,
+        "destination": 56
+      },
+      "reach": "IG 18K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://kingspa.com/dallas/",
+      "handles": {
+        "instagram": "https://www.instagram.com/kingspadallas/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 70,
+      "name": "Wi Spa",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Los Angeles",
+      "country": "US",
+      "who": "24-hour Koreatown jjimjilbang with five specialty sauna rooms, restaurant and full spa services.",
+      "why": "LA's best-known Korean bathhouse, drawing a mixed, round-the-clock crowd.",
+      "factors": {
+        "legacy": 43,
+        "experience": 69,
+        "facility": 66,
+        "community": 63,
+        "reach": 40,
+        "destination": 56
+      },
+      "reach": "IG ~12K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://wispausa.com/",
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 71,
+      "name": "Spa Castle Texas",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Carrollton",
+      "country": "US",
+      "who": "100,000-sq-ft bathhouse and wellness resort that reopened July 2026 after a $4.5M renovation.",
+      "why": "A freshly rebuilt flagship for Korean bath culture in North Texas, with equipment sourced from Korea, Japan and Germany.",
+      "factors": {
+        "legacy": 33,
+        "experience": 73,
+        "facility": 79,
+        "community": 51,
+        "reach": 45,
+        "destination": 56
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://tx.spacastleusa.com/",
+      "handles": {},
+      "warning": "Reopened July 4, 2026 after a year-long renovation closure -- very new to its current form.",
+      "score": 56
+    },
+    {
+      "rank": 72,
+      "name": "Lukacs Baths",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Budapest",
+      "country": "HU",
+      "who": "Medicinal thermal bath and pool complex favored by locals, open daily with standard day access.",
+      "why": "The regulars' alternative to Szechenyi, now more prominent while Gellert and Kiraly sit closed.",
+      "factors": {
+        "legacy": 74,
+        "experience": 59,
+        "facility": 59,
+        "community": 62,
+        "reach": 30,
+        "destination": 44
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.lukacsfurdo.hu/en",
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 73,
+      "name": "Amalienbad",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Vienna",
+      "country": "AT",
+      "who": "1926 Art Deco/Art Nouveau public bathhouse and pool with sauna and wellness area, daily day tickets.",
+      "why": "The grandest surviving bathhouse of 'Red Vienna,' a working monument to 1920s municipal bathing culture.",
+      "factors": {
+        "legacy": 74,
+        "experience": 49,
+        "facility": 79,
+        "community": 49,
+        "reach": 30,
+        "destination": 49
+      },
+      "reach": "IG ~3K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 74,
+      "name": "Aqua Dome",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Langenfeld",
+      "country": "AT",
+      "who": "Tyrol thermal resort with rooftop infinity pools framed by the Otztal Alps; day spa + hotel.",
+      "why": "One of the Alps' most photographed thermal skylines — the pools appear to float over the mountains.",
+      "factors": {
+        "legacy": 39,
+        "experience": 69,
+        "facility": 84,
+        "community": 44,
+        "reach": 40,
+        "destination": 64
+      },
+      "reach": "IG ~18K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.aqua-dome.at",
+      "handles": {
+        "instagram": "https://www.instagram.com/aquadome_laengenfeld/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 75,
+      "name": "The PEAQ Club",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Al Quoz, Dubai",
+      "country": "AE",
+      "who": "The Middle East's first social wellness club: ice baths, contrast therapy, HBOT, breathwork, and sound healing, built around shared/paired sessions; membership and day access.",
+      "why": "Import of the social-wellness-club format into the Gulf, with a genuinely paired/communal design philosophy.",
+      "factors": {
+        "legacy": 31,
+        "experience": 66,
+        "facility": 81,
+        "community": 61,
+        "reach": 48,
+        "destination": 56
+      },
+      "reach": "IG ~43K (approx 2026-08)",
+      "reachVerified": true,
+      "website": "https://peaqwellness.com/",
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 76,
+      "name": "Kulttuurisauna",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Helsinki",
+      "country": "FI",
+      "who": "Minimalist wood-heated public sauna on the water in Merihaka, opened 2012 by architect Tuomas Toivonen and designer Nene Tsuboi, ticketed, caps group size to keep it quiet.",
+      "why": "The architects' sauna: a small, deliberately calm counterpoint to Helsinki's bigger wellness venues, praised worldwide for its design.",
+      "factors": {
+        "legacy": 42,
+        "experience": 70,
+        "facility": 80,
+        "community": 60,
+        "reach": 30,
+        "destination": 55
+      },
+      "reach": "IG unverified (2026)",
+      "reachVerified": false,
+      "website": "https://kulttuurisauna.fi/",
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 77,
+      "name": "Sompasauna",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Helsinki",
+      "country": "FI",
+      "who": "Free, volunteer-run wood-heated sauna village on the Helsinki shore, open 24/7, no staff, no booking, bring your own wood and towel.",
+      "why": "The purest expression of Finnish sauna as commons: no owner, no fee, self-policed sauna peace, copied by grassroots groups across Europe.",
+      "factors": {
+        "legacy": 48,
+        "experience": 55,
+        "facility": 45,
+        "community": 92,
+        "reach": 37,
+        "destination": 60
+      },
+      "reach": "IG 11K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/sompasauna/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 78,
+      "name": "Thermae-Yu Shinjuku",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Tokyo",
+      "country": "JP",
+      "who": "24-hour natural hot-spring sento in Kabukicho with carbonated baths, open-air onsen and saunas, no booking needed.",
+      "why": "The go-to walk-in bathhouse for Shinjuku's nightlife district.",
+      "factors": {
+        "legacy": 41,
+        "experience": 69,
+        "facility": 63,
+        "community": 56,
+        "reach": 40,
+        "destination": 61
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://thermae-yu.jp/",
+      "handles": {},
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 79,
+      "name": "Saxon Spa",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Johannesburg",
+      "country": "ZA",
+      "who": "Boutique hotel spa on a 10-acre Sandhurst estate that once housed Nelson Mandela while he wrote his autobiography; treatments bookable by day visitors.",
+      "why": "The property's historical resonance plus a genuinely serene spa make it South Africa's best-known luxury-hotel spa.",
+      "factors": {
+        "legacy": 50,
+        "experience": 60,
+        "facility": 70,
+        "community": 45,
+        "reach": 49,
+        "destination": 55
+      },
+      "reach": "IG 41K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.saxon.co.za/",
+      "handles": {
+        "instagram": "https://instagram.com/thesaxonhotel"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 80,
+      "name": "The Standard Spa, Miami Beach",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Miami Beach",
+      "country": "US",
+      "who": "Waterfront hotel spa on a private mangrove-lined slip of Biscayne Bay; day/pool passes via ResortPass Monday-Thursday, hydrotherapy access with a spa-service minimum.",
+      "why": "Defined mid-2000s wellness-forward Miami with its hammam, mud room and floating hot tub over the water — still one of the most photographed hotel spas in the US.",
+      "factors": {
+        "legacy": 40,
+        "experience": 65,
+        "facility": 70,
+        "community": 55,
+        "reach": 44,
+        "destination": 55
+      },
+      "reach": "IG 23K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.standardhotels.com/miami/properties/miami-beach",
+      "handles": {
+        "instagram": "https://instagram.com/thestandardmiami"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 81,
+      "name": "Ojo Caliente Mineral Springs",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "heritage",
+      "city": "Ojo Caliente",
+      "country": "US",
+      "who": "New Mexico resort built around four distinct mineral springs (iron, lithia, soda, arsenic) plus mud pools; day spa and hotel.",
+      "why": "One of the few sites in the world with four chemically distinct springs in one place, soaked continuously since pre-colonial times.",
+      "factors": {
+        "legacy": 69,
+        "experience": 64,
+        "facility": 64,
+        "community": 49,
+        "reach": 30,
+        "destination": 49
+      },
+      "reach": "IG ~12K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://ojospa.com",
+      "handles": {},
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 82,
+      "name": "Banff Upper Hot Springs",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "heritage",
+      "city": "Banff",
+      "country": "CA",
+      "who": "Parks Canada-run mountaintop hot spring pool in Banff National Park, open daily; reopened spring 2026 after a renovation.",
+      "why": "The find that led to Canada's national-park system in 1885 — soaking with Rockies peaks on every side.",
+      "factors": {
+        "legacy": 74,
+        "experience": 54,
+        "facility": 64,
+        "community": 44,
+        "reach": 30,
+        "destination": 59
+      },
+      "reach": "IG ~10K (approx 2026, Parks Canada channel)",
+      "reachVerified": false,
+      "website": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/sources-hotsprings",
+      "handles": {},
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 83,
+      "name": "Polynesian Spa",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "heritage",
+      "city": "Rotorua",
+      "country": "NZ",
+      "who": "Lakeside geothermal spa on Lake Rotorua with acidic and alkaline mineral pools in use since the 1880s; day admission.",
+      "why": "New Zealand's original geothermal bathing institution, in the country's most famous geothermal region.",
+      "factors": {
+        "legacy": 74,
+        "experience": 59,
+        "facility": 59,
+        "community": 49,
+        "reach": 25,
+        "destination": 54
+      },
+      "reach": "IG ~8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.polynesianspa.co.nz",
+      "handles": {
+        "instagram": "https://www.instagram.com/polynesianspa/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 84,
+      "name": "Solaniwa Onsen Osaka Bay Tower",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Osaka",
+      "country": "JP",
+      "who": "Garden-view hot-spring theme park with 9 bath types near Osaka Bay, walk-in day access.",
+      "why": "A newer (2019) large-scale onsen resort praised for its landscaped bathing garden.",
+      "factors": {
+        "legacy": 33,
+        "experience": 73,
+        "facility": 79,
+        "community": 46,
+        "reach": 40,
+        "destination": 56
+      },
+      "reach": "IG ~10K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://solaniwa.com/en-us/",
+      "handles": {},
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 85,
+      "name": "King Spa & Sauna Chicago",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Niles",
+      "country": "US",
+      "who": "Longtime Chicago-area Korean spa and sauna resort, sister property to the Dallas and LA locations.",
+      "why": "One of the original US King Spa locations and a fixture of Chicago's Korean-American wellness scene.",
+      "factors": {
+        "legacy": 41,
+        "experience": 69,
+        "facility": 69,
+        "community": 59,
+        "reach": 35,
+        "destination": 49
+      },
+      "reach": "IG 8.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://kingspa.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/kingspachicago/"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 86,
+      "name": "Yunomori Onsen & Spa",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Bangkok",
+      "country": "TH",
+      "who": "Japanese-style onsen and spa chain (Sathorn, Sukhumvit, Pattaya) bringing communal hot-bath culture to Thailand.",
+      "why": "Introduced authentic onsen bathing to Bangkok's wellness scene and remains its most recognizable Japanese-style bathhouse.",
+      "factors": {
+        "legacy": 36,
+        "experience": 69,
+        "facility": 63,
+        "community": 56,
+        "reach": 46,
+        "destination": 56
+      },
+      "reach": "IG 30K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.yunomorionsen.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/yunomori_onsen/"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 87,
+      "name": "Caracalla Spa",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Baden-Baden",
+      "country": "DE",
+      "who": "1985-built swimwear-required thermal pool and sauna complex next to Friedrichsbad, day access.",
+      "why": "The contemporary counterpart that carries Baden-Baden's thermal tradition to a broader, mixed-swimwear public.",
+      "factors": {
+        "legacy": 44,
+        "experience": 64,
+        "facility": 69,
+        "community": 49,
+        "reach": 42,
+        "destination": 54
+      },
+      "reach": "IG 18K (verified 2026-08, shared account with Friedrichsbad)",
+      "reachVerified": true,
+      "website": "https://www.carasana.de/en/caracalla/",
+      "handles": {
+        "instagram": "https://instagram.com/caracallatherme_friedrichsbad"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 88,
+      "name": "One&Only Spa, Cape Town",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Cape Town",
+      "country": "ZA",
+      "who": "Thermal-suite hotel spa on the V&A Waterfront with 13 treatment suites; day visitors are welcomed with advance booking.",
+      "why": "Anchor spa of one of Africa's most awarded resort hotels, with a recently reimagined thermal suite that drew strong press.",
+      "factors": {
+        "legacy": 35,
+        "experience": 70,
+        "facility": 75,
+        "community": 45,
+        "reach": 38,
+        "destination": 60
+      },
+      "reach": "IG unverified — spa handle not separate from the hotel account (2026-08)",
+      "reachVerified": false,
+      "website": "https://www.oneandonlyresorts.com/cape-town/wellness",
+      "handles": {},
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 89,
+      "name": "Ahín Wellness & Spa, Palacio Duhau",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Buenos Aires",
+      "country": "AR",
+      "who": "Spa inside a restored 1930s family palace at the Park Hyatt Buenos Aires, with a 25-metre indoor pool and hydrotherapy room; day visitors accepted case by case through Hyatt's spa reservations.",
+      "why": "South America's best-known grand-hotel spa, set inside a genuine early-20th-century palace in Recoleta.",
+      "factors": {
+        "legacy": 55,
+        "experience": 60,
+        "facility": 80,
+        "community": 40,
+        "reach": 30,
+        "destination": 55
+      },
+      "reach": "IG unverified — no dedicated spa account found (2026-08)",
+      "reachVerified": false,
+      "website": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/spa",
+      "handles": {},
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 90,
+      "name": "Banya No.1",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "London",
+      "country": "GB",
+      "who": "Russian-style banya and spa club opened 2016 (Hoxton flagship), public sessions plus membership.",
+      "why": "Brought authentic banya ritual culture to a Western capital and has since expanded to Paris and Tbilisi.",
+      "factors": {
+        "legacy": 34,
+        "experience": 64,
+        "facility": 59,
+        "community": 69,
+        "reach": 43,
+        "destination": 49
+      },
+      "reach": "IG 21K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://gobanya.co.uk",
+      "handles": {
+        "instagram": "https://instagram.com/gobanya.hoxton"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 91,
+      "name": "Myvatn Nature Baths",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Myvatn",
+      "country": "IS",
+      "who": "Sulphur-rich geothermal lake bath in Iceland's volcanic north, with two natural-steam caves on site.",
+      "why": "Same mineral-blue water and drive-up day access as Blue Lagoon, at a fraction of the price and the crowd.",
+      "factors": {
+        "legacy": 44,
+        "experience": 64,
+        "facility": 69,
+        "community": 44,
+        "reach": 35,
+        "destination": 59
+      },
+      "reach": "IG ~14K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.myvatnnaturebaths.is",
+      "handles": {
+        "instagram": "https://www.instagram.com/myvatnnaturebaths/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 92,
+      "name": "Nimbus Co",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Bondi, Sydney (flagship) — multi-city AU",
+      "country": "AU",
+      "who": "Infrared sauna and ice bath studio, Australia's first mover in the category (2016); communal rooms plus private suites across Sydney, Melbourne, and Byron Bay.",
+      "why": "Beach-town founding brand of Australia's contrast-therapy scene, with genuine local community culture.",
+      "factors": {
+        "legacy": 36,
+        "experience": 66,
+        "facility": 61,
+        "community": 66,
+        "reach": 46,
+        "destination": 46
+      },
+      "reach": "IG 29K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://nimbusco.com.au/",
+      "handles": {
+        "instagram": "https://www.instagram.com/thenimbusco/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 93,
+      "name": "Veli Bej Bath",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Budapest",
+      "country": "HU",
+      "who": "16th-century Ottoman bathhouse restored and reopened in 2012, small domed pool plus four side pools, daily day tickets.",
+      "why": "A quiet, authentic Ottoman-era bath that has gained weight now that Gellert and Kiraly are shut for renovation.",
+      "factors": {
+        "legacy": 76,
+        "experience": 54,
+        "facility": 59,
+        "community": 49,
+        "reach": 25,
+        "destination": 39
+      },
+      "reach": "IG ~2K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://bathsbudapest.com/veli-bej-bath",
+      "handles": {},
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 94,
+      "name": "QC NY (QC Terme)",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "New York",
+      "country": "US",
+      "who": "Open-air Italian-style thermal spa built into a former army barracks on Governors Island; ticketed day access is the entire model, no hotel attached.",
+      "why": "The first QC Terme spa outside Europe and the only outdoor pools open year-round in New York City, bringing the Italian bagni-termali day-spa format to the US.",
+      "factors": {
+        "legacy": 30,
+        "experience": 70,
+        "facility": 75,
+        "community": 50,
+        "reach": 33,
+        "destination": 55
+      },
+      "reach": "IG unverified — follower count not confirmed at verification time (2026-08)",
+      "reachVerified": false,
+      "website": "https://www.qcny.com/",
+      "handles": {},
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 95,
+      "name": "Kohler Waters Spa, The American Club",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Kohler",
+      "country": "US",
+      "who": "Forbes five-star spa inside a historic resort hotel built by the Kohler plumbing-fixture company; day-spa visitors are welcomed alongside resort guests.",
+      "why": "The Midwest's reference luxury spa for two decades, tied to Kohler's design pedigree and a genuine American destination-spa institution.",
+      "factors": {
+        "legacy": 45,
+        "experience": 65,
+        "facility": 65,
+        "community": 45,
+        "reach": 45,
+        "destination": 45
+      },
+      "reach": "IG 27K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.kohlerwisconsin.com/wellness/kohler-water-spa",
+      "handles": {
+        "instagram": "https://instagram.com/kohlerwatersspa"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 96,
+      "name": "Termas de Puyuhuapi",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Puyuhuapi",
+      "country": "CL",
+      "who": "Boat-access-only lodge on a fjord in Chilean Patagonia with floating hot-spring pools; day-trip packages available from Puyuhuapi village.",
+      "why": "A hot spring reachable only by sea, ringed by temperate rainforest and fjord — remoteness as the whole draw.",
+      "factors": {
+        "legacy": 39,
+        "experience": 64,
+        "facility": 74,
+        "community": 39,
+        "reach": 25,
+        "destination": 69
+      },
+      "reach": "IG ~6K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.patagonia-connection.com",
+      "handles": {},
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 97,
+      "name": "Community Sauna Baths",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "London",
+      "country": "UK",
+      "who": "Not-for-profit outdoor sauna and cold-plunge sites across Camberwell, Hackney Wick, Peckham, Stratford, and Walthamstow, book-by-the-slot barrel and cabin saunas.",
+      "why": "The venue behind London's sauna boom, proving a cold-climate ritual could take root as a social habit in a city with no sauna tradition at all.",
+      "factors": {
+        "legacy": 32,
+        "experience": 60,
+        "facility": 55,
+        "community": 75,
+        "reach": 50,
+        "destination": 45
+      },
+      "reach": "IG 47K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.community-sauna.co.uk/",
+      "handles": {
+        "instagram": "https://www.instagram.com/communitysaunabaths/"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 98,
+      "name": "Sauna Deco",
+      "segment": "Sauna Culture",
+      "tier": "heritage",
+      "city": "Amsterdam",
+      "country": "NL",
+      "who": "Boutique canal-house sauna and hammam built inside a 1920s Art Deco interior salvaged from the Paris department store Le Bon Marche, ticketed day sessions.",
+      "why": "A one-off: no other sauna in the segment sits inside a protected Art Deco period interior in a city center canal house.",
+      "factors": {
+        "legacy": 55,
+        "experience": 62,
+        "facility": 78,
+        "community": 45,
+        "reach": 25,
+        "destination": 42
+      },
+      "reach": "IG 2.7K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://saunadeco.nl/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/saunadecoamsterdam/"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 99,
+      "name": "Iglupark",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Tallinn",
+      "country": "EE",
+      "who": "Igloo-shaped waterfront saunas and cabins at Noblessner Marina, bookable by the hour with guided sauna rituals.",
+      "why": "Leads Tallinn's new wave of design-forward waterfront saunas, exporting the Baltic sauna revival to a marina setting.",
+      "factors": {
+        "legacy": 30,
+        "experience": 68,
+        "facility": 75,
+        "community": 55,
+        "reach": 39,
+        "destination": 50
+      },
+      "reach": "IG 13K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://iglupark.com/en/",
+      "handles": {
+        "instagram": "https://www.instagram.com/iglupark/"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 100,
+      "name": "Glen Ivy Hot Springs",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Corona",
+      "country": "US",
+      "who": "Southern California day-spa resort famous for its red-clay mud bath, mineral pools, and 19 pools/spas total.",
+      "why": "SoCal's best-known mud-and-mineral day resort, drawing crowds from LA and San Diego for over a century of operation as a spa.",
+      "factors": {
+        "legacy": 54,
+        "experience": 59,
+        "facility": 59,
+        "community": 49,
+        "reach": 35,
+        "destination": 44
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://glenivy.com",
+      "handles": {},
+      "warning": null,
+      "score": 51
+    }
+  ],
+  "bubblingUnder": [
+    {
+      "name": "LUCA",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Amsterdam",
+      "country": "NL",
+      "who": "Canal-side ice bath and sauna club with communal space, bar, and co-working area; day pass and membership.",
+      "why": "A new, design-led entry in Amsterdam's growing ice-bath-and-sauna social scene, still building its reach.",
+      "factors": {
+        "legacy": 31,
+        "experience": 66,
+        "facility": 71,
+        "community": 61,
+        "reach": 35,
+        "destination": 41
+      },
+      "reach": "IG 8.5K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.luca-amsterdam.nl/",
+      "handles": {
+        "instagram": "https://www.instagram.com/amsterdam.luca/"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "name": "Yunomori Onsen & Spa Singapore",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Singapore",
+      "country": "SG",
+      "who": "Kallang Wave Mall branch of the Japanese onsen chain, with hot/cold baths, sauna and traditional Thai massage.",
+      "why": "Singapore's main dedicated onsen bathhouse, filling a gap in the city-state's heat/water recovery options.",
+      "factors": {
+        "legacy": 31,
+        "experience": 66,
+        "facility": 61,
+        "community": 53,
+        "reach": 42,
+        "destination": 46
+      },
+      "reach": "IG 18K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://yunomorisg.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/yunomori_sg/"
+      },
+      "warning": null,
+      "score": 50
+    },
+    {
+      "name": "AWAY Spa, W Dubai – The Palm",
+      "segment": "Hotel & Destination Spas",
+      "tier": "modern",
+      "city": "Dubai",
+      "country": "AE",
+      "who": "Beach-club hotel spa on Palm Jumeirah; sells a daycation pass (around AED 599) bundling a 60-minute massage with sauna, pool and beach access.",
+      "why": "One of the clearest day-access models in the Gulf, folding spa, beach and lounge culture into a single pass.",
+      "factors": {
+        "legacy": 25,
+        "experience": 65,
+        "facility": 70,
+        "community": 55,
+        "reach": 35,
+        "destination": 55
+      },
+      "reach": "IG unverified — AWAY Spa handle not isolated from the property account (2026-08)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "name": "Forest Lagoon",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Akureyri",
+      "country": "IS",
+      "who": "Two geothermal pools set into a spruce forest slope above Akureyri, with swim-up sauna and cold tub.",
+      "why": "Iceland's lagoon boom reaches the north — same warm-water format, a quieter forest setting, and far fewer crowds.",
+      "factors": {
+        "legacy": 29,
+        "experience": 64,
+        "facility": 74,
+        "community": 44,
+        "reach": 40,
+        "destination": 54
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.forestlagoon.is",
+      "handles": {
+        "instagram": "https://www.instagram.com/forestlagoon.is/"
+      },
+      "warning": null,
+      "score": 50
+    },
+    {
+      "name": "Hakone Yunessun",
+      "segment": "Lagoons, Springs & Thermal Resorts",
+      "tier": "modern",
+      "city": "Hakone",
+      "country": "JP",
+      "who": "Theme-park-style onsen resort with novelty baths (wine, coffee, sake pools) alongside a traditional Japanese-only bathing area.",
+      "why": "The onsen-as-entertainment format — playful novelty baths pull a different, younger crowd than classic ryokan bathing.",
+      "factors": {
+        "legacy": 39,
+        "experience": 59,
+        "facility": 69,
+        "community": 44,
+        "reach": 35,
+        "destination": 54
+      },
+      "reach": "IG ~10K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.yunessun.com",
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "name": "The Well",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "New York City",
+      "country": "US",
+      "who": "Members-first wellness club combining spa, integrative medical practice, and fitness studio; day visits bookable alongside membership.",
+      "why": "A designed, membership-driven wellness club; broad medical-adjacent offering more than a focused heat/cold ritual.",
+      "factors": {
+        "legacy": 36,
+        "experience": 61,
+        "facility": 71,
+        "community": 61,
+        "reach": 32,
+        "destination": 41
+      },
+      "reach": "IG 6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.the-well.com/new-york",
+      "handles": {
+        "instagram": "https://www.instagram.com/thewell_ny/"
+      },
+      "warning": null,
+      "score": 50
+    },
+    {
+      "name": "Let's Relax Spa",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Bangkok",
+      "country": "TH",
+      "who": "Thailand's largest day-spa chain, with dozens of branches nationwide offering massage, herbal steam and body treatments.",
+      "why": "The country's most recognizable mid-market spa brand and a byword for accessible Thai bodywork.",
+      "factors": {
+        "legacy": 36,
+        "experience": 63,
+        "facility": 56,
+        "community": 46,
+        "reach": 41,
+        "destination": 46
+      },
+      "reach": "IG 17K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://letsrelaxspa.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/letsrelaxspa.official/"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "name": "SweatHouz",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Austin, TX (HQ) — 100+ US locations",
+      "country": "US",
+      "who": "Franchised private-suite contrast therapy studio: infrared sauna, cold plunge, vitamin-C shower; book-by-suite, no membership required.",
+      "why": "The fastest-scaling contrast-therapy franchise in the US, built for convenience over ritual.",
+      "factors": {
+        "legacy": 31,
+        "experience": 61,
+        "facility": 51,
+        "community": 41,
+        "reach": 67,
+        "destination": 36
+      },
+      "reach": "IG 332K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://sweathouz.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/sweathouz/"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "name": "Health Land",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Bangkok",
+      "country": "TH",
+      "who": "20+ year Thai massage and spa chain with multiple Bangkok, Pattaya and Chiang Mai branches, mid-market pricing.",
+      "why": "The most-trusted volume Thai massage brand for locals and visitors alike, known for quality at low prices.",
+      "factors": {
+        "legacy": 41,
+        "experience": 61,
+        "facility": 51,
+        "community": 49,
+        "reach": 34,
+        "destination": 41
+      },
+      "reach": "IG 7.7K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.healthlandspa.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/healthland.official/"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "name": "Bywater Sauna",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Seattle, WA",
+      "country": "US",
+      "who": "Mobile barrel sauna and cold-plunge sessions on Seattle beaches (Golden Gardens, Alki, Leschi); pay-per-session or membership.",
+      "why": "A grassroots beachside sauna-and-cold-water community built by the Coldwater Collective, small but a real local ritual and social hub.",
+      "factors": {
+        "legacy": 31,
+        "experience": 61,
+        "facility": 46,
+        "community": 76,
+        "reach": 30,
+        "destination": 36
+      },
+      "reach": "IG 5K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.bywatersauna.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/bywatersauna/"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "name": "No. 8 Hot Springs Club",
+      "segment": "Asian Spa Culture",
+      "tier": "modern",
+      "city": "Beijing",
+      "country": "CN",
+      "who": "Chaoyang District 24-hour hot-spring bathhouse and lifestyle club with pools, saunas, dining and overnight sleep zones.",
+      "why": "A representative modern Chinese bath palace / tangquan club, illustrating Beijing's thriving 24-hour bathhouse culture.",
+      "factors": {
+        "legacy": 36,
+        "experience": 61,
+        "facility": 63,
+        "community": 56,
+        "reach": 20,
+        "destination": 41
+      },
+      "reach": "IG minimal -- market runs on WeChat/Xiaohongshu, not Instagram (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 46
+    },
+    {
+      "name": "Pause Studio",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Los Angeles, CA (multi-city)",
+      "country": "US",
+      "who": "Recovery studio chain with private infrared sauna, float therapy, cold plunge, cryo, and IV drips across a growing US footprint.",
+      "why": "A solid, expanding recovery-menu brand without a signature ritual or destination pull yet.",
+      "factors": {
+        "legacy": 31,
+        "experience": 61,
+        "facility": 51,
+        "community": 46,
+        "reach": 50,
+        "destination": 36
+      },
+      "reach": "IG 48K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://pausestudio.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/_pause.studio_/"
+      },
+      "warning": null,
+      "score": 46
+    },
+    {
+      "name": "Brooklyn Bathhouse",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Brooklyn, NY",
+      "country": "US",
+      "who": "Neighborhood day spa near Prospect Park with sauna, steam room, cold plunge, and massage; day pass access, unrelated to the Bathhouse chain.",
+      "why": "A solid, well-reviewed local bathhouse without the design profile or reach of the category leaders.",
+      "factors": {
+        "legacy": 31,
+        "experience": 61,
+        "facility": 56,
+        "community": 51,
+        "reach": 39,
+        "destination": 36
+      },
+      "reach": "IG 14K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.brooklynbathhouse.nyc/",
+      "handles": {
+        "instagram": "https://www.instagram.com/brooklynbathhousenyc/"
+      },
+      "warning": null,
+      "score": 46
+    },
+    {
+      "name": "SaunaLab Kanda",
+      "segment": "Sauna Culture",
+      "tier": "modern",
+      "city": "Tokyo",
+      "country": "JP",
+      "who": "Design-led urban sauna facility in Kanda, Tokyo, women-friendly hours, midday-to-night booking, part of Japan's current sauna boom.",
+      "why": "A flagship of Japan's design-driven sauna wave, built for the city's younger, gender-mixed sauna crowd rather than the old bathhouse model.",
+      "factors": {
+        "legacy": 25,
+        "experience": 65,
+        "facility": 70,
+        "community": 55,
+        "reach": 20,
+        "destination": 40
+      },
+      "reach": "IG 504 (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://saunalab.jp/kanda/",
+      "handles": {
+        "instagram": "https://www.instagram.com/saunalabkanda/"
+      },
+      "warning": null,
+      "score": 46
+    },
+    {
+      "name": "City Cave",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Brisbane, QLD (HQ) — 70+ AU locations",
+      "country": "AU",
+      "who": "Australia's largest float-therapy franchise: float tanks, infrared sauna, massage; pay-per-visit or membership at neighborhood centres.",
+      "why": "The float-therapy category's scale leader in Australia, though individual sites are small suburban storefronts.",
+      "factors": {
+        "legacy": 36,
+        "experience": 61,
+        "facility": 46,
+        "community": 41,
+        "reach": 44,
+        "destination": 31
+      },
+      "reach": "IG 24K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.citycave.com.au/",
+      "handles": {
+        "instagram": "https://www.instagram.com/city.cave/"
+      },
+      "warning": null,
+      "score": 44
+    },
+    {
+      "name": "Restore Hyper Wellness",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Austin, TX (HQ) — 225+ US locations",
+      "country": "US",
+      "who": "Franchised recovery-tech storefront chain: cryotherapy, IV drips, compression, red light, infrared sauna; pay-per-visit or membership.",
+      "why": "The largest US recovery-tech franchise by location count, transactional rather than ritual or community-driven.",
+      "factors": {
+        "legacy": 26,
+        "experience": 56,
+        "facility": 41,
+        "community": 31,
+        "reach": 53,
+        "destination": 31
+      },
+      "reach": "IG 65K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.restore.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/restorehyperwellness/"
+      },
+      "warning": null,
+      "score": 40
+    },
+    {
+      "name": "IcePass LA",
+      "segment": "Modern Recovery & Social Wellness",
+      "tier": "modern",
+      "city": "Venice, Los Angeles (flagship) — multi-location",
+      "country": "US",
+      "who": "Self-check-in cold plunge and Finnish sauna club across shared fitness-studio locations in LA; membership-based, unlimited access.",
+      "why": "A lean, community-styled membership model for LA's cold-plunge boom, small but a genuine local following.",
+      "factors": {
+        "legacy": 26,
+        "experience": 56,
+        "facility": 46,
+        "community": 51,
+        "reach": 30,
+        "destination": 31
+      },
+      "reach": "IG 5K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://icepassla.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/icepass_la/"
+      },
+      "warning": null,
+      "score": 40
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+[
+  {
+    "name": "Barbell Medicine",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Jordan Feigenbaum, MD and Austin Baraki, MD host the Barbell Medicine Podcast; the pair's clinic sells 1:1 coaching in fitness, nutrition, and injury/rehab plus group programming.",
+    "why": "Physician-led team of 15+ named coaches gives a rare combo of medical credibility and a real individualized coaching business behind the show.",
+    "factors": {
+      "coaching": 78,
+      "content": 82,
+      "reach": 55,
+      "credibility": 92,
+      "business": 65,
+      "engagement": 55
+    },
+    "reach": "IG ~230K approx · YT ~180K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://www.barbellmedicine.com/",
+    "handles": {
+      "instagram": "https://instagram.com/barbell_medicine",
+      "podcast": "Barbell Medicine Podcast"
+    },
+    "warning": null
+  },
+  {
+    "name": "Renaissance Periodization (RP Strength)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Dr. Mike Israetel fronts RP's YouTube channel and frequent podcast guest appearances; RP sells the RP Hypertrophy App and RP Diet Coach App, self-adjusting coaching apps he co-authored.",
+    "why": "App-scale coaching business built directly on his own periodization research, with one of the largest audiences in evidence-based lifting media.",
+    "factors": {
+      "coaching": 60,
+      "content": 85,
+      "reach": 75,
+      "credibility": 85,
+      "business": 85,
+      "engagement": 60
+    },
+    "reach": "YT ~1.3M approx · IG ~750K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://rpstrength.com/",
+    "handles": {
+      "youtube": "https://www.youtube.com/@RenaissancePeriodization"
+    },
+    "warning": null
+  },
+  {
+    "name": "Legion Athletics / Muscle for Life (Mike Matthews)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Mike Matthews hosts the long-running Muscle for Life podcast and runs Legion's 1:1 body-transformation coaching: custom plans, weekly check-in calls, and video form review.",
+    "why": "Documented scale (Legion claims 5,010+ coaching clients, 91% reporting goal success) backed by weekly-check-in coaching, not just templated plans.",
+    "factors": {
+      "coaching": 68,
+      "content": 78,
+      "reach": 70,
+      "credibility": 65,
+      "business": 78,
+      "engagement": 55
+    },
+    "reach": "Podcast top health-charts regular · IG ~350K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://www.legionathletics.com/",
+    "handles": {
+      "instagram": "https://instagram.com/legionathletics",
+      "podcast": "Muscle for Life"
+    },
+    "warning": null
+  },
+  {
+    "name": "Revive Stronger (Steve Hall)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "GB",
+    "who": "Steve Hall hosts the Revive Stronger Podcast; Revive Stronger sells online physique coaching with tailored programs and video check-ins, run by a small coaching team.",
+    "why": "Coaching is genuinely evidence-based and personally delivered, and Hall backs it with his own WNBF pro card (2024) as a natural bodybuilder.",
+    "factors": {
+      "coaching": 72,
+      "content": 68,
+      "reach": 45,
+      "credibility": 68,
+      "business": 55,
+      "engagement": 60
+    },
+    "reach": "IG 72.8K (verified 2026-08) · YT ~140K approx",
+    "reachVerified": true,
+    "website": "https://revivestronger.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/revivestronger/",
+      "podcast": "The Revive Stronger Podcast"
+    },
+    "warning": null
+  },
+  {
+    "name": "Sigma Nutrition (Danny Lennon)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "IE",
+    "who": "Danny Lennon hosts Sigma Nutrition Radio; Sigma Nutrition's coaching team of four works directly with pro MMA fighters, boxers, and powerlifters on nutrition.",
+    "why": "Niche but credible: real paying coaching page, a genuine coach team, and clients who are verifiable competitive athletes.",
+    "factors": {
+      "coaching": 62,
+      "content": 78,
+      "reach": 35,
+      "credibility": 80,
+      "business": 45,
+      "engagement": 55
+    },
+    "reach": "IG ~25K approx · niche podcast audience (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://sigmanutrition.com/",
+    "handles": {
+      "podcast": "Sigma Nutrition Radio"
+    },
+    "warning": null
+  },
+  {
+    "name": "Danny Matranga (Dynamic Dialogue)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Danny Matranga hosts the 400+ episode Dynamic Dialogue podcast; sells app-based training plus 1:1 coaching with Coach Danny and his coaching team.",
+    "why": "Combines a consistent twice-weekly educational show with a real named coaching team, not just a self-serve app.",
+    "factors": {
+      "coaching": 60,
+      "content": 68,
+      "reach": 55,
+      "credibility": 60,
+      "business": 55,
+      "engagement": 55
+    },
+    "reach": "IG ~600K approx · YT ~230K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "podcast": "Dynamic Dialogue with Danny Matranga"
+    },
+    "warning": null
+  },
+  {
+    "name": "Squat University (Dr. Aaron Horschig)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Dr. Aaron Horschig, DPT, hosts the Squat University podcast and runs a namesake coaching program bridging physical therapy and strength coaching.",
+    "why": "A licensed doctor of physical therapy running an actual clinical/coaching program gives rare credibility on top of a large following.",
+    "factors": {
+      "coaching": 62,
+      "content": 75,
+      "reach": 60,
+      "credibility": 82,
+      "business": 55,
+      "engagement": 55
+    },
+    "reach": "IG ~1.8M approx · YT ~500K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://squatuniversity.com/",
+    "handles": {
+      "podcast": "Squat University"
+    },
+    "warning": null
+  },
+  {
+    "name": "Mind Pump Media",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Sal Di Stefano, Adam Schafer, and Justin Andrews host the Mind Pump podcast; they sell MAPS training programs and a trainer-facing coaching certification course.",
+    "why": "One of the biggest fitness podcasts for a decade; the coaching product is real but leans templated (MAPS programs) rather than deeply individualized.",
+    "factors": {
+      "coaching": 35,
+      "content": 80,
+      "reach": 70,
+      "credibility": 60,
+      "business": 70,
+      "engagement": 60
+    },
+    "reach": "IG ~1M approx · YT ~1M approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://www.mindpumpmedia.com/",
+    "handles": {
+      "podcast": "Mind Pump"
+    },
+    "warning": null
+  },
+  {
+    "name": "Barbell Shrugged / Shrugged Collective",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Anders Varner and Doug Larson host the long-running Barbell Shrugged podcast; Shrugged Collective sells its Program Vault training programs and, per its own site, now partners with RAPID Health Optimization to coach elite athletes and executives.",
+    "why": "The RAPID Health Optimization partnership adds a genuine high-end coaching arm on top of what would otherwise be templated program sales.",
+    "factors": {
+      "coaching": 45,
+      "content": 65,
+      "reach": 50,
+      "credibility": 55,
+      "business": 50,
+      "engagement": 50
+    },
+    "reach": "YT ~200K approx · IG ~180K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://barbellshrugged.com/",
+    "handles": {
+      "podcast": "Barbell Shrugged",
+      "youtube": "https://www.youtube.com/barbellshrugged"
+    },
+    "warning": null
+  },
+  {
+    "name": "Brains and Gains (Dr. David Maconi)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Dr. David Maconi hosts the Brains and Gains podcast; he sells coaching through his own site and coaches through the Boostcamp app.",
+    "why": "Smallest, most niche pass on this list, but the coaching product is real and named, not just a supplement funnel.",
+    "factors": {
+      "coaching": 35,
+      "content": 55,
+      "reach": 25,
+      "credibility": 60,
+      "business": 30,
+      "engagement": 40
+    },
+    "reach": "IG ~15K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://brainsandgainspodcast.com/",
+    "handles": {
+      "podcast": "Brains and Gains with Dr. David Maconi"
+    },
+    "warning": null
+  },
+  {
+    "name": "Layne Norton (BioLayne)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Dr. Layne Norton produces the BioLayne YouTube/podcast content and co-founded the Carbon diet-coaching app, which delivers algorithm-driven personalized nutrition coaching.",
+    "why": "PhD in Nutritional Sciences plus an elite competitive record in powerlifting and natural bodybuilding, paired with a coaching app he actually authored.",
+    "factors": {
+      "coaching": 55,
+      "content": 82,
+      "reach": 68,
+      "credibility": 90,
+      "business": 60,
+      "engagement": 55
+    },
+    "reach": "IG ~1.5M approx · YT ~700K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://biolayne.com/",
+    "handles": {
+      "instagram": "https://instagram.com/biolayne",
+      "podcast": "BioLayne"
+    },
+    "warning": null
+  },
+  {
+    "name": "Jordan Syatt (Syatt Fitness)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Jordan Syatt is a widely followed fitness content creator (former Tony Robbins strength coach) who sells individualized 1:1 online coaching combining nutrition and strength programming.",
+    "why": "Practical, no-nonsense coaching brand with a real 'I take care of all the thinking for you' 1:1 service behind a large content following.",
+    "factors": {
+      "coaching": 55,
+      "content": 60,
+      "reach": 60,
+      "credibility": 55,
+      "business": 50,
+      "engagement": 60
+    },
+    "reach": "IG ~950K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://www.syattfitness.com/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "GDFIT (Greg Doucette)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "CA",
+    "who": "Greg Doucette is one of fitness YouTube's largest personalities; his GDFIT app sells structured, semi-personalized training and nutrition coaching plans.",
+    "why": "Huge reach and a real coaching app, but the coaching leans templated/algorithmic rather than a human check-in relationship, so it scores at the lower end of the coaching gate.",
+    "factors": {
+      "coaching": 40,
+      "content": 65,
+      "reach": 65,
+      "credibility": 45,
+      "business": 55,
+      "engagement": 55
+    },
+    "reach": "YT ~2.9M approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "youtube": "https://www.youtube.com/@GregDoucette"
+    },
+    "warning": null
+  },
+  {
+    "name": "Nerd Fitness (Steve Kamb)",
+    "segment": "Podcast & Media Coaches",
+    "tier": "media",
+    "country": "US",
+    "who": "Steve Kamb built Nerd Fitness into a long-running fitness media brand (blog, newsletter, YouTube); Nerd Fitness Coaching pairs clients with real human coaches for multiple weekly check-ins and video form review.",
+    "why": "One of the oldest continuously-running online coaching operations in the space (since 2009), with a genuinely documented human check-in process, not just an app.",
+    "factors": {
+      "coaching": 65,
+      "content": 55,
+      "reach": 45,
+      "credibility": 55,
+      "business": 60,
+      "engagement": 55
+    },
+    "reach": "Newsletter/site audience large · IG ~200K approx (unverified 2026-08)",
+    "reachVerified": false,
+    "website": "https://www.nerdfitness.com/",
+    "handles": {},
+    "warning": null
+  }
+]

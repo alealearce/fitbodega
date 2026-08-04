@@ -1,0 +1,2577 @@
+{
+  "meta": {
+    "title": "Top 100 Online Fitness Coaches 2026",
+    "subtitle": "The best coaches you can actually hire on the internet — ranked. Evidence-based physique coaches, transformation PTs, endurance coaches, and the podcasts and creators with real coaching arms.",
+    "scoreModel": {
+      "name": "Coaching Influence Score",
+      "gate": "One hard gate: everyone on this list sells real coaching — 1:1 online coaching, coached programs with feedback, or a coaching app they author. Podcasters and content creators qualify only through a genuine coaching arm.",
+      "notes": "Reach is log-scaled and platform-weighted, recomputed from researched follower counts. The five judgment factors — coaching, content, credibility, business, engagement — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+      "weights": {
+        "coaching": 0.25,
+        "content": 0.2,
+        "reach": 0.15,
+        "credibility": 0.15,
+        "business": 0.15,
+        "engagement": 0.1
+      }
+    },
+    "disclaimer": "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement and scores measure influence and coaching footprint, not results guarantees — vet any coach before you pay.",
+    "series": "The FitBodega 100",
+    "updated": "2026-08-04",
+    "reviewCadence": "monthly"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "name": "Renaissance Periodization (Dr. Mike Israetel)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "Sport scientist (PhD) and RP co-founder; sells the RP Hypertrophy/Strength coaching apps plus direct 1:1 coaching.",
+      "why": "One of the largest science-based coaching operations in fitness, backed by real academic credentials and a scaled subscription coaching-app business.",
+      "factors": {
+        "coaching": 79,
+        "content": 84,
+        "reach": 85,
+        "credibility": 84,
+        "business": 89,
+        "engagement": 64
+      },
+      "reach": "YT (RP channel) 3.84M · IG (@drmikeisraetel) 1M+ (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://rpstrength.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/drmikeisraetel/",
+        "youtube": "https://www.youtube.com/@RenaissancePeriodization"
+      },
+      "warning": null,
+      "score": 82
+    },
+    {
+      "rank": 2,
+      "name": "Kayla Itsines",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "AU",
+      "who": "Co-founder of Sweat, the global women's fitness app built on her BBG program; sells subscription-based coached training plans across strength, cardio, and postpartum tracks.",
+      "why": "Built and scaled the largest women's fitness app in the world, reaching over 30 million subscribers; sold Sweat for a nine-figure sum and later reacquired the business.",
+      "factors": {
+        "coaching": 85,
+        "content": 75,
+        "reach": 81,
+        "credibility": 75,
+        "business": 95,
+        "engagement": 65
+      },
+      "reach": "IG 15.4M · YT 1.5M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://kaylaitsines.com/",
+      "handles": {
+        "instagram": "https://instagram.com/kayla_itsines"
+      },
+      "warning": null,
+      "score": 80
+    },
+    {
+      "rank": 3,
+      "name": "Hany Rambod",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Creator of FST-7 training; preps IFBB pros and sells the FST-7 training app plus Evogen Nutrition coaching content to the public.",
+      "why": "Clients have combined for 25 Olympia titles — the deepest documented pro-physique coaching pedigree in this segment.",
+      "factors": {
+        "coaching": 89,
+        "content": 69,
+        "reach": 61,
+        "credibility": 87,
+        "business": 69,
+        "engagement": 64
+      },
+      "reach": "TikTok 1.6M (verified 2026-08) · IG ~550K (approx)",
+      "reachVerified": true,
+      "website": "https://www.hanyrambod.com/",
+      "handles": {
+        "instagram": "https://instagram.com/hanyrambod",
+        "podcast": "The Truth with Hany Rambod"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
+      "rank": 4,
+      "name": "Layne Norton (Carbon Diet Coach / Biolayne)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "PhD in Nutritional Sciences and natural bodybuilder; co-founded Carbon Diet Coach, an adaptive AI nutrition-coaching app, after moving away from 1:1 coaching.",
+      "why": "Built one of the first algorithm-driven science-based nutrition coaching products with a strong published-research background.",
+      "factors": {
+        "coaching": 69,
+        "content": 84,
+        "reach": 65,
+        "credibility": 89,
+        "business": 74,
+        "engagement": 59
+      },
+      "reach": "IG ~700K · YT ~275K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.joincarbon.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/biolayne/"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 5,
+      "name": "Joe Wicks",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "UK",
+      "who": "UK's 'Body Coach'; sells The Body Coach subscription app (workout + meal plans), the coaching product behind a household fitness brand.",
+      "why": "Mass-market UK fitness figure — app has passed 1M downloads and generated over £24M; largest reach in this segment.",
+      "factors": {
+        "coaching": 59,
+        "content": 84,
+        "reach": 74,
+        "credibility": 64,
+        "business": 91,
+        "engagement": 69
+      },
+      "reach": "IG 4.7M · YT 2.8M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.thebodycoach.com/",
+      "handles": {
+        "instagram": "https://instagram.com/thebodycoach",
+        "youtube": "https://youtube.com/@thebodycoachtv"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 6,
+      "name": "Barbell Medicine",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Jordan Feigenbaum, MD and Austin Baraki, MD host the Barbell Medicine Podcast; the pair's clinic sells 1:1 coaching in fitness, nutrition, and injury/rehab plus group programming.",
+      "why": "Physician-led team of 15+ named coaches gives a rare combo of medical credibility and a real individualized coaching business behind the show.",
+      "factors": {
+        "coaching": 78,
+        "content": 82,
+        "reach": 55,
+        "credibility": 92,
+        "business": 65,
+        "engagement": 55
+      },
+      "reach": "IG ~230K approx · YT ~180K approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": "https://www.barbellmedicine.com/",
+      "handles": {
+        "instagram": "https://instagram.com/barbell_medicine",
+        "podcast": "Barbell Medicine Podcast"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 7,
+      "name": "Nick Bare",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of Bare Performance Nutrition (BPN) and a hybrid-athlete training app/platform (BPN Training, plus a program on Playbook) selling structured run-plus-strength programming.",
+      "why": "One of the largest hybrid-athlete followings, built on years of documented Ironman, ultra, and military-style training vlogs; the app scales his programming to a large paying audience.",
+      "factors": {
+        "coaching": 60,
+        "content": 80,
+        "reach": 80,
+        "credibility": 65,
+        "business": 75,
+        "engagement": 65
+      },
+      "reach": "IG ~700K approx · YT ~1.3M approx (not independently verified this session)",
+      "reachVerified": false,
+      "website": "https://www.nickbarefitness.app/",
+      "handles": {
+        "instagram": "https://instagram.com/nickbare",
+        "podcast": "Go One More"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 8,
+      "name": "Ben Bergeron",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of CompTrain and CrossFit New England; sells CompTrain gym and individual-athlete programming (app plus subscriptions).",
+      "why": "Documented elite client results (2x CrossFit Games champion Katrin Davidsdottir, 10x Games athlete Cole Sager) on top of a real, scaled subscription coaching business.",
+      "factors": {
+        "coaching": 85,
+        "content": 70,
+        "reach": 46,
+        "credibility": 85,
+        "business": 70,
+        "engagement": 60
+      },
+      "reach": "IG 304K (personal) + 266K (CompTrain.co) (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.comptrain.com/",
+      "handles": {
+        "instagram": "https://instagram.com/benbergeron"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 9,
+      "name": "Legion Athletics / Muscle for Life (Mike Matthews)",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Mike Matthews hosts the long-running Muscle for Life podcast and runs Legion's 1:1 body-transformation coaching: custom plans, weekly check-in calls, and video form review.",
+      "why": "Documented scale (Legion claims 5,010+ coaching clients, 91% reporting goal success) backed by weekly-check-in coaching, not just templated plans.",
+      "factors": {
+        "coaching": 68,
+        "content": 78,
+        "reach": 70,
+        "credibility": 65,
+        "business": 78,
+        "engagement": 55
+      },
+      "reach": "Podcast top health-charts regular · IG ~350K approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": "https://www.legionathletics.com/",
+      "handles": {
+        "instagram": "https://instagram.com/legionathletics",
+        "podcast": "Muscle for Life"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 10,
+      "name": "Eric Helms (3D Muscle Journey)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "NZ",
+      "who": "PhD sport scientist, WNBF pro bodybuilder, and Chief Science Officer/co-founder of 3D Muscle Journey, which sells 1:1 coaching for natural bodybuilders and powerlifters.",
+      "why": "Elite academic pedigree (research fellow, PhD mentor) paired with a small, well-regarded boutique coaching team.",
+      "factors": {
+        "coaching": 74,
+        "content": 84,
+        "reach": 45,
+        "credibility": 89,
+        "business": 54,
+        "engagement": 59
+      },
+      "reach": "IG (@helms3dmj) 200K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.3dmusclejourney.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/helms3dmj/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 11,
+      "name": "Ulisses Jr",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Natural-bodybuilding coach who runs Ulisses World, an online muscle-building academy enrolling clients from 60+ countries.",
+      "why": "25+ years of training experience turned into a large-scale international coaching academy backed by a major supplement sponsorship.",
+      "factors": {
+        "coaching": 68,
+        "content": 63,
+        "reach": 75,
+        "credibility": 68,
+        "business": 78,
+        "engagement": 58
+      },
+      "reach": "IG 8M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/ulissesworld/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 12,
+      "name": "Bret Contreras",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "PhD biomechanist known as 'The Glute Guy' who sells Booty by Bret, an online strength program for women built from his own client programming.",
+      "why": "Inventor of the barbell hip thrust and one of the most credentialed glute-training researchers; his program uses the same workouts he runs with real clients.",
+      "factors": {
+        "coaching": 75,
+        "content": 70,
+        "reach": 62,
+        "credibility": 90,
+        "business": 55,
+        "engagement": 50
+      },
+      "reach": "IG 1.8M personal · 208K program (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://bootybybret.com/",
+      "handles": {
+        "instagram": "https://instagram.com/bretcontreras1"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 13,
+      "name": "Ben Pakulski",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "Canada",
+      "who": "IFBB pro bodybuilder running MI40/MI40 Nation, a scaled online muscle-building coaching program and trainer-certification business.",
+      "why": "Blends elite competitive record with a genuinely large scientific-bodybuilding coaching operation, not just content.",
+      "factors": {
+        "coaching": 77,
+        "content": 71,
+        "reach": 54,
+        "credibility": 74,
+        "business": 67,
+        "engagement": 57
+      },
+      "reach": "IG ~700K (approx)",
+      "reachVerified": false,
+      "website": "https://mi40.com/",
+      "handles": {
+        "instagram": "https://instagram.com/bpakfitness"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 14,
+      "name": "Jason Koop",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Head Ultrarunning Coach and Coaching Director at CTS (Carmichael Training Systems); coaches a roster of world-class ultrarunners including Katie Schide.",
+      "why": "A documented roster of world-class ultrarunning results inside an established, large coaching organization.",
+      "factors": {
+        "coaching": 85,
+        "content": 70,
+        "reach": 35,
+        "credibility": 85,
+        "business": 70,
+        "engagement": 40
+      },
+      "reach": "reach not independently verified this session, approx-labeled small-mid",
+      "reachVerified": false,
+      "website": "https://trainright.com/coaches/jason-koop/",
+      "handles": {},
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 15,
+      "name": "James Smith",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "media",
+      "country": "GB",
+      "who": "British influencer and content-first coach who built James Smith Academy, an online platform with a team of coaches delivering personalized training plans and accountability.",
+      "why": "Mega-reach myth-busting content funnels into a genuine coaching business run by a full coaching team, not just him.",
+      "factors": {
+        "coaching": 58,
+        "content": 83,
+        "reach": 60,
+        "credibility": 63,
+        "business": 78,
+        "engagement": 68
+      },
+      "reach": "IG 1.5M+ (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.jamessmithacademy.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/jamessmithacademy/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 16,
+      "name": "Stefi Cohen",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Doctor of physical therapy, world-record powerlifter, and co-founder of Hybrid Performance Method (HPM), a large team-based online coaching business.",
+      "why": "Elite competitive record (multiple all-time world records) paired with a scaled coaching team; a rare combination of athletic and clinical credibility.",
+      "factors": {
+        "coaching": 75,
+        "content": 60,
+        "reach": 55,
+        "credibility": 90,
+        "business": 65,
+        "engagement": 55
+      },
+      "reach": "IG ~1.5M (approx, not independently verified this session)",
+      "reachVerified": false,
+      "website": "https://hybridperformancemethod.com/",
+      "handles": {
+        "instagram": "https://instagram.com/steficohen"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 17,
+      "name": "Jordan Syatt",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "World-champion powerlifter and Westside Barbell-certified coach selling Syatt Fitness online barbell and nutrition coaching.",
+      "why": "Rare combination of elite competitive record, a long-running individualized coaching practice, and comedic/educational content that built a large following.",
+      "factors": {
+        "coaching": 68,
+        "content": 78,
+        "reach": 56,
+        "credibility": 78,
+        "business": 53,
+        "engagement": 63
+      },
+      "reach": "IG 1M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.syattfitness.com/coaching/",
+      "handles": {
+        "instagram": "https://www.instagram.com/syattfitness/"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 18,
+      "name": "Krissy Cela",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "GB",
+      "who": "Co-founder and lead trainer of EvolveYou (formerly Tone and Sculpt), a strength-training coaching app with structured, personalized programs.",
+      "why": "Turned a personal-training background into one of the UK's top women's fitness apps, staying hands-on as lead trainer.",
+      "factors": {
+        "coaching": 65,
+        "content": 70,
+        "reach": 67,
+        "credibility": 60,
+        "business": 75,
+        "engagement": 60
+      },
+      "reach": "IG 3.3M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://krissycela.com/",
+      "handles": {
+        "instagram": "https://instagram.com/krissycela",
+        "app": "https://www.evolveyou.app/"
+      },
+      "score": 67
+    },
+    {
+      "rank": 19,
+      "name": "Marcus Filly",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of Functional Bodybuilding; sells the Persist coaching app, with 10,000+ active paying members across 80+ countries on structured hybrid strength/conditioning tracks.",
+      "why": "A real, scaled global membership-coaching business rather than templated PDFs, with a large and loyal functional-fitness following.",
+      "factors": {
+        "coaching": 65,
+        "content": 75,
+        "reach": 56,
+        "credibility": 65,
+        "business": 70,
+        "engagement": 65
+      },
+      "reach": "IG 1M (personal) + 300K (Functional Bodybuilding) (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://functional-bodybuilding.com/",
+      "handles": {
+        "instagram": "https://instagram.com/marcusfilly"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 20,
+      "name": "Jack Daniels",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Exercise physiologist and Olympic-caliber coach whose VDOT methodology powers the V.O2 (VDOT O2) app, which sells custom training plans and connects athletes to certified coaches.",
+      "why": "PhD-level exercise science plus a real commercial coaching app make him the credibility anchor for the whole running-coach category.",
+      "factors": {
+        "coaching": 60,
+        "content": 85,
+        "reach": 45,
+        "credibility": 95,
+        "business": 55,
+        "engagement": 45
+      },
+      "reach": "app-based reach; follower count not independently verified this session",
+      "reachVerified": false,
+      "website": "https://vdoto2.com/",
+      "handles": {},
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 21,
+      "name": "Squat University (Dr. Aaron Horschig)",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Dr. Aaron Horschig, DPT, hosts the Squat University podcast and runs a namesake coaching program bridging physical therapy and strength coaching.",
+      "why": "A licensed doctor of physical therapy running an actual clinical/coaching program gives rare credibility on top of a large following.",
+      "factors": {
+        "coaching": 62,
+        "content": 75,
+        "reach": 60,
+        "credibility": 82,
+        "business": 55,
+        "engagement": 55
+      },
+      "reach": "IG ~1.8M approx · YT ~500K approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": "https://squatuniversity.com/",
+      "handles": {
+        "podcast": "Squat University"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 22,
+      "name": "Natacha Oceane",
+      "segment": "Women's Coaching & Apps",
+      "tier": "media",
+      "country": "FR",
+      "who": "Biophysicist and trainer who sells structured strength/endurance programs, including HYBRID, through the Aflete coaching app.",
+      "why": "Rare combination of academic rigor (UCL biophysics, Team GB-linked programming) and a genuine coaching product; content is trusted for scientific accuracy.",
+      "factors": {
+        "coaching": 55,
+        "content": 85,
+        "reach": 65,
+        "credibility": 85,
+        "business": 50,
+        "engagement": 55
+      },
+      "reach": "IG 1M · YT 1.7M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://natachaoceane.com/",
+      "handles": {
+        "instagram": "https://instagram.com/natacha.oceane"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 23,
+      "name": "Meg Squats (Meg Gallagher)",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Strength and conditioning coach, founder of Stronger by the Day, a membership lifting program and coaching collective for women.",
+      "why": "Has personally coached tens of thousands of strength athletes from their first squat to national-level meets; long-running, community-driven coaching brand rather than a passive content feed.",
+      "factors": {
+        "coaching": 75,
+        "content": 70,
+        "reach": 50,
+        "credibility": 70,
+        "business": 55,
+        "engagement": 70
+      },
+      "reach": "IG 290K · YT 200K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://megsquats.com/",
+      "handles": {
+        "instagram": "https://instagram.com/megsquats",
+        "youtube": "https://youtube.com/@megsquats"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 24,
+      "name": "Matt Fitzgerald",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Co-founder of 80/20 Endurance, which has sold 125,000+ training plans and offers certified 1:1 coaching for runners and triathletes on the 80/20 intensity-distribution method.",
+      "why": "A large-scale coaching-plan business built on a well-documented, science-backed training methodology, plus a prolific authoring record.",
+      "factors": {
+        "coaching": 65,
+        "content": 80,
+        "reach": 45,
+        "credibility": 75,
+        "business": 65,
+        "engagement": 45
+      },
+      "reach": "IG (personal) 13K (verified 2026-08); 80/20 Endurance brand account larger, not separately verified",
+      "reachVerified": true,
+      "website": "https://www.8020endurance.com/",
+      "handles": {
+        "instagram": "https://instagram.com/endurance_mastery"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 25,
+      "name": "Menno Henselmans",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "NL",
+      "who": "Physique scientist and former statistician; sells 1:1 online bodybuilding coaching under his own name (rebranded from Bayesian Bodybuilding).",
+      "why": "One of the original pioneers of a formally 'evidence-based' individualized coaching method, with peer-reviewed co-authorship.",
+      "factors": {
+        "coaching": 74,
+        "content": 79,
+        "reach": 40,
+        "credibility": 79,
+        "business": 49,
+        "engagement": 54
+      },
+      "reach": "IG approx 150K (follower count not independently confirmed this pass)",
+      "reachVerified": false,
+      "website": "https://mennohenselmans.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/menno.henselmans/"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 26,
+      "name": "Greg Nuckols (Stronger by Science)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "media",
+      "country": "US",
+      "who": "Elite raw powerlifter and researcher; Stronger by Science sells premium 1:1 training and nutrition coaching from its own vetted coaches (e.g., Milo Wolf, Eric Trexler), on top of its free research writing.",
+      "why": "One of the most respected research-to-practice media brands in fitness, with a real coaching bench behind the newsletter and podcast.",
+      "factors": {
+        "coaching": 54,
+        "content": 89,
+        "reach": 50,
+        "credibility": 84,
+        "business": 54,
+        "engagement": 59
+      },
+      "reach": "Audience size not independently confirmed this pass (large newsletter/podcast following)",
+      "reachVerified": false,
+      "website": "https://www.strongerbyscience.com",
+      "handles": {
+        "podcast": "Stronger By Science Podcast"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 27,
+      "name": "Meggan Grubb",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "AU",
+      "who": "Australian trainer and founder of the Beyond app, delivering coached training, nutrition, and mindset programs for women at every life stage.",
+      "why": "Scaled a wellness app to 100,000+ members with a 4.8-star rating, centered on pregnancy and postpartum fitness.",
+      "factors": {
+        "coaching": 63,
+        "content": 68,
+        "reach": 56,
+        "credibility": 63,
+        "business": 73,
+        "engagement": 68
+      },
+      "reach": "IG 1M; 1.5M+ combined across IG/YT/TikTok (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/meggangrubb/"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 28,
+      "name": "Cassey Ho (Blogilates)",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of Blogilates and its companion training app, plus POPFLEX activewear; sells structured Pilates-based workout programs and calendars.",
+      "why": "Built one of the largest women's fitness media-and-coaching businesses from POP Pilates, with a decade-plus, highly engaged following.",
+      "factors": {
+        "coaching": 45,
+        "content": 80,
+        "reach": 74,
+        "credibility": 55,
+        "business": 80,
+        "engagement": 65
+      },
+      "reach": "YT 5.9M · IG 2M+ (approx, not independently verified this session)",
+      "reachVerified": false,
+      "website": "https://www.blogilates.com/",
+      "handles": {
+        "instagram": "https://instagram.com/blogilates",
+        "youtube": "https://youtube.com/@blogilates"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 29,
+      "name": "Don Saladino",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Celebrity strength coach (Ryan Reynolds, Blake Lively, Sebastian Stan) selling the Don Saladino app with tiered strength programs.",
+      "why": "Consistent superhero-body client roster plus an app used in 100+ countries; also hosts the Stronger with Don Saladino podcast.",
+      "factors": {
+        "coaching": 77,
+        "content": 59,
+        "reach": 49,
+        "credibility": 71,
+        "business": 61,
+        "engagement": 57
+      },
+      "reach": "IG 426K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.donsaladino.com/",
+      "handles": {
+        "instagram": "https://instagram.com/donsaladino",
+        "podcast": "Stronger with Don Saladino"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 30,
+      "name": "Charles Glass",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Veteran pro-bodybuilding coach who has prepped multiple Mr. Olympia-era champions; sells online coaching and a training-vault app.",
+      "why": "Among the most respected names in bodybuilding coaching pedigree, still active coaching pros and the public.",
+      "factors": {
+        "coaching": 84,
+        "content": 54,
+        "reach": 46,
+        "credibility": 84,
+        "business": 49,
+        "engagement": 49
+      },
+      "reach": "IG ~450K (approx)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/charlesglass"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 31,
+      "name": "Magnus Lygdback",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "Sweden",
+      "who": "Swedish trainer to A-list actors and musicians; sells the Magnus Method training app with celebrity-style programs.",
+      "why": "Two decades coaching Ben Affleck, Gal Gadot, Alicia Vikander and others for film roles, now packaged into a consumer app.",
+      "factors": {
+        "coaching": 81,
+        "content": 54,
+        "reach": 47,
+        "credibility": 74,
+        "business": 59,
+        "engagement": 54
+      },
+      "reach": "IG 322K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.magnusmethod.com/",
+      "handles": {
+        "instagram": "https://instagram.com/magnuslygdback"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 32,
+      "name": "Kassem Hanson",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "Brazil/US",
+      "who": "Founder of N1 Training/Education; sells individualized programming courses for trainers and physique-athlete coaching programs.",
+      "why": "Respected technical voice on exercise selection and individualization, with a scaled education-plus-coaching business.",
+      "factors": {
+        "coaching": 67,
+        "content": 77,
+        "reach": 40,
+        "credibility": 69,
+        "business": 54,
+        "engagement": 59
+      },
+      "reach": "IG 146K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://n1.training/",
+      "handles": {
+        "instagram": "https://instagram.com/coach_kassem",
+        "tiktok": "https://tiktok.com/@n1.education"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 33,
+      "name": "Kris Gethin",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "Wales/US",
+      "who": "Former Bodybuilding.com head coach; sells extreme-transformation programs through the Kris Gethin Trains app.",
+      "why": "Built his brand on documented, filmed personal transformations before scaling into a broad online coaching app.",
+      "factors": {
+        "coaching": 67,
+        "content": 64,
+        "reach": 56,
+        "credibility": 67,
+        "business": 61,
+        "engagement": 54
+      },
+      "reach": "IG ~1.1M (approx)",
+      "reachVerified": false,
+      "website": "https://krisgethin.com/",
+      "handles": {
+        "instagram": "https://instagram.com/krisgethin"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 34,
+      "name": "Eugene Teo (Ganbaru Method)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "AU",
+      "who": "Strength coach and content creator; founder of the Ganbaru Method app, which sells customized hybrid-training coaching programs with a coaching team.",
+      "why": "Fast-growing paid coaching-app audience (200K+ claimed app users) built on a hybrid strength/bodybuilding method.",
+      "factors": {
+        "coaching": 59,
+        "content": 74,
+        "reach": 60,
+        "credibility": 59,
+        "business": 64,
+        "engagement": 59
+      },
+      "reach": "IG (@coacheugeneteo) ~900K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://ganbarumethod.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/coacheugeneteo/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 35,
+      "name": "Jeff Nippard",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "media",
+      "country": "CA",
+      "who": "YouTube science communicator and natural bodybuilder; sells structured, self-guided training programs (hypertrophy, powerbuilding) via jeffnippard.com — no personalized feedback or check-ins.",
+      "why": "Reference-standard educational content and massive reach; coaching product is templated-only, so it clears the gate but sits at the bottom of the coaching-depth scale.",
+      "factors": {
+        "coaching": 29,
+        "content": 89,
+        "reach": 78,
+        "credibility": 74,
+        "business": 59,
+        "engagement": 59
+      },
+      "reach": "YT 8.5M · IG 4M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://jeffnippard.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/jeffnippard/",
+        "youtube": "https://www.youtube.com/@jeffnippard"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 36,
+      "name": "Jillian Michaels",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Biggest Loser trainer; sells the award-winning Jillian Michaels Fitness App with structured programs and meal plans.",
+      "why": "Long-running mainstream celebrity-trainer brand with a genuine app business, not just legacy DVD fame.",
+      "factors": {
+        "coaching": 54,
+        "content": 69,
+        "reach": 62,
+        "credibility": 67,
+        "business": 74,
+        "engagement": 44
+      },
+      "reach": "IG 1.8M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.jillianmichaels.com/",
+      "handles": {
+        "instagram": "https://instagram.com/jillianmichaels"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 37,
+      "name": "Joe Bennett (Hypertrophy Coach)",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Physique coach behind the Hypertrophy Coach app, selling structured muscle-building programs and coaching to lifters and athletes.",
+      "why": "Strong reputation for evidence-informed hypertrophy programming packaged into a scaled coaching app.",
+      "factors": {
+        "coaching": 64,
+        "content": 74,
+        "reach": 46,
+        "credibility": 67,
+        "business": 57,
+        "engagement": 54
+      },
+      "reach": "IG ~500K (approx)",
+      "reachVerified": false,
+      "website": "https://hypertrophycoach.com/",
+      "handles": {
+        "instagram": "https://instagram.com/hypertrophycoach"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 38,
+      "name": "David and Megan Roche",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Husband-wife coaching duo running SWAP (Some Work, All Play), a coaching business for trail, ultra, and obstacle-course athletes, alongside a weekly podcast.",
+      "why": "Megan's elite competitive record (national trail champion, Team USA) and documented client results across trail, ultra, and OCR give this a genuine individualized-coaching pedigree.",
+      "factors": {
+        "coaching": 70,
+        "content": 70,
+        "reach": 40,
+        "credibility": 80,
+        "business": 45,
+        "engagement": 60
+      },
+      "reach": "reach not independently verified this session, approx-labeled mid-size podcast/social audience",
+      "reachVerified": false,
+      "website": "https://swaprunning.com/",
+      "handles": {
+        "podcast": "Some Work, All Play"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 39,
+      "name": "Floris Gierman",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of the Personal Best (PB) Program and host of The Extramilest Show; sells heart-rate-based 1:1 and group running coaching.",
+      "why": "A real coaching business with thousands of documented athlete results, from first 5Ks to Boston qualifiers, built on a large podcast/YouTube audience.",
+      "factors": {
+        "coaching": 60,
+        "content": 70,
+        "reach": 78,
+        "credibility": 55,
+        "business": 50,
+        "engagement": 55
+      },
+      "reach": "IG 11K (verified 2026-08); Extramilest Show 12M+ cumulative views/downloads (approx)",
+      "reachVerified": true,
+      "website": "https://www.pbprogram.com/",
+      "handles": {
+        "instagram": "https://instagram.com/florisgierman",
+        "podcast": "The Extramilest Show"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 40,
+      "name": "Mike Tuchscherer (Reactive Training Systems)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of Reactive Training Systems (RTS); sells RPE-based autoregulated online coaching for powerlifters.",
+      "why": "Early pioneer of online powerlifting coaching, with 400+ lifters coached and multiple IPF world-record holders on his roster.",
+      "factors": {
+        "coaching": 79,
+        "content": 64,
+        "reach": 35,
+        "credibility": 74,
+        "business": 54,
+        "engagement": 54
+      },
+      "reach": "IG (@miketuchscherer) 55K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.reactivetrainingsystems.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/miketuchscherer/",
+        "podcast": "The Reactive Training Systems Podcast"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 41,
+      "name": "Sohee Lee (Sohee Fit)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "PhD in Sports Science, CSCS; founder and head coach at SoheeFit Systems, running paid 1:1 online coaching since 2012.",
+      "why": "Long-running, credentialed coaching practice with a strong, engaged female-focused audience.",
+      "factors": {
+        "coaching": 64,
+        "content": 64,
+        "reach": 55,
+        "credibility": 74,
+        "business": 54,
+        "engagement": 54
+      },
+      "reach": "IG (@soheefit) 671K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://soheefit.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/soheefit/"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 42,
+      "name": "Leandro Twin",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "BR",
+      "who": "Brazilian physical-education specialist running a personal online/in-person 'assessoria' (coaching consultancy) with custom diet and training plans and biweekly follow-ups.",
+      "why": "Two decades of bodybuilding/nutrition authority in the Brazilian market, with a hands-on consultancy he personally attends rather than a resold template.",
+      "factors": {
+        "coaching": 63,
+        "content": 63,
+        "reach": 66,
+        "credibility": 63,
+        "business": 58,
+        "engagement": 58
+      },
+      "reach": "IG 3M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://site.leandrotwin.com.br/",
+      "handles": {
+        "instagram": "https://www.instagram.com/leandrotwin/"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 43,
+      "name": "Caroline Girvan",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "GB",
+      "who": "Personal trainer and nutritionist behind the free EPIC YouTube programs and the paid CGX app, which sells structured strength programming and nutrition guidance.",
+      "why": "One of the most-watched home-workout program creators for women, with a dedicated coaching app extending her free YouTube series into paid, ongoing programming.",
+      "factors": {
+        "coaching": 45,
+        "content": 80,
+        "reach": 70,
+        "credibility": 60,
+        "business": 55,
+        "engagement": 65
+      },
+      "reach": "YT 4M · IG 857K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://carolinegirvan.com/",
+      "handles": {
+        "instagram": "https://instagram.com/carolinegirvan",
+        "youtube": "https://youtube.com/@carolinegirvan"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 44,
+      "name": "Senada Greca",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of WeRise, an all-in-one women's fitness and wellness app covering strength, Pilates, yoga, nutrition, and cycle-syncing.",
+      "why": "Built one of the most-downloaded women's fitness apps in 2026 off a large, highly engaged personal following.",
+      "factors": {
+        "coaching": 55,
+        "content": 65,
+        "reach": 73,
+        "credibility": 55,
+        "business": 70,
+        "engagement": 60
+      },
+      "reach": "IG 7M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/senada.greca"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 45,
+      "name": "Kelsey Wells",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Sweat global trainer and creator of PWR, a weight-training program for women delivered through the Sweat app.",
+      "why": "PWR ranked among Sweat's top three most-downloaded training guides in 2026; built a large following around strength training for women specifically.",
+      "factors": {
+        "coaching": 60,
+        "content": 65,
+        "reach": 66,
+        "credibility": 55,
+        "business": 70,
+        "engagement": 55
+      },
+      "reach": "IG 3M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://sweat.com/trainers/kelsey-wells",
+      "handles": {
+        "instagram": "https://instagram.com/kelseywells"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 46,
+      "name": "Cliff Wilson",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Natural pro bodybuilder offering online coaching and contest prep to natural bodybuilding clients.",
+      "why": "One of the most visible natural-pro coaches, with a large following built on transparent, drug-tested competing.",
+      "factors": {
+        "coaching": 69,
+        "content": 59,
+        "reach": 58,
+        "credibility": 64,
+        "business": 54,
+        "engagement": 59
+      },
+      "reach": "IG ~1.2M (approx)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/cliffwilsonifbbpro"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 47,
+      "name": "Zach Bitter",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "World-record ultramarathoner who sells personalized ultramarathon coaching (5K to 200+ miles) and group coaching programs via TrainingPeaks.",
+      "why": "Elite competitive record (100-mile world best, national titles) lends strong credibility to a genuine, individualized coaching business.",
+      "factors": {
+        "coaching": 70,
+        "content": 65,
+        "reach": 33,
+        "credibility": 85,
+        "business": 50,
+        "engagement": 55
+      },
+      "reach": "IG 68K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://zachbitter.com/coaching",
+      "handles": {
+        "instagram": "https://instagram.com/zachbitter",
+        "podcast": "Human Performance Outliers"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 48,
+      "name": "Greg McMillan",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Exercise scientist and founder of McMillan Running, which sells custom training plans and 1:1 coaching for runners of all levels.",
+      "why": "One of the longest-running, most respected personalized running-coaching services, grounded in real exercise-science credentials.",
+      "factors": {
+        "coaching": 70,
+        "content": 65,
+        "reach": 40,
+        "credibility": 80,
+        "business": 55,
+        "engagement": 45
+      },
+      "reach": "reach not independently verified this session, approx-labeled mid-size",
+      "reachVerified": false,
+      "website": "https://www.mcmillanrunning.com/",
+      "handles": {},
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 49,
+      "name": "Ben Carpenter",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "GB",
+      "who": "UK personal trainer and author of 'Everything Fat Loss' who sells online personal training and coaching packages.",
+      "why": "Known for evidence-based, myth-debunking content layered on top of a real solo coaching practice.",
+      "factors": {
+        "coaching": 53,
+        "content": 73,
+        "reach": 59,
+        "credibility": 73,
+        "business": 48,
+        "engagement": 58
+      },
+      "reach": "IG 565K · TikTok 795K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/bdccarpenter/",
+        "facebook": "https://www.facebook.com/bencarpenterpersonaltraining/"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 50,
+      "name": "Hattie Boydle",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "GB",
+      "who": "UK powerlifting/bodybuilding champion and coach running Flex Method, a team-coached program on strength, food relationship, and lifting confidence for women.",
+      "why": "Competitive pedigree (2x world champion) paired with a genuinely coached client program, not just content.",
+      "factors": {
+        "coaching": 63,
+        "content": 63,
+        "reach": 52,
+        "credibility": 68,
+        "business": 58,
+        "engagement": 63
+      },
+      "reach": "IG 582K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/hattieboydle/",
+        "podcast": "Hattie Boydle Podcast"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 51,
+      "name": "Revive Stronger (Steve Hall)",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "GB",
+      "who": "Steve Hall hosts the Revive Stronger Podcast; Revive Stronger sells online physique coaching with tailored programs and video check-ins, run by a small coaching team.",
+      "why": "Coaching is genuinely evidence-based and personally delivered, and Hall backs it with his own WNBF pro card (2024) as a natural bodybuilder.",
+      "factors": {
+        "coaching": 72,
+        "content": 68,
+        "reach": 34,
+        "credibility": 68,
+        "business": 55,
+        "engagement": 60
+      },
+      "reach": "IG 72.8K (verified 2026-08) · YT ~140K approx",
+      "reachVerified": true,
+      "website": "https://revivestronger.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/revivestronger/",
+        "podcast": "The Revive Stronger Podcast"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 52,
+      "name": "Sigma Nutrition (Danny Lennon)",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "IE",
+      "who": "Danny Lennon hosts Sigma Nutrition Radio; Sigma Nutrition's coaching team of four works directly with pro MMA fighters, boxers, and powerlifters on nutrition.",
+      "why": "Niche but credible: real paying coaching page, a genuine coach team, and clients who are verifiable competitive athletes.",
+      "factors": {
+        "coaching": 62,
+        "content": 78,
+        "reach": 35,
+        "credibility": 80,
+        "business": 45,
+        "engagement": 55
+      },
+      "reach": "IG ~25K approx · niche podcast audience (unverified 2026-08)",
+      "reachVerified": false,
+      "website": "https://sigmanutrition.com/",
+      "handles": {
+        "podcast": "Sigma Nutrition Radio"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 53,
+      "name": "Mind Pump Media",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Sal Di Stefano, Adam Schafer, and Justin Andrews host the Mind Pump podcast; they sell MAPS training programs and a trainer-facing coaching certification course.",
+      "why": "One of the biggest fitness podcasts for a decade; the coaching product is real but leans templated (MAPS programs) rather than deeply individualized.",
+      "factors": {
+        "coaching": 35,
+        "content": 80,
+        "reach": 70,
+        "credibility": 60,
+        "business": 70,
+        "engagement": 60
+      },
+      "reach": "IG ~1M approx · YT ~1M approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": "https://www.mindpumpmedia.com/",
+      "handles": {
+        "podcast": "Mind Pump"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 54,
+      "name": "Anna Engelschall (growingannanas)",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "DE",
+      "who": "Certified trainer and former CrossFit coach who founded Grow With Anna, an app with personalized strength, HIIT, and full-body training plans; CEO of The Grow Lifestyle GmbH.",
+      "why": "One of the largest women's home-workout YouTube channels, converted into a dedicated coaching-app business.",
+      "factors": {
+        "coaching": 50,
+        "content": 70,
+        "reach": 76,
+        "credibility": 55,
+        "business": 60,
+        "engagement": 55
+      },
+      "reach": "YT 7M · IG 2M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/growingannanas"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 55,
+      "name": "Alan Aragon",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "media",
+      "country": "US",
+      "who": "Nutrition researcher and educator (30+ years); runs 1:1 nutrition consulting alongside publishing Alan Aragon's Research Review (AARR).",
+      "why": "The longest-running evidence-based nutrition research review in fitness, paired with a genuine individual consulting practice.",
+      "factors": {
+        "coaching": 39,
+        "content": 89,
+        "reach": 55,
+        "credibility": 89,
+        "business": 39,
+        "engagement": 49
+      },
+      "reach": "IG (@thealanaragon) 321K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://alanaragon.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/thealanaragon/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 56,
+      "name": "Diren Kartal",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "GB",
+      "who": "Turkish-British coach offering 1:1 'Confidence Coaching' and the group program Progress247, built on over a decade of gym-floor coaching experience.",
+      "why": "Claims 40,000+ people coached online, with a non-restrictive, sustainability-first approach that built strong cross-market (English + Turkish) reach.",
+      "factors": {
+        "coaching": 63,
+        "content": 63,
+        "reach": 46,
+        "credibility": 63,
+        "business": 58,
+        "engagement": 63
+      },
+      "reach": "IG 300K (@diren.kartal) + 1M Turkish account (@direnkartaltr) (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://go.direnkartal.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/diren.kartal/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 57,
+      "name": "Danny Matranga (Dynamic Dialogue)",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Danny Matranga hosts the 400+ episode Dynamic Dialogue podcast; sells app-based training plus 1:1 coaching with Coach Danny and his coaching team.",
+      "why": "Combines a consistent twice-weekly educational show with a real named coaching team, not just a self-serve app.",
+      "factors": {
+        "coaching": 60,
+        "content": 68,
+        "reach": 55,
+        "credibility": 60,
+        "business": 55,
+        "engagement": 55
+      },
+      "reach": "IG ~600K approx · YT ~230K approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "podcast": "Dynamic Dialogue with Danny Matranga"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 58,
+      "name": "Chloe Ting",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "media",
+      "country": "Australia",
+      "who": "YouTube workout-challenge creator whose paid Chloe Ting app turns her free challenge format into a subscription coaching product.",
+      "why": "Enormous global reach; passes the gate narrowly on the authored coaching app rather than the free YouTube challenges.",
+      "factors": {
+        "coaching": 34,
+        "content": 79,
+        "reach": 85,
+        "credibility": 44,
+        "business": 64,
+        "engagement": 54
+      },
+      "reach": "IG ~11M · YT ~24M (approx)",
+      "reachVerified": false,
+      "website": "https://chloeting.com/",
+      "handles": {
+        "instagram": "https://instagram.com/chloeting",
+        "youtube": "https://youtube.com/@ChloeTing"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 59,
+      "name": "Simeon Panda",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "GB",
+      "who": "UK bodybuilder-influencer selling online training programs (Mass Gain Extreme, Fat Burn Extreme, Toned and Sexy) through simeonpanda.com.",
+      "why": "One of the largest bodybuilding-adjacent reach numbers in the segment, monetized across apparel, supplements, and coaching programs.",
+      "factors": {
+        "coaching": 43,
+        "content": 58,
+        "reach": 75,
+        "credibility": 63,
+        "business": 73,
+        "engagement": 53
+      },
+      "reach": "IG 8M-10M range across sources (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://simeonpanda.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/simeonpanda/"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 60,
+      "name": "Paul Revelia",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Pro Physique competitor and YouTuber selling online contest-prep and physique coaching to amateur competitors.",
+      "why": "Documentary-style prep content built real coaching-client demand from the physique-competitor audience.",
+      "factors": {
+        "coaching": 61,
+        "content": 69,
+        "reach": 50,
+        "credibility": 59,
+        "business": 49,
+        "engagement": 54
+      },
+      "reach": "YT ~900K (approx)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "youtube": "https://youtube.com/@paulrevelia"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 61,
+      "name": "Kim French",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "GB",
+      "who": "UK personal trainer behind the Believe by Kim French app, selling 40+ coached home/gym plans with macro-based nutrition guidance and progress tracking.",
+      "why": "Runs one of the higher-grossing women's fitness apps in the 'busy mum' niche, with strong app-store ratings and a loyal repeat-subscriber base.",
+      "factors": {
+        "coaching": 58,
+        "content": 53,
+        "reach": 53,
+        "credibility": 58,
+        "business": 68,
+        "engagement": 58
+      },
+      "reach": "IG 80K brand account (@believe.bykimfrench) · FB 580K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/believe.bykimfrench/",
+        "facebook": "https://www.facebook.com/kimfrench87/"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 62,
+      "name": "Harley Pasternak",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "Canada/US",
+      "who": "Celebrity trainer (Halle Berry, Ariana Grande, Rihanna) selling the 5-Factor coaching methodology through books and online programs.",
+      "why": "Nutrition-science credentials plus a decades-deep celebrity roster distinguish him from pure influencer trainers.",
+      "factors": {
+        "coaching": 67,
+        "content": 59,
+        "reach": 44,
+        "credibility": 69,
+        "business": 54,
+        "engagement": 37
+      },
+      "reach": "IG ~380K (approx)",
+      "reachVerified": false,
+      "website": "https://harleypasternak.com/",
+      "handles": {
+        "instagram": "https://instagram.com/harleypasternak"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 63,
+      "name": "Milos Sarcev",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "Serbia/US",
+      "who": "Veteran IFBB pro coach ('Mind Sculpting') who has trained multiple Olympia-level competitors and coaches the public online.",
+      "why": "Old-school bodybuilding coaching pedigree with a client list spanning multiple eras of pro bodybuilding.",
+      "factors": {
+        "coaching": 71,
+        "content": 54,
+        "reach": 40,
+        "credibility": 71,
+        "business": 44,
+        "engagement": 49
+      },
+      "reach": "IG ~300K (approx)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/milossarcev"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 64,
+      "name": "Stan Efferding",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Elite powerlifter and bodybuilder behind the Vertical Diet, selling online nutrition/training consulting to strength and physique athletes.",
+      "why": "Rare combination of elite competitive record in two sports with a real consulting practice built on it.",
+      "factors": {
+        "coaching": 59,
+        "content": 64,
+        "reach": 46,
+        "credibility": 69,
+        "business": 49,
+        "engagement": 49
+      },
+      "reach": "IG ~400K (approx)",
+      "reachVerified": false,
+      "website": "https://verticaldiet.com/",
+      "handles": {
+        "instagram": "https://instagram.com/stanefferding"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 65,
+      "name": "Taren Gesell",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "media",
+      "country": "CA",
+      "who": "YouTuber ('Triathlon Taren') and founder/CEO of MOTTIV, a triathlon and marathon training app selling structured coached plans and virtual coaching.",
+      "why": "Built a real subscription coaching-app business on top of one of the largest triathlon content channels aimed at everyday age-groupers.",
+      "factors": {
+        "coaching": 55,
+        "content": 75,
+        "reach": 32,
+        "credibility": 55,
+        "business": 60,
+        "engagement": 60
+      },
+      "reach": "IG 57K (verified 2026-08); YouTube subscriber count not verified this session (larger, approx)",
+      "reachVerified": true,
+      "website": "https://www.mymottiv.com/",
+      "handles": {
+        "instagram": "https://instagram.com/triathlontaren"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 66,
+      "name": "Courteney Fisher",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "US fitness and Pilates coach behind 'Fit With Coco,' a patented 3-2-1 strength-and-Pilates method sold as ongoing programs and challenges.",
+      "why": "Viral 3-2-1 workout format converted into a real, repeat-purchase coaching platform, not just a one-off trend.",
+      "factors": {
+        "coaching": 43,
+        "content": 63,
+        "reach": 65,
+        "credibility": 48,
+        "business": 63,
+        "engagement": 68
+      },
+      "reach": "IG 2.8M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/justtcocoo/"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 67,
+      "name": "Jono Castano",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "AU",
+      "who": "Sydney-based trainer and founder of Acero, whose Acero Drip app sells 24/7 coaching access, workout programs, and a members' community.",
+      "why": "Built a recognizable training brand (Acero) and converted it into an app-based coaching subscription business.",
+      "factors": {
+        "coaching": 48,
+        "content": 58,
+        "reach": 65,
+        "credibility": 53,
+        "business": 63,
+        "engagement": 58
+      },
+      "reach": "IG ~1M (@jonocastanoacero, verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/jonocastanoacero/"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 68,
+      "name": "Renato Cariani",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "BR",
+      "who": "Brazilian pro bodybuilder running a personalized 'consultoria' offering individualized training, nutrition, and monitoring, plus a new physical training center opening in 2026.",
+      "why": "One of the largest reach numbers in the segment worldwide, backed by a real paid consultancy and a bricks-and-mortar training-center expansion.",
+      "factors": {
+        "coaching": 53,
+        "content": 53,
+        "reach": 78,
+        "credibility": 43,
+        "business": 68,
+        "engagement": 43
+      },
+      "reach": "IG 11.4M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://consultoriacariani.com.br/",
+      "handles": {
+        "instagram": "https://www.instagram.com/renato_cariani/"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 69,
+      "name": "Nerd Fitness (Steve Kamb)",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Steve Kamb built Nerd Fitness into a long-running fitness media brand (blog, newsletter, YouTube); Nerd Fitness Coaching pairs clients with real human coaches for multiple weekly check-ins and video form review.",
+      "why": "One of the oldest continuously-running online coaching operations in the space (since 2009), with a genuinely documented human check-in process, not just an app.",
+      "factors": {
+        "coaching": 65,
+        "content": 55,
+        "reach": 45,
+        "credibility": 55,
+        "business": 60,
+        "engagement": 55
+      },
+      "reach": "Newsletter/site audience large · IG ~200K approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": "https://www.nerdfitness.com/",
+      "handles": {},
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 70,
+      "name": "Brianna Battles",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of the Pregnancy & Postpartum Athleticism Coalition (PPAC), running coaching and certification programs for pre/postnatal athletes and the coaches who train them.",
+      "why": "Leading voice in pre/postnatal return-to-training coaching, widely cited among strength and CrossFit coaches for a rigorous, athlete-specific framework.",
+      "factors": {
+        "coaching": 70,
+        "content": 60,
+        "reach": 35,
+        "credibility": 65,
+        "business": 45,
+        "engagement": 60
+      },
+      "reach": "IG ~150K (approx, not independently verified this session)",
+      "reachVerified": false,
+      "website": "https://briannabattles.com/",
+      "handles": {
+        "instagram": "https://instagram.com/briannabattles"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 71,
+      "name": "Gunnar Peterson",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Longtime celebrity trainer (Kardashian-Jenner family, pro athletes) offering online training programs through his own site.",
+      "why": "One of the longest-running names in celebrity training, with continued reach through A-list clients.",
+      "factors": {
+        "coaching": 69,
+        "content": 44,
+        "reach": 48,
+        "credibility": 74,
+        "business": 54,
+        "engagement": 39
+      },
+      "reach": "IG ~590K (approx)",
+      "reachVerified": false,
+      "website": "https://gunnarpeterson.com/",
+      "handles": {
+        "instagram": "https://instagram.com/gunnarpeterson"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 72,
+      "name": "Rich Ryan",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Pro trail/ultra runner who runs Reinforced Running, a 1:1 and group online coaching service for trail and ultra athletes.",
+      "why": "Elite competitive trail-running credentials paired with an active, individualized coaching roster and instructive YouTube content.",
+      "factors": {
+        "coaching": 65,
+        "content": 55,
+        "reach": 45,
+        "credibility": 65,
+        "business": 45,
+        "engagement": 55
+      },
+      "reach": "IG ~40K approx (not independently verified this session)",
+      "reachVerified": false,
+      "website": "https://www.reinforcedrunning.com/",
+      "handles": {
+        "instagram": "https://instagram.com/richryanrunning"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 73,
+      "name": "Hunter Allen",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Co-creator of the power-based cycling training methodology behind TrainingPeaks and founder of Peaks Coaching Group, a team cycling-coaching business.",
+      "why": "A decades-long, well-established cycling coaching operation with a real team of coaches and a foundational power-training book.",
+      "factors": {
+        "coaching": 65,
+        "content": 60,
+        "reach": 30,
+        "credibility": 75,
+        "business": 55,
+        "engagement": 35
+      },
+      "reach": "reach not independently verified this session, approx-labeled small",
+      "reachVerified": false,
+      "website": "https://peakscoachinggroup.com/",
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 74,
+      "name": "Renato Canova",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "IT",
+      "who": "Elite distance-running coach who provides individualized 1:1 coaching to professional marathoners and distance runners, largely East African elites.",
+      "why": "Widely credited with coaching multiple world-record and championship-level marathoners; the deepest competitive-pedigree credibility anchor in this segment, even without a consumer-facing coaching product.",
+      "factors": {
+        "coaching": 90,
+        "content": 40,
+        "reach": 20,
+        "credibility": 90,
+        "business": 40,
+        "engagement": 25
+      },
+      "reach": "no public social following tracked; elite-coaching reach only, approx-labeled",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 75,
+      "name": "Paul Carter (Lift-Run-Bang)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "Bodybuilder/powerlifter with nearly 30 years in the field; founder of Lift-Run-Bang, an online coaching platform that has trained thousands of athletes.",
+      "why": "Long track record coaching a large client base with a pragmatic, research-informed hypertrophy approach.",
+      "factors": {
+        "coaching": 64,
+        "content": 59,
+        "reach": 45,
+        "credibility": 59,
+        "business": 54,
+        "engagement": 49
+      },
+      "reach": "IG (@liftrunbang1) 299K + (@liftrunbang) 80K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.lift-run-bang.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/liftrunbang1/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 76,
+      "name": "Andrew Coates (Andrew Coates Fitness)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "AU",
+      "who": "Coach with 23,000+ logged coaching hours; sells exclusive 1:1 online coaching with daily check-ins, program design, and nutrition guidance.",
+      "why": "Deep hands-on coaching volume paired with a respected evidence-based industry podcast on the side.",
+      "factors": {
+        "coaching": 64,
+        "content": 64,
+        "reach": 40,
+        "credibility": 59,
+        "business": 44,
+        "engagement": 54
+      },
+      "reach": "IG (@andrewcoatesfitness) 164K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://andrewcoatesfitness.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/andrewcoatesfitness/",
+        "podcast": "Lift Free & Diet Hard"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 77,
+      "name": "Alexia Clark",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "'Queen of Workouts' and founder of the Alexia Clark app, which sells weekly workouts, a nutrition plan, and direct personal support from Alexia.",
+      "why": "Built a large, loyal 'QueenTeam' community and a subscription coaching app with genuine 1:1 access, not just templated content.",
+      "factors": {
+        "coaching": 55,
+        "content": 60,
+        "reach": 62,
+        "credibility": 45,
+        "business": 55,
+        "engagement": 60
+      },
+      "reach": "IG 2M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://alexia-clark.com/",
+      "handles": {
+        "instagram": "https://instagram.com/alexia_clark"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 78,
+      "name": "Linn Lowes",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "SE",
+      "who": "Swedish fitness entrepreneur and cancer survivor who founded the Athli App, offering customizable gym and home workout programs plus nutrition plans.",
+      "why": "Converted a large personal following into a self-built coaching platform with over 20 workout programs and thousands of recipes.",
+      "factors": {
+        "coaching": 50,
+        "content": 60,
+        "reach": 67,
+        "credibility": 50,
+        "business": 55,
+        "engagement": 55
+      },
+      "reach": "IG 3.4M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/linnlowes"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 79,
+      "name": "Dylan Johnson",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Pro cyclist and YouTuber who co-founded Ignition Coaching Co, which sells 1:1 cycling coaching.",
+      "why": "Combines a genuinely instructive, science-based YouTube channel with a real coaching business he co-founded and operates.",
+      "factors": {
+        "coaching": 55,
+        "content": 75,
+        "reach": 34,
+        "credibility": 60,
+        "business": 45,
+        "engagement": 55
+      },
+      "reach": "IG 76K (verified 2026-08); YouTube subscriber count not verified this session",
+      "reachVerified": true,
+      "website": "https://www.dylanjohnsontraining.com/",
+      "handles": {
+        "instagram": "https://instagram.com/dylanjawnson",
+        "podcast": "Bonk Bros"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 80,
+      "name": "Milo Wolf (Wolf Coaching / Stronger by Science)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "PhD candidate in sport science and competitive natural bodybuilder; coaches clients through Wolf Coaching and as a Stronger by Science coach.",
+      "why": "Active hypertrophy researcher (range-of-motion, lengthened partials) whose own findings feed directly into a real coaching practice.",
+      "factors": {
+        "coaching": 54,
+        "content": 74,
+        "reach": 30,
+        "credibility": 74,
+        "business": 39,
+        "engagement": 54
+      },
+      "reach": "IG (@wolfcoach_) follower count not independently confirmed this pass, approx sub-100K",
+      "reachVerified": false,
+      "website": "https://www.strongerbyscience.com/coaching/milo-wolf/",
+      "handles": {
+        "instagram": "https://www.instagram.com/wolfcoach_/",
+        "podcast": "Muscle and Feels"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 81,
+      "name": "Emily Skye",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "AU",
+      "who": "Founder of the Emily Skye FIT app, selling structured strength and postpartum-inclusive training programs for women.",
+      "why": "One of the earliest fitness-app founders in this space, with a large, long-standing global following built well before the current wave of coaching apps.",
+      "factors": {
+        "coaching": 55,
+        "content": 55,
+        "reach": 65,
+        "credibility": 50,
+        "business": 55,
+        "engagement": 50
+      },
+      "reach": "IG ~2.8M (approx, not independently verified this session)",
+      "reachVerified": false,
+      "website": "https://emilyskyefit.com/",
+      "handles": {
+        "instagram": "https://instagram.com/emilyskye"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 82,
+      "name": "Chris Aceto",
+      "segment": "Celebrity Trainers & Pro-Physique Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Longtime pro-bodybuilding contest-prep coach and nutrition consultant selling 1:1 online prep coaching.",
+      "why": "Decades of documented contest-prep results with top-level competitors; niche but deeply credentialed.",
+      "factors": {
+        "coaching": 74,
+        "content": 44,
+        "reach": 30,
+        "credibility": 77,
+        "business": 39,
+        "engagement": 44
+      },
+      "reach": "IG ~90K (approx)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 83,
+      "name": "Fergus Crawley",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "GB",
+      "who": "Hybrid athlete and co-founder/head coach of Omnia Performance, a coaching brand for concurrent (strength-plus-endurance) training.",
+      "why": "Runs a real hybrid-training coaching business and market-tests his own methodology through extreme, well-documented endurance feats.",
+      "factors": {
+        "coaching": 55,
+        "content": 65,
+        "reach": 45,
+        "credibility": 55,
+        "business": 45,
+        "engagement": 55
+      },
+      "reach": "reach not independently verified this session, approx-labeled",
+      "reachVerified": false,
+      "website": "https://www.omnia-performance.com/",
+      "handles": {
+        "podcast": "The OMNIA Performance Podcast"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 84,
+      "name": "Chris Hinshaw",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of Aerobic Capacity; sells endurance-conditioning coaching and programming used by numerous CrossFit Games athletes and gyms.",
+      "why": "Widely credited as the go-to aerobic-capacity coach inside competitive CrossFit and Hyrox-adjacent functional fitness, with documented Games-level client results.",
+      "factors": {
+        "coaching": 70,
+        "content": 55,
+        "reach": 35,
+        "credibility": 65,
+        "business": 45,
+        "engagement": 40
+      },
+      "reach": "reach not independently verified this session, approx-labeled small",
+      "reachVerified": false,
+      "website": "https://www.aerobiccapacity.com/",
+      "handles": {},
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 85,
+      "name": "Alex Crockford",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "GB",
+      "who": "UK trainer and founder of the CrockFit / Alex Crockford app, offering home and gym programs, coaching calls, community access, and fitness retreats.",
+      "why": "Longest-running app in the set (PDF plans since 2015, app since 2018), with a durable coaching-plus-community model.",
+      "factors": {
+        "coaching": 53,
+        "content": 53,
+        "reach": 48,
+        "credibility": 58,
+        "business": 58,
+        "engagement": 58
+      },
+      "reach": "IG 395K personal, 1M+ combined fitness accounts (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.alexcrockford.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/alexcrockford/"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 86,
+      "name": "Sophia Thiel",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "DE",
+      "who": "German fitness personality selling 'Healthy Inside Out,' a coached 12-week program (with Gymondo) covering kick-start, reshape, and maintenance phases plus 130+ recipes.",
+      "why": "Germany's best-known women's transformation coach, rebuilt around a mental-health-forward, sustainable-habits program after years in the public eye.",
+      "factors": {
+        "coaching": 48,
+        "content": 58,
+        "reach": 59,
+        "credibility": 53,
+        "business": 53,
+        "engagement": 58
+      },
+      "reach": "IG 1.4M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/sophia.thiel/"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 87,
+      "name": "Alex Viada",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Founder of Complete Human Performance; sells 1:1 hybrid strength-and-endurance coaching and authored 'The Hybrid Athlete.'",
+      "why": "One of the original authorities on concurrent strength/endurance training, with a long-running individualized coaching business.",
+      "factors": {
+        "coaching": 65,
+        "content": 55,
+        "reach": 30,
+        "credibility": 70,
+        "business": 45,
+        "engagement": 35
+      },
+      "reach": "reach not independently verified this session, approx-labeled small",
+      "reachVerified": false,
+      "website": "https://completehumanperformance.com/",
+      "handles": {},
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 88,
+      "name": "Bryce Lewis (The Strength Athlete)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "Elite drug-free powerlifter (USAPL/IPF record holder); founded The Strength Athlete (TSA), an online powerlifting coaching group.",
+      "why": "Competitive record backs a dedicated, longstanding powerlifting-only coaching business.",
+      "factors": {
+        "coaching": 64,
+        "content": 59,
+        "reach": 25,
+        "credibility": 69,
+        "business": 44,
+        "engagement": 49
+      },
+      "reach": "IG (@brycelewis__) 50K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.thestrengthathlete.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/brycelewis__/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 89,
+      "name": "Alberto Nunez (Team 3DMJ)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "WNBF pro natural bodybuilder and Team 3DMJ coach, selling 1:1 natural bodybuilding coaching.",
+      "why": "Competitive pro pedigree combined with membership in the well-regarded 3DMJ coaching collective.",
+      "factors": {
+        "coaching": 64,
+        "content": 54,
+        "reach": 30,
+        "credibility": 69,
+        "business": 44,
+        "engagement": 49
+      },
+      "reach": "IG (@nunez3dmj) 93K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.3dmusclejourney.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/nunez3dmj/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 90,
+      "name": "Trevor Kashey (Trevor Kashey Nutrition)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "coach",
+      "country": "US",
+      "who": "PhD biochemist; founder of Trevor Kashey Nutrition, selling 1:1 'Cognitive Nutrition' coaching to individuals and fitness professionals.",
+      "why": "PhD-level nutrition science applied through a scaled 1:1 coaching program with a claimed 12,000+ client history.",
+      "factors": {
+        "coaching": 59,
+        "content": 54,
+        "reach": 25,
+        "credibility": 74,
+        "business": 54,
+        "engagement": 44
+      },
+      "reach": "IG (@drkashey) 30K + (@trevor_kashey_nutrition) 20K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://trevorkasheynutrition.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/drkashey/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 91,
+      "name": "Emma Storey-Gordon",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "GB",
+      "who": "Dundee-based coach running 1:1 online coaching plus two group coaching businesses (including the EC Method) and a separate nutrition-coaching business.",
+      "why": "Runs several parallel, genuinely coached programs rather than one flagship product, with a recent 600+ client group-coaching intake.",
+      "factors": {
+        "coaching": 58,
+        "content": 53,
+        "reach": 37,
+        "credibility": 58,
+        "business": 58,
+        "engagement": 53
+      },
+      "reach": "IG 102K main (@esgfitness) + 8.8K mentoring account (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/esgfitness/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 92,
+      "name": "Barbell Shrugged / Shrugged Collective",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Anders Varner and Doug Larson host the long-running Barbell Shrugged podcast; Shrugged Collective sells its Program Vault training programs and, per its own site, now partners with RAPID Health Optimization to coach elite athletes and executives.",
+      "why": "The RAPID Health Optimization partnership adds a genuine high-end coaching arm on top of what would otherwise be templated program sales.",
+      "factors": {
+        "coaching": 45,
+        "content": 65,
+        "reach": 50,
+        "credibility": 55,
+        "business": 50,
+        "engagement": 50
+      },
+      "reach": "YT ~200K approx · IG ~180K approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": "https://barbellshrugged.com/",
+      "handles": {
+        "podcast": "Barbell Shrugged",
+        "youtube": "https://www.youtube.com/barbellshrugged"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 93,
+      "name": "GDFIT (Greg Doucette)",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "CA",
+      "who": "Greg Doucette is one of fitness YouTube's largest personalities; his GDFIT app sells structured, semi-personalized training and nutrition coaching plans.",
+      "why": "Huge reach and a real coaching app, but the coaching leans templated/algorithmic rather than a human check-in relationship, so it scores at the lower end of the coaching gate.",
+      "factors": {
+        "coaching": 40,
+        "content": 65,
+        "reach": 65,
+        "credibility": 45,
+        "business": 55,
+        "engagement": 55
+      },
+      "reach": "YT ~2.9M approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "youtube": "https://www.youtube.com/@GregDoucette"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 94,
+      "name": "Massy Arias",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Personal trainer and mental-health advocate running her own online coaching programs for women.",
+      "why": "Known for pairing strength coaching with mental-health advocacy, building a highly engaged, mission-driven community rather than a purely aesthetic following.",
+      "factors": {
+        "coaching": 55,
+        "content": 55,
+        "reach": 55,
+        "credibility": 50,
+        "business": 45,
+        "engagement": 60
+      },
+      "reach": "IG ~1.8M (approx, not independently verified this session)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/massy.arias"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 95,
+      "name": "Susan Niebergall",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Certified personal trainer and strength coach running Susan Niebergall Fitness, a solo online weight-loss coaching practice.",
+      "why": "Smaller, solo operation but a genuine ongoing coaching relationship rather than a templated program.",
+      "factors": {
+        "coaching": 58,
+        "content": 48,
+        "reach": 42,
+        "credibility": 58,
+        "business": 43,
+        "engagement": 58
+      },
+      "reach": "IG 180K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://susanniebergallfitness.com/coaching/",
+      "handles": {
+        "instagram": "https://www.instagram.com/susanniebergallfitness/"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 96,
+      "name": "Danyele Wilson",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Tone & Sculpt (EvolveYou) HIIT trainer and founder of the SPARC app, combining workouts with mindset training.",
+      "why": "Corporate-marketing-turned-fitness-coach whose body-positive coaching and personal story built a devoted, engaged following.",
+      "factors": {
+        "coaching": 50,
+        "content": 55,
+        "reach": 51,
+        "credibility": 45,
+        "business": 45,
+        "engagement": 60
+      },
+      "reach": "IG 511K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/danyelewilson"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 97,
+      "name": "Sage Canaday",
+      "segment": "Endurance & Hybrid Coaches",
+      "tier": "coach",
+      "country": "US",
+      "who": "Professional mountain-ultra-trail runner who sells coaching and training plans through his own site and Higher Running.",
+      "why": "20 years of elite trail/ultra racing credibility backing a real, individualized coaching service.",
+      "factors": {
+        "coaching": 55,
+        "content": 60,
+        "reach": 35,
+        "credibility": 65,
+        "business": 35,
+        "engagement": 40
+      },
+      "reach": "reach not independently verified this session, approx-labeled small",
+      "reachVerified": false,
+      "website": "http://sagecanaday.com/coaching-and-training-plans/",
+      "handles": {},
+      "warning": null,
+      "score": 50
+    },
+    {
+      "rank": 98,
+      "name": "Joe Delaney",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "IE",
+      "who": "Irish, Ibiza-based personal trainer selling personal training services and the structured 'Ibiza Shreds' upper/lower hypertrophy program.",
+      "why": "Built a mid-size following around a genuinely followed, spreadsheet-backed training program plus direct PT sales.",
+      "factors": {
+        "coaching": 43,
+        "content": 58,
+        "reach": 46,
+        "credibility": 53,
+        "business": 43,
+        "engagement": 58
+      },
+      "reach": "IG 290K (@shredbundy, verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/shredbundy/"
+      },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 99,
+      "name": "Julian Zietlow",
+      "segment": "Instagram PTs & Transformation Coaches",
+      "tier": "coach",
+      "country": "DE",
+      "who": "German coach and founder of vegan supplement brand Rocka Nutrition, selling the 'Size Zero 2.0' nutrition-and-training concept plus live mentoring sessions.",
+      "why": "Smaller reach than the segment's leaders, but a real, named coaching concept with high audience engagement.",
+      "factors": {
+        "coaching": 38,
+        "content": 53,
+        "reach": 45,
+        "credibility": 48,
+        "business": 58,
+        "engagement": 63
+      },
+      "reach": "IG 262K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/julianzietlow/"
+      },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 100,
+      "name": "Amanda Bucci",
+      "segment": "Women's Coaching & Apps",
+      "tier": "coach",
+      "country": "US",
+      "who": "Certified nutrition and fitness coach running Bucci Fit, an online 1:1 and group coaching business for women.",
+      "why": "Solo coach with a thriving, personality-driven brand blending nutrition coaching, business content, and fitness.",
+      "factors": {
+        "coaching": 55,
+        "content": 55,
+        "reach": 35,
+        "credibility": 50,
+        "business": 40,
+        "engagement": 55
+      },
+      "reach": "IG ~700K (approx, not independently verified this session)",
+      "reachVerified": false,
+      "website": "https://buccifit.com/",
+      "handles": {
+        "instagram": "https://instagram.com/amandabucci"
+      },
+      "warning": null,
+      "score": 49
+    }
+  ],
+  "bubblingUnder": [
+    {
+      "name": "Lyle McDonald (Bodyrecomposition)",
+      "segment": "Evidence-Based Strength & Physique",
+      "tier": "media",
+      "country": "US",
+      "who": "Longtime evidence-based nutrition/training author; sells paid 60-minute 1:1 online consultations via bodyrecomposition.com rather than ongoing coaching.",
+      "why": "Foundational figure in evidence-based fitness writing; the coaching product is a limited one-off consult, so it barely clears the gate.",
+      "factors": {
+        "coaching": 24,
+        "content": 79,
+        "reach": 30,
+        "credibility": 74,
+        "business": 24,
+        "engagement": 39
+      },
+      "reach": "Reach not independently confirmed this pass (longtime niche following, no active mainstream social presence found)",
+      "reachVerified": false,
+      "website": "https://bodyrecomposition.com",
+      "handles": {},
+      "warning": null,
+      "score": 45
+    },
+    {
+      "name": "Brains and Gains (Dr. David Maconi)",
+      "segment": "Podcast & Media Coaches",
+      "tier": "media",
+      "country": "US",
+      "who": "Dr. David Maconi hosts the Brains and Gains podcast; he sells coaching through his own site and coaches through the Boostcamp app.",
+      "why": "Smallest, most niche pass on this list, but the coaching product is real and named, not just a supplement funnel.",
+      "factors": {
+        "coaching": 35,
+        "content": 55,
+        "reach": 25,
+        "credibility": 60,
+        "business": 30,
+        "engagement": 40
+      },
+      "reach": "IG ~15K approx (unverified 2026-08)",
+      "reachVerified": false,
+      "website": "https://brainsandgainspodcast.com/",
+      "handles": {
+        "podcast": "Brains and Gains with Dr. David Maconi"
+      },
+      "warning": null,
+      "score": 41
+    }
+  ]
+}
