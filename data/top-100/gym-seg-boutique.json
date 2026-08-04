@@ -1,0 +1,460 @@
+[
+  {
+    "name": "Equinox Hudson Yards",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "New York, New York",
+    "country": "US",
+    "who": "Equinox's largest club, anchoring the Hudson Yards tower with a dedicated E by Equinox training floor and rooftop pool.",
+    "why": "The most recognized luxury gym brand in the US; Hudson Yards is its architectural showcase and a status symbol for Manhattan members.",
+    "factors": {
+      "legacy": 70,
+      "talent": 55,
+      "facility": 90,
+      "community": 55,
+      "reach": 80,
+      "destination": 70
+    },
+    "reach": "IG 533K (verified 2026-08, @equinox brand account)",
+    "reachVerified": true,
+    "website": "https://www.equinox.com/clubs/new-york/midtown/hudsonyards",
+    "handles": {
+      "instagram": "https://www.instagram.com/equinox/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Dogpound",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "New York, New York",
+    "country": "US",
+    "who": "Invite-only strength and conditioning studio founded by trainer Kirk Myers, with a sister location in Los Angeles.",
+    "why": "The most photographed personal-training gym in the world; actors and models train there, gated by a roughly 100-person waitlist.",
+    "factors": {
+      "legacy": 55,
+      "talent": 85,
+      "facility": 65,
+      "community": 80,
+      "reach": 75,
+      "destination": 75
+    },
+    "reach": "IG 466K (verified 2026-08, @dogpound)",
+    "reachVerified": true,
+    "website": "https://www.thedogpound.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/dogpound/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Third Space Canary Wharf",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "London",
+    "country": "GB",
+    "who": "Three-floor, 100,000-square-foot luxury health club with a pool, climbing wall and in-house medical centre.",
+    "why": "Widely cited as the largest luxury gym in Europe; sets the bar for the UK's premium health-club format.",
+    "factors": {
+      "legacy": 55,
+      "talent": 45,
+      "facility": 90,
+      "community": 55,
+      "reach": 55,
+      "destination": 60
+    },
+    "reach": "IG ~90K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.thirdspace.london/clubs/canary-wharf/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "KX Chelsea",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "London",
+    "country": "GB",
+    "who": "Private members' health, fitness and beauty club on Draycott Avenue, open since 2002 with a spa, pool and training floor.",
+    "why": "One of London's original luxury gym-clubs, still a fixture for the Chelsea and Kensington set more than two decades on.",
+    "factors": {
+      "legacy": 60,
+      "talent": 50,
+      "facility": 75,
+      "community": 60,
+      "reach": 40,
+      "destination": 55
+    },
+    "reach": "IG ~15K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.kxlife.co.uk/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Siro One Za'abeel",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "Dubai",
+    "country": "AE",
+    "who": "132-room fitness-and-recovery hotel inside the One Za'abeel tower, built around dedicated Fitness and Recovery Labs.",
+    "why": "The world's first hotel purpose-built for training and recovery, not a gym bolted onto a hotel; a genuine trip destination for serious trainers.",
+    "factors": {
+      "legacy": 35,
+      "talent": 40,
+      "facility": 95,
+      "community": 45,
+      "reach": 55,
+      "destination": 85
+    },
+    "reach": "IG ~40K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.sirohotels.com/dubai/one-zaabeel/fitness-recovery",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Anatomy Miami Beach",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "Miami Beach, Florida",
+    "country": "US",
+    "who": "Boutique strength and wellness club on Lincoln Road, co-founded by former NFL player Marc Megna, with sister locations across greater Miami.",
+    "why": "Anchors Miami's fitness-and-wellness scene, drawing athletes, models and the city's wellness-influencer circuit.",
+    "factors": {
+      "legacy": 45,
+      "talent": 60,
+      "facility": 65,
+      "community": 65,
+      "reach": 50,
+      "destination": 55
+    },
+    "reach": "IG 89K (verified 2026-08, @anatomy)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://www.instagram.com/anatomy/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Heimat",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "Los Angeles, California",
+    "country": "US",
+    "who": "75,000-square-foot members-only fitness and lifestyle club in Hollywood with a rooftop pool, spa and six specialty studios.",
+    "why": "Billed as the first standalone luxury gym concept in LA; blends training with a social club and carries a long waitlist.",
+    "factors": {
+      "legacy": 35,
+      "talent": 45,
+      "facility": 85,
+      "community": 60,
+      "reach": 40,
+      "destination": 60
+    },
+    "reach": "IG 33K (verified 2026-08, @heimatclub)",
+    "reachVerified": true,
+    "website": "https://heimat.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/heimatclub/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Ultimate Performance London City",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "London",
+    "country": "GB",
+    "who": "Private, no-membership personal-training gym; the original Ultimate Performance location, opened 2009, now heading a nine-gym London roster.",
+    "why": "Set the template for premium one-to-one fat-loss and physique coaching that UP now runs in 20-plus cities worldwide.",
+    "factors": {
+      "legacy": 60,
+      "talent": 55,
+      "facility": 55,
+      "community": 50,
+      "reach": 45,
+      "destination": 50
+    },
+    "reach": "IG 18K (verified 2026-08, @ultimateperformancelondon)",
+    "reachVerified": true,
+    "website": "https://ultimateperformance.com/personal-trainer/london/city",
+    "handles": {
+      "instagram": "https://www.instagram.com/ultimateperformancelondon/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Barry's West Hollywood",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "West Hollywood, California",
+    "country": "US",
+    "who": "Barry's rebuilt flagship on Santa Monica Boulevard, replacing the original 1998 La Cienega studio with a larger Red Room.",
+    "why": "The birthplace of the 'world's best workout' brand and celebrity-favorite HIIT franchise; still its cultural home base.",
+    "factors": {
+      "legacy": 75,
+      "talent": 65,
+      "facility": 70,
+      "community": 70,
+      "reach": 65,
+      "destination": 60
+    },
+    "reach": "IG ~1M+ (approx 2026, @barrys brand account)",
+    "reachVerified": false,
+    "website": "https://www.barrys.com/studio/west-hollywood",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Lanserhof at The Arts Club",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "London",
+    "country": "GB",
+    "who": "Six-floor medical gym and wellness clinic inside The Arts Club, with an in-house MRI, cryotherapy and a Spine Lab.",
+    "why": "Billed as the world's first medical gym; brings Lanserhof's German longevity-clinic model into a private London institution.",
+    "factors": {
+      "legacy": 40,
+      "talent": 45,
+      "facility": 90,
+      "community": 45,
+      "reach": 35,
+      "destination": 65
+    },
+    "reach": "IG ~10K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://lhtac.com/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Tracy Anderson Studio New York",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "New York, New York",
+    "country": "US",
+    "who": "Flagship studio of Tracy Anderson's branded dance-cardio method, which now runs ten studios worldwide.",
+    "why": "Built the celebrity-trainer-to-global-method playbook; the studio her A-list clientele and the tabloids still associate with the brand.",
+    "factors": {
+      "legacy": 55,
+      "talent": 70,
+      "facility": 55,
+      "community": 55,
+      "reach": 55,
+      "destination": 50
+    },
+    "reach": "IG 190K (verified 2026-08, @tracyandersonstudio)",
+    "reachVerified": true,
+    "website": "https://tracyanderson.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/tracyandersonstudio/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Saint Haven Collingwood",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "Melbourne",
+    "country": "AU",
+    "who": "Members-only luxury wellness and social club combining strength training, recovery labs and a lounge-and-dining floor.",
+    "why": "Built a reported 15,000-person waitlist; the clearest sign Australia's premium fitness scene has gone full country-club, now expanding to Sydney.",
+    "factors": {
+      "legacy": 30,
+      "talent": 40,
+      "facility": 80,
+      "community": 70,
+      "reach": 45,
+      "destination": 70
+    },
+    "reach": "IG ~20K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://sainthaven.com.au/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "S10 Training",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "New York, New York",
+    "country": "US",
+    "who": "Boutique strength studio with an onsite recovery spa and cafe, founded by trainer Stephen Cheuk.",
+    "why": "A go-to for entertainment-industry clients chasing single-digit body fat; small in scale but disproportionately visible via press and social.",
+    "factors": {
+      "legacy": 30,
+      "talent": 55,
+      "facility": 55,
+      "community": 50,
+      "reach": 40,
+      "destination": 45
+    },
+    "reach": "IG 22K (verified 2026-08, @s10training)",
+    "reachVerified": true,
+    "website": "https://s10training.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/s10training/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Continuum Club West Village",
+    "segment": "Boutique & Luxury",
+    "tier": "independent",
+    "city": "New York, New York",
+    "country": "US",
+    "who": "25,000-square-foot, $10,000-a-month members' wellness club in the West Village, capped at 250 members with AI-assisted biometric onboarding.",
+    "why": "The newest and most expensive entrant in ultra-luxury fitness, setting a new price ceiling for what a gym membership can cost.",
+    "factors": {
+      "legacy": 20,
+      "talent": 40,
+      "facility": 90,
+      "community": 50,
+      "reach": 30,
+      "destination": 70
+    },
+    "reach": "IG small/unverified boutique account (2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Virgin Active Collection Kensington",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "London",
+    "country": "GB",
+    "who": "Flagship 'Collection' club on Kensington High Street with a 16-metre pool, spa and one of London's largest Dynamic Reformer studios.",
+    "why": "Leads the redevelopment of Virgin Active's whole UK portfolio into a hospitality-led, studio-rich format.",
+    "factors": {
+      "legacy": 45,
+      "talent": 35,
+      "facility": 75,
+      "community": 45,
+      "reach": 40,
+      "destination": 45
+    },
+    "reach": "IG 63K (verified 2026-08, @virginactiveuk brand account)",
+    "reachVerified": true,
+    "website": "https://www.virginactive.co.uk/clubs/kensington",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Gymbox Covent Garden",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "London",
+    "country": "GB",
+    "who": "Original flagship of the UK's theatrical HIIT and boxing chain, known for stunt-style class production.",
+    "why": "Redefined UK boutique group fitness with dramatic class concepts (fire, black-light boxing) well before the format went mainstream.",
+    "factors": {
+      "legacy": 45,
+      "talent": 30,
+      "facility": 55,
+      "community": 60,
+      "reach": 40,
+      "destination": 40
+    },
+    "reach": "IG ~30K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.gymbox.com/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "SoulCycle Tribeca",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "New York, New York",
+    "country": "US",
+    "who": "Long-running flagship studio of the candlelit indoor-cycling chain that popularized boutique group fitness in the US.",
+    "why": "Along with SoulCycle's original Union Square studio, defined the 2010s boutique-fitness boom that Barry's, Rumble and 1Rebel all followed.",
+    "factors": {
+      "legacy": 65,
+      "talent": 55,
+      "facility": 45,
+      "community": 65,
+      "reach": 50,
+      "destination": 45
+    },
+    "reach": "IG unverified for this studio; brand has scaled back to roughly 57 US locations (2026)",
+    "reachVerified": false,
+    "website": "https://www.soul-cycle.com/",
+    "handles": {},
+    "warning": "SoulCycle has closed many studios nationwide since 2023; check this location is operating before visiting."
+  },
+  {
+    "name": "1Rebel Broadgate",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "London",
+    "country": "GB",
+    "who": "Flagship reshape/ride/rumble studio of the UK boutique-fitness chain, inside the Broadgate financial-district complex.",
+    "why": "Pioneered London's boutique-fitness-as-nightclub format, with DJ booths, sound systems and light shows built into the workout.",
+    "factors": {
+      "legacy": 40,
+      "talent": 30,
+      "facility": 60,
+      "community": 55,
+      "reach": 45,
+      "destination": 40
+    },
+    "reach": "IG 103K (verified 2026-08, @1rebeluk brand account)",
+    "reachVerified": true,
+    "website": "https://www.1rebel.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/1rebeluk/"
+    },
+    "warning": null
+  },
+  {
+    "name": "F45 Training Bondi Beach",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "Sydney",
+    "country": "AU",
+    "who": "One of the earliest F45 studios, in the beachside neighborhood where the global team-training franchise was founded.",
+    "why": "Ground zero for a chain that scaled to thousands of studios worldwide and went public on Nasdaq off the strength of this format.",
+    "factors": {
+      "legacy": 55,
+      "talent": 30,
+      "facility": 40,
+      "community": 55,
+      "reach": 40,
+      "destination": 40
+    },
+    "reach": "IG unverified for this specific studio; global F45 brand account is far larger (2026)",
+    "reachVerified": false,
+    "website": "https://f45training.com/au/studio/bondibeach/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Rumble Boxing New York",
+    "segment": "Boutique & Luxury",
+    "tier": "chain-flagship",
+    "city": "New York, New York",
+    "country": "US",
+    "who": "Original boxing-and-strength studio from the chain founded by celebrity trainer Noah Neiman.",
+    "why": "Helped bring boutique boxing into the mainstream studio-fitness category alongside Barry's and SoulCycle.",
+    "factors": {
+      "legacy": 40,
+      "talent": 45,
+      "facility": 45,
+      "community": 55,
+      "reach": 45,
+      "destination": 35
+    },
+    "reach": "IG 185K (verified 2026-08, @doyourumble brand account)",
+    "reachVerified": true,
+    "website": "https://doyourumble.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/doyourumble/"
+    },
+    "warning": null
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "name": "CrossFit Mayhem",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Cookeville, Tennessee",
+    "country": "US",
+    "who": "Rich Froning's home box and training compound, anchor of the Mayhem Nation programming and apparel brand.",
+    "why": "Base for a four-time individual and multiple-time team CrossFit Games champion; drives one of the sport's largest media operations.",
+    "factors": {
+      "legacy": 84,
+      "talent": 90,
+      "facility": 85,
+      "community": 90,
+      "reach": 80,
+      "destination": 85
+    },
+    "reach": "IG 458K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.mayhemnation.com",
+    "handles": {
+      "instagram": "https://instagram.com/thecrossfitmayhem"
+    },
+    "warning": null
+  },
+  {
+    "name": "PRVN Fitness",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Nashville, Tennessee",
+    "country": "US",
+    "who": "Garage-style training facility built by coach Shane Orr for his wife Tia-Clair Toomey-Orr's programming brand.",
+    "why": "Home base of the most decorated woman in CrossFit Games history, now a widely followed methodology and gear brand.",
+    "factors": {
+      "legacy": 70,
+      "talent": 90,
+      "facility": 60,
+      "community": 65,
+      "reach": 75,
+      "destination": 60
+    },
+    "reach": "IG 269K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://prvnfitness.com",
+    "handles": {
+      "instagram": "https://instagram.com/prvnfitness"
+    },
+    "warning": null
+  },
+  {
+    "name": "CrossFit Invictus",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "San Diego, California",
+    "country": "US",
+    "who": "Longstanding San Diego box and one of the sport's most influential coaching-education and programming brands.",
+    "why": "Its methodology and seminars shaped how competitive CrossFit is coached worldwide since the mid-2000s.",
+    "factors": {
+      "legacy": 85,
+      "talent": 70,
+      "facility": 65,
+      "community": 80,
+      "reach": 75,
+      "destination": 60
+    },
+    "reach": "IG 254K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.crossfitinvictus.com",
+    "handles": {
+      "instagram": "https://instagram.com/invictus_fitness"
+    },
+    "warning": null
+  },
+  {
+    "name": "CompTrain (formerly CrossFit New England)",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Natick, Massachusetts",
+    "country": "US",
+    "who": "Ben Bergeron's strength-and-conditioning gym, rebuilt from the de-affiliated CrossFit New England.",
+    "why": "Produced Mat Fraser and Katrin Davidsdottir; its whiteboard-and-mindset culture became a template copied across the sport.",
+    "factors": {
+      "legacy": 90,
+      "talent": 75,
+      "facility": 65,
+      "community": 80,
+      "reach": 80,
+      "destination": 60
+    },
+    "reach": "IG 266K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://comptrain.co",
+    "handles": {
+      "instagram": "https://instagram.com/comptrain.co"
+    },
+    "warning": "De-affiliated from CrossFit HQ and rebranded CompTrain; no longer an official CrossFit affiliate but still the same physical gym and program lineage."
+  },
+  {
+    "name": "Training Think Tank",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Roswell, Georgia",
+    "country": "US",
+    "who": "Atlanta-area box built around a coaching staff of CrossFit Games veterans, led by nine-time Games athlete Travis Mayer.",
+    "why": "One of the deeper competitive coaching benches outside the traditional CrossFit power centers, with a fast-growing following.",
+    "factors": {
+      "legacy": 65,
+      "talent": 70,
+      "facility": 60,
+      "community": 65,
+      "reach": 60,
+      "destination": 45
+    },
+    "reach": "IG 96K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://trainingthinktank.com",
+    "handles": {
+      "instagram": "https://instagram.com/trainingthinktank"
+    },
+    "warning": null
+  },
+  {
+    "name": "Royal Docks CrossFit",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "London",
+    "country": "GB",
+    "who": "East London box next to the ExCeL centre, one of the UK's most competition-focused CrossFit gyms.",
+    "why": "A regular stop for touring elite athletes training in London, including Mat Fraser, Tia-Clair Toomey and Rich Froning.",
+    "factors": {
+      "legacy": 55,
+      "talent": 55,
+      "facility": 55,
+      "community": 60,
+      "reach": 40,
+      "destination": 70
+    },
+    "reach": "IG 8.4K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "http://www.royaldockscrossfit.com",
+    "handles": {
+      "instagram": "https://instagram.com/royaldocksfitness"
+    },
+    "warning": null
+  },
+  {
+    "name": "CrossFit Reykjavik",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Reykjavik",
+    "country": "IS",
+    "who": "Iceland's flagship box, training ground for the country's cluster of world-class CrossFit athletes.",
+    "why": "Home of two-time Games champion Annie Thorisdottir and an international 'super team' of transplant athletes drawn to Iceland's training culture.",
+    "factors": {
+      "legacy": 75,
+      "talent": 80,
+      "facility": 50,
+      "community": 70,
+      "reach": 45,
+      "destination": 65
+    },
+    "reach": "IG 27K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/crossfitreykjavik"
+    },
+    "warning": null
+  },
+  {
+    "name": "XT Oslo",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Oslo",
+    "country": "NO",
+    "who": "One of the largest and oldest CrossFit facilities in Europe, spread across three training halls.",
+    "why": "Anchors Oslo's functional-fitness scene, which also hosts the Oslo Throwdown, one of Northern Europe's biggest CrossFit competitions.",
+    "factors": {
+      "legacy": 55,
+      "talent": 40,
+      "facility": 70,
+      "community": 55,
+      "reach": 35,
+      "destination": 40
+    },
+    "reach": "IG ~10K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Cape CrossFit",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Cape Town",
+    "country": "ZA",
+    "who": "South Africa's most competitive CrossFit team gym, a fixture of the Cape Town functional-fitness scene.",
+    "why": "The winningest team in Fittest in Cape Town history and a Regionals qualifier every year since 2011.",
+    "factors": {
+      "legacy": 60,
+      "talent": 55,
+      "facility": 45,
+      "community": 55,
+      "reach": 30,
+      "destination": 35
+    },
+    "reach": "IG ~5K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Lvl Up CrossFit",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Dubai",
+    "country": "AE",
+    "who": "CrossFit affiliate in Dubai's IMPZ district, part of the emirate's fast-growing functional-fitness box scene.",
+    "why": "Represents Dubai's cluster of expat-driven CrossFit boxes that has grown alongside the city's fitness-tourism boom.",
+    "factors": {
+      "legacy": 40,
+      "talent": 35,
+      "facility": 50,
+      "community": 50,
+      "reach": 30,
+      "destination": 40
+    },
+    "reach": "IG 3.4K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.lvlupgyms.com",
+    "handles": {
+      "instagram": "https://instagram.com/lvlupcrossfit_dxb"
+    },
+    "warning": null
+  },
+  {
+    "name": "CrossFit Condesa",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Mexico City",
+    "country": "MX",
+    "who": "800-square-meter box in central Mexico City, formerly branded Reebok CrossFit Plaza Condesa.",
+    "why": "One of the largest and longest-running CrossFit facilities in Latin America's second-biggest CrossFit market.",
+    "factors": {
+      "legacy": 50,
+      "talent": 40,
+      "facility": 55,
+      "community": 50,
+      "reach": 35,
+      "destination": 40
+    },
+    "reach": "IG ~15K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Team Training UK",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Northwich, Cheshire",
+    "country": "GB",
+    "who": "Official Hyrox training club in Cheshire, offering dedicated Hyrox race-prep programming alongside general fitness classes.",
+    "why": "One of the UK's earliest gyms built specifically around Hyrox racing rather than retrofitted from a CrossFit box.",
+    "factors": {
+      "legacy": 35,
+      "talent": 40,
+      "facility": 45,
+      "community": 45,
+      "reach": 30,
+      "destination": 35
+    },
+    "reach": "IG ~8K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.teamtraininguk.com",
+    "handles": {
+      "instagram": "https://instagram.com/teamtraininguk"
+    },
+    "warning": null
+  },
+  {
+    "name": "SKILL CGN",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Cologne",
+    "country": "DE",
+    "who": "Official Hyrox performance-training gym in Cologne, one of Germany's hubs for the fast-growing race format.",
+    "why": "Sits inside Hyrox's home market of Germany, which hosts some of the sport's largest annual events.",
+    "factors": {
+      "legacy": 40,
+      "talent": 40,
+      "facility": 50,
+      "community": 45,
+      "reach": 30,
+      "destination": 45
+    },
+    "reach": "IG ~5K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://skill-studios.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "CrossFit Kailua",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Kailua, Hawaii",
+    "country": "US",
+    "who": "Community box on Oahu built around the Hawaiian concept of ohana (family), with a roster of CrossFit Games-level members.",
+    "why": "One of the sport's early Games-era affiliates, still drawing fitness travelers to Hawaii's CrossFit scene.",
+    "factors": {
+      "legacy": 55,
+      "talent": 40,
+      "facility": 45,
+      "community": 60,
+      "reach": 30,
+      "destination": 45
+    },
+    "reach": "IG ~3K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://crossfitkailua.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Wasatch CrossFit",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Layton, Utah",
+    "country": "US",
+    "who": "Davis County box coaching Salt Lake City-area athletes since 2007, one of Utah's first CrossFit affiliates.",
+    "why": "2017 CrossFit Games Affiliate Cup champions, a genuine national title that put a small-market gym on the map.",
+    "factors": {
+      "legacy": 60,
+      "talent": 45,
+      "facility": 45,
+      "community": 55,
+      "reach": 30,
+      "destination": 35
+    },
+    "reach": "IG 3.7K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://wasatchcrossfit.com",
+    "handles": {
+      "instagram": "https://instagram.com/wasatchcrossfit"
+    },
+    "warning": null
+  },
+  {
+    "name": "Second City CrossFit",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Chicago, Illinois",
+    "country": "US",
+    "who": "One of Chicago's longest-running CrossFit boxes, a community fixture of the city's functional-fitness scene.",
+    "why": "Represents the deep bench of veteran, non-flagship urban boxes that anchor CrossFit's everyday culture in major US cities.",
+    "factors": {
+      "legacy": 50,
+      "talent": 35,
+      "facility": 45,
+      "community": 50,
+      "reach": 30,
+      "destination": 30
+    },
+    "reach": "IG 4.1K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/secondcityfitness"
+    },
+    "warning": null
+  },
+  {
+    "name": "Atlas Training Club",
+    "segment": "CrossFit & Functional",
+    "tier": "independent",
+    "city": "Adlington, Cheshire",
+    "country": "GB",
+    "who": "South Manchester and Cheshire's first gym built specifically for Hyrox training.",
+    "why": "Illustrates Hyrox's rapid spread into purpose-built training clubs across the UK beyond London.",
+    "factors": {
+      "legacy": 30,
+      "talent": 35,
+      "facility": 50,
+      "community": 45,
+      "reach": 30,
+      "destination": 35
+    },
+    "reach": "IG ~2K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.atlastrainingclub.co.uk",
+    "handles": {},
+    "warning": null
+  }
+]

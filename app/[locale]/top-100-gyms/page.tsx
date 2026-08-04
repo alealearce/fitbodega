@@ -1,28 +1,27 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
+  Landmark,
+  Trophy,
+  Dumbbell,
+  Users,
   Megaphone,
-  Activity,
-  Award,
-  TrendingUp,
-  Banknote,
-  Repeat,
+  MapPin,
   ChevronRight,
   AlertTriangle,
-  Zap,
   ArrowUpRight,
   type LucideIcon,
 } from "lucide-react";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
-import data from "@/data/top-100/fitness-influencers.json";
+import data from "@/data/top-100/gyms.json";
 
 const WEIGHT_ICONS: Record<string, LucideIcon> = {
+  legacy: Landmark,
+  talent: Trophy,
+  facility: Dumbbell,
+  community: Users,
   reach: Megaphone,
-  engagement: Activity,
-  credibility: Award,
-  impact: TrendingUp,
-  commerce: Banknote,
-  consistency: Repeat,
+  destination: MapPin,
 };
 
 const HANDLE_LABELS: Record<string, string> = {
@@ -30,23 +29,21 @@ const HANDLE_LABELS: Record<string, string> = {
   youtube: "YouTube",
   tiktok: "TikTok",
   x: "X",
-  linkedin: "LinkedIn",
-  podcast: "Podcast",
-  strava: "Strava",
+  facebook: "Facebook",
 };
 
-const PAGE_TITLE = "Top 100 Fitness Influencers 2026";
+const PAGE_TITLE = "Top 100 Gyms in the World 2026";
 const PAGE_DESC =
-  "The world's most influential people in fitness, ranked by the Fitness Influence Score — reach, engagement, credibility, impact, commerce, and consistency. Reviewed monthly.";
+  "The most influential training grounds on earth, ranked by the Gym Influence Score — legacy, talent, facility, community, reach, and destination pull. Reviewed monthly.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
   description: PAGE_DESC,
-  alternates: { canonical: `${SITE.url}/top-100-fitness-influencers` },
+  alternates: { canonical: `${SITE.url}/top-100-gyms` },
   openGraph: {
     title: PAGE_TITLE,
     description: PAGE_DESC,
-    url: `${SITE.url}/top-100-fitness-influencers`,
+    url: `${SITE.url}/top-100-gyms`,
     images: [DEFAULT_OG_IMAGE],
     siteName: SITE.name,
     locale: "en_US",
@@ -60,6 +57,7 @@ type Entry = {
   name: string;
   segment: string;
   tier: string;
+  city?: string;
   country?: string;
   score: number;
   who: string;
@@ -80,12 +78,7 @@ type Meta = {
   scoreModel: { name: string; gate: string; weights: Record<string, number>; notes: string };
 };
 
-function handleHref(kind: string, val: string): string | null {
-  if (kind === "podcast") return val.startsWith("http") ? val : null;
-  return val;
-}
-
-export default function Top100FitnessInfluencersPage() {
+export default function Top100GymsPage() {
   const meta = data.meta as unknown as Meta;
   const entries = data.entries as unknown as Entry[];
   const bubbling = (data.bubblingUnder ?? []) as unknown as Bubbling[];
@@ -115,11 +108,13 @@ export default function Top100FitnessInfluencersPage() {
           <h3 className="inline font-serif text-lg lg:text-2xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
             {e.name}
           </h3>
-          <span className="hidden sm:inline font-sans text-label-sm uppercase text-on-surface-variant">
-            {e.segment}
-          </span>
-          {e.tier === "amplifier" && (
-            <span className="font-sans text-label-sm uppercase text-primary">Amplifier</span>
+          {e.city && (
+            <span className="hidden sm:inline font-sans text-label-sm uppercase text-on-surface-variant">
+              {e.city}
+            </span>
+          )}
+          {e.tier === "chain-flagship" && (
+            <span className="font-sans text-label-sm uppercase text-primary">Flagship</span>
           )}
         </span>
         <span
@@ -135,15 +130,17 @@ export default function Top100FitnessInfluencersPage() {
         />
       </summary>
       <div className="pb-8 pt-1 pl-12 lg:pl-14 pr-2 max-w-3xl">
-        <div className="sm:hidden mb-2">
-          <span className="font-sans text-label-sm uppercase text-on-surface-variant">{e.segment}</span>
+        <div className="mb-2 flex flex-wrap items-center gap-x-4 gap-y-1">
+          {e.city && (
+            <span className="font-sans text-label-sm uppercase text-on-surface-variant inline-flex items-center gap-1.5">
+              <MapPin size={12} className="text-primary" aria-hidden />
+              {e.city}
+            </span>
+          )}
+          <span className="font-sans text-label-sm uppercase text-on-surface-variant">
+            {e.segment}
+          </span>
         </div>
-        {e.tier === "amplifier" && (
-          <p className="font-sans text-sm text-on-surface-variant mb-3 flex items-start gap-2">
-            <Zap size={14} className="flex-shrink-0 mt-0.5 text-primary" aria-hidden />
-            Amplifier — fitness is not their core topic, but their reach moves the whole culture.
-          </p>
-        )}
         <p className="font-sans text-base text-on-surface mb-1">{e.who}</p>
         <p className="font-sans text-sm text-on-surface-variant italic mb-3">{e.why}</p>
         {e.warning && (
@@ -163,25 +160,17 @@ export default function Top100FitnessInfluencersPage() {
               Website
             </a>
           )}
-          {Object.entries(e.handles ?? {}).map(([kind, val]) => {
-            const href = handleHref(kind, val);
-            const label = HANDLE_LABELS[kind] ?? kind;
-            return href ? (
-              <a
-                key={kind}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                className="text-on-surface hover:text-primary transition-colors"
-              >
-                {label}
-              </a>
-            ) : (
-              <span key={kind} className="text-on-surface-variant">
-                {label}: {val}
-              </span>
-            );
-          })}
+          {Object.entries(e.handles ?? {}).map(([kind, val]) => (
+            <a
+              key={kind}
+              href={val}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-on-surface hover:text-primary transition-colors"
+            >
+              {HANDLE_LABELS[kind] ?? kind}
+            </a>
+          ))}
           {e.reach && <span className="text-on-surface-variant">{e.reach}</span>}
         </div>
       </div>
@@ -203,7 +192,7 @@ export default function Top100FitnessInfluencersPage() {
             <p className="font-sans text-label-md uppercase text-primary">{meta.series}</p>
           </div>
           <h1 className="font-serif text-display-lg lg:text-display-xl uppercase tracking-tight text-on-surface max-w-4xl">
-            Top 100 Fitness <span className="text-primary">Influencers</span> 2026
+            Top 100 <span className="text-primary">Gyms</span> in the World 2026
           </h1>
           <p className="font-sans text-base lg:text-lg text-on-surface-variant mt-6 max-w-2xl">
             {meta.subtitle}
@@ -300,11 +289,11 @@ export default function Top100FitnessInfluencersPage() {
             <p className="font-sans text-label-md uppercase text-primary">More of the series</p>
           </div>
           <Link
-            href="/top-100-gyms"
+            href="/top-100-fitness-influencers"
             className="group flex items-baseline justify-between gap-6 py-7 hover:bg-surface-low -mx-6 lg:-mx-8 px-6 lg:px-8 transition-colors duration-300"
           >
             <h3 className="font-serif text-2xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
-              Top 100 Gyms in the World
+              Top 100 Fitness Influencers
             </h3>
             <ArrowUpRight
               size={22}
@@ -319,10 +308,10 @@ export default function Top100FitnessInfluencersPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="bg-primary px-8 py-12 lg:px-14 lg:py-16">
             <h2 className="font-serif text-display-md uppercase text-primary-on max-w-2xl">
-              Know a name we missed?
+              Run a gym that belongs here?
             </h2>
             <p className="font-sans text-base text-primary-on/80 mt-4 max-w-xl">
-              The ranking is reviewed {meta.reviewCadence}. Corrections, disputes, and names we
+              The ranking is reviewed {meta.reviewCadence}. Corrections, disputes, and gyms we
               should be tracking:{" "}
               <a href={`mailto:${SITE.email}`} className="font-bold underline underline-offset-4">
                 {SITE.email}
@@ -332,7 +321,7 @@ export default function Top100FitnessInfluencersPage() {
               href="/submit"
               className="inline-block mt-8 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
             >
-              List your space on FitBodega
+              List your gym on FitBodega
             </Link>
           </div>
         </div>

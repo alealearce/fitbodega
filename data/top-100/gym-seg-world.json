@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Muscle Beach Venice",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Venice, California",
+    "country": "US",
+    "who": "City-run open-air weight pit and gymnastics platform on the Venice Beach boardwalk, running since 1963.",
+    "why": "The original stage where 1970s-80s bodybuilding performed for the public; still free, outdoors, and open to any visitor.",
+    "factors": {
+      "legacy": 92,
+      "talent": 75,
+      "facility": 55,
+      "community": 88,
+      "reach": 55,
+      "destination": 88
+    },
+    "reach": "No single official IG account; heavy UGC under #MuscleBeachVenice (approx 2026)",
+    "reachVerified": false,
+    "website": "https://recreation.parks.lacity.gov/venice/muscle-beach-venice-outdoor-gym.html",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Original Muscle Beach",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Santa Monica, California",
+    "country": "US",
+    "who": "Restored 1930s beach gymnastics ground next to the pier, considered the birthplace of the US fitness boom.",
+    "why": "Site of the WPA-built rings and bars that started outdoor physical culture in America; dismantled in 1959, rebuilt and reopened by the city in 1989.",
+    "factors": {
+      "legacy": 85,
+      "talent": 60,
+      "facility": 50,
+      "community": 65,
+      "reach": 35,
+      "destination": 60
+    },
+    "reach": "No official gym IG; run by the City of Santa Monica (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.santamonica.com/things-to-do/original-muscle-beach/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Kachalka Muscle Beach",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Kyiv",
+    "country": "UA",
+    "who": "Sprawling free outdoor gym on Dolobetskyi Island with 200-plus homemade machines welded from scrap metal since the 1970s.",
+    "why": "One of the biggest DIY outdoor gyms on earth, spanning roughly 10,000 square meters; famous for training champions, celebrities, and factory workers side by side.",
+    "factors": {
+      "legacy": 80,
+      "talent": 55,
+      "facility": 85,
+      "community": 90,
+      "reach": 45,
+      "destination": 65
+    },
+    "reach": "No official IG account; documented mainly through international photo essays (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": "Historically reopens fast after disruptions, but day-to-day status during the ongoing war was not independently reconfirmed for 2026."
+  },
+  {
+    "name": "Bondi Beach Outdoor Gym",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Sydney",
+    "country": "AU",
+    "who": "Council-built calisthenics park in Bondi Park with pull-up bars at multiple heights, dip bars, parallel bars, and monkey bars.",
+    "why": "Free, open 24/7 every day of the year, and famous for turning workouts into a beachfront show for passersby.",
+    "factors": {
+      "legacy": 60,
+      "talent": 50,
+      "facility": 65,
+      "community": 80,
+      "reach": 55,
+      "destination": 75
+    },
+    "reach": "No single official IG; managed by Waverley Council (verified open 2026-08)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Academia Publica do Arpoador",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Rio de Janeiro",
+    "country": "BR",
+    "who": "Free oceanfront outdoor gym between Ipanema and Copacabana with squat racks, benches, and free weights, not just bodyweight bars.",
+    "why": "A daily pilgrimage spot for locals and tourists who want to lift with an Atlantic Ocean backdrop; confirmed active as of 2026 travel guides.",
+    "factors": {
+      "legacy": 65,
+      "talent": 50,
+      "facility": 60,
+      "community": 78,
+      "reach": 40,
+      "destination": 70
+    },
+    "reach": "No official IG; free municipal facility (verified open 2026-08)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Gordon Beach Outdoor Gym",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Tel Aviv",
+    "country": "IL",
+    "who": "Free municipal outdoor gym on the Tel Aviv beach promenade with bars, rings, and calisthenics stations.",
+    "why": "A long-running fixture of Tel Aviv beach culture where regulars train daily regardless of weather or season.",
+    "factors": {
+      "legacy": 55,
+      "talent": 45,
+      "facility": 55,
+      "community": 70,
+      "reach": 30,
+      "destination": 55
+    },
+    "reach": "No official IG; municipal beachfront facility (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Pahlevanpour Zurkhaneh",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Tehran",
+    "country": "IR",
+    "who": "One of Tehran's oldest active zurkhanehs (\"houses of strength\"), a domed hall for varzesh-e pahlavani, Iran's ritual strength-and-ethics sport.",
+    "why": "The clearest surviving link to a training culture that predates the modern gym by centuries, combining calisthenics, wooden clubs, and live drumming and poetry.",
+    "factors": {
+      "legacy": 90,
+      "talent": 45,
+      "facility": 60,
+      "community": 92,
+      "reach": 25,
+      "destination": 60
+    },
+    "reach": "No IG presence; a traditional institution, not a social-media brand (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Smart Fit Copacabana",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Rio de Janeiro",
+    "country": "BR",
+    "who": "Headquarters location of Smart Fit, Latin America's largest gym chain (2,100-plus locations), with an attached beach-sports arena for futevolei and beach tennis.",
+    "why": "Represents the low-cost mega-gym model that reshaped fitness access across Latin America; the beach arena add-on is a rare format extension.",
+    "factors": {
+      "legacy": 55,
+      "talent": 40,
+      "facility": 75,
+      "community": 55,
+      "reach": 65,
+      "destination": 45
+    },
+    "reach": "No location-specific IG data; brand-level presence is large (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.smartfit.com.br",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Gold's Gym Golden Heights",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "New Cairo",
+    "country": "EG",
+    "who": "One of Gold's Gym Egypt's flagship compound clubs, part of the brand's largest Middle East-North Africa footprint.",
+    "why": "The clearest Gold's Gym presence in the Arab world's biggest fitness market, drawing on the same brand equity as Venice's original.",
+    "factors": {
+      "legacy": 55,
+      "talent": 55,
+      "facility": 65,
+      "community": 60,
+      "reach": 55,
+      "destination": 45
+    },
+    "reach": "IG 185K (@goldsgym.egypt country brand account, verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://goldsgymegypt.com",
+    "handles": {
+      "instagram": "https://instagram.com/goldsgym.egypt"
+    },
+    "warning": "Reach figure is for the national Gold's Gym Egypt brand account, not this location specifically."
+  },
+  {
+    "name": "Gold's Gym Harajuku",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Tokyo",
+    "country": "JP",
+    "who": "24-hour, four-floor Gold's Gym club steps from Harajuku Station, open since 2002 with a hardcore basement floor known as Classic Gold.",
+    "why": "Japan's best-known Gold's Gym location, regularly drawing athletes and entertainers from the surrounding entertainment district.",
+    "factors": {
+      "legacy": 65,
+      "talent": 65,
+      "facility": 70,
+      "community": 70,
+      "reach": 50,
+      "destination": 60
+    },
+    "reach": "Location IG account exists (@goldsgym.harajukutokyo); follower count not confirmed (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.goldsgym.jp",
+    "handles": {
+      "instagram": "https://instagram.com/goldsgym.harajukutokyo"
+    },
+    "warning": null
+  },
+  {
+    "name": "John Reed Fitness Club Berlin-Botzow",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Berlin",
+    "country": "DE",
+    "who": "RSG Group's flagship John Reed club in central Berlin, built around the brand's nightclub-style design language.",
+    "why": "Set the template for the DJ-decks-and-art-deco gym aesthetic that John Reed exported across Europe.",
+    "factors": {
+      "legacy": 45,
+      "talent": 40,
+      "facility": 80,
+      "community": 60,
+      "reach": 55,
+      "destination": 55
+    },
+    "reach": "IG 75K (@johnreedfitness_ main brand account, verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://johnreed.fitness",
+    "handles": {
+      "instagram": "https://instagram.com/johnreedfitness_"
+    },
+    "warning": null
+  },
+  {
+    "name": "McFit Flagship Berlin",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Berlin",
+    "country": "DE",
+    "who": "RSG Group's flagship McFit club, rebuilt as what the company calls \"the world's greenest gym.\"",
+    "why": "McFit, founded 1997, grew into Europe's largest fitness chain by membership; this club is the brand's current showcase.",
+    "factors": {
+      "legacy": 60,
+      "talent": 35,
+      "facility": 75,
+      "community": 50,
+      "reach": 65,
+      "destination": 40
+    },
+    "reach": "IG 239K (@mcfit, verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.mcfit.com",
+    "handles": {
+      "instagram": "https://instagram.com/mcfit"
+    },
+    "warning": null
+  },
+  {
+    "name": "Binous Gym",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Dubai",
+    "country": "AE",
+    "who": "Bodybuilding gym founded by Tunisian trainer Anis Binous, built around rare specialist equipment and a serious-athlete training floor.",
+    "why": "Draws top international bodybuilders, celebrities, and influencers visiting the Gulf; runs its own Binous Classic muscle show.",
+    "factors": {
+      "legacy": 55,
+      "talent": 80,
+      "facility": 80,
+      "community": 85,
+      "reach": 70,
+      "destination": 70
+    },
+    "reach": "IG 91K (@binousgym_ gym account; affiliated @binousclassic event brand has 589K, verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://binousgym.com",
+    "handles": {
+      "instagram": "https://instagram.com/binousgym_"
+    },
+    "warning": "A larger second location was under construction in Jumeirah Village Circle at last check; the original Al Quoz gym is the current flagship."
+  },
+  {
+    "name": "GymNation Sheikh Zayed Road",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Dubai",
+    "country": "AE",
+    "who": "Flagship club of GymNation, now the largest gym operator in the UAE with 45,000-plus members across 40-plus clubs.",
+    "why": "Grew to 10,000 members within a year of opening and became the model location for the brand's low-cost mega-gym push across the Gulf.",
+    "factors": {
+      "legacy": 40,
+      "talent": 35,
+      "facility": 70,
+      "community": 45,
+      "reach": 68,
+      "destination": 40
+    },
+    "reach": "IG 289K (@gymnation_me, verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://gymnation.com",
+    "handles": {
+      "instagram": "https://instagram.com/gymnation_me"
+    },
+    "warning": null
+  },
+  {
+    "name": "Fitness Time Pro Gym Riyadh",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Riyadh",
+    "country": "SA",
+    "who": "Flagship performance club of Fitness Time, Saudi Arabia's largest homegrown gym chain.",
+    "why": "Anchors a fitness brand family that expanded fast across the Kingdom's gender-segmented gym market.",
+    "factors": {
+      "legacy": 45,
+      "talent": 40,
+      "facility": 65,
+      "community": 50,
+      "reach": 50,
+      "destination": 35
+    },
+    "reach": "No single confirmed IG for this location; sister brand @ftladies has 201K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.fitnesstime.com.sa",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Kris Gethin Gyms Gurugram",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Gurugram",
+    "country": "IN",
+    "who": "Luxury training club under the Kris Gethin Gyms brand, built by the celebrity bodybuilding coach and Jag Chima to bring premium transformation coaching to India.",
+    "why": "Represents the celebrity-led push to build Western-style luxury bodybuilding gyms in India's fast-growing fitness market.",
+    "factors": {
+      "legacy": 35,
+      "talent": 45,
+      "facility": 60,
+      "community": 45,
+      "reach": 30,
+      "destination": 30
+    },
+    "reach": "IG 1.2K (@gethingymsgurugram.sector65, verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://gethingyms.com",
+    "handles": {
+      "instagram": "https://instagram.com/gethingymsgurugram.sector65"
+    },
+    "warning": null
+  },
+  {
+    "name": "Virgin Active Collection Green Point",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Cape Town",
+    "country": "ZA",
+    "who": "Virgin Active's rebuilt flagship club, a roughly $6.2 million, 5,500-square-meter \"social wellness club\" combining training, recovery, nutrition, and co-working space.",
+    "why": "Africa's most ambitious gym rebuild to date, positioned by Richard Branson as the future format for the continent's largest health-club operator.",
+    "factors": {
+      "legacy": 50,
+      "talent": 35,
+      "facility": 85,
+      "community": 55,
+      "reach": 45,
+      "destination": 50
+    },
+    "reach": "No IG follower count confirmed for this location (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.virginactive.co.za",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Fitness First Market Street",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Singapore",
+    "country": "SG",
+    "who": "Fitness First's two-floor, 21,000-square-foot flagship club in the Singapore CBD.",
+    "why": "The brand's showcase for its current club design in Southeast Asia's premium fitness market.",
+    "factors": {
+      "legacy": 45,
+      "talent": 30,
+      "facility": 70,
+      "community": 45,
+      "reach": 40,
+      "destination": 35
+    },
+    "reach": "IG 19K (@fitnessfirst_sg, verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.fitnessfirst.com.sg",
+    "handles": {
+      "instagram": "https://instagram.com/fitnessfirst_sg"
+    },
+    "warning": null
+  },
+  {
+    "name": "Sport City Flagship",
+    "segment": "World Icons & Open Air",
+    "tier": "chain-flagship",
+    "city": "Mexico City",
+    "country": "MX",
+    "who": "Flagship campus of Sport City, Mexico's long-running premium fitness and country-club chain with pools, courts, and full gym floors.",
+    "why": "A decades-old fixture of upper-middle-class Mexican fitness culture, distinct from the budget mega-gym model spreading elsewhere in Latin America.",
+    "factors": {
+      "legacy": 60,
+      "talent": 35,
+      "facility": 70,
+      "community": 50,
+      "reach": 35,
+      "destination": 35
+    },
+    "reach": "Not verified this research pass (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Tempelhofer Feld Calisthenics Park",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Berlin",
+    "country": "DE",
+    "who": "Free outdoor calisthenics setup on the former Tempelhof Airport airfield, one of the largest open-air training grounds in Europe.",
+    "why": "A gathering point for Europe's competitive calisthenics scene, prized for its scale and for training in the open field of a decommissioned airport.",
+    "factors": {
+      "legacy": 55,
+      "talent": 45,
+      "facility": 70,
+      "community": 80,
+      "reach": 50,
+      "destination": 60
+    },
+    "reach": "No official IG; public park facility (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  }
+]

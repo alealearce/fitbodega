@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Zoo Culture",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Encino, California",
+    "country": "US",
+    "who": "Members-only gym and social club built by bodybuilder-YouTuber Bradley Martyn, a fixture for LA fitness creators and celebrities.",
+    "why": "One of the first gyms built entirely from a creator's personal brand — turned Bradley Martyn's online fame into a real-world hangout-and-train destination.",
+    "factors": {
+      "legacy": 55,
+      "talent": 70,
+      "facility": 75,
+      "community": 80,
+      "reach": 60,
+      "destination": 65
+    },
+    "reach": "IG 291K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.thezooculture.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/zooculture/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Alphaland",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Missouri City, Texas",
+    "country": "US",
+    "who": "18.5-acre fitness compound built by YouTuber and Alphalete founder Christian Guzman — three gyms, courts, a sauna, a cafe, and a retail store under one roof.",
+    "why": "The most ambitious creator-built gym in the world, a self-described 'Disney World for bodybuilders' that pulls visitors from across Texas and beyond.",
+    "factors": {
+      "legacy": 40,
+      "talent": 45,
+      "facility": 85,
+      "community": 65,
+      "reach": 55,
+      "destination": 70
+    },
+    "reach": "IG 177K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://officialalphaland.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/official_alphaland/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Gymshark Lifting Club",
+    "segment": "Creator & New School",
+    "tier": "chain-flagship",
+    "city": "Solihull, England",
+    "country": "GB",
+    "who": "Gymshark's own gym and innovation hub at its Solihull HQ, built to test product and shoot athlete content on-site.",
+    "why": "The physical anchor of the biggest fitness-apparel creator economy in the world — sponsored athletes train and film here.",
+    "factors": {
+      "legacy": 45,
+      "talent": 65,
+      "facility": 80,
+      "community": 55,
+      "reach": 70,
+      "destination": 55
+    },
+    "reach": "IG 1M (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.gymshark.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/gymsharklifting/"
+    },
+    "warning": null
+  },
+  {
+    "name": "THENX Fitness Studio",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Miami, Florida",
+    "country": "US",
+    "who": "Calisthenics training studio in Miami built around Chris Heria's THENX brand, the home base seen throughout his videos.",
+    "why": "Anchors one of the largest calisthenics content ecosystems online; THENX and Heria Pro programs trace back to this floor.",
+    "factors": {
+      "legacy": 40,
+      "talent": 45,
+      "facility": 55,
+      "community": 60,
+      "reach": 65,
+      "destination": 50
+    },
+    "reach": "IG 2M (Chris Heria's personal following, verified 2026-08; the studio itself has no separate large account)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Iron Religion Gym",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Orlando, Florida",
+    "country": "US",
+    "who": "24/7 hardcore bodybuilding and powerlifting gym on International Drive, open since 2016.",
+    "why": "A regular stop for pros passing through Orlando for the Olympia Expo, built on old-school equipment mixed with modern plate-loaded gear.",
+    "factors": {
+      "legacy": 45,
+      "talent": 55,
+      "facility": 60,
+      "community": 65,
+      "reach": 45,
+      "destination": 45
+    },
+    "reach": "IG 28K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.ironreligiongym.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/ironreligiongym/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Raw Athletic Club",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Port St. Lucie, Florida",
+    "country": "US",
+    "who": "Premium gym opened in 2024 by five-time Classic Physique Olympia champion Chris Bumstead's Raw Nutrition brand, with a barber, smoothie bar, and apparel shop attached.",
+    "why": "The newest major creator-gym launch in bodybuilding, already drawing touring pros to train and film on camera.",
+    "factors": {
+      "legacy": 30,
+      "talent": 60,
+      "facility": 70,
+      "community": 55,
+      "reach": 45,
+      "destination": 55
+    },
+    "reach": "IG 33K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://rawathletic.club/",
+    "handles": {
+      "instagram": "https://www.instagram.com/rawathletic.club/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Oxygen Gym",
+    "segment": "Creator & New School",
+    "tier": "chain-flagship",
+    "city": "Kuwait City",
+    "country": "KW",
+    "who": "Leading hardcore bodybuilding gym brand in Kuwait, a hub for the country's outsized competitive bodybuilding scene.",
+    "why": "The best-known gym name in Gulf bodybuilding culture, with a huge regional social following and heavy competition-prep traffic.",
+    "factors": {
+      "legacy": 45,
+      "talent": 55,
+      "facility": 60,
+      "community": 65,
+      "reach": 60,
+      "destination": 50
+    },
+    "reach": "IG 671K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://www.instagram.com/o2_gyms/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Strength Asylum",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Stoke-on-Trent, England",
+    "country": "GB",
+    "who": "Strongman and bodybuilding gym in Hanley, Stoke-on-Trent, where former World's Strongest Man Eddie Hall trains full time.",
+    "why": "Eddie Hall's huge YouTube following turns a local strongman gym into a UK pilgrimage stop for strength-sport fans.",
+    "factors": {
+      "legacy": 35,
+      "talent": 60,
+      "facility": 55,
+      "community": 60,
+      "reach": 40,
+      "destination": 45
+    },
+    "reach": "IG ~15K (approx 2026, not independently verified)",
+    "reachVerified": false,
+    "website": "https://www.strengthasylum.co.uk/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "1st Phorm HQ",
+    "segment": "Creator & New School",
+    "tier": "chain-flagship",
+    "city": "Fenton, Missouri",
+    "country": "US",
+    "who": "185,000 sq ft supplement-company headquarters with a full athletic facility, turf field, and basketball court, built by 1st Phorm founder Andy Frisella's team.",
+    "why": "One of the most-toured facilities on fitness YouTube — a supplement brand's HQ built as a destination gym, not just an office.",
+    "factors": {
+      "legacy": 30,
+      "talent": 35,
+      "facility": 80,
+      "community": 40,
+      "reach": 60,
+      "destination": 50
+    },
+    "reach": "IG 1M (1st Phorm brand account; approx 2026, not gym-specific)",
+    "reachVerified": false,
+    "website": "https://1stphorm.com/",
+    "handles": {
+      "instagram": "https://www.instagram.com/1stphorm/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Iron Addicts Gym",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Hawthorne, California",
+    "country": "US",
+    "who": "Powerbuilding gym in the LA area built around CT Fletcher, one of YouTube's earliest and loudest strength-training personalities.",
+    "why": "CT Fletcher's viral intensity made Iron Addicts one of the first gyms to go famous purely through online video culture.",
+    "factors": {
+      "legacy": 45,
+      "talent": 45,
+      "facility": 50,
+      "community": 70,
+      "reach": 50,
+      "destination": 40
+    },
+    "reach": "IG ~150K (approx 2026, not independently verified)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Overtime Athletics",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Elizabeth, New Jersey",
+    "country": "US",
+    "who": "Powerbuilding gym associated with boxer and content creator Mike Rashid, known for raw, no-frills strength content.",
+    "why": "One of the earlier gyms to build an identity purely from documentary-style YouTube training footage.",
+    "factors": {
+      "legacy": 40,
+      "talent": 40,
+      "facility": 45,
+      "community": 65,
+      "reach": 45,
+      "destination": 35
+    },
+    "reach": "IG ~50K (approx 2026, not independently verified)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Juggernaut Training Systems HQ",
+    "segment": "Creator & New School",
+    "tier": "independent",
+    "city": "Mooresville, North Carolina",
+    "country": "US",
+    "who": "Powerlifting gym and coaching HQ built by Chad Wesley Smith's Juggernaut Training Systems, pairing sports-science content with a hardcore lifting floor.",
+    "why": "A hub for competitive powerlifters and one of the most-followed programming brands in strength sport.",
+    "factors": {
+      "legacy": 40,
+      "talent": 45,
+      "facility": 55,
+      "community": 55,
+      "reach": 45,
+      "destination": 35
+    },
+    "reach": "IG ~60K (approx 2026, not independently verified)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  }
+]

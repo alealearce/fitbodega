@@ -1,0 +1,468 @@
+[
+  {
+    "name": "Gold's Gym Venice",
+    "segment": "Bodybuilding Meccas",
+    "tier": "chain-flagship",
+    "city": "Venice, California",
+    "country": "US",
+    "who": "The original Gold's Gym, founded on Venice Beach in 1965 and now on Hampton Drive.",
+    "why": "Known worldwide as \"the Mecca of bodybuilding\" — Arnold Schwarzenegger and generations of champions trained here, and it still draws lifters on pilgrimage.",
+    "factors": {
+      "legacy": 95,
+      "talent": 85,
+      "facility": 75,
+      "community": 85,
+      "reach": 70,
+      "destination": 90
+    },
+    "reach": "IG 31K on the location account @goldsgymvenice1; global Gold's Gym brand account is 455K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.goldsgym.com/locations/ca/venice/",
+    "handles": {
+      "instagram": "https://instagram.com/goldsgymvenice1"
+    },
+    "warning": null
+  },
+  {
+    "name": "Muscle Beach Venice",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Venice, California",
+    "country": "US",
+    "who": "A free, city-run outdoor weightlifting platform on the Venice boardwalk, open since 1963.",
+    "why": "The original open-air \"Muscle Beach\" where Southern California's bodybuilding culture was born; still open daily and a required stop for fans of the sport's history.",
+    "factors": {
+      "legacy": 90,
+      "talent": 35,
+      "facility": 45,
+      "community": 65,
+      "reach": 45,
+      "destination": 80
+    },
+    "reach": "No single official account; covered constantly across bodybuilding and travel content, exact reach not tallied (verified open 2026-08)",
+    "reachVerified": true,
+    "website": "https://recreation.parks.lacity.gov/venice/muscle-beach-venice-outdoor-gym.html",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Bev Francis' Powerhouse Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Syosset, New York",
+    "country": "US",
+    "who": "An independent hardcore gym on Long Island founded by IFBB legend Bev Francis, billed as \"the East Coast Mecca of bodybuilding.\"",
+    "why": "Trains top NPC and IFBB competitors — Chris Bumstead used it during a 2022 Olympia prep stretch — and keeps a coaching-floor culture built around Francis's own competitive record.",
+    "factors": {
+      "legacy": 80,
+      "talent": 70,
+      "facility": 65,
+      "community": 80,
+      "reach": 45,
+      "destination": 70
+    },
+    "reach": "Facebook 59K; X (@eastcoastmecca) 17.4K; Instagram follower count not confirmed (verified open 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.bevfrancis.com/",
+    "handles": {
+      "twitter": "https://x.com/eastcoastmecca"
+    },
+    "warning": null
+  },
+  {
+    "name": "MetroFlex Gym (Original)",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Arlington, Texas",
+    "country": "US",
+    "who": "The original MetroFlex warehouse gym, running since 1987, marketed as \"the gym that built Ronnie Coleman.\"",
+    "why": "Home turf of 8x Mr. Olympia Ronnie Coleman and 2x Arnold Classic champion Branch Warren; raw, no-frills training culture that spawned a national gym chain.",
+    "factors": {
+      "legacy": 95,
+      "talent": 75,
+      "facility": 60,
+      "community": 90,
+      "reach": 45,
+      "destination": 90
+    },
+    "reach": "Instagram @originalmetroflexgym; open and active, follower count not confirmed (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://metroflexgym.com/locations/arlington",
+    "handles": {
+      "instagram": "https://instagram.com/originalmetroflexgym"
+    },
+    "warning": null
+  },
+  {
+    "name": "MetroFlex Gym Long Beach",
+    "segment": "Bodybuilding Meccas",
+    "tier": "chain-flagship",
+    "city": "Hawaiian Gardens, California",
+    "country": "US",
+    "who": "MetroFlex's Southern California outpost, a hardcore bodybuilding and powerlifting gym near Long Beach.",
+    "why": "Carries the MetroFlex chain's coaching culture and equipment standard into the dense SoCal bodybuilding scene.",
+    "factors": {
+      "legacy": 55,
+      "talent": 45,
+      "facility": 60,
+      "community": 70,
+      "reach": 35,
+      "destination": 50
+    },
+    "reach": "Instagram @metroflexlbc; open, follower count not confirmed (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://metroflexgym.com/locations/long-beach",
+    "handles": {
+      "instagram": "https://instagram.com/metroflexlbc"
+    },
+    "warning": null
+  },
+  {
+    "name": "Zoo Culture",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Encino, California",
+    "country": "US",
+    "who": "Bradley Martyn's flagship gym, now based in Encino after outgrowing its original Los Angeles location.",
+    "why": "One of the most-followed physical gyms online, built around Martyn's influencer-driven strength culture and a constant flow of content creators.",
+    "factors": {
+      "legacy": 40,
+      "talent": 55,
+      "facility": 75,
+      "community": 65,
+      "reach": 78,
+      "destination": 65
+    },
+    "reach": "IG 291K (verified 2026-08, @zooculture)",
+    "reachVerified": true,
+    "website": "https://www.thezooculture.com/",
+    "handles": {
+      "instagram": "https://instagram.com/zooculture"
+    },
+    "warning": null
+  },
+  {
+    "name": "Iron Addicts Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Signal Hill, California",
+    "country": "US",
+    "who": "The gym CT Fletcher built his brand around; still running under new ownership after Fletcher's exit from day-to-day operations.",
+    "why": "Years of viral \"It's a lifestyle!\" training footage made this a global reference point for hardcore strength culture, and the location keeps that identity.",
+    "factors": {
+      "legacy": 65,
+      "talent": 35,
+      "facility": 55,
+      "community": 70,
+      "reach": 50,
+      "destination": 50
+    },
+    "reach": "Active social presence; follower count not confirmed this pass (verified open 2026-08)",
+    "reachVerified": true,
+    "website": "https://ironaddictsbrands.com/the-gym/",
+    "handles": {
+      "facebook": "https://www.facebook.com/WW.IAG"
+    },
+    "warning": "CT Fletcher is no longer associated with day-to-day operation of this location; the gym continues under different ownership."
+  },
+  {
+    "name": "Dragon's Lair Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Las Vegas, Nevada",
+    "country": "US",
+    "who": "A 12,600 sq ft hardcore training facility owned by 7x 212lb Mr. Olympia Flex Lewis, with 115+ machines and dedicated power racks.",
+    "why": "Gives fans a direct line to a reigning Olympia-class champion's personal training approach, with regular pro visits and seminars.",
+    "factors": {
+      "legacy": 55,
+      "talent": 70,
+      "facility": 80,
+      "community": 65,
+      "reach": 55,
+      "destination": 65
+    },
+    "reach": "Instagram @the_dragons_lair; open, follower count not confirmed (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://thedragonslairgym.com/",
+    "handles": {
+      "instagram": "https://instagram.com/the_dragons_lair"
+    },
+    "warning": null
+  },
+  {
+    "name": "Quads Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Chicago, Illinois",
+    "country": "US",
+    "who": "A 40,000 sq ft hardcore bodybuilding gym on Chicago's North Side, running since 1976 and nicknamed \"Land of the Giants.\"",
+    "why": "A Midwest bodybuilding institution with decades of old-school iron culture; voted a top-10 gym in America.",
+    "factors": {
+      "legacy": 75,
+      "talent": 40,
+      "facility": 60,
+      "community": 80,
+      "reach": 35,
+      "destination": 50
+    },
+    "reach": "IG 3.5K (verified 2026-08, @quadsgymchicago)",
+    "reachVerified": true,
+    "website": "https://www.quadsgym.com/",
+    "handles": {
+      "instagram": "https://instagram.com/quadsgymchicago"
+    },
+    "warning": null
+  },
+  {
+    "name": "Armbrust Pro Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Denver, Colorado",
+    "country": "US",
+    "who": "Josh Bryant's strength-and-physique hybrid gym, known for a dedicated leg room with eight-plus Olympic power racks.",
+    "why": "Trains IFBB pros and elite strength athletes and serves as a serious destination for hardcore leg and powerlifting-style training.",
+    "factors": {
+      "legacy": 50,
+      "talent": 60,
+      "facility": 70,
+      "community": 70,
+      "reach": 45,
+      "destination": 55
+    },
+    "reach": "IG 18.8K (verified 2026-08, @armbrustprogym)",
+    "reachVerified": true,
+    "website": "https://www.armbrustprogym.com/",
+    "handles": {
+      "instagram": "https://instagram.com/armbrustprogym"
+    },
+    "warning": null
+  },
+  {
+    "name": "Alphaland",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Houston, Texas",
+    "country": "US",
+    "who": "A 19-acre, three-gym bodybuilding and powerlifting complex outside Houston, opened in 2021 and nicknamed \"Disneyland for bodybuilders.\"",
+    "why": "The newest mega-mecca in the sport, drawing a younger generation of competitive lifters with unmatched scale and variety of training zones.",
+    "factors": {
+      "legacy": 40,
+      "talent": 55,
+      "facility": 90,
+      "community": 65,
+      "reach": 50,
+      "destination": 75
+    },
+    "reach": "Widely covered in bodybuilding press as a top US gym; exact follower count not independently verified this pass",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Temple Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Birmingham, England",
+    "country": "UK",
+    "who": "The gym built by 6x Mr. Olympia Dorian Yates, now relocated to Birmingham's Jewellery Quarter.",
+    "why": "Defined the 1990s \"blood and guts\" high-intensity training era; still draws UK and international lifters tracing Yates's method.",
+    "factors": {
+      "legacy": 90,
+      "talent": 45,
+      "facility": 60,
+      "community": 75,
+      "reach": 45,
+      "destination": 70
+    },
+    "reach": "Instagram @templegymuk; relocated but active, listings current as of July 2026 (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://templegymuk.com/",
+    "handles": {
+      "instagram": "https://instagram.com/templegymuk"
+    },
+    "warning": null
+  },
+  {
+    "name": "Oxygen Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Kuwait City",
+    "country": "Kuwait",
+    "who": "A Kuwait City gym owned by Bader Boodai, where 2x Mr. Olympia Big Ramy was discovered and developed early in his career.",
+    "why": "A key node in the Gulf's fast-growing pro bodybuilding pipeline, visited by touring IFBB pros training in the region.",
+    "factors": {
+      "legacy": 65,
+      "talent": 70,
+      "facility": 55,
+      "community": 65,
+      "reach": 40,
+      "destination": 60
+    },
+    "reach": "Historic association with Big Ramy (1M+ personal IG); gym's own account reach not independently confirmed this pass",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Gold's Gym Harajuku",
+    "segment": "Bodybuilding Meccas",
+    "tier": "chain-flagship",
+    "city": "Tokyo",
+    "country": "JP",
+    "who": "A 24-hour Gold's Gym flagship in Tokyo's Harajuku district, Japan's best-known bodybuilding-focused commercial gym.",
+    "why": "The training hub most associated with Japan's competitive bodybuilding scene and its growing IFBB presence.",
+    "factors": {
+      "legacy": 60,
+      "talent": 50,
+      "facility": 70,
+      "community": 60,
+      "reach": 40,
+      "destination": 55
+    },
+    "reach": "Open 24 hours; follower count not confirmed this pass (verified open 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.goldsgym.com/harajukutokyojp/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "MetroFlex Gym Japan",
+    "segment": "Bodybuilding Meccas",
+    "tier": "chain-flagship",
+    "city": "Soka City, Saitama",
+    "country": "JP",
+    "who": "MetroFlex's first Asia location, in Saitama Prefecture, importing the chain's rare equipment and hardcore culture.",
+    "why": "A pilgrimage stop for Japanese and touring lifters seeking MetroFlex's specific old-school machines and floor culture outside the US.",
+    "factors": {
+      "legacy": 45,
+      "talent": 35,
+      "facility": 65,
+      "community": 70,
+      "reach": 30,
+      "destination": 55
+    },
+    "reach": "Instagram @metroflex_gym_japan; open, active as of mid-2026 (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://metroflexgym.com/locations/saitama",
+    "handles": {
+      "instagram": "https://instagram.com/metroflex_gym_japan"
+    },
+    "warning": null
+  },
+  {
+    "name": "Doherty's Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Melbourne",
+    "country": "AU",
+    "who": "Australia's best-known hardcore bodybuilding gym group, anchored by its 24/7 Melbourne City location.",
+    "why": "The default training base for Australia's competitive bodybuilding and powerlifting scene for decades, open every day of the year.",
+    "factors": {
+      "legacy": 65,
+      "talent": 50,
+      "facility": 65,
+      "community": 75,
+      "reach": 55,
+      "destination": 55
+    },
+    "reach": "IG 40K (verified 2026-08, @dohertysgym)",
+    "reachVerified": true,
+    "website": "https://dohertysgym.com/",
+    "handles": {
+      "instagram": "https://instagram.com/dohertysgym"
+    },
+    "warning": null
+  },
+  {
+    "name": "Choopan Classic Gym",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Shiraz",
+    "country": "Iran",
+    "who": "A 130-plus-machine gym Mr. Olympia champion Hadi Choopan built in his home region of Iran.",
+    "why": "A symbol of Iran's rising bodybuilding pipeline and Choopan's effort to give back to the community that produced a world champion despite travel barriers to Western training hubs.",
+    "factors": {
+      "legacy": 55,
+      "talent": 65,
+      "facility": 65,
+      "community": 60,
+      "reach": 40,
+      "destination": 55
+    },
+    "reach": "Covered widely in bodybuilding press through 2025-2026; gym's own social reach not independently verified this pass",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Ironberg (São Paulo)",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "who": "A 24-hour flagship of Brazil's Ironberg chain, self-described as Latin America's largest bodybuilding training center.",
+    "why": "Anchors Brazil's large, IFBB-heavy bodybuilding scene inside one of the region's biggest and busiest training floors.",
+    "factors": {
+      "legacy": 55,
+      "talent": 50,
+      "facility": 75,
+      "community": 65,
+      "reach": 60,
+      "destination": 55
+    },
+    "reach": "IG 150K (verified 2026-08, @ironberg_sp)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/ironberg_sp"
+    },
+    "warning": null
+  },
+  {
+    "name": "FIBRA MAX",
+    "segment": "Bodybuilding Meccas",
+    "tier": "independent",
+    "city": "Barcelona",
+    "country": "Spain",
+    "who": "\"The Athletes' Factory,\" billed as the largest weight-training gym in Europe, opened in 2024 with 400-plus machines and dumbbells.",
+    "why": "A new-generation European mega-gym putting Spain on the map for large-scale strength and physique training.",
+    "factors": {
+      "legacy": 30,
+      "talent": 40,
+      "facility": 90,
+      "community": 55,
+      "reach": 45,
+      "destination": 65
+    },
+    "reach": "Described in press as Europe's largest weight-training gym; follower count not independently verified this pass",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "World Gym (Venice)",
+    "segment": "Bodybuilding Meccas",
+    "tier": "chain-flagship",
+    "city": "Venice, California",
+    "country": "US",
+    "who": "Joe Gold's second Venice gym, founded in 1976 after he sold the original Gold's Gym, since relocated within Venice.",
+    "why": "The historic rival mecca to Gold's Gym Venice, once home to Arnold Schwarzenegger, Lou Ferrigno, and the golden-era crew, and the root of the worldwide World Gym chain.",
+    "factors": {
+      "legacy": 85,
+      "talent": 35,
+      "facility": 55,
+      "community": 60,
+      "reach": 35,
+      "destination": 60
+    },
+    "reach": "Relocated within Venice; current location's follower count not independently verified this pass",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  }
+]

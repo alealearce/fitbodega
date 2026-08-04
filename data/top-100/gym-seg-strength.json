@@ -1,0 +1,379 @@
+[
+  {
+    "name": "Westside Barbell",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Columbus, Ohio",
+    "country": "US",
+    "who": "Private, invite-only powerlifting gym founded by Louie Simmons, birthplace of the Conjugate Method.",
+    "why": "Produced more elite raw and equipped powerlifting world records than any gym in history; the sport's acknowledged mecca.",
+    "factors": {
+      "legacy": 96,
+      "talent": 82,
+      "facility": 85,
+      "community": 92,
+      "reach": 70,
+      "destination": 88
+    },
+    "reach": "IG 379K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://www.instagram.com/westsidebarbellofficial/"
+    },
+    "warning": null
+  },
+  {
+    "name": "EliteFTS Compound",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "London, Ohio",
+    "country": "US",
+    "who": "Dave Tate's training compound and equipment-company headquarters, the other pole of American powerlifting alongside Westside.",
+    "why": "Decades of educational content, sponsored lifters, and the elitefts media machine make it a reference point for the whole strength-training industry.",
+    "factors": {
+      "legacy": 85,
+      "talent": 68,
+      "facility": 82,
+      "community": 75,
+      "reach": 65,
+      "destination": 65
+    },
+    "reach": "IG 293K on Dave Tate's @underthebar (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.elitefts.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/underthebar/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Untamed Strength",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Sacramento, California",
+    "country": "US",
+    "who": "Alan Thrall's strongman/powerlifting gym in Sacramento, built around raw barbell training and heavy YouTube documentation.",
+    "why": "Thrall's instructional videos turned an ordinary local gym into one of the most-watched strength channels in the world.",
+    "factors": {
+      "legacy": 50,
+      "talent": 50,
+      "facility": 58,
+      "community": 75,
+      "reach": 60,
+      "destination": 50
+    },
+    "reach": "IG 187K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.trainuntamed.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/untamedstrength/",
+      "youtube": "https://www.youtube.com/alanthrall"
+    },
+    "warning": null
+  },
+  {
+    "name": "Boss Barbell Club",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Mountain View, California",
+    "country": "US",
+    "who": "Powerlifting-focused gym in Silicon Valley owned and coached day-to-day by 10x world-record raw powerlifter Dan Green.",
+    "why": "One of the few US gyms run hands-on by an active elite competitor; the anchor of the Northern California powerlifting scene.",
+    "factors": {
+      "legacy": 55,
+      "talent": 72,
+      "facility": 62,
+      "community": 68,
+      "reach": 42,
+      "destination": 52
+    },
+    "reach": "IG 37K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.bossbarbell.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/bossbarbellclub/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Barbell Brigade",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Los Angeles, California",
+    "country": "US",
+    "who": "5,500 sq ft powerlifting and strength-sports gym in downtown LA with 16 squat racks, 11 benches, and its own apparel/media brand.",
+    "why": "Hosts USAPL and USPA meets on-site and built one of the largest powerlifting-apparel followings out of a single physical gym.",
+    "factors": {
+      "legacy": 42,
+      "talent": 55,
+      "facility": 68,
+      "community": 68,
+      "reach": 60,
+      "destination": 52
+    },
+    "reach": "IG 229K brand / 24K gym account (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://barbellbrigade.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/barbellbrigadegym/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Allegiate Gym",
+    "segment": "Strength & Powerlifting",
+    "tier": "chain-flagship",
+    "city": "Los Angeles, California (Century City / Santa Monica)",
+    "country": "US",
+    "who": "High-end strength & conditioning studio group founded by former Army West Point strength coach Tim Caron, floors equipped with Eleiko, Sorinex, and Kabuki gear.",
+    "why": "Brings Division-1-level programming and force-plate testing tech (GymAware, ForceDecks, NordBord) into a boutique-membership model.",
+    "factors": {
+      "legacy": 32,
+      "talent": 42,
+      "facility": 78,
+      "community": 52,
+      "reach": 28,
+      "destination": 32
+    },
+    "reach": "IG 8.3K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.allegiategym.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/allegiategym/"
+    },
+    "warning": null
+  },
+  {
+    "name": "California Strength",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "San Ramon, California",
+    "country": "US",
+    "who": "Olympic weightlifting gym and coaching program, one of the longest-running dedicated weightlifting clubs in the US.",
+    "why": "Coached multiple national-level weightlifters over nearly two decades and remains a reference program for USAW-style training.",
+    "factors": {
+      "legacy": 62,
+      "talent": 55,
+      "facility": 58,
+      "community": 58,
+      "reach": 55,
+      "destination": 48
+    },
+    "reach": "IG 123K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.californiastrength.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/cal_strength/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Hybrid Performance Method Gym",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Miami, Florida (Wynwood)",
+    "country": "US",
+    "who": "24-hour private strength facility in Wynwood built for powerlifting, Olympic weightlifting, strongman and combat conditioning, home to Team HYBRID.",
+    "why": "Founder Hayden Bowe's training app and podcast audience funnels a large online following toward one physical floor.",
+    "factors": {
+      "legacy": 34,
+      "talent": 50,
+      "facility": 68,
+      "community": 60,
+      "reach": 55,
+      "destination": 42
+    },
+    "reach": "IG 173K brand / 18K gym account (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.hybridperformancemethod.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/hybridperformancemethodgym/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Sorinex Strength Compound",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Lexington, South Carolina",
+    "country": "US",
+    "who": "Manufacturing headquarters and private training facility of Sorinex, the strength-equipment maker used by NFL, NBA and major college athletic departments.",
+    "why": "World-unique showroom/training floor that visiting college strength coaches and pro athletes treat as a pilgrimage stop for equipment and technique.",
+    "factors": {
+      "legacy": 55,
+      "talent": 60,
+      "facility": 92,
+      "community": 42,
+      "reach": 55,
+      "destination": 50
+    },
+    "reach": "IG 164K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.sorinex.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/sorinex/"
+    },
+    "warning": null
+  },
+  {
+    "name": "American Iron Gym",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Reno, Nevada",
+    "country": "US",
+    "who": "Powerlifting and Olympic weightlifting gym owned by Bob and Tammy Lopes, running for over three decades.",
+    "why": "One of Nevada's oldest dedicated barbell-sport gyms, a regional institution for USAPL and USAW lifters.",
+    "factors": {
+      "legacy": 55,
+      "talent": 38,
+      "facility": 50,
+      "community": 55,
+      "reach": 30,
+      "destination": 32
+    },
+    "reach": "presence confirmed, follower count not verified this session (2026-08)",
+    "reachVerified": false,
+    "website": "https://american-iron.com",
+    "handles": {
+      "instagram": "https://www.instagram.com/americanirongym/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Thor's Power Gym",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Kopavogur",
+    "country": "Iceland",
+    "who": "Strongman gym built by Hafthor Bjornsson ('The Mountain'), fitted with equipment custom-made by Rogue Fitness for his own training.",
+    "why": "A genuine pilgrimage stop for strongman tourists in Iceland, doubling as a small museum of Bjornsson's world-record lifts and trophies.",
+    "factors": {
+      "legacy": 65,
+      "talent": 68,
+      "facility": 75,
+      "community": 52,
+      "reach": 60,
+      "destination": 78
+    },
+    "reach": "IG 152K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://www.instagram.com/thorspowergym/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Strength Asylum",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Stoke-on-Trent",
+    "country": "UK",
+    "who": "13,500 sq ft bodybuilding/strongman gym in Stoke-on-Trent, training base of former World's Strongest Man Eddie Hall.",
+    "why": "One of the best-known strongman gyms in the UK; Eddie Hall's decade-long membership put it on the map internationally.",
+    "factors": {
+      "legacy": 58,
+      "talent": 65,
+      "facility": 65,
+      "community": 65,
+      "reach": 38,
+      "destination": 50
+    },
+    "reach": "IG 26K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.strengthasylum.co.uk",
+    "handles": {
+      "instagram": "https://www.instagram.com/strengthasylum/"
+    },
+    "warning": null
+  },
+  {
+    "name": "Metroflex Gym",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Arlington, Texas",
+    "country": "US",
+    "who": "Hardcore gym owned by Brian Dobson, best known as Ronnie Coleman's early training base and a long-running hub for elite raw squatters and deadlifters.",
+    "why": "Straddles bodybuilding and powerlifting history; few gyms have produced this concentration of world-record lifts under one roof.",
+    "factors": {
+      "legacy": 78,
+      "talent": 65,
+      "facility": 55,
+      "community": 78,
+      "reach": 50,
+      "destination": 58
+    },
+    "reach": "follower count not verified this session (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Underground Strength Gym",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Manasquan, New Jersey",
+    "country": "US",
+    "who": "Zach Even-Esh's strength gym for athletes, built on old-school barbell, sandbag and kettlebell training rather than machines.",
+    "why": "Its coaching methodology and long-running content library shaped a generation of high-school and college strength coaches.",
+    "factors": {
+      "legacy": 52,
+      "talent": 42,
+      "facility": 45,
+      "community": 65,
+      "reach": 42,
+      "destination": 34
+    },
+    "reach": "follower count not verified this session (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Doherty's Gym",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Melbourne",
+    "country": "Australia",
+    "who": "Old-school, multi-generation strength and bodybuilding gym, one of Australia's longest-running hardcore gyms.",
+    "why": "A rare surviving link to Australia's early powerlifting and strongman scene, still run as a no-frills barbell gym.",
+    "factors": {
+      "legacy": 62,
+      "talent": 38,
+      "facility": 42,
+      "community": 62,
+      "reach": 28,
+      "destination": 32
+    },
+    "reach": "follower count not verified this session (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Shaw Strength and Conditioning",
+    "segment": "Strength & Powerlifting",
+    "tier": "independent",
+    "city": "Colorado",
+    "country": "US",
+    "who": "Training facility and brand built by four-time World's Strongest Man Brian Shaw for strongman-style training.",
+    "why": "One of the few facilities purpose-built around a reigning WSM champion's own equipment and programming.",
+    "factors": {
+      "legacy": 58,
+      "talent": 68,
+      "facility": 58,
+      "community": 48,
+      "reach": 42,
+      "destination": 42
+    },
+    "reach": "follower count not verified this session (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  }
+]

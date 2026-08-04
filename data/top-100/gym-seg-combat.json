@@ -1,0 +1,548 @@
+[
+  {
+    "name": "American Kickboxing Academy (AKA)",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "San Jose, California",
+    "country": "US",
+    "who": "Wrestling-and-striking MMA gym in San Jose, co-founded by Javier Mendez.",
+    "why": "Produced multiple UFC champions (Cain Velasquez, Daniel Cormier) and hosted Khabib Nurmagomedov's fight camps.",
+    "factors": {
+      "legacy": 85,
+      "talent": 85,
+      "facility": 70,
+      "community": 85,
+      "reach": 55,
+      "destination": 75
+    },
+    "reach": "IG 202K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.americankickboxingacademy.com/",
+    "handles": {
+      "instagram": "https://instagram.com/americankickboxingacademy"
+    },
+    "warning": null
+  },
+  {
+    "name": "American Top Team",
+    "segment": "Combat & Performance",
+    "tier": "chain-flagship",
+    "city": "Coconut Creek, Florida",
+    "country": "US",
+    "who": "Large MMA super-team headquarters with dozens of pro fighters training under one roof.",
+    "why": "Produced numerous UFC and Bellator champions since 2001; a repeat MMA Gym of the Year winner.",
+    "factors": {
+      "legacy": 90,
+      "talent": 88,
+      "facility": 85,
+      "community": 80,
+      "reach": 60,
+      "destination": 80
+    },
+    "reach": "IG 349K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://americantopteam.com/",
+    "handles": {
+      "instagram": "https://instagram.com/americantopteam"
+    },
+    "warning": null
+  },
+  {
+    "name": "Kill Cliff FC",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Deerfield Beach, Florida",
+    "country": "US",
+    "who": "South Florida MMA team, formerly the Blackzilians, Hard Knocks 365, and Sanford MMA.",
+    "why": "Home to UFC standouts Michael Chandler, Gilbert Burns, and Robbie Lawler after several rebrands.",
+    "factors": {
+      "legacy": 65,
+      "talent": 75,
+      "facility": 75,
+      "community": 65,
+      "reach": 42,
+      "destination": 55
+    },
+    "reach": "IG ~50K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": "Renamed several times (Blackzilians, Hard Knocks 365, Sanford MMA, then Kill Cliff FC in 2022)."
+  },
+  {
+    "name": "Tiger Muay Thai & MMA Training Camp",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Phuket",
+    "country": "TH",
+    "who": "Large international training camp offering Muay Thai, MMA, and BJJ to thousands of visiting fighters yearly.",
+    "why": "A global bucket-list combat-sports destination, with a training population and social reach far beyond any single team.",
+    "factors": {
+      "legacy": 80,
+      "talent": 65,
+      "facility": 85,
+      "community": 80,
+      "reach": 78,
+      "destination": 90
+    },
+    "reach": "IG 924K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.tigermuaythai.com/",
+    "handles": {
+      "instagram": "https://instagram.com/tigermuaythai"
+    },
+    "warning": null
+  },
+  {
+    "name": "Jackson Wink MMA Academy",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Albuquerque, New Mexico",
+    "country": "US",
+    "who": "MMA academy co-founded by coaches Greg Jackson and Mike Winkeljohn.",
+    "why": "Trained Jon Jones and Holly Holm among many champions; a pilgrimage stop for serious strikers and grapplers.",
+    "factors": {
+      "legacy": 88,
+      "talent": 85,
+      "facility": 70,
+      "community": 75,
+      "reach": 55,
+      "destination": 78
+    },
+    "reach": "IG 184K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://jacksonwink.com/",
+    "handles": {
+      "instagram": "https://instagram.com/jacksonwink_mma"
+    },
+    "warning": null
+  },
+  {
+    "name": "Renzo Gracie Academy",
+    "segment": "Combat & Performance",
+    "tier": "chain-flagship",
+    "city": "New York, New York",
+    "country": "US",
+    "who": "Historic Brazilian Jiu-Jitsu and MMA academy in Manhattan founded by Renzo Gracie.",
+    "why": "One of the founding academies of the US BJJ and MMA boom; produced champions in both grappling and the cage.",
+    "factors": {
+      "legacy": 90,
+      "talent": 70,
+      "facility": 60,
+      "community": 85,
+      "reach": 50,
+      "destination": 80
+    },
+    "reach": "IG 100K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://renzogracieacademy.com/",
+    "handles": {
+      "instagram": "https://instagram.com/renzogracieacademy"
+    },
+    "warning": null
+  },
+  {
+    "name": "Alliance Jiu-Jitsu San Diego",
+    "segment": "Combat & Performance",
+    "tier": "chain-flagship",
+    "city": "San Diego, California",
+    "country": "US",
+    "who": "San Diego branch of Alliance Jiu-Jitsu, one of the most decorated BJJ organizations in the world.",
+    "why": "Alliance has won more IBJJF World titles than any other team, and the San Diego room trains competitive black belts.",
+    "factors": {
+      "legacy": 75,
+      "talent": 70,
+      "facility": 55,
+      "community": 75,
+      "reach": 35,
+      "destination": 60
+    },
+    "reach": "IG 17K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/alliancebjjsandiego"
+    },
+    "warning": null
+  },
+  {
+    "name": "Art of Jiu-Jitsu (AOJ)",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Costa Mesa, California",
+    "country": "US",
+    "who": "Competition-focused BJJ academy founded by Rafael and Guilherme Mendes.",
+    "why": "Produces a steady stream of IBJJF and ADCC world champions and draws competitive grapplers worldwide.",
+    "factors": {
+      "legacy": 78,
+      "talent": 82,
+      "facility": 65,
+      "community": 82,
+      "reach": 60,
+      "destination": 78
+    },
+    "reach": "IG 351K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/artofjiujitsu"
+    },
+    "warning": null
+  },
+  {
+    "name": "B-Team Jiu-Jitsu",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Austin, Texas",
+    "country": "US",
+    "who": "Austin no-gi grappling team founded in 2021 by former members of the Danaher Death Squad.",
+    "why": "Built a large online following around elite no-gi grappling and continues to produce top ADCC competitors.",
+    "factors": {
+      "legacy": 55,
+      "talent": 80,
+      "facility": 60,
+      "community": 78,
+      "reach": 42,
+      "destination": 65
+    },
+    "reach": "IG 45K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://bteamjj.com/",
+    "handles": {
+      "instagram": "https://instagram.com/bteamjj"
+    },
+    "warning": "Founding roster has shifted since 2021 as some members split off to form separate teams."
+  },
+  {
+    "name": "Straight Blast Gym Ireland",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Dublin",
+    "country": "IE",
+    "who": "Dublin MMA academy led by coach John Kavanagh, hub of the SBG international affiliate network.",
+    "why": "Developed Conor McGregor from teenager to two-division UFC champion, making it a global MMA pilgrimage site.",
+    "factors": {
+      "legacy": 75,
+      "talent": 65,
+      "facility": 55,
+      "community": 80,
+      "reach": 48,
+      "destination": 80
+    },
+    "reach": "IG 76K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/sbgireland"
+    },
+    "warning": null
+  },
+  {
+    "name": "Mike's Gym",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Amsterdam (Oostzaan)",
+    "country": "NL",
+    "who": "Dutch kickboxing gym near Amsterdam led by trainer Michael \"Big Mike\" Passenier.",
+    "why": "Produced Glory kickboxing champions such as Murthel Groenhart and Joerie Mes, a hub of Dutch kickboxing.",
+    "factors": {
+      "legacy": 70,
+      "talent": 65,
+      "facility": 50,
+      "community": 70,
+      "reach": 40,
+      "destination": 55
+    },
+    "reach": "IG 28K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://mikesgym.com/",
+    "handles": {
+      "instagram": "https://instagram.com/officialmikesgymone01"
+    },
+    "warning": null
+  },
+  {
+    "name": "Evolve MMA",
+    "segment": "Combat & Performance",
+    "tier": "chain-flagship",
+    "city": "Singapore",
+    "country": "SG",
+    "who": "Asia's largest MMA academy network, headquartered in Singapore across multiple branded locations.",
+    "why": "Trained numerous ONE Championship world champions; the default combat-sports stop for visitors to Southeast Asia.",
+    "factors": {
+      "legacy": 65,
+      "talent": 70,
+      "facility": 75,
+      "community": 65,
+      "reach": 53,
+      "destination": 70
+    },
+    "reach": "IG 148K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://evolve-mma.com/",
+    "handles": {
+      "instagram": "https://instagram.com/evolvemma"
+    },
+    "warning": null
+  },
+  {
+    "name": "Wild Card Boxing Club",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Hollywood, California",
+    "country": "US",
+    "who": "Small, famously no-frills second-floor boxing gym in Hollywood run by trainer Freddie Roach.",
+    "why": "Trained Manny Pacquiao to multiple world titles; open 365 days a year and a bucket-list stop for boxing fans.",
+    "factors": {
+      "legacy": 92,
+      "talent": 78,
+      "facility": 40,
+      "community": 88,
+      "reach": 50,
+      "destination": 88
+    },
+    "reach": "IG 94K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://wildcardboxing.com/",
+    "handles": {
+      "instagram": "https://instagram.com/wildcardboxingclub"
+    },
+    "warning": null
+  },
+  {
+    "name": "Gleason's Gym",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Brooklyn, New York",
+    "country": "US",
+    "who": "The oldest active boxing gym in the United States, operating in Brooklyn since 1937.",
+    "why": "Trained generations of world champions from the Ali era to modern pros; a living museum of boxing history.",
+    "factors": {
+      "legacy": 92,
+      "talent": 60,
+      "facility": 45,
+      "community": 80,
+      "reach": 40,
+      "destination": 75
+    },
+    "reach": "IG 37K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.gleasonsgym.com/",
+    "handles": {
+      "instagram": "https://instagram.com/gleasonsgym"
+    },
+    "warning": null
+  },
+  {
+    "name": "Mayweather Boxing Club",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Las Vegas, Nevada",
+    "country": "US",
+    "who": "Floyd Mayweather's private boxing gym and training center in Las Vegas.",
+    "why": "Where the undefeated five-division champion trained and still mentors fighters; a stop for boxing tourists in Vegas.",
+    "factors": {
+      "legacy": 70,
+      "talent": 60,
+      "facility": 55,
+      "community": 65,
+      "reach": 32,
+      "destination": 70
+    },
+    "reach": "IG 5.5K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/mayweatherboxinggym"
+    },
+    "warning": null
+  },
+  {
+    "name": "EXOS",
+    "segment": "Combat & Performance",
+    "tier": "chain-flagship",
+    "city": "Phoenix, Arizona",
+    "country": "US",
+    "who": "Human-performance training campus in Phoenix, headquarters of the EXOS athletic performance company.",
+    "why": "Trains NFL Combine prospects and pro athletes across major leagues with sports-science-driven programs.",
+    "factors": {
+      "legacy": 70,
+      "talent": 75,
+      "facility": 80,
+      "community": 55,
+      "reach": 53,
+      "destination": 65
+    },
+    "reach": "IG 116K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.teamexos.com/",
+    "handles": {
+      "instagram": "https://instagram.com/exossports"
+    },
+    "warning": null
+  },
+  {
+    "name": "IMG Academy",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Bradenton, Florida",
+    "country": "US",
+    "who": "Multi-sport boarding-school and training campus in Bradenton, Florida, covering a dozen sports.",
+    "why": "World-unique in scale and facilities; alumni include top tennis, golf, and football pros across five decades.",
+    "factors": {
+      "legacy": 75,
+      "talent": 78,
+      "facility": 92,
+      "community": 60,
+      "reach": 50,
+      "destination": 80
+    },
+    "reach": "IG following split across sport-specific accounts (approx 2026, not independently confirmed)",
+    "reachVerified": false,
+    "website": "https://imgacademy.com/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Kings MMA",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Huntington Beach, California",
+    "country": "US",
+    "who": "Huntington Beach MMA gym led by striking coach Rafael Cordeiro.",
+    "why": "Carries the Chute Boxe striking lineage and has coached Fedor Emelianenko, Anderson Silva, and other elite strikers.",
+    "factors": {
+      "legacy": 80,
+      "talent": 75,
+      "facility": 60,
+      "community": 78,
+      "reach": 53,
+      "destination": 70
+    },
+    "reach": "IG 138K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/kingsmma_hb"
+    },
+    "warning": null
+  },
+  {
+    "name": "Fairtex Training Center",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Pattaya",
+    "country": "TH",
+    "who": "One of Thailand's oldest and most famous Muay Thai training camps.",
+    "why": "Produced generations of Lumpinee and Rajadamnern Stadium champions; a top pilgrimage stop for Muay Thai.",
+    "factors": {
+      "legacy": 82,
+      "talent": 65,
+      "facility": 78,
+      "community": 75,
+      "reach": 55,
+      "destination": 82
+    },
+    "reach": "IG 179K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://fairtextrainingcenter.com/",
+    "handles": {
+      "instagram": "https://instagram.com/fairtextrainingcenter"
+    },
+    "warning": null
+  },
+  {
+    "name": "Team Alpha Male",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Sacramento, California",
+    "country": "US",
+    "who": "Sacramento MMA team founded in 2004 by former UFC champion Urijah Faber.",
+    "why": "Produced three UFC champions (T.J. Dillashaw, Cody Garbrandt, Deiveson Figueiredo) out of one training room.",
+    "factors": {
+      "legacy": 78,
+      "talent": 78,
+      "facility": 55,
+      "community": 78,
+      "reach": 58,
+      "destination": 68
+    },
+    "reach": "IG 246K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/teamalphamalemma"
+    },
+    "warning": null
+  },
+  {
+    "name": "Xtreme Couture MMA",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Las Vegas, Nevada",
+    "country": "US",
+    "who": "Las Vegas MMA gym founded by UFC Hall of Famer Randy Couture, now run by his son Ryan Couture.",
+    "why": "Historic UFC pedigree from the Couture era continues under family ownership, with an open floor for visitors.",
+    "factors": {
+      "legacy": 75,
+      "talent": 55,
+      "facility": 60,
+      "community": 65,
+      "reach": 40,
+      "destination": 60
+    },
+    "reach": "IG ~30K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.xcmma.com/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "P3 Applied Sports Science",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Santa Barbara, California",
+    "country": "US",
+    "who": "Sports-science and athletic-performance lab in Santa Barbara using force plates and 3D motion capture.",
+    "why": "Trusted by a majority of NBA teams and the default stop for pre-draft prospects preparing for the combine.",
+    "factors": {
+      "legacy": 65,
+      "talent": 82,
+      "facility": 88,
+      "community": 50,
+      "reach": 52,
+      "destination": 75
+    },
+    "reach": "IG 110K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.p3.md/",
+    "handles": {
+      "instagram": "https://instagram.com/p3sportscience"
+    },
+    "warning": null
+  },
+  {
+    "name": "Roufusport MMA Academy",
+    "segment": "Combat & Performance",
+    "tier": "independent",
+    "city": "Milwaukee (Wauwatosa), Wisconsin",
+    "country": "US",
+    "who": "Milwaukee-area MMA academy led by striking coach Duke Roufus.",
+    "why": "Produced UFC and Bellator champions Anthony Pettis and Ben Askren under Roufus's striking system.",
+    "factors": {
+      "legacy": 68,
+      "talent": 60,
+      "facility": 50,
+      "community": 65,
+      "reach": 35,
+      "destination": 55
+    },
+    "reach": "IG 18K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://roufusport.com/",
+    "handles": {
+      "instagram": "https://instagram.com/roufusport"
+    },
+    "warning": null
+  }
+]
