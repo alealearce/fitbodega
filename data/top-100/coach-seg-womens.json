@@ -6,12 +6,22 @@
     "country": "AU",
     "who": "Co-founder of Sweat, the global women's fitness app built on her BBG program; sells subscription-based coached training plans across strength, cardio, and postpartum tracks.",
     "why": "Built and scaled the largest women's fitness app in the world, reaching over 30 million subscribers; sold Sweat for a nine-figure sum and later reacquired the business.",
-    "factors": { "coaching": 85, "content": 75, "reach": 85, "credibility": 75, "business": 95, "engagement": 65 },
+    "factors": {
+      "coaching": 85,
+      "content": 75,
+      "reach": 85,
+      "credibility": 75,
+      "business": 95,
+      "engagement": 65
+    },
     "reach": "IG 15.4M · YT 1.5M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://kaylaitsines.com/",
-    "handles": { "instagram": "https://instagram.com/kayla_itsines" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/kayla_itsines"
+    },
+    "warning": null,
+    "takeaway": "Build one signature program, then scale it into a subscription app — the program is the business."
   },
   {
     "name": "Krissy Cela",
@@ -20,11 +30,22 @@
     "country": "GB",
     "who": "Co-founder and lead trainer of EvolveYou (formerly Tone and Sculpt), a strength-training coaching app with structured, personalized programs.",
     "why": "Turned a personal-training background into one of the UK's top women's fitness apps, staying hands-on as lead trainer.",
-    "factors": { "coaching": 65, "content": 70, "reach": 55, "credibility": 60, "business": 75, "engagement": 60 },
+    "factors": {
+      "coaching": 65,
+      "content": 70,
+      "reach": 55,
+      "credibility": 60,
+      "business": 75,
+      "engagement": 60
+    },
     "reach": "IG 3.3M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://krissycela.com/",
-    "handles": { "instagram": "https://instagram.com/krissycela", "app": "https://www.evolveyou.app/" }
+    "handles": {
+      "instagram": "https://instagram.com/krissycela",
+      "app": "https://www.evolveyou.app/"
+    },
+    "takeaway": "Stay hands-on as lead trainer even after scaling — presence keeps the product credible."
   },
   {
     "name": "Caroline Girvan",
@@ -33,12 +54,23 @@
     "country": "GB",
     "who": "Personal trainer and nutritionist behind the free EPIC YouTube programs and the paid CGX app, which sells structured strength programming and nutrition guidance.",
     "why": "One of the most-watched home-workout program creators for women, with a dedicated coaching app extending her free YouTube series into paid, ongoing programming.",
-    "factors": { "coaching": 45, "content": 80, "reach": 75, "credibility": 60, "business": 55, "engagement": 65 },
+    "factors": {
+      "coaching": 45,
+      "content": 80,
+      "reach": 75,
+      "credibility": 60,
+      "business": 55,
+      "engagement": 65
+    },
     "reach": "YT 4M · IG 857K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://carolinegirvan.com/",
-    "handles": { "instagram": "https://instagram.com/carolinegirvan", "youtube": "https://youtube.com/@carolinegirvan" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/carolinegirvan",
+      "youtube": "https://youtube.com/@carolinegirvan"
+    },
+    "warning": null,
+    "takeaway": "Give the workout away free on YouTube, then sell the ongoing structure and progression as the app."
   },
   {
     "name": "Natacha Oceane",
@@ -47,12 +79,22 @@
     "country": "FR",
     "who": "Biophysicist and trainer who sells structured strength/endurance programs, including HYBRID, through the Aflete coaching app.",
     "why": "Rare combination of academic rigor (UCL biophysics, Team GB-linked programming) and a genuine coaching product; content is trusted for scientific accuracy.",
-    "factors": { "coaching": 55, "content": 85, "reach": 60, "credibility": 85, "business": 50, "engagement": 55 },
+    "factors": {
+      "coaching": 55,
+      "content": 85,
+      "reach": 60,
+      "credibility": 85,
+      "business": 50,
+      "engagement": 55
+    },
     "reach": "IG 1M · YT 1.7M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://natachaoceane.com/",
-    "handles": { "instagram": "https://instagram.com/natacha.oceane" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/natacha.oceane"
+    },
+    "warning": null,
+    "takeaway": "Let your academic background back every claim — accuracy is the trust that sells the program."
   },
   {
     "name": "Bret Contreras",
@@ -61,12 +103,22 @@
     "country": "US",
     "who": "PhD biomechanist known as 'The Glute Guy' who sells Booty by Bret, an online strength program for women built from his own client programming.",
     "why": "Inventor of the barbell hip thrust and one of the most credentialed glute-training researchers; his program uses the same workouts he runs with real clients.",
-    "factors": { "coaching": 75, "content": 70, "reach": 55, "credibility": 90, "business": 55, "engagement": 50 },
+    "factors": {
+      "coaching": 75,
+      "content": 70,
+      "reach": 55,
+      "credibility": 90,
+      "business": 55,
+      "engagement": 50
+    },
     "reach": "IG 1.8M personal · 208K program (verified 2026-08)",
     "reachVerified": true,
     "website": "https://bootybybret.com/",
-    "handles": { "instagram": "https://instagram.com/bretcontreras1" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/bretcontreras1"
+    },
+    "warning": null,
+    "takeaway": "Sell the exact program you run with real clients — don't water down what actually works."
   },
   {
     "name": "Senada Greca",
@@ -75,12 +127,22 @@
     "country": "US",
     "who": "Founder of WeRise, an all-in-one women's fitness and wellness app covering strength, Pilates, yoga, nutrition, and cycle-syncing.",
     "why": "Built one of the most-downloaded women's fitness apps in 2026 off a large, highly engaged personal following.",
-    "factors": { "coaching": 55, "content": 65, "reach": 80, "credibility": 55, "business": 70, "engagement": 60 },
+    "factors": {
+      "coaching": 55,
+      "content": 65,
+      "reach": 80,
+      "credibility": 55,
+      "business": 70,
+      "engagement": 60
+    },
     "reach": "IG 7M (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/senada.greca" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/senada.greca"
+    },
+    "warning": null,
+    "takeaway": "Cover the whole picture in one app — strength, nutrition, and cycle-syncing together, not separate products."
   },
   {
     "name": "Kelsey Wells",
@@ -89,12 +151,22 @@
     "country": "US",
     "who": "Sweat global trainer and creator of PWR, a weight-training program for women delivered through the Sweat app.",
     "why": "PWR ranked among Sweat's top three most-downloaded training guides in 2026; built a large following around strength training for women specifically.",
-    "factors": { "coaching": 60, "content": 65, "reach": 60, "credibility": 55, "business": 70, "engagement": 55 },
+    "factors": {
+      "coaching": 60,
+      "content": 65,
+      "reach": 60,
+      "credibility": 55,
+      "business": 70,
+      "engagement": 55
+    },
     "reach": "IG 3M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://sweat.com/trainers/kelsey-wells",
-    "handles": { "instagram": "https://instagram.com/kelseywells" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/kelseywells"
+    },
+    "warning": null,
+    "takeaway": "Own a niche inside a bigger platform — strength training for women became its own top-ranked lane."
   },
   {
     "name": "Alexia Clark",
@@ -103,12 +175,22 @@
     "country": "US",
     "who": "'Queen of Workouts' and founder of the Alexia Clark app, which sells weekly workouts, a nutrition plan, and direct personal support from Alexia.",
     "why": "Built a large, loyal 'QueenTeam' community and a subscription coaching app with genuine 1:1 access, not just templated content.",
-    "factors": { "coaching": 55, "content": 60, "reach": 65, "credibility": 45, "business": 55, "engagement": 60 },
+    "factors": {
+      "coaching": 55,
+      "content": 60,
+      "reach": 65,
+      "credibility": 45,
+      "business": 55,
+      "engagement": 60
+    },
     "reach": "IG 2M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://alexia-clark.com/",
-    "handles": { "instagram": "https://instagram.com/alexia_clark" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/alexia_clark"
+    },
+    "warning": null,
+    "takeaway": "Give the community a name and direct personal access — a loyal 'team' identity keeps subscribers renewing."
   },
   {
     "name": "Meg Squats (Meg Gallagher)",
@@ -117,12 +199,23 @@
     "country": "US",
     "who": "Strength and conditioning coach, founder of Stronger by the Day, a membership lifting program and coaching collective for women.",
     "why": "Has personally coached tens of thousands of strength athletes from their first squat to national-level meets; long-running, community-driven coaching brand rather than a passive content feed.",
-    "factors": { "coaching": 75, "content": 70, "reach": 45, "credibility": 70, "business": 55, "engagement": 70 },
+    "factors": {
+      "coaching": 75,
+      "content": 70,
+      "reach": 45,
+      "credibility": 70,
+      "business": 55,
+      "engagement": 70
+    },
     "reach": "IG 290K · YT 200K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://megsquats.com/",
-    "handles": { "instagram": "https://instagram.com/megsquats", "youtube": "https://youtube.com/@megsquats" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/megsquats",
+      "youtube": "https://youtube.com/@megsquats"
+    },
+    "warning": null,
+    "takeaway": "Build a community members grow inside — from first squat to competition, not a passive feed."
   },
   {
     "name": "Linn Lowes",
@@ -131,12 +224,22 @@
     "country": "SE",
     "who": "Swedish fitness entrepreneur and cancer survivor who founded the Athli App, offering customizable gym and home workout programs plus nutrition plans.",
     "why": "Converted a large personal following into a self-built coaching platform with over 20 workout programs and thousands of recipes.",
-    "factors": { "coaching": 50, "content": 60, "reach": 65, "credibility": 50, "business": 55, "engagement": 55 },
+    "factors": {
+      "coaching": 50,
+      "content": 60,
+      "reach": 65,
+      "credibility": 50,
+      "business": 55,
+      "engagement": 55
+    },
     "reach": "IG 3.4M (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/linnlowes" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/linnlowes"
+    },
+    "warning": null,
+    "takeaway": "Convert a personal story and following into a self-built platform, not someone else's white-label app."
   },
   {
     "name": "Anna Engelschall (growingannanas)",
@@ -145,12 +248,22 @@
     "country": "DE",
     "who": "Certified trainer and former CrossFit coach who founded Grow With Anna, an app with personalized strength, HIIT, and full-body training plans; CEO of The Grow Lifestyle GmbH.",
     "why": "One of the largest women's home-workout YouTube channels, converted into a dedicated coaching-app business.",
-    "factors": { "coaching": 50, "content": 70, "reach": 75, "credibility": 55, "business": 60, "engagement": 55 },
+    "factors": {
+      "coaching": 50,
+      "content": 70,
+      "reach": 75,
+      "credibility": 55,
+      "business": 60,
+      "engagement": 55
+    },
     "reach": "YT 7M · IG 2M (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/growingannanas" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/growingannanas"
+    },
+    "warning": null,
+    "takeaway": "Convert your YouTube audience into a paid app — the channel proves demand before you build."
   },
   {
     "name": "Danyele Wilson",
@@ -159,12 +272,22 @@
     "country": "US",
     "who": "Tone & Sculpt (EvolveYou) HIIT trainer and founder of the SPARC app, combining workouts with mindset training.",
     "why": "Corporate-marketing-turned-fitness-coach whose body-positive coaching and personal story built a devoted, engaged following.",
-    "factors": { "coaching": 50, "content": 55, "reach": 40, "credibility": 45, "business": 45, "engagement": 60 },
+    "factors": {
+      "coaching": 50,
+      "content": 55,
+      "reach": 40,
+      "credibility": 45,
+      "business": 45,
+      "engagement": 60
+    },
     "reach": "IG 511K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/danyelewilson" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/danyelewilson"
+    },
+    "warning": null,
+    "takeaway": "Combine workouts with mindset training and tell your own career-change story to build a devoted following."
   },
   {
     "name": "Brianna Battles",
@@ -173,12 +296,22 @@
     "country": "US",
     "who": "Founder of the Pregnancy & Postpartum Athleticism Coalition (PPAC), running coaching and certification programs for pre/postnatal athletes and the coaches who train them.",
     "why": "Leading voice in pre/postnatal return-to-training coaching, widely cited among strength and CrossFit coaches for a rigorous, athlete-specific framework.",
-    "factors": { "coaching": 70, "content": 60, "reach": 35, "credibility": 65, "business": 45, "engagement": 60 },
+    "factors": {
+      "coaching": 70,
+      "content": 60,
+      "reach": 35,
+      "credibility": 65,
+      "business": 45,
+      "engagement": 60
+    },
     "reach": "IG ~150K (approx, not independently verified this session)",
     "reachVerified": false,
     "website": "https://briannabattles.com/",
-    "handles": { "instagram": "https://instagram.com/briannabattles" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/briannabattles"
+    },
+    "warning": null,
+    "takeaway": "Build a rigorous framework for an underserved population, then certify other coaches to deliver it."
   },
   {
     "name": "Emily Skye",
@@ -187,12 +320,22 @@
     "country": "AU",
     "who": "Founder of the Emily Skye FIT app, selling structured strength and postpartum-inclusive training programs for women.",
     "why": "One of the earliest fitness-app founders in this space, with a large, long-standing global following built well before the current wave of coaching apps.",
-    "factors": { "coaching": 55, "content": 55, "reach": 65, "credibility": 50, "business": 55, "engagement": 50 },
+    "factors": {
+      "coaching": 55,
+      "content": 55,
+      "reach": 65,
+      "credibility": 50,
+      "business": 55,
+      "engagement": 50
+    },
     "reach": "IG ~2.8M (approx, not independently verified this session)",
     "reachVerified": false,
     "website": "https://emilyskyefit.com/",
-    "handles": { "instagram": "https://instagram.com/emilyskye" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/emilyskye"
+    },
+    "warning": null,
+    "takeaway": "Move early into app-based coaching — being first in a niche builds a following that lasts."
   },
   {
     "name": "Massy Arias",
@@ -201,12 +344,22 @@
     "country": "US",
     "who": "Personal trainer and mental-health advocate running her own online coaching programs for women.",
     "why": "Known for pairing strength coaching with mental-health advocacy, building a highly engaged, mission-driven community rather than a purely aesthetic following.",
-    "factors": { "coaching": 55, "content": 55, "reach": 55, "credibility": 50, "business": 45, "engagement": 60 },
+    "factors": {
+      "coaching": 55,
+      "content": 55,
+      "reach": 55,
+      "credibility": 50,
+      "business": 45,
+      "engagement": 60
+    },
     "reach": "IG ~1.8M (approx, not independently verified this session)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/massy.arias" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/massy.arias"
+    },
+    "warning": null,
+    "takeaway": "Pair strength coaching with mental-health advocacy — a mission-driven community engages deeper than aesthetics."
   },
   {
     "name": "Cassey Ho (Blogilates)",
@@ -215,12 +368,23 @@
     "country": "US",
     "who": "Founder of Blogilates and its companion training app, plus POPFLEX activewear; sells structured Pilates-based workout programs and calendars.",
     "why": "Built one of the largest women's fitness media-and-coaching businesses from POP Pilates, with a decade-plus, highly engaged following.",
-    "factors": { "coaching": 45, "content": 80, "reach": 85, "credibility": 55, "business": 80, "engagement": 65 },
+    "factors": {
+      "coaching": 45,
+      "content": 80,
+      "reach": 85,
+      "credibility": 55,
+      "business": 80,
+      "engagement": 65
+    },
     "reach": "YT 5.9M · IG 2M+ (approx, not independently verified this session)",
     "reachVerified": false,
     "website": "https://www.blogilates.com/",
-    "handles": { "instagram": "https://instagram.com/blogilates", "youtube": "https://youtube.com/@blogilates" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/blogilates",
+      "youtube": "https://youtube.com/@blogilates"
+    },
+    "warning": null,
+    "takeaway": "Stay consistent for a decade — a single format repeated builds a loyal, decade-long following."
   },
   {
     "name": "Stefi Cohen",
@@ -229,12 +393,22 @@
     "country": "US",
     "who": "Doctor of physical therapy, world-record powerlifter, and co-founder of Hybrid Performance Method (HPM), a large team-based online coaching business.",
     "why": "Elite competitive record (multiple all-time world records) paired with a scaled coaching team; a rare combination of athletic and clinical credibility.",
-    "factors": { "coaching": 75, "content": 60, "reach": 55, "credibility": 90, "business": 65, "engagement": 55 },
+    "factors": {
+      "coaching": 75,
+      "content": 60,
+      "reach": 55,
+      "credibility": 90,
+      "business": 65,
+      "engagement": 55
+    },
     "reach": "IG ~1.5M (approx, not independently verified this session)",
     "reachVerified": false,
     "website": "https://hybridperformancemethod.com/",
-    "handles": { "instagram": "https://instagram.com/steficohen" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/steficohen"
+    },
+    "warning": null,
+    "takeaway": "Combine clinical training with athletic proof — credentials and competition results reinforce each other."
   },
   {
     "name": "Amanda Bucci",
@@ -243,11 +417,21 @@
     "country": "US",
     "who": "Certified nutrition and fitness coach running Bucci Fit, an online 1:1 and group coaching business for women.",
     "why": "Solo coach with a thriving, personality-driven brand blending nutrition coaching, business content, and fitness.",
-    "factors": { "coaching": 55, "content": 55, "reach": 35, "credibility": 50, "business": 40, "engagement": 55 },
+    "factors": {
+      "coaching": 55,
+      "content": 55,
+      "reach": 35,
+      "credibility": 50,
+      "business": 40,
+      "engagement": 55
+    },
     "reach": "IG ~700K (approx, not independently verified this session)",
     "reachVerified": false,
     "website": "https://buccifit.com/",
-    "handles": { "instagram": "https://instagram.com/amandabucci" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/amandabucci"
+    },
+    "warning": null,
+    "takeaway": "Blend business content with fitness coaching — a personality-driven brand can serve more than one interest."
   }
 ]

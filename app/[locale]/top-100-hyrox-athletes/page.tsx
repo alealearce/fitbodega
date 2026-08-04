@@ -7,12 +7,11 @@ import {
   TrendingUp,
   Globe,
   History,
-  ChevronRight,
-  AlertTriangle,
   type LucideIcon,
 } from "lucide-react";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import SeriesLinks from "@/components/top100/SeriesLinks";
+import Top100Ledger, { type LedgerEntry } from "@/components/top100/Ledger";
 import data from "@/data/top-100/hyrox.json";
 
 const WEIGHT_ICONS: Record<string, LucideIcon> = {
@@ -22,15 +21,6 @@ const WEIGHT_ICONS: Record<string, LucideIcon> = {
   momentum: TrendingUp,
   crossover: Globe,
   longevity: History,
-};
-
-const HANDLE_LABELS: Record<string, string> = {
-  instagram: "Instagram",
-  youtube: "YouTube",
-  tiktok: "TikTok",
-  x: "X",
-  podcast: "Podcast",
-  strava: "Strava",
 };
 
 const PAGE_TITLE = "Top 100 Hyrox Athletes to Follow 2026";
@@ -52,22 +42,7 @@ export const metadata: Metadata = {
   },
 };
 
-type Handles = Record<string, string>;
-type Entry = {
-  rank: number;
-  name: string;
-  segment: string;
-  tier: string;
-  country?: string;
-  score: number;
-  who: string;
-  why: string;
-  reach?: string;
-  warning?: string | null;
-  website?: string | null;
-  handles?: Handles;
-};
-type Bubbling = Omit<Entry, "rank">;
+type Bubbling = Omit<LedgerEntry, "rank">;
 type Meta = {
   title: string;
   subtitle: string;
@@ -78,14 +53,9 @@ type Meta = {
   scoreModel: { name: string; gate: string; weights: Record<string, number>; notes: string };
 };
 
-function handleHref(kind: string, val: string): string | null {
-  if (kind === "podcast") return val.startsWith("http") ? val : null;
-  return val;
-}
-
 export default function Top100HyroxAthletesPage() {
   const meta = data.meta as unknown as Meta;
-  const entries = data.entries as unknown as Entry[];
+  const entries = data.entries as unknown as LedgerEntry[];
   const bubbling = (data.bubblingUnder ?? []) as unknown as Bubbling[];
   const weights = meta.scoreModel.weights;
 
@@ -102,83 +72,6 @@ export default function Top100HyroxAthletesPage() {
       ...(e.website ? { url: e.website } : {}),
     })),
   };
-
-  const renderRow = (e: Entry) => (
-    <details key={e.rank} className="group">
-      <summary className="list-none [&::-webkit-details-marker]:hidden cursor-pointer select-none flex items-baseline gap-4 lg:gap-6 py-5 px-6 lg:px-8 -mx-6 lg:-mx-8 hover:bg-surface-low transition-colors duration-300">
-        <span className="font-sans text-label-sm text-on-surface-variant w-8 flex-shrink-0 tabular-nums">
-          {String(e.rank).padStart(3, "0")}
-        </span>
-        <span className="min-w-0 flex-1 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-          <h3 className="inline font-serif text-lg lg:text-2xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
-            {e.name}
-          </h3>
-          <span className="hidden sm:inline font-sans text-label-sm uppercase text-on-surface-variant">
-            {e.segment}
-          </span>
-          {e.tier === "creator" && (
-            <span className="font-sans text-label-sm uppercase text-primary">Creator</span>
-          )}
-        </span>
-        <span
-          className="flex-shrink-0 font-sans text-base lg:text-lg font-bold tabular-nums text-primary"
-          title={meta.scoreModel.name}
-        >
-          {e.score}
-        </span>
-        <ChevronRight
-          size={16}
-          className="flex-shrink-0 self-center text-outline-variant transition-transform duration-300 group-open:rotate-90"
-          aria-hidden
-        />
-      </summary>
-      <div className="pb-8 pt-1 pl-12 lg:pl-14 pr-2 max-w-3xl">
-        <div className="sm:hidden mb-2">
-          <span className="font-sans text-label-sm uppercase text-on-surface-variant">{e.segment}</span>
-        </div>
-        <p className="font-sans text-base text-on-surface mb-1">{e.who}</p>
-        <p className="font-sans text-sm text-on-surface-variant italic mb-3">{e.why}</p>
-        {e.warning && (
-          <p className="font-sans text-sm text-on-surface bg-surface-input px-4 py-3 mb-4 flex items-start gap-2">
-            <AlertTriangle size={14} className="flex-shrink-0 mt-1 text-error" aria-hidden />
-            {e.warning}
-          </p>
-        )}
-        <div className="flex flex-wrap gap-x-5 gap-y-1.5 font-sans text-sm">
-          {e.website && (
-            <a
-              href={e.website}
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              className="text-on-surface font-medium hover:text-primary transition-colors"
-            >
-              Website
-            </a>
-          )}
-          {Object.entries(e.handles ?? {}).map(([kind, val]) => {
-            const href = handleHref(kind, val);
-            const label = HANDLE_LABELS[kind] ?? kind;
-            return href ? (
-              <a
-                key={kind}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                className="text-on-surface hover:text-primary transition-colors"
-              >
-                {label}
-              </a>
-            ) : (
-              <span key={kind} className="text-on-surface-variant">
-                {label}: {val}
-              </span>
-            );
-          })}
-          {e.reach && <span className="text-on-surface-variant">{e.reach}</span>}
-        </div>
-      </div>
-    </details>
-  );
 
   return (
     <main className="bg-bg">
@@ -253,7 +146,14 @@ export default function Top100HyroxAthletesPage() {
             <p className="font-sans text-label-md uppercase text-primary">The ranking</p>
           </div>
           <h2 className="font-serif text-display-md uppercase text-on-surface mb-14">The 100</h2>
-          <div>{entries.map(renderRow)}</div>
+          <Top100Ledger
+            entries={entries}
+            config={{
+              scoreName: meta.scoreModel.name,
+              kicker: "Steal this",
+              tierChips: { creator: "Creator" },
+            }}
+          />
         </div>
       </section>
 

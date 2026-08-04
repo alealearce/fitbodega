@@ -172,7 +172,7 @@ export default async function HomePage() {
               </h2>
               <p className="font-sans text-base text-on-surface-variant mt-5 max-w-sm">
                 Seven categories, one standard. Every space in the network is reviewed before it
-                lists — curated, not crawled.
+                lists.
               </p>
               <Link
                 href="/search"
@@ -235,8 +235,7 @@ export default async function HomePage() {
                 The FitBodega 100
               </h2>
               <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
-                Nine world rankings, one scoring system. The people, places, and spaces that
-                define training culture.
+                The people, places, and spaces that define training culture.
               </p>
             </div>
             <Link

@@ -6,12 +6,22 @@
     "country": "UK",
     "who": "RD, PhD (King's College London); founder and director of The Gut Health Clinic (London and Manchester) and research fellow at King's.",
     "why": "Runs a real gut-health clinic and an active research fellowship at the same time, with published work (50+ papers) underpinning a large public-education platform.",
-    "factors": { "credibility": 88, "practice": 75, "content": 85, "reach": 65, "impact": 75, "consistency": 70 },
+    "factors": {
+      "credibility": 88,
+      "practice": 75,
+      "content": 85,
+      "reach": 65,
+      "impact": 75,
+      "consistency": 70
+    },
     "reach": "IG approx 600K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://theguthealthdoctor.com",
-    "handles": { "podcast": "The Gut Health Doctor Podcast" },
-    "warning": null
+    "handles": {
+      "podcast": "The Gut Health Doctor Podcast"
+    },
+    "warning": null,
+    "takeaway": "Treat gut symptoms with a real clinical plan, not with a generic wellness gut-health trend."
   },
   {
     "name": "Emily Leeming",
@@ -20,12 +30,20 @@
     "country": "UK",
     "who": "RD, PhD; nutrition scientist at King's College London, author of Genius Gut (2024).",
     "why": "Translates King's/ZOE gut-microbiome cohort research into clinical dietetic guidance, a newer but credentialed voice in the gut-health space.",
-    "factors": { "credibility": 76, "practice": 50, "content": 62, "reach": 32, "impact": 50, "consistency": 40 },
+    "factors": {
+      "credibility": 76,
+      "practice": 50,
+      "content": 62,
+      "reach": 32,
+      "impact": 50,
+      "consistency": 40
+    },
     "reach": "approx under 40K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://www.emilyleeming.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Pay attention to fiber and plant-food diversity as daily inputs to your gut microbiome."
   },
   {
     "name": "Will Bulsiewicz",
@@ -34,12 +52,20 @@
     "country": "US",
     "who": "MD; dual board-certified in internal medicine and gastroenterology; US Medical Director at ZOE personalized-nutrition platform.",
     "why": "A practicing GI physician, not a self-taught influencer, whose Fiber Fueled work reset mainstream fiber and gut-health messaging at mass scale.",
-    "factors": { "credibility": 85, "practice": 55, "content": 88, "reach": 68, "impact": 80, "consistency": 60 },
+    "factors": {
+      "credibility": 85,
+      "practice": 55,
+      "content": 88,
+      "reach": 68,
+      "impact": 80,
+      "consistency": 60
+    },
     "reach": "IG approx 700K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://theguthealthmd.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Build meals around fiber-rich plants first, to feed the gut microbes that keep you healthy."
   },
   {
     "name": "Kelly Jones",
@@ -48,12 +74,20 @@
     "country": "US",
     "who": "RD, CSSD; sports dietitian in private practice (Student Athlete Nutrition), regular contributor to Runner's World and other outlets.",
     "why": "Working clinical sports dietitian whose one-on-one athlete practice feeds a long-running national nutrition-journalism byline.",
-    "factors": { "credibility": 58, "practice": 60, "content": 60, "reach": 30, "impact": 42, "consistency": 55 },
+    "factors": {
+      "credibility": 58,
+      "practice": 60,
+      "content": 60,
+      "reach": 30,
+      "impact": 42,
+      "consistency": 55
+    },
     "reach": "approx under 20K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://www.studentathletenutrition.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Pair sports-nutrition articles you read with an actual one-on-one consult before making big changes."
   },
   {
     "name": "Yasi Ansari",
@@ -62,12 +96,20 @@
     "country": "US",
     "who": "MS, RDN, CSSD; sports dietitian for UCLA Athletics and national media spokesperson for the Academy of Nutrition and Dietetics.",
     "why": "Practices with Division I athletes while serving as the profession's own national voice in mainstream media.",
-    "factors": { "credibility": 62, "practice": 65, "content": 55, "reach": 32, "impact": 48, "consistency": 55 },
+    "factors": {
+      "credibility": 62,
+      "practice": 65,
+      "content": 55,
+      "reach": 32,
+      "impact": 48,
+      "consistency": 55
+    },
     "reach": "approx under 15K personal (unverified 2026-08)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat athlete nutrition as a coached, individualized plan, not generic eat-more-protein advice."
   },
   {
     "name": "Leslie Bonci",
@@ -76,12 +118,20 @@
     "country": "US",
     "who": "MPH, RDN, CSSD, LDN; sports-nutrition consultant, past dietitian for the Pittsburgh Steelers and Kansas City Chiefs, current consultant to Carnegie Mellon athletics and Pittsburgh Ballet Theatre.",
     "why": "One of the longest-serving, most credentialed pro-team sports dietitians in the US, still actively consulting for elite teams and performing-arts companies decades in.",
-    "factors": { "credibility": 70, "practice": 85, "content": 55, "reach": 20, "impact": 65, "consistency": 80 },
+    "factors": {
+      "credibility": 70,
+      "practice": 85,
+      "content": 55,
+      "reach": 20,
+      "impact": 65,
+      "consistency": 80
+    },
     "reach": "under 15K, media-first presence (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://activeeatingadvice.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Adapt your fueling plan to the specific physical demands of your sport or performance art."
   },
   {
     "name": "Cynthia Sass",
@@ -90,12 +140,20 @@
     "country": "US",
     "who": "MPH, MA, RD, CSSD; performance dietitian who has consulted for the New York Yankees and other pro athletes; longtime Health magazine contributing nutrition editor.",
     "why": "A rare RD with genuine pro-sports clinical credentials paired with a two-decade national media platform.",
-    "factors": { "credibility": 65, "practice": 60, "content": 70, "reach": 46, "impact": 55, "consistency": 70 },
+    "factors": {
+      "credibility": 65,
+      "practice": 60,
+      "content": 70,
+      "reach": 46,
+      "impact": 55,
+      "consistency": 70
+    },
     "reach": "IG approx 100K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://www.cynthiasass.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Apply pro-athlete attention to recovery nutrition, like eating within a defined post-workout window."
   },
   {
     "name": "Jill Castle",
@@ -104,12 +162,22 @@
     "country": "US",
     "who": "MS, RDN; pediatric dietitian in private practice (Jill Castle Nutrition), author of six children's-nutrition books, host of The Nourished Child podcast.",
     "why": "Over 30 years translating hands-on pediatric feeding-practice work into parent-facing guidance and clinical training.",
-    "factors": { "credibility": 62, "practice": 60, "content": 72, "reach": 36, "impact": 55, "consistency": 78 },
+    "factors": {
+      "credibility": 62,
+      "practice": 60,
+      "content": 72,
+      "reach": 36,
+      "impact": 55,
+      "consistency": 78
+    },
     "reach": "approx 30-40K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://jillcastle.com",
-    "handles": { "podcast": "The Nourished Child" },
-    "warning": null
+    "handles": {
+      "podcast": "The Nourished Child"
+    },
+    "warning": null,
+    "takeaway": "Let your child decide how much to eat from what you offer, not every bite."
   },
   {
     "name": "Jennifer Anderson",
@@ -118,12 +186,20 @@
     "country": "US",
     "who": "RD, MS in public health (Johns Hopkins); founder of Kids Eat in Color and CEO of BetterBites, digital feeding-therapy programs for families.",
     "why": "Runs an actual clinical treatment platform for picky eating and feeding challenges while building one of the largest pediatric-feeding audiences among credentialed dietitians.",
-    "factors": { "credibility": 55, "practice": 62, "content": 75, "reach": 68, "impact": 55, "consistency": 55 },
+    "factors": {
+      "credibility": 55,
+      "practice": 62,
+      "content": 75,
+      "reach": 68,
+      "impact": 55,
+      "consistency": 55
+    },
     "reach": "2M+ combined social audience (per official site, 2026-08)",
     "reachVerified": true,
     "website": "https://kidseatincolor.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Use structured, repeated food exposure rather than pressure or bribery for a picky eater."
   },
   {
     "name": "Sarah Remmer",
@@ -132,12 +208,20 @@
     "country": "Canada",
     "who": "RD; Alberta-based pediatric and prenatal dietitian in private practice, author and parenting-nutrition writer.",
     "why": "A leading Canadian clinical voice on infant, toddler and prenatal feeding, working one-on-one with families alongside her writing.",
-    "factors": { "credibility": 50, "practice": 55, "content": 58, "reach": 40, "impact": 38, "consistency": 55 },
+    "factors": {
+      "credibility": 50,
+      "practice": 55,
+      "content": 58,
+      "reach": 40,
+      "impact": 38,
+      "consistency": 55
+    },
     "reach": "IG approx 80-90K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://sarahremmer.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Seek dietitian guidance during pregnancy and infant feeding rather than relying on generic online advice."
   },
   {
     "name": "Brenda Davis",
@@ -146,12 +230,20 @@
     "country": "Canada",
     "who": "RD; plant-based nutrition specialist and author who has led diabetes-nutrition programs with the Pima Nation and in the Marshall Islands.",
     "why": "Among the most credentialed, longest-standing plant-based dietitians, with population-level clinical program results behind the books.",
-    "factors": { "credibility": 70, "practice": 62, "content": 65, "reach": 22, "impact": 68, "consistency": 80 },
+    "factors": {
+      "credibility": 70,
+      "practice": 62,
+      "content": 65,
+      "reach": 22,
+      "impact": 68,
+      "consistency": 80
+    },
     "reach": "under 25K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://brendadavisrd.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Use a well-planned plant-based diet as a tool for diabetes prevention and management."
   },
   {
     "name": "Vesanto Melina",
@@ -160,12 +252,20 @@
     "country": "Canada",
     "who": "RD; co-author with Brenda Davis of foundational plant-based nutrition texts (Becoming Vegan, Becoming Raw) and a longtime plant-based dietetics educator.",
     "why": "Co-wrote reference texts that clinical plant-based dietetic practice still draws on today.",
-    "factors": { "credibility": 65, "practice": 42, "content": 58, "reach": 15, "impact": 58, "consistency": 75 },
+    "factors": {
+      "credibility": 65,
+      "practice": 42,
+      "content": 58,
+      "reach": 15,
+      "impact": 58,
+      "consistency": 75
+    },
     "reach": "under 15K (unverified 2026-08)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Plan a plant-based diet deliberately around B12, iron, and protein, not just by removing meat."
   },
   {
     "name": "Kate Scarlata",
@@ -174,12 +274,20 @@
     "country": "US",
     "who": "MPH, RDN; Boston-based digestive-health dietitian specializing in IBS, SIBO and low-FODMAP care; co-author of The Complete Low-FODMAP Diet.",
     "why": "The clinical dietitian most associated with bringing the Monash low-FODMAP research into mainstream IBS care, with 30+ years in digestive-health practice.",
-    "factors": { "credibility": 68, "practice": 68, "content": 68, "reach": 44, "impact": 72, "consistency": 78 },
+    "factors": {
+      "credibility": 68,
+      "practice": 68,
+      "content": 68,
+      "reach": 44,
+      "impact": 72,
+      "consistency": 78
+    },
     "reach": "IG approx 50-60K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://www.katescarlata.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Work with a dietitian to trial a structured low-FODMAP elimination and reintroduction for digestive symptoms."
   },
   {
     "name": "Evelyn Tribole",
@@ -188,12 +296,20 @@
     "country": "US",
     "who": "MS, RDN; co-creator of the Intuitive Eating framework, trainer of over 2,600 certified counselors worldwide, international speaker.",
     "why": "Co-authored the book that defined an entire clinical counseling approach now certified and practiced globally.",
-    "factors": { "credibility": 75, "practice": 58, "content": 80, "reach": 52, "impact": 85, "consistency": 82 },
+    "factors": {
+      "credibility": 75,
+      "practice": 58,
+      "content": 80,
+      "reach": 52,
+      "impact": 85,
+      "consistency": 82
+    },
     "reach": "IG approx 80-90K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://www.intuitiveeating.org",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Practice one meal a week with no rules and full attention — relearn hunger and fullness."
   },
   {
     "name": "Elyse Resch",
@@ -202,12 +318,20 @@
     "country": "US",
     "who": "MS, RDN, CEDS-S; co-creator of Intuitive Eating, eating-disorder specialist with over 40 years in private practice.",
     "why": "The clinical-practice half of the Intuitive Eating partnership, still seeing clients and training eating-disorder specialists.",
-    "factors": { "credibility": 72, "practice": 70, "content": 66, "reach": 24, "impact": 78, "consistency": 85 },
+    "factors": {
+      "credibility": 72,
+      "practice": 70,
+      "content": 66,
+      "reach": 24,
+      "impact": 78,
+      "consistency": 85
+    },
     "reach": "under 25K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://www.intuitiveeating.org",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Practice eating without external food rules and relearn your own hunger and fullness signals."
   },
   {
     "name": "Angie Asche",
@@ -216,12 +340,20 @@
     "country": "US",
     "who": "RD, CSSD; founder of Eleat Sports Nutrition, working with collegiate and endurance athletes, author of Chase the Podium.",
     "why": "Runs a visible independent sports-dietitian practice and extends its clinical fueling work into published athlete-nutrition education.",
-    "factors": { "credibility": 55, "practice": 58, "content": 55, "reach": 25, "impact": 40, "consistency": 55 },
+    "factors": {
+      "credibility": 55,
+      "practice": 58,
+      "content": 55,
+      "reach": 25,
+      "impact": 40,
+      "consistency": 55
+    },
     "reach": "under 25K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://eleatsportsnutrition.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat fueling for a big event like a race as its own planned project, not routine eating."
   },
   {
     "name": "Kelly Pritchett",
@@ -230,12 +362,20 @@
     "country": "US",
     "who": "PhD, RD, CSSD; sports-nutrition professor at Central Washington University and team dietitian consultant.",
     "why": "Combines an academic research role with hands-on team consulting, representative of the researcher-practitioner track in sports dietetics.",
-    "factors": { "credibility": 68, "practice": 45, "content": 42, "reach": 12, "impact": 45, "consistency": 65 },
+    "factors": {
+      "credibility": 68,
+      "practice": 45,
+      "content": 42,
+      "reach": 12,
+      "impact": 45,
+      "consistency": 65
+    },
     "reach": "under 15K (unverified 2026-08)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Look for sports-nutrition advice from someone who both researches the science and coaches real teams."
   },
   {
     "name": "Toby Smithson",
@@ -244,11 +384,19 @@
     "country": "US",
     "who": "MS, RDN, CDCES; diabetes lifestyle specialist, founder of DiabetesEveryDay, author of Diabetes Meal Planning and Nutrition for Dummies.",
     "why": "One of the most established diabetes-specialist dietitians, bridging one-on-one CDCES clinical counseling with widely used patient education.",
-    "factors": { "credibility": 55, "practice": 55, "content": 60, "reach": 20, "impact": 45, "consistency": 70 },
+    "factors": {
+      "credibility": 55,
+      "practice": 55,
+      "content": 60,
+      "reach": 20,
+      "impact": 45,
+      "consistency": 70
+    },
     "reach": "under 20K (unverified 2026-08)",
     "reachVerified": false,
     "website": "https://diabeteseveryday.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Use structured diabetes meal-planning support from a certified diabetes educator rather than improvising."
   }
 ]

@@ -7,12 +7,22 @@
     "country": "US",
     "who": "Original destination-spa resort on a 150-acre Sonoran desert campus, all-inclusive stays from ~$1,200/night.",
     "why": "The property that invented the modern destination spa in 1979; Michelin Guide gave it its top Three Keys honor in 2025.",
-    "factors": { "program": 80, "prestige": 92, "facility": 88, "setting": 82, "reach": 60, "results": 75 },
+    "factors": {
+      "program": 80,
+      "prestige": 92,
+      "facility": 88,
+      "setting": 82,
+      "reach": 60,
+      "results": 75
+    },
     "reach": "IG 141K (verified 2026-08, shared @canyonranch brand account)",
     "reachVerified": true,
     "website": "https://www.canyonranch.com/tucson",
-    "handles": { "instagram": "https://www.instagram.com/canyonranch/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/canyonranch/"
+    },
+    "warning": null,
+    "takeaway": "The original destination-spa format — go for the full all-inclusive desert-campus experience, not a quick fitness fix."
   },
   {
     "name": "Canyon Ranch Lenox",
@@ -22,12 +32,20 @@
     "country": "US",
     "who": "Berkshires sister property to the Tucson flagship, same all-inclusive fitness-and-spa program in a forested New England setting.",
     "why": "A long-running East Coast anchor for the Canyon Ranch brand, drawing on the same 45-year program pedigree.",
-    "factors": { "program": 75, "prestige": 78, "facility": 78, "setting": 78, "reach": 35, "results": 70 },
+    "factors": {
+      "program": 75,
+      "prestige": 78,
+      "facility": 78,
+      "setting": 78,
+      "reach": 35,
+      "results": 70
+    },
     "reach": "IG ~8K (approx 2026, no dedicated account found; shares @canyonranch brand)",
     "reachVerified": false,
     "website": "https://www.canyonranch.com/lenox",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book the same all-inclusive fitness-and-spa program as Canyon Ranch Tucson, in a forested New England setting instead."
   },
   {
     "name": "Miraval Arizona",
@@ -37,12 +55,22 @@
     "country": "US",
     "who": "Mindfulness-and-movement resort (zip line, equine therapy, fitness classes) that popularized the wellness-resort format for a celebrity clientele.",
     "why": "One of the most media-covered US wellness resorts of the past two decades; spawned sister properties nationwide.",
-    "factors": { "program": 78, "prestige": 85, "facility": 82, "setting": 84, "reach": 60, "results": 72 },
+    "factors": {
+      "program": 78,
+      "prestige": 85,
+      "facility": 82,
+      "setting": 84,
+      "reach": 60,
+      "results": 72
+    },
     "reach": "IG 98K (verified 2026-08, @miravalresorts brand account covers all locations)",
     "reachVerified": true,
     "website": "https://www.miravalresorts.com/arizona",
-    "handles": { "instagram": "https://www.instagram.com/miravalarizona/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/miravalarizona/"
+    },
+    "warning": null,
+    "takeaway": "Go for mindfulness-and-movement activities like equine therapy and zip lining, not a straight fitness camp."
   },
   {
     "name": "Golden Door",
@@ -52,12 +80,22 @@
     "country": "US",
     "who": "Ultra-exclusive fitness-and-spa retreat capped at around a dozen guests a week, from ~$1,600/night.",
     "why": "The benchmark for boutique luxury fitness retreats since 1958; still the model other high-end resorts imitate.",
-    "factors": { "program": 85, "prestige": 88, "facility": 75, "setting": 80, "reach": 50, "results": 78 },
+    "factors": {
+      "program": 85,
+      "prestige": 88,
+      "facility": 75,
+      "setting": 80,
+      "reach": 50,
+      "results": 78
+    },
     "reach": "IG 38K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.goldendoor.com",
-    "handles": { "instagram": "https://www.instagram.com/thegoldendoor/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/thegoldendoor/"
+    },
+    "warning": null,
+    "takeaway": "Book this for an ultra-small-group fitness-and-spa week — the original boutique luxury retreat, not a large resort."
   },
   {
     "name": "Mii amo",
@@ -67,12 +105,22 @@
     "country": "US",
     "who": "Small luxury destination spa inside Enchantment Resort's red-rock canyon, with hiking, movement classes, and energy work.",
     "why": "One of the most photographed wellness settings in the US, repeatedly ranked among the world's top spas.",
-    "factors": { "program": 70, "prestige": 78, "facility": 72, "setting": 88, "reach": 50, "results": 68 },
+    "factors": {
+      "program": 70,
+      "prestige": 78,
+      "facility": 72,
+      "setting": 88,
+      "reach": 50,
+      "results": 68
+    },
     "reach": "IG 40K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://miiamo.com/",
-    "handles": { "instagram": "https://www.instagram.com/mii_amo_spa/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/mii_amo_spa/"
+    },
+    "warning": null,
+    "takeaway": "Come for canyon hiking and movement classes in a small, photogenic setting — a scenic spa retreat, not intensive training."
   },
   {
     "name": "Lake Austin Spa Resort",
@@ -82,12 +130,22 @@
     "country": "US",
     "who": "Lakeside destination spa with daily fitness classes, yoga, and canoeing, styled as a relaxed Texas Hill Country retreat.",
     "why": "A consistent top-10 US destination spa in Travel + Leisure and Conde Nast reader polls for over a decade.",
-    "factors": { "program": 72, "prestige": 72, "facility": 68, "setting": 78, "reach": 48, "results": 65 },
+    "factors": {
+      "program": 72,
+      "prestige": 72,
+      "facility": 68,
+      "setting": 78,
+      "reach": 48,
+      "results": 65
+    },
     "reach": "IG 36K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.lakeaustin.com/",
-    "handles": { "instagram": "https://www.instagram.com/lakeaustinspa/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/lakeaustinspa/"
+    },
+    "warning": null,
+    "takeaway": "Book this for a relaxed mix of fitness, yoga and canoeing on the lake — gentle, not an intense camp."
   },
   {
     "name": "Castle Hot Springs",
@@ -97,12 +155,22 @@
     "country": "US",
     "who": "Historic geothermal-springs resort reopened in 2019, combining hiking and training with natural hot pools on a National Historic Landmark site.",
     "why": "Arizona's oldest resort site, reborn as a design-forward wellness destination with a strong social following for its scale.",
-    "factors": { "program": 68, "prestige": 75, "facility": 72, "setting": 85, "reach": 60, "results": 62 },
+    "factors": {
+      "program": 68,
+      "prestige": 75,
+      "facility": 72,
+      "setting": 85,
+      "reach": 60,
+      "results": 62
+    },
     "reach": "IG 129K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.castlehotsprings.com/",
-    "handles": { "instagram": "https://www.instagram.com/castlehotsprings/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/castlehotsprings/"
+    },
+    "warning": null,
+    "takeaway": "Book this for hiking and training paired with natural hot springs — active, not a passive soak."
   },
   {
     "name": "Skyterra Wellness Retreat",
@@ -112,12 +180,20 @@
     "country": "US",
     "who": "Small-group weight-loss and fitness retreat in the Blue Ridge Mountains, with coached daily training and hiking.",
     "why": "One of the longer-running US medically informed fitness retreats, built around structured coaching rather than resort spa services.",
-    "factors": { "program": 78, "prestige": 55, "facility": 55, "setting": 72, "reach": 30, "results": 72 },
+    "factors": {
+      "program": 78,
+      "prestige": 55,
+      "facility": 55,
+      "setting": 72,
+      "reach": 30,
+      "results": 72
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": "https://skyterrawellness.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for small-group coached weight-loss training and hiking — medically informed structure, not resort spa services."
   },
   {
     "name": "Hilton Head Health",
@@ -127,12 +203,22 @@
     "country": "US",
     "who": "45-year-old metabolic-health and weight-management retreat with daily coached movement classes and nutrition support.",
     "why": "One of the oldest continuously operating fitness retreats in the US, still built around a structured, coach-led program.",
-    "factors": { "program": 75, "prestige": 60, "facility": 58, "setting": 62, "reach": 35, "results": 75 },
+    "factors": {
+      "program": 75,
+      "prestige": 60,
+      "facility": 58,
+      "setting": 62,
+      "reach": 35,
+      "results": 75
+    },
     "reach": "IG ~9K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.hhhealth.com/",
-    "handles": { "instagram": "https://www.instagram.com/hiltonheadhealth/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/hiltonheadhealth/"
+    },
+    "warning": null,
+    "takeaway": "Book this for coached metabolic-health and weight-management support — a long-established structured program, not a spa week."
   },
   {
     "name": "The Lodge at Woodloch",
@@ -142,12 +228,22 @@
     "country": "US",
     "who": "Luxury destination spa on 500 wooded acres in the Poconos, with fitness classes, yoga, and guided hikes.",
     "why": "A repeat top-ranked US destination spa in national travel-magazine reader surveys.",
-    "factors": { "program": 68, "prestige": 70, "facility": 68, "setting": 75, "reach": 55, "results": 62 },
+    "factors": {
+      "program": 68,
+      "prestige": 70,
+      "facility": 68,
+      "setting": 75,
+      "reach": 55,
+      "results": 62
+    },
     "reach": "IG 66K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.thelodgeatwoodloch.com/",
-    "handles": { "instagram": "https://www.instagram.com/thelodgeatwoodloch/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/thelodgeatwoodloch/"
+    },
+    "warning": null,
+    "takeaway": "Book this for gentle fitness classes and guided hikes in the woods — a relaxing spa stay, not intensive training."
   },
   {
     "name": "CIVANA Wellness Resort & Spa",
@@ -157,12 +253,22 @@
     "country": "US",
     "who": "Newer desert wellness resort with movement studios, sound healing, and a dedicated fitness program alongside spa services.",
     "why": "Has built an outsized social following fast for a young property, helping normalize the wellness-resort format for a broader audience.",
-    "factors": { "program": 68, "prestige": 62, "facility": 65, "setting": 75, "reach": 62, "results": 58 },
+    "factors": {
+      "program": 68,
+      "prestige": 62,
+      "facility": 65,
+      "setting": 75,
+      "reach": 62,
+      "results": 58
+    },
     "reach": "IG 174K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.civanacarefree.com/",
-    "handles": { "instagram": "https://www.instagram.com/civanaresort/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/civanaresort/"
+    },
+    "warning": null,
+    "takeaway": "Book this for movement studios and sound healing in the desert — approachable wellness, not intensive training."
   },
   {
     "name": "Sensei Lanai, A Four Seasons Resort",
@@ -172,12 +278,22 @@
     "country": "US",
     "who": "Larry Ellison-backed science-driven retreat pairing personal Sensei guides with movement, nutrition, and sleep programs, from ~$2,500/night.",
     "why": "The most heavily funded new wellness-resort concept of the last decade, co-run with Four Seasons on a private Hawaiian island.",
-    "factors": { "program": 82, "prestige": 88, "facility": 85, "setting": 90, "reach": 60, "results": 80 },
+    "factors": {
+      "program": 82,
+      "prestige": 88,
+      "facility": 85,
+      "setting": 90,
+      "reach": 60,
+      "results": 80
+    },
     "reach": "IG 74K (verified 2026-08, @fslanai)",
     "reachVerified": true,
     "website": "https://www.sensei.com/",
-    "handles": { "instagram": "https://www.instagram.com/fslanai/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/fslanai/"
+    },
+    "warning": null,
+    "takeaway": "Come for a personally guided science program on a private island — this suits data-driven wellness travelers, not beach loungers."
   },
   {
     "name": "Cal-a-Vie Health Spa",
@@ -187,12 +303,22 @@
     "country": "US",
     "who": "European-village-style boutique fitness retreat near San Diego, with small groups, personal training, and hillside hiking.",
     "why": "A long-running Southern California fitness-retreat fixture with a loyal repeat-guest base.",
-    "factors": { "program": 78, "prestige": 72, "facility": 65, "setting": 75, "reach": 40, "results": 68 },
+    "factors": {
+      "program": 78,
+      "prestige": 72,
+      "facility": 65,
+      "setting": 75,
+      "reach": 40,
+      "results": 68
+    },
     "reach": "IG 26K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.cal-a-vie.com/",
-    "handles": { "instagram": "https://www.instagram.com/calaviespa/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/calaviespa/"
+    },
+    "warning": null,
+    "takeaway": "Book this for small-group personal training and hillside hiking near San Diego — boutique fitness, not a big resort."
   },
   {
     "name": "Rancho La Puerta",
@@ -202,12 +328,22 @@
     "country": "MX",
     "who": "80-plus-year-old fitness ranch on a mountain estate with six gyms, dozens of daily classes, and an organic farm, from ~$650/night all-inclusive.",
     "why": "The oldest destination fitness resort in the Americas and a direct model for Golden Door and Canyon Ranch.",
-    "factors": { "program": 85, "prestige": 88, "facility": 82, "setting": 88, "reach": 52, "results": 78 },
+    "factors": {
+      "program": 85,
+      "prestige": 88,
+      "facility": 82,
+      "setting": 88,
+      "reach": 52,
+      "results": 78
+    },
     "reach": "IG 42K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://rancholapuerta.com/",
-    "handles": { "instagram": "https://www.instagram.com/rancholapuerta/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/rancholapuerta/"
+    },
+    "warning": null,
+    "takeaway": "Book it for a classic all-inclusive fitness-ranch week — six gyms and daily classes, not a passive spa stay."
   },
   {
     "name": "Palmaia, The House of AiA",
@@ -217,12 +353,22 @@
     "country": "MX",
     "who": "All-inclusive jungle-beachfront wellness resort with daily yoga and fitness classes and plant-based dining, from ~$400/night.",
     "why": "Built one of the largest social followings of any wellness resort in the world through highly shareable design and content.",
-    "factors": { "program": 65, "prestige": 70, "facility": 68, "setting": 85, "reach": 70, "results": 60 },
+    "factors": {
+      "program": 65,
+      "prestige": 70,
+      "facility": 68,
+      "setting": 85,
+      "reach": 70,
+      "results": 60
+    },
     "reach": "IG 334K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://thehouseofaia.com/",
-    "handles": { "instagram": "https://www.instagram.com/thehouseofaia/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/thehouseofaia/"
+    },
+    "warning": null,
+    "takeaway": "Book this for daily yoga and fitness classes in a highly photogenic jungle-beach setting — social-media wellness, not intensive training."
   },
   {
     "name": "Chable Yucatan",
@@ -232,12 +378,22 @@
     "country": "MX",
     "who": "Ultra-luxury jungle resort built around a cenote, with a longevity clinic and fitness program, from ~$1,200/night.",
     "why": "Named to The World's 50 Best Hotels list in 2025, giving it outsized prestige for a wellness-focused property.",
-    "factors": { "program": 70, "prestige": 85, "facility": 80, "setting": 90, "reach": 58, "results": 75 },
+    "factors": {
+      "program": 70,
+      "prestige": 85,
+      "facility": 80,
+      "setting": 90,
+      "reach": 58,
+      "results": 75
+    },
     "reach": "IG 93K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.chablehotels.com/en/chable-yucatan",
-    "handles": { "instagram": "https://www.instagram.com/chableyucatan/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/chableyucatan/"
+    },
+    "warning": null,
+    "takeaway": "Come for the longevity clinic and cenote setting together — a luxury jungle stay with real fitness programming."
   },
   {
     "name": "The Retreat Costa Rica",
@@ -247,12 +403,20 @@
     "country": "CR",
     "who": "Mountain wellness resort and spa with a dedicated Fitness Reboot program, yoga shala, and a fitness club added in 2025.",
     "why": "Ranked a top-10 destination spa in the world by Conde Nast Traveler readers, the strongest fitness-forward name in Costa Rica.",
-    "factors": { "program": 75, "prestige": 62, "facility": 68, "setting": 80, "reach": 35, "results": 70 },
+    "factors": {
+      "program": 75,
+      "prestige": 62,
+      "facility": 68,
+      "setting": 80,
+      "reach": 35,
+      "results": 70
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://theretreatcostarica.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book the Fitness Reboot program with the new fitness club and yoga shala — structured, not a plain mountain spa."
   },
   {
     "name": "The BodyHoliday",
@@ -262,12 +426,22 @@
     "country": "LC",
     "who": "All-inclusive Caribbean fitness resort with a structured daily sport program (gym, watersports, personal training) built into the room rate, from ~$700/night.",
     "why": "The Caribbean's original and best-known fitness-first resort, running the same all-inclusive training model for over 40 years.",
-    "factors": { "program": 82, "prestige": 80, "facility": 78, "setting": 85, "reach": 55, "results": 72 },
+    "factors": {
+      "program": 82,
+      "prestige": 80,
+      "facility": 78,
+      "setting": 85,
+      "reach": 55,
+      "results": 72
+    },
     "reach": "IG 42K (verified 2026-07)",
     "reachVerified": true,
     "website": "https://www.thebodyholiday.com/",
-    "handles": { "instagram": "https://www.instagram.com/thebodyholiday/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/thebodyholiday/"
+    },
+    "warning": null,
+    "takeaway": "Book it for a structured daily sport program built into the price — fitness-first, not a standard Caribbean all-inclusive."
   },
   {
     "name": "explora",
@@ -277,12 +451,22 @@
     "country": "CL",
     "who": "Adventure-fitness lodges with graded daily guided hiking, trekking, and biking excursions across Chile's most extreme landscapes.",
     "why": "The benchmark adventure-lodge operator in South America, multi-award-winning across nine lodges in four countries.",
-    "factors": { "program": 75, "prestige": 82, "facility": 65, "setting": 92, "reach": 62, "results": 55 },
+    "factors": {
+      "program": 75,
+      "prestige": 82,
+      "facility": 65,
+      "setting": 92,
+      "reach": 62,
+      "results": 55
+    },
     "reach": "IG 153K (verified 2026-08, @exploratravel)",
     "reachVerified": true,
     "website": "https://www.explora.com/",
-    "handles": { "instagram": "https://www.instagram.com/exploratravel/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/exploratravel/"
+    },
+    "warning": null,
+    "takeaway": "Book this for graded daily guided hikes across extreme landscapes — adventure fitness, not a lodge-and-relax trip."
   },
   {
     "name": "Six Senses Botanique",
@@ -292,12 +476,20 @@
     "country": "BR",
     "who": "Mountain wellness retreat in Brazil's Serra da Mantiqueira, with tai chi, yoga, hiking, and a jungle gym alongside spa treatments.",
     "why": "Brazil's best-known destination spa, recently absorbed into the global Six Senses brand, raising its profile further.",
-    "factors": { "program": 60, "prestige": 72, "facility": 65, "setting": 85, "reach": 40, "results": 58 },
+    "factors": {
+      "program": 60,
+      "prestige": 72,
+      "facility": 65,
+      "setting": 85,
+      "reach": 40,
+      "results": 58
+    },
     "reach": "IG ~15K (approx 2026, property-specific handle)",
     "reachVerified": false,
     "website": "https://www.sixsenses.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for tai chi, yoga and mountain hiking alongside spa treatments — Brazil's leading destination-spa mix."
   },
   {
     "name": "Kurotel",
@@ -307,12 +499,22 @@
     "country": "BR",
     "who": "Medical longevity center and spa with personal training, Pilates, aquatic fitness, and morning hikes alongside clinical diagnostics, from ~$700/night.",
     "why": "Elected Best Spa of the Americas; over 40 years of medical-grade longevity and integrative-health programming.",
-    "factors": { "program": 78, "prestige": 80, "facility": 82, "setting": 68, "reach": 58, "results": 85 },
+    "factors": {
+      "program": 78,
+      "prestige": 80,
+      "facility": 82,
+      "setting": 68,
+      "reach": 58,
+      "results": 85
+    },
     "reach": "IG 105K (verified 2026-08, @kuroteloficial)",
     "reachVerified": true,
     "website": "https://www.kurotel.com.br/",
-    "handles": { "instagram": "https://www.instagram.com/kuroteloficial/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/kuroteloficial/"
+    },
+    "warning": null,
+    "takeaway": "Book this for clinical diagnostics paired with daily personal training and hikes — medical longevity, not a leisure spa."
   },
   {
     "name": "COMO Parrot Cay",
@@ -322,11 +524,21 @@
     "country": "TC",
     "who": "Private-island luxury resort with the COMO Shambhala wellness program: daily yoga and pilates, a full fitness center, and personal training, from ~$1,500/night.",
     "why": "One of the Caribbean's most celebrated wellness private islands, with an award-winning in-house program.",
-    "factors": { "program": 68, "prestige": 78, "facility": 70, "setting": 90, "reach": 50, "results": 62 },
+    "factors": {
+      "program": 68,
+      "prestige": 78,
+      "facility": 70,
+      "setting": 90,
+      "reach": 50,
+      "results": 62
+    },
     "reach": "IG 45K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.comohotels.com/turks-and-caicos/como-parrot-cay",
-    "handles": { "instagram": "https://www.instagram.com/comoparrotcay/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/comoparrotcay/"
+    },
+    "warning": null,
+    "takeaway": "Book it for the COMO Shambhala wellness program on a private Caribbean island — structured movement, not island lounging alone."
   }
 ]

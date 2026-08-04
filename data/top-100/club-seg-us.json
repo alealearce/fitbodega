@@ -21,7 +21,8 @@
     "handles": {
       "instagram": "https://instagram.com/koreatownrunclub"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Just show up any Wednesday night for the K-town run — open to anyone, plus race-day meetups."
   },
   {
     "name": "Bridge Runners",
@@ -45,7 +46,8 @@
     "handles": {
       "instagram": "https://instagram.com/bridgerunners"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up Wednesdays in NYC — no pace requirement, just the city's original run crew since the 2000s."
   },
   {
     "name": "Harlem Run",
@@ -69,7 +71,8 @@
     "handles": {
       "instagram": "https://instagram.com/harlemrun"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up Monday, Tuesday or Wednesday for a free Harlem run, or Thursday for the speed session."
   },
   {
     "name": "Black Men Run",
@@ -93,7 +96,8 @@
     "handles": {
       "instagram": "https://instagram.com/blackmenrun"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join a city chapter for locally run weekly chapter runs, part of a nationwide Black men's health network."
   },
   {
     "name": "Black Girls RUN!",
@@ -117,7 +121,8 @@
     "handles": {
       "instagram": "https://instagram.com/officialblackgirlsrun"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Find your city chapter for weekly run/walk meetups, or join their charity marathon teams at Boston or Chicago."
   },
   {
     "name": "Slow AF Run Club",
@@ -141,7 +146,8 @@
     "handles": {
       "instagram": "https://instagram.com/slowafrunclub"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join the paid online community for back-of-the-pack runners, then meet up in person at races."
   },
   {
     "name": "November Project",
@@ -165,7 +171,8 @@
     "handles": {
       "instagram": "https://instagram.com/novemberproject"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "No sign-up, just show up for free outdoor running and bodyweight training in Boston or beyond."
   },
   {
     "name": "District Running Collective",
@@ -189,7 +196,8 @@
     "handles": {
       "instagram": "https://instagram.com/districtrunningcollective"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join the free Wednesday or Saturday urban run, or train for their own District 19 race each October."
   },
   {
     "name": "Prospect Park Track Club",
@@ -213,7 +221,8 @@
     "handles": {
       "instagram": "https://instagram.com/prospectparktc"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Pay dues to join coached marathon training, speed work and group runs around Prospect Park."
   },
   {
     "name": "San Francisco Road Runners Club",
@@ -237,7 +246,8 @@
     "handles": {
       "instagram": "https://instagram.com/sfrrc"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Pay dues to join pace-grouped runs Tuesday through Sunday with SF's largest historic road-running club."
   },
   {
     "name": "We Run Uptown",
@@ -261,7 +271,8 @@
     "handles": {
       "instagram": "https://instagram.com/wrucrew"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up Monday for an easy run or Wednesday for a faster one in Washington Heights/Inwood — free and open."
   },
   {
     "name": "Renegade Running",
@@ -285,7 +296,8 @@
     "handles": {
       "instagram": "https://instagram.com/renegade_running"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Drop into the Mandela Parkway shop for group runs, training programs, or watch the elite team train."
   },
   {
     "name": "Boyle Heights Bridge Runners",
@@ -309,7 +321,8 @@
     "handles": {
       "instagram": "https://instagram.com/boyleheightsbridgerunners"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up free Wednesday nights at Mariachi Plaza to cross the Sixth Street Bridge with the crew, all levels."
   },
   {
     "name": "Run for Chinatown",
@@ -333,7 +346,8 @@
     "handles": {
       "instagram": "https://instagram.com/runforchinatown"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up Monday nights at Columbus Park for a group run/walk supporting Manhattan's Chinatown."
   },
   {
     "name": "Lost Boys Track Club",
@@ -357,7 +371,8 @@
     "handles": {
       "instagram": "https://instagram.com/lostboystrackclub"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join this decentralized, competitive Brooklyn Track Club offshoot chasing relay records like sub-2-hour marathon relays."
   },
   {
     "name": "Bakline",
@@ -381,7 +396,8 @@
     "handles": {
       "instagram": "https://instagram.com/baklinerunning"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join this Brooklyn brand's own training groups and events alongside its running and sportswear gear line."
   },
   {
     "name": "Old Man Run Club",
@@ -405,7 +421,8 @@
     "handles": {
       "instagram": "https://instagram.com/oldmanrunclub"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up Saturday morning for the long run with this Nike- and Oakley-backed NYC crew, all paces."
   },
   {
     "name": "Endorphins Running",
@@ -429,7 +446,8 @@
     "handles": {
       "instagram": "https://instagram.com/endorphinsrunning"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join one of 2,000-plus free group runs a year across nine US cities, or train with the app."
   },
   {
     "name": "Midnight Runners",
@@ -453,6 +471,7 @@
     "handles": {
       "instagram": "https://instagram.com/midnightrunnersnewyork"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Free to join in any of 18 cities — turn up for a night run that turns into a party."
   }
 ]

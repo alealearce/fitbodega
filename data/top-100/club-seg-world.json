@@ -7,12 +7,22 @@
     "country": "JP",
     "who": "Tokyo's oldest international run club; free Wednesday interval sessions at Yoyogi Park's Oda Field, open to anyone.",
     "why": "Running since 1989, the template international crew that every later Tokyo club cites as the original.",
-    "factors": { "legacy": 90, "community": 60, "reach": 30, "events": 70, "crossover": 50, "destination": 70 },
+    "factors": {
+      "legacy": 90,
+      "community": 60,
+      "reach": 30,
+      "events": 70,
+      "crossover": 50,
+      "destination": 70
+    },
     "reach": "IG 2.2K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://namban.org/",
-    "handles": { "instagram": "https://www.instagram.com/nambanrengo/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/nambanrengo/"
+    },
+    "warning": null,
+    "takeaway": "Show up free on Wednesdays at Yoyogi Park's Oda Field for interval sessions — anyone can join."
   },
   {
     "name": "AFE (Athletics Far East)",
@@ -22,12 +32,22 @@
     "country": "JP",
     "who": "Tokyo running-lifestyle crew of creatives, models and designers; group runs plus its own apparel drops.",
     "why": "Modeled on 1970s club Athletics West, AFE turned Tokyo running into a style subculture other Asian crews now copy.",
-    "factors": { "legacy": 60, "community": 75, "reach": 40, "events": 70, "crossover": 80, "destination": 70 },
+    "factors": {
+      "legacy": 60,
+      "community": 75,
+      "reach": 40,
+      "events": 70,
+      "crossover": 80,
+      "destination": 70
+    },
     "reach": "IG 12K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/afe_tokyo/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/afe_tokyo/"
+    },
+    "warning": null,
+    "takeaway": "Join Tokyo's creative-crowd group runs, and watch for their own apparel drops between sessions."
   },
   {
     "name": "PRRC 1936 (Private Road Running Club)",
@@ -37,12 +57,22 @@
     "country": "KR",
     "who": "Seoul's OG run crew of designers, DJs and architects; group runs plus member-designed technical gear.",
     "why": "Widely cited as Asia's most influential run crew, the reference point every regional crew that followed name-checks.",
-    "factors": { "legacy": 80, "community": 85, "reach": 40, "events": 75, "crossover": 85, "destination": 80 },
+    "factors": {
+      "legacy": 80,
+      "community": 85,
+      "reach": 40,
+      "events": 75,
+      "crossover": 85,
+      "destination": 80
+    },
     "reach": "IG 18K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/prrc1936/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/prrc1936/"
+    },
+    "warning": null,
+    "takeaway": "A tight Seoul crew of designers and creatives — expect group runs and member-made technical gear."
   },
   {
     "name": "RunnersHai",
@@ -52,12 +82,22 @@
     "country": "CN",
     "who": "Shanghai's longest-running social run club; free weekly West Bund sessions with a certified coach plus race meetups.",
     "why": "The steady anchor of Shanghai's running scene for over a decade; its real community lives on WeChat more than Instagram.",
-    "factors": { "legacy": 70, "community": 60, "reach": 30, "events": 60, "crossover": 40, "destination": 50 },
+    "factors": {
+      "legacy": 70,
+      "community": 60,
+      "reach": 30,
+      "events": 60,
+      "crossover": 40,
+      "destination": 50
+    },
     "reach": "IG 731, WeChat-first community (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/runnershai_sh/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/runnershai_sh/"
+    },
+    "warning": null,
+    "takeaway": "Join the free weekly West Bund session with a certified coach — the real community lives on WeChat."
   },
   {
     "name": "Harbour Runners",
@@ -67,12 +107,22 @@
     "country": "HK",
     "who": "No-sign-up Wednesday night run crew that has explored Hong Kong on foot since 2010.",
     "why": "Started as a stress reliever for creative professionals, grew into Hong Kong's most recognized grassroots running community.",
-    "factors": { "legacy": 75, "community": 75, "reach": 40, "events": 70, "crossover": 60, "destination": 65 },
+    "factors": {
+      "legacy": 75,
+      "community": 75,
+      "reach": 40,
+      "events": 70,
+      "crossover": 60,
+      "destination": 65
+    },
     "reach": "IG 11K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/harbourrunners/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/harbourrunners/"
+    },
+    "warning": null,
+    "takeaway": "No sign-up, just show up Wednesday nights to explore Hong Kong on foot with the crew."
   },
   {
     "name": "Singapore Runners Club",
@@ -82,12 +132,22 @@
     "country": "SG",
     "who": "Singapore's largest general running club; weekly social runs and relay events across the island.",
     "why": "The default landing spot for anyone in Singapore looking for a running community to join.",
-    "factors": { "legacy": 55, "community": 65, "reach": 40, "events": 60, "crossover": 50, "destination": 50 },
+    "factors": {
+      "legacy": 55,
+      "community": 65,
+      "reach": 40,
+      "events": 60,
+      "crossover": 50,
+      "destination": 50
+    },
     "reach": "IG 6.5K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/singaporerunnersclub/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/singaporerunnersclub/"
+    },
+    "warning": null,
+    "takeaway": "Join weekly social runs and relay events across the island — the default landing spot in Singapore."
   },
   {
     "name": "IndoRunners",
@@ -97,12 +157,22 @@
     "country": "ID",
     "who": "Indonesia's biggest running community; Sunday morning and Thursday night group runs in Jakarta plus chapters nationwide.",
     "why": "With tens of thousands of members across platforms, it's the largest and most established run community in Southeast Asia.",
-    "factors": { "legacy": 85, "community": 90, "reach": 60, "events": 80, "crossover": 70, "destination": 60 },
+    "factors": {
+      "legacy": 85,
+      "community": 90,
+      "reach": 60,
+      "events": 80,
+      "crossover": 70,
+      "destination": 60
+    },
     "reach": "IG 121K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/indorunners/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/indorunners/"
+    },
+    "warning": null,
+    "takeaway": "Show up Sunday morning or Thursday night in Jakarta, or find your local chapter nationwide."
   },
   {
     "name": "Rockwell Run Club",
@@ -112,12 +182,22 @@
     "country": "PH",
     "who": "Makati-based run club with multiple weekly sessions around the Rockwell district for runners of any level.",
     "why": "Grew from a handful of runners in 2023 into one of Metro Manila's fastest-growing clubs, now working with hotels on run events.",
-    "factors": { "legacy": 40, "community": 75, "reach": 35, "events": 70, "crossover": 55, "destination": 45 },
+    "factors": {
+      "legacy": 40,
+      "community": 75,
+      "reach": 35,
+      "events": 70,
+      "crossover": 55,
+      "destination": 45
+    },
     "reach": "IG 9K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/rockwellrunclub/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/rockwellrunclub/"
+    },
+    "warning": null,
+    "takeaway": "Join multiple weekly sessions around Makati's Rockwell district, any level welcome, plus hotel-run events."
   },
   {
     "name": "Sabai Run Club",
@@ -127,12 +207,22 @@
     "country": "TH",
     "who": "Sunday 7:15am mass social run through Bangkok, billed as Asia's largest weekly run club.",
     "why": "Turnout in the thousands most Sundays makes it the biggest single recurring run session in the region.",
-    "factors": { "legacy": 45, "community": 90, "reach": 55, "events": 80, "crossover": 60, "destination": 60 },
+    "factors": {
+      "legacy": 45,
+      "community": 90,
+      "reach": 55,
+      "events": 80,
+      "crossover": 60,
+      "destination": 60
+    },
     "reach": "IG 58K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/sabairunclub.bkk/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/sabairunclub.bkk/"
+    },
+    "warning": null,
+    "takeaway": "Show up Sunday at 7:15am for a mass social run through Bangkok — turnout runs into the thousands."
   },
   {
     "name": "Mumbai Road Runners",
@@ -142,12 +232,22 @@
     "country": "IN",
     "who": "Mumbai's long-running road-running community; weekly group runs and training support for members of any level.",
     "why": "One of India's oldest running clubs, casual and community-oriented rather than results-driven.",
-    "factors": { "legacy": 65, "community": 65, "reach": 35, "events": 55, "crossover": 40, "destination": 40 },
+    "factors": {
+      "legacy": 65,
+      "community": 65,
+      "reach": 35,
+      "events": 55,
+      "crossover": 40,
+      "destination": 40
+    },
     "reach": "IG 7K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/mumbai_road_runners/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/mumbai_road_runners/"
+    },
+    "warning": null,
+    "takeaway": "Join weekly group runs and training support at any level with one of India's oldest running clubs."
   },
   {
     "name": "Delhi Run Collective",
@@ -157,12 +257,22 @@
     "country": "IN",
     "who": "Membership-based Delhi run club with structured weekly sessions across the city.",
     "why": "Built a more curated, retention-focused running community in a city where most groups are informal chat threads.",
-    "factors": { "legacy": 35, "community": 60, "reach": 35, "events": 65, "crossover": 45, "destination": 35 },
+    "factors": {
+      "legacy": 35,
+      "community": 60,
+      "reach": 35,
+      "events": 65,
+      "crossover": 45,
+      "destination": 35
+    },
     "reach": "IG 12K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://delhiruncollective.com/",
-    "handles": { "instagram": "https://www.instagram.com/delhiruncollective/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/delhiruncollective/"
+    },
+    "warning": null,
+    "takeaway": "Join structured weekly sessions across Delhi with this membership-based, retention-focused running community."
   },
   {
     "name": "Urban Swaras Running Club",
@@ -172,12 +282,22 @@
     "country": "KE",
     "who": "Nairobi's premier recreational running club; Saturday 7am trail runs at rotating locations since 2006.",
     "why": "Two decades of steady Saturday trail runs made it the default community for recreational, non-elite runners in Nairobi.",
-    "factors": { "legacy": 75, "community": 65, "reach": 30, "events": 55, "crossover": 40, "destination": 45 },
+    "factors": {
+      "legacy": 75,
+      "community": 65,
+      "reach": 30,
+      "events": 55,
+      "crossover": 40,
+      "destination": 45
+    },
     "reach": "IG 3.3K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.urbanswaras.co.ke/",
-    "handles": { "instagram": "https://www.instagram.com/urbanswarasrunningclub/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/urbanswarasrunningclub/"
+    },
+    "warning": null,
+    "takeaway": "Show up Saturday at 7am for a trail run at a rotating Nairobi location, open to recreational runners."
   },
   {
     "name": "Eko Runners Club",
@@ -187,12 +307,22 @@
     "country": "NG",
     "who": "Lagos running community with regular group runs and health-focused meetups across the mainland.",
     "why": "One of the more visible grassroots crews in a city where organized running culture is still young.",
-    "factors": { "legacy": 30, "community": 55, "reach": 25, "events": 50, "crossover": 35, "destination": 30 },
+    "factors": {
+      "legacy": 30,
+      "community": 55,
+      "reach": 25,
+      "events": 50,
+      "crossover": 35,
+      "destination": 30
+    },
     "reach": "IG ~4K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/ekorunnersclub/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/ekorunnersclub/"
+    },
+    "warning": null,
+    "takeaway": "Join regular group runs and health-focused meetups across mainland Lagos with this grassroots community."
   },
   {
     "name": "Gugulethu Athletics Club",
@@ -202,12 +332,22 @@
     "country": "ZA",
     "who": "Official Western Cape athletics club based in the township of Gugulethu, training runners of all levels, not just competitive athletes.",
     "why": "A genuine community institution known for its annual reconciliation race and for building running culture where infrastructure is scarce.",
-    "factors": { "legacy": 60, "community": 65, "reach": 25, "events": 55, "crossover": 45, "destination": 40 },
+    "factors": {
+      "legacy": 60,
+      "community": 65,
+      "reach": 25,
+      "events": 55,
+      "crossover": 45,
+      "destination": 40
+    },
     "reach": "IG ~2K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/gugulethuac/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/gugulethuac/"
+    },
+    "warning": null,
+    "takeaway": "Join this official Western Cape club in Gugulethu training runners of all levels, not just competitive athletes."
   },
   {
     "name": "Ghetto Run Crew (Movimento Ghetto Run Crew)",
@@ -217,12 +357,22 @@
     "country": "BR",
     "who": "Zona Norte Rio running collective; free bi-weekly runs from Engenhão stadium, open to all levels.",
     "why": "Grew out of a women's-empowerment project into one of Rio's most recognized grassroots crews, built on access over pace.",
-    "factors": { "legacy": 55, "community": 70, "reach": 30, "events": 55, "crossover": 45, "destination": 35 },
+    "factors": {
+      "legacy": 55,
+      "community": 70,
+      "reach": 30,
+      "events": 55,
+      "crossover": 45,
+      "destination": 35
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/ghettoruncrew/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/ghettoruncrew/"
+    },
+    "warning": null,
+    "takeaway": "Show up free every other week from Engenhão stadium in Rio's Zona Norte — all levels welcome."
   },
   {
     "name": "City Runners",
@@ -232,12 +382,22 @@
     "country": "BR",
     "who": "Nike-supported São Paulo run crew with weekly group training and city meetups.",
     "why": "One of the biggest, best-known crew brands in São Paulo's running scene, with real turnout behind the Nike backing.",
-    "factors": { "legacy": 45, "community": 65, "reach": 45, "events": 65, "crossover": 65, "destination": 45 },
+    "factors": {
+      "legacy": 45,
+      "community": 65,
+      "reach": 45,
+      "events": 65,
+      "crossover": 65,
+      "destination": 45
+    },
     "reach": "IG 36K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/city_runners_team/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/city_runners_team/"
+    },
+    "warning": null,
+    "takeaway": "Join weekly Nike-backed group training and city meetups with São Paulo's best-known crew brand."
   },
   {
     "name": "MNKS Run Crew",
@@ -247,12 +407,22 @@
     "country": "MX",
     "who": "Mexico City run crew ('Monkeys') with weekly group runs and long-run training since 2017.",
     "why": "Grew from three founders into a 40-plus-member fixture of CDMX's running scene.",
-    "factors": { "legacy": 50, "community": 65, "reach": 35, "events": 60, "crossover": 45, "destination": 40 },
+    "factors": {
+      "legacy": 50,
+      "community": 65,
+      "reach": 35,
+      "events": 60,
+      "crossover": 45,
+      "destination": 40
+    },
     "reach": "IG 5.4K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/mnksruncrew/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/mnksruncrew/"
+    },
+    "warning": null,
+    "takeaway": "Join weekly group runs and long-run training with this Mexico City crew of self-described 'Monkeys.'"
   },
   {
     "name": "CorrerAyuda",
@@ -262,12 +432,22 @@
     "country": "AR",
     "who": "Palermo-based running team combining group training with charity fundraising runs.",
     "why": "Built a loyal following by pairing serious training culture with a give-back mission distinct in Buenos Aires' scene.",
-    "factors": { "legacy": 40, "community": 60, "reach": 40, "events": 55, "crossover": 45, "destination": 35 },
+    "factors": {
+      "legacy": 40,
+      "community": 60,
+      "reach": 40,
+      "events": 55,
+      "crossover": 45,
+      "destination": 35
+    },
     "reach": "IG 14K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/correrayuda/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/correrayuda/"
+    },
+    "warning": null,
+    "takeaway": "Join this Palermo-based team in Buenos Aires for group training plus charity fundraising runs."
   },
   {
     "name": "Unofficial Run Club",
@@ -277,12 +457,22 @@
     "country": "AU",
     "who": "North Sydney's massive free run-and-pastries club; multiple weekly meetups drawing hundreds of runners.",
     "why": "Grew from a small group into Australia's biggest run club in under two years, driving the country's run-club boom.",
-    "factors": { "legacy": 25, "community": 90, "reach": 55, "events": 70, "crossover": 75, "destination": 55 },
+    "factors": {
+      "legacy": 25,
+      "community": 90,
+      "reach": 55,
+      "events": 70,
+      "crossover": 75,
+      "destination": 55
+    },
     "reach": "IG 66K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.unofficialrunclub.com/",
-    "handles": { "instagram": "https://www.instagram.com/unofficialrunclub/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/unofficialrunclub/"
+    },
+    "warning": null,
+    "takeaway": "Show up to one of the multiple weekly meetups in North Sydney — free running, then pastries."
   },
   {
     "name": "Melbourne Runners",
@@ -292,11 +482,21 @@
     "country": "AU",
     "who": "Melbourne's largest general running community since 2016; weekly social group runs across the city.",
     "why": "The long-running default running community for Melbourne, less trend-driven than newer crews but consistently strong.",
-    "factors": { "legacy": 45, "community": 60, "reach": 40, "events": 55, "crossover": 40, "destination": 35 },
+    "factors": {
+      "legacy": 45,
+      "community": 60,
+      "reach": 40,
+      "events": 55,
+      "crossover": 40,
+      "destination": 35
+    },
     "reach": "IG 10K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/melbourne.runners/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/melbourne.runners/"
+    },
+    "warning": null,
+    "takeaway": "Join weekly social group runs across the city with Melbourne's largest general running community since 2016."
   }
 ]

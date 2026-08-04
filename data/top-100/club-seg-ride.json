@@ -7,12 +7,22 @@
     "country": "UK",
     "who": "Global cycling club run out of 29 Rapha Clubhouses worldwide; join via the RCC app, though new memberships are on a waitlist.",
     "why": "The clubhouse model it pioneered is now the template every apparel brand copies for cycling community.",
-    "factors": { "legacy": 80, "community": 75, "reach": 60, "events": 85, "crossover": 90, "destination": 85 },
+    "factors": {
+      "legacy": 80,
+      "community": 75,
+      "reach": 60,
+      "events": 85,
+      "crossover": 90,
+      "destination": 85
+    },
     "reach": "IG 122K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.rapha.cc",
-    "handles": { "instagram": "https://instagram.com/rapha_rcc" },
-    "warning": "New RCC memberships were paused as of late 2025; joining is waitlist-only."
+    "handles": {
+      "instagram": "https://instagram.com/rapha_rcc"
+    },
+    "warning": "New RCC memberships were paused as of late 2025; joining is waitlist-only.",
+    "takeaway": "Join via the RCC app and ride from any of 29 clubhouses — though new memberships are waitlisted."
   },
   {
     "name": "Bondi Icebergs Club",
@@ -22,12 +32,22 @@
     "country": "AU",
     "who": "Winter ocean-swimming club at Bondi's cliff-edge pool; members swim three Sundays a month May-September to keep membership.",
     "why": "A 1929 institution with over 1,000 adult members and one of the most photographed pools on earth.",
-    "factors": { "legacy": 85, "community": 90, "reach": 40, "events": 85, "crossover": 85, "destination": 95 },
+    "factors": {
+      "legacy": 85,
+      "community": 90,
+      "reach": 40,
+      "events": 85,
+      "crossover": 85,
+      "destination": 95
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.icebergs.com.au",
-    "handles": { "instagram": "https://instagram.com/icebergsclub" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/icebergsclub"
+    },
+    "warning": null,
+    "takeaway": "Join as a member and swim three Sundays a month through winter to keep your spot."
   },
   {
     "name": "Serpentine Swimming Club",
@@ -37,12 +57,22 @@
     "country": "UK",
     "who": "Hyde Park open-water swim club with year-round early-morning swims; the Christmas Day Peter Pan Cup is open to entrants.",
     "why": "Racing for the Peter Pan Cup every Christmas Day since 1864 makes this the longest-running fixture in open-water swimming.",
-    "factors": { "legacy": 90, "community": 70, "reach": 30, "events": 80, "crossover": 75, "destination": 70 },
+    "factors": {
+      "legacy": 90,
+      "community": 70,
+      "reach": 30,
+      "events": 80,
+      "crossover": 75,
+      "destination": 70
+    },
     "reach": "IG unknown; active on Facebook (approx 2026)",
     "reachVerified": false,
     "website": "https://serpentineswimmingclub.com",
-    "handles": { "facebook": "https://www.facebook.com/SerpentineSwimmingClub" },
-    "warning": null
+    "handles": {
+      "facebook": "https://www.facebook.com/SerpentineSwimmingClub"
+    },
+    "warning": null,
+    "takeaway": "Join early-morning swims year-round in Hyde Park; anyone can enter the Christmas Day Peter Pan Cup."
   },
   {
     "name": "Coney Island Polar Bear Club",
@@ -52,12 +82,22 @@
     "country": "US",
     "who": "The oldest winter bathing club in the US; members swim Sundays November-April, and the public can join the New Year's Day Plunge.",
     "why": "Founded in 1903, it turned cold-water swimming into a New York civic ritual that raised over $91K for local causes in 2026.",
-    "factors": { "legacy": 88, "community": 65, "reach": 30, "events": 75, "crossover": 70, "destination": 60 },
+    "factors": {
+      "legacy": 88,
+      "community": 65,
+      "reach": 30,
+      "events": 75,
+      "crossover": 70,
+      "destination": 60
+    },
     "reach": "IG 5.8K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://coneyislandpolarbearclub.com",
-    "handles": { "instagram": "https://instagram.com/coney_island_polarbear_club" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/coney_island_polarbear_club"
+    },
+    "warning": null,
+    "takeaway": "Become a member to swim Sundays November through April, or just show up for the New Year's Day Plunge."
   },
   {
     "name": "South End Rowing Club",
@@ -67,12 +107,20 @@
     "country": "US",
     "who": "Aquatic Park rowing and open-water swim club since 1873; hosts the public Alcatraz swim and the annual Bridge to Bridge Regatta.",
     "why": "One of the oldest athletic clubs in the country, kept alive by a century-plus rivalry with its Aquatic Park neighbor.",
-    "factors": { "legacy": 85, "community": 80, "reach": 30, "events": 80, "crossover": 65, "destination": 75 },
+    "factors": {
+      "legacy": 85,
+      "community": 80,
+      "reach": 30,
+      "events": 80,
+      "crossover": 65,
+      "destination": 75
+    },
     "reach": "IG ~3K (approx 2026)",
     "reachVerified": false,
     "website": "https://serc.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Become a member for Aquatic Park rowing and swims, or join the public Alcatraz swim."
   },
   {
     "name": "Dolphin Club",
@@ -82,12 +130,20 @@
     "country": "US",
     "who": "Aquatic Park swim and rowing club founded 1877, right next door to South End Rowing Club; open water swims off the boathouse daily.",
     "why": "Its decades-long friendly rivalry with South End Rowing Club is a defining piece of San Francisco open-water culture.",
-    "factors": { "legacy": 88, "community": 80, "reach": 30, "events": 78, "crossover": 65, "destination": 75 },
+    "factors": {
+      "legacy": 88,
+      "community": 80,
+      "reach": 30,
+      "events": 78,
+      "crossover": 65,
+      "destination": 75
+    },
     "reach": "IG ~3K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up for daily open-water swims off the Aquatic Park boathouse, right next to its rival club."
   },
   {
     "name": "Brighton Swimming Club",
@@ -97,12 +153,22 @@
     "country": "UK",
     "who": "The UK's oldest continuously running swim club, founded 1860; sea-swimming section meets daily, plus water polo and masters sections.",
     "why": "A 165-year-old club that never really stopped, except during WWII when the beaches were closed.",
-    "factors": { "legacy": 90, "community": 65, "reach": 30, "events": 75, "crossover": 55, "destination": 55 },
+    "factors": {
+      "legacy": 90,
+      "community": 65,
+      "reach": 30,
+      "events": 75,
+      "crossover": 55,
+      "destination": 55
+    },
     "reach": "IG 4.4K combined across club accounts (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/brightonsc1860" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/brightonsc1860"
+    },
+    "warning": null,
+    "takeaway": "Join the sea-swimming section for daily swims, or check out the water polo and masters sections."
   },
   {
     "name": "La Jolla Cove Swim Club",
@@ -112,12 +178,22 @@
     "country": "US",
     "who": "Open-water swim club at La Jolla Cove since 1916; runs the Pier to Cove Swim and the annual La Jolla Cove Swim each September.",
     "why": "A century of organizing the rough-water races that put La Jolla on the open-water swimming map.",
-    "factors": { "legacy": 70, "community": 60, "reach": 30, "events": 65, "crossover": 50, "destination": 60 },
+    "factors": {
+      "legacy": 70,
+      "community": 60,
+      "reach": 30,
+      "events": 65,
+      "crossover": 50,
+      "destination": 60
+    },
     "reach": "IG 1.8K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.lajollacoveswimclub.com",
-    "handles": { "instagram": "https://instagram.com/ljcovesc" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/ljcovesc"
+    },
+    "warning": null,
+    "takeaway": "Join the club and swim in the Pier to Cove Swim or the annual La Jolla Cove Swim each September."
   },
   {
     "name": "Major Taylor Cycling Club (NY/NJ)",
@@ -127,12 +203,22 @@
     "country": "US",
     "who": "Newark-based chapter of the national Major Taylor club network honoring the pioneering Black champion cyclist; weekly calendar rides open to all levels.",
     "why": "Anchors a decades-old national network of clubs built around diversifying cycling, with an annual Women On Wheels century.",
-    "factors": { "legacy": 75, "community": 65, "reach": 30, "events": 60, "crossover": 60, "destination": 45 },
+    "factors": {
+      "legacy": 75,
+      "community": 65,
+      "reach": 30,
+      "events": 60,
+      "crossover": 60,
+      "destination": 45
+    },
     "reach": "FB 1.9K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://majortaylornynj.com",
-    "handles": { "x": "https://x.com/majortaylornyc" },
-    "warning": null
+    "handles": {
+      "x": "https://x.com/majortaylornyc"
+    },
+    "warning": null,
+    "takeaway": "Join the weekly calendar rides in Newark, open to all levels, honoring pioneering cyclist Major Taylor."
   },
   {
     "name": "East Side Riders Bike Club",
@@ -142,12 +228,22 @@
     "country": "US",
     "who": "Community bike club based in Watts since 2008; weekly rides, bike-safety classes, and neighborhood cleanups anyone can join.",
     "why": "Built a citywide reputation as 'more than a bike club,' earning Super Bowl LVI and MLS 2024 Legacy Awards.",
-    "factors": { "legacy": 55, "community": 80, "reach": 40, "events": 65, "crossover": 70, "destination": 40 },
+    "factors": {
+      "legacy": 55,
+      "community": 80,
+      "reach": 40,
+      "events": 65,
+      "crossover": 70,
+      "destination": 40
+    },
     "reach": "IG 10K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://esrbc.org",
-    "handles": { "instagram": "https://instagram.com/eastsideriders" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/eastsideriders"
+    },
+    "warning": null,
+    "takeaway": "Join weekly community rides, bike-safety classes or a neighborhood cleanup in Watts — anyone can come."
   },
   {
     "name": "Black Girls Do Bike",
@@ -157,12 +253,22 @@
     "country": "US",
     "who": "National network of 100+ local chapters getting Black women and girls on bikes through regular group rides; join a city chapter directly.",
     "why": "Grew from one city to over 100 chapters and 170 chapter leaders, with a national meetup drawing riders across the country.",
-    "factors": { "legacy": 60, "community": 80, "reach": 50, "events": 60, "crossover": 65, "destination": 45 },
+    "factors": {
+      "legacy": 60,
+      "community": 80,
+      "reach": 50,
+      "events": 60,
+      "crossover": 65,
+      "destination": 45
+    },
     "reach": "IG 28K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.blackgirlsdobike.org",
-    "handles": { "instagram": "https://instagram.com/blackgirlsdobike" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/blackgirlsdobike"
+    },
+    "warning": null,
+    "takeaway": "Join a local chapter directly for regular group rides — over 100 chapters across the country."
   },
   {
     "name": "The Black Foxes",
@@ -172,12 +278,22 @@
     "country": "UK",
     "who": "International collective of Black cyclists and outdoors people; organizes group rides and outdoor meetups, join through their events and social channels.",
     "why": "A newer crew that already has brand backing (Liv Cycling feature) for reclaiming space in outdoor sport.",
-    "factors": { "legacy": 55, "community": 65, "reach": 45, "events": 55, "crossover": 70, "destination": 40 },
+    "factors": {
+      "legacy": 55,
+      "community": 65,
+      "reach": 45,
+      "events": 55,
+      "crossover": 70,
+      "destination": 40
+    },
     "reach": "IG 16K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/the_blackfoxes" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/the_blackfoxes"
+    },
+    "warning": null,
+    "takeaway": "Join a group ride or outdoor meetup through their events and social channels — Black cyclists and outdoors people."
   },
   {
     "name": "CIBBOWS",
@@ -187,12 +303,22 @@
     "country": "US",
     "who": "Coney Island Brighton Beach Open Water Swimmers; weekly Saturday and Sunday training swims at Grimaldo's Chair, plus an annual ocean race series.",
     "why": "Twenty years of turning Brooklyn's beaches into a serious open-water training ground.",
-    "factors": { "legacy": 55, "community": 60, "reach": 30, "events": 70, "crossover": 45, "destination": 45 },
+    "factors": {
+      "legacy": 55,
+      "community": 60,
+      "reach": 30,
+      "events": 70,
+      "crossover": 45,
+      "destination": 45
+    },
     "reach": "IG 1.8K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://cibbows.org",
-    "handles": { "instagram": "https://instagram.com/cibbows" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/cibbows"
+    },
+    "warning": null,
+    "takeaway": "Join weekly Saturday and Sunday training swims at Grimaldo's Chair, plus an annual ocean race series in Brooklyn."
   },
   {
     "name": "Chicago Tri Club",
@@ -202,11 +328,21 @@
     "country": "US",
     "who": "Social, all-levels triathlon club running swim-bike-run training sessions and a first-timer program; join through membership on their site.",
     "why": "Chicago's go-to multi-sport club, built around training toward the city's own marquee triathlon.",
-    "factors": { "legacy": 55, "community": 55, "reach": 30, "events": 65, "crossover": 45, "destination": 35 },
+    "factors": {
+      "legacy": 55,
+      "community": 55,
+      "reach": 30,
+      "events": 65,
+      "crossover": 45,
+      "destination": 35
+    },
     "reach": "IG 1.4K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://chicagotriclub.com",
-    "handles": { "instagram": "https://instagram.com/chicagotriclub" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/chicagotriclub"
+    },
+    "warning": null,
+    "takeaway": "Join through membership on their site for swim-bike-run training sessions, including a first-timer program."
   }
 ]

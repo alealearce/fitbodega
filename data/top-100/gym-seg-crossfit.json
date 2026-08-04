@@ -21,7 +21,8 @@
     "handles": {
       "instagram": "https://instagram.com/thecrossfitmayhem"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Seek out the Mayhem Nation programming boards and train alongside the culture that built a four-time champion."
   },
   {
     "name": "PRVN Fitness",
@@ -45,7 +46,8 @@
     "handles": {
       "instagram": "https://instagram.com/prvnfitness"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Study the garage-style programming built around the most decorated woman in CrossFit Games history."
   },
   {
     "name": "CrossFit Invictus",
@@ -69,7 +71,8 @@
     "handles": {
       "instagram": "https://instagram.com/invictus_fitness"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Sit in on the coaching methodology and seminars that shaped how competitive CrossFit is coached worldwide."
   },
   {
     "name": "CompTrain (formerly CrossFit New England)",
@@ -93,7 +96,8 @@
     "handles": {
       "instagram": "https://instagram.com/comptrain.co"
     },
-    "warning": "De-affiliated from CrossFit HQ and rebranded CompTrain; no longer an official CrossFit affiliate but still the same physical gym and program lineage."
+    "warning": "De-affiliated from CrossFit HQ and rebranded CompTrain; no longer an official CrossFit affiliate but still the same physical gym and program lineage.",
+    "takeaway": "Study the whiteboard-and-mindset culture that shaped Mat Fraser and Katrin Davidsdottir into champions."
   },
   {
     "name": "Training Think Tank",
@@ -117,7 +121,8 @@
     "handles": {
       "instagram": "https://instagram.com/trainingthinktank"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Learn from a coaching staff stacked with CrossFit Games veterans led by nine-time competitor Travis Mayer."
   },
   {
     "name": "Royal Docks CrossFit",
@@ -141,7 +146,8 @@
     "handles": {
       "instagram": "https://instagram.com/royaldocksfitness"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "A regular stop for touring elite athletes — you might share a WOD with a Games champion passing through London."
   },
   {
     "name": "CrossFit Reykjavik",
@@ -165,7 +171,8 @@
     "handles": {
       "instagram": "https://instagram.com/crossfitreykjavik"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Meet the international 'super team' of transplant athletes drawn to Iceland's training culture around champion Annie Thorisdottir."
   },
   {
     "name": "XT Oslo",
@@ -187,7 +194,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Three training halls anchor a scene that also runs the Oslo Throwdown, one of Northern Europe's biggest CrossFit events."
   },
   {
     "name": "Cape CrossFit",
@@ -209,7 +217,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Train with the winningest team in Fittest in Cape Town history, a Regionals qualifier every year since 2011."
   },
   {
     "name": "Lvl Up CrossFit",
@@ -233,7 +242,8 @@
     "handles": {
       "instagram": "https://instagram.com/lvlupcrossfit_dxb"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join Dubai's growing cluster of expat-driven CrossFit boxes, part of the city's fitness-tourism boom."
   },
   {
     "name": "CrossFit Condesa",
@@ -255,7 +265,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Train in one of the largest, longest-running CrossFit facilities in Latin America's second-biggest CrossFit market."
   },
   {
     "name": "Team Training UK",
@@ -279,7 +290,8 @@
     "handles": {
       "instagram": "https://instagram.com/teamtraininguk"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Train Hyrox-specific race prep at one of the UK's first gyms built for the format from scratch, not retrofitted."
   },
   {
     "name": "SKILL CGN",
@@ -301,7 +313,8 @@
     "reachVerified": false,
     "website": "https://skill-studios.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Train Hyrox-specific programming in the sport's home market, which hosts some of its largest annual events."
   },
   {
     "name": "CrossFit Kailua",
@@ -323,7 +336,8 @@
     "reachVerified": false,
     "website": "https://crossfitkailua.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Train inside the ohana concept — a community box with Games-level members still drawing fitness travelers to Hawaii."
   },
   {
     "name": "Wasatch CrossFit",
@@ -347,7 +361,8 @@
     "handles": {
       "instagram": "https://instagram.com/wasatchcrossfit"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Ask about the 2017 CrossFit Games Affiliate Cup banner — a genuine national title from one of Utah's first affiliates."
   },
   {
     "name": "Second City CrossFit",
@@ -371,7 +386,8 @@
     "handles": {
       "instagram": "https://instagram.com/secondcityfitness"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Experience CrossFit's everyday culture at one of Chicago's longest-running, non-flagship community boxes."
   },
   {
     "name": "Atlas Training Club",
@@ -393,6 +409,7 @@
     "reachVerified": false,
     "website": "https://www.atlastrainingclub.co.uk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "See Hyrox's rapid spread beyond London at South Manchester and Cheshire's first gym purpose-built for the format."
   }
 ]

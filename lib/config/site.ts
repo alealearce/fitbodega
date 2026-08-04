@@ -92,11 +92,11 @@ export const COPY = {
     cta:         "Explore Spaces",
     ctaSecondary:"Join the Network",
   },
-  searchPlaceholder: "Search saunas, cold plunge, gyms, coaches...",
+  searchPlaceholder: "Search by city, coach, gym, cold plunge...",
   featuredSection: {
     kicker:   "Partners",
     title:    "Featured spaces",
-    subtitle: "High-performance sanctuaries, curated for the network.",
+    subtitle: "Curated high-performance sanctuaries.",
     cta:      "View all",
   },
   communitySection: {
@@ -108,7 +108,7 @@ export const COPY = {
   spotlightBanner: {
     kicker:   "Member Spotlight",
     headline: "JOIN. GET FEATURED.",
-    body:     "Every member who joins the network gets introduced — a spotlight in The Journal and a feature across our channels. Your space, your voice, told to the people training seriously.",
+    body:     "Every member and business who joins the network gets introduced — a spotlight in The Journal and a feature across our social channels. Your voice in the network.",
     cta:      "Claim Your Spotlight",
   },
   submitCta: {

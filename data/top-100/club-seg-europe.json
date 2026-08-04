@@ -21,7 +21,8 @@
     "handles": {
       "instagram": "https://instagram.com/rundemcrew"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Turn up Tuesdays at lululemon Spitalfields in London — no fee, no membership, everyone's welcome."
   },
   {
     "name": "Track Mafia",
@@ -45,7 +46,8 @@
     "handles": {
       "instagram": "https://instagram.com/trackmafia.uk"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Bring a fitness base and join the weekly track night at Paddington Recreation Ground — DJs included."
   },
   {
     "name": "Your Friendly Runners",
@@ -69,7 +71,8 @@
     "handles": {
       "instagram": "https://instagram.com/yourfriendlyrunners"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join the Saturday 10K social run in East London, then hang out at their Hackney clubhouse, Knees Up."
   },
   {
     "name": "Puresport Run Club",
@@ -93,7 +96,8 @@
     "handles": {
       "instagram": "https://instagram.com/puresport"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join a free weekly run across Battersea, Hackney or Clapham, matched to your pace, in London or beyond."
   },
   {
     "name": "Midnight Runners",
@@ -115,7 +119,8 @@
     "reachVerified": false,
     "website": "https://www.midnightrunners.com/cities/london",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Free to join in any of 18 cities — turn up for a night run that turns into a party."
   },
   {
     "name": "Run Talk Run",
@@ -139,7 +144,8 @@
     "handles": {
       "instagram": "https://instagram.com/runtalkrun_southlondon"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Find a free weekly group near you for a gentle 5K pace, no pressure, talking about mental health."
   },
   {
     "name": "Fulham Running Club",
@@ -163,7 +169,8 @@
     "handles": {
       "instagram": "https://instagram.com/fulhamrunningclub"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join one of four free weekly sessions in South West London, from intervals to a Saturday parkrun."
   },
   {
     "name": "NBRO Running",
@@ -187,7 +194,8 @@
     "handles": {
       "instagram": "https://instagram.com/nbrorunning"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join a free weekly session in Copenhagen's parks or waterfront, from easy jogs to speed workouts."
   },
   {
     "name": "Berlin Braves",
@@ -211,7 +219,8 @@
     "handles": {
       "instagram": "https://instagram.com/berlinbraves"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Watch for the membership window to reopen at this Kreuzberg club — running and basketball, once you're in."
   },
   {
     "name": "KRAFT Runners",
@@ -235,7 +244,8 @@
     "handles": {
       "instagram": "https://instagram.com/kraftrunners"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up for an intense, inclusive interval workout in Berlin under the #geilballern banner — all welcome."
   },
   {
     "name": "Patta Running Team",
@@ -259,7 +269,8 @@
     "handles": {
       "instagram": "https://instagram.com/pattarunningteam"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Watch Instagram and Strava for the next run, then just show up — all paces welcome."
   },
   {
     "name": "Rotterdam Running Crew",
@@ -283,7 +294,8 @@
     "handles": {
       "instagram": "https://instagram.com/rotterdamrunningcrew"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join the open weekly run around Rotterdam, welcoming beginners through advanced runners."
   },
   {
     "name": "K I I N Paris Run Club",
@@ -307,7 +319,8 @@
     "handles": {
       "instagram": "https://instagram.com/we.are.kiin"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up Wednesday or Sunday to Le Peloton Cafe in Paris — every level welcome."
   },
   {
     "name": "adidas Runners",
@@ -331,7 +344,8 @@
     "handles": {
       "instagram": "https://instagram.com/runnersofparis"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Download the app and join a free, coach-led session in any of 60+ cities, no cost."
   },
   {
     "name": "SATISFY",
@@ -355,7 +369,8 @@
     "handles": {
       "instagram": "https://instagram.com/satisfyrunning"
     },
-    "warning": "Reach reflects the SATISFY brand account, not a dedicated crew account; the Paris LSD run itself is a monthly meetup, not a large weekly regular group."
+    "warning": "Reach reflects the SATISFY brand account, not a dedicated crew account; the Paris LSD run itself is a monthly meetup, not a large weekly regular group.",
+    "takeaway": "Join the monthly LSD (Long Slow Distance) group run in Paris, or catch it in a touring city."
   },
   {
     "name": "Stockholm Run Club",
@@ -379,7 +394,8 @@
     "handles": {
       "instagram": "https://instagram.com/stockholmrunclub"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join the Tuesday or Sunday run, powered by Adidas Running and Red Bull Sweden."
   },
   {
     "name": "Dublin Track Club",
@@ -403,7 +419,8 @@
     "handles": {
       "instagram": "https://instagram.com/dublintrackclub"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join regular structured track-training sessions in Dublin for distance runners of varying levels."
   },
   {
     "name": "Yapperz Club",
@@ -427,6 +444,7 @@
     "handles": {
       "instagram": "https://instagram.com/yapperzclub"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join the Tuesday 'Turbo Yap' or the relaxed Sunday run in Milan — talking pace only, no performance pressure."
   }
 ]

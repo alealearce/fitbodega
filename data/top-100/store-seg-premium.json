@@ -21,7 +21,8 @@
     "handles": {
       "instagram": "https://instagram.com/erewhon"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "The original celebrity grocery flagship — go for star-spotting and the smoothie bar that started the $20-smoothie era."
   },
   {
     "name": "Erewhon Calabasas",
@@ -45,7 +46,8 @@
     "handles": {
       "instagram": "https://instagram.com/erewhon"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Erewhon's Kardashian-adjacent outpost — go for the spacious hot bar and celebrity-spotting distinct from the Fairfax original."
   },
   {
     "name": "Whole Foods Market (Austin flagship)",
@@ -69,7 +71,8 @@
     "handles": {
       "instagram": "https://instagram.com/wholefoods"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Study it as the birthplace of the natural-foods supermarket format, not for anything unique on the shelves."
   },
   {
     "name": "Lassens Natural Foods & Vitamins (La Brea, LA)",
@@ -91,7 +94,8 @@
     "reachVerified": false,
     "website": "https://www.lassens.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a three-generation family vitamin shop that predates the whole celebrity-grocer wave by decades."
   },
   {
     "name": "Bristol Farms (Rolling Hills Estates original)",
@@ -113,7 +117,8 @@
     "reachVerified": false,
     "website": "https://www.bristolfarms.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for butcher counters and produce theatre modeled on Harrods — the white-tablecloth end of health-adjacent grocery."
   },
   {
     "name": "Lazy Acres Natural Market (Santa Barbara original)",
@@ -135,7 +140,8 @@
     "reachVerified": false,
     "website": "https://www.lazyacres.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a quieter, neighborhood-scaled alternative to Erewhon and Lassens in the LA-region organic-grocery scene."
   },
   {
     "name": "Moon Juice (Melrose Ave, LA)",
@@ -159,7 +165,8 @@
     "handles": {
       "instagram": "https://instagram.com/moonjuice"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "The tiny original storefront that launched the whole US 'dust' adaptogen-supplement category — go for the cold-press juices."
   },
   {
     "name": "Natural Grocers (Golden/Lakewood, CO origin)",
@@ -181,7 +188,8 @@
     "reachVerified": false,
     "website": "https://www.naturalgrocers.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see one of the true origin points of the US health-food industry, still education-focused after seven decades."
   },
   {
     "name": "Sprouts Farmers Market (Chandler, AZ original)",
@@ -203,7 +211,8 @@
     "reachVerified": false,
     "website": "https://www.sprouts.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see the first store that proved organic-and-bulk retail could scale nationally without soda-aisle junk food."
   },
   {
     "name": "Jimbo's Naturally (North Park, San Diego original)",
@@ -225,7 +234,8 @@
     "reachVerified": false,
     "website": "https://jimbos.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for strict regenerative-organic sourcing at the San Diego grocer that dropped plastic bags back in 2008."
   },
   {
     "name": "Mother's Market & Kitchen (Costa Mesa original)",
@@ -247,7 +257,8 @@
     "reachVerified": false,
     "website": "https://www.mothersmarket.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see an organic grocer that grew out of a yoga center's community, not a retail plan."
   },
   {
     "name": "Down to Earth Organic and Natural (King St, Honolulu)",
@@ -269,7 +280,8 @@
     "reachVerified": false,
     "website": "https://www.downtoearth.org",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the free senior meals and farmers' markets this Hawaii-grown grocer has run since 1977."
   },
   {
     "name": "New Seasons Market (Raleigh Hills, Portland original)",
@@ -291,7 +303,8 @@
     "reachVerified": false,
     "website": "https://www.newseasonsmarket.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see the store that defined Portland's local-first grocery identity a decade before it went national."
   },
   {
     "name": "Central Market (North Lamar, Austin original)",
@@ -313,6 +326,7 @@
     "reachVerified": false,
     "website": "https://www.centralmarket.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for scratch bakeries and in-house butchers proving a regional chain can go premium without going corporate."
   }
 ]

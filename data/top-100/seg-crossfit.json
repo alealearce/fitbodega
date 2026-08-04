@@ -6,12 +6,22 @@
     "country": "AU",
     "who": "Most decorated athlete in CrossFit Games history, 8-time Fittest Woman on Earth through the 2025 season.",
     "why": "Sets the competitive standard the entire women's field trains against; her app and gear line extend that authority into commerce.",
-    "factors": { "reach": 64, "engagement": 62, "credibility": 97, "impact": 92, "commerce": 62, "consistency": 92 },
+    "factors": {
+      "reach": 64,
+      "engagement": 62,
+      "credibility": 97,
+      "impact": 92,
+      "commerce": 62,
+      "consistency": 92
+    },
     "reach": "IG 2.1M (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/tiaclair1/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/tiaclair1/"
+    },
+    "warning": null,
+    "takeaway": "Train against the toughest standard you can find, then build products that extend your expertise past competition."
   },
   {
     "name": "Mat Fraser",
@@ -20,12 +30,22 @@
     "country": "US",
     "who": "Five-time CrossFit Games champion (2016-2020), widely regarded as the greatest individual competitor in the sport's history.",
     "why": "Retired unbeaten in Games finals; his name still headlines comeback speculation and his training company keeps his standards visible.",
-    "factors": { "reach": 66, "engagement": 55, "credibility": 98, "impact": 95, "commerce": 65, "consistency": 78 },
+    "factors": {
+      "reach": 66,
+      "engagement": 55,
+      "credibility": 98,
+      "impact": 95,
+      "commerce": 65,
+      "consistency": 78
+    },
     "reach": "IG 2.4M (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/mathewfras/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/mathewfras/"
+    },
+    "warning": null,
+    "takeaway": "Set a standard so high your name still defines the bar years after you stop competing."
   },
   {
     "name": "Rich Froning",
@@ -34,12 +54,22 @@
     "country": "US",
     "who": "Four-time individual CrossFit Games champion and multi-time team champion, founder of CrossFit Mayhem.",
     "why": "Built the sport's biggest affiliate-and-media brand and still competes and coaches team events, bridging the sport's early and current eras.",
-    "factors": { "reach": 60, "engagement": 55, "credibility": 96, "impact": 88, "commerce": 85, "consistency": 92 },
+    "factors": {
+      "reach": 60,
+      "engagement": 55,
+      "credibility": 96,
+      "impact": 88,
+      "commerce": 85,
+      "consistency": 92
+    },
     "reach": "IG 1.4M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://mayhemnation.com",
-    "handles": { "instagram": "https://www.instagram.com/richfroning/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/richfroning/"
+    },
+    "warning": null,
+    "takeaway": "Keep coaching and competing at the same time — staying hands-on keeps your teaching credible."
   },
   {
     "name": "Katrin Davidsdottir",
@@ -48,12 +78,22 @@
     "country": "IS",
     "who": "Two-time Fittest Woman on Earth (2015, 2016) and veteran competitor still contending for the Games podium.",
     "why": "A decade-plus at the top with a large, loyal following and co-founded nutrition and recovery brands.",
-    "factors": { "reach": 63, "engagement": 55, "credibility": 90, "impact": 82, "commerce": 58, "consistency": 85 },
+    "factors": {
+      "reach": 63,
+      "engagement": 55,
+      "credibility": 90,
+      "impact": 82,
+      "commerce": 58,
+      "consistency": 85
+    },
     "reach": "IG ~2M (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/katrintanja/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/katrintanja/"
+    },
+    "warning": null,
+    "takeaway": "Stay in your sport for the long game — a decade of consistency builds a following no trend can."
   },
   {
     "name": "Annie Thorisdottir",
@@ -62,12 +102,22 @@
     "country": "IS",
     "who": "First two-time Fittest Woman on Earth (2011, 2012), one of the sport's founding stars.",
     "why": "Her early dominance helped put women's CrossFit on equal billing with the men's field; still a respected voice and occasional competitor.",
-    "factors": { "reach": 52, "engagement": 50, "credibility": 92, "impact": 85, "commerce": 45, "consistency": 78 },
+    "factors": {
+      "reach": 52,
+      "engagement": 50,
+      "credibility": 92,
+      "impact": 85,
+      "commerce": 45,
+      "consistency": 78
+    },
     "reach": "IG approx 700K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/anniethorisdottir/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/anniethorisdottir/"
+    },
+    "warning": null,
+    "takeaway": "Compete early and well in a young sport — your results help define the field for everyone after."
   },
   {
     "name": "Sara Sigmundsdottir",
@@ -76,12 +126,22 @@
     "country": "IS",
     "who": "Longtime individual Games competitor and Mayhem Freedom team athlete known for raw strength and candid, personality-driven content.",
     "why": "One of the more entertaining, outspoken voices in the sport, with a following that predates and outlasts her competitive peak.",
-    "factors": { "reach": 55, "engagement": 60, "credibility": 78, "impact": 60, "commerce": 45, "consistency": 78 },
+    "factors": {
+      "reach": 55,
+      "engagement": 60,
+      "credibility": 78,
+      "impact": 60,
+      "commerce": 45,
+      "consistency": 78
+    },
     "reach": "IG approx 900K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/sarasigmundsdottir/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/sarasigmundsdottir/"
+    },
+    "warning": null,
+    "takeaway": "Stay candid and personality-driven on camera — an authentic voice outlasts your competitive peak."
   },
   {
     "name": "James Sprague",
@@ -90,12 +150,22 @@
     "country": "US",
     "who": "Two-time Fittest Man on Earth (2024, 2026), the current standard-bearer of the men's field.",
     "why": "Fresh off defending his title, he is the sport's newest breakout star, with reach still catching up to his results.",
-    "factors": { "reach": 38, "engagement": 65, "credibility": 95, "impact": 62, "commerce": 35, "consistency": 55 },
+    "factors": {
+      "reach": 38,
+      "engagement": 65,
+      "credibility": 95,
+      "impact": 62,
+      "commerce": 35,
+      "consistency": 55
+    },
     "reach": "IG 126K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/spraguerrrr/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/spraguerrrr/"
+    },
+    "warning": null,
+    "takeaway": "Let results speak first — reach and recognition can catch up to real achievement later."
   },
   {
     "name": "Aimee Cringle",
@@ -104,12 +174,22 @@
     "country": "GB",
     "who": "2026 Fittest Woman on Earth, the first British Games champion since Sam Briggs in 2013.",
     "why": "A six-year rise from mid-pack to champion that is reshaping the UK CrossFit scene and drawing new mainstream press.",
-    "factors": { "reach": 48, "engagement": 62, "credibility": 93, "impact": 58, "commerce": 32, "consistency": 48 },
+    "factors": {
+      "reach": 48,
+      "engagement": 62,
+      "credibility": 93,
+      "impact": 58,
+      "commerce": 32,
+      "consistency": 48
+    },
     "reach": "IG 340K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/aimee_cringle/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/aimee_cringle/"
+    },
+    "warning": null,
+    "takeaway": "Trust a slow multi-year rise — years of incremental progress can still end in a title."
   },
   {
     "name": "Dallin Pepper",
@@ -118,12 +198,22 @@
     "country": "US",
     "who": "Multiple-time CrossFit Games podium finisher, runner-up in 2026, long tipped as the next Fittest Man on Earth.",
     "why": "A young, telegenic contender whose near-misses have made him one of the most-discussed men in the sport.",
-    "factors": { "reach": 38, "engagement": 60, "credibility": 82, "impact": 55, "commerce": 32, "consistency": 55 },
+    "factors": {
+      "reach": 38,
+      "engagement": 60,
+      "credibility": 82,
+      "impact": 55,
+      "commerce": 32,
+      "consistency": 55
+    },
     "reach": "IG 118K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/dallinpepper/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/dallinpepper/"
+    },
+    "warning": null,
+    "takeaway": "Being close to winning repeatedly can build as much attention as actually winning."
   },
   {
     "name": "Emma Lawson",
@@ -132,12 +222,22 @@
     "country": "CA",
     "who": "Runner-up at the 2026 CrossFit Games and one of the sport's most consistent young podium threats.",
     "why": "Canada's top current CrossFit export, with a fast-growing following tracking her rise toward a title.",
-    "factors": { "reach": 47, "engagement": 58, "credibility": 82, "impact": 52, "commerce": 30, "consistency": 55 },
+    "factors": {
+      "reach": 47,
+      "engagement": 58,
+      "credibility": 82,
+      "impact": 52,
+      "commerce": 30,
+      "consistency": 55
+    },
     "reach": "IG 327K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/emma.lawson_5/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/emma.lawson_5/"
+    },
+    "warning": null,
+    "takeaway": "Let people follow your rise in real time — a growing story is as compelling as a finished one."
   },
   {
     "name": "Justin Medeiros",
@@ -146,12 +246,22 @@
     "country": "US",
     "who": "Two-time Fittest Man on Earth (2021, 2022) and one of the most consistently ranked men of the past five years.",
     "why": "A crossover face for the sport with strong brand deals and steady top-5 Games finishes since his titles.",
-    "factors": { "reach": 52, "engagement": 55, "credibility": 90, "impact": 70, "commerce": 52, "consistency": 75 },
+    "factors": {
+      "reach": 52,
+      "engagement": 55,
+      "credibility": 90,
+      "impact": 70,
+      "commerce": 52,
+      "consistency": 75
+    },
     "reach": "IG 571K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/justinmedeiros34/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/justinmedeiros34/"
+    },
+    "warning": null,
+    "takeaway": "Chase consistent top finishes over one big peak — steady placing builds a longer career than a single win."
   },
   {
     "name": "Jeffrey Adler",
@@ -160,12 +270,22 @@
     "country": "CA",
     "who": "2023 Fittest Man on Earth and back-to-back Rogue Invitational champion (2024, 2025).",
     "why": "Canada's most decorated current male competitor, still adding to a growing trophy case.",
-    "factors": { "reach": 41, "engagement": 55, "credibility": 90, "impact": 62, "commerce": 40, "consistency": 70 },
+    "factors": {
+      "reach": 41,
+      "engagement": 55,
+      "credibility": 90,
+      "impact": 62,
+      "commerce": 40,
+      "consistency": 70
+    },
     "reach": "IG 193K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/adlerjeff/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/adlerjeff/"
+    },
+    "warning": null,
+    "takeaway": "Keep adding wins year after year — a growing record speaks louder than a single title."
   },
   {
     "name": "Laura Horvath",
@@ -174,12 +294,22 @@
     "country": "HU",
     "who": "2023 Fittest Woman on Earth, Hungary's first CrossFit Games champion.",
     "why": "Broke a long US/Icelandic/Australian hold on the women's title and remains a top podium threat.",
-    "factors": { "reach": 45, "engagement": 55, "credibility": 92, "impact": 68, "commerce": 38, "consistency": 65 },
+    "factors": {
+      "reach": 45,
+      "engagement": 55,
+      "credibility": 92,
+      "impact": 68,
+      "commerce": 38,
+      "consistency": 65
+    },
     "reach": "IG approx 400K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/laurahorvathh/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/laurahorvathh/"
+    },
+    "warning": null,
+    "takeaway": "Keep contending at the top level year after year — sustained podium threat matters more than one win."
   },
   {
     "name": "Brooke Wells",
@@ -188,12 +318,22 @@
     "country": "US",
     "who": "Longtime individual Games competitor and one of the most consistent top-10 women of the past decade.",
     "why": "A steady top finisher with strong sponsor relationships and a loyal training-content following.",
-    "factors": { "reach": 50, "engagement": 52, "credibility": 78, "impact": 55, "commerce": 42, "consistency": 80 },
+    "factors": {
+      "reach": 50,
+      "engagement": 52,
+      "credibility": 78,
+      "impact": 55,
+      "commerce": 42,
+      "consistency": 80
+    },
     "reach": "IG approx 500K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/brookeewells/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/brookeewells/"
+    },
+    "warning": null,
+    "takeaway": "Build sponsor relationships around consistent top finishes, not just one standout result."
   },
   {
     "name": "Danielle Brandon",
@@ -202,12 +342,22 @@
     "country": "US",
     "who": "Multiple-time CrossFit Games individual competitor known for explosive gymnastics and a fast-growing profile.",
     "why": "One of the more talked-about rising women in the sport, with viral-friendly training clips.",
-    "factors": { "reach": 44, "engagement": 60, "credibility": 72, "impact": 52, "commerce": 32, "consistency": 55 },
+    "factors": {
+      "reach": 44,
+      "engagement": 60,
+      "credibility": 72,
+      "impact": 52,
+      "commerce": 32,
+      "consistency": 55
+    },
     "reach": "IG approx 260K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/daniellenicolebrandon/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/daniellenicolebrandon/"
+    },
+    "warning": null,
+    "takeaway": "Showcase your most explosive, viral-friendly skill clips — standout moments travel further than full workouts."
   },
   {
     "name": "Noah Ohlsen",
@@ -216,12 +366,22 @@
     "country": "US",
     "who": "Ten-plus-year individual Games competitor, among the most durable men's careers in the sport.",
     "why": "Rarely misses a Games appearance and is respected as one of the field's most consistent performers.",
-    "factors": { "reach": 46, "engagement": 50, "credibility": 78, "impact": 55, "commerce": 38, "consistency": 88 },
+    "factors": {
+      "reach": 46,
+      "engagement": 50,
+      "credibility": 78,
+      "impact": 55,
+      "commerce": 38,
+      "consistency": 88
+    },
     "reach": "IG approx 350K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/noahohlsen/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/noahohlsen/"
+    },
+    "warning": null,
+    "takeaway": "Show up every year without fail — durability earns respect that single peak performances don't."
   },
   {
     "name": "Kristi Eramo O'Connell",
@@ -230,12 +390,22 @@
     "country": "US",
     "who": "Multiple-time individual Games competitor and coach known for technical lifting content.",
     "why": "A steady presence bridging elite competition and everyday training advice for a broad training audience.",
-    "factors": { "reach": 43, "engagement": 52, "credibility": 75, "impact": 50, "commerce": 40, "consistency": 75 },
+    "factors": {
+      "reach": 43,
+      "engagement": 52,
+      "credibility": 75,
+      "impact": 50,
+      "commerce": 40,
+      "consistency": 75
+    },
     "reach": "IG approx 240K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/kristieramo/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/kristieramo/"
+    },
+    "warning": null,
+    "takeaway": "Translate elite competition experience into training advice an everyday lifter can actually use."
   },
   {
     "name": "Chandler Smith",
@@ -244,12 +414,22 @@
     "country": "US",
     "who": "Individual Games competitor and one of the sport's strongest young men, known for elite weightlifting numbers.",
     "why": "A rising name whose raw strength numbers get shared well outside the CrossFit community.",
-    "factors": { "reach": 42, "engagement": 55, "credibility": 75, "impact": 50, "commerce": 32, "consistency": 60 },
+    "factors": {
+      "reach": 42,
+      "engagement": 55,
+      "credibility": 75,
+      "impact": 50,
+      "commerce": 32,
+      "consistency": 60
+    },
     "reach": "IG approx 200K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/chandlersmith__/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/chandlersmith__/"
+    },
+    "warning": null,
+    "takeaway": "Share your raw strength numbers — impressive lifts travel to audiences outside your home sport."
   },
   {
     "name": "Hunter McIntyre",
@@ -258,12 +438,22 @@
     "country": "US",
     "who": "Three-time HYROX World Champion and founder of BLDR Sports, formerly a top obstacle-course/Spartan racer.",
     "why": "The loudest, most recognizable face driving HYROX's US growth, with a hybrid-training persona built for virality.",
-    "factors": { "reach": 45, "engagement": 68, "credibility": 88, "impact": 80, "commerce": 65, "consistency": 85 },
+    "factors": {
+      "reach": 45,
+      "engagement": 68,
+      "credibility": 88,
+      "impact": 80,
+      "commerce": 65,
+      "consistency": 85
+    },
     "reach": "IG 242K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/huntthesheriff/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/huntthesheriff/"
+    },
+    "warning": null,
+    "takeaway": "Get loud and visible for a new sport early — genuine enthusiasm can make you its defining face."
   },
   {
     "name": "Alexander Roncevic",
@@ -272,12 +462,22 @@
     "country": "AT",
     "who": "Austrian HYROX World Champion and double world-record holder, first athlete to break the 52-minute barrier.",
     "why": "The technical benchmark of the sport right now, setting times and standards other elite racers chase.",
-    "factors": { "reach": 41, "engagement": 55, "credibility": 92, "impact": 72, "commerce": 42, "consistency": 68 },
+    "factors": {
+      "reach": 41,
+      "engagement": 55,
+      "credibility": 92,
+      "impact": 72,
+      "commerce": 42,
+      "consistency": 68
+    },
     "reach": "IG 150K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/alexander.roncevic/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/alexander.roncevic/"
+    },
+    "warning": null,
+    "takeaway": "Set a measurable technical benchmark in your discipline that others have to chase."
   },
   {
     "name": "Lauren Weeks",
@@ -286,12 +486,22 @@
     "country": "US",
     "who": "Three-time HYROX World Champion, the most decorated woman in the sport.",
     "why": "The benchmark competitor for women's HYROX as the sport professionalizes and its audience grows.",
-    "factors": { "reach": 33, "engagement": 55, "credibility": 90, "impact": 60, "commerce": 35, "consistency": 62 },
+    "factors": {
+      "reach": 33,
+      "engagement": 55,
+      "credibility": 90,
+      "impact": 60,
+      "commerce": 35,
+      "consistency": 62
+    },
     "reach": "IG 68K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/lauren_e_weeks/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/lauren_e_weeks/"
+    },
+    "warning": null,
+    "takeaway": "Set the technical benchmark in a growing sport early — being first-best compounds as the sport grows."
   },
   {
     "name": "Megan Jacoby",
@@ -300,12 +510,22 @@
     "country": "US",
     "who": "2024 HYROX World Champion and one of the sport's top-ranked women.",
     "why": "A recent breakout champion helping legitimize HYROX as a pro women's circuit.",
-    "factors": { "reach": 34, "engagement": 52, "credibility": 85, "impact": 55, "commerce": 32, "consistency": 55 },
+    "factors": {
+      "reach": 34,
+      "engagement": 52,
+      "credibility": 85,
+      "impact": 55,
+      "commerce": 32,
+      "consistency": 55
+    },
     "reach": "IG 78K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/mjac0by/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/mjac0by/"
+    },
+    "warning": null,
+    "takeaway": "A single breakout title can help legitimize an entire circuit — win publicly and the sport rises with you."
   },
   {
     "name": "Marston Sawyers",
@@ -314,12 +534,23 @@
     "country": "US",
     "who": "Co-founder of the Buttery Bros, CrossFit's best-known documentary and comedy media duo (with Heber Cannon).",
     "why": "Their films and event coverage have shaped how the whole sport is presented on camera, and their apparel brand extends that reach.",
-    "factors": { "reach": 47, "engagement": 68, "credibility": 55, "impact": 75, "commerce": 55, "consistency": 85 },
+    "factors": {
+      "reach": 47,
+      "engagement": 68,
+      "credibility": 55,
+      "impact": 75,
+      "commerce": 55,
+      "consistency": 85
+    },
     "reach": "IG (personal) 108K + Buttery Bros account 138K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://butterybros.com",
-    "handles": { "instagram": "https://www.instagram.com/marstonsawyers/", "youtube": "https://www.youtube.com/@butterybros" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/marstonsawyers/",
+      "youtube": "https://www.youtube.com/@butterybros"
+    },
+    "warning": null,
+    "takeaway": "Document your sport on camera with real production value — how it's filmed shapes how it's seen."
   },
   {
     "name": "Ben Bergeron",
@@ -328,12 +559,23 @@
     "country": "US",
     "who": "Founder of CompTrain and CrossFit New England, coach behind multiple individual and team Games champions.",
     "why": "The sport's most influential coach: his programming and mindset content are studied and copied across affiliates worldwide.",
-    "factors": { "reach": 52, "engagement": 55, "credibility": 92, "impact": 82, "commerce": 80, "consistency": 90 },
+    "factors": {
+      "reach": 52,
+      "engagement": 55,
+      "credibility": 92,
+      "impact": 82,
+      "commerce": 80,
+      "consistency": 90
+    },
     "reach": "IG (personal) 304K + CompTrain 266K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://comptrain.co",
-    "handles": { "instagram": "https://www.instagram.com/benbergeron/", "podcast": "Chasing Excellence" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/benbergeron/",
+      "podcast": "Chasing Excellence"
+    },
+    "warning": null,
+    "takeaway": "Write down your coaching philosophy, not just your workouts — the mindset behind training is what gets copied."
   },
   {
     "name": "Marcus Filly",
@@ -342,12 +584,22 @@
     "country": "US",
     "who": "Former CrossFit Games competitor turned founder of Functional Bodybuilding, a training style he popularized.",
     "why": "Created and named a training category now used across gyms worldwide, backed by a real subscription-program business.",
-    "factors": { "reach": 59, "engagement": 58, "credibility": 68, "impact": 82, "commerce": 75, "consistency": 82 },
+    "factors": {
+      "reach": 59,
+      "engagement": 58,
+      "credibility": 68,
+      "impact": 82,
+      "commerce": 75,
+      "consistency": 82
+    },
     "reach": "IG (personal) 1M + Functional Bodybuilding 300K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://functionalbodybuilding.com",
-    "handles": { "instagram": "https://www.instagram.com/marcusfilly/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/marcusfilly/"
+    },
+    "warning": null,
+    "takeaway": "Name your training style and build a real program around it, not just a highlight reel."
   },
   {
     "name": "Craig Richey",
@@ -356,11 +608,19 @@
     "country": "GB",
     "who": "British Weightlifting national champion turned YouTube fitness personality, known for daily follow-along cardio and CrossFit-style content.",
     "why": "One of the sport's longest-running creators, translating CrossFit and weightlifting training into daily content for a mainstream audience.",
-    "factors": { "reach": 50, "engagement": 62, "credibility": 60, "impact": 58, "commerce": 55, "consistency": 85 },
+    "factors": {
+      "reach": 50,
+      "engagement": 62,
+      "credibility": 60,
+      "impact": 58,
+      "commerce": 55,
+      "consistency": 85
+    },
     "reach": "YT 340K subs (verified 2026-08) + IG approx 200K (approx 2026)",
     "reachVerified": true,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Translate elite-level training into daily, follow-along content a mainstream audience can actually do."
   }
 ]

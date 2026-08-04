@@ -6,12 +6,23 @@
     "country": "US",
     "who": "Founder of Bare Performance Nutrition (BPN) and a hybrid-athlete training app/platform (BPN Training, plus a program on Playbook) selling structured run-plus-strength programming.",
     "why": "One of the largest hybrid-athlete followings, built on years of documented Ironman, ultra, and military-style training vlogs; the app scales his programming to a large paying audience.",
-    "factors": { "coaching": 60, "content": 80, "reach": 80, "credibility": 65, "business": 75, "engagement": 65 },
+    "factors": {
+      "coaching": 60,
+      "content": 80,
+      "reach": 80,
+      "credibility": 65,
+      "business": 75,
+      "engagement": 65
+    },
     "reach": "IG ~700K approx · YT ~1.3M approx (not independently verified this session)",
     "reachVerified": false,
     "website": "https://www.nickbarefitness.app/",
-    "handles": { "instagram": "https://instagram.com/nickbare", "podcast": "Go One More" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/nickbare",
+      "podcast": "Go One More"
+    },
+    "warning": null,
+    "takeaway": "Document your own training journey publicly — years of vlogged proof becomes the app's marketing."
   },
   {
     "name": "Marcus Filly",
@@ -20,12 +31,22 @@
     "country": "US",
     "who": "Founder of Functional Bodybuilding; sells the Persist coaching app, with 10,000+ active paying members across 80+ countries on structured hybrid strength/conditioning tracks.",
     "why": "A real, scaled global membership-coaching business rather than templated PDFs, with a large and loyal functional-fitness following.",
-    "factors": { "coaching": 65, "content": 75, "reach": 65, "credibility": 65, "business": 70, "engagement": 65 },
+    "factors": {
+      "coaching": 65,
+      "content": 75,
+      "reach": 65,
+      "credibility": 65,
+      "business": 70,
+      "engagement": 65
+    },
     "reach": "IG 1M (personal) + 300K (Functional Bodybuilding) (verified 2026-08)",
     "reachVerified": true,
     "website": "https://functional-bodybuilding.com/",
-    "handles": { "instagram": "https://instagram.com/marcusfilly" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/marcusfilly"
+    },
+    "warning": null,
+    "takeaway": "Build ongoing membership coaching, not one-off PDFs — recurring structure builds a loyal following."
   },
   {
     "name": "Ben Bergeron",
@@ -34,12 +55,22 @@
     "country": "US",
     "who": "Founder of CompTrain and CrossFit New England; sells CompTrain gym and individual-athlete programming (app plus subscriptions).",
     "why": "Documented elite client results (2x CrossFit Games champion Katrin Davidsdottir, 10x Games athlete Cole Sager) on top of a real, scaled subscription coaching business.",
-    "factors": { "coaching": 85, "content": 70, "reach": 55, "credibility": 85, "business": 70, "engagement": 60 },
+    "factors": {
+      "coaching": 85,
+      "content": 70,
+      "reach": 55,
+      "credibility": 85,
+      "business": 70,
+      "engagement": 60
+    },
     "reach": "IG 304K (personal) + 266K (CompTrain.co) (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.comptrain.com/",
-    "handles": { "instagram": "https://instagram.com/benbergeron" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/benbergeron"
+    },
+    "warning": null,
+    "takeaway": "Let your top athletes' results speak — documented champions are the best sales page you have."
   },
   {
     "name": "Rich Ryan",
@@ -48,12 +79,22 @@
     "country": "US",
     "who": "Pro trail/ultra runner who runs Reinforced Running, a 1:1 and group online coaching service for trail and ultra athletes.",
     "why": "Elite competitive trail-running credentials paired with an active, individualized coaching roster and instructive YouTube content.",
-    "factors": { "coaching": 65, "content": 55, "reach": 45, "credibility": 65, "business": 45, "engagement": 55 },
+    "factors": {
+      "coaching": 65,
+      "content": 55,
+      "reach": 45,
+      "credibility": 65,
+      "business": 45,
+      "engagement": 55
+    },
     "reach": "IG ~40K approx (not independently verified this session)",
     "reachVerified": false,
     "website": "https://www.reinforcedrunning.com/",
-    "handles": { "instagram": "https://instagram.com/richryanrunning" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/richryanrunning"
+    },
+    "warning": null,
+    "takeaway": "Teach through instructive YouTube content while running an active, individualized coaching roster alongside it."
   },
   {
     "name": "Zach Bitter",
@@ -62,12 +103,23 @@
     "country": "US",
     "who": "World-record ultramarathoner who sells personalized ultramarathon coaching (5K to 200+ miles) and group coaching programs via TrainingPeaks.",
     "why": "Elite competitive record (100-mile world best, national titles) lends strong credibility to a genuine, individualized coaching business.",
-    "factors": { "coaching": 70, "content": 65, "reach": 50, "credibility": 85, "business": 50, "engagement": 55 },
+    "factors": {
+      "coaching": 70,
+      "content": 65,
+      "reach": 50,
+      "credibility": 85,
+      "business": 50,
+      "engagement": 55
+    },
     "reach": "IG 68K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://zachbitter.com/coaching",
-    "handles": { "instagram": "https://instagram.com/zachbitter", "podcast": "Human Performance Outliers" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/zachbitter",
+      "podcast": "Human Performance Outliers"
+    },
+    "warning": null,
+    "takeaway": "Coach the full distance range you've raced yourself — 5K to 200 miles, all personally tested."
   },
   {
     "name": "Greg McMillan",
@@ -76,12 +128,20 @@
     "country": "US",
     "who": "Exercise scientist and founder of McMillan Running, which sells custom training plans and 1:1 coaching for runners of all levels.",
     "why": "One of the longest-running, most respected personalized running-coaching services, grounded in real exercise-science credentials.",
-    "factors": { "coaching": 70, "content": 65, "reach": 40, "credibility": 80, "business": 55, "engagement": 45 },
+    "factors": {
+      "coaching": 70,
+      "content": 65,
+      "reach": 40,
+      "credibility": 80,
+      "business": 55,
+      "engagement": 45
+    },
     "reach": "reach not independently verified this session, approx-labeled mid-size",
     "reachVerified": false,
     "website": "https://www.mcmillanrunning.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Ground personalized plans in real exercise science — respected longevity comes from getting the basics right."
   },
   {
     "name": "Jack Daniels",
@@ -90,12 +150,20 @@
     "country": "US",
     "who": "Exercise physiologist and Olympic-caliber coach whose VDOT methodology powers the V.O2 (VDOT O2) app, which sells custom training plans and connects athletes to certified coaches.",
     "why": "PhD-level exercise science plus a real commercial coaching app make him the credibility anchor for the whole running-coach category.",
-    "factors": { "coaching": 60, "content": 85, "reach": 45, "credibility": 95, "business": 55, "engagement": 45 },
+    "factors": {
+      "coaching": 60,
+      "content": 85,
+      "reach": 45,
+      "credibility": 95,
+      "business": 55,
+      "engagement": 45
+    },
     "reach": "app-based reach; follower count not independently verified this session",
     "reachVerified": false,
     "website": "https://vdoto2.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Codify your methodology into a formula others can apply — a system outlives any single coach."
   },
   {
     "name": "Matt Fitzgerald",
@@ -104,12 +172,22 @@
     "country": "US",
     "who": "Co-founder of 80/20 Endurance, which has sold 125,000+ training plans and offers certified 1:1 coaching for runners and triathletes on the 80/20 intensity-distribution method.",
     "why": "A large-scale coaching-plan business built on a well-documented, science-backed training methodology, plus a prolific authoring record.",
-    "factors": { "coaching": 65, "content": 80, "reach": 45, "credibility": 75, "business": 65, "engagement": 45 },
+    "factors": {
+      "coaching": 65,
+      "content": 80,
+      "reach": 45,
+      "credibility": 75,
+      "business": 65,
+      "engagement": 45
+    },
     "reach": "IG (personal) 13K (verified 2026-08); 80/20 Endurance brand account larger, not separately verified",
     "reachVerified": true,
     "website": "https://www.8020endurance.com/",
-    "handles": { "instagram": "https://instagram.com/endurance_mastery" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/endurance_mastery"
+    },
+    "warning": null,
+    "takeaway": "Publish the science behind your method — a well-documented methodology sells plans at scale."
   },
   {
     "name": "David and Megan Roche",
@@ -118,12 +196,22 @@
     "country": "US",
     "who": "Husband-wife coaching duo running SWAP (Some Work, All Play), a coaching business for trail, ultra, and obstacle-course athletes, alongside a weekly podcast.",
     "why": "Megan's elite competitive record (national trail champion, Team USA) and documented client results across trail, ultra, and OCR give this a genuine individualized-coaching pedigree.",
-    "factors": { "coaching": 70, "content": 70, "reach": 40, "credibility": 80, "business": 45, "engagement": 60 },
+    "factors": {
+      "coaching": 70,
+      "content": 70,
+      "reach": 40,
+      "credibility": 80,
+      "business": 45,
+      "engagement": 60
+    },
     "reach": "reach not independently verified this session, approx-labeled mid-size podcast/social audience",
     "reachVerified": false,
     "website": "https://swaprunning.com/",
-    "handles": { "podcast": "Some Work, All Play" },
-    "warning": null
+    "handles": {
+      "podcast": "Some Work, All Play"
+    },
+    "warning": null,
+    "takeaway": "Coach as a pair — combined competitive credibility and shared workload cover more ground."
   },
   {
     "name": "Jason Koop",
@@ -132,12 +220,20 @@
     "country": "US",
     "who": "Head Ultrarunning Coach and Coaching Director at CTS (Carmichael Training Systems); coaches a roster of world-class ultrarunners including Katie Schide.",
     "why": "A documented roster of world-class ultrarunning results inside an established, large coaching organization.",
-    "factors": { "coaching": 85, "content": 70, "reach": 35, "credibility": 85, "business": 70, "engagement": 40 },
+    "factors": {
+      "coaching": 85,
+      "content": 70,
+      "reach": 35,
+      "credibility": 85,
+      "business": 70,
+      "engagement": 40
+    },
     "reach": "reach not independently verified this session, approx-labeled small-mid",
     "reachVerified": false,
     "website": "https://trainright.com/coaches/jason-koop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Coach inside an established organization — infrastructure lets you focus purely on athlete results."
   },
   {
     "name": "Taren Gesell",
@@ -146,12 +242,22 @@
     "country": "CA",
     "who": "YouTuber ('Triathlon Taren') and founder/CEO of MOTTIV, a triathlon and marathon training app selling structured coached plans and virtual coaching.",
     "why": "Built a real subscription coaching-app business on top of one of the largest triathlon content channels aimed at everyday age-groupers.",
-    "factors": { "coaching": 55, "content": 75, "reach": 55, "credibility": 55, "business": 60, "engagement": 60 },
+    "factors": {
+      "coaching": 55,
+      "content": 75,
+      "reach": 55,
+      "credibility": 55,
+      "business": 60,
+      "engagement": 60
+    },
     "reach": "IG 57K (verified 2026-08); YouTube subscriber count not verified this session (larger, approx)",
     "reachVerified": true,
     "website": "https://www.mymottiv.com/",
-    "handles": { "instagram": "https://instagram.com/triathlontaren" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/triathlontaren"
+    },
+    "warning": null,
+    "takeaway": "Target the everyday age-grouper, not just elites — the biggest audience is the amateur majority."
   },
   {
     "name": "Dylan Johnson",
@@ -160,12 +266,23 @@
     "country": "US",
     "who": "Pro cyclist and YouTuber who co-founded Ignition Coaching Co, which sells 1:1 cycling coaching.",
     "why": "Combines a genuinely instructive, science-based YouTube channel with a real coaching business he co-founded and operates.",
-    "factors": { "coaching": 55, "content": 75, "reach": 50, "credibility": 60, "business": 45, "engagement": 55 },
+    "factors": {
+      "coaching": 55,
+      "content": 75,
+      "reach": 50,
+      "credibility": 60,
+      "business": 45,
+      "engagement": 55
+    },
     "reach": "IG 76K (verified 2026-08); YouTube subscriber count not verified this session",
     "reachVerified": true,
     "website": "https://www.dylanjohnsontraining.com/",
-    "handles": { "instagram": "https://instagram.com/dylanjawnson", "podcast": "Bonk Bros" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/dylanjawnson",
+      "podcast": "Bonk Bros"
+    },
+    "warning": null,
+    "takeaway": "Operate the coaching business you co-founded yourself — don't just license your name to it."
   },
   {
     "name": "Floris Gierman",
@@ -174,12 +291,23 @@
     "country": "US",
     "who": "Founder of the Personal Best (PB) Program and host of The Extramilest Show; sells heart-rate-based 1:1 and group running coaching.",
     "why": "A real coaching business with thousands of documented athlete results, from first 5Ks to Boston qualifiers, built on a large podcast/YouTube audience.",
-    "factors": { "coaching": 60, "content": 70, "reach": 45, "credibility": 55, "business": 50, "engagement": 55 },
+    "factors": {
+      "coaching": 60,
+      "content": 70,
+      "reach": 45,
+      "credibility": 55,
+      "business": 50,
+      "engagement": 55
+    },
     "reach": "IG 11K (verified 2026-08); Extramilest Show 12M+ cumulative views/downloads (approx)",
     "reachVerified": true,
     "website": "https://www.pbprogram.com/",
-    "handles": { "instagram": "https://instagram.com/florisgierman", "podcast": "The Extramilest Show" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/florisgierman",
+      "podcast": "The Extramilest Show"
+    },
+    "warning": null,
+    "takeaway": "Track results across the full range — first 5K to Boston qualifier — and publish the documented range."
   },
   {
     "name": "Sage Canaday",
@@ -188,12 +316,20 @@
     "country": "US",
     "who": "Professional mountain-ultra-trail runner who sells coaching and training plans through his own site and Higher Running.",
     "why": "20 years of elite trail/ultra racing credibility backing a real, individualized coaching service.",
-    "factors": { "coaching": 55, "content": 60, "reach": 35, "credibility": 65, "business": 35, "engagement": 40 },
+    "factors": {
+      "coaching": 55,
+      "content": 60,
+      "reach": 35,
+      "credibility": 65,
+      "business": 35,
+      "engagement": 40
+    },
     "reach": "reach not independently verified this session, approx-labeled small",
     "reachVerified": false,
     "website": "http://sagecanaday.com/coaching-and-training-plans/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Let two decades of elite racing back your individualized coaching — lived experience is the credential."
   },
   {
     "name": "Fergus Crawley",
@@ -202,12 +338,22 @@
     "country": "GB",
     "who": "Hybrid athlete and co-founder/head coach of Omnia Performance, a coaching brand for concurrent (strength-plus-endurance) training.",
     "why": "Runs a real hybrid-training coaching business and market-tests his own methodology through extreme, well-documented endurance feats.",
-    "factors": { "coaching": 55, "content": 65, "reach": 45, "credibility": 55, "business": 45, "engagement": 55 },
+    "factors": {
+      "coaching": 55,
+      "content": 65,
+      "reach": 45,
+      "credibility": 55,
+      "business": 45,
+      "engagement": 55
+    },
     "reach": "reach not independently verified this session, approx-labeled",
     "reachVerified": false,
     "website": "https://www.omnia-performance.com/",
-    "handles": { "podcast": "The OMNIA Performance Podcast" },
-    "warning": null
+    "handles": {
+      "podcast": "The OMNIA Performance Podcast"
+    },
+    "warning": null,
+    "takeaway": "Test your own methodology through extreme, documented feats before selling it to clients."
   },
   {
     "name": "Hunter Allen",
@@ -216,12 +362,20 @@
     "country": "US",
     "who": "Co-creator of the power-based cycling training methodology behind TrainingPeaks and founder of Peaks Coaching Group, a team cycling-coaching business.",
     "why": "A decades-long, well-established cycling coaching operation with a real team of coaches and a foundational power-training book.",
-    "factors": { "coaching": 65, "content": 60, "reach": 30, "credibility": 75, "business": 55, "engagement": 35 },
+    "factors": {
+      "coaching": 65,
+      "content": 60,
+      "reach": 30,
+      "credibility": 75,
+      "business": 55,
+      "engagement": 35
+    },
     "reach": "reach not independently verified this session, approx-labeled small",
     "reachVerified": false,
     "website": "https://peakscoachinggroup.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Write the foundational book on your method — a text that defines the field outlasts any single client."
   },
   {
     "name": "Alex Viada",
@@ -230,12 +384,20 @@
     "country": "US",
     "who": "Founder of Complete Human Performance; sells 1:1 hybrid strength-and-endurance coaching and authored 'The Hybrid Athlete.'",
     "why": "One of the original authorities on concurrent strength/endurance training, with a long-running individualized coaching business.",
-    "factors": { "coaching": 65, "content": 55, "reach": 30, "credibility": 70, "business": 45, "engagement": 35 },
+    "factors": {
+      "coaching": 65,
+      "content": 55,
+      "reach": 30,
+      "credibility": 70,
+      "business": 45,
+      "engagement": 35
+    },
     "reach": "reach not independently verified this session, approx-labeled small",
     "reachVerified": false,
     "website": "https://completehumanperformance.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Write the book that defines your niche before anyone else does — first-mover authority sticks."
   },
   {
     "name": "Chris Hinshaw",
@@ -244,12 +406,20 @@
     "country": "US",
     "who": "Founder of Aerobic Capacity; sells endurance-conditioning coaching and programming used by numerous CrossFit Games athletes and gyms.",
     "why": "Widely credited as the go-to aerobic-capacity coach inside competitive CrossFit and Hyrox-adjacent functional fitness, with documented Games-level client results.",
-    "factors": { "coaching": 70, "content": 55, "reach": 35, "credibility": 65, "business": 45, "engagement": 40 },
+    "factors": {
+      "coaching": 70,
+      "content": 55,
+      "reach": 35,
+      "credibility": 65,
+      "business": 45,
+      "engagement": 40
+    },
     "reach": "reach not independently verified this session, approx-labeled small",
     "reachVerified": false,
     "website": "https://www.aerobiccapacity.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Specialize in the one weakness everyone in your sport shares — aerobic capacity was the gap he owned."
   },
   {
     "name": "Renato Canova",
@@ -258,11 +428,19 @@
     "country": "IT",
     "who": "Elite distance-running coach who provides individualized 1:1 coaching to professional marathoners and distance runners, largely East African elites.",
     "why": "Widely credited with coaching multiple world-record and championship-level marathoners; the deepest competitive-pedigree credibility anchor in this segment, even without a consumer-facing coaching product.",
-    "factors": { "coaching": 90, "content": 40, "reach": 20, "credibility": 90, "business": 40, "engagement": 25 },
+    "factors": {
+      "coaching": 90,
+      "content": 40,
+      "reach": 20,
+      "credibility": 90,
+      "business": 40,
+      "engagement": 25
+    },
     "reach": "no public social following tracked; elite-coaching reach only, approx-labeled",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "You don't need a consumer product — pure results with elite athletes can be the whole reputation."
   }
 ]

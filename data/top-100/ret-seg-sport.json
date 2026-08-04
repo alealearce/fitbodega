@@ -7,12 +7,22 @@
     "country": "ES",
     "who": "Self-contained multisport campus on Lanzarote's lava coast, with stays from a few days to several weeks and full swim/bike/run infrastructure.",
     "why": "The original multisport training mecca, running since 1979 and the home base of IRONMAN Lanzarote.",
-    "factors": { "program": 85, "prestige": 90, "facility": 88, "setting": 78, "reach": 57, "results": 75 },
+    "factors": {
+      "program": 85,
+      "prestige": 90,
+      "facility": 88,
+      "setting": 78,
+      "reach": 57,
+      "results": 75
+    },
     "reach": "IG 105K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.clublasanta.com",
-    "handles": { "instagram": "https://www.instagram.com/clublasanta/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/clublasanta/"
+    },
+    "warning": null,
+    "takeaway": "Book it as a training block, not a holiday — bring a plan for the swim, bike, run."
   },
   {
     "name": "Playitas Resort",
@@ -22,12 +32,22 @@
     "country": "ES",
     "who": "All-inclusive sports resort built around a multisport complex; week-long triathlon, athletics, and team-sport camps for pros and amateurs.",
     "why": "Voted among Europe's top triathlon training centres by pro athletes and coaches; hosts national federations year-round.",
-    "factors": { "program": 82, "prestige": 78, "facility": 85, "setting": 75, "reach": 50, "results": 72 },
+    "factors": {
+      "program": 82,
+      "prestige": 78,
+      "facility": 85,
+      "setting": 75,
+      "reach": 50,
+      "results": 72
+    },
     "reach": "IG 50K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.playitas.net",
-    "handles": { "instagram": "https://www.instagram.com/playitasresort/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/playitasresort/"
+    },
+    "warning": null,
+    "takeaway": "Book a week-long triathlon or team-sport training camp here — pros and amateurs both train, not lounge."
   },
   {
     "name": "Surf Simply",
@@ -37,12 +57,22 @@
     "country": "CR",
     "who": "All-inclusive boutique surf-coaching resort; week-long stays built entirely around technical, video-analyzed surf instruction, from about $4,000/week.",
     "why": "Pioneered systemized surf coaching and is the most media-covered dedicated surf-coaching resort (NYT, Conde Nast, WSJ, CNN).",
-    "factors": { "program": 88, "prestige": 80, "facility": 65, "setting": 82, "reach": 65, "results": 70 },
+    "factors": {
+      "program": 88,
+      "prestige": 80,
+      "facility": 65,
+      "setting": 82,
+      "reach": 65,
+      "results": 70
+    },
     "reach": "IG 275K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://surfsimply.com",
-    "handles": { "instagram": "https://www.instagram.com/surfsimply/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/surfsimply/"
+    },
+    "warning": null,
+    "takeaway": "Go to get coached on your surfing with video analysis — a technical surf school, not a surf-and-relax trip."
   },
   {
     "name": "Thanyapura Sports Resort",
@@ -52,12 +82,22 @@
     "country": "TH",
     "who": "Multisport campus resort with an Olympic-standard pool, athletics track, and structured triathlon/running programs; stays from days to months.",
     "why": "One of Asia's most established sport-science-backed training resorts, popular with pro triathletes overwintering in Thailand.",
-    "factors": { "program": 78, "prestige": 65, "facility": 82, "setting": 68, "reach": 42, "results": 62 },
+    "factors": {
+      "program": 78,
+      "prestige": 65,
+      "facility": 82,
+      "setting": 68,
+      "reach": 42,
+      "results": 62
+    },
     "reach": "IG 18K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.thanyapura-phuket.com",
-    "handles": { "instagram": "https://www.instagram.com/thanyapuraphuket/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/thanyapuraphuket/"
+    },
+    "warning": null,
+    "takeaway": "Book this for structured triathlon or running training on Olympic-standard facilities — training camp, not a leisure resort."
   },
   {
     "name": "HATC Iten",
@@ -67,12 +107,22 @@
     "country": "KE",
     "who": "Lornah Kiplagat's high-altitude running base at 2,400m, with a gym, 400m track, and 25m pool; open bookings for recreational-to-elite runners, capped at 35 guests.",
     "why": "Founded by a five-time world champion; the best-known gateway into Kenya's Rift Valley running culture.",
-    "factors": { "program": 75, "prestige": 72, "facility": 60, "setting": 65, "reach": 28, "results": 68 },
+    "factors": {
+      "program": 75,
+      "prestige": 72,
+      "facility": 60,
+      "setting": 65,
+      "reach": 28,
+      "results": 68
+    },
     "reach": "IG ~1.1K (verified 2026-08, official account; most guest volume comes through partner tour operators)",
     "reachVerified": true,
     "website": "https://hatc-iten.com",
-    "handles": { "instagram": "https://www.instagram.com/highaltitudetrainningcentre/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/highaltitudetrainningcentre/"
+    },
+    "warning": null,
+    "takeaway": "Book this to train at altitude on a legendary running base — any level runner, not a sightseeing trip."
   },
   {
     "name": "Tiger Muay Thai",
@@ -82,12 +132,22 @@
     "country": "TH",
     "who": "The world's largest Muay Thai/MMA/fitness training camp and destination gym, with on-site and partner accommodation from drop-in days to month-long stays.",
     "why": "The best-known combat-sports training destination worldwide, reporting around $20M in annual revenue and a huge expat fighter following.",
-    "factors": { "program": 80, "prestige": 75, "facility": 75, "setting": 60, "reach": 74, "results": 65 },
+    "factors": {
+      "program": 80,
+      "prestige": 75,
+      "facility": 75,
+      "setting": 60,
+      "reach": 74,
+      "results": 65
+    },
     "reach": "IG 924K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.tigermuaythai.com",
-    "handles": { "instagram": "https://www.instagram.com/tigermuaythai/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/tigermuaythai/"
+    },
+    "warning": null,
+    "takeaway": "Go if you want to train like a fighter — 150+ weekly classes suit committed combat-sports travelers, not casual gym-goers."
   },
   {
     "name": "Fairtex Training Center Pattaya",
@@ -97,12 +157,20 @@
     "country": "TH",
     "who": "Legacy Muay Thai/MMA/BJJ camp with on-site dorms to private rooms; day drop-ins to monthly all-inclusive packages, open six days a week since 1971.",
     "why": "One of the sport's oldest and most fighter-decorated camps, having produced multiple Muay Thai champions under the Fairtex name.",
-    "factors": { "program": 78, "prestige": 70, "facility": 65, "setting": 50, "reach": 48, "results": 62 },
+    "factors": {
+      "program": 78,
+      "prestige": 70,
+      "facility": 65,
+      "setting": 50,
+      "reach": 48,
+      "results": 62
+    },
     "reach": "IG ~40K (approx 2026)",
     "reachVerified": false,
     "website": "https://fairtextrainingcenter.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go here to train like a champion at a decades-old fight camp — for fighters, not for a scenic getaway."
   },
   {
     "name": "Viva Blue & Spa (Playa de Muro)",
@@ -112,12 +180,20 @@
     "country": "ES",
     "who": "4-star beach hotel that hosts week-long, coach-run triathlon training camps (25m pool, gym, quiet cycling roads) from about GBP 900/person.",
     "why": "One of Mallorca's most established third-party triathlon-camp venues, booked season after season by UK training operators.",
-    "factors": { "program": 68, "prestige": 55, "facility": 62, "setting": 72, "reach": 25, "results": 58 },
+    "factors": {
+      "program": 68,
+      "prestige": 55,
+      "facility": 62,
+      "setting": 72,
+      "reach": 25,
+      "results": 58
+    },
     "reach": "IG ~5K (approx 2026, hotel account; camp audience is carried mainly by tour operators)",
     "reachVerified": false,
     "website": "https://www.hotelsviva.com/en/viva-blue",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this through a triathlon tour operator for a coach-run training week — camp first, beach hotel second."
   },
   {
     "name": "Zafiro Palace Alcudia",
@@ -127,12 +203,20 @@
     "country": "ES",
     "who": "5-star cycling-dedicated hotel with 350-bike storage, workshop, rental fleet, and organized routes; multi-night stays for clubs and individuals.",
     "why": "Mallorca's benchmark cycling hotel and an official IRONMAN Mallorca sponsor, drawing cycling clubs from across Europe each spring.",
-    "factors": { "program": 60, "prestige": 68, "facility": 78, "setting": 75, "reach": 42, "results": 45 },
+    "factors": {
+      "program": 60,
+      "prestige": 68,
+      "facility": 78,
+      "setting": 75,
+      "reach": 42,
+      "results": 45
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.zafirohotels.com/en/zafiro-palace-alcudia/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this as a cycling-focused hotel with bike storage and organized routes — for clubs and cyclists, not general travelers."
   },
   {
     "name": "Eat Sleep Cycle",
@@ -142,12 +226,22 @@
     "country": "ES",
     "who": "Cycling tour operator and bike hub running multi-day packaged camps (bike, hotel, guided rides) out of pro-cyclist territory near Girona.",
     "why": "The best-known cycling-travel brand built around Girona's status as a pro-cyclist training hub.",
-    "factors": { "program": 65, "prestige": 62, "facility": 55, "setting": 70, "reach": 45, "results": 50 },
+    "factors": {
+      "program": 65,
+      "prestige": 62,
+      "facility": 55,
+      "setting": 70,
+      "reach": 45,
+      "results": 50
+    },
     "reach": "IG 27K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.eatsleepcycle.com",
-    "handles": { "instagram": "https://www.instagram.com/eat_sleep_cycle/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/eat_sleep_cycle/"
+    },
+    "warning": null,
+    "takeaway": "Book a packaged cycling camp with guided rides in pro-cyclist territory — for riders, not general sightseers."
   },
   {
     "name": "Soul & Surf",
@@ -157,12 +251,22 @@
     "country": "LK",
     "who": "Boutique surf, yoga, and massage retreats across three countries; all-inclusive week-long stays from about GBP 156/night.",
     "why": "A long-running, design-forward surf-retreat brand with a loyal following and a strong European client base.",
-    "factors": { "program": 55, "prestige": 55, "facility": 50, "setting": 78, "reach": 43, "results": 45 },
+    "factors": {
+      "program": 55,
+      "prestige": 55,
+      "facility": 50,
+      "setting": 78,
+      "reach": 43,
+      "results": 45
+    },
     "reach": "IG 22K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.soulandsurf.com",
-    "handles": { "instagram": "https://www.instagram.com/soulandsurf/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/soulandsurf/"
+    },
+    "warning": null,
+    "takeaway": "Book a week of surf, yoga and massage across its multi-country locations — relaxed surf-retreat, not intensive training."
   },
   {
     "name": "RunningInKenya.com Kaptagat Camp",
@@ -172,12 +276,20 @@
     "country": "KE",
     "who": "All-inclusive weekly running camps at 2,400m in Kaptagat — shared rooms, full board, structured altitude sessions plus optional safari add-ons.",
     "why": "Kaptagat is the training base of the NN Running Team and multiple world-record marathoners; these camps put recreational runners on the same roads.",
-    "factors": { "program": 70, "prestige": 65, "facility": 45, "setting": 60, "reach": 25, "results": 60 },
+    "factors": {
+      "program": 70,
+      "prestige": 65,
+      "facility": 45,
+      "setting": 60,
+      "reach": 25,
+      "results": 60
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": "https://run-in-kenya.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book a week of structured altitude running on the roads elite marathoners train — for runners, safari is optional."
   },
   {
     "name": "IMG Academy",
@@ -187,12 +299,22 @@
     "country": "US",
     "who": "Multi-sport athletic campus running adult and family performance camps across 11 sports nearly every week of the year, with discounted stays at the on-site Legacy Hotel.",
     "why": "The most recognized sports-performance brand in the US, built on decades of producing pro and Olympic athletes.",
-    "factors": { "program": 80, "prestige": 82, "facility": 85, "setting": 55, "reach": 65, "results": 65 },
+    "factors": {
+      "program": 80,
+      "prestige": 82,
+      "facility": 85,
+      "setting": 55,
+      "reach": 65,
+      "results": 65
+    },
     "reach": "IG 282K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.imgacademy.com",
-    "handles": { "instagram": "https://www.instagram.com/imgacademy/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/imgacademy/"
+    },
+    "warning": null,
+    "takeaway": "Book a performance camp in one of 11 sports, not a leisure stay — the hotel is a bonus."
   },
   {
     "name": "Vuokatti Sport",
@@ -202,12 +324,20 @@
     "country": "FI",
     "who": "Olympic training-center resort with a ski tunnel, biathlon range, and roller-ski tracks; hotel/apartment stays from about EUR 95/night full board.",
     "why": "Scandinavia's benchmark winter-sport training base, used by World Cup ski and biathlon teams and open to public training camps.",
-    "factors": { "program": 78, "prestige": 68, "facility": 80, "setting": 62, "reach": 32, "results": 55 },
+    "factors": {
+      "program": 78,
+      "prestige": 68,
+      "facility": 80,
+      "setting": 62,
+      "reach": 32,
+      "results": 55
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://vuokattisport.fi",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for Olympic-grade ski and biathlon training facilities — winter-sport camp, not a general ski holiday."
   },
   {
     "name": "Kandui Villas",
@@ -217,12 +347,22 @@
     "country": "ID",
     "who": "Luxury surf resort and boat-accessible villas in the Mentawais, with optional paid surf coaching, video analysis, and theory sessions.",
     "why": "One of the most recognized names in Mentawai surf travel, sitting on some of Indonesia's most consistent reef breaks.",
-    "factors": { "program": 45, "prestige": 60, "facility": 55, "setting": 88, "reach": 54, "results": 40 },
+    "factors": {
+      "program": 45,
+      "prestige": 60,
+      "facility": 55,
+      "setting": 88,
+      "reach": 54,
+      "results": 40
+    },
     "reach": "IG 82K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.kanduivillas.com",
-    "handles": { "instagram": "https://www.instagram.com/kanduivillas/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/kanduivillas/"
+    },
+    "warning": null,
+    "takeaway": "Book this for optional paid surf coaching and video analysis on world-class reef breaks — surf-focused, coaching is extra."
   },
   {
     "name": "Centro de Alto Rendimiento Sierra Nevada",
@@ -232,12 +372,20 @@
     "country": "ES",
     "who": "Spain's national high-altitude training center at 2,320m, with a 50m pool and indoor/outdoor tracks; individuals and clubs book stays through specialist camp operators.",
     "why": "The reference altitude base for Spanish and visiting international athletics, cycling, and swimming squads for decades.",
-    "factors": { "program": 75, "prestige": 68, "facility": 82, "setting": 60, "reach": 22, "results": 62 },
+    "factors": {
+      "program": 75,
+      "prestige": 68,
+      "facility": 82,
+      "setting": 60,
+      "reach": 22,
+      "results": 62
+    },
     "reach": "IG ~3K (approx 2026, federation-run facility account)",
     "reachVerified": false,
     "website": "https://www.carsierranevada.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this through a specialist camp operator for serious altitude training — an athlete's base, not a tourist stop."
   },
   {
     "name": "Berghotel Turlwand",
@@ -247,12 +395,20 @@
     "country": "AT",
     "who": "Family-run mountain hotel at 1,750m in Austria's Nordic-ski showcase region, booking single athletes or whole training camps against 220km of groomed trails and a biathlon range.",
     "why": "The lodging anchor of Ramsau's international Nordic training center, used by cross-country and biathlon national teams and open to individual bookings.",
-    "factors": { "program": 65, "prestige": 58, "facility": 62, "setting": 65, "reach": 24, "results": 48 },
+    "factors": {
+      "program": 65,
+      "prestige": 58,
+      "facility": 62,
+      "setting": 65,
+      "reach": 24,
+      "results": 48
+    },
     "reach": "IG ~4K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.tuerlwand.at",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this as a Nordic-ski or biathlon training base with 220km of groomed trails — for athletes, not casual skiers."
   },
   {
     "name": "Crowie's Kona Training Camp",
@@ -262,11 +418,19 @@
     "country": "US",
     "who": "Multi-day triathlon training camp hosted at the Mauna Lani resort by three-time IRONMAN world champion Craig 'Crowie' Alexander, run on the Kona race course itself.",
     "why": "Led by a Kona legend on the actual world-championship course, the highest-prestige short-stay triathlon camp tied to a single race.",
-    "factors": { "program": 78, "prestige": 72, "facility": 65, "setting": 82, "reach": 35, "results": 60 },
+    "factors": {
+      "program": 78,
+      "prestige": 72,
+      "facility": 65,
+      "setting": 82,
+      "reach": 35,
+      "results": 60
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://teamzoot.com/pages/kona-camp",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this to train the actual Kona race course with a world-champion coach — a short, focused triathlon camp."
   }
 ]

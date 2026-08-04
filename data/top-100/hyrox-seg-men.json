@@ -6,12 +6,22 @@
     "country": "US",
     "who": "American Elite 15 racer, the 2026 HYROX World Champion after a chaotic wall-ball finish in Stockholm.",
     "why": "The reigning world champion right now — his 2025 bronze-to-2026 gold arc is the story of the season.",
-    "factors": { "results": 95, "reach": 50, "content": 60, "momentum": 90, "crossover": 50, "longevity": 60 },
+    "factors": {
+      "results": 95,
+      "reach": 50,
+      "content": 60,
+      "momentum": 90,
+      "crossover": 50,
+      "longevity": 60
+    },
     "reach": "IG 52K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/thehybridraccoon" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/thehybridraccoon"
+    },
+    "warning": null,
+    "takeaway": "Drill your finishing station so a close race doesn't slip away late."
   },
   {
     "name": "Tim Wenisch",
@@ -20,12 +30,22 @@
     "country": "DE",
     "who": "German Elite 15 racer, 2025 HYROX World Champion and 2026 Elite Doubles World Champion with Alexander Roncevic.",
     "why": "Defending champion energy carried into a new title — still on every 2026 podium that matters.",
-    "factors": { "results": 90, "reach": 50, "content": 60, "momentum": 80, "crossover": 55, "longevity": 65 },
+    "factors": {
+      "results": 90,
+      "reach": 50,
+      "content": 60,
+      "momentum": 80,
+      "crossover": 55,
+      "longevity": 65
+    },
     "reach": "IG 54K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/tim_wenisch" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/tim_wenisch"
+    },
+    "warning": null,
+    "takeaway": "Race both singles and doubles in the same season to build all-around fitness."
   },
   {
     "name": "Hunter McIntyre",
@@ -34,12 +54,22 @@
     "country": "US",
     "who": "American Elite 15 racer, three-time HYROX World Champion (2020, 2022, 2023) and former OCR/CrossFit Games competitor.",
     "why": "The sport's biggest crossover name — still winning Pro titles in 2026 and the athlete non-Hyrox fans have actually heard of.",
-    "factors": { "results": 95, "reach": 55, "content": 65, "momentum": 80, "crossover": 80, "longevity": 85 },
+    "factors": {
+      "results": 95,
+      "reach": 55,
+      "content": 65,
+      "momentum": 80,
+      "crossover": 80,
+      "longevity": 85
+    },
     "reach": "IG follower count not independently verified this session (approx, unverified 2026)",
     "reachVerified": false,
     "website": "https://www.huntermcintyre.com/",
-    "handles": { "instagram": "https://instagram.com/huntermcintyre" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/huntermcintyre"
+    },
+    "warning": null,
+    "takeaway": "Bring skills from other disciplines, like OCR or CrossFit, into training instead of specializing narrow."
   },
   {
     "name": "Alexander Roncevic",
@@ -48,11 +78,20 @@
     "country": "AT",
     "who": "Austrian Elite 15 racer, Men's Pro world record holder (51:59, Warsaw) and 2024 HYROX World Champion.",
     "why": "The fastest man ever to race HYROX — took the 2026 doubles title even after a rough singles final.",
-    "factors": { "results": 90, "reach": 55, "content": 55, "momentum": 75, "crossover": 60, "longevity": 65 },
+    "factors": {
+      "results": 90,
+      "reach": 55,
+      "content": 55,
+      "momentum": 75,
+      "crossover": 60,
+      "longevity": 65
+    },
     "reach": "IG 150K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/alexander.roncevic" },
+    "handles": {
+      "instagram": "https://instagram.com/alexander.roncevic"
+    },
     "warning": null
   },
   {
@@ -62,12 +101,20 @@
     "country": "BE",
     "who": "Belgian Elite 15 racer who went from age-group world champion to 2026 HYROX World Championships silver medalist.",
     "why": "This season's breakout — the sled-pull specialist nobody was talking about until he nearly won Stockholm.",
-    "factors": { "results": 80, "reach": 30, "content": 45, "momentum": 88, "crossover": 40, "longevity": 35 },
+    "factors": {
+      "results": 80,
+      "reach": 30,
+      "content": 45,
+      "momentum": 88,
+      "crossover": 40,
+      "longevity": 35
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Turn a weak station into a specialty — dedicated focus on one weakness can carry you to a podium."
   },
   {
     "name": "James Kelly",
@@ -76,12 +123,22 @@
     "country": "AU",
     "who": "Australia's fastest HYROX athlete, Elite 15 racer, 4th at the 2025 World Championships and part of Australia's winning 2026 relay team.",
     "why": "One of the most consistent vloggers in the sport — weekly training breakdowns make him a go-to for how to actually train.",
-    "factors": { "results": 78, "reach": 55, "content": 80, "momentum": 75, "crossover": 55, "longevity": 65 },
+    "factors": {
+      "results": 78,
+      "reach": 55,
+      "content": 80,
+      "momentum": 75,
+      "crossover": 55,
+      "longevity": 65
+    },
     "reach": "IG 42K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/jk.james.kelly" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/jk.james.kelly"
+    },
+    "warning": null,
+    "takeaway": "Document your own training weekly — the habit of review builds skill faster than random workouts."
   },
   {
     "name": "Jake Dearden",
@@ -90,12 +147,22 @@
     "country": "GB",
     "who": "British Elite 15 racer, former HYROX Men's Doubles World Champion and the sport's biggest social following.",
     "why": "By far the largest reach in HYROX and a genuine crossover figure — podcasts, brand deals, and stunt charity races.",
-    "factors": { "results": 75, "reach": 90, "content": 75, "momentum": 70, "crossover": 85, "longevity": 70 },
+    "factors": {
+      "results": 75,
+      "reach": 90,
+      "content": 75,
+      "momentum": 70,
+      "crossover": 85,
+      "longevity": 70
+    },
     "reach": "IG 681K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/jakedearden_" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/jakedearden_"
+    },
+    "warning": null,
+    "takeaway": "Keep racing yourself even after you start coaching — it keeps your advice honest."
   },
   {
     "name": "Rich Ryan",
@@ -104,12 +171,22 @@
     "country": "US",
     "who": "American Elite 15 racer and coach, a regular top-15 singles finisher who took Elite Doubles bronze in 2026 with Pelayo Menendez.",
     "why": "Steady Elite 15 mainstay whose coaching content translates his own race data into usable advice.",
-    "factors": { "results": 65, "reach": 40, "content": 65, "momentum": 55, "crossover": 40, "longevity": 60 },
+    "factors": {
+      "results": 65,
+      "reach": 40,
+      "content": 65,
+      "momentum": 55,
+      "crossover": 40,
+      "longevity": 60
+    },
     "reach": "IG 26K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/richryan610" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/richryan610"
+    },
+    "warning": null,
+    "takeaway": "Work on your running strategy inside the race itself, not just station strength."
   },
   {
     "name": "Pelayo Menendez",
@@ -118,12 +195,22 @@
     "country": "ES",
     "who": "Spanish Elite 15 racer and founder of PELE Performance, back on the 2026 World Championships doubles podium a year after a ruptured Achilles.",
     "why": "The leading Spanish-language voice in the sport — constant Instagram lives, podcasts, and Facebook-group coaching.",
-    "factors": { "results": 70, "reach": 35, "content": 75, "momentum": 70, "crossover": 60, "longevity": 65 },
+    "factors": {
+      "results": 70,
+      "reach": 35,
+      "content": 75,
+      "momentum": 70,
+      "crossover": 60,
+      "longevity": 65
+    },
     "reach": "IG ~17K (approx, unverified 2026)",
     "reachVerified": false,
     "website": "https://www.pele-performance.com",
-    "handles": { "instagram": "https://instagram.com/pelayofelechosa" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/pelayofelechosa"
+    },
+    "warning": null,
+    "takeaway": "Rehab a serious injury with patience and return to racing rather than rushing back."
   },
   {
     "name": "Tomas Tvrdik",
@@ -132,12 +219,20 @@
     "country": "CZ",
     "who": "Czech soldier and Elite 15 racer, EMEA champion in 2026 with a sub-55-minute personal best at age 40.",
     "why": "No man over 40 has gone faster — a genuine outlier chasing a world title on almost no training volume.",
-    "factors": { "results": 72, "reach": 25, "content": 55, "momentum": 75, "crossover": 45, "longevity": 45 },
+    "factors": {
+      "results": 72,
+      "reach": 25,
+      "content": 55,
+      "momentum": 75,
+      "crossover": 45,
+      "longevity": 45
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Chase a fast pace even on low training volume by prioritizing quality sessions over total hours."
   },
   {
     "name": "Cole Learn",
@@ -146,12 +241,22 @@
     "country": "CA",
     "who": "Canadian Elite 15 racer, 2026 HYROX Americas Champion and Chicago Pro winner (54:36) with a public addiction-recovery story.",
     "why": "Fast-rising racer whose personal story pulls readers who have never heard of HYROX before.",
-    "factors": { "results": 75, "reach": 40, "content": 65, "momentum": 85, "crossover": 60, "longevity": 35 },
+    "factors": {
+      "results": 75,
+      "reach": 40,
+      "content": 65,
+      "momentum": 85,
+      "crossover": 60,
+      "longevity": 35
+    },
     "reach": "IG 25K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/colelearn" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/colelearn"
+    },
+    "warning": null,
+    "takeaway": "Use consistent race training itself as a structured recovery tool."
   },
   {
     "name": "Hidde Weersma",
@@ -160,12 +265,20 @@
     "country": "NL",
     "who": "Dutch Elite 15 racer and coach who broke the Men's Pro world record (52:42) at the 2026 EMEA Championships in London.",
     "why": "First man under 53 minutes and the mind behind LO:HYROX, a data-driven training program other Elite 15 racers use.",
-    "factors": { "results": 78, "reach": 30, "content": 70, "momentum": 88, "crossover": 45, "longevity": 40 },
+    "factors": {
+      "results": 78,
+      "reach": 30,
+      "content": 70,
+      "momentum": 88,
+      "crossover": 45,
+      "longevity": 40
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Use data-driven pacing plans for each station instead of racing on feel alone."
   },
   {
     "name": "Sebastian Ifversen",
@@ -174,12 +287,22 @@
     "country": "DK",
     "who": "Danish Elite 15 racer with dozens of races across six seasons and consistent top-10 major finishes.",
     "why": "A dependable Elite 15 name for readers tracking the full field, not just the podium.",
-    "factors": { "results": 60, "reach": 25, "content": 40, "momentum": 55, "crossover": 30, "longevity": 50 },
+    "factors": {
+      "results": 60,
+      "reach": 25,
+      "content": 40,
+      "momentum": 55,
+      "crossover": 30,
+      "longevity": 50
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/ifversen1" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/ifversen1"
+    },
+    "warning": null,
+    "takeaway": "Rack up race experience across many seasons — consistent finishes come from repeated starts, not one big prep."
   },
   {
     "name": "Charlie Botterill",
@@ -188,12 +311,20 @@
     "country": "GB",
     "who": "English Elite 15 racer and former pro cyclist, part of the second-fastest Men's Pro Doubles time ever run (48:05, Barcelona 2026).",
     "why": "Quit his job to go all-in on HYROX in 2026 — a fast-rising name with a genuinely different backstory.",
-    "factors": { "results": 68, "reach": 35, "content": 70, "momentum": 85, "crossover": 55, "longevity": 40 },
+    "factors": {
+      "results": 68,
+      "reach": 35,
+      "content": 70,
+      "momentum": 85,
+      "crossover": 55,
+      "longevity": 40
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go all-in on training for a season if you're serious about a breakthrough result."
   },
   {
     "name": "Graham Halliday",
@@ -202,12 +333,22 @@
     "country": "GB",
     "who": "Scottish Elite 15 racer, widely regarded as the UK's fastest HYROX athlete, 10th at the 2025 World Championships.",
     "why": "Full-time coach and gym owner whose podcast and YouTube channel teach the sport from race-day intensity down to basics.",
-    "factors": { "results": 60, "reach": 30, "content": 65, "momentum": 55, "crossover": 35, "longevity": 60 },
+    "factors": {
+      "results": 60,
+      "reach": 30,
+      "content": 65,
+      "momentum": 55,
+      "crossover": 35,
+      "longevity": 60
+    },
     "reach": "IG 20K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/grahamhalliday_" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/grahamhalliday_"
+    },
+    "warning": null,
+    "takeaway": "Learn the sport from both ends — race-day intensity and the basics — not just one."
   },
   {
     "name": "Tobias Lautwein",
@@ -216,12 +357,20 @@
     "country": "DE",
     "who": "German HYROX World Champion (2021) and European Champion (2022), a former world-record holder now racing at Pro rather than Elite 15 level.",
     "why": "One of the sport's earliest champions — still racing and still a name podcasts want, though he dropped out of the Elite 15 for 2025-26.",
-    "factors": { "results": 50, "reach": 25, "content": 55, "momentum": 30, "crossover": 40, "longevity": 85 },
+    "factors": {
+      "results": 50,
+      "reach": 25,
+      "content": 55,
+      "momentum": 30,
+      "crossover": 40,
+      "longevity": 85
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Keep racing at whatever level fits your current life, even after stepping down from the top tier."
   },
   {
     "name": "Dexter Buchanan",
@@ -230,12 +379,20 @@
     "country": "NZ",
     "who": "New Zealand racer, one of seven new qualifiers to the 2026 HYROX Elite 15 men's field.",
     "why": "Worth watching as a first-season Elite 15 name from a country new to the sport's top tier.",
-    "factors": { "results": 55, "reach": 20, "content": 25, "momentum": 65, "crossover": 25, "longevity": 30 },
+    "factors": {
+      "results": 55,
+      "reach": 20,
+      "content": 25,
+      "momentum": 65,
+      "crossover": 25,
+      "longevity": 30
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Qualify for the top tier before worrying about results there — making the field is the first goal."
   },
   {
     "name": "Sean Noble",
@@ -244,12 +401,20 @@
     "country": "IE",
     "who": "Irish racer, one of seven new qualifiers to the 2026 HYROX Elite 15 men's field.",
     "why": "A first-season Elite 15 name to watch as Ireland's presence in the sport's top tier grows.",
-    "factors": { "results": 55, "reach": 20, "content": 25, "momentum": 65, "crossover": 25, "longevity": 30 },
+    "factors": {
+      "results": 55,
+      "reach": 20,
+      "content": 25,
+      "momentum": 65,
+      "crossover": 25,
+      "longevity": 30
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat your first Elite 15 season as building experience, not chasing an immediate podium."
   },
   {
     "name": "Luke Greer",
@@ -258,11 +423,19 @@
     "country": "GB",
     "who": "English racer, one of seven new qualifiers to the 2026 HYROX Elite 15 men's field.",
     "why": "New to the Elite 15 in 2026 and part of a deep British contingent at the top of the sport.",
-    "factors": { "results": 55, "reach": 20, "content": 25, "momentum": 65, "crossover": 25, "longevity": 30 },
+    "factors": {
+      "results": 55,
+      "reach": 20,
+      "content": 25,
+      "momentum": 65,
+      "crossover": 25,
+      "longevity": 30
+    },
     "reach": "IG follower count unconfirmed (approx, 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Push into a deep national field on purpose — tougher training partners at home raise your ceiling."
   }
 ]

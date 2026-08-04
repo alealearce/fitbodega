@@ -7,12 +7,22 @@
     "country": "TH",
     "who": "Beachfront medical-wellness resort; 3-14 night programs pairing naturopathy and spa with daily fitness classes and personal training, from ~$700/night.",
     "why": "Opened in 1995 and set the template the modern destination-wellness-resort category still follows.",
-    "factors": { "program": 75, "prestige": 92, "facility": 85, "setting": 80, "reach": 50, "results": 80 },
+    "factors": {
+      "program": 75,
+      "prestige": 92,
+      "facility": 85,
+      "setting": 80,
+      "reach": 50,
+      "results": 80
+    },
     "reach": "IG 43K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.chivasom.com",
-    "handles": { "instagram": "https://www.instagram.com/chivasomhuahin/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/chivasomhuahin/"
+    },
+    "warning": null,
+    "takeaway": "Come for naturopathy plus daily fitness and personal training by the beach — wellness structure, not a party resort."
   },
   {
     "name": "Kamalaya Koh Samui",
@@ -22,12 +32,22 @@
     "country": "TH",
     "who": "Wellness sanctuary built around a former monk's cave; week-long detox, burnout, and fitness programs led by an in-house team of doctors, TCM practitioners, and trainers.",
     "why": "Regularly ranked among the world's top wellness resorts by Conde Nast and Travel+Leisure.",
-    "factors": { "program": 78, "prestige": 88, "facility": 82, "setting": 88, "reach": 55, "results": 82 },
+    "factors": {
+      "program": 78,
+      "prestige": 88,
+      "facility": 82,
+      "setting": 88,
+      "reach": 55,
+      "results": 82
+    },
     "reach": "IG 55K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.kamalaya.com",
-    "handles": { "instagram": "https://www.instagram.com/kamalayakohsamui/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/kamalayakohsamui/"
+    },
+    "warning": null,
+    "takeaway": "Book a week-long program with doctors and TCM practitioners for detox or burnout recovery — not a beach-only holiday."
   },
   {
     "name": "COMO Shambhala Estate",
@@ -37,12 +57,22 @@
     "country": "ID",
     "who": "Rainforest wellness estate above the Ayung River; multi-day programs combining yoga, personal training, and Ayurvedic/TCM consultations in private villas, from ~$900/night.",
     "why": "One of the properties that defined Bali wellness luxury in the 2000s and still draws repeat A-list guests.",
-    "factors": { "program": 72, "prestige": 85, "facility": 78, "setting": 90, "reach": 50, "results": 75 },
+    "factors": {
+      "program": 72,
+      "prestige": 85,
+      "facility": 78,
+      "setting": 90,
+      "reach": 50,
+      "results": 75
+    },
     "reach": "IG 39K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.comohotels.com/bali/como-shambhala-estate",
-    "handles": { "instagram": "https://www.instagram.com/comoshambhalaestate/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/comoshambhalaestate/"
+    },
+    "warning": null,
+    "takeaway": "Book a private-villa program mixing yoga, personal training and Ayurvedic consultations — luxury wellness, not a party retreat."
   },
   {
     "name": "Ananda in the Himalayas",
@@ -52,12 +82,22 @@
     "country": "IN",
     "who": "Wellness resort inside a former Maharaja's palace estate in the Himalayan foothills; Ayurveda, yoga, and structured fitness or weight-management programs of 5-14 nights.",
     "why": "25 years running as India's flagship destination-wellness address, with repeat #1 finishes in global spa-resort rankings.",
-    "factors": { "program": 76, "prestige": 87, "facility": 80, "setting": 88, "reach": 60, "results": 80 },
+    "factors": {
+      "program": 76,
+      "prestige": 87,
+      "facility": 80,
+      "setting": 88,
+      "reach": 60,
+      "results": 80
+    },
     "reach": "IG 92K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.anandaspa.com",
-    "handles": { "instagram": "https://www.instagram.com/anandainthehimalayas/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/anandainthehimalayas/"
+    },
+    "warning": null,
+    "takeaway": "Book a 5-to-14-night Ayurveda and weight-management program in the Himalayan foothills — not a quick palace sightseeing stop."
   },
   {
     "name": "Six Senses Vana",
@@ -67,12 +107,22 @@
     "country": "IN",
     "who": "Long-running wellness retreat (est. 2014) folded into the Six Senses portfolio in 2023 under its original owner; multi-week Ayurveda, yoga, and fitness immersions.",
     "why": "One of the few India retreats with genuine medical/Ayurveda depth, now backed by a global luxury-wellness brand's distribution.",
-    "factors": { "program": 74, "prestige": 80, "facility": 78, "setting": 82, "reach": 55, "results": 78 },
+    "factors": {
+      "program": 74,
+      "prestige": 80,
+      "facility": 78,
+      "setting": 82,
+      "reach": 55,
+      "results": 78
+    },
     "reach": "IG 54K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/india/vana/",
-    "handles": { "instagram": "https://www.instagram.com/sixsensesvana/" },
-    "warning": "Rebranded from independent 'Vana' to 'Six Senses Vana' in 2023; same owner and team."
+    "handles": {
+      "instagram": "https://www.instagram.com/sixsensesvana/"
+    },
+    "warning": "Rebranded from independent 'Vana' to 'Six Senses Vana' in 2023; same owner and team.",
+    "takeaway": "Book a multi-week Ayurveda and fitness immersion here — genuine medical depth, now with global-brand resources behind it."
   },
   {
     "name": "Aro Ha Wellness Retreat",
@@ -82,12 +132,22 @@
     "country": "NZ",
     "who": "Adventure-fitness retreat in the Southern Alps; 4-7 night programs of daily hiking, HIIT, and yoga with plant-based meals, for small groups of about 20.",
     "why": "The reference 'get fit in nature' retreat of the Southern Hemisphere, repeatedly named New Zealand's top wellness address.",
-    "factors": { "program": 82, "prestige": 75, "facility": 65, "setting": 92, "reach": 45, "results": 78 },
+    "factors": {
+      "program": 82,
+      "prestige": 75,
+      "facility": 65,
+      "setting": 92,
+      "reach": 45,
+      "results": 78
+    },
     "reach": "IG 48K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.aro-ha.com",
-    "handles": { "instagram": "https://www.instagram.com/aroharetreats/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/aroharetreats/"
+    },
+    "warning": null,
+    "takeaway": "Book 4 to 7 nights of daily hiking, HIIT and yoga in small groups — nature fitness, not sightseeing."
   },
   {
     "name": "Gwinganna Lifestyle Retreat",
@@ -97,12 +157,22 @@
     "country": "AU",
     "who": "Hilltop lifestyle retreat above the Gold Coast; 4-10 night stays built around daily bootcamp-style training, yoga, and health-coaching seminars, with microbiome testing added for 2026.",
     "why": "Australia's longest-running fitness-forward wellness retreat, long favored by local executives and celebrities.",
-    "factors": { "program": 78, "prestige": 78, "facility": 68, "setting": 82, "reach": 55, "results": 75 },
+    "factors": {
+      "program": 78,
+      "prestige": 78,
+      "facility": 68,
+      "setting": 82,
+      "reach": 55,
+      "results": 75
+    },
     "reach": "IG 52K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.gwinganna.com",
-    "handles": { "instagram": "https://www.instagram.com/gwinganna/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/gwinganna/"
+    },
+    "warning": null,
+    "takeaway": "Book 4 to 10 nights of daily bootcamp training and health coaching plus microbiome testing — not a passive escape."
   },
   {
     "name": "The Farm at San Benito",
@@ -112,12 +182,22 @@
     "country": "PH",
     "who": "Medical-wellness resort south of Manila; multi-day fasting, detox, and fitness programs under physician supervision, from ~$400/night.",
     "why": "Southeast Asia's best-known medical-wellness address, a magnet for regional celebrities and executives.",
-    "factors": { "program": 80, "prestige": 80, "facility": 82, "setting": 78, "reach": 62, "results": 85 },
+    "factors": {
+      "program": 80,
+      "prestige": 80,
+      "facility": 82,
+      "setting": 78,
+      "reach": 62,
+      "results": 85
+    },
     "reach": "IG 195K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.thefarmatsanbenito.com",
-    "handles": { "instagram": "https://www.instagram.com/thefarmatsanbenito/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/thefarmatsanbenito/"
+    },
+    "warning": null,
+    "takeaway": "Go for a physician-supervised fasting or detox program, not a casual tropical getaway."
   },
   {
     "name": "Amanpuri",
@@ -127,12 +207,22 @@
     "country": "TH",
     "who": "Original Aman flagship resort; Holistic Wellness Centre runs multi-day wellness immersions of Pilates, Muay Thai, yoga, and beach bootcamps alongside standard resort stays, from ~$1,500/night.",
     "why": "The property that popularized ultra-luxury resort wellness across Asia and remains the category's aspirational benchmark.",
-    "factors": { "program": 68, "prestige": 90, "facility": 80, "setting": 90, "reach": 62, "results": 65 },
+    "factors": {
+      "program": 68,
+      "prestige": 90,
+      "facility": 80,
+      "setting": 90,
+      "reach": 62,
+      "results": 65
+    },
     "reach": "IG 111K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.aman.com/resorts/amanpuri",
-    "handles": { "instagram": "https://www.instagram.com/amanpuri/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/amanpuri/"
+    },
+    "warning": null,
+    "takeaway": "Book a multi-day wellness immersion of Pilates, Muay Thai and yoga alongside a standard luxury stay — not fitness-only."
   },
   {
     "name": "Elysia Wellness Retreat",
@@ -142,12 +232,22 @@
     "country": "AU",
     "who": "Boutique health retreat in Hunter Valley wine country under Minor Hotels; 3-7 night stays combining daily fitness classes, spa, and nutrition coaching.",
     "why": "Descended from the original Golden Door health-retreat concept that introduced structured fitness retreats to Australia.",
-    "factors": { "program": 68, "prestige": 62, "facility": 62, "setting": 75, "reach": 40, "results": 65 },
+    "factors": {
+      "program": 68,
+      "prestige": 62,
+      "facility": 62,
+      "setting": 75,
+      "reach": 40,
+      "results": 65
+    },
     "reach": "IG 12K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.elysiaretreat.com.au",
-    "handles": { "instagram": "https://www.instagram.com/elysiawellnessretreat/" },
-    "warning": "Rebranded from Golden Door Elysia after Minor Hotels acquired the property in 2019; same site, new brand."
+    "handles": {
+      "instagram": "https://www.instagram.com/elysiawellnessretreat/"
+    },
+    "warning": "Rebranded from Golden Door Elysia after Minor Hotels acquired the property in 2019; same site, new brand.",
+    "takeaway": "Book 3-7 nights of daily fitness classes and nutrition coaching in wine country — structured, not a winery holiday."
   },
   {
     "name": "Fivelements Retreat Bali",
@@ -157,12 +257,22 @@
     "country": "ID",
     "who": "Plant-based healing sanctuary on the Ayung River; multi-day raw-food, yoga, and movement retreats in bamboo architecture, from ~$500/night.",
     "why": "A pioneer of Bali's plant-based, raw-food wellness scene with a devoted international following.",
-    "factors": { "program": 65, "prestige": 72, "facility": 70, "setting": 88, "reach": 48, "results": 68 },
+    "factors": {
+      "program": 65,
+      "prestige": 72,
+      "facility": 70,
+      "setting": 88,
+      "reach": 48,
+      "results": 68
+    },
     "reach": "IG 47K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://fivelementsbali.com",
-    "handles": { "instagram": "https://www.instagram.com/fivelementsretreats/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/fivelementsretreats/"
+    },
+    "warning": null,
+    "takeaway": "Book a raw-food, yoga and movement retreat in bamboo architecture — plant-based healing, not a standard Bali resort stay."
   },
   {
     "name": "REVIVO Wellness Resort",
@@ -172,12 +282,22 @@
     "country": "ID",
     "who": "18-suite wellness resort with a dedicated fitness center, hydrotherapy, and vitality programs; 3-10 night stays, from ~$450/night.",
     "why": "One of Bali's newer purpose-built wellness resorts, designed around structured multi-day programs rather than a spa-hotel retrofit.",
-    "factors": { "program": 70, "prestige": 55, "facility": 72, "setting": 78, "reach": 35, "results": 65 },
+    "factors": {
+      "program": 70,
+      "prestige": 55,
+      "facility": 72,
+      "setting": 78,
+      "reach": 35,
+      "results": 65
+    },
     "reach": "IG 17K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.revivoresorts.com",
-    "handles": { "instagram": "https://www.instagram.com/revivo_wellness_resorts/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/revivo_wellness_resorts/"
+    },
+    "warning": null,
+    "takeaway": "Book 3 to 10 nights of a purpose-built vitality program with hydrotherapy — structured wellness, not a converted spa hotel."
   },
   {
     "name": "Komune Resort & Beach Club Keramas",
@@ -187,12 +307,22 @@
     "country": "ID",
     "who": "Surf-and-fitness resort on Bali's best right-hand reef break; daily STOTT Pilates, a recovery centre, and 'Art of Longevity' programming alongside surf coaching.",
     "why": "Fused world-class surf access with structured daily training, drawing a global surf-fitness crowd.",
-    "factors": { "program": 70, "prestige": 65, "facility": 68, "setting": 82, "reach": 58, "results": 62 },
+    "factors": {
+      "program": 70,
+      "prestige": 65,
+      "facility": 68,
+      "setting": 82,
+      "reach": 58,
+      "results": 62
+    },
     "reach": "IG 92K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.komuneresorts.com",
-    "handles": { "instagram": "https://www.instagram.com/komunebali/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/komunebali/"
+    },
+    "warning": null,
+    "takeaway": "Book this for daily Pilates and recovery work alongside serious surf coaching — surf-fitness combo, not surf-only."
   },
   {
     "name": "Alba Wellness Valley by Fusion",
@@ -202,12 +332,22 @@
     "country": "VN",
     "who": "Hot-spring wellness valley outside Hue; multi-day programs pairing thermal-mineral therapy with daily fitness and yoga classes, from ~$250/night.",
     "why": "Vietnam's leading purpose-built wellness resort, repeatedly named the country's best upcountry property.",
-    "factors": { "program": 62, "prestige": 55, "facility": 65, "setting": 75, "reach": 25, "results": 60 },
+    "factors": {
+      "program": 62,
+      "prestige": 55,
+      "facility": 65,
+      "setting": 75,
+      "reach": 25,
+      "results": 60
+    },
     "reach": "IG 2.3K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://fusion-collection.com/albawellnessvalleyhue/en/homepage/",
-    "handles": { "instagram": "https://www.instagram.com/albawellnessvalley/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/albawellnessvalley/"
+    },
+    "warning": null,
+    "takeaway": "Book this for thermal-mineral therapy paired with daily fitness and yoga — a purpose-built wellness valley."
   },
   {
     "name": "Absolute Sanctuary",
@@ -217,12 +357,22 @@
     "country": "TH",
     "who": "Boutique wellness and longevity resort with a strong yoga-teacher-training and detox program calendar; 3-14 night stays.",
     "why": "A long-standing Koh Samui yoga and detox specialist with an international teacher-training reputation.",
-    "factors": { "program": 68, "prestige": 58, "facility": 62, "setting": 75, "reach": 30, "results": 62 },
+    "factors": {
+      "program": 68,
+      "prestige": 58,
+      "facility": 62,
+      "setting": 75,
+      "reach": 30,
+      "results": 62
+    },
     "reach": "IG 6.5K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.absolutesanctuary.com",
-    "handles": { "instagram": "https://www.instagram.com/absolutesanctuarysamui/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/absolutesanctuarysamui/"
+    },
+    "warning": null,
+    "takeaway": "Book a yoga-teacher-training or detox program here — a specialist yoga stay, not a general beach resort."
   },
   {
     "name": "Amatara Welleisure Resort",
@@ -232,12 +382,22 @@
     "country": "TH",
     "who": "Cliffside 'welleisure' resort coining its own wellness-plus-leisure category; daily yoga, Muay Thai, and fitness classes alongside spa and detox menus.",
     "why": "Regularly shortlisted at the Conde Nast Johansens Awards; a well-known mid-tier Phuket wellness address.",
-    "factors": { "program": 62, "prestige": 60, "facility": 65, "setting": 82, "reach": 45, "results": 58 },
+    "factors": {
+      "program": 62,
+      "prestige": 60,
+      "facility": 65,
+      "setting": 82,
+      "reach": 45,
+      "results": 58
+    },
     "reach": "IG 26K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://amatara.com",
-    "handles": { "instagram": "https://www.instagram.com/amatararesort/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/amatararesort/"
+    },
+    "warning": null,
+    "takeaway": "Book this for a mix of daily Muay Thai, yoga and spa detox — wellness-plus-leisure, not pure training."
   },
   {
     "name": "Eden Health Retreat",
@@ -247,12 +407,22 @@
     "country": "AU",
     "who": "Rainforest health retreat on almost 400 acres in the Gold Coast hinterland; 3-14 night stays of daily fitness sessions, hikes, and health coaching.",
     "why": "Billed as Australia's longest-running health retreat, with a large and loyal repeat-guest base.",
-    "factors": { "program": 74, "prestige": 68, "facility": 65, "setting": 80, "reach": 55, "results": 70 },
+    "factors": {
+      "program": 74,
+      "prestige": 68,
+      "facility": 65,
+      "setting": 80,
+      "reach": 55,
+      "results": 70
+    },
     "reach": "IG 80K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://eden.com.au",
-    "handles": { "instagram": "https://www.instagram.com/edenretreat.au/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/edenretreat.au/"
+    },
+    "warning": null,
+    "takeaway": "Book 3 to 14 nights of daily fitness, hikes and health coaching in the rainforest — structured, not scenery alone."
   },
   {
     "name": "Naad Wellness",
@@ -262,12 +432,22 @@
     "country": "IN",
     "who": "New-generation luxury Ayurveda and naturopathy retreat near Delhi; personalized multi-week healing programs including yoga, naturopathy, and fitness therapy.",
     "why": "One of India's fastest-rising high-end wellness addresses, positioned to compete with Ananda and Six Senses Vana.",
-    "factors": { "program": 70, "prestige": 60, "facility": 70, "setting": 65, "reach": 48, "results": 65 },
+    "factors": {
+      "program": 70,
+      "prestige": 60,
+      "facility": 70,
+      "setting": 65,
+      "reach": 48,
+      "results": 65
+    },
     "reach": "IG 46K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.naadwellness.in",
-    "handles": { "instagram": "https://www.instagram.com/naad_wellness/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/naad_wellness/"
+    },
+    "warning": null,
+    "takeaway": "Book a personalized multi-week Ayurveda and naturopathy programme here — India's newest high-end healing address."
   },
   {
     "name": "Amanoi",
@@ -277,12 +457,22 @@
     "country": "VN",
     "who": "Aman resort inside Nui Chua National Park; wellness immersions blend personal training, Pilates, and yoga with spa and hydrotherapy, from ~$1,300/night.",
     "why": "Vietnam's answer to Amanpuri: an ultra-luxury Aman property with a genuinely structured wellness program rather than a spa menu alone.",
-    "factors": { "program": 60, "prestige": 82, "facility": 72, "setting": 90, "reach": 40, "results": 55 },
+    "factors": {
+      "program": 60,
+      "prestige": 82,
+      "facility": 72,
+      "setting": 90,
+      "reach": 40,
+      "results": 55
+    },
     "reach": "IG ~35K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.aman.com/resorts/amanoi",
-    "handles": { "instagram": "https://www.instagram.com/amanoi/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/amanoi/"
+    },
+    "warning": null,
+    "takeaway": "Book a structured Pilates, yoga and personal-training immersion here — genuine wellness programming, not just a scenic Aman stay."
   },
   {
     "name": "PhuketFit",
@@ -292,11 +482,21 @@
     "country": "TH",
     "who": "All-inclusive weight-loss and fitness bootcamp near Ya Nui Beach; 1-4 week programs of daily group training and calorie-controlled meals, from ~$150/night.",
     "why": "A budget-tier fixture of Phuket's fitness-camp scene, self-marketed as Thailand's #1 health and fitness retreat.",
-    "factors": { "program": 60, "prestige": 40, "facility": 45, "setting": 55, "reach": 30, "results": 55 },
+    "factors": {
+      "program": 60,
+      "prestige": 40,
+      "facility": 45,
+      "setting": 55,
+      "reach": 30,
+      "results": 55
+    },
     "reach": "IG 4.8K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://phuketfit.com",
-    "handles": { "instagram": "https://www.instagram.com/phuketfit_th/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/phuketfit_th/"
+    },
+    "warning": null,
+    "takeaway": "Book this for budget-tier group training and calorie-controlled meals near the beach — cheap and cheerful, not premium."
   }
 ]

@@ -6,12 +6,20 @@
     "country": "US",
     "who": "MS in Nutrition Science; founder of the Alan Aragon Research Review, one of the longest-running peer-vetted nutrition/fitness research digests, plus a history of consulting physique and combat athletes.",
     "why": "Set the template for research-literate fitness nutrition writing that dozens of later newsletters copied; still active and cited after decades.",
-    "factors": { "credibility": 88, "practice": 55, "content": 88, "reach": 45, "impact": 80, "consistency": 85 },
+    "factors": {
+      "credibility": 88,
+      "practice": 55,
+      "content": 88,
+      "reach": 45,
+      "impact": 80,
+      "consistency": 85
+    },
     "reach": "IG and X combined roughly 300K (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": "https://alanaragon.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Read the primary research yourself before trusting a fitness-nutrition claim, the way his Review does."
   },
   {
     "name": "Danny Lennon",
@@ -20,12 +28,20 @@
     "country": "IE",
     "who": "MSc in Nutrition & Sports Performance; founder of Sigma Nutrition, a long-running evidence-based podcast and CPD education company for nutrition professionals.",
     "why": "One of the most consistently rigorous interview-format nutrition podcasts, widely used by dietitians and coaches for continuing education.",
-    "factors": { "credibility": 68, "practice": 40, "content": 85, "reach": 35, "impact": 55, "consistency": 78 },
+    "factors": {
+      "credibility": 68,
+      "practice": 40,
+      "content": 85,
+      "reach": 35,
+      "impact": 55,
+      "consistency": 78
+    },
     "reach": "Niche podcast audience, low tens of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": "https://sigmanutrition.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Keep learning nutrition science through rigorous interview-format sources rather than one-off tips."
   },
   {
     "name": "Dr. Idrees Mughal (Dr. Idz)",
@@ -34,12 +50,20 @@
     "country": "UK",
     "who": "MBBS plus an MRes in nutrition research; UK-trained physician who debunks carnivore, vegan-extremist, and fad-diet claims at scale on YouTube, TikTok, and Instagram.",
     "why": "Among the highest-reach myth-busting voices in the space, using a genuine research background to fact-check viral diet claims in near-real time.",
-    "factors": { "credibility": 65, "practice": 50, "content": 80, "reach": 65, "impact": 72, "consistency": 62 },
+    "factors": {
+      "credibility": 65,
+      "practice": 50,
+      "content": 80,
+      "reach": 65,
+      "impact": 72,
+      "consistency": 62
+    },
     "reach": "TikTok/IG combined likely well over 1M (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Be wary of any diet branding itself the one extreme answer, carnivore or otherwise."
   },
   {
     "name": "Dr. Nicola Guess",
@@ -48,12 +72,20 @@
     "country": "UK",
     "who": "Registered Dietitian and PhD, University of Oxford; researches low-carbohydrate diets and type 2 diabetes remission, with direct clinical work on diabetes nutrition.",
     "why": "Respected voice bridging clinical dietetics and diabetes research, known for pushing back on both low-carb hype and knee-jerk dismissals of it.",
-    "factors": { "credibility": 80, "practice": 60, "content": 55, "reach": 30, "impact": 60, "consistency": 70 },
+    "factors": {
+      "credibility": 80,
+      "practice": 60,
+      "content": 55,
+      "reach": 30,
+      "impact": 60,
+      "consistency": 70
+    },
     "reach": "Modest academic/public following, low tens of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Judge low-carbohydrate diets for diabetes on the evidence, resisting both hype and knee-jerk dismissal."
   },
   {
     "name": "Dr. Adrian Chavez",
@@ -62,12 +94,20 @@
     "country": "US",
     "who": "PhD in Nutritional Sciences; runs a private nutrition coaching practice and hosts a long-running evidence-based nutrition podcast.",
     "why": "Steady, credentialed voice translating primary research for both clients and a lay audience without the hype common in the space.",
-    "factors": { "credibility": 68, "practice": 55, "content": 68, "reach": 32, "impact": 45, "consistency": 68 },
+    "factors": {
+      "credibility": 68,
+      "practice": 55,
+      "content": 68,
+      "reach": 32,
+      "impact": 45,
+      "consistency": 68
+    },
     "reach": "Modest, tens of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Look for nutrition information delivered without hype or urgency — that's usually the more trustworthy source."
   },
   {
     "name": "Dr. Gabrielle Fundaro",
@@ -76,12 +116,20 @@
     "country": "US",
     "who": "PhD in Human Nutrition, Foods, and Exercise; coaches clients on gut health and behavior change through an evidence-based physique coaching group.",
     "why": "Rare combination of gut-health research depth and applied behavior-change coaching, filling a gap most fitness-nutrition educators skip.",
-    "factors": { "credibility": 68, "practice": 58, "content": 65, "reach": 40, "impact": 48, "consistency": 60 },
+    "factors": {
+      "credibility": 68,
+      "practice": 58,
+      "content": 65,
+      "reach": 40,
+      "impact": 48,
+      "consistency": 60
+    },
     "reach": "Moderate niche following, tens of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Pair any gut-health dietary change with a behavior-change plan, not the food swap alone."
   },
   {
     "name": "Martin MacDonald",
@@ -90,12 +138,20 @@
     "country": "UK",
     "who": "SENr-registered nutritionist running Mac-Nutrition Uni and a clinical practice that has worked with British elite athletics and rugby programs.",
     "why": "One of the few names on this list whose day job is fueling actual elite teams, not just talking about it online.",
-    "factors": { "credibility": 72, "practice": 82, "content": 60, "reach": 38, "impact": 62, "consistency": 78 },
+    "factors": {
+      "credibility": 72,
+      "practice": 82,
+      "content": 60,
+      "reach": 38,
+      "impact": 62,
+      "consistency": 78
+    },
     "reach": "Moderate UK following, tens of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": "https://macnutrition.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Judge nutrition advice by whether the person actually fuels real athletes day to day."
   },
   {
     "name": "Dr. Kevin Klatt",
@@ -104,12 +160,20 @@
     "country": "US",
     "who": "PhD in Nutritional Sciences (Cornell), postdoctoral researcher at UC Berkeley, and Director of Research at Examine.com.",
     "why": "Deep technical rigor on micronutrient and supplement science, shaping how thousands of practitioners interpret primary literature via Examine.",
-    "factors": { "credibility": 82, "practice": 35, "content": 72, "reach": 35, "impact": 68, "consistency": 58 },
+    "factors": {
+      "credibility": 82,
+      "practice": 35,
+      "content": 72,
+      "reach": 35,
+      "impact": 68,
+      "consistency": 58
+    },
     "reach": "Niche academic/practitioner following on X, tens of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Check a supplement claim against a rigorous evidence summary before you buy in."
   },
   {
     "name": "Dr. Eric Trexler",
@@ -118,12 +182,20 @@
     "country": "US",
     "who": "PhD in Human Movement Science; Director of Research at MASS (Monthly Applied Science in Sport), a peer-reviewed-literature digest for coaches and dietitians.",
     "why": "MASS is treated as a reference standard by strength/physique coaches for staying current on primary research without wading through journals themselves.",
-    "factors": { "credibility": 78, "practice": 40, "content": 85, "reach": 48, "impact": 70, "consistency": 68 },
+    "factors": {
+      "credibility": 78,
+      "practice": 40,
+      "content": 85,
+      "reach": 48,
+      "impact": 70,
+      "consistency": 68
+    },
     "reach": "Combined social roughly 150-250K (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Let a peer-reviewed research digest, not gym-floor lore, guide your training-nutrition decisions."
   },
   {
     "name": "Dr. Bill Campbell",
@@ -132,12 +204,20 @@
     "country": "US",
     "who": "PhD; directs the Performance & Physique Enhancement Laboratory at the University of South Florida, running real studies on contest-prep and body recomposition with physique athletes.",
     "why": "Bridges academic research and practice directly — his lab's contest-prep studies are widely cited across bodybuilding and physique-sport nutrition.",
-    "factors": { "credibility": 80, "practice": 55, "content": 75, "reach": 52, "impact": 68, "consistency": 72 },
+    "factors": {
+      "credibility": 80,
+      "practice": 55,
+      "content": 75,
+      "reach": 52,
+      "impact": 68,
+      "consistency": 72
+    },
     "reach": "Combined social roughly 200-300K (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Base a cutting or recomposition phase on tested lab protocols, not on bodybuilding folklore."
   },
   {
     "name": "Dr. Spencer Nadolsky",
@@ -146,12 +226,20 @@
     "country": "US",
     "who": "DO, board-certified in obesity medicine and lipidology; treats patients directly on weight and metabolic health and co-hosts the Docs Who Lift podcast.",
     "why": "A working physician-nutrition voice in the increasingly loud GLP-1/obesity-medicine conversation, grounded in an active clinical practice.",
-    "factors": { "credibility": 72, "practice": 70, "content": 68, "reach": 48, "impact": 62, "consistency": 70 },
+    "factors": {
+      "credibility": 72,
+      "practice": 70,
+      "content": 68,
+      "reach": 48,
+      "impact": 62,
+      "consistency": 70
+    },
     "reach": "Combined social roughly 150K+ (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat weight and metabolic health as a medical conversation with your clinician, not a DIY project."
   },
   {
     "name": "Dr. Stuart Phillips",
@@ -160,12 +248,20 @@
     "country": "CAN",
     "who": "PhD, Professor of Kinesiology at McMaster University; the field's leading voice on dietary protein and muscle protein synthesis, especially in older adults.",
     "why": "His body of work has directly shaped protein-intake guidance worldwide — a field-leading researcher whose findings changed practice, not just opinion.",
-    "factors": { "credibility": 95, "practice": 45, "content": 60, "reach": 40, "impact": 90, "consistency": 88 },
+    "factors": {
+      "credibility": 95,
+      "practice": 45,
+      "content": 60,
+      "reach": 40,
+      "impact": 90,
+      "consistency": 88
+    },
     "reach": "Academic/public reach on X, tens of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Spread protein intake across meals through the day, especially as you age, to protect muscle."
   },
   {
     "name": "Rhiannon Lambert",
@@ -174,12 +270,20 @@
     "country": "UK",
     "who": "Registered Nutritionist (RNutr); founder of the Rhitrition clinic on Harley Street, working with a broad private-client base including athletes.",
     "why": "Built one of the UK's best-known private nutrition clinics on credentialed, non-gimmick practice, with a media presence to match.",
-    "factors": { "credibility": 65, "practice": 75, "content": 65, "reach": 55, "impact": 55, "consistency": 70 },
+    "factors": {
+      "credibility": 65,
+      "practice": 75,
+      "content": 65,
+      "reach": 55,
+      "impact": 55,
+      "consistency": 70
+    },
     "reach": "IG likely in the low hundreds of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": "https://rhitrition.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Get one-on-one guidance from a credentialed nutritionist instead of following generic advice from strangers online."
   },
   {
     "name": "Dr. Federica Amati",
@@ -188,12 +292,20 @@
     "country": "UK",
     "who": "PhD in nutrition; Chief Nutritionist at ZOE and lecturer at Imperial College London.",
     "why": "Public-facing science lead for one of the largest population nutrition-science projects currently running, translating findings for a mass audience.",
-    "factors": { "credibility": 78, "practice": 55, "content": 68, "reach": 50, "impact": 65, "consistency": 55 },
+    "factors": {
+      "credibility": 78,
+      "practice": 55,
+      "content": 68,
+      "reach": 50,
+      "impact": 65,
+      "consistency": 55
+    },
     "reach": "Personal following tens of thousands, amplified by ZOE's much larger platform (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Translate big population nutrition science into small, consistent daily habits rather than overhauling everything at once."
   },
   {
     "name": "Dr. Sarah Berry",
@@ -202,12 +314,20 @@
     "country": "UK",
     "who": "PhD, Professor of Nutritional Sciences at King's College London; lead scientist on ZOE's PREDICT studies, one of the largest personalized-nutrition research programs.",
     "why": "PREDICT's scale (100,000+ participants) gives her population-level impact rare among nutrition researchers, and she communicates it directly to the public.",
-    "factors": { "credibility": 88, "practice": 70, "content": 70, "reach": 50, "impact": 78, "consistency": 68 },
+    "factors": {
+      "credibility": 88,
+      "practice": 70,
+      "content": 70,
+      "reach": 50,
+      "impact": 78,
+      "consistency": 68
+    },
     "reach": "Personal following moderate, amplified by ZOE's platform (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Expect your blood-sugar response to a food to differ from everyone else's — personalize, don't generalize."
   },
   {
     "name": "Renee McGregor",
@@ -216,12 +336,20 @@
     "country": "UK",
     "who": "Registered Dietitian specializing in RED-S (Relative Energy Deficiency in Sport); works clinically with elite endurance athletes and eating-disorder recovery cases.",
     "why": "Her RED-S advocacy has changed how sport federations and coaches think about underfueling in athletes, not just how individual clients eat.",
-    "factors": { "credibility": 70, "practice": 78, "content": 62, "reach": 35, "impact": 65, "consistency": 78 },
+    "factors": {
+      "credibility": 70,
+      "practice": 78,
+      "content": 62,
+      "reach": 35,
+      "impact": 65,
+      "consistency": 78
+    },
     "reach": "Modest-moderate, tens of thousands (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Fuel your training adequately rather than under-eating, especially in endurance or aesthetic-focused sport."
   },
   {
     "name": "Abbey Sharp",
@@ -230,12 +358,20 @@
     "country": "CAN",
     "who": "Registered Dietitian running a private practice, best known for YouTube videos dissecting \"what I eat in a day\" content and debunking diet-culture claims.",
     "why": "Highest reach of any dietitian-credentialed myth-buster on this list, using a large young audience to counter influencer nutrition misinformation directly.",
-    "factors": { "credibility": 60, "practice": 50, "content": 78, "reach": 60, "impact": 60, "consistency": 72 },
+    "factors": {
+      "credibility": 60,
+      "practice": 50,
+      "content": 78,
+      "reach": 60,
+      "impact": 60,
+      "consistency": 72
+    },
     "reach": "YouTube likely high hundreds of thousands, IG in similar range (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Fact-check a viral diet claim against dietitian-led myth-busting before changing how you eat."
   },
   {
     "name": "Dr. Duane Mellor",
@@ -244,12 +380,20 @@
     "country": "UK",
     "who": "Registered Dietitian and PhD, senior lecturer at Aston University; regular British Dietetic Association spokesperson on fad diets and nutrition myths in UK media.",
     "why": "The go-to credentialed rebuttal voice in British press and broadcast whenever a new diet trend or misinformation claim goes viral.",
-    "factors": { "credibility": 72, "practice": 45, "content": 65, "reach": 30, "impact": 58, "consistency": 70 },
+    "factors": {
+      "credibility": 72,
+      "practice": 45,
+      "content": 65,
+      "reach": 30,
+      "impact": 58,
+      "consistency": 70
+    },
     "reach": "Modest social following; reach is mostly via traditional media, not counted here (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Pause before adopting a diet trend that just went viral, and check what a dietitian says."
   },
   {
     "name": "Dr. Susie Burrell",
@@ -258,11 +402,19 @@
     "country": "AU",
     "who": "Accredited Practising Dietitian (APD); runs a private clinic and hosts the Shared Plate podcast, a prominent Australian nutrition-myth-busting voice.",
     "why": "Leading credentialed nutrition voice in the Australian market, with a practice and media footprint that has lasted well over a decade.",
-    "factors": { "credibility": 62, "practice": 65, "content": 62, "reach": 45, "impact": 50, "consistency": 72 },
+    "factors": {
+      "credibility": 62,
+      "practice": 65,
+      "content": 62,
+      "reach": 45,
+      "impact": 50,
+      "consistency": 72
+    },
     "reach": "Moderate, likely low hundreds of thousands combined (estimate, unverified — WebSearch unavailable this session)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Bring your nutrition questions to a practicing dietitian's myth-busting work before trusting a stranger online."
   }
 ]

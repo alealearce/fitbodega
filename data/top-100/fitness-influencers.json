@@ -2,12 +2,10 @@
   "meta": {
     "title": "Top 100 Fitness Influencers 2026",
     "subtitle": "The world's most influential people in fitness — ranked. Athletes, coaches, educators, and the megastars who move training culture.",
-    "series": "The FitBodega 100",
-    "updated": "2026-08-04",
-    "reviewCadence": "monthly",
     "scoreModel": {
       "name": "Fitness Influence Score",
       "gate": "Two tiers. Core — fitness is their main output. Amplifiers — fitness is not their core topic, but their reach moves the whole culture when they train, transform, or talk protocols; amplifier scores carry a 0.9 relevance discount.",
+      "notes": "Reach is log-scaled and platform-weighted (Instagram, YouTube, TikTok full weight; X half) and recomputed from researched follower counts. The five judgment factors are calibrated across research segments so no category is scored on an easier curve. Follower counts marked verified were browser-checked at the listed date; the rest are approximate.",
       "weights": {
         "reach": 0.25,
         "engagement": 0.15,
@@ -15,10 +13,12 @@
         "impact": 0.15,
         "commerce": 0.1,
         "consistency": 0.15
-      },
-      "notes": "Reach is log-scaled and platform-weighted (Instagram, YouTube, TikTok full weight; X half) and recomputed from researched follower counts. The five judgment factors are calibrated across research segments so no category is scored on an easier curve. Follower counts marked verified were browser-checked at the listed date; the rest are approximate."
+      }
     },
-    "disclaimer": "Follower counts are approximate (2026) and the ranking is reviewed monthly. Educational and editorial — inclusion is not an endorsement, and scores measure influence, not advice quality."
+    "disclaimer": "Follower counts are approximate (2026) and the ranking is reviewed monthly. Educational and editorial — inclusion is not an endorsement, and scores measure influence, not advice quality.",
+    "series": "The FitBodega 100",
+    "updated": "2026-08-04",
+    "reviewCadence": "monthly"
   },
   "entries": [
     {
@@ -45,6 +45,7 @@
         "youtube": "https://youtube.com/@cbum"
       },
       "warning": null,
+      "takeaway": "Treat your sport as the foundation for a business, not the ceiling on your income.",
       "score": 84
     },
     {
@@ -71,6 +72,7 @@
         "youtube": "https://youtube.com/@davidgoggins"
       },
       "warning": null,
+      "takeaway": "Schedule one hard thing a day you would rather skip — consistency under discomfort is the whole method.",
       "score": 82
     },
     {
@@ -98,6 +100,7 @@
         "podcast": "Sweat Daily with Kayla Itsines"
       },
       "warning": null,
+      "takeaway": "Package your training into a simple, repeatable program others can follow without you in the room.",
       "score": 81
     },
     {
@@ -124,6 +127,7 @@
         "youtube": "https://youtube.com/@JeffNippard"
       },
       "warning": null,
+      "takeaway": "Before adopting any training trend, ask what the studies actually measured — copy the habit of checking sources.",
       "score": 79
     },
     {
@@ -149,6 +153,7 @@
         "instagram": "https://www.instagram.com/tiaclair1/"
       },
       "warning": null,
+      "takeaway": "Train against the toughest standard you can find, then build products that extend your expertise past competition.",
       "score": 78
     },
     {
@@ -175,6 +180,7 @@
         "youtube": "https://youtube.com/@athleanx"
       },
       "warning": null,
+      "takeaway": "Diagnose the root cause of an ache before treating the symptom — fix form, not just discomfort.",
       "score": 78
     },
     {
@@ -200,6 +206,7 @@
         "instagram": "https://www.instagram.com/richfroning/"
       },
       "warning": null,
+      "takeaway": "Keep coaching and competing at the same time — staying hands-on keeps your teaching credible.",
       "score": 77
     },
     {
@@ -226,6 +233,7 @@
         "youtube": "https://youtube.com/@RenaissancePeriodization"
       },
       "warning": null,
+      "takeaway": "Base your training on periodization principles, not gut feel, and be ready to explain the reasoning.",
       "score": 77
     },
     {
@@ -252,6 +260,7 @@
         "x": "https://x.com/schwarzenegger"
       },
       "warning": null,
+      "takeaway": "Send a short, consistent update to your audience — a simple habit like a newsletter can move an industry.",
       "score": 76
     },
     {
@@ -277,6 +286,7 @@
         "instagram": "https://www.instagram.com/mathewfras/"
       },
       "warning": null,
+      "takeaway": "Set a standard so high your name still defines the bar years after you stop competing.",
       "score": 76
     },
     {
@@ -304,6 +314,7 @@
         "tiktok": "https://tiktok.com/@blogilates"
       },
       "warning": null,
+      "takeaway": "Turn a workout format you invented into a real brand — don't just post routines, own the category.",
       "score": 76
     },
     {
@@ -331,6 +342,7 @@
         "podcast": "Mind Pump: Raw Fitness Truth"
       },
       "warning": null,
+      "takeaway": "Build an audience that trusts you enough to buy your program, not just watch your content.",
       "score": 76
     },
     {
@@ -356,6 +368,7 @@
         "instagram": "https://instagram.com/ronniecoleman8"
       },
       "warning": null,
+      "takeaway": "Bring real enthusiasm to hard training — a memorable attitude toward struggle outlasts the numbers you put up.",
       "score": 75
     },
     {
@@ -382,6 +395,7 @@
         "youtube": "https://youtube.com/@thenx"
       },
       "warning": null,
+      "takeaway": "Master bodyweight basics before adding equipment — a strong foundation can carry an entire training business.",
       "score": 75
     },
     {
@@ -407,6 +421,7 @@
         "instagram": "https://instagram.com/eliudkipchoge"
       },
       "warning": null,
+      "takeaway": "Study how the best distance runners structure training and mindset, then copy the discipline, not just the mileage.",
       "score": 74
     },
     {
@@ -432,6 +447,7 @@
         "instagram": "https://instagram.com/kilianjornet"
       },
       "warning": null,
+      "takeaway": "Pair endurance ambition with real specificity — train on the exact terrain and conditions you compete in.",
       "score": 74
     },
     {
@@ -459,6 +475,7 @@
         "podcast": "The Joe Rogan Experience"
       },
       "warning": null,
+      "takeaway": "Check a claim before repeating it to your audience — careless amplification spreads bad advice fast.",
       "score": 74
     },
     {
@@ -485,6 +502,7 @@
         "youtube": "https://youtube.com/@JeremyEthier"
       },
       "warning": null,
+      "takeaway": "Turn credible, evidence-based content into an actual coaching product, not just more videos.",
       "score": 74
     },
     {
@@ -512,6 +530,7 @@
         "tiktok": "https://tiktok.com/@joewicksthebodycoach"
       },
       "warning": null,
+      "takeaway": "Make training free and accessible first — build trust before you ever ask for payment.",
       "score": 73
     },
     {
@@ -538,6 +557,7 @@
         "youtube": "https://youtube.com/@carolinegirvan"
       },
       "warning": null,
+      "takeaway": "Publish full structured programs, not single workouts — people commit harder to a plan than a routine.",
       "score": 73
     },
     {
@@ -564,6 +584,7 @@
         "youtube": "https://youtube.com/@LarryWheels"
       },
       "warning": null,
+      "takeaway": "Be transparent about what actually goes into your results — honesty builds more trust than mystery.",
       "score": 72
     },
     {
@@ -589,6 +610,7 @@
         "instagram": "https://instagram.com/eddiehallwsm"
       },
       "warning": null,
+      "takeaway": "Look outside your own sport for the next challenge — crossing disciplines can grow your entire audience.",
       "score": 72
     },
     {
@@ -615,6 +637,7 @@
         "youtube": "https://youtube.com/@JayCutlerTV"
       },
       "warning": null,
+      "takeaway": "Plan your business after competition while you're still competing — the transition is the real test.",
       "score": 72
     },
     {
@@ -640,6 +663,7 @@
         "instagram": "https://www.instagram.com/katrintanja/"
       },
       "warning": null,
+      "takeaway": "Stay in your sport for the long game — a decade of consistency builds a following no trend can.",
       "score": 72
     },
     {
@@ -666,6 +690,7 @@
         "youtube": "https://youtube.com/@nickbare"
       },
       "warning": null,
+      "takeaway": "Document your training daily and combine disciplines — hybrid training reaches a wider audience than one lane.",
       "score": 72
     },
     {
@@ -693,6 +718,7 @@
         "x": "https://x.com/TheRock"
       },
       "warning": null,
+      "takeaway": "Keep showing up to train even after you've made it — visible consistency is what people actually want to see.",
       "score": 72
     },
     {
@@ -719,6 +745,7 @@
         "youtube": "https://youtube.com/@chloeting"
       },
       "warning": null,
+      "takeaway": "Give people a fixed-length challenge with a clear end date — a deadline drives follow-through better than an open plan.",
       "score": 72
     },
     {
@@ -745,6 +772,7 @@
         "podcast": "Chasing Excellence"
       },
       "warning": null,
+      "takeaway": "Write down your coaching philosophy, not just your workouts — the mindset behind training is what gets copied.",
       "score": 71
     },
     {
@@ -771,6 +799,7 @@
         "youtube": "https://youtube.com/@michellelewin"
       },
       "warning": null,
+      "takeaway": "Recognize when a platform is still new — showing up early can define a whole category for years.",
       "score": 71
     },
     {
@@ -797,6 +826,7 @@
         "youtube": "https://youtube.com/@anllelasagra"
       },
       "warning": null,
+      "takeaway": "Build deeply within your own community and language before chasing a global audience.",
       "score": 71
     },
     {
@@ -822,6 +852,7 @@
         "instagram": "https://instagram.com/eva_andressa"
       },
       "warning": null,
+      "takeaway": "Back your content with a real competitive record and a real business — credibility compounds over time.",
       "score": 71
     },
     {
@@ -847,6 +878,7 @@
         "instagram": "https://instagram.com/thorbjornsson"
       },
       "warning": null,
+      "takeaway": "Let one dramatic achievement open the door to a completely different arena — use your peak moment.",
       "score": 70
     },
     {
@@ -873,6 +905,7 @@
         "youtube": "https://youtube.com/@MorePlatesMoreDates"
       },
       "warning": null,
+      "takeaway": "Talk openly about the real risks of what you do — honest harm-reduction beats silence for building trust.",
       "score": 70
     },
     {
@@ -898,6 +931,7 @@
         "instagram": "https://instagram.com/ramondinopro"
       },
       "warning": null,
+      "takeaway": "Represent your home country and community proudly — local pride can carry you onto a world stage.",
       "score": 70
     },
     {
@@ -924,6 +958,7 @@
         "youtube": "https://youtube.com/@BioLayne"
       },
       "warning": null,
+      "takeaway": "Pair your credentials with real competitive results — expertise lands harder when you've actually done the thing.",
       "score": 70
     },
     {
@@ -951,6 +986,7 @@
         "podcast": "The Drive"
       },
       "warning": null,
+      "takeaway": "Train for the decades ahead, not just this season — frame fitness as a long-term investment.",
       "score": 70
     },
     {
@@ -978,6 +1014,7 @@
         "tiktok": "https://tiktok.com/@whitneyysimmons"
       },
       "warning": null,
+      "takeaway": "Film your actual training honestly — a relatable, unpolished lifting vlog can become the format others copy.",
       "score": 70
     },
     {
@@ -1003,6 +1040,7 @@
         "instagram": "https://www.instagram.com/huntthesheriff/"
       },
       "warning": null,
+      "takeaway": "Get loud and visible for a new sport early — genuine enthusiasm can make you its defining face.",
       "score": 69
     },
     {
@@ -1028,6 +1066,7 @@
         "instagram": "https://instagram.com/courtneydauwalter"
       },
       "warning": null,
+      "takeaway": "Keep showing up and winning quietly — sustained results eventually earn mainstream attention on their own.",
       "score": 69
     },
     {
@@ -1054,6 +1093,7 @@
         "youtube": "https://youtube.com/@centr"
       },
       "warning": null,
+      "takeaway": "Turn your own training routine into something people can actually follow, not just something they admire.",
       "score": 69
     },
     {
@@ -1081,6 +1121,7 @@
         "podcast": "Huberman Lab"
       },
       "warning": null,
+      "takeaway": "Explain the mechanism behind a protocol, not just the protocol — understanding why helps people actually stick with it.",
       "score": 69
     },
     {
@@ -1108,6 +1149,7 @@
         "tiktok": "https://tiktok.com/@krissycela"
       },
       "warning": null,
+      "takeaway": "Build a structured app around your training style — a real product outlasts a following alone.",
       "score": 69
     },
     {
@@ -1134,6 +1176,7 @@
         "youtube": "https://youtube.com/@NatachaOceane"
       },
       "warning": null,
+      "takeaway": "Bring real technical rigor to fitness claims — earning respect from a skeptical crowd beats quick reach.",
       "score": 69
     },
     {
@@ -1159,6 +1202,7 @@
         "instagram": "https://instagram.com/thedorianyates"
       },
       "warning": null,
+      "takeaway": "Design a training method precise enough that people are still following it decades later.",
       "score": 68
     },
     {
@@ -1184,6 +1228,7 @@
         "instagram": "https://instagram.com/cameronrhanes"
       },
       "warning": null,
+      "takeaway": "Combine two personal passions into one identity — a distinct crossover niche expands your reach and your mission.",
       "score": 68
     },
     {
@@ -1210,6 +1255,7 @@
         "podcast": "The Rich Roll Podcast"
       },
       "warning": null,
+      "takeaway": "Turn your own comeback story into a long-form platform — personal transformation content builds lasting trust.",
       "score": 68
     },
     {
@@ -1236,6 +1282,7 @@
         "youtube": "https://youtube.com/@KneesOverToesGuy"
       },
       "warning": null,
+      "takeaway": "Question standard advice about an injury-prone area — a fresh rehab approach can become a global habit.",
       "score": 68
     },
     {
@@ -1262,6 +1309,7 @@
         "youtube": "https://youtube.com/@samsulek"
       },
       "warning": null,
+      "takeaway": "Post your actual training honestly and often — raw, unpolished footage can outperform produced content.",
       "score": 67
     },
     {
@@ -1287,6 +1335,7 @@
         "instagram": "https://www.instagram.com/anniethorisdottir/"
       },
       "warning": null,
+      "takeaway": "Compete early and well in a young sport — your results help define the field for everyone after.",
       "score": 67
     },
     {
@@ -1313,6 +1362,7 @@
         "instagram": "https://instagram.com/magnusmidtbo"
       },
       "warning": null,
+      "takeaway": "Bring outsiders from your own niche into mainstream fitness challenges — crossover content grows both audiences.",
       "score": 67
     },
     {
@@ -1340,6 +1390,7 @@
         "tiktok": "https://tiktok.com/@lillysabri"
       },
       "warning": null,
+      "takeaway": "Address pelvic floor and postpartum recovery directly — clinical rehab work belongs in training plans, not just aesthetics.",
       "score": 67
     },
     {
@@ -1366,6 +1417,7 @@
         "youtube": "https://youtube.com/@MikeOHearn"
       },
       "warning": null,
+      "takeaway": "Play the long game — build a training identity that stays visible for decades, not one season.",
       "score": 66
     },
     {
@@ -1392,6 +1444,7 @@
         "youtube": "https://youtube.com/@MadFit"
       },
       "warning": null,
+      "takeaway": "Keep home workouts quiet and equipment-free — removing noise and gear barriers grows a bigger audience.",
       "score": 66
     },
     {
@@ -1418,6 +1471,7 @@
         "youtube": "https://youtube.com/@SquatUniversity"
       },
       "warning": null,
+      "takeaway": "Diagnose your own lifting pain before pushing through it — treat technique flaws as injury prevention.",
       "score": 66
     },
     {
@@ -1443,6 +1497,7 @@
         "instagram": "https://www.instagram.com/justinmedeiros34/"
       },
       "warning": null,
+      "takeaway": "Chase consistent top finishes over one big peak — steady placing builds a longer career than a single win.",
       "score": 65
     },
     {
@@ -1468,6 +1523,7 @@
         "instagram": "https://www.instagram.com/marcusfilly/"
       },
       "warning": null,
+      "takeaway": "Name your training style and build a real program around it, not just a highlight reel.",
       "score": 65
     },
     {
@@ -1493,6 +1549,7 @@
         "instagram": "https://instagram.com/rossedgley"
       },
       "warning": null,
+      "takeaway": "Back extreme feats with real documentation and science — credibility comes from proof, not the stunt alone.",
       "score": 65
     },
     {
@@ -1520,6 +1577,7 @@
         "tiktok": "https://tiktok.com/@pamelareif"
       },
       "warning": null,
+      "takeaway": "Keep workouts free and equipment-free — remove every barrier between someone and their first rep.",
       "score": 65
     },
     {
@@ -1546,6 +1604,7 @@
         "youtube": "https://youtube.com/@ThomasDeLauerOfficial"
       },
       "warning": null,
+      "takeaway": "Translate research studies into plain, practical protocols people can actually follow.",
       "score": 65
     },
     {
@@ -1572,6 +1631,7 @@
         "youtube": "https://youtube.com/@gregdoucette"
       },
       "warning": null,
+      "takeaway": "Publicly fact-check claims in your niche — policing misinformation builds trust faster than hype does.",
       "score": 64
     },
     {
@@ -1597,6 +1657,7 @@
         "youtube": "https://youtube.com/@nordicstrength"
       },
       "warning": null,
+      "takeaway": "Commit to one bodyweight discipline and post consistently for years — longevity beats a single viral clip.",
       "score": 64
     },
     {
@@ -1623,6 +1684,7 @@
         "youtube": "https://youtube.com/@StanEfferding"
       },
       "warning": null,
+      "takeaway": "Pair a simple, repeatable diet system with real competitive results before coaching others on it.",
       "score": 64
     },
     {
@@ -1648,6 +1710,7 @@
         "instagram": "https://instagram.com/nick_walker39"
       },
       "warning": null,
+      "takeaway": "Compete at the top level in your sport before building a following around your physique.",
       "score": 63
     },
     {
@@ -1673,6 +1736,7 @@
         "instagram": "https://www.instagram.com/sarasigmundsdottir/"
       },
       "warning": null,
+      "takeaway": "Stay candid and personality-driven on camera — an authentic voice outlasts your competitive peak.",
       "score": 63
     },
     {
@@ -1699,6 +1763,7 @@
         "youtube": "https://youtube.com/@StartingStrength"
       },
       "warning": null,
+      "takeaway": "Write your training method down clearly enough that beginners can follow it without you.",
       "score": 63
     },
     {
@@ -1725,6 +1790,7 @@
         "youtube": "https://youtube.com/@thereadystate"
       },
       "warning": null,
+      "takeaway": "Treat mobility work as a training pillar, not an afterthought before or after lifting.",
       "score": 63
     },
     {
@@ -1751,6 +1817,7 @@
         "youtube": "https://youtube.com/@TheTrenTwins"
       },
       "warning": null,
+      "takeaway": "Bring humor and personality into training content — a distinct tone spreads faster than raw information.",
       "score": 62
     },
     {
@@ -1777,6 +1844,7 @@
         "youtube": "https://youtube.com/@bradleymartyn"
       },
       "warning": null,
+      "takeaway": "Turn your following into a real business, like a gym, not just more content.",
       "score": 62
     },
     {
@@ -1803,6 +1871,7 @@
         "tiktok": "https://tiktok.com/@joeyswoll"
       },
       "warning": null,
+      "takeaway": "Call out gym-shaming and bullying publicly — positivity content builds loyalty as fast as intensity does.",
       "score": 62
     },
     {
@@ -1828,6 +1897,7 @@
         "instagram": "https://www.instagram.com/laurahorvathh/"
       },
       "warning": null,
+      "takeaway": "Keep contending at the top level year after year — sustained podium threat matters more than one win.",
       "score": 62
     },
     {
@@ -1854,6 +1924,7 @@
         "podcast": "Stronger with Don Saladino"
       },
       "warning": null,
+      "takeaway": "Extend one-on-one coaching reach with a podcast or app so it isn't limited to private clients.",
       "score": 62
     },
     {
@@ -1880,6 +1951,7 @@
         "youtube": "https://youtube.com/@eugeneteo"
       },
       "warning": null,
+      "takeaway": "Favor a calm, minimalist training template over hype — sustainability beats big claims for most people.",
       "score": 62
     },
     {
@@ -1906,6 +1978,7 @@
         "x": "https://x.com/gregnuckols"
       },
       "warning": null,
+      "takeaway": "Read the primary research yourself and cite it — sourced claims beat unfounded ones.",
       "score": 62
     },
     {
@@ -1932,6 +2005,7 @@
         "podcast": "The Dr. Gabrielle Lyon Show"
       },
       "warning": null,
+      "takeaway": "Frame resistance training and protein intake as preventive medicine, not just aesthetics.",
       "score": 62
     },
     {
@@ -1958,6 +2032,7 @@
         "youtube": "https://youtube.com/@growwithjo"
       },
       "warning": null,
+      "takeaway": "Serve an underserved audience directly — low-impact workouts open training to people HIIT excludes.",
       "score": 62
     },
     {
@@ -1984,6 +2059,7 @@
         "tiktok": "https://tiktok.com/@tammyhembrow"
       },
       "warning": null,
+      "takeaway": "Turn your personal following into your own apparel or app brand instead of just endorsing others'.",
       "score": 62
     },
     {
@@ -2010,6 +2086,7 @@
         "youtube": "https://youtube.com/@davidlaid"
       },
       "warning": null,
+      "takeaway": "Keep showing up in the same niche for years — sheer longevity builds trust on its own.",
       "score": 61
     },
     {
@@ -2035,6 +2112,7 @@
         "instagram": "https://www.instagram.com/alexander.roncevic/"
       },
       "warning": null,
+      "takeaway": "Set a measurable technical benchmark in your discipline that others have to chase.",
       "score": 61
     },
     {
@@ -2061,6 +2139,7 @@
         "instagram": "https://instagram.com/fitnessfaqs"
       },
       "warning": null,
+      "takeaway": "Break big skills into clear step-by-step progressions and stay consistent for years.",
       "score": 61
     },
     {
@@ -2086,6 +2165,7 @@
         "instagram": "https://instagram.com/jillianmichaels"
       },
       "warning": null,
+      "takeaway": "Bring certified, structured coaching to a mass audience instead of just motivational talk.",
       "score": 61
     },
     {
@@ -2112,6 +2192,7 @@
         "youtube": "https://youtube.com/@lucywyndhamread"
       },
       "warning": null,
+      "takeaway": "Design workouts specifically for beginners and older audiences most fitness media ignores.",
       "score": 61
     },
     {
@@ -2138,6 +2219,7 @@
         "youtube": "https://youtube.com/@StephanieButtermorePHD"
       },
       "warning": null,
+      "takeaway": "Document your own physiology experiment publicly — personal data builds more credibility than advice alone.",
       "score": 61
     },
     {
@@ -2164,6 +2246,7 @@
         "youtube": "https://youtube.com/@WillTennyson"
       },
       "warning": null,
+      "takeaway": "Turn curiosity experiments, like trying someone else's diet, into structured, credentialed content.",
       "score": 60
     },
     {
@@ -2189,6 +2272,7 @@
         "instagram": "https://www.instagram.com/adlerjeff/"
       },
       "warning": null,
+      "takeaway": "Keep adding wins year after year — a growing record speaks louder than a single title.",
       "score": 60
     },
     {
@@ -2214,6 +2298,7 @@
         "instagram": "https://www.instagram.com/brookeewells/"
       },
       "warning": null,
+      "takeaway": "Build sponsor relationships around consistent top finishes, not just one standout result.",
       "score": 60
     },
     {
@@ -2240,6 +2325,7 @@
         "youtube": "https://www.youtube.com/@butterybros"
       },
       "warning": null,
+      "takeaway": "Document your sport on camera with real production value — how it's filmed shapes how it's seen.",
       "score": 60
     },
     {
@@ -2263,6 +2349,7 @@
       "website": null,
       "handles": {},
       "warning": null,
+      "takeaway": "Translate elite-level training into daily, follow-along content a mainstream audience can actually do.",
       "score": 60
     },
     {
@@ -2288,6 +2375,7 @@
         "instagram": "https://instagram.com/iceman_hof"
       },
       "warning": null,
+      "takeaway": "Package your method into a certification program so others can teach it too.",
       "score": 60
     },
     {
@@ -2313,6 +2401,7 @@
         "instagram": "https://instagram.com/terrycrews"
       },
       "warning": null,
+      "takeaway": "Maintain a visible physique consistently across decades, not just for a single role or season.",
       "score": 60
     },
     {
@@ -2339,6 +2428,7 @@
         "x": "https://x.com/harleypasternak"
       },
       "warning": null,
+      "takeaway": "Pair a real science credential with mainstream media appearances to reach beyond your own following.",
       "score": 60
     },
     {
@@ -2364,6 +2454,7 @@
         "instagram": "https://instagram.com/growingannanas"
       },
       "warning": null,
+      "takeaway": "Build a real community, not just followers, around one focused training niche.",
       "score": 60
     },
     {
@@ -2390,6 +2481,7 @@
         "youtube": "https://youtube.com/@MennoHenselmans"
       },
       "warning": null,
+      "takeaway": "Critique published research directly — respect from peer coaches matters as much as audience size.",
       "score": 60
     },
     {
@@ -2416,6 +2508,7 @@
         "youtube": "https://youtube.com/@MegSquats"
       },
       "warning": null,
+      "takeaway": "Post your own training logs and form checks openly to grow your niche's audience.",
       "score": 60
     },
     {
@@ -2442,6 +2535,7 @@
         "youtube": "https://youtube.com/@SydneyCummings"
       },
       "warning": null,
+      "takeaway": "Show up daily with free workouts — consistent cadence builds community loyalty over any single video.",
       "score": 60
     },
     {
@@ -2468,6 +2562,7 @@
         "youtube": "https://youtube.com/@HeatherRobertsonFit"
       },
       "warning": null,
+      "takeaway": "Be the reliable, no-equipment option people return to — reliability outlasts flashier competitors.",
       "score": 60
     },
     {
@@ -2494,6 +2589,7 @@
         "youtube": "https://youtube.com/@AlexEubank"
       },
       "warning": null,
+      "takeaway": "Document your full day of eating alongside training — food transparency builds trust as much as workouts do.",
       "score": 59
     },
     {
@@ -2520,6 +2616,7 @@
         "youtube": "https://youtube.com/@JesseJamesWest"
       },
       "warning": null,
+      "takeaway": "Collaborate with other creators and athletes on camera — shared audiences grow faster than solo content.",
       "score": 59
     },
     {
@@ -2545,6 +2642,7 @@
         "instagram": "https://www.instagram.com/spraguerrrr/"
       },
       "warning": null,
+      "takeaway": "Let results speak first — reach and recognition can catch up to real achievement later.",
       "score": 59
     },
     {
@@ -2570,6 +2668,7 @@
         "instagram": "https://www.instagram.com/noahohlsen/"
       },
       "warning": null,
+      "takeaway": "Show up every year without fail — durability earns respect that single peak performances don't.",
       "score": 59
     },
     {
@@ -2593,6 +2692,7 @@
       "website": null,
       "handles": {},
       "warning": null,
+      "takeaway": "Demonstrate one extreme, verifiable strength feat — a single striking clip can carry a whole discipline.",
       "score": 59
     }
   ],
@@ -2619,6 +2719,7 @@
         "instagram": "https://instagram.com/markwahlberg"
       },
       "warning": null,
+      "takeaway": "Back a highly visible routine, like an early wake-up habit, with real business investment, not just talk.",
       "score": 59
     },
     {
@@ -2643,6 +2744,7 @@
         "youtube": "https://youtube.com/@FraserWilson"
       },
       "warning": null,
+      "takeaway": "Make workout videos short and equipment-free — brevity spreads further than long-form content.",
       "score": 59
     },
     {
@@ -2668,6 +2770,7 @@
         "youtube": "https://youtube.com/@AlanThrall"
       },
       "warning": null,
+      "takeaway": "Bridge old-school gym coaching with modern video breakdowns of barbell technique.",
       "score": 59
     },
     {
@@ -2693,6 +2796,7 @@
         "x": "https://x.com/bryan_johnson"
       },
       "warning": null,
+      "takeaway": "Track and publish your own detailed biomarker data — transparency about your own body drives interest.",
       "score": 59
     },
     {
@@ -2718,6 +2822,7 @@
         "youtube": "https://youtube.com/@hannaoeberg"
       },
       "warning": null,
+      "takeaway": "Turn nutrition advice and a following into your own training app, not just sponsored content.",
       "score": 59
     },
     {
@@ -2743,6 +2848,7 @@
         "youtube": "https://youtube.com/@RobinGallant"
       },
       "warning": null,
+      "takeaway": "Explain the actual muscle mechanics behind an exercise instead of just demonstrating it.",
       "score": 59
     },
     {
@@ -2767,6 +2873,7 @@
         "instagram": "https://www.instagram.com/aimee_cringle/"
       },
       "warning": null,
+      "takeaway": "Trust a slow multi-year rise — years of incremental progress can still end in a title.",
       "score": 58
     },
     {
@@ -2792,6 +2899,7 @@
         "youtube": "https://youtube.com/@EmiWong"
       },
       "warning": null,
+      "takeaway": "Create content in more than one language to reach markets other creators overlook.",
       "score": 58
     },
     {
@@ -2816,6 +2924,7 @@
         "instagram": "https://instagram.com/urs_kalecinski"
       },
       "warning": null,
+      "takeaway": "Step into the gap left by a retiring champion — there is room for a new face in every category.",
       "score": 57
     },
     {
@@ -2838,6 +2947,7 @@
       "website": null,
       "handles": {},
       "warning": null,
+      "takeaway": "Pair a genuine competitive record with coaching and a podcast to shape how your sport is discussed.",
       "score": 57
     },
     {
@@ -2862,6 +2972,7 @@
         "instagram": "https://instagram.com/ameliaboone"
       },
       "warning": null,
+      "takeaway": "Use your platform to advocate publicly for underrepresented groups in your sport, not just compete.",
       "score": 57
     },
     {
@@ -2886,6 +2997,7 @@
         "instagram": "https://instagram.com/tracyandersonmethod"
       },
       "warning": null,
+      "takeaway": "Name your own training method and build both a studio and a streaming product around it.",
       "score": 57
     },
     {
@@ -2912,6 +3024,7 @@
         "podcast": "FoundMyFitness"
       },
       "warning": null,
+      "takeaway": "Go deep on technical detail — accuracy earns trust from experts and mainstream audiences at once.",
       "score": 57
     },
     {
@@ -2937,6 +3050,7 @@
         "tiktok": "https://tiktok.com/@sommerray"
       },
       "warning": null,
+      "takeaway": "A focused early niche can carry your reach even after your content broadens later.",
       "score": 57
     },
     {
@@ -2961,6 +3075,7 @@
         "instagram": "https://instagram.com/senada.greca"
       },
       "warning": null,
+      "takeaway": "Post real gym-training content, not just posed shots — it helps make strength training mainstream.",
       "score": 57
     },
     {
@@ -2985,6 +3100,7 @@
         "instagram": "https://instagram.com/alexia_clark"
       },
       "warning": null,
+      "takeaway": "Design a repeatable workout-clip format simple enough that others end up copying it.",
       "score": 57
     },
     {
@@ -3009,6 +3125,7 @@
         "instagram": "https://www.instagram.com/kristieramo/"
       },
       "warning": null,
+      "takeaway": "Translate elite competition experience into training advice an everyday lifter can actually use.",
       "score": 56
     },
     {
@@ -3033,6 +3150,7 @@
         "instagram": "https://www.instagram.com/lauren_e_weeks/"
       },
       "warning": null,
+      "takeaway": "Set the technical benchmark in a growing sport early — being first-best compounds as the sport grows.",
       "score": 56
     },
     {
@@ -3055,6 +3173,7 @@
       "website": null,
       "handles": {},
       "warning": null,
+      "takeaway": "Earn credibility through actual competitive results in your discipline before building a coaching brand.",
       "score": 56
     },
     {
@@ -3079,6 +3198,7 @@
         "instagram": "https://instagram.com/frankmedranooff"
       },
       "warning": null,
+      "takeaway": "Launching a movement matters, but staying consistent afterward is what keeps you relevant.",
       "score": 56
     },
     {
@@ -3103,6 +3223,7 @@
         "instagram": "https://instagram.com/magnuslygdback"
       },
       "warning": null,
+      "takeaway": "Package a celebrity-training methodology into a named system and an app anyone can access.",
       "score": 56
     },
     {
@@ -3127,6 +3248,7 @@
         "instagram": "https://instagram.com/shauntfit"
       },
       "warning": null,
+      "takeaway": "Don't let your reach depend entirely on one platform or distributor's success.",
       "score": 56
     },
     {
@@ -3151,6 +3273,7 @@
         "instagram": "https://instagram.com/gunnarfitness"
       },
       "warning": null,
+      "takeaway": "Elite client results and media presence can build a career even without a huge personal following.",
       "score": 56
     },
     {
@@ -3175,6 +3298,7 @@
         "instagram": "https://instagram.com/deniseaustin"
       },
       "warning": null,
+      "takeaway": "Stay active in your field for decades — foundational figures earn respect long after the trend passes.",
       "score": 56
     },
     {
@@ -3200,6 +3324,7 @@
         "tiktok": "https://tiktok.com/@daisykeech"
       },
       "warning": null,
+      "takeaway": "Convert a viral training trend into a lasting app business before the trend fades.",
       "score": 56
     },
     {
@@ -3224,6 +3349,7 @@
         "instagram": "https://instagram.com/jenselter"
       },
       "warning": null,
+      "takeaway": "Move early into a new content format — being first in a genre outlasts being biggest later.",
       "score": 56
     },
     {
@@ -3249,6 +3375,7 @@
         "youtube": "https://youtube.com/@lexx.little"
       },
       "warning": null,
+      "takeaway": "Post your real training numbers, not just transformation photos — verifiable data builds more respect.",
       "score": 55
     },
     {
@@ -3273,6 +3400,7 @@
         "instagram": "https://www.instagram.com/emma.lawson_5/"
       },
       "warning": null,
+      "takeaway": "Let people follow your rise in real time — a growing story is as compelling as a finished one.",
       "score": 55
     },
     {
@@ -3297,6 +3425,7 @@
         "instagram": "https://instagram.com/coachdanjohn"
       },
       "warning": null,
+      "takeaway": "Aim to influence how other coaches teach, not just how many people follow you directly.",
       "score": 55
     },
     {
@@ -3321,6 +3450,7 @@
         "instagram": "https://instagram.com/stuartmmcgill"
       },
       "warning": null,
+      "takeaway": "Build credibility through citations and research, not social reach — the right audience will still find you.",
       "score": 55
     },
     {
@@ -3346,6 +3476,7 @@
         "youtube": "https://youtube.com/@LINNLOWES01"
       },
       "warning": null,
+      "takeaway": "Sell structured programming through an app partnership instead of building distribution from scratch.",
       "score": 55
     },
     {
@@ -3370,6 +3501,7 @@
         "instagram": "https://instagram.com/noeldeyzel_bodybuilder"
       },
       "warning": null,
+      "takeaway": "Physical novelty alone can grow a following fast, but a real competitive record adds durability.",
       "score": 54
     },
     {
@@ -3394,6 +3526,7 @@
         "instagram": "https://www.instagram.com/dallinpepper/"
       },
       "warning": null,
+      "takeaway": "Being close to winning repeatedly can build as much attention as actually winning.",
       "score": 54
     },
     {
@@ -3418,6 +3551,7 @@
         "instagram": "https://instagram.com/colinobrady"
       },
       "warning": null,
+      "takeaway": "Turn a verified world record into a speaking and media platform, not a one-time headline.",
       "score": 54
     },
     {
@@ -3442,6 +3576,7 @@
         "instagram": "https://instagram.com/kimfrench87"
       },
       "warning": null,
+      "takeaway": "Document your own transformation story honestly — it can become the foundation for an app or brand.",
       "score": 54
     },
     {
@@ -3466,6 +3601,7 @@
         "instagram": "https://instagram.com/liverking"
       },
       "warning": "Publicly admitted in December 2022 to extensive steroid use after previously denying it for years while marketing an all-natural 'ancestral' persona; faced consumer lawsuits over the deception.",
+      "takeaway": "Tell the truth about what's actually behind your results — deception catches up and destroys trust fast.",
       "score": 54
     },
     {
@@ -3490,6 +3626,7 @@
         "instagram": "https://www.instagram.com/daniellenicolebrandon/"
       },
       "warning": null,
+      "takeaway": "Showcase your most explosive, viral-friendly skill clips — standout moments travel further than full workouts.",
       "score": 53
     },
     {
@@ -3514,6 +3651,7 @@
         "instagram": "https://www.instagram.com/chandlersmith__/"
       },
       "warning": null,
+      "takeaway": "Share your raw strength numbers — impressive lifts travel to audiences outside your home sport.",
       "score": 53
     },
     {
@@ -3538,6 +3676,7 @@
         "instagram": "https://instagram.com/sylvesterstallone"
       },
       "warning": null,
+      "takeaway": "Keep training visibly into old age — it shows strength training as a lifelong habit, not a young person's game.",
       "score": 53
     },
     {
@@ -3562,6 +3701,7 @@
         "instagram": "https://www.instagram.com/mjac0by/"
       },
       "warning": null,
+      "takeaway": "A single breakout title can help legitimize an entire circuit — win publicly and the sport rises with you.",
       "score": 52
     },
     {
@@ -3584,6 +3724,7 @@
       "website": null,
       "handles": {},
       "warning": null,
+      "takeaway": "Stay a regular, visible presence in your local scene — steady contribution grows a discipline over time.",
       "score": 52
     },
     {
@@ -3608,6 +3749,7 @@
         "instagram": "https://instagram.com/regangrimes"
       },
       "warning": null,
+      "takeaway": "Be the consistent top-tier finisher year after year — reliability at the highest level builds its own following.",
       "score": 51
     },
     {
@@ -3632,6 +3774,7 @@
         "instagram": "https://instagram.com/austindunham"
       },
       "warning": null,
+      "takeaway": "Tell your progressive-overload transformation as a story, not just a set of numbers.",
       "score": 51
     },
     {
@@ -3656,6 +3799,7 @@
         "youtube": "https://youtube.com/@kofuzi"
       },
       "warning": null,
+      "takeaway": "Stay in your niche and keep showing up — a smaller, loyal following beats a big, disengaged one.",
       "score": 50
     },
     {
@@ -3680,6 +3824,7 @@
         "youtube": "https://youtube.com/@thegingerrunner"
       },
       "warning": null,
+      "takeaway": "Cover a niche sport on video years before it goes mainstream — early coverage compounds later.",
       "score": 49
     },
     {
@@ -3702,6 +3847,7 @@
       "website": null,
       "handles": {},
       "warning": null,
+      "takeaway": "Blend your competitive results with genuine storytelling — narrative makes racing content stick.",
       "score": 46
     },
     {
@@ -3726,6 +3872,7 @@
         "instagram": "https://instagram.com/jesseitzler"
       },
       "warning": null,
+      "takeaway": "Build an actual event business around your mindset content, not just motivational posts.",
       "score": 45
     }
   ]

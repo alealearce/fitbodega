@@ -6,12 +6,22 @@
     "country": "UK",
     "who": "Registered Dietitian (HCPC), clinical and performance nutrition specialist; dietitian for GB Olympic (2012), Paralympic (2016) and Commonwealth Games (2018) teams.",
     "why": "Leading global voice on RED-S and the female athlete; bestselling author (Training Food, Fast Fuel, Orthorexia) bridging endurance performance and eating-disorder care.",
-    "factors": { "credibility": 80, "practice": 85, "content": 75, "reach": 45, "impact": 70, "consistency": 80 },
+    "factors": {
+      "credibility": 80,
+      "practice": 85,
+      "content": 75,
+      "reach": 45,
+      "impact": 70,
+      "consistency": 80
+    },
     "reach": "IG approx. 60-90K (not verified live)",
     "reachVerified": false,
     "website": "https://reneemcgregor.com",
-    "handles": { "instagram": "https://instagram.com/reneemcgregor" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/reneemcgregor"
+    },
+    "warning": null,
+    "takeaway": "Fuel your training adequately rather than under-eating, especially in endurance or aesthetic-focused sport."
   },
   {
     "name": "Marie Spano",
@@ -20,12 +30,22 @@
     "country": "US",
     "who": "MS, RD, CSCS, CSSD; sports dietitian for the Washington Nationals and Atlanta Hawks, previously the Atlanta Braves (2017-2022, World Series champions 2021) and Atlanta Falcons.",
     "why": "One of the most tenured active pro-team dietitians in the US, spanning MLB, NBA and NFL; lead author of the textbook Nutrition for Sport, Exercise and Health.",
-    "factors": { "credibility": 78, "practice": 92, "content": 70, "reach": 45, "impact": 65, "consistency": 85 },
+    "factors": {
+      "credibility": 78,
+      "practice": 92,
+      "content": 70,
+      "reach": 45,
+      "impact": 65,
+      "consistency": 85
+    },
     "reach": "IG approx. 40-60K (not verified live)",
     "reachVerified": false,
     "website": "https://www.mariespano.com",
-    "handles": { "instagram": "https://instagram.com/mariespano" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/mariespano"
+    },
+    "warning": null,
+    "takeaway": "Treat sport-specific fueling as a coached skill tailored to your sport, not a generic diet plan."
   },
   {
     "name": "Nancy Clark",
@@ -34,12 +54,20 @@
     "country": "US",
     "who": "MS, RD, CSSD; private sports-nutrition practice near Boston since the 1980s.",
     "why": "Author of Nancy Clark's Sports Nutrition Guidebook, one of the field's most widely used reference texts across multiple editions; trained a generation of sports RDs.",
-    "factors": { "credibility": 78, "practice": 70, "content": 85, "reach": 30, "impact": 82, "consistency": 90 },
+    "factors": {
+      "credibility": 78,
+      "practice": 70,
+      "content": 85,
+      "reach": 30,
+      "impact": 82,
+      "consistency": 90
+    },
     "reach": "Niche/legacy reach, no major social platform (not verified live)",
     "reachVerified": false,
     "website": "https://www.nancyclarkrd.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Match your everyday eating pattern to your training schedule using a proven sports-nutrition reference."
   },
   {
     "name": "Louise Burke",
@@ -48,12 +76,20 @@
     "country": "Australia",
     "who": "PhD, APD; Professor and Chair in Sports Nutrition, Mary MacKillop Institute, Australian Catholic University; 30 years as Head of Sports Nutrition / Chief of Nutrition Strategy at the Australian Institute of Sport.",
     "why": "Australian Olympic team dietitian across five Games (1996-2012); 350+ peer-reviewed papers, editor of the International Journal of Sport Nutrition and Exercise Metabolism; awarded the Order of Australia for her contribution to sports nutrition.",
-    "factors": { "credibility": 97, "practice": 90, "content": 80, "reach": 35, "impact": 92, "consistency": 90 },
+    "factors": {
+      "credibility": 97,
+      "practice": 90,
+      "content": 80,
+      "reach": 35,
+      "impact": 92,
+      "consistency": 90
+    },
     "reach": "Academic/professional reach, not a personal-brand social presence (verified via search 2026-08)",
     "reachVerified": false,
     "website": "https://www.acu.edu.au/research-and-enterprise/our-research-institutes/mary-mackillop-institute-for-health-research/our-people/louise-burke",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Periodize your fueling like your training — carbs are a training variable, not a moral one."
   },
   {
     "name": "Asker Jeukendrup",
@@ -62,12 +98,22 @@
     "country": "Netherlands",
     "who": "PhD; Director of Mysportscience Ltd, an independent sports-science and nutrition consultancy; 30 years as researcher, educator and practitioner, including a period leading Gatorade Sports Science Institute research.",
     "why": "His carbohydrate-oxidation and multiple-transportable-carbohydrate research reshaped modern endurance fueling protocols now standard across pro cycling and running.",
-    "factors": { "credibility": 88, "practice": 70, "content": 78, "reach": 45, "impact": 80, "consistency": 85 },
+    "factors": {
+      "credibility": 88,
+      "practice": 70,
+      "content": 78,
+      "reach": 45,
+      "impact": 80,
+      "consistency": 85
+    },
     "reach": "Newsletter/podcast audience, IG approx. mid-tens of thousands (verified business/role via site fetch 2026-08, reach not verified)",
     "reachVerified": false,
     "website": "https://mysportscience.com",
-    "handles": { "podcast": "Mysportscience" },
-    "warning": null
+    "handles": {
+      "podcast": "Mysportscience"
+    },
+    "warning": null,
+    "takeaway": "Mix multiple carbohydrate sources during long efforts to raise how much fuel your gut absorbs."
   },
   {
     "name": "Trent Stellingwerff",
@@ -76,12 +122,20 @@
     "country": "Canada",
     "who": "PhD; sport physiologist/nutrition lead at the Canadian Sport Institute Pacific, supporting Team Canada Olympic and world-championship athletes.",
     "why": "Applied \"mission nutrition\" performance frameworks used across Canadian high-performance sport; active researcher-practitioner bridging lab science and Games-time fueling.",
-    "factors": { "credibility": 82, "practice": 78, "content": 55, "reach": 30, "impact": 65, "consistency": 70 },
+    "factors": {
+      "credibility": 82,
+      "practice": 78,
+      "content": 55,
+      "reach": 30,
+      "impact": 65,
+      "consistency": 70
+    },
     "reach": "Primarily professional/academic audience (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Plan fueling around the specific demands of competition day, not just your daily training."
   },
   {
     "name": "James Collins",
@@ -90,12 +144,20 @@
     "country": "UK",
     "who": "SENr-registered performance nutritionist; founder of Performance Nutrition, longtime nutrition consultant to Arsenal FC and England Rugby.",
     "why": "One of the most established practitioner names in elite UK football and rugby nutrition, with a multi-decade consultancy client list of pro clubs and national teams.",
-    "factors": { "credibility": 65, "practice": 88, "content": 55, "reach": 30, "impact": 55, "consistency": 70 },
+    "factors": {
+      "credibility": 65,
+      "practice": 88,
+      "content": 55,
+      "reach": 30,
+      "impact": 55,
+      "consistency": 70
+    },
     "reach": "Primarily B2B/club-facing, limited public social presence (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Coordinate what you eat with your training load, as part of a team performance plan."
   },
   {
     "name": "Graeme Close",
@@ -104,12 +166,20 @@
     "country": "UK",
     "who": "PhD; Professor of Human Physiology, Liverpool John Moores University; nutrition consultant to England Rugby and the PGA European Tour.",
     "why": "Bridges academic research on vitamin D, protein and player welfare with hands-on consultancy for elite rugby and golf, frequently cited in UK sports-science media.",
-    "factors": { "credibility": 85, "practice": 80, "content": 65, "reach": 35, "impact": 68, "consistency": 72 },
+    "factors": {
+      "credibility": 85,
+      "practice": 80,
+      "content": 65,
+      "reach": 35,
+      "impact": 68,
+      "consistency": 72
+    },
     "reach": "Academic/media reach, not a personal social brand (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat vitamin D and protein status as routine athlete care, not an afterthought."
   },
   {
     "name": "Meghann Featherstun",
@@ -118,12 +188,22 @@
     "country": "US",
     "who": "RD, CSSD, known as \"The Marathon Nutritionist\"; runs a private practice and online coaching for runners at Featherstun Nutrition.",
     "why": "Built one of the largest audiences in run-specific fueling education, translating clinical sports-nutrition guidance into practical marathon and half-marathon fueling content.",
-    "factors": { "credibility": 60, "practice": 60, "content": 85, "reach": 60, "impact": 55, "consistency": 55 },
+    "factors": {
+      "credibility": 60,
+      "practice": 60,
+      "content": 85,
+      "reach": 60,
+      "impact": 55,
+      "consistency": 55
+    },
     "reach": "IG approx. 400-600K (handle confirmed live 2026-08, follower count not verified)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/marathonnutritionist" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/marathonnutritionist"
+    },
+    "warning": null,
+    "takeaway": "Practice your race-day fueling plan in training long before the actual marathon or half."
   },
   {
     "name": "Kylee Van Horn",
@@ -132,12 +212,20 @@
     "country": "US",
     "who": "RD specializing in trail and ultrarunning nutrition; works one-on-one with professional trail and ultra athletes.",
     "why": "One of the few dietitians with a dedicated ultra-endurance/trail-running client base, filling a gap most sports-nutrition figures don't cover.",
-    "factors": { "credibility": 55, "practice": 60, "content": 60, "reach": 40, "impact": 45, "consistency": 50 },
+    "factors": {
+      "credibility": 55,
+      "practice": 60,
+      "content": 60,
+      "reach": 40,
+      "impact": 45,
+      "consistency": 50
+    },
     "reach": "IG approx. 30-60K (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Get fueling advice specific to your event distance and terrain — ultra-endurance needs differ from shorter races."
   },
   {
     "name": "Stephanie Howe",
@@ -146,12 +234,20 @@
     "country": "US",
     "who": "PhD in Nutrition and Exercise Physiology, RD; former elite ultrarunner (Western States 100 champion) now consulting with endurance athletes.",
     "why": "Rare combination of doctoral research training, RD credential and elite athletic pedigree, giving her fueling guidance unusual credibility in the ultra-endurance space.",
-    "factors": { "credibility": 75, "practice": 55, "content": 60, "reach": 40, "impact": 50, "consistency": 60 },
+    "factors": {
+      "credibility": 75,
+      "practice": 55,
+      "content": 60,
+      "reach": 40,
+      "impact": 50,
+      "consistency": 60
+    },
     "reach": "IG approx. 20-40K (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat fueling as trainable — practice eating and drinking under effort the way you practice running."
   },
   {
     "name": "Alex Larson",
@@ -160,12 +256,20 @@
     "country": "US",
     "who": "RD, CSSD; founder of Fuel2Run, a practice coaching endurance runners on fueling and RED-S prevention.",
     "why": "Consistent, practical endurance-runner-focused education and coaching, filling the day-to-day fueling advice gap for recreational-to-competitive runners.",
-    "factors": { "credibility": 55, "practice": 60, "content": 55, "reach": 35, "impact": 40, "consistency": 55 },
+    "factors": {
+      "credibility": 55,
+      "practice": 60,
+      "content": 55,
+      "reach": 35,
+      "impact": 40,
+      "consistency": 55
+    },
     "reach": "IG approx. 15-30K (not verified live)",
     "reachVerified": false,
     "website": "https://www.fuel2run.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Get individualized fueling coaching as a runner to avoid under-fueling and RED-S risk."
   },
   {
     "name": "Jose Antonio",
@@ -174,12 +278,20 @@
     "country": "US",
     "who": "PhD; co-founder and CEO of the International Society of Sports Nutrition (ISSN), professor at Nova Southeastern University.",
     "why": "Runs the field's leading professional/research society and its position stands on protein and supplementation, shaping how sports-nutrition guidelines are written and cited worldwide.",
-    "factors": { "credibility": 85, "practice": 50, "content": 70, "reach": 35, "impact": 78, "consistency": 85 },
+    "factors": {
+      "credibility": 85,
+      "practice": 50,
+      "content": 70,
+      "reach": 35,
+      "impact": 78,
+      "consistency": 85
+    },
     "reach": "Academic/conference reach (not verified live)",
     "reachVerified": false,
     "website": "https://issn.net",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Base supplement and protein choices on sports-nutrition society position stands, not marketing."
   },
   {
     "name": "Susan Kleiner",
@@ -188,12 +300,20 @@
     "country": "US",
     "who": "PhD, RD, FACN, CNS; consults with professional and Olympic athletes and strength/physique competitors.",
     "why": "Author of Power Eating, a foundational strength-and-physique sports-nutrition text now in multiple editions, with decades of continuous elite-athlete consulting.",
-    "factors": { "credibility": 80, "practice": 75, "content": 75, "reach": 40, "impact": 65, "consistency": 82 },
+    "factors": {
+      "credibility": 80,
+      "practice": 75,
+      "content": 75,
+      "reach": 40,
+      "impact": 65,
+      "consistency": 82
+    },
     "reach": "IG approx. 20-40K (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Structure your protein intake and timing around training sessions if your goal is strength or physique."
   },
   {
     "name": "Bob Seebohar",
@@ -202,12 +322,20 @@
     "country": "US",
     "who": "MS, RD, CSSD, CSCS; sports dietitian for USA Triathlon across multiple Olympic cycles, founder of Fuel4mance.",
     "why": "Longtime Olympic-team practitioner known for periodized/metabolic-efficiency fueling approaches adopted across endurance coaching.",
-    "factors": { "credibility": 68, "practice": 78, "content": 55, "reach": 30, "impact": 55, "consistency": 68 },
+    "factors": {
+      "credibility": 68,
+      "practice": 78,
+      "content": 55,
+      "reach": 30,
+      "impact": 55,
+      "consistency": 68
+    },
     "reach": "Primarily professional-facing (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Periodize your carbohydrate intake across the season, not just race day, to build flexibility."
   },
   {
     "name": "Dan Benardot",
@@ -216,12 +344,20 @@
     "country": "US",
     "who": "PhD, RD; professor emeritus, Georgia State University; nutrition consultant to US Olympic gymnastics and figure-skating programs.",
     "why": "Academic authority on energy availability and micro-periodized eating for aesthetic/weight-sensitive sports, author of the textbook Advanced Sports Nutrition.",
-    "factors": { "credibility": 82, "practice": 70, "content": 60, "reach": 25, "impact": 62, "consistency": 75 },
+    "factors": {
+      "credibility": 82,
+      "practice": 70,
+      "content": 60,
+      "reach": 25,
+      "impact": 62,
+      "consistency": 75
+    },
     "reach": "Academic reach, no notable social platform (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Spread your energy intake evenly across the day rather than swinging between under- and over-eating."
   },
   {
     "name": "Alan McCubbin",
@@ -230,12 +366,20 @@
     "country": "Australia",
     "who": "PhD; senior lecturer at Monash University and Sports Dietitians Australia member, consulting with elite triathletes and endurance athletes.",
     "why": "Active gut-training and carbohydrate-fueling researcher whose work informs current endurance-nutrition practice guidelines in Australia and beyond.",
-    "factors": { "credibility": 72, "practice": 65, "content": 55, "reach": 25, "impact": 55, "consistency": 55 },
+    "factors": {
+      "credibility": 72,
+      "practice": 65,
+      "content": 55,
+      "reach": 25,
+      "impact": 55,
+      "consistency": 55
+    },
     "reach": "Academic/professional reach (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Train your gut to tolerate more carbohydrate during exercise gradually, the same way you train muscle."
   },
   {
     "name": "Amy Goodson",
@@ -244,12 +388,20 @@
     "country": "US",
     "who": "MS, RD, CSSD; sports dietitian for the Dallas Cowboys and multiple pro and college athletic programs.",
     "why": "One of the more visible NFL team dietitians in US sports media, regularly quoted on pro-athlete fueling and recovery nutrition.",
-    "factors": { "credibility": 60, "practice": 82, "content": 60, "reach": 35, "impact": 50, "consistency": 65 },
+    "factors": {
+      "credibility": 60,
+      "practice": 82,
+      "content": 60,
+      "reach": 35,
+      "impact": 50,
+      "consistency": 65
+    },
     "reach": "IG approx. 15-30K (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Prioritize a recovery meal or snack soon after hard training, as pro-team athletes are coached to."
   },
   {
     "name": "Chris Rosenbloom",
@@ -258,11 +410,19 @@
     "country": "US",
     "who": "PhD, RDN, CSSD; professor emerita, Georgia State University; nutrition consultant to the Atlanta Ballet and collegiate athletes.",
     "why": "Widely cited sports-nutrition textbook co-author and educator who helped formalize sports RD training programs in the US.",
-    "factors": { "credibility": 78, "practice": 65, "content": 65, "reach": 25, "impact": 55, "consistency": 78 },
+    "factors": {
+      "credibility": 78,
+      "practice": 65,
+      "content": 65,
+      "reach": 25,
+      "impact": 55,
+      "consistency": 78
+    },
     "reach": "Academic reach, no notable social platform (not verified live)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Learn the fundamentals of sports fueling from a textbook-level source before trusting quick tips."
   }
 ]

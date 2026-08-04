@@ -6,12 +6,22 @@
     "country": "GB",
     "who": "247 Gym head coach and Red Bull athlete; Men's Doubles World Champion 2024, Elite 15 regular with a 49:07 PB at EMEA London 2026.",
     "why": "Follow him for polished high-performance training content and race breakdowns from someone who still races Elite 15 himself.",
-    "factors": { "results": 85, "reach": 60, "content": 80, "momentum": 80, "crossover": 80, "longevity": 60 },
+    "factors": {
+      "results": 85,
+      "reach": 60,
+      "content": 80,
+      "momentum": 80,
+      "crossover": 80,
+      "longevity": 60
+    },
     "reach": "IG 681K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/jakedearden_/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/jakedearden_/"
+    },
+    "warning": null,
+    "takeaway": "Keep racing yourself even after you start coaching — it keeps your advice honest."
   },
   {
     "name": "Rich Ryan",
@@ -20,12 +30,23 @@
     "country": "US",
     "who": "Founder of Reinforced Running; Elite 15 racer who ran 53:57 in Phoenix and is heading to the Stockholm World Championships.",
     "why": "His breakdowns of running strategy inside a Hyrox race are some of the most concretely useful coaching content in the sport.",
-    "factors": { "results": 70, "reach": 45, "content": 80, "momentum": 70, "crossover": 60, "longevity": 55 },
+    "factors": {
+      "results": 70,
+      "reach": 45,
+      "content": 80,
+      "momentum": 70,
+      "crossover": 60,
+      "longevity": 55
+    },
     "reach": "IG 26K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.rmr.training/",
-    "handles": { "instagram": "https://www.instagram.com/richryan610/", "youtube": "https://www.youtube.com/channel/UCmoN1fJNlC-zTWqTF7LdpmQ" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/richryan610/",
+      "youtube": "https://www.youtube.com/channel/UCmoN1fJNlC-zTWqTF7LdpmQ"
+    },
+    "warning": null,
+    "takeaway": "Work on your running strategy inside the race itself, not just station strength."
   },
   {
     "name": "Robert James",
@@ -34,12 +55,22 @@
     "country": "GB",
     "who": "Official Hyrox Ambassador and coach behind the Sub-60 program, built on science-backed pacing plans.",
     "why": "Go to him for a structured, data-driven path to breaking sub-60, not just motivation.",
-    "factors": { "results": 35, "reach": 50, "content": 65, "momentum": 55, "crossover": 50, "longevity": 55 },
+    "factors": {
+      "results": 35,
+      "reach": 50,
+      "content": 65,
+      "momentum": 55,
+      "crossover": 50,
+      "longevity": 55
+    },
     "reach": "IG 33K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/r.jamescoaching/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/r.jamescoaching/"
+    },
+    "warning": null,
+    "takeaway": "Follow a structured, science-backed pacing plan toward a specific time goal instead of guessing splits."
   },
   {
     "name": "Lukas Storath",
@@ -48,12 +79,22 @@
     "country": "DE",
     "who": "The first Hyrox World Champion; now CEO and founder of Athletic Camps, running online Hyrox coaching.",
     "why": "One of the few voices who can talk about the sport's early days and its current programming with equal authority.",
-    "factors": { "results": 70, "reach": 50, "content": 65, "momentum": 50, "crossover": 50, "longevity": 85 },
+    "factors": {
+      "results": 70,
+      "reach": 50,
+      "content": 65,
+      "momentum": 50,
+      "crossover": 50,
+      "longevity": 85
+    },
     "reach": "IG 28K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/lukefithyrox/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/lukefithyrox/"
+    },
+    "warning": null,
+    "takeaway": "Study the sport's early history to understand why current training methods evolved this way."
   },
   {
     "name": "Quentin Pingliez",
@@ -62,12 +103,22 @@
     "country": "FR",
     "who": "French coach who says he took the Mixed World and EU overall title in 2025; posts as @coach_pgz.",
     "why": "A rising French voice mixing his own recent results with day-to-day coaching content.",
-    "factors": { "results": 65, "reach": 45, "content": 60, "momentum": 75, "crossover": 50, "longevity": 45 },
+    "factors": {
+      "results": 65,
+      "reach": 45,
+      "content": 60,
+      "momentum": 75,
+      "crossover": 50,
+      "longevity": 45
+    },
     "reach": "IG 21K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/coach_pgz/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/coach_pgz/"
+    },
+    "warning": null,
+    "takeaway": "Share your own current race results alongside your coaching content so advice stays grounded."
   },
   {
     "name": "Tiago Lousa",
@@ -76,12 +127,22 @@
     "country": "PT",
     "who": "Portuguese Hyrox coach with 58 races and 55 podiums logged; runs coaching under TheLousaWay.",
     "why": "Few coaches have that much race volume to draw lessons from, and he shares it openly.",
-    "factors": { "results": 55, "reach": 50, "content": 60, "momentum": 60, "crossover": 50, "longevity": 65 },
+    "factors": {
+      "results": 55,
+      "reach": 50,
+      "content": 60,
+      "momentum": 60,
+      "crossover": 50,
+      "longevity": 65
+    },
     "reach": "IG 29K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/thelousaway/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/thelousaway/"
+    },
+    "warning": null,
+    "takeaway": "Rack up race volume deliberately — dozens of starts teach patterns a few races never will."
   },
   {
     "name": "Jade Skillen",
@@ -90,12 +151,22 @@
     "country": "GB",
     "who": "Hyrox performance coach sponsored by Puma and Mira Fit, the most-followed Hyrox coach on this list.",
     "why": "Consistent, brand-backed training content aimed at everyday racers, not just the elite field.",
-    "factors": { "results": 30, "reach": 60, "content": 75, "momentum": 70, "crossover": 65, "longevity": 50 },
+    "factors": {
+      "results": 30,
+      "reach": 60,
+      "content": 75,
+      "momentum": 70,
+      "crossover": 65,
+      "longevity": 50
+    },
     "reach": "IG 121K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/jade_skillen/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/jade_skillen/"
+    },
+    "warning": null,
+    "takeaway": "Follow programming aimed at everyday racers, not just the elite field, if that's your level."
   },
   {
     "name": "Greg Williams",
@@ -104,12 +175,20 @@
     "country": "US",
     "who": "Hyrox livestream co-commentator and host of Rox Lyfe, the weekly Hyrox podcast interviewing top athletes and coaches.",
     "why": "The closest thing the sport has to a reference show — deep athlete interviews every week.",
-    "factors": { "results": 25, "reach": 35, "content": 85, "momentum": 70, "crossover": 55, "longevity": 60 },
+    "factors": {
+      "results": 25,
+      "reach": 35,
+      "content": 85,
+      "momentum": 70,
+      "crossover": 55,
+      "longevity": 60
+    },
     "reach": "IG count not found; weekly podcast across Spotify/Apple/Amazon (approx 2026)",
     "reachVerified": false,
     "website": "https://roxlyfe.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Listen to in-depth athlete interviews weekly to learn training philosophy straight from top performers."
   },
   {
     "name": "Till Schenk",
@@ -118,12 +197,22 @@
     "country": "DE",
     "who": "Hyrox livestream co-commentator and Global Event Emcee/TV host for Hyrox and Eurosport, based in Munich; former 14-season Ironman athlete.",
     "why": "His race-day commentary is the voice most fans associate with the sport's biggest broadcasts.",
-    "factors": { "results": 25, "reach": 35, "content": 80, "momentum": 70, "crossover": 75, "longevity": 65 },
+    "factors": {
+      "results": 25,
+      "reach": 35,
+      "content": 80,
+      "momentum": 70,
+      "crossover": 75,
+      "longevity": 65
+    },
     "reach": "IG count not found (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/tillschenklive/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/tillschenklive/"
+    },
+    "warning": null,
+    "takeaway": "Bring endurance-sport background into how you pace and think through the longer stations."
   },
   {
     "name": "Nick Bare",
@@ -132,12 +221,22 @@
     "country": "US",
     "who": "Fitness YouTuber (1.46M subscribers) whose cinematic, multi-part 'Hyrox Prep' series documented his own build toward the sport.",
     "why": "Brings a massive outside fitness/military audience into Hyrox with genuinely watchable long-form content.",
-    "factors": { "results": 35, "reach": 60, "content": 80, "momentum": 65, "crossover": 90, "longevity": 40 },
+    "factors": {
+      "results": 35,
+      "reach": 60,
+      "content": 80,
+      "momentum": 65,
+      "crossover": 90,
+      "longevity": 40
+    },
     "reach": "YouTube 1.46M subs (verified 2026-06)",
     "reachVerified": true,
     "website": null,
-    "handles": { "youtube": "https://www.youtube.com/@nickbarefitness" },
-    "warning": null
+    "handles": {
+      "youtube": "https://www.youtube.com/@nickbarefitness"
+    },
+    "warning": null,
+    "takeaway": "Document your full training build toward a race goal — filming your own prep builds accountability."
   },
   {
     "name": "Amotti",
@@ -146,12 +245,22 @@
     "country": "KR",
     "who": "Physical: 100 Season 2 winner and Team Korea member who took 2nd in the Doubles race at AIA Hyrox Singapore 2025.",
     "why": "Pulls a huge Netflix-built audience into Hyrox through upbeat training vlogs.",
-    "factors": { "results": 45, "reach": 55, "content": 65, "momentum": 65, "crossover": 85, "longevity": 30 },
+    "factors": {
+      "results": 45,
+      "reach": 55,
+      "content": 65,
+      "momentum": 65,
+      "crossover": 85,
+      "longevity": 30
+    },
     "reach": "IG follower count not independently confirmed; Physical: 100-driven following (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/amottivation/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/amottivation/"
+    },
+    "warning": null,
+    "takeaway": "Keep your training content upbeat and consistent — energy in your posts pulls in new racers."
   },
   {
     "name": "Choi Seung-yeon",
@@ -160,12 +269,22 @@
     "country": "KR",
     "who": "4x CrossFit Games athlete and Physical: Asia star who took 2nd in Doubles at Hyrox Singapore 2025 alongside Amotti.",
     "why": "Elite CrossFit credibility plus mainstream Netflix fame makes her a strong entry point for new fans.",
-    "factors": { "results": 50, "reach": 60, "content": 60, "momentum": 65, "crossover": 85, "longevity": 30 },
+    "factors": {
+      "results": 50,
+      "reach": 60,
+      "content": 60,
+      "momentum": 65,
+      "crossover": 85,
+      "longevity": 30
+    },
     "reach": "IG 166K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/seungyeon_choi_/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/seungyeon_choi_/"
+    },
+    "warning": null,
+    "takeaway": "Bring elite conditioning from another sport directly into Hyrox doubles rather than starting from scratch."
   },
   {
     "name": "Meg Martin",
@@ -174,12 +293,22 @@
     "country": "AU",
     "who": "Australian coach and founder of apparel brand M3GA; Hyrox Mixed Doubles age-group World Champion with a Women's Doubles APAC record.",
     "why": "Runs her own run clubs and coaching on top of racing, with a strong builder-not-just-athlete story.",
-    "factors": { "results": 65, "reach": 40, "content": 60, "momentum": 60, "crossover": 50, "longevity": 50 },
+    "factors": {
+      "results": 65,
+      "reach": 40,
+      "content": 60,
+      "momentum": 60,
+      "crossover": 50,
+      "longevity": 50
+    },
     "reach": "IG follower count not found (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/megsutherland/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/megsutherland/"
+    },
+    "warning": null,
+    "takeaway": "Commit to one fixed doubles partner and drill pacing together toward a target time."
   },
   {
     "name": "George Edwards",
@@ -188,12 +317,22 @@
     "country": "GB",
     "who": "Hyrox coach and athlete linked to The Hybrid Project, posting as @ge_training.",
     "why": "A smaller-following coach worth a follow for straightforward, no-frills Hyrox programming.",
-    "factors": { "results": 30, "reach": 35, "content": 55, "momentum": 45, "crossover": 50, "longevity": 40 },
+    "factors": {
+      "results": 30,
+      "reach": 35,
+      "content": 55,
+      "momentum": 45,
+      "crossover": 50,
+      "longevity": 40
+    },
     "reach": "IG 9.2K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/ge_training/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/ge_training/"
+    },
+    "warning": null,
+    "takeaway": "Keep your programming simple and no-frills rather than overcomplicating training with unnecessary variety."
   },
   {
     "name": "Delphin Kruithof Kremer",
@@ -202,12 +341,22 @@
     "country": "NL",
     "who": "Hyrox ambassador, athlete, and head coach offering triathlon, running, and Hyrox programming.",
     "why": "Worth following for programming that bridges endurance racing and Hyrox-specific training.",
-    "factors": { "results": 30, "reach": 30, "content": 55, "momentum": 45, "crossover": 50, "longevity": 40 },
+    "factors": {
+      "results": 30,
+      "reach": 30,
+      "content": 55,
+      "momentum": 45,
+      "crossover": 50,
+      "longevity": 40
+    },
     "reach": "IG 7.4K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/dphn.coach/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/dphn.coach/"
+    },
+    "warning": null,
+    "takeaway": "Bridge endurance-sport training, like triathlon or running, with Hyrox-specific work instead of treating them separately."
   },
   {
     "name": "Renaud Boutillier",
@@ -216,11 +365,21 @@
     "country": "FR",
     "who": "French Hyrox coach posting training content as @renaud.hyrox.coach.",
     "why": "A smaller French-language voice for athletes who want coaching content outside English-language channels.",
-    "factors": { "results": 30, "reach": 30, "content": 50, "momentum": 45, "crossover": 45, "longevity": 40 },
+    "factors": {
+      "results": 30,
+      "reach": 30,
+      "content": 50,
+      "momentum": 45,
+      "crossover": 45,
+      "longevity": 40
+    },
     "reach": "IG follower count not found (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/renaud.hyrox.coach/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/renaud.hyrox.coach/"
+    },
+    "warning": null,
+    "takeaway": "Create training content in your own language if it reaches racers other channels miss."
   }
 ]

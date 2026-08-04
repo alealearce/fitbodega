@@ -6,12 +6,24 @@
     "country": "DE",
     "who": "German home-workout and dance-fitness creator, one of Europe's biggest fitness YouTubers.",
     "why": "Defined the free, no-equipment home-workout genre in Europe and stayed dominant for a decade.",
-    "factors": { "reach": 80, "engagement": 45, "credibility": 40, "impact": 65, "commerce": 50, "consistency": 85 },
+    "factors": {
+      "reach": 80,
+      "engagement": 45,
+      "credibility": 40,
+      "impact": 65,
+      "commerce": 50,
+      "consistency": 85
+    },
     "reach": "IG 8.7M · YT approx 9M (verified IG 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/pamela_rf", "youtube": "https://youtube.com/@PamelaReif", "tiktok": "https://tiktok.com/@pamelareif" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/pamela_rf",
+      "youtube": "https://youtube.com/@PamelaReif",
+      "tiktok": "https://tiktok.com/@pamelareif"
+    },
+    "warning": null,
+    "takeaway": "Keep workouts free and equipment-free — remove every barrier between someone and their first rep."
   },
   {
     "name": "Kayla Itsines",
@@ -20,12 +32,24 @@
     "country": "AU",
     "who": "Australian trainer, co-founder of the Bikini Body Guide (BBG) and the Sweat app.",
     "why": "BBG and Sweat defined the at-home women's fitness-app category and built a nine-figure business.",
-    "factors": { "reach": 78, "engagement": 55, "credibility": 75, "impact": 88, "commerce": 95, "consistency": 85 },
+    "factors": {
+      "reach": 78,
+      "engagement": 55,
+      "credibility": 75,
+      "impact": 88,
+      "commerce": 95,
+      "consistency": 85
+    },
     "reach": "IG 15.4M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://kaylaitsines.com",
-    "handles": { "instagram": "https://instagram.com/kayla_itsines", "youtube": "https://youtube.com/@kaylaitsines", "podcast": "Sweat Daily with Kayla Itsines" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/kayla_itsines",
+      "youtube": "https://youtube.com/@kaylaitsines",
+      "podcast": "Sweat Daily with Kayla Itsines"
+    },
+    "warning": null,
+    "takeaway": "Package your training into a simple, repeatable program others can follow without you in the room."
   },
   {
     "name": "Cassey Ho",
@@ -34,12 +58,24 @@
     "country": "US",
     "who": "Founder of Blogilates and the POPFLEX activewear brand, pioneer of Pop Pilates.",
     "why": "One of the longest-running fitness YouTubers; built Pop Pilates into a format and POPFLEX into a real apparel brand.",
-    "factors": { "reach": 72, "engagement": 65, "credibility": 55, "impact": 75, "commerce": 75, "consistency": 90 },
+    "factors": {
+      "reach": 72,
+      "engagement": 65,
+      "credibility": 55,
+      "impact": 75,
+      "commerce": 75,
+      "consistency": 90
+    },
     "reach": "YT 11M · IG 3M · TT 3.7M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.popflex.com",
-    "handles": { "instagram": "https://instagram.com/blogilates", "youtube": "https://youtube.com/@blogilates", "tiktok": "https://tiktok.com/@blogilates" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/blogilates",
+      "youtube": "https://youtube.com/@blogilates",
+      "tiktok": "https://tiktok.com/@blogilates"
+    },
+    "warning": null,
+    "takeaway": "Turn a workout format you invented into a real brand — don't just post routines, own the category."
   },
   {
     "name": "Chloe Ting",
@@ -48,12 +84,23 @@
     "country": "SG",
     "who": "Singapore-raised, Australia-based creator behind viral workout challenges like the '2 Week Shred'.",
     "why": "Most-subscribed fitness YouTuber; her challenge-video format defined the COVID-era home-workout boom worldwide.",
-    "factors": { "reach": 95, "engagement": 75, "credibility": 35, "impact": 85, "commerce": 65, "consistency": 60 },
+    "factors": {
+      "reach": 95,
+      "engagement": 75,
+      "credibility": 35,
+      "impact": 85,
+      "commerce": 65,
+      "consistency": 60
+    },
     "reach": "YT 26.2M · IG 25M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://chloeting.com",
-    "handles": { "instagram": "https://instagram.com/chloe_ting", "youtube": "https://youtube.com/@chloeting" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/chloe_ting",
+      "youtube": "https://youtube.com/@chloeting"
+    },
+    "warning": null,
+    "takeaway": "Give people a fixed-length challenge with a clear end date — a deadline drives follow-through better than an open plan."
   },
   {
     "name": "Krissy Cela",
@@ -62,12 +109,24 @@
     "country": "GB",
     "who": "UK trainer and co-founder of the Tone & Sculpt / EvolveYou training app.",
     "why": "Built one of the UK's biggest fitness-app businesses and remains a leading voice in gym-based training for women.",
-    "factors": { "reach": 58, "engagement": 60, "credibility": 65, "impact": 60, "commerce": 75, "consistency": 75 },
+    "factors": {
+      "reach": 58,
+      "engagement": 60,
+      "credibility": 65,
+      "impact": 60,
+      "commerce": 75,
+      "consistency": 75
+    },
     "reach": "IG 3M plus large app user base (verified IG 2026-08)",
     "reachVerified": true,
     "website": "https://tonesculptapp.com",
-    "handles": { "instagram": "https://instagram.com/krissycela", "youtube": "https://youtube.com/@krissycela", "tiktok": "https://tiktok.com/@krissycela" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/krissycela",
+      "youtube": "https://youtube.com/@krissycela",
+      "tiktok": "https://tiktok.com/@krissycela"
+    },
+    "warning": null,
+    "takeaway": "Build a structured app around your training style — a real product outlasts a following alone."
   },
   {
     "name": "Whitney Simmons",
@@ -76,12 +135,24 @@
     "country": "US",
     "who": "US lifting and glute-training creator, equity partner in the Alphalete apparel brand.",
     "why": "Popularized the modern 'gym girlie' lifting-vlog format that a generation of lifters now copies.",
-    "factors": { "reach": 66, "engagement": 65, "credibility": 50, "impact": 65, "commerce": 70, "consistency": 80 },
+    "factors": {
+      "reach": 66,
+      "engagement": 65,
+      "credibility": 50,
+      "impact": 65,
+      "commerce": 70,
+      "consistency": 80
+    },
     "reach": "IG 4.05M · YT 2.34M · TT approx 3M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://alphaleteathletics.com",
-    "handles": { "instagram": "https://instagram.com/whitneyysimmons", "youtube": "https://youtube.com/@whitneysimmons", "tiktok": "https://tiktok.com/@whitneyysimmons" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/whitneyysimmons",
+      "youtube": "https://youtube.com/@whitneysimmons",
+      "tiktok": "https://tiktok.com/@whitneyysimmons"
+    },
+    "warning": null,
+    "takeaway": "Film your actual training honestly — a relatable, unpolished lifting vlog can become the format others copy."
   },
   {
     "name": "Natacha Oceane",
@@ -90,12 +161,23 @@
     "country": "FR",
     "who": "French physicist turned science-based fitness YouTuber, based in the UK.",
     "why": "Brings genuine scientific rigor to training and nutrition content, respected by the evidence-based fitness crowd.",
-    "factors": { "reach": 52, "engagement": 60, "credibility": 85, "impact": 60, "commerce": 40, "consistency": 75 },
+    "factors": {
+      "reach": 52,
+      "engagement": 60,
+      "credibility": 85,
+      "impact": 60,
+      "commerce": 40,
+      "consistency": 75
+    },
     "reach": "YT approx 1.8M · IG approx 1M (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/natachaoceane", "youtube": "https://youtube.com/@NatachaOceane" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/natachaoceane",
+      "youtube": "https://youtube.com/@NatachaOceane"
+    },
+    "warning": null,
+    "takeaway": "Bring real technical rigor to fitness claims — earning respect from a skeptical crowd beats quick reach."
   },
   {
     "name": "Stephanie Buttermore",
@@ -104,12 +186,23 @@
     "country": "US",
     "who": "US creator with a PhD in biomedical science, known for publicly documenting her own reverse-diet recovery.",
     "why": "Turned her own metabolic-recovery experiment into one of the most credible physiology deep-dives in fitness media.",
-    "factors": { "reach": 45, "engagement": 50, "credibility": 80, "impact": 55, "commerce": 30, "consistency": 60 },
+    "factors": {
+      "reach": 45,
+      "engagement": 50,
+      "credibility": 80,
+      "impact": 55,
+      "commerce": 30,
+      "consistency": 60
+    },
     "reach": "YT approx 1M · IG approx 700K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/stephanie_buttermore", "youtube": "https://youtube.com/@StephanieButtermorePHD" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/stephanie_buttermore",
+      "youtube": "https://youtube.com/@StephanieButtermorePHD"
+    },
+    "warning": null,
+    "takeaway": "Document your own physiology experiment publicly — personal data builds more credibility than advice alone."
   },
   {
     "name": "Grow with Jo",
@@ -118,12 +211,23 @@
     "country": "GB",
     "who": "UK creator behind fast-growing low-impact and walking-workout videos on YouTube.",
     "why": "Popularized the walking-workout format for a broad, often older audience underserved by typical HIIT content.",
-    "factors": { "reach": 65, "engagement": 50, "credibility": 55, "impact": 65, "commerce": 40, "consistency": 65 },
+    "factors": {
+      "reach": 65,
+      "engagement": 50,
+      "credibility": 55,
+      "impact": 65,
+      "commerce": 40,
+      "consistency": 65
+    },
     "reach": "YT approx 4M+ (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/growwithjo", "youtube": "https://youtube.com/@growwithjo" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/growwithjo",
+      "youtube": "https://youtube.com/@growwithjo"
+    },
+    "warning": null,
+    "takeaway": "Serve an underserved audience directly — low-impact workouts open training to people HIIT excludes."
   },
   {
     "name": "Sydney Cummings",
@@ -132,12 +236,23 @@
     "country": "US",
     "who": "US trainer known for free, daily-cadence YouTube strength workouts.",
     "why": "Sustained a consistent daily-upload gym-workout channel for years, building strong community loyalty.",
-    "factors": { "reach": 55, "engagement": 55, "credibility": 55, "impact": 50, "commerce": 40, "consistency": 75 },
+    "factors": {
+      "reach": 55,
+      "engagement": 55,
+      "credibility": 55,
+      "impact": 50,
+      "commerce": 40,
+      "consistency": 75
+    },
     "reach": "YT approx 2M+ (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/sydneycummingsfit", "youtube": "https://youtube.com/@SydneyCummings" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/sydneycummingsfit",
+      "youtube": "https://youtube.com/@SydneyCummings"
+    },
+    "warning": null,
+    "takeaway": "Show up daily with free workouts — consistent cadence builds community loyalty over any single video."
   },
   {
     "name": "Caroline Girvan",
@@ -146,12 +261,23 @@
     "country": "IE",
     "who": "Irish trainer behind the EPIC and Hero dumbbell-workout programs on YouTube.",
     "why": "Currently the most imitated name in home strength training; her programs drive huge, sustained view spikes.",
-    "factors": { "reach": 62, "engagement": 80, "credibility": 65, "impact": 80, "commerce": 45, "consistency": 75 },
+    "factors": {
+      "reach": 62,
+      "engagement": 80,
+      "credibility": 65,
+      "impact": 80,
+      "commerce": 45,
+      "consistency": 75
+    },
     "reach": "YT 4.4M · IG approx 780K (verified YT 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/carolinegirvan", "youtube": "https://youtube.com/@carolinegirvan" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/carolinegirvan",
+      "youtube": "https://youtube.com/@carolinegirvan"
+    },
+    "warning": null,
+    "takeaway": "Publish full structured programs, not single workouts — people commit harder to a plan than a routine."
   },
   {
     "name": "Heather Robertson",
@@ -160,12 +286,23 @@
     "country": "CA",
     "who": "Canadian trainer known for free no-equipment and dumbbell workout videos on YouTube.",
     "why": "Long-running, reliable source for structured home-workout programming with a loyal following.",
-    "factors": { "reach": 55, "engagement": 55, "credibility": 55, "impact": 50, "commerce": 35, "consistency": 75 },
+    "factors": {
+      "reach": 55,
+      "engagement": 55,
+      "credibility": 55,
+      "impact": 50,
+      "commerce": 35,
+      "consistency": 75
+    },
     "reach": "YT approx 2.5M (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/heatherrobertsonfit", "youtube": "https://youtube.com/@HeatherRobertsonFit" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/heatherrobertsonfit",
+      "youtube": "https://youtube.com/@HeatherRobertsonFit"
+    },
+    "warning": null,
+    "takeaway": "Be the reliable, no-equipment option people return to — reliability outlasts flashier competitors."
   },
   {
     "name": "Lilly Sabri",
@@ -174,12 +311,24 @@
     "country": "GB",
     "who": "UK physiotherapist and trainer focused on pilates, pelvic floor and postpartum fitness.",
     "why": "Brings a clinical, physiotherapy-backed angle to a niche most fitness creators ignore, with a loyal community.",
-    "factors": { "reach": 60, "engagement": 60, "credibility": 70, "impact": 60, "commerce": 45, "consistency": 70 },
+    "factors": {
+      "reach": 60,
+      "engagement": 60,
+      "credibility": 70,
+      "impact": 60,
+      "commerce": 45,
+      "consistency": 70
+    },
     "reach": "YT approx 4M · IG approx 1.7M (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/lillysabri", "youtube": "https://youtube.com/@LillySabri", "tiktok": "https://tiktok.com/@lillysabri" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/lillysabri",
+      "youtube": "https://youtube.com/@LillySabri",
+      "tiktok": "https://tiktok.com/@lillysabri"
+    },
+    "warning": null,
+    "takeaway": "Address pelvic floor and postpartum recovery directly — clinical rehab work belongs in training plans, not just aesthetics."
   },
   {
     "name": "Daisy Keech",
@@ -188,12 +337,23 @@
     "country": "US",
     "who": "US fitness and lifestyle creator, founder of the Formation training app.",
     "why": "Drove the TikTok-era 'hourglass' workout trend and built a following-turned-app business around it.",
-    "factors": { "reach": 60, "engagement": 55, "credibility": 35, "impact": 55, "commerce": 45, "consistency": 45 },
+    "factors": {
+      "reach": 60,
+      "engagement": 55,
+      "credibility": 35,
+      "impact": 55,
+      "commerce": 45,
+      "consistency": 45
+    },
     "reach": "IG approx 5.5M · TT approx 5M (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/daisykeech", "tiktok": "https://tiktok.com/@daisykeech" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/daisykeech",
+      "tiktok": "https://tiktok.com/@daisykeech"
+    },
+    "warning": null,
+    "takeaway": "Convert a viral training trend into a lasting app business before the trend fades."
   },
   {
     "name": "Michelle Lewin",
@@ -202,12 +362,23 @@
     "country": "VE",
     "who": "Venezuelan bikini-fitness competitor and one of the earliest global Instagram fitness stars.",
     "why": "Helped define the bikini-fitness-model aesthetic that shaped a decade of fitness content worldwide.",
-    "factors": { "reach": 78, "engagement": 55, "credibility": 60, "impact": 70, "commerce": 55, "consistency": 80 },
+    "factors": {
+      "reach": 78,
+      "engagement": 55,
+      "credibility": 60,
+      "impact": 70,
+      "commerce": 55,
+      "consistency": 80
+    },
     "reach": "IG 15M (verified 2026-06)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/michelle_lewin", "youtube": "https://youtube.com/@michellelewin" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/michelle_lewin",
+      "youtube": "https://youtube.com/@michellelewin"
+    },
+    "warning": null,
+    "takeaway": "Recognize when a platform is still new — showing up early can define a whole category for years."
   },
   {
     "name": "Anllela Sagra",
@@ -216,12 +387,23 @@
     "country": "CO",
     "who": "Colombian fitness model and one of the most-followed Latin American fitness figures on Instagram.",
     "why": "Huge cultural reach across Latin America; a defining face of the region's fitness-model wave.",
-    "factors": { "reach": 85, "engagement": 55, "credibility": 55, "impact": 70, "commerce": 55, "consistency": 80 },
+    "factors": {
+      "reach": 85,
+      "engagement": 55,
+      "credibility": 55,
+      "impact": 70,
+      "commerce": 55,
+      "consistency": 80
+    },
     "reach": "IG 27.1M (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/anllela_sagra", "youtube": "https://youtube.com/@anllelasagra" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/anllela_sagra",
+      "youtube": "https://youtube.com/@anllelasagra"
+    },
+    "warning": null,
+    "takeaway": "Build deeply within your own community and language before chasing a global audience."
   },
   {
     "name": "Eva Andressa",
@@ -230,12 +412,22 @@
     "country": "BR",
     "who": "Brazilian bodybuilder, gym owner and one of Brazil's most-followed fitness personalities.",
     "why": "Real competitive bodybuilding background plus a gym and supplement business, huge domestic cultural reach.",
-    "factors": { "reach": 80, "engagement": 50, "credibility": 65, "impact": 65, "commerce": 60, "consistency": 80 },
+    "factors": {
+      "reach": 80,
+      "engagement": 50,
+      "credibility": 65,
+      "impact": 65,
+      "commerce": 60,
+      "consistency": 80
+    },
     "reach": "IG approx 17M (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/eva_andressa" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/eva_andressa"
+    },
+    "warning": null,
+    "takeaway": "Back your content with a real competitive record and a real business — credibility compounds over time."
   },
   {
     "name": "Sommer Ray",
@@ -244,12 +436,23 @@
     "country": "US",
     "who": "US fitness model and social-media star who broke out through glute-training content.",
     "why": "One of the biggest fitness-model accounts of the late 2010s; still huge reach though now more general influencer content.",
-    "factors": { "reach": 82, "engagement": 60, "credibility": 30, "impact": 50, "commerce": 40, "consistency": 45 },
+    "factors": {
+      "reach": 82,
+      "engagement": 60,
+      "credibility": 30,
+      "impact": 50,
+      "commerce": 40,
+      "consistency": 45
+    },
     "reach": "IG 22.6M (verified 2026-05)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/sommerray", "tiktok": "https://tiktok.com/@sommerray" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/sommerray",
+      "tiktok": "https://tiktok.com/@sommerray"
+    },
+    "warning": null,
+    "takeaway": "A focused early niche can carry your reach even after your content broadens later."
   },
   {
     "name": "Jen Selter",
@@ -258,12 +461,22 @@
     "country": "US",
     "who": "US creator widely credited as one of the first Instagram-era 'fitness selfie' stars.",
     "why": "Helped invent the glute-focused fitness-Instagram genre years before it became an industry standard.",
-    "factors": { "reach": 75, "engagement": 40, "credibility": 30, "impact": 75, "commerce": 40, "consistency": 45 },
+    "factors": {
+      "reach": 75,
+      "engagement": 40,
+      "credibility": 30,
+      "impact": 75,
+      "commerce": 40,
+      "consistency": 45
+    },
     "reach": "IG 12.9M (verified 2026-07)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/jenselter" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/jenselter"
+    },
+    "warning": null,
+    "takeaway": "Move early into a new content format — being first in a genre outlasts being biggest later."
   },
   {
     "name": "Hanna Oberg",
@@ -272,12 +485,23 @@
     "country": "SE",
     "who": "Swedish fitness influencer, nutrition advisor and founder of the Ownu training app.",
     "why": "One of the Nordic region's biggest fitness voices, with a real app business behind the following.",
-    "factors": { "reach": 48, "engagement": 50, "credibility": 55, "impact": 45, "commerce": 55, "consistency": 65 },
+    "factors": {
+      "reach": 48,
+      "engagement": 50,
+      "credibility": 55,
+      "impact": 45,
+      "commerce": 55,
+      "consistency": 65
+    },
     "reach": "IG 1.8M · YT 760K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/hannaoeberg", "youtube": "https://youtube.com/@hannaoeberg" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/hannaoeberg",
+      "youtube": "https://youtube.com/@hannaoeberg"
+    },
+    "warning": null,
+    "takeaway": "Turn nutrition advice and a following into your own training app, not just sponsored content."
   },
   {
     "name": "Linn Lowes",
@@ -286,12 +510,23 @@
     "country": "SE",
     "who": "Swedish trainer and nutrition coach known for glute-focused gym programs (Body Temple, on the Athli app).",
     "why": "A leading Nordic voice in structured glute and strength programming, sold through her own app partnerships.",
-    "factors": { "reach": 50, "engagement": 50, "credibility": 55, "impact": 45, "commerce": 50, "consistency": 65 },
+    "factors": {
+      "reach": 50,
+      "engagement": 50,
+      "credibility": 55,
+      "impact": 45,
+      "commerce": 50,
+      "consistency": 65
+    },
     "reach": "combined approx 2-3M across IG/YT/TikTok (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/linnlowes", "youtube": "https://youtube.com/@LINNLOWES01" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/linnlowes",
+      "youtube": "https://youtube.com/@LINNLOWES01"
+    },
+    "warning": null,
+    "takeaway": "Sell structured programming through an app partnership instead of building distribution from scratch."
   },
   {
     "name": "Robin Gallant",
@@ -300,12 +535,23 @@
     "country": "CA",
     "who": "Canadian trainer with a biochemistry degree and NSCA-CSCS certification, known for science-based glute training.",
     "why": "Smaller reach than most on this list but genuinely credentialed, explaining muscle mechanics most creators skip.",
-    "factors": { "reach": 38, "engagement": 50, "credibility": 70, "impact": 45, "commerce": 40, "consistency": 65 },
+    "factors": {
+      "reach": 38,
+      "engagement": 50,
+      "credibility": 70,
+      "impact": 45,
+      "commerce": 40,
+      "consistency": 65
+    },
     "reach": "IG approx 750K · YT approx 400K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/robingallant", "youtube": "https://youtube.com/@RobinGallant" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/robingallant",
+      "youtube": "https://youtube.com/@RobinGallant"
+    },
+    "warning": null,
+    "takeaway": "Explain the actual muscle mechanics behind an exercise instead of just demonstrating it."
   },
   {
     "name": "Senada Greca",
@@ -314,12 +560,22 @@
     "country": "AL",
     "who": "Albanian-American gym-training creator and fitness model with a large Instagram following.",
     "why": "Prominent in the gym-influencer wave that pushed women's strength training into mainstream social feeds.",
-    "factors": { "reach": 65, "engagement": 50, "credibility": 40, "impact": 55, "commerce": 45, "consistency": 70 },
+    "factors": {
+      "reach": 65,
+      "engagement": 50,
+      "credibility": 40,
+      "impact": 55,
+      "commerce": 45,
+      "consistency": 70
+    },
     "reach": "IG approx 6-7M, sources vary (verified range 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/senada.greca" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/senada.greca"
+    },
+    "warning": null,
+    "takeaway": "Post real gym-training content, not just posed shots — it helps make strength training mainstream."
   },
   {
     "name": "Alexia Clark",
@@ -328,12 +584,22 @@
     "country": "US",
     "who": "US creator known as the 'Queen of Workouts', posting widely reposted gym total-body routines.",
     "why": "Her workout-clip format became a template widely copied across fitness social media.",
-    "factors": { "reach": 60, "engagement": 50, "credibility": 35, "impact": 55, "commerce": 40, "consistency": 65 },
+    "factors": {
+      "reach": 60,
+      "engagement": 50,
+      "credibility": 35,
+      "impact": 55,
+      "commerce": 40,
+      "consistency": 65
+    },
     "reach": "IG approx 5.5M (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/alexia_clark" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/alexia_clark"
+    },
+    "warning": null,
+    "takeaway": "Design a repeatable workout-clip format simple enough that others end up copying it."
   },
   {
     "name": "Emi Wong",
@@ -342,12 +608,23 @@
     "country": "HK",
     "who": "Hong Kong-based fitness and lifestyle YouTuber, bilingual (English/Cantonese) creator.",
     "why": "One of the most-recognized fitness voices across Asian markets, with strong crossover into China.",
-    "factors": { "reach": 48, "engagement": 55, "credibility": 45, "impact": 55, "commerce": 35, "consistency": 65 },
+    "factors": {
+      "reach": 48,
+      "engagement": 55,
+      "credibility": 45,
+      "impact": 55,
+      "commerce": 35,
+      "consistency": 65
+    },
     "reach": "IG 900K · YT approx 2M+ (approx 2026)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/emiwong_", "youtube": "https://youtube.com/@EmiWong" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/emiwong_",
+      "youtube": "https://youtube.com/@EmiWong"
+    },
+    "warning": null,
+    "takeaway": "Create content in more than one language to reach markets other creators overlook."
   },
   {
     "name": "Tammy Hembrow",
@@ -356,11 +633,22 @@
     "country": "AU",
     "who": "Australian fitness influencer, founder of Saski Collection and the Tammy Fit training app.",
     "why": "Pioneered the fitness-influencer-to-apparel-and-app-brand playbook that many others later copied.",
-    "factors": { "reach": 80, "engagement": 45, "credibility": 30, "impact": 60, "commerce": 70, "consistency": 75 },
+    "factors": {
+      "reach": 80,
+      "engagement": 45,
+      "credibility": 30,
+      "impact": 60,
+      "commerce": 70,
+      "consistency": 75
+    },
     "reach": "IG approx 16-17M (verified range 2026-08)",
     "reachVerified": true,
     "website": "https://saskicollection.com",
-    "handles": { "instagram": "https://instagram.com/tammyhembrow", "tiktok": "https://tiktok.com/@tammyhembrow" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/tammyhembrow",
+      "tiktok": "https://tiktok.com/@tammyhembrow"
+    },
+    "warning": null,
+    "takeaway": "Turn your personal following into your own apparel or app brand instead of just endorsing others'."
   }
 ]

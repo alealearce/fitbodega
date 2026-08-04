@@ -7,12 +7,22 @@
     "country": "US",
     "who": "Free, peer-led outdoor bootcamp for men at 5 a.m., no sign-up, just show up — 5,000+ locations worldwide.",
     "why": "Basically invented the free, peer-led outdoor workout model that FiA, November Project, and dozens of copycats followed.",
-    "factors": { "legacy": 85, "community": 85, "reach": 40, "events": 90, "crossover": 60, "destination": 60 },
+    "factors": {
+      "legacy": 85,
+      "community": 85,
+      "reach": 40,
+      "events": 90,
+      "crossover": 60,
+      "destination": 60
+    },
     "reach": "IG ~45K on @f3nation (approx 2026)",
     "reachVerified": false,
     "website": "https://f3nation.com",
-    "handles": { "instagram": "https://instagram.com/f3nation" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/f3nation"
+    },
+    "warning": null,
+    "takeaway": "Just show up at 5 a.m. to a free outdoor bootcamp for men — no sign-up needed."
   },
   {
     "name": "FiA (Females in Action)",
@@ -22,12 +32,22 @@
     "country": "US",
     "who": "F3's sister crew for women: free, peer-led outdoor workouts held rain or shine, plus book clubs and socials.",
     "why": "Same model as F3 but built by and for women — one of the biggest free fitness sisterhoods going.",
-    "factors": { "legacy": 65, "community": 80, "reach": 30, "events": 85, "crossover": 45, "destination": 40 },
+    "factors": {
+      "legacy": 65,
+      "community": 80,
+      "reach": 30,
+      "events": 85,
+      "crossover": 45,
+      "destination": 40
+    },
     "reach": "IG ~8K on @fianation (approx 2026)",
     "reachVerified": false,
     "website": "https://fianation.com",
-    "handles": { "instagram": "https://instagram.com/fianation" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/fianation"
+    },
+    "warning": null,
+    "takeaway": "Just show up rain or shine to F3's free, peer-led outdoor workout for women, plus book clubs and socials."
   },
   {
     "name": "November Project",
@@ -37,12 +57,22 @@
     "country": "US",
     "who": "Free, all-levels outdoor workout at 6:30 a.m. on weekdays — stairs, hills, whatever the city gives you. Just show up.",
     "why": "The hug-at-6:30-a.m. crew that made free group fitness cool again, and it's still spreading to new cities.",
-    "factors": { "legacy": 80, "community": 85, "reach": 45, "events": 75, "crossover": 65, "destination": 60 },
+    "factors": {
+      "legacy": 80,
+      "community": 85,
+      "reach": 45,
+      "events": 75,
+      "crossover": 65,
+      "destination": 60
+    },
     "reach": "IG ~50K on @novemberproject (approx 2026)",
     "reachVerified": false,
     "website": "https://november-project.com",
-    "handles": { "instagram": "https://instagram.com/novemberproject" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/novemberproject"
+    },
+    "warning": null,
+    "takeaway": "No sign-up, just show up for free outdoor running and bodyweight training in Boston or beyond."
   },
   {
     "name": "GoodGym",
@@ -52,12 +82,22 @@
     "country": "UK",
     "who": "UK charity that pairs a group run with a volunteer task; free to join, weekly group runs and missions in dozens of towns.",
     "why": "Turns a workout into a volunteer shift, a genuinely different model that's kept growing for over a decade.",
-    "factors": { "legacy": 60, "community": 70, "reach": 35, "events": 70, "crossover": 55, "destination": 40 },
+    "factors": {
+      "legacy": 60,
+      "community": 70,
+      "reach": 35,
+      "events": 70,
+      "crossover": 55,
+      "destination": 40
+    },
     "reach": "IG ~15K on @goodgym (approx 2026)",
     "reachVerified": false,
     "website": "https://www.goodgym.org",
-    "handles": { "instagram": "https://instagram.com/goodgym" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/goodgym"
+    },
+    "warning": null,
+    "takeaway": "Join a free weekly group run paired with a volunteer task — the workout doubles as a good deed."
   },
   {
     "name": "Swim Dem Crew",
@@ -67,12 +107,22 @@
     "country": "UK",
     "who": "London open-water swim collective; members-only sessions Monday evenings and Saturday mornings, membership opens every few months.",
     "why": "Changed who gets to call themselves a swimmer in London; still one of the most-covered crews in UK swimming for accessibility.",
-    "factors": { "legacy": 55, "community": 75, "reach": 30, "events": 60, "crossover": 55, "destination": 45 },
+    "factors": {
+      "legacy": 55,
+      "community": 75,
+      "reach": 30,
+      "events": 60,
+      "crossover": 55,
+      "destination": 45
+    },
     "reach": "IG ~9K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.swimdemcrew.co.uk",
-    "handles": { "instagram": "https://instagram.com/swimdemcrew" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/swimdemcrew"
+    },
+    "warning": null,
+    "takeaway": "Watch for membership windows to open, then join Monday evening or Saturday morning open-water sessions in London."
   },
   {
     "name": "The Bar-barians",
@@ -82,12 +132,22 @@
     "country": "US",
     "who": "NYC calisthenics crew that trains the Tompkins Square Park bars every Saturday afternoon; no membership, just turn up.",
     "why": "The crew that put Tompkins Square Park on the map for calisthenics, and still the Saturday draw for the scene.",
-    "factors": { "legacy": 90, "community": 80, "reach": 30, "events": 60, "crossover": 70, "destination": 80 },
+    "factors": {
+      "legacy": 90,
+      "community": 80,
+      "reach": 30,
+      "events": 60,
+      "crossover": 70,
+      "destination": 80
+    },
     "reach": "IG 2.5K on @therealbarbarians (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/therealbarbarians" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/therealbarbarians"
+    },
+    "warning": null,
+    "takeaway": "Turn up Saturday afternoons at the Tompkins Square Park bars for calisthenics — no membership needed."
   },
   {
     "name": "GORUCK Clubs",
@@ -97,12 +157,22 @@
     "country": "US",
     "who": "Community rucking led by ex-military cadre; local clubs meet weekly, plus flagship city-ruck weekends and Challenge events.",
     "why": "Rucking's biggest name, and its clubs and events are why 'ruck club' is now its own fitness category.",
-    "factors": { "legacy": 75, "community": 70, "reach": 40, "events": 80, "crossover": 70, "destination": 65 },
+    "factors": {
+      "legacy": 75,
+      "community": 70,
+      "reach": 40,
+      "events": 80,
+      "crossover": 70,
+      "destination": 65
+    },
     "reach": "IG ~120K on @goruck (approx 2026)",
     "reachVerified": false,
     "website": "https://www.goruck.com",
-    "handles": { "instagram": "https://instagram.com/goruck" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/goruck"
+    },
+    "warning": null,
+    "takeaway": "Join a local weekly ruck led by ex-military cadre, or sign up for a flagship city-ruck weekend."
   },
   {
     "name": "Team RWB (WOD for Warriors)",
@@ -112,12 +182,22 @@
     "country": "US",
     "who": "Veteran-and-civilian nonprofit with 150+ chapters; weekly local workouts — WODs, rucks, runs — free to join.",
     "why": "The largest veteran fitness network in the US, built entirely around showing up together each week.",
-    "factors": { "legacy": 70, "community": 80, "reach": 40, "events": 75, "crossover": 60, "destination": 40 },
+    "factors": {
+      "legacy": 70,
+      "community": 80,
+      "reach": 40,
+      "events": 75,
+      "crossover": 60,
+      "destination": 40
+    },
     "reach": "IG ~35K on @teamrwb (approx 2026)",
     "reachVerified": false,
     "website": "https://teamrwb.org",
-    "handles": { "instagram": "https://instagram.com/teamrwb" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/teamrwb"
+    },
+    "warning": null,
+    "takeaway": "Find a local chapter for a free weekly WOD, ruck, or run — veterans and civilians together."
   },
   {
     "name": "FIT4MOM (Stroller Strides)",
@@ -127,12 +207,22 @@
     "country": "US",
     "who": "Stroller-friendly outdoor workout for moms, run several times a week per neighborhood 'village'; open to all fitness levels.",
     "why": "The original stroller workout, still the model every mom-fitness crew that followed measures itself against.",
-    "factors": { "legacy": 65, "community": 75, "reach": 45, "events": 70, "crossover": 55, "destination": 30 },
+    "factors": {
+      "legacy": 65,
+      "community": 75,
+      "reach": 45,
+      "events": 70,
+      "crossover": 55,
+      "destination": 30
+    },
     "reach": "IG ~60K on @fit4mom (approx 2026)",
     "reachVerified": false,
     "website": "https://fit4mom.com",
-    "handles": { "instagram": "https://instagram.com/fit4mom" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/fit4mom"
+    },
+    "warning": null,
+    "takeaway": "Bring the stroller to a neighborhood 'village' workout several times a week, any fitness level welcome."
   },
   {
     "name": "Camp Gladiator",
@@ -142,12 +232,22 @@
     "country": "US",
     "who": "Outdoor bootcamp franchise with trainer-led classes most days of the week across hundreds of US sites; two free weeks to try.",
     "why": "One of the biggest outdoor bootcamp operations in the US, with a near-daily class within reach of almost everyone.",
-    "factors": { "legacy": 55, "community": 65, "reach": 45, "events": 80, "crossover": 50, "destination": 30 },
+    "factors": {
+      "legacy": 55,
+      "community": 65,
+      "reach": 45,
+      "events": 80,
+      "crossover": 50,
+      "destination": 30
+    },
     "reach": "IG ~30K on @campgladiator (approx 2026)",
     "reachVerified": false,
     "website": "https://www.campgladiator.com",
-    "handles": { "instagram": "https://instagram.com/campgladiator" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/campgladiator"
+    },
+    "warning": null,
+    "takeaway": "Try two free weeks of trainer-led outdoor bootcamp classes at a site near you, most days of the week."
   },
   {
     "name": "Bondi Icebergs Club",
@@ -157,12 +257,20 @@
     "country": "Australia",
     "who": "Winter swimming club on the tidal pool at Bondi Beach; members train and race most Sundays, open to new members.",
     "why": "Nearly a century of winter swimming at Bondi, and the pool every visitor to the beach stops to photograph.",
-    "factors": { "legacy": 90, "community": 70, "reach": 40, "events": 60, "crossover": 75, "destination": 90 },
+    "factors": {
+      "legacy": 90,
+      "community": 70,
+      "reach": 40,
+      "events": 60,
+      "crossover": 75,
+      "destination": 90
+    },
     "reach": "IG ~40K (approx 2026)",
     "reachVerified": false,
     "website": "https://icebergs.com.au",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Join as a member and swim three Sundays a month through winter to keep your spot."
   },
   {
     "name": "Serpentine Swimming Club",
@@ -172,12 +280,20 @@
     "country": "UK",
     "who": "London's oldest cold-water swim club; members swim the Hyde Park lake daily (5-9:30 a.m.) and race most Saturdays.",
     "why": "Britain's oldest swim club, home to the Christmas Day race that's been a national fixture since 1904.",
-    "factors": { "legacy": 95, "community": 65, "reach": 25, "events": 55, "crossover": 65, "destination": 75 },
+    "factors": {
+      "legacy": 95,
+      "community": 65,
+      "reach": 25,
+      "events": 55,
+      "crossover": 65,
+      "destination": 75
+    },
     "reach": "IG ~3K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": "The Christmas Day race is open to club members only, not the public."
+    "warning": "The Christmas Day race is open to club members only, not the public.",
+    "takeaway": "Join early-morning swims year-round in Hyde Park; anyone can enter the Christmas Day Peter Pan Cup."
   },
   {
     "name": "Dolphin Club",
@@ -187,12 +303,20 @@
     "country": "US",
     "who": "Open-water swim and rowing club at Aquatic Park; members train daily, and trial memberships are open to the public.",
     "why": "One of the oldest open-water swim clubs in the US, and part of why Alcatraz swims became a bucket-list thing.",
-    "factors": { "legacy": 88, "community": 70, "reach": 30, "events": 60, "crossover": 55, "destination": 75 },
+    "factors": {
+      "legacy": 88,
+      "community": 70,
+      "reach": 30,
+      "events": 60,
+      "crossover": 55,
+      "destination": 75
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up for daily open-water swims off the Aquatic Park boathouse, right next to its rival club."
   },
   {
     "name": "DivaDance",
@@ -202,11 +326,19 @@
     "country": "US",
     "who": "Adult dance-fitness crew with 50+ studios across the US and Mexico; weekly classes plus member-only social events.",
     "why": "Grew from one studio to 50+ cities on word-of-mouth community, not a franchise-gym sales model.",
-    "factors": { "legacy": 45, "community": 70, "reach": 35, "events": 65, "crossover": 40, "destination": 25 },
+    "factors": {
+      "legacy": 45,
+      "community": 70,
+      "reach": 35,
+      "events": 65,
+      "crossover": 40,
+      "destination": 25
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://divadance.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Take a weekly class at one of 50-plus studios across the US and Mexico, plus member-only social events."
   }
 ]

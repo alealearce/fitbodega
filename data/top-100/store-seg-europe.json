@@ -7,12 +7,22 @@
     "country": "UK",
     "who": "Organic supermarket chain founded 1995, now around ten London stores under founder ownership.",
     "why": "Pioneered UK organic-supermarket retail; survived a 2023 insolvency and relaunched smaller under its original founders.",
-    "factors": { "legacy": 70, "selection": 75, "experience": 65, "community": 55, "reach": 45, "destination": 55 },
+    "factors": {
+      "legacy": 70,
+      "selection": 75,
+      "experience": 65,
+      "community": 55,
+      "reach": 45,
+      "destination": 55
+    },
     "reach": "IG ~35K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.planetorganic.com",
-    "handles": { "instagram": "https://instagram.com/planetorganic" },
-    "warning": "Entered administration in May 2023; sold to a company backed by its founders, with four of fourteen stores closed in the process."
+    "handles": {
+      "instagram": "https://instagram.com/planetorganic"
+    },
+    "warning": "Entered administration in May 2023; sold to a company backed by its founders, with four of fourteen stores closed in the process.",
+    "takeaway": "Go for the pioneer of UK organic-supermarket retail, now smaller and founder-run again after its 2023 near-collapse."
   },
   {
     "name": "Whole Foods Market Kensington",
@@ -22,12 +32,22 @@
     "country": "UK",
     "who": "The UK's largest Whole Foods Market, occupying the former Barkers department store on Kensington High Street.",
     "why": "The chain's most architecturally significant UK site; the grand food-hall building pulls in visitors beyond weekly shoppers.",
-    "factors": { "legacy": 55, "selection": 70, "experience": 80, "community": 45, "reach": 60, "destination": 70 },
+    "factors": {
+      "legacy": 55,
+      "selection": 70,
+      "experience": 80,
+      "community": 45,
+      "reach": 60,
+      "destination": 70
+    },
     "reach": "IG 142K (verified 2026-08, @wholefoodsuk)",
     "reachVerified": true,
     "website": "https://www.wholefoodsmarket.com",
-    "handles": { "instagram": "https://instagram.com/wholefoodsuk" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/wholefoodsuk"
+    },
+    "warning": null,
+    "takeaway": "Go for the grand former Barkers department-store building — the UK's biggest, most architecturally striking Whole Foods."
   },
   {
     "name": "As Nature Intended",
@@ -37,12 +57,20 @@
     "country": "UK",
     "who": "Independent London health-food retailer running six shops (Chiswick, Ealing, Balham, Spitalfields, Stratford, Marble Arch) plus a web shop.",
     "why": "A rare independent multi-site health-food group that has kept expanding across London while bigger names struggled.",
-    "factors": { "legacy": 50, "selection": 60, "experience": 50, "community": 55, "reach": 35, "destination": 40 },
+    "factors": {
+      "legacy": 50,
+      "selection": 60,
+      "experience": 50,
+      "community": 55,
+      "reach": 35,
+      "destination": 40
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.asnatureintended.uk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a rare independent that kept expanding to six London shops while bigger health-food names struggled."
   },
   {
     "name": "Infinity Foods",
@@ -52,12 +80,22 @@
     "country": "UK",
     "who": "Workers' co-operative wholefood shop and bakery trading since 1971, one of Britain's oldest surviving co-ops.",
     "why": "Founding-era co-op culture, still worker-owned and run on collective decision-making more than five decades on.",
-    "factors": { "legacy": 85, "selection": 65, "experience": 55, "community": 85, "reach": 30, "destination": 45 },
+    "factors": {
+      "legacy": 85,
+      "selection": 65,
+      "experience": 55,
+      "community": 85,
+      "reach": 30,
+      "destination": 45
+    },
     "reach": "IG 2.8K combined bakery + wholesale accounts (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.infinityfoods.co.uk",
-    "handles": { "instagram": "https://instagram.com/infinityfoodswholesale" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/infinityfoodswholesale"
+    },
+    "warning": null,
+    "takeaway": "One of Britain's oldest surviving co-ops — go for the bakery and the collective decision-making, unchanged since 1971."
   },
   {
     "name": "Unicorn Grocery",
@@ -67,12 +105,22 @@
     "country": "UK",
     "who": "Worker-owned wholefood co-op in Chorlton, trading since 1996, known for bulk organic produce and affordable pricing.",
     "why": "A model of co-operative retail with a genuinely loyal local membership and strict ethical-sourcing standards.",
-    "factors": { "legacy": 65, "selection": 70, "experience": 55, "community": 80, "reach": 45, "destination": 50 },
+    "factors": {
+      "legacy": 65,
+      "selection": 70,
+      "experience": 55,
+      "community": 80,
+      "reach": 45,
+      "destination": 50
+    },
     "reach": "IG 17K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.unicorn-grocery.coop",
-    "handles": { "instagram": "https://instagram.com/unicorngrocery" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/unicorngrocery"
+    },
+    "warning": null,
+    "takeaway": "Go for bulk organic produce at genuinely affordable prices, run on strict ethical-sourcing standards since 1996."
   },
   {
     "name": "Real Foods",
@@ -82,12 +130,20 @@
     "country": "UK",
     "who": "Scotland's longest-running organic and special-diet retailer, with two shops on Broughton Street and Brougham Street.",
     "why": "A pioneer of natural and special-diet retail in Scotland that has stayed independently run since the 1970s.",
-    "factors": { "legacy": 75, "selection": 55, "experience": 45, "community": 55, "reach": 30, "destination": 40 },
+    "factors": {
+      "legacy": 75,
+      "selection": 55,
+      "experience": 45,
+      "community": 55,
+      "reach": 30,
+      "destination": 40
+    },
     "reach": "IG ~4K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.realfoods.co.uk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for Scotland's longest-running special-diet retailer, independently run since the 1970s across two Edinburgh shops."
   },
   {
     "name": "Daylesford Organic (Kingham farm shop)",
@@ -97,12 +153,22 @@
     "country": "UK",
     "who": "Organic farm shop built around Carole Bamford's Cotswolds farm, with an on-site creamery, café and cookery school.",
     "why": "Britain's best-known organic farm-shop destination; set the template for farm-to-table retail as a day out.",
-    "factors": { "legacy": 60, "selection": 85, "experience": 90, "community": 50, "reach": 60, "destination": 85 },
+    "factors": {
+      "legacy": 60,
+      "selection": 85,
+      "experience": 90,
+      "community": 50,
+      "reach": 60,
+      "destination": 85
+    },
     "reach": "IG 385K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.daylesford.com",
-    "handles": { "instagram": "https://instagram.com/daylesfordfarm" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/daylesfordfarm"
+    },
+    "warning": null,
+    "takeaway": "Britain's benchmark organic farm shop — go for the creamery, café and cookery school as a full day out."
   },
   {
     "name": "Naturalia (Boulevard Magenta)",
@@ -112,12 +178,22 @@
     "country": "France",
     "who": "France's pioneering organic supermarket chain, opened on Boulevard Magenta in 1973 and now over 250 stores nationwide.",
     "why": "One of Europe's first organic-supermarket concepts; helped move organic food from niche shop to mainstream aisle.",
-    "factors": { "legacy": 80, "selection": 65, "experience": 55, "community": 45, "reach": 60, "destination": 45 },
+    "factors": {
+      "legacy": 80,
+      "selection": 65,
+      "experience": 55,
+      "community": 45,
+      "reach": 60,
+      "destination": 45
+    },
     "reach": "IG 132K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.naturalia.fr",
-    "handles": { "instagram": "https://instagram.com/naturalia_magasins_bio" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/naturalia_magasins_bio"
+    },
+    "warning": null,
+    "takeaway": "Go for the store that helped move organic food from niche shop to mainstream French supermarket aisle."
   },
   {
     "name": "La Vie Claire (original Paris shop)",
@@ -127,12 +203,20 @@
     "country": "France",
     "who": "France's first organic and health-food store network, founded in 1948, now a nationwide franchise of small shops.",
     "why": "Legacy claim to being Europe's original modern health-food retailer, decades ahead of the organic-supermarket boom.",
-    "factors": { "legacy": 90, "selection": 55, "experience": 45, "community": 45, "reach": 40, "destination": 35 },
+    "factors": {
+      "legacy": 90,
+      "selection": 55,
+      "experience": 45,
+      "community": 45,
+      "reach": 40,
+      "destination": 35
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.lavieclaire.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see the shop with a claim to being Europe's original modern health-food retailer, since 1948."
   },
   {
     "name": "Alnatura Super Natur Markt (Darmstadt)",
@@ -142,12 +226,22 @@
     "country": "Germany",
     "who": "Flagship 'Super Natur Markt' of Germany's biggest organic brand, sited on Alnatura's landmark clay-and-timber headquarters campus.",
     "why": "Showcase store for Alnatura's sustainable-building philosophy; the campus itself is a minor architectural destination.",
-    "factors": { "legacy": 65, "selection": 65, "experience": 80, "community": 45, "reach": 65, "destination": 65 },
+    "factors": {
+      "legacy": 65,
+      "selection": 65,
+      "experience": 80,
+      "community": 45,
+      "reach": 65,
+      "destination": 65
+    },
     "reach": "IG 378K (verified 2026-08, brand account)",
     "reachVerified": true,
     "website": "https://www.alnatura.de",
-    "handles": { "instagram": "https://instagram.com/alnatura" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/alnatura"
+    },
+    "warning": null,
+    "takeaway": "Go for the building as much as the groceries — a showcase of Alnatura's clay-and-timber sustainable architecture."
   },
   {
     "name": "LPG BioMarkt (Prenzlauer Berg)",
@@ -157,12 +251,22 @@
     "country": "Germany",
     "who": "Berlin's oldest organic supermarket chain, trading since 1994, with ten stores and its own organic Ufa bakery.",
     "why": "An early mover in German organic retail; its strict regional (200km) sourcing radius sets it apart from national chains.",
-    "factors": { "legacy": 65, "selection": 60, "experience": 55, "community": 55, "reach": 30, "destination": 40 },
+    "factors": {
+      "legacy": 65,
+      "selection": 60,
+      "experience": 55,
+      "community": 55,
+      "reach": 30,
+      "destination": 40
+    },
     "reach": "IG 1.8K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.lpg-biomarkt.de",
-    "handles": { "instagram": "https://instagram.com/lpg.biomarkt" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/lpg.biomarkt"
+    },
+    "warning": null,
+    "takeaway": "Go for the own bakery and a strict 200km sourcing radius — Berlin's oldest organic supermarket chain."
   },
   {
     "name": "Ekoplaza (plastic-free aisle store)",
@@ -172,12 +276,22 @@
     "country": "Netherlands",
     "who": "Dutch organic supermarket chain that opened the world's first plastic-free grocery aisle in 2018.",
     "why": "Set a global retail precedent for packaging-free organic shopping that other chains have since copied.",
-    "factors": { "legacy": 55, "selection": 60, "experience": 60, "community": 40, "reach": 45, "destination": 45 },
+    "factors": {
+      "legacy": 55,
+      "selection": 60,
+      "experience": 60,
+      "community": 40,
+      "reach": 45,
+      "destination": 45
+    },
     "reach": "IG 23K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.ekoplaza.nl",
-    "handles": { "instagram": "https://instagram.com/ekoplazabio" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/ekoplazabio"
+    },
+    "warning": null,
+    "takeaway": "Go for the world's first plastic-free grocery aisle, the precedent every packaging-free chain since has copied."
   },
   {
     "name": "NaturaSì (Verona)",
@@ -187,12 +301,22 @@
     "country": "Italy",
     "who": "Italy's largest organic supermarket chain, part of the EcorNaturaSì group and rooted in Verona with 300-plus stores.",
     "why": "Anchors Italy's organic retail market with strict own-label sourcing standards across a national store network.",
-    "factors": { "legacy": 60, "selection": 65, "experience": 55, "community": 45, "reach": 60, "destination": 45 },
+    "factors": {
+      "legacy": 60,
+      "selection": 65,
+      "experience": 55,
+      "community": 45,
+      "reach": 60,
+      "destination": 45
+    },
     "reach": "IG 137K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.naturasi.it",
-    "handles": { "instagram": "https://instagram.com/naturasi_italia" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/naturasi_italia"
+    },
+    "warning": null,
+    "takeaway": "Go for the own-label sourcing standards anchoring Italy's biggest organic supermarket network, 300-plus stores strong."
   },
   {
     "name": "Negozio Leggero (Turin founding store)",
@@ -202,12 +326,22 @@
     "country": "Italy",
     "who": "The world's first zero-waste, refill-by-weight grocery network, founded in Turin in 2009.",
     "why": "Originated the loose-goods refill retail model that zero-waste stores worldwide have since copied.",
-    "factors": { "legacy": 70, "selection": 60, "experience": 60, "community": 55, "reach": 50, "destination": 45 },
+    "factors": {
+      "legacy": 70,
+      "selection": 60,
+      "experience": 60,
+      "community": 55,
+      "reach": 50,
+      "destination": 45
+    },
     "reach": "IG 61K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.negozioleggero.it",
-    "handles": { "instagram": "https://instagram.com/negozioleggero" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/negozioleggero"
+    },
+    "warning": null,
+    "takeaway": "Go to see the founding store of the refill-by-weight model that zero-waste grocers worldwide have since copied."
   },
   {
     "name": "Bio Company",
@@ -217,12 +351,20 @@
     "country": "Germany",
     "who": "Berlin-founded organic supermarket chain (est. 2003), now around sixty stores across northeastern Germany.",
     "why": "Scaled Berlin's organic-retail boom into a regional chain while staying independent of the big German grocers.",
-    "factors": { "legacy": 55, "selection": 55, "experience": 50, "community": 45, "reach": 50, "destination": 40 },
+    "factors": {
+      "legacy": 55,
+      "selection": 55,
+      "experience": 50,
+      "community": 45,
+      "reach": 50,
+      "destination": 40
+    },
     "reach": "IG ~45K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.biocompany.de",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a Berlin-born organic chain that scaled to sixty stores while staying independent of the big grocers."
   },
   {
     "name": "Alara Wholefoods",
@@ -232,11 +374,19 @@
     "country": "UK",
     "who": "Independent wholefood shop and mill in King's Cross, trading since 1974, known for its own-milled organic flours and refill counters.",
     "why": "One of London's longest-running independent health-food shops, having outlasted the wholesale redevelopment of King's Cross around it.",
-    "factors": { "legacy": 70, "selection": 60, "experience": 45, "community": 55, "reach": 25, "destination": 35 },
+    "factors": {
+      "legacy": 70,
+      "selection": 60,
+      "experience": 45,
+      "community": 55,
+      "reach": 25,
+      "destination": 35
+    },
     "reach": "IG ~6K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.alara.co.uk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for own-milled organic flours and refill counters at a shop that outlasted King's Cross redevelopment around it."
   }
 ]

@@ -21,7 +21,8 @@
     "handles": {
       "instagram": "https://instagram.com/parkrun"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Register once online, print your barcode, and any Saturday 5K in 25 countries is yours."
   },
   {
     "name": "adidas Runners",
@@ -45,7 +46,8 @@
     "handles": {
       "instagram": "https://instagram.com/adidasrunners"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Download the app and join a free, coach-led session in any of 60+ cities, no cost."
   },
   {
     "name": "Nike Run Club",
@@ -67,7 +69,8 @@
     "reachVerified": true,
     "website": "https://www.nike.com/nrc-app",
     "handles": {},
-    "warning": "Mostly an app platform; only select cities (e.g. London) run a real weekly store-led session — included per the spec's judgment call, not a pure app entry."
+    "warning": "Mostly an app platform; only select cities (e.g. London) run a real weekly store-led session — included per the spec's judgment call, not a pure app entry.",
+    "takeaway": "Join a free weekly store-led run in select cities like London, or train solo through the NRC app."
   },
   {
     "name": "Midnight Runners",
@@ -91,7 +94,8 @@
     "handles": {
       "instagram": "https://instagram.com/midnightrunners"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Free to join in any of 18 cities — turn up for a night run that turns into a party."
   },
   {
     "name": "lululemon Run Club",
@@ -113,7 +117,8 @@
     "reachVerified": true,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Show up free to a beginner-friendly weekly run at a lululemon store near you, no purchase needed."
   },
   {
     "name": "Tracksmith Trackhouse",
@@ -135,7 +140,8 @@
     "reachVerified": true,
     "website": "https://www.tracksmith.com/pages/trackhouse",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Drop into the Newbury Street store for a Sunday long run, Friday social run, or weekly track workout."
   },
   {
     "name": "Bandit Running",
@@ -159,7 +165,8 @@
     "handles": {
       "instagram": "https://instagram.com/bandit"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Join the weekly Thursday community run in Brooklyn or its expanding international city runs."
   },
   {
     "name": "GoodGym",
@@ -181,7 +188,8 @@
     "reachVerified": false,
     "website": "https://www.goodgym.org/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Join a free weekly group run paired with a volunteer task — the workout doubles as a good deed."
   },
   {
     "name": "Achilles International",
@@ -203,7 +211,8 @@
     "reachVerified": false,
     "website": "https://www.achillesinternational.org/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Join as a disabled athlete paired with a volunteer guide for weekly group workouts and races."
   },
   {
     "name": "Front Runners New York",
@@ -225,7 +234,8 @@
     "reachVerified": false,
     "website": "https://frny.org/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Join NYC's LGBTQ+ running and multisport club for weekly fun runs and coached workouts, or run their Pride Run."
   },
   {
     "name": "November Project",
@@ -249,7 +259,8 @@
     "handles": {
       "instagram": "https://instagram.com/novemberproject"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "No sign-up, just show up for free outdoor running and bodyweight training in Boston or beyond."
   },
   {
     "name": "Black Girls RUN!",
@@ -273,7 +284,8 @@
     "handles": {
       "instagram": "https://instagram.com/officialblackgirlsrun"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Find your city chapter for weekly run/walk meetups, or join their charity marathon teams at Boston or Chicago."
   },
   {
     "name": "Team RWB",
@@ -317,7 +329,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Join a city chapter for locally run weekly chapter runs, part of a nationwide Black men's health network."
   },
   {
     "name": "Back on My Feet",
@@ -339,7 +352,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Find a chapter in your city for structured morning running teams helping people rebuild stability."
   },
   {
     "name": "Team In Training",
@@ -361,6 +375,7 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": "Charity fundraising-training program — you join a coached season tied to fundraising, not a drop-in crew."
+    "warning": "Charity fundraising-training program — you join a coached season tied to fundraising, not a drop-in crew.",
+    "takeaway": "Sign up for a coached training season toward a marathon, half, or triathlon while fundraising for blood-cancer research."
   }
 ]

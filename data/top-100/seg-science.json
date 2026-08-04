@@ -6,12 +6,23 @@
     "country": "CA",
     "who": "Natural bodybuilder and YouTuber who turns exercise-science studies into structured hypertrophy and strength programs.",
     "why": "The reference standard for evidence-based lifting content; his myth-busting videos and programs set the tone the whole segment is measured against.",
-    "factors": { "reach": 80, "engagement": 75, "credibility": 85, "impact": 85, "commerce": 75, "consistency": 88 },
+    "factors": {
+      "reach": 80,
+      "engagement": 75,
+      "credibility": 85,
+      "impact": 85,
+      "commerce": 75,
+      "consistency": 88
+    },
     "reach": "IG 3.9M · YT 8.6M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.jeffnippard.com",
-    "handles": { "instagram": "https://instagram.com/jeffnippard", "youtube": "https://youtube.com/@JeffNippard" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/jeffnippard",
+      "youtube": "https://youtube.com/@JeffNippard"
+    },
+    "warning": null,
+    "takeaway": "Before adopting any training trend, ask what the studies actually measured — copy the habit of checking sources."
   },
   {
     "name": "Dr. Mike Israetel",
@@ -20,12 +31,23 @@
     "country": "US",
     "who": "Sport scientist and co-founder of Renaissance Periodization (RP), known for periodization science and blunt on-camera debates.",
     "why": "RP's app and templates put periodization science in front of a mass audience; his channel and clips generate outsized engagement and debate.",
-    "factors": { "reach": 72, "engagement": 80, "credibility": 82, "impact": 78, "commerce": 85, "consistency": 85 },
+    "factors": {
+      "reach": 72,
+      "engagement": 80,
+      "credibility": 82,
+      "impact": 78,
+      "commerce": 85,
+      "consistency": 85
+    },
     "reach": "IG 1.8M combined (@drmikeisraetel + @drmikeclips) · YT 3.8M RP channel (verified 2026-08)",
     "reachVerified": true,
     "website": "https://rpstrength.com",
-    "handles": { "instagram": "https://instagram.com/drmikeisraetel", "youtube": "https://youtube.com/@RenaissancePeriodization" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/drmikeisraetel",
+      "youtube": "https://youtube.com/@RenaissancePeriodization"
+    },
+    "warning": null,
+    "takeaway": "Base your training on periodization principles, not gut feel, and be ready to explain the reasoning."
   },
   {
     "name": "Layne Norton",
@@ -34,12 +56,23 @@
     "country": "US",
     "who": "PhD in nutritional sciences, pro natural bodybuilder and powerlifter, runs Bio Layne coaching and the Carbon Diet Coach app.",
     "why": "One of the most credentialed nutrition scientists in fitness media; rigorous myth-debunking backed by a competitive record and a PhD.",
-    "factors": { "reach": 62, "engagement": 65, "credibility": 90, "impact": 70, "commerce": 68, "consistency": 85 },
+    "factors": {
+      "reach": 62,
+      "engagement": 65,
+      "credibility": 90,
+      "impact": 70,
+      "commerce": 68,
+      "consistency": 85
+    },
     "reach": "IG 1M (verified 2026-08) · YT ~900K (approx 2026)",
     "reachVerified": true,
     "website": "https://biolayne.com",
-    "handles": { "instagram": "https://instagram.com/biolayne", "youtube": "https://youtube.com/@BioLayne" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/biolayne",
+      "youtube": "https://youtube.com/@BioLayne"
+    },
+    "warning": null,
+    "takeaway": "Pair your credentials with real competitive results — expertise lands harder when you've actually done the thing."
   },
   {
     "name": "Jeff Cavaliere",
@@ -48,12 +81,23 @@
     "country": "US",
     "who": "Physical therapist and former MLB strength coach behind ATHLEAN-X, the largest science-based training channel on YouTube.",
     "why": "14M+ YouTube subscribers make him the biggest single reach in this segment; his corrective-training, fix-your-form format is widely copied.",
-    "factors": { "reach": 82, "engagement": 72, "credibility": 78, "impact": 82, "commerce": 78, "consistency": 90 },
+    "factors": {
+      "reach": 82,
+      "engagement": 72,
+      "credibility": 78,
+      "impact": 82,
+      "commerce": 78,
+      "consistency": 90
+    },
     "reach": "IG 2M · YT 14.3M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://athleanx.com",
-    "handles": { "instagram": "https://instagram.com/athleanx", "youtube": "https://youtube.com/@athleanx" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/athleanx",
+      "youtube": "https://youtube.com/@athleanx"
+    },
+    "warning": null,
+    "takeaway": "Diagnose the root cause of an ache before treating the symptom — fix form, not just discomfort."
   },
   {
     "name": "Andrew Huberman",
@@ -62,12 +106,24 @@
     "country": "US",
     "who": "Stanford neuroscientist and host of the Huberman Lab podcast, with recurring episodes on resistance training, recovery and VO2 max protocols.",
     "why": "His training and recovery protocol episodes move millions to change their routines overnight, the exact amplifier effect this segment is built to capture.",
-    "factors": { "reach": 84, "engagement": 70, "credibility": 80, "impact": 88, "commerce": 60, "consistency": 85 },
+    "factors": {
+      "reach": 84,
+      "engagement": 70,
+      "credibility": 80,
+      "impact": 88,
+      "commerce": 60,
+      "consistency": 85
+    },
     "reach": "IG 8M · YT 7.5M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://hubermanlab.com",
-    "handles": { "instagram": "https://instagram.com/hubermanlab", "youtube": "https://youtube.com/@hubermanlab", "podcast": "Huberman Lab" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/hubermanlab",
+      "youtube": "https://youtube.com/@hubermanlab",
+      "podcast": "Huberman Lab"
+    },
+    "warning": null,
+    "takeaway": "Explain the mechanism behind a protocol, not just the protocol — understanding why helps people actually stick with it."
   },
   {
     "name": "Peter Attia",
@@ -76,12 +132,24 @@
     "country": "US",
     "who": "Physician focused on longevity medicine and host of The Drive podcast, a strong advocate for strength and VO2 max training as lifespan medicine.",
     "why": "Popularized the idea of training for a 'Centenarian Decathlon' among a mainstream, affluent audience, pulling fitness science into longevity media.",
-    "factors": { "reach": 68, "engagement": 62, "credibility": 82, "impact": 75, "commerce": 65, "consistency": 80 },
+    "factors": {
+      "reach": 68,
+      "engagement": 62,
+      "credibility": 82,
+      "impact": 75,
+      "commerce": 65,
+      "consistency": 80
+    },
     "reach": "IG 2M · podcast 100M+ downloads (verified 2026-08)",
     "reachVerified": true,
     "website": "https://peterattiamd.com",
-    "handles": { "instagram": "https://instagram.com/peterattiamd", "youtube": "https://youtube.com/@PeterAttiaMD", "podcast": "The Drive" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/peterattiamd",
+      "youtube": "https://youtube.com/@PeterAttiaMD",
+      "podcast": "The Drive"
+    },
+    "warning": null,
+    "takeaway": "Train for the decades ahead, not just this season — frame fitness as a long-term investment."
   },
   {
     "name": "Thomas DeLauer",
@@ -90,12 +158,23 @@
     "country": "US",
     "who": "Former bodybuilder turned science communicator covering fat loss, fasting and metabolic health.",
     "why": "One of the earliest YouTubers to build a channel purely on translating studies into practical diet and fasting protocols.",
-    "factors": { "reach": 70, "engagement": 62, "credibility": 60, "impact": 65, "commerce": 65, "consistency": 78 },
+    "factors": {
+      "reach": 70,
+      "engagement": 62,
+      "credibility": 60,
+      "impact": 65,
+      "commerce": 65,
+      "consistency": 78
+    },
     "reach": "YT ~3.2M · IG ~1.9M (approx 2026)",
     "reachVerified": false,
     "website": "https://thomasdelauer.com",
-    "handles": { "instagram": "https://instagram.com/thomasdelauer", "youtube": "https://youtube.com/@ThomasDeLauerOfficial" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/thomasdelauer",
+      "youtube": "https://youtube.com/@ThomasDeLauerOfficial"
+    },
+    "warning": null,
+    "takeaway": "Translate research studies into plain, practical protocols people can actually follow."
   },
   {
     "name": "Eugene Teo",
@@ -104,12 +183,23 @@
     "country": "AU",
     "who": "Natural bodybuilding coach and YouTuber known for minimalist, sustainable training templates grounded in research.",
     "why": "Represents the calm, low-hype wing of evidence-based lifting, popular with viewers fatigued by extreme claims.",
-    "factors": { "reach": 58, "engagement": 68, "credibility": 72, "impact": 60, "commerce": 55, "consistency": 72 },
+    "factors": {
+      "reach": 58,
+      "engagement": 68,
+      "credibility": 72,
+      "impact": 60,
+      "commerce": 55,
+      "consistency": 72
+    },
     "reach": "YT ~1.1M · IG ~450K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/eugeneteo", "youtube": "https://youtube.com/@eugeneteo" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/eugeneteo",
+      "youtube": "https://youtube.com/@eugeneteo"
+    },
+    "warning": null,
+    "takeaway": "Favor a calm, minimalist training template over hype — sustainability beats big claims for most people."
   },
   {
     "name": "Menno Henselmans",
@@ -118,12 +208,23 @@
     "country": "NL",
     "who": "Evidence-based personal trainer and researcher who runs Bayesian Bodybuilding and regularly critiques published hypertrophy studies.",
     "why": "Among the most technically respected voices in evidence-based coaching, cited by peer coaches more than by mass audience size.",
-    "factors": { "reach": 45, "engagement": 55, "credibility": 82, "impact": 62, "commerce": 55, "consistency": 75 },
+    "factors": {
+      "reach": 45,
+      "engagement": 55,
+      "credibility": 82,
+      "impact": 62,
+      "commerce": 55,
+      "consistency": 75
+    },
     "reach": "IG ~350K · YT ~250K (approx 2026)",
     "reachVerified": false,
     "website": "https://mennohenselmans.com",
-    "handles": { "instagram": "https://instagram.com/mennohenselmans", "youtube": "https://youtube.com/@MennoHenselmans" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/mennohenselmans",
+      "youtube": "https://youtube.com/@MennoHenselmans"
+    },
+    "warning": null,
+    "takeaway": "Critique published research directly — respect from peer coaches matters as much as audience size."
   },
   {
     "name": "Mind Pump",
@@ -132,12 +233,24 @@
     "country": "US",
     "who": "Three-host fitness media company (Sal Di Stefano, Adam Schafer, Justin Andrews) behind the 'Raw Fitness Truth' podcast and MAPS training programs.",
     "why": "The longest-running mainstream fitness podcast, with a large, loyal, purchase-ready audience and a real coaching-programs business behind it.",
-    "factors": { "reach": 62, "engagement": 68, "credibility": 65, "impact": 65, "commerce": 78, "consistency": 85 },
+    "factors": {
+      "reach": 62,
+      "engagement": 68,
+      "credibility": 65,
+      "impact": 65,
+      "commerce": 78,
+      "consistency": 85
+    },
     "reach": "IG 403K · podcast 250M+ downloads (verified 2026-08)",
     "reachVerified": true,
     "website": "https://mindpumpmedia.com",
-    "handles": { "instagram": "https://instagram.com/mindpumpmedia", "youtube": "https://youtube.com/@MindPumpTV", "podcast": "Mind Pump: Raw Fitness Truth" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/mindpumpmedia",
+      "youtube": "https://youtube.com/@MindPumpTV",
+      "podcast": "Mind Pump: Raw Fitness Truth"
+    },
+    "warning": null,
+    "takeaway": "Build an audience that trusts you enough to buy your program, not just watch your content."
   },
   {
     "name": "Stan Efferding",
@@ -146,12 +259,23 @@
     "country": "US",
     "who": "Pro bodybuilder and powerlifter, creator of the Vertical Diet, coaches elite strength and physique athletes.",
     "why": "A rare crossover between an elite competitive record in two sports and real nutrition-coaching credibility.",
-    "factors": { "reach": 55, "engagement": 55, "credibility": 85, "impact": 62, "commerce": 55, "consistency": 82 },
+    "factors": {
+      "reach": 55,
+      "engagement": 55,
+      "credibility": 85,
+      "impact": 62,
+      "commerce": 55,
+      "consistency": 82
+    },
     "reach": "IG ~700K (approx 2026)",
     "reachVerified": false,
     "website": "https://stanefferding.com",
-    "handles": { "instagram": "https://instagram.com/stanefferding", "youtube": "https://youtube.com/@StanEfferding" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/stanefferding",
+      "youtube": "https://youtube.com/@StanEfferding"
+    },
+    "warning": null,
+    "takeaway": "Pair a simple, repeatable diet system with real competitive results before coaching others on it."
   },
   {
     "name": "Squat University",
@@ -160,12 +284,23 @@
     "country": "US",
     "who": "Aaron Horschig, physical therapist and strength coach, built Squat University on lift-specific biomechanics and injury-prevention content.",
     "why": "The go-to reference for lifters diagnosing pain and technique flaws; his format has been widely copied by other PT-creators.",
-    "factors": { "reach": 65, "engagement": 62, "credibility": 75, "impact": 68, "commerce": 58, "consistency": 78 },
+    "factors": {
+      "reach": 65,
+      "engagement": 62,
+      "credibility": 75,
+      "impact": 68,
+      "commerce": 58,
+      "consistency": 78
+    },
     "reach": "YT ~2.9M · IG ~750K (approx 2026)",
     "reachVerified": false,
     "website": "https://squatuniversity.com",
-    "handles": { "instagram": "https://instagram.com/squat_university", "youtube": "https://youtube.com/@SquatUniversity" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/squat_university",
+      "youtube": "https://youtube.com/@SquatUniversity"
+    },
+    "warning": null,
+    "takeaway": "Diagnose your own lifting pain before pushing through it — treat technique flaws as injury prevention."
   },
   {
     "name": "Knees Over Toes Guy",
@@ -174,12 +309,23 @@
     "country": "US",
     "who": "Ben Patrick, former basketball player turned knee-rehab specialist, creator of the ATG (Athletic Truth Group) training system.",
     "why": "Reframed how lifters and rehab clients think about knee health; the ATG split squat became a global gym staple in a few years.",
-    "factors": { "reach": 68, "engagement": 72, "credibility": 65, "impact": 78, "commerce": 68, "consistency": 75 },
+    "factors": {
+      "reach": 68,
+      "engagement": 72,
+      "credibility": 65,
+      "impact": 78,
+      "commerce": 68,
+      "consistency": 75
+    },
     "reach": "IG ~2.5M · YT ~700K (approx 2026)",
     "reachVerified": false,
     "website": "https://kneesovertoesguy.com",
-    "handles": { "instagram": "https://instagram.com/kneesovertoesguy", "youtube": "https://youtube.com/@KneesOverToesGuy" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/kneesovertoesguy",
+      "youtube": "https://youtube.com/@KneesOverToesGuy"
+    },
+    "warning": null,
+    "takeaway": "Question standard advice about an injury-prone area — a fresh rehab approach can become a global habit."
   },
   {
     "name": "Alan Thrall",
@@ -188,12 +334,23 @@
     "country": "US",
     "who": "Powerlifting gym owner and coach (Untamed Strength) known for barbell-technique breakdowns and gym-culture commentary.",
     "why": "A bridge between old-school strength coaching and modern YouTube fitness media, respected in both worlds.",
-    "factors": { "reach": 55, "engagement": 60, "credibility": 68, "impact": 55, "commerce": 50, "consistency": 75 },
+    "factors": {
+      "reach": 55,
+      "engagement": 60,
+      "credibility": 68,
+      "impact": 55,
+      "commerce": 50,
+      "consistency": 75
+    },
     "reach": "YT ~1.3M · IG ~250K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/alanthrall", "youtube": "https://youtube.com/@AlanThrall" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/alanthrall",
+      "youtube": "https://youtube.com/@AlanThrall"
+    },
+    "warning": null,
+    "takeaway": "Bridge old-school gym coaching with modern video breakdowns of barbell technique."
   },
   {
     "name": "Mark Rippetoe",
@@ -202,12 +359,23 @@
     "country": "US",
     "who": "Strength coach and author of 'Starting Strength,' the foundational modern barbell-training text.",
     "why": "Nearly every other strength coach on this list cites his programming; the Starting Strength template is still the default beginner program decades on.",
-    "factors": { "reach": 45, "engagement": 45, "credibility": 82, "impact": 82, "commerce": 55, "consistency": 88 },
+    "factors": {
+      "reach": 45,
+      "engagement": 45,
+      "credibility": 82,
+      "impact": 82,
+      "commerce": 55,
+      "consistency": 88
+    },
     "reach": "YT ~500K · IG ~150K (approx 2026)",
     "reachVerified": false,
     "website": "https://startingstrength.com",
-    "handles": { "instagram": "https://instagram.com/markrippetoe", "youtube": "https://youtube.com/@StartingStrength" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/markrippetoe",
+      "youtube": "https://youtube.com/@StartingStrength"
+    },
+    "warning": null,
+    "takeaway": "Write your training method down clearly enough that beginners can follow it without you."
   },
   {
     "name": "Meg Squats",
@@ -216,12 +384,23 @@
     "country": "US",
     "who": "Meg Gallagher, competitive powerlifter and coach, YouTuber covering training logs, form checks and women's strength content.",
     "why": "One of the most visible women in barbell-strength media, credited with helping grow the female powerlifting audience.",
-    "factors": { "reach": 52, "engagement": 62, "credibility": 70, "impact": 58, "commerce": 55, "consistency": 75 },
+    "factors": {
+      "reach": 52,
+      "engagement": 62,
+      "credibility": 70,
+      "impact": 58,
+      "commerce": 55,
+      "consistency": 75
+    },
     "reach": "YT ~700K · IG ~500K (approx 2026)",
     "reachVerified": false,
     "website": "https://megsquats.com",
-    "handles": { "instagram": "https://instagram.com/megsquats", "youtube": "https://youtube.com/@MegSquats" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/megsquats",
+      "youtube": "https://youtube.com/@MegSquats"
+    },
+    "warning": null,
+    "takeaway": "Post your own training logs and form checks openly to grow your niche's audience."
   },
   {
     "name": "Greg Nuckols",
@@ -230,12 +409,23 @@
     "country": "US",
     "who": "Powerlifter and researcher, co-founder of Stronger By Science, publishing deep-dive literature reviews on training and nutrition.",
     "why": "The most cited 'read the papers so you don't have to' resource in the segment, shaping how other creators talk about the evidence.",
-    "factors": { "reach": 42, "engagement": 55, "credibility": 85, "impact": 68, "commerce": 58, "consistency": 80 },
+    "factors": {
+      "reach": 42,
+      "engagement": 55,
+      "credibility": 85,
+      "impact": 68,
+      "commerce": 58,
+      "consistency": 80
+    },
     "reach": "Newsletter/site ~300K · IG ~150K (approx 2026)",
     "reachVerified": false,
     "website": "https://strongerbyscience.com",
-    "handles": { "instagram": "https://instagram.com/gnuckols", "x": "https://x.com/gregnuckols" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/gnuckols",
+      "x": "https://x.com/gregnuckols"
+    },
+    "warning": null,
+    "takeaway": "Read the primary research yourself and cite it — sourced claims beat unfounded ones."
   },
   {
     "name": "Bryan Johnson",
@@ -244,12 +434,23 @@
     "country": "US",
     "who": "Tech entrepreneur running the 'Don't Die' Blueprint longevity protocol on himself, publishing exhaustive personal training and biomarker data.",
     "why": "Turned his own body into a public longevity experiment; Blueprint training and diet updates regularly go viral well outside fitness media.",
-    "factors": { "reach": 68, "engagement": 75, "credibility": 55, "impact": 78, "commerce": 70, "consistency": 68 },
+    "factors": {
+      "reach": 68,
+      "engagement": 75,
+      "credibility": 55,
+      "impact": 78,
+      "commerce": 70,
+      "consistency": 68
+    },
     "reach": "IG 3M (verified 2026-08) · Blueprint brand account 64K",
     "reachVerified": true,
     "website": "https://blueprint.bryanjohnson.com",
-    "handles": { "instagram": "https://instagram.com/bryanjohnson_", "x": "https://x.com/bryan_johnson" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/bryanjohnson_",
+      "x": "https://x.com/bryan_johnson"
+    },
+    "warning": null,
+    "takeaway": "Track and publish your own detailed biomarker data — transparency about your own body drives interest."
   },
   {
     "name": "Dan John",
@@ -258,12 +459,22 @@
     "country": "US",
     "who": "Veteran strength coach, author and lecturer known for simple, durable training philosophy ('Easy Strength').",
     "why": "A coach's coach: decades of influence on how other strength coaches teach and write, measured more in citations than followers.",
-    "factors": { "reach": 32, "engagement": 45, "credibility": 78, "impact": 62, "commerce": 45, "consistency": 85 },
+    "factors": {
+      "reach": 32,
+      "engagement": 45,
+      "credibility": 78,
+      "impact": 62,
+      "commerce": 45,
+      "consistency": 85
+    },
     "reach": "IG ~80K, wider reach via books and seminars (approx 2026)",
     "reachVerified": false,
     "website": "https://danjohnuniversity.com",
-    "handles": { "instagram": "https://instagram.com/coachdanjohn" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/coachdanjohn"
+    },
+    "warning": null,
+    "takeaway": "Aim to influence how other coaches teach, not just how many people follow you directly."
   },
   {
     "name": "Kelly Starrett",
@@ -272,12 +483,23 @@
     "country": "US",
     "who": "Physical therapist and mobility coach, co-founder of The Ready State (formerly MobilityWOD), author of 'Becoming a Supple Leopard.'",
     "why": "Mainstreamed mobility work as a training pillar; his framework is now standard vocabulary in CrossFit and strength gyms.",
-    "factors": { "reach": 52, "engagement": 55, "credibility": 75, "impact": 72, "commerce": 60, "consistency": 82 },
+    "factors": {
+      "reach": 52,
+      "engagement": 55,
+      "credibility": 75,
+      "impact": 72,
+      "commerce": 60,
+      "consistency": 82
+    },
     "reach": "IG ~600K · YT ~300K (approx 2026)",
     "reachVerified": false,
     "website": "https://thereadystate.com",
-    "handles": { "instagram": "https://instagram.com/thereadystate", "youtube": "https://youtube.com/@thereadystate" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/thereadystate",
+      "youtube": "https://youtube.com/@thereadystate"
+    },
+    "warning": null,
+    "takeaway": "Treat mobility work as a training pillar, not an afterthought before or after lifting."
   },
   {
     "name": "Dr. Stuart McGill",
@@ -286,12 +508,22 @@
     "country": "CA",
     "who": "Retired professor of spine biomechanics, the most-cited researcher on low-back injury and the 'McGill Big 3' core-training protocol.",
     "why": "The scientific backbone cited by nearly every strength coach on spine safety; low social reach but outsized academic and coaching-world credibility.",
-    "factors": { "reach": 28, "engagement": 35, "credibility": 92, "impact": 68, "commerce": 45, "consistency": 82 },
+    "factors": {
+      "reach": 28,
+      "engagement": 35,
+      "credibility": 92,
+      "impact": 68,
+      "commerce": 45,
+      "consistency": 82
+    },
     "reach": "IG ~60K, cited across tens of thousands of academic and coaching sources (approx 2026)",
     "reachVerified": false,
     "website": "https://backfitpro.com",
-    "handles": { "instagram": "https://instagram.com/stuartmmcgill" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/stuartmmcgill"
+    },
+    "warning": null,
+    "takeaway": "Build credibility through citations and research, not social reach — the right audience will still find you."
   },
   {
     "name": "Dr. Gabrielle Lyon",
@@ -300,12 +532,23 @@
     "country": "US",
     "who": "Physician specializing in 'muscle-centric medicine,' podcast host and advocate for protein intake and resistance training as preventive medicine.",
     "why": "A fast-growing crossover figure connecting clinical medicine to strength-training messaging for a mainstream health audience.",
-    "factors": { "reach": 65, "engagement": 62, "credibility": 72, "impact": 65, "commerce": 60, "consistency": 68 },
+    "factors": {
+      "reach": 65,
+      "engagement": 62,
+      "credibility": 72,
+      "impact": 65,
+      "commerce": 60,
+      "consistency": 68
+    },
     "reach": "IG 1.1M (verified 2026-08)",
     "reachVerified": true,
     "website": "https://drgabriellelyon.com",
-    "handles": { "instagram": "https://instagram.com/drgabriellelyon", "podcast": "The Dr. Gabrielle Lyon Show" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/drgabriellelyon",
+      "podcast": "The Dr. Gabrielle Lyon Show"
+    },
+    "warning": null,
+    "takeaway": "Frame resistance training and protein intake as preventive medicine, not just aesthetics."
   },
   {
     "name": "Rhonda Patrick",
@@ -314,11 +557,23 @@
     "country": "US",
     "who": "Biomedical scientist and host of FoundMyFitness, covering nutrition, exercise physiology and longevity research in technical depth.",
     "why": "Trusted by both hardcore researchers and mainstream health podcasters for accurate deep dives that regularly feature exercise-science protocols.",
-    "factors": { "reach": 58, "engagement": 55, "credibility": 85, "impact": 62, "commerce": 50, "consistency": 80 },
+    "factors": {
+      "reach": 58,
+      "engagement": 55,
+      "credibility": 85,
+      "impact": 62,
+      "commerce": 50,
+      "consistency": 80
+    },
     "reach": "IG ~700K · YT ~1M (approx 2026)",
     "reachVerified": false,
     "website": "https://foundmyfitness.com",
-    "handles": { "instagram": "https://instagram.com/foundmyfitness", "youtube": "https://youtube.com/@FoundMyFitness", "podcast": "FoundMyFitness" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/foundmyfitness",
+      "youtube": "https://youtube.com/@FoundMyFitness",
+      "podcast": "FoundMyFitness"
+    },
+    "warning": null,
+    "takeaway": "Go deep on technical detail — accuracy earns trust from experts and mainstream audiences at once."
   }
 ]

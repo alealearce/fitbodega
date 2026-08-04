@@ -7,12 +7,22 @@
     "country": "US",
     "who": "Farm shop on a historic lavender farm and inn, set in restored 1930s dairy barns, selling lavender goods, Farm Foods pantry items and baked goods.",
     "why": "A working farm's retail core built into real historic architecture, drawing people who plan trips around it.",
-    "factors": { "legacy": 65, "selection": 70, "experience": 85, "community": 50, "reach": 45, "destination": 70 },
+    "factors": {
+      "legacy": 65,
+      "selection": 70,
+      "experience": 85,
+      "community": 50,
+      "reach": 45,
+      "destination": 70
+    },
     "reach": "IG ~45K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.lospoblanos.com/farm-shop",
-    "handles": { "instagram": "https://instagram.com/lospoblanos" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/lospoblanos"
+    },
+    "warning": null,
+    "takeaway": "Go for lavender goods and pantry staples inside restored 1930s dairy barns on a historic lavender farm."
   },
   {
     "name": "Polyface Farm Store",
@@ -22,12 +32,20 @@
     "country": "US",
     "who": "On-farm store at Joel Salatin's regenerative farm, selling pastured meat, eggs and dairy direct from the pastures.",
     "why": "The farm store that put regenerative grazing and direct-farm retail on the map, made famous by The Omnivore's Dilemma and Food, Inc.",
-    "factors": { "legacy": 90, "selection": 75, "experience": 55, "community": 65, "reach": 40, "destination": 65 },
+    "factors": {
+      "legacy": 90,
+      "selection": 75,
+      "experience": 55,
+      "community": 65,
+      "reach": 40,
+      "destination": 65
+    },
     "reach": "IG ~25K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.polyfacefarm.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for pastured meat, eggs and dairy straight off the pastures Salatin made famous in The Omnivore's Dilemma."
   },
   {
     "name": "White Oak Pastures General Store",
@@ -37,12 +55,20 @@
     "country": "US",
     "who": "General store on a sixth-generation regenerative cattle ranch, selling the farm's own grass-fed beef, poultry and tallow soap on-site.",
     "why": "A pilgrimage site for the regenerative-agriculture movement, built around a documented zero-waste, whole-animal model.",
-    "factors": { "legacy": 80, "selection": 75, "experience": 70, "community": 60, "reach": 55, "destination": 70 },
+    "factors": {
+      "legacy": 80,
+      "selection": 75,
+      "experience": 70,
+      "community": 60,
+      "reach": 55,
+      "destination": 70
+    },
     "reach": "IG ~55K (approx 2026)",
     "reachVerified": false,
     "website": "https://whiteoakpastures.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "A regenerative-ranch general store — go for the farm's own grass-fed beef, poultry and tallow soap, made on-site."
   },
   {
     "name": "Shelburne Farms Farm Store & Welcome Center",
@@ -52,12 +78,20 @@
     "country": "US",
     "who": "Farm store on a historic 1,400-acre Lake Champlain estate turned nonprofit, selling farmhouse cheddar and maple syrup made on-site.",
     "why": "One of the oldest working-farm retail experiences in the US, pairing legacy architecture with hands-on food production.",
-    "factors": { "legacy": 85, "selection": 65, "experience": 80, "community": 55, "reach": 45, "destination": 75 },
+    "factors": {
+      "legacy": 85,
+      "selection": 65,
+      "experience": 80,
+      "community": 55,
+      "reach": 45,
+      "destination": 75
+    },
     "reach": "IG ~40K (approx 2026)",
     "reachVerified": false,
     "website": "https://shelburnefarms.org",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the farmhouse cheddar and maple syrup made right on this historic Lake Champlain estate."
   },
   {
     "name": "FARMshop",
@@ -67,12 +101,20 @@
     "country": "US",
     "who": "Bakery-and-market inside the 1948 Brentwood Country Mart, stocking curated organic produce, cheeses, chocolate and wine alongside its restaurant.",
     "why": "A market built directly into an LA architectural landmark, functioning as both grocer and neighborhood ritual.",
-    "factors": { "legacy": 55, "selection": 70, "experience": 80, "community": 60, "reach": 40, "destination": 65 },
+    "factors": {
+      "legacy": 55,
+      "selection": 70,
+      "experience": 80,
+      "community": 60,
+      "reach": 40,
+      "destination": 65
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.farmshopca.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for curated cheeses, chocolate and wine inside a 1948 LA architectural landmark that doubles as a neighborhood ritual."
   },
   {
     "name": "Mr Vitamins",
@@ -82,12 +124,20 @@
     "country": "AU",
     "who": "Independent Australian vitamin and supplement retailer since the 1970s, stocking supplements, sports nutrition and healthy foods.",
     "why": "A rare independent supplement retailer that outlasted chain competitors by building deep category expertise.",
-    "factors": { "legacy": 75, "selection": 70, "experience": 55, "community": 60, "reach": 35, "destination": 45 },
+    "factors": {
+      "legacy": 75,
+      "selection": 70,
+      "experience": 55,
+      "community": 60,
+      "reach": 35,
+      "destination": 45
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.mrvitamins.com.au",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for genuine supplement expertise — a rare independent that outlasted the chains on category knowledge alone."
   },
   {
     "name": "ZERO Market",
@@ -97,12 +147,20 @@
     "country": "US",
     "who": "Colorado's package-free grocery pioneer inside the Stanley Marketplace, stocking over 1,200 bulk and zero-waste pantry, body-care and cleaning goods since 2017.",
     "why": "One of the earliest and longest-running zero-waste grocery stores in the US, a model newer package-free shops point back to.",
-    "factors": { "legacy": 60, "selection": 65, "experience": 65, "community": 65, "reach": 35, "destination": 55 },
+    "factors": {
+      "legacy": 60,
+      "selection": 65,
+      "experience": 65,
+      "community": 65,
+      "reach": 35,
+      "destination": 55
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.thezeromarket.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for 1,200-plus package-free pantry, body-care and cleaning goods — one of the US's earliest zero-waste grocers."
   },
   {
     "name": "Nude Foods Market",
@@ -112,12 +170,20 @@
     "country": "US",
     "who": "Package-free grocery with Boulder and Denver storefronts, selling bulk pantry staples, produce and prepared meals in returnable glass jars.",
     "why": "Proves the package-free grocery model can work outside the biggest cities, with a returnable-jar system as its signature.",
-    "factors": { "legacy": 45, "selection": 60, "experience": 60, "community": 55, "reach": 30, "destination": 45 },
+    "factors": {
+      "legacy": 45,
+      "selection": 60,
+      "experience": 60,
+      "community": 55,
+      "reach": 30,
+      "destination": 45
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://nudefoodsmarket.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the returnable-glass-jar system proving package-free grocery works outside the biggest cities too."
   },
   {
     "name": "The Alchemist's Kitchen",
@@ -127,12 +193,20 @@
     "country": "US",
     "who": "SoHo apothecary and elixir bar selling herbal tinctures, medicinal mushrooms, CBD and wellness tonics, with in-house herbalist consultations.",
     "why": "Helped define the modern plant-medicine retail concept that later spread across US wellness culture.",
-    "factors": { "legacy": 55, "selection": 75, "experience": 80, "community": 55, "reach": 45, "destination": 60 },
+    "factors": {
+      "legacy": 55,
+      "selection": 75,
+      "experience": 80,
+      "community": 55,
+      "reach": 45,
+      "destination": 60
+    },
     "reach": "IG ~45K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.thealchemistskitchen.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for tinctures, medicinal mushrooms and an in-house herbalist consult at the shop that defined plant-medicine retail."
   },
   {
     "name": "Anima Mundi Apothecary",
@@ -142,12 +216,20 @@
     "country": "US",
     "who": "Herbal apothecary and tonic bar founded in Brooklyn, now with SoHo and Los Angeles locations, known for adaptogenic elixirs and vivid packaging.",
     "why": "One of the most photographed herbal apothecaries in the US, credited with mainstreaming the modern tonic-bar aesthetic.",
-    "factors": { "legacy": 45, "selection": 70, "experience": 80, "community": 50, "reach": 55, "destination": 60 },
+    "factors": {
+      "legacy": 45,
+      "selection": 70,
+      "experience": 80,
+      "community": 50,
+      "reach": 55,
+      "destination": 60
+    },
     "reach": "IG ~180K (approx 2026)",
     "reachVerified": false,
     "website": "https://animamundiherbals.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for adaptogenic elixirs in the vividly packaged apothecary that mainstreamed the whole tonic-bar aesthetic."
   },
   {
     "name": "Remedies Herb Shop",
@@ -157,12 +239,20 @@
     "country": "US",
     "who": "Small-batch herbal apothecary with Brooklyn and Woodstock, NY stores, curating loose organic herbs and tinctures from about 27 independent herbal makers.",
     "why": "A community-anchored herb shop that champions small US herbalists over mass-market supplement brands.",
-    "factors": { "legacy": 40, "selection": 65, "experience": 55, "community": 65, "reach": 20, "destination": 40 },
+    "factors": {
+      "legacy": 40,
+      "selection": 65,
+      "experience": 55,
+      "community": 65,
+      "reach": 20,
+      "destination": 40
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://remediesherbshop.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for loose organic herbs from about 27 small US herbalists, not mass-market supplement brands."
   },
   {
     "name": "The Goods Mart",
@@ -172,11 +262,19 @@
     "country": "US",
     "who": "A better-for-you corner-store concept in South Williamsburg stocking healthier snacks and drinks from independent, founder-led brands.",
     "why": "Reinvents the convenience store itself as health-food retail, a genuinely new format for the segment.",
-    "factors": { "legacy": 20, "selection": 55, "experience": 60, "community": 45, "reach": 30, "destination": 40 },
+    "factors": {
+      "legacy": 20,
+      "selection": 55,
+      "experience": 60,
+      "community": 45,
+      "reach": 30,
+      "destination": 40
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.thegoodsmart.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the convenience store reinvented as health-food retail — snacks from independent, founder-led brands."
   }
 ]

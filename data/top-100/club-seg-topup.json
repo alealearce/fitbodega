@@ -7,12 +7,22 @@
     "country": "US",
     "who": "LA nonprofit run/walk crew for people in recovery from substance use and homelessness, meets Mon/Thu.",
     "why": "Documentary and CNN Heroes coverage built a singular recovery-focused culture with real retention.",
-    "factors": { "legacy": 50, "community": 85, "reach": 35, "events": 70, "crossover": 85, "destination": 55 },
+    "factors": {
+      "legacy": 50,
+      "community": 85,
+      "reach": 35,
+      "events": 70,
+      "crossover": 85,
+      "destination": 55
+    },
     "reach": "IG 7.4K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/skidrowrunningclub" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/skidrowrunningclub"
+    },
+    "warning": null,
+    "takeaway": "Join the Monday or Thursday run/walk — a recovery-focused crew for people rebuilding from substance use and homelessness."
   },
   {
     "name": "Venice Run Club",
@@ -22,12 +32,22 @@
     "country": "US",
     "who": "LA (Venice/Abbot Kinney) community run club with near-daily meetups and its own race, the Abbot Kinney One.",
     "why": "Explosive 2024-26 growth, packed turnout, and partnerships with On, Oakley, Shokz and Barebells.",
-    "factors": { "legacy": 40, "community": 90, "reach": 55, "events": 85, "crossover": 85, "destination": 75 },
+    "factors": {
+      "legacy": 40,
+      "community": 90,
+      "reach": 55,
+      "events": 85,
+      "crossover": 85,
+      "destination": 75
+    },
     "reach": "IG 41.9K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/venicerunclub" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/venicerunclub"
+    },
+    "warning": null,
+    "takeaway": "Show up to near-daily meetups in Venice/Abbot Kinney, or run their own race, the Abbot Kinney One."
   },
   {
     "name": "Brooklyn Track Club",
@@ -37,12 +57,22 @@
     "country": "US",
     "who": "Brooklyn speed crew running Tuesday track sessions at McCarren Park, morning and evening.",
     "why": "Nike-linked track culture with regular time trials and a citywide speed-work reputation.",
-    "factors": { "legacy": 55, "community": 75, "reach": 45, "events": 75, "crossover": 70, "destination": 55 },
+    "factors": {
+      "legacy": 55,
+      "community": 75,
+      "reach": 45,
+      "events": 75,
+      "crossover": 70,
+      "destination": 55
+    },
     "reach": "IG 22.3K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/brooklyntrackclub" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/brooklyntrackclub"
+    },
+    "warning": null,
+    "takeaway": "Show up to Tuesday track sessions at McCarren Park, morning or evening, for speed work with the crew."
   },
   {
     "name": "Dashing Whippets",
@@ -52,12 +82,22 @@
     "country": "US",
     "who": "NYC running team with coached weekly runs, training plans, and a membership-based structure.",
     "why": "Established competitive-community hybrid running in NYC for well over a decade.",
-    "factors": { "legacy": 65, "community": 70, "reach": 35, "events": 65, "crossover": 55, "destination": 45 },
+    "factors": {
+      "legacy": 65,
+      "community": 70,
+      "reach": 35,
+      "events": 65,
+      "crossover": 55,
+      "destination": 45
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://dashingwhippets.org",
-    "handles": { "instagram": "https://instagram.com/dashingwhippets" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/dashingwhippets"
+    },
+    "warning": null,
+    "takeaway": "Join this membership-based NYC team for coached weekly runs and training plans."
   },
   {
     "name": "Latinos Run",
@@ -67,12 +107,24 @@
     "country": "US",
     "who": "National Latino-focused run community with local chapters and signature races (Dia de los Muertos 5K, Hispanic Heritage Month Run).",
     "why": "Strong cultural identity and a calendar of annual events that anchor its chapters.",
-    "factors": { "legacy": 55, "community": 75, "reach": 40, "events": 70, "crossover": 60, "destination": 50 },
+    "factors": {
+      "legacy": 55,
+      "community": 75,
+      "reach": 40,
+      "events": 70,
+      "crossover": 60,
+      "destination": 50
+    },
     "reach": "IG ~25K (approx 2026)",
     "reachVerified": false,
     "website": "https://latinosrun.com",
-    "handles": { "instagram": "https://instagram.com/latinosrun", "facebook": "https://www.facebook.com/groups/latinosrun", "twitter": "https://twitter.com/latinosrun_" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/latinosrun",
+      "facebook": "https://www.facebook.com/groups/latinosrun",
+      "twitter": "https://twitter.com/latinosrun_"
+    },
+    "warning": null,
+    "takeaway": "Find your local chapter, and circle the Dia de los Muertos 5K or Hispanic Heritage Month Run."
   },
   {
     "name": "Peace Runners 773",
@@ -82,12 +134,22 @@
     "country": "US",
     "who": "Westside Chicago nonprofit run/walk crew meeting Saturdays at the Gold Dome in Garfield Park, plus a Couch to 5K program.",
     "why": "Deep neighborhood roots and a health-equity mission most crews on this list don't carry.",
-    "factors": { "legacy": 45, "community": 80, "reach": 30, "events": 55, "crossover": 55, "destination": 35 },
+    "factors": {
+      "legacy": 45,
+      "community": 80,
+      "reach": 30,
+      "events": 55,
+      "crossover": 55,
+      "destination": 35
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://peacerunners773.com",
-    "handles": { "instagram": "https://instagram.com/peace_runners773" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/peace_runners773"
+    },
+    "warning": null,
+    "takeaway": "Show up Saturdays at the Gold Dome in Garfield Park for a run/walk, or start their Couch to 5K."
   },
   {
     "name": "WeRun313",
@@ -97,12 +159,22 @@
     "country": "US",
     "who": "Detroit's self-styled \"premier run club,\" weekly runs partnered with Gazelle Sports.",
     "why": "Verified growing following and a full calendar of local 5Ks and 8Ks.",
-    "factors": { "legacy": 45, "community": 75, "reach": 50, "events": 65, "crossover": 55, "destination": 45 },
+    "factors": {
+      "legacy": 45,
+      "community": 75,
+      "reach": 50,
+      "events": 65,
+      "crossover": 55,
+      "destination": 45
+    },
     "reach": "IG 30.6K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/werun313" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/werun313"
+    },
+    "warning": null,
+    "takeaway": "Join Detroit's weekly runs, partnered with Gazelle Sports, and its calendar of local 5Ks and 8Ks."
   },
   {
     "name": "Pioneers Run Crew",
@@ -112,12 +184,22 @@
     "country": "US",
     "who": "Boston run crew centering runners of color with regular weekly group runs.",
     "why": "A steady, known presence in Boston's diversity-in-running scene.",
-    "factors": { "legacy": 40, "community": 65, "reach": 32, "events": 55, "crossover": 45, "destination": 35 },
+    "factors": {
+      "legacy": 40,
+      "community": 65,
+      "reach": 32,
+      "events": 55,
+      "crossover": 45,
+      "destination": 35
+    },
     "reach": "IG ~6K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/pioneersruncrew" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/pioneersruncrew"
+    },
+    "warning": null,
+    "takeaway": "Join regular weekly group runs with this Boston crew centering runners of color."
   },
   {
     "name": "TrailblazHers Run Co.",
@@ -127,12 +209,22 @@
     "country": "US",
     "who": "Run collective for women and non-binary runners of color, founded in Boston with chapters in multiple US cities.",
     "why": "Real staffed org with mission programming and community activations beyond a single run.",
-    "factors": { "legacy": 45, "community": 70, "reach": 35, "events": 60, "crossover": 55, "destination": 40 },
+    "factors": {
+      "legacy": 45,
+      "community": 70,
+      "reach": 35,
+      "events": 60,
+      "crossover": 55,
+      "destination": 40
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://trailblazhersrunco.com",
-    "handles": { "instagram": "https://instagram.com/trailblazhersrunco" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/trailblazhersrunco"
+    },
+    "warning": null,
+    "takeaway": "Find a chapter in multiple US cities for this run collective for women and non-binary runners of color."
   },
   {
     "name": "Native Women Running",
@@ -142,12 +234,22 @@
     "country": "US",
     "who": "National running collective centering Indigenous women, founded by Verna Volker, with community organizing and advocacy.",
     "why": "A singular national voice with press features and brand collaborations beyond typical local reach.",
-    "factors": { "legacy": 45, "community": 65, "reach": 40, "events": 50, "crossover": 60, "destination": 35 },
+    "factors": {
+      "legacy": 45,
+      "community": 65,
+      "reach": 40,
+      "events": 50,
+      "crossover": 60,
+      "destination": 35
+    },
     "reach": "IG ~45K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/nativewomenrunning" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/nativewomenrunning"
+    },
+    "warning": null,
+    "takeaway": "Follow this national collective centering Indigenous women for community organizing, advocacy, and events beyond a local run."
   },
   {
     "name": "London City Runners",
@@ -157,12 +259,22 @@
     "country": "UK",
     "who": "Free-to-join London run club with Tue/Thu/Sun runs from Bermondsey and a Couch to 5K programme.",
     "why": "No brand funding, no membership fee, and still pulls strong regular turnout three times a week.",
-    "factors": { "legacy": 55, "community": 80, "reach": 45, "events": 75, "crossover": 55, "destination": 55 },
+    "factors": {
+      "legacy": 55,
+      "community": 80,
+      "reach": 45,
+      "events": 75,
+      "crossover": 55,
+      "destination": 55
+    },
     "reach": "IG ~30K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.londoncityrunners.com",
-    "handles": { "instagram": "https://instagram.com/londoncityrunners" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/londoncityrunners"
+    },
+    "warning": null,
+    "takeaway": "Join free Tuesday, Thursday or Sunday runs from Bermondsey, or start with their Couch to 5K programme."
   },
   {
     "name": "Serpentine Running Club",
@@ -172,12 +284,20 @@
     "country": "UK",
     "who": "One of London's largest running and triathlon clubs (1,000+ members), Hyde Park based with sessions across the city.",
     "why": "Decades-old institution with heavy weekly session volume and its own handicap race series.",
-    "factors": { "legacy": 75, "community": 80, "reach": 30, "events": 80, "crossover": 50, "destination": 45 },
+    "factors": {
+      "legacy": 75,
+      "community": 80,
+      "reach": 30,
+      "events": 80,
+      "crossover": 50,
+      "destination": 45
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.serpentine.org.uk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Join this 1,000-plus member club for sessions across the city, plus its own handicap race series."
   },
   {
     "name": "Chorlton Runners",
@@ -187,12 +307,22 @@
     "country": "UK",
     "who": "Manchester-area club spanning Chorlton, Whalley Range and Sale, with Sunday long runs and Tue/Fri sessions.",
     "why": "One of the largest clubs in the North West with genuine cross-suburb community.",
-    "factors": { "legacy": 55, "community": 70, "reach": 30, "events": 70, "crossover": 40, "destination": 35 },
+    "factors": {
+      "legacy": 55,
+      "community": 70,
+      "reach": 30,
+      "events": 70,
+      "crossover": 40,
+      "destination": 35
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://chorltonrunners.co.uk",
-    "handles": { "instagram": "https://instagram.com/chorltonrunners" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/chorltonrunners"
+    },
+    "warning": null,
+    "takeaway": "Join Sunday long runs or Tuesday/Friday sessions with this club spanning Chorlton, Whalley Range and Sale."
   },
   {
     "name": "Bournville Harriers",
@@ -202,12 +332,20 @@
     "country": "UK",
     "who": "Established Birmingham-area athletics club with regular weekly sessions and competitive teams.",
     "why": "Decades-long Midlands athletics institution with lasting local standing.",
-    "factors": { "legacy": 60, "community": 55, "reach": 30, "events": 60, "crossover": 35, "destination": 30 },
+    "factors": {
+      "legacy": 60,
+      "community": 55,
+      "reach": 30,
+      "events": 60,
+      "crossover": 35,
+      "destination": 30
+    },
     "reach": "IG ~4K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Join regular weekly sessions with this established Birmingham-area athletics club and its competitive teams."
   },
   {
     "name": "Advent Running",
@@ -217,12 +355,20 @@
     "country": "UK",
     "who": "London social run crew known for early sunrise group runs and pop-up sessions around the city.",
     "why": "Fast-growing name in London's crew scene, built on distinctive sunrise sessions.",
-    "factors": { "legacy": 35, "community": 65, "reach": 35, "events": 55, "crossover": 45, "destination": 40 },
+    "factors": {
+      "legacy": 35,
+      "community": 65,
+      "reach": 35,
+      "events": 55,
+      "crossover": 45,
+      "destination": 40
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Catch one of the early sunrise group runs or pop-up sessions around London with this fast-growing crew."
   },
   {
     "name": "Mikkeller Running Club",
@@ -232,11 +378,19 @@
     "country": "Denmark",
     "who": "Copenhagen-founded run-and-beer club with active chapters worldwide, weekly runs finishing at breweries.",
     "why": "A run/beer crossover format that spun up chapters in cities worldwide and drew mainstream press.",
-    "factors": { "legacy": 60, "community": 60, "reach": 40, "events": 60, "crossover": 70, "destination": 60 },
+    "factors": {
+      "legacy": 60,
+      "community": 60,
+      "reach": 40,
+      "events": 60,
+      "crossover": 70,
+      "destination": 60
+    },
     "reach": "IG ~35K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Find your city's chapter and run toward the finish line at a brewery — beer included."
   }
 ]

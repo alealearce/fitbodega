@@ -7,12 +7,20 @@
     "country": "UK",
     "who": "Independent organic grocer with four Bristol shops, each paired with its own cafe.",
     "why": "A fixture of Bristol's ethical-food scene since the early 2000s, known for the shop-plus-cafe format at every branch.",
-    "factors": { "legacy": 55, "selection": 65, "experience": 65, "community": 65, "reach": 40, "destination": 55 },
+    "factors": {
+      "legacy": 55,
+      "selection": 65,
+      "experience": 65,
+      "community": 65,
+      "reach": 40,
+      "destination": 55
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.betterfood.co.uk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the shop-plus-cafe format at every branch — a fixture of Bristol's ethical-food scene since the early 2000s."
   },
   {
     "name": "Wild Oats",
@@ -22,12 +30,20 @@
     "country": "UK",
     "who": "Long-running independent wholefoods shop in Bristol, trading since the 1970s-80s wholefood movement.",
     "why": "One of the older independent health-food shops still trading in a city famous for them.",
-    "factors": { "legacy": 70, "selection": 50, "experience": 35, "community": 55, "reach": 30, "destination": 40 },
+    "factors": {
+      "legacy": 70,
+      "selection": 50,
+      "experience": 35,
+      "community": 55,
+      "reach": 30,
+      "destination": 40
+    },
     "reach": "IG ~3K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for one of the oldest independent wholefood shops still trading in a city famous for them."
   },
   {
     "name": "Ruohonjuuri",
@@ -37,12 +53,20 @@
     "country": "Finland",
     "who": "Finland's leading health-food chain, trading since 1982, selling natural foods, supplements and organic cosmetics.",
     "why": "Set the template for health-food retail in Finland and still runs the country's widest store network in the category.",
-    "factors": { "legacy": 75, "selection": 70, "experience": 60, "community": 60, "reach": 45, "destination": 55 },
+    "factors": {
+      "legacy": 75,
+      "selection": 70,
+      "experience": 60,
+      "community": 60,
+      "reach": 45,
+      "destination": 55
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.ruohonjuuri.fi",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for Finland's widest health-food network — natural foods, supplements and organic cosmetics under one template."
   },
   {
     "name": "La Louve",
@@ -52,12 +76,20 @@
     "country": "France",
     "who": "Member-run food cooperative in the Park Slope Food Coop mold, open since 2016; members work shifts in exchange for low prices.",
     "why": "France's best-known food co-op, widely written up abroad as a working alternative to conventional grocery retail.",
-    "factors": { "legacy": 60, "selection": 55, "experience": 60, "community": 85, "reach": 45, "destination": 60 },
+    "factors": {
+      "legacy": 60,
+      "selection": 55,
+      "experience": 60,
+      "community": 85,
+      "reach": 45,
+      "destination": 60
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "France's best-known food co-op — go to see the Park-Slope-style work-a-shift-for-lower-prices model in action."
   },
   {
     "name": "BEES coop",
@@ -67,12 +99,20 @@
     "country": "Belgium",
     "who": "Member-owned cooperative supermarket in Brussels, open since 2015, run on volunteer member shifts.",
     "why": "Belgium's flagship food co-op and a reference point for the member-run grocery model in continental Europe.",
-    "factors": { "legacy": 55, "selection": 55, "experience": 55, "community": 85, "reach": 40, "destination": 50 },
+    "factors": {
+      "legacy": 55,
+      "selection": 55,
+      "experience": 55,
+      "community": 85,
+      "reach": 40,
+      "destination": 50
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Belgium's flagship food co-op — go to see the volunteer-shift model that defines member-run grocery in Europe."
   },
   {
     "name": "SuperBioMarkt",
@@ -82,12 +122,20 @@
     "country": "Germany",
     "who": "Regional organic supermarket chain headquartered in Munster, selling groceries, produce and household goods.",
     "why": "One of the established organic-supermarket names in western Germany, running for decades under one brand.",
-    "factors": { "legacy": 55, "selection": 55, "experience": 45, "community": 50, "reach": 35, "destination": 45 },
+    "factors": {
+      "legacy": 55,
+      "selection": 55,
+      "experience": 45,
+      "community": 50,
+      "reach": 35,
+      "destination": 45
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.superbiomarkt.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for an established western-German organic-supermarket name that's run under one brand for decades."
   },
   {
     "name": "Country Life",
@@ -97,12 +145,20 @@
     "country": "Czech Republic",
     "who": "Health-food store, bakery and vegetarian restaurant chain that says it was there when organic food first reached the Czech market; six shops plus restaurants and a cafe in and around Prague.",
     "why": "A pioneer of the Czech organic-food movement, still operating its original Old Town shop and restaurant today.",
-    "factors": { "legacy": 75, "selection": 55, "experience": 65, "community": 60, "reach": 35, "destination": 55 },
+    "factors": {
+      "legacy": 75,
+      "selection": 55,
+      "experience": 65,
+      "community": 60,
+      "reach": 35,
+      "destination": 55
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.countrylife.cz",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the original Old Town shop and restaurant that pioneered organic food reaching the Czech market."
   },
   {
     "name": "iCOOP Natural Dream",
@@ -112,12 +168,20 @@
     "country": "South Korea",
     "who": "Retail arm of iCOOP, South Korea's largest consumer cooperative federation, selling organic and natural foods to its member base.",
     "why": "Anchors one of Asia's biggest working consumer co-op networks, with a store finder pointing to dozens of member locations.",
-    "factors": { "legacy": 65, "selection": 55, "experience": 45, "community": 80, "reach": 40, "destination": 40 },
+    "factors": {
+      "legacy": 65,
+      "selection": 55,
+      "experience": 45,
+      "community": 80,
+      "reach": 40,
+      "destination": 40
+    },
     "reach": "IG ~30K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.icoop.or.kr",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see the retail face of one of Asia's biggest working consumer co-op networks."
   },
   {
     "name": "Leezen",
@@ -127,12 +191,20 @@
     "country": "Taiwan",
     "who": "Taiwanese organic and sustainable-goods retail chain (Chinese: Li Ren) run as a social enterprise, with stores island-wide.",
     "why": "One of Taiwan's most recognized organic grocery names, built explicitly around ethical sourcing rather than just product range.",
-    "factors": { "legacy": 60, "selection": 55, "experience": 45, "community": 55, "reach": 35, "destination": 40 },
+    "factors": {
+      "legacy": 60,
+      "selection": 55,
+      "experience": 45,
+      "community": 55,
+      "reach": 35,
+      "destination": 40
+    },
     "reach": "IG ~40K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.leezen.com.tw",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for ethical sourcing built into the business model, not just the product range, at Taiwan's known organic chain."
   },
   {
     "name": "Bin Inn",
@@ -142,12 +214,20 @@
     "country": "New Zealand",
     "who": "New Zealand bulk wholefoods chain with stores nationwide, trading over 35 years, built around fill-your-own-container bulk bins.",
     "why": "Pioneered the bulk-bin, low-packaging shopping format in New Zealand well before it became a trend elsewhere.",
-    "factors": { "legacy": 65, "selection": 55, "experience": 50, "community": 55, "reach": 35, "destination": 40 },
+    "factors": {
+      "legacy": 65,
+      "selection": 55,
+      "experience": 50,
+      "community": 55,
+      "reach": 35,
+      "destination": 40
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.bininn.co.nz",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for fill-your-own-container bulk bins — New Zealand's low-packaging pioneer, decades before it became a trend."
   },
   {
     "name": "Piko Wholefoods",
@@ -157,12 +237,20 @@
     "country": "New Zealand",
     "who": "Member-owned wholefoods cooperative store trading in Christchurch since the mid-1970s.",
     "why": "One of the longest-running food co-ops in New Zealand, still run on member ownership.",
-    "factors": { "legacy": 65, "selection": 50, "experience": 35, "community": 70, "reach": 30, "destination": 35 },
+    "factors": {
+      "legacy": 65,
+      "selection": 50,
+      "experience": 35,
+      "community": 70,
+      "reach": 30,
+      "destination": 35
+    },
     "reach": "IG ~2K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.piko.co.nz",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for one of New Zealand's longest-running food co-ops, still run entirely on member ownership."
   },
   {
     "name": "Paddock To Pantry",
@@ -172,12 +260,20 @@
     "country": "New Zealand",
     "who": "Family-run New Zealand grocer (formerly trading as Huckleberry) with two physical shops plus nationwide delivery.",
     "why": "A boutique NZ-owned grocer that rebranded but kept its curated, farm-forward wholefoods focus.",
-    "factors": { "legacy": 45, "selection": 50, "experience": 50, "community": 45, "reach": 35, "destination": 35 },
+    "factors": {
+      "legacy": 45,
+      "selection": 50,
+      "experience": 50,
+      "community": 45,
+      "reach": 35,
+      "destination": 35
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": "https://paddocktopantry.co.nz",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a curated, farm-forward wholefoods focus that survived this boutique grocer's rebrand from Huckleberry."
   },
   {
     "name": "Healthy Options",
@@ -187,12 +283,20 @@
     "country": "Philippines",
     "who": "Long-running Philippine health-food and supplement retail chain with mall-based stores nationwide.",
     "why": "The best-known name in Philippine health-food retail, built over decades of mall presence.",
-    "factors": { "legacy": 55, "selection": 50, "experience": 35, "community": 45, "reach": 40, "destination": 35 },
+    "factors": {
+      "legacy": 55,
+      "selection": 50,
+      "experience": 35,
+      "community": 45,
+      "reach": 40,
+      "destination": 35
+    },
     "reach": "IG ~50K (approx 2026)",
     "reachVerified": false,
     "website": "https://shop.healthyoptions.com.ph",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the best-known name in Philippine health-food retail, built on decades of mall presence."
   },
   {
     "name": "ThreeSixty",
@@ -202,12 +306,20 @@
     "country": "Hong Kong",
     "who": "Upscale organic supermarket chain in Hong Kong with several stores carrying imported organic and specialty goods.",
     "why": "The reference organic supermarket for Hong Kong's health-conscious and expat shoppers.",
-    "factors": { "legacy": 55, "selection": 65, "experience": 60, "community": 45, "reach": 40, "destination": 45 },
+    "factors": {
+      "legacy": 55,
+      "selection": 65,
+      "experience": 60,
+      "community": 45,
+      "reach": 40,
+      "destination": 45
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.threesixty.com.hk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the imported organic and specialty goods that make this Hong Kong's reference health-food supermarket."
   },
   {
     "name": "Angelic Organic Grocer",
@@ -217,12 +329,20 @@
     "country": "Australia",
     "who": "Melbourne health-food grocer and juice bar combining a wholefoods shop with a smoothie/juice counter.",
     "why": "A go-to stop for Melbourne's fitness and wellness crowd, more destination than plain grocery run.",
-    "factors": { "legacy": 40, "selection": 50, "experience": 65, "community": 55, "reach": 45, "destination": 55 },
+    "factors": {
+      "legacy": 40,
+      "selection": 50,
+      "experience": 65,
+      "community": 55,
+      "reach": 45,
+      "destination": 55
+    },
     "reach": "IG ~25K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the smoothie counter that makes this more destination than plain grocery run for Melbourne's fitness crowd."
   },
   {
     "name": "Fresh Earth Store",
@@ -232,11 +352,19 @@
     "country": "South Africa",
     "who": "Independent organic grocer and cafe in Johannesburg's Rosebank/Craighall area, running for over a decade.",
     "why": "One of Johannesburg's established organic-food destinations, combining a grocery with a sit-down cafe.",
-    "factors": { "legacy": 55, "selection": 50, "experience": 55, "community": 55, "reach": 35, "destination": 45 },
+    "factors": {
+      "legacy": 55,
+      "selection": 50,
+      "experience": 55,
+      "community": 55,
+      "reach": 35,
+      "destination": 45
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the sit-down cafe attached to one of Johannesburg's established organic-grocery destinations."
   }
 ]

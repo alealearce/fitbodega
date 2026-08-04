@@ -7,12 +7,22 @@
     "country": "US",
     "who": "4- and 7-night residential retreat: 4-6 hours of coached daily hiking, plant-based meals, no phones, capped at 20-24 guests; from ~$1,200/night.",
     "why": "The benchmark hiking-based transformation retreat since 2010; the format every later hiking bootcamp on this list copies, with a long, quiet celebrity guest history.",
-    "factors": { "program": 88, "prestige": 88, "facility": 62, "setting": 85, "reach": 30, "results": 82 },
+    "factors": {
+      "program": 88,
+      "prestige": 88,
+      "facility": 62,
+      "setting": 85,
+      "reach": 30,
+      "results": 82
+    },
     "reach": "IG 1.5K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.theranchlife.com/locations/malibu/",
-    "handles": { "instagram": "https://instagram.com/theranchmalibu" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/theranchmalibu"
+    },
+    "warning": null,
+    "takeaway": "Book 4 or 7 nights of daily coached hiking, no phones — a hard reset, not a relaxing spa stay."
   },
   {
     "name": "The Ranch Hudson Valley",
@@ -22,12 +32,20 @@
     "country": "US",
     "who": "East Coast sister of The Ranch Malibu, opened 2024: same 4- to 7-night guided-hiking, plant-based, digital-detox format an hour from NYC.",
     "why": "Extends The Ranch's proven hiking-retreat formula to the East Coast; fast becoming the default alternative for guests who can't get to Malibu.",
-    "factors": { "program": 84, "prestige": 66, "facility": 65, "setting": 78, "reach": 25, "results": 74 },
+    "factors": {
+      "program": 84,
+      "prestige": 66,
+      "facility": 65,
+      "setting": 78,
+      "reach": 25,
+      "results": 74
+    },
     "reach": "IG under 2K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.theranchlife.com/locations/hudson-valley/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book the same guided-hiking, digital-detox format as Ranch Malibu, just an hour from NYC — not a leisurely upstate trip."
   },
   {
     "name": "The Body Camp",
@@ -37,12 +55,22 @@
     "country": "ES",
     "who": "7-, 14-night and multi-week bootcamp in a rustic Ibizan countryside villa: boxing, circuits, TRX, hikes, ice baths, plant-forward meals; returned to Ibiza for 2026-2027 after runs in Mallorca.",
     "why": "Entering its 11th year under coach Ricki Parcell, one of Europe's longest-running transformation bootcamp brands, with a large following built on visible client results.",
-    "factors": { "program": 80, "prestige": 68, "facility": 55, "setting": 78, "reach": 60, "results": 68 },
+    "factors": {
+      "program": 80,
+      "prestige": 68,
+      "facility": 55,
+      "setting": 78,
+      "reach": 60,
+      "results": 68
+    },
     "reach": "IG 131K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://thebodycamp.com/",
-    "handles": { "instagram": "https://instagram.com/thebodycampofficial" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/thebodycampofficial"
+    },
+    "warning": null,
+    "takeaway": "Book a multi-week bootcamp of boxing, circuits and ice baths under a named coach — transformation, not a villa holiday."
   },
   {
     "name": "38 Degrees North",
@@ -52,12 +80,20 @@
     "country": "ES",
     "who": "3- to 6-night boutique fitness retreats at five-star hotels (Aguas de Ibiza, Six Senses Ibiza), plus periodic London pop-ups; short-break format for fast fitness resets.",
     "why": "Running since 2012 with a steady stream of UK wellness-industry awards (2025-2026), known for pairing serious daily training blocks with luxury hotel settings.",
-    "factors": { "program": 64, "prestige": 60, "facility": 68, "setting": 80, "reach": 30, "results": 55 },
+    "factors": {
+      "program": 64,
+      "prestige": 60,
+      "facility": 68,
+      "setting": 80,
+      "reach": 30,
+      "results": 55
+    },
     "reach": "IG under 10K (approx 2026)",
     "reachVerified": false,
     "website": "https://thirtyeightdegreesnorth.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book a short 3-to-6-night fitness reset at a luxury hotel — serious training blocks in a compressed break."
   },
   {
     "name": "Wildfitness",
@@ -67,12 +103,20 @@
     "country": "KE",
     "who": "Movement-and-nature retreats built around natural-movement training, beach and bush workouts, and deep-rest programming; runs seasonal retreats across the UK, Europe and its original Kenyan coast base.",
     "why": "One of the original 'ancestral fitness' retreat brands (25 years running), predating the natural-movement trend it helped popularize.",
-    "factors": { "program": 62, "prestige": 55, "facility": 45, "setting": 70, "reach": 30, "results": 50 },
+    "factors": {
+      "program": 62,
+      "prestige": 55,
+      "facility": 45,
+      "setting": 70,
+      "reach": 30,
+      "results": 50
+    },
     "reach": "IG under 5K (approx 2026)",
     "reachVerified": true,
     "website": "https://wildfitness.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book a seasonal retreat of natural-movement training and deep rest — ancestral fitness, not a gym camp."
   },
   {
     "name": "No1 Bootcamp",
@@ -82,12 +126,20 @@
     "country": "UK",
     "who": "Residential weight-loss and fitness camps, 15+ years running: 5-6 coached sessions a day, InBody body-composition scanning, chef-prepared meals; from ~£1,000/week.",
     "why": "The best-known year-round UK fat camp, now a 4-country operation off the original Norfolk site; regular UK press coverage of client transformations.",
-    "factors": { "program": 72, "prestige": 58, "facility": 55, "setting": 55, "reach": 45, "results": 62 },
+    "factors": {
+      "program": 72,
+      "prestige": 58,
+      "facility": 55,
+      "setting": 55,
+      "reach": 45,
+      "results": 62
+    },
     "reach": "IG 5-10K range (approx 2026, official handle unconfirmed)",
     "reachVerified": false,
     "website": "https://www.no1bootcamp.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for heavily coached weight-loss with body-composition scanning — a serious fat camp, not a light fitness break."
   },
   {
     "name": "Prestige Boot Camp",
@@ -97,12 +149,20 @@
     "country": "UK",
     "who": "Luxury weight-loss boot camp, established 2008, marketed as Europe's largest provider: intensive multi-session days aiming for 8-12 lbs lost per week.",
     "why": "Long-running, self-styled market leader in UK/European weight-loss boot camps, with a celebrity-fan page and steady Trustpilot review volume.",
-    "factors": { "program": 68, "prestige": 55, "facility": 50, "setting": 55, "reach": 30, "results": 58 },
+    "factors": {
+      "program": 68,
+      "prestige": 55,
+      "facility": 50,
+      "setting": 55,
+      "reach": 30,
+      "results": 58
+    },
     "reach": "under 5K across channels (approx 2026)",
     "reachVerified": false,
     "website": "https://www.prestigebootcamp.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for aggressive, multi-session weight-loss days aiming for fast pound-per-week results — intensive, not gentle."
   },
   {
     "name": "New You Boot Camp / New You Escapes",
@@ -112,12 +172,20 @@
     "country": "ES",
     "who": "All-inclusive fitness holidays (rebranding under 'New You Escapes'), averaging ~6 hours of exercise a day; from ~£633/week.",
     "why": "One of the original 2000s-era UK boot-camp-holiday operators, still trading nearly two decades on, now spanning Spain and UK venues.",
-    "factors": { "program": 60, "prestige": 45, "facility": 45, "setting": 62, "reach": 20, "results": 52 },
+    "factors": {
+      "program": 60,
+      "prestige": 45,
+      "facility": 45,
+      "setting": 62,
+      "reach": 20,
+      "results": 52
+    },
     "reach": "minimal (approx 2026)",
     "reachVerified": false,
     "website": "https://newyouescapes.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for around six hours of daily exercise at a budget weekly rate — volume-driven, not a boutique week."
   },
   {
     "name": "Boot Camp Marbella",
@@ -127,12 +195,22 @@
     "country": "ES",
     "who": "Year-round all-inclusive active holidays from a 4-star hotel base, training at Mike's Gym in Puerto Banus (ranked among Men's Health's top 10 world gyms) and on the Marbella Club beachfront.",
     "why": "Distinct from New You/Prestige, this operator's headline draw is training access to a genuinely elite gym facility rather than a generic outdoor circuit.",
-    "factors": { "program": 66, "prestige": 50, "facility": 62, "setting": 68, "reach": 30, "results": 55 },
+    "factors": {
+      "program": 66,
+      "prestige": 50,
+      "facility": 62,
+      "setting": 68,
+      "reach": 30,
+      "results": 55
+    },
     "reach": "IG 3.9K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://bootcamp-marbella.com/",
-    "handles": { "instagram": "https://instagram.com/bootcampmarbella" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/bootcampmarbella"
+    },
+    "warning": null,
+    "takeaway": "Book this for access to a genuinely top-ranked gym, not a generic outdoor bootcamp circuit."
   },
   {
     "name": "Northern Bootcamp",
@@ -142,12 +220,20 @@
     "country": "UK",
     "who": "Family-run residential weight-loss boot camp at the Golden Hill Retreat on the Northumberland coast: boxing, circuits, dune runs, coasteering, plus a dedicated Military Prep course for armed-forces fitness tests.",
     "why": "A well-reviewed regional UK operator with a genuine niche — its Military Prep program specifically trains candidates for Royal Marine, Army, Navy and RAF fitness entry standards.",
-    "factors": { "program": 62, "prestige": 40, "facility": 45, "setting": 62, "reach": 15, "results": 50 },
+    "factors": {
+      "program": 62,
+      "prestige": 40,
+      "facility": 45,
+      "setting": 62,
+      "reach": 15,
+      "results": 50
+    },
     "reach": "minimal (approx 2026)",
     "reachVerified": false,
     "website": "https://northernbootcamp.co.uk/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book the Military Prep course if you're training for armed-forces fitness tests — otherwise it's a regional boot camp."
   },
   {
     "name": "Tiger Muay Thai",
@@ -157,12 +243,22 @@
     "country": "TH",
     "who": "Stay-and-train Muay Thai/MMA camp with 150+ classes a week across fitness, yoga, BJJ, strength & conditioning and beach bootcamps; dorm rooms from ~6,000 baht/month up to bungalows.",
     "why": "The largest and most internationally recognized combat-sports training camp in the world, drawing fighters and fitness travelers from every continent year-round.",
-    "factors": { "program": 85, "prestige": 82, "facility": 78, "setting": 68, "reach": 68, "results": 68 },
+    "factors": {
+      "program": 85,
+      "prestige": 82,
+      "facility": 78,
+      "setting": 68,
+      "reach": 68,
+      "results": 68
+    },
     "reach": "IG 924K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.tigermuaythai.com/",
-    "handles": { "instagram": "https://instagram.com/tigermuaythai" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/tigermuaythai"
+    },
+    "warning": null,
+    "takeaway": "Go if you want to train like a fighter — 150+ weekly classes suit committed combat-sports travelers, not casual gym-goers."
   },
   {
     "name": "Unit 27",
@@ -172,12 +268,22 @@
     "country": "TH",
     "who": "Original strength-and-conditioning box on Phuket's 'Fitness Street': CrossFit, Olympic lifting, team endurance events, women-only strength classes, military-influenced coaching.",
     "why": "Founded the Phuket fitness-tourism scene that Titan and others later joined; still runs the island's benchmark CrossFit Open and monthly throwdown competitions.",
-    "factors": { "program": 78, "prestige": 60, "facility": 65, "setting": 65, "reach": 45, "results": 62 },
+    "factors": {
+      "program": 78,
+      "prestige": 60,
+      "facility": 65,
+      "setting": 65,
+      "reach": 45,
+      "results": 62
+    },
     "reach": "IG 47K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.unit-27.com/",
-    "handles": { "instagram": "https://instagram.com/unit27thailand" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/unit27thailand"
+    },
+    "warning": null,
+    "takeaway": "Go for serious CrossFit and Olympic lifting with real competitions on the calendar — hardcore training, not a wellness retreat."
   },
   {
     "name": "Titan Fitness Camp",
@@ -187,12 +293,22 @@
     "country": "TH",
     "who": "All-inclusive outdoor fitness camp since 2013: boot camp circuits, obstacle courses, Hyrox training, cycling and yoga, plus a 'Work Train Travel' package for remote workers.",
     "why": "A well-established Fitness Street anchor with the strongest facility build-out on the strip — indoor gym, pool, sauna, ice baths — for its price point.",
-    "factors": { "program": 72, "prestige": 52, "facility": 68, "setting": 65, "reach": 42, "results": 58 },
+    "factors": {
+      "program": 72,
+      "prestige": 52,
+      "facility": 68,
+      "setting": 65,
+      "reach": 42,
+      "results": 58
+    },
     "reach": "IG 20K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.titanfitnesscamp.com/",
-    "handles": { "instagram": "https://instagram.com/titanfitnessthailand" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/titanfitnessthailand"
+    },
+    "warning": null,
+    "takeaway": "Book this for Hyrox training and boot camp circuits with strong facilities — fitness camp, or work-and-train remote package."
   },
   {
     "name": "Phuket Cleanse",
@@ -202,12 +318,20 @@
     "country": "TH",
     "who": "All-inclusive detox-and-fitness retreat in a garden villa compound: bootcamps, Muay Thai, strength sessions and yoga paired with plant-based nutrition, infrared sauna and ice baths.",
     "why": "Fills the fitness-plus-detox niche in Phuket's crowded training-camp scene, with restorative facilities most pure bootcamps on the street don't offer.",
-    "factors": { "program": 65, "prestige": 48, "facility": 60, "setting": 68, "reach": 35, "results": 55 },
+    "factors": {
+      "program": 65,
+      "prestige": 48,
+      "facility": 60,
+      "setting": 68,
+      "reach": 35,
+      "results": 55
+    },
     "reach": "under 15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.wellbeingescapes.com/thailand-retreats/phuket-cleanse/278",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for bootcamp and Muay Thai training alongside detox and ice baths — training plus recovery, together."
   },
   {
     "name": "Mountain Trek Health Reset Retreat",
@@ -217,12 +341,22 @@
     "country": "CA",
     "who": "6- to 7-night hiking-based health reset in a glass-front timber lodge on Kootenay Lake: daily guided hikes, functional fitness, yoga, therapeutic massage, chef-prepared meals.",
     "why": "35+ years and 10,000+ guests running Canada's most decorated hiking retreat, self-styled and widely cited as the #1 rated health retreat in Canada.",
-    "factors": { "program": 76, "prestige": 62, "facility": 60, "setting": 82, "reach": 30, "results": 72 },
+    "factors": {
+      "program": 76,
+      "prestige": 62,
+      "facility": 60,
+      "setting": 82,
+      "reach": 30,
+      "results": 72
+    },
     "reach": "IG 6.6K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://mountaintrek.com/",
-    "handles": { "instagram": "https://instagram.com/mountaintrek" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/mountaintrek"
+    },
+    "warning": null,
+    "takeaway": "Book 6-7 nights of daily guided hikes and functional fitness by the lake — active reset, not a lodge holiday."
   },
   {
     "name": "The Ashram",
@@ -232,12 +366,22 @@
     "country": "US",
     "who": "Week-long residential program in the Santa Monica Mountains: sunrise yoga, daily hiking, fitness sessions, massage and plant-based meals; also runs international editions in Mallorca and Japan.",
     "why": "Founded more than 50 years ago and one of the earliest hiking-and-fitness retreats to attract a celebrity following (Cindy Crawford, Gwyneth Paltrow, Oprah have all attended).",
-    "factors": { "program": 74, "prestige": 78, "facility": 55, "setting": 78, "reach": 40, "results": 70 },
+    "factors": {
+      "program": 74,
+      "prestige": 78,
+      "facility": 55,
+      "setting": 78,
+      "reach": 40,
+      "results": 70
+    },
     "reach": "IG 10K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.theashram.com/",
-    "handles": { "instagram": "https://instagram.com/theashram" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/theashram"
+    },
+    "warning": null,
+    "takeaway": "Book a week of sunrise yoga, daily hiking and coached fitness — a demanding program, not a relaxed retreat."
   },
   {
     "name": "Bikini Bootcamp",
@@ -247,12 +391,22 @@
     "country": "MX",
     "who": "Women-only weeklong retreat at Amansala: beach walks, morning yoga, fitness classes, sculpting sessions, yin yoga and spa services, running continuously since the early 2000s.",
     "why": "One of the pioneer women's fitness-retreat brands that helped put Tulum on the wellness-travel map, still running multiple dated retreats every year.",
-    "factors": { "program": 55, "prestige": 55, "facility": 45, "setting": 75, "reach": 35, "results": 45 },
+    "factors": {
+      "program": 55,
+      "prestige": 55,
+      "facility": 45,
+      "setting": 75,
+      "reach": 35,
+      "results": 45
+    },
     "reach": "under 15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.bikinibootcamp.com/",
-    "handles": { "instagram": "https://instagram.com/bikinibootcamptulum" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/bikinibootcamptulum"
+    },
+    "warning": null,
+    "takeaway": "Book a women-only week of beach walks, sculpting and yin yoga — a longstanding format, not co-ed intensity."
   },
   {
     "name": "Live In Fitness",
@@ -262,12 +416,20 @@
     "country": "US",
     "who": "Residential weight-loss and body-transformation camp, 5-7 hours of daily coaching, customized meal plans and aftercare; from ~$3,490/week. Long-running Long Beach site also active; Hilton Head location closed.",
     "why": "29 years trusted by pro athletes and TV networks (Dr. Phil, The Doctors), with a celebrity client list including Jessica Biel, Chris Paul and Angela Bassett.",
-    "factors": { "program": 78, "prestige": 65, "facility": 55, "setting": 55, "reach": 25, "results": 75 },
+    "factors": {
+      "program": 78,
+      "prestige": 65,
+      "facility": 55,
+      "setting": 55,
+      "reach": 25,
+      "results": 75
+    },
     "reach": "minimal on IG (approx 2026)",
     "reachVerified": false,
     "website": "https://www.liveinfitness.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for intensive coached weight-loss and body transformation with aftercare — a serious camp, not a light retreat."
   },
   {
     "name": "Premier Fitness Camp",
@@ -277,11 +439,19 @@
     "country": "US",
     "who": "Adult weight-loss camp based at the Omni La Costa Resort: 4-5 hours of daily coached training at 3:1-4:1 client-to-coach ratios, behavioral-health and nutrition education; ~$6,000/week all-inclusive.",
     "why": "Leads its category on documented outcomes, citing UCSD-backed data on fat-loss-to-muscle-preservation ratios well above typical weight-loss-camp results.",
-    "factors": { "program": 82, "prestige": 55, "facility": 70, "setting": 62, "reach": 20, "results": 85 },
+    "factors": {
+      "program": 82,
+      "prestige": 55,
+      "facility": 70,
+      "setting": 62,
+      "reach": 20,
+      "results": 85
+    },
     "reach": "minimal (approx 2026)",
     "reachVerified": false,
     "website": "https://www.premierfitnesscamp.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book this for closely coached weight loss with documented outcomes data — a results-driven camp, not a casual fitness week."
   }
 ]

@@ -7,12 +7,22 @@
     "country": "CH",
     "who": "10,000 sqm alpine spa at the Bürgenstock Resort above Lake Lucerne; non-guests buy 4-hour or full-day passes online.",
     "why": "Cliff-top infinity pool and glass-walled saunas over Lake Lucerne make it one of Europe's largest and most photographed resort spas.",
-    "factors": { "legacy": 55, "experience": 80, "facility": 90, "community": 55, "reach": 65, "destination": 80 },
+    "factors": {
+      "legacy": 55,
+      "experience": 80,
+      "facility": 90,
+      "community": 55,
+      "reach": 65,
+      "destination": 80
+    },
     "reach": "IG 365K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://burgenstockresort.com/en/offers/buergenstock-alpine-spa-entrances",
-    "handles": { "instagram": "https://instagram.com/burgenstockresort" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/burgenstockresort"
+    },
+    "warning": null,
+    "takeaway": "Book a 4-hour or full-day pass online ahead — the cliff-top infinity pool over Lake Lucerne is the whole point."
   },
   {
     "name": "ESPA Life at Corinthia",
@@ -22,12 +32,22 @@
     "country": "GB",
     "who": "Three-floor, 20,000 sq ft basement spa under a five-star hotel; day-guest treatments plus a paid annual membership for repeat access.",
     "why": "Repeat winner of 'Best UK Spa' awards and the flagship showcase for the global ESPA brand.",
-    "factors": { "legacy": 45, "experience": 80, "facility": 85, "community": 55, "reach": 36, "destination": 65 },
+    "factors": {
+      "legacy": 45,
+      "experience": 80,
+      "facility": 85,
+      "community": 55,
+      "reach": 36,
+      "destination": 65
+    },
     "reach": "IG 11K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.corinthia.com/en-gb/london/spa-at-corinthia-london/",
-    "handles": { "instagram": "https://instagram.com/espalifeatcorinthia" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/espalifeatcorinthia"
+    },
+    "warning": null,
+    "takeaway": "Book a day-guest treatment first, then consider the annual membership if you want repeat access to this ESPA flagship."
   },
   {
     "name": "Talise Ottoman Spa",
@@ -37,12 +57,22 @@
     "country": "AE",
     "who": "8,200 sqm Ottoman-palace-style spa at Jumeirah Zabeel Saray on Palm Jumeirah, with 42 treatment rooms and separate hammams; day visitors book via treatments.",
     "why": "Built as a full-scale Ottoman palace replica and marketed as the largest spa in the Middle East.",
-    "factors": { "legacy": 35, "experience": 80, "facility": 90, "community": 50, "reach": 48, "destination": 70 },
+    "factors": {
+      "legacy": 35,
+      "experience": 80,
+      "facility": 90,
+      "community": 50,
+      "reach": 48,
+      "destination": 70
+    },
     "reach": "IG 41K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.jumeirah.com/en/stay/dubai/jumeirah-zabeel-saray/wellbeing/signature-talise-ottoman-spa",
-    "handles": { "instagram": "https://instagram.com/talisespa" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/talisespa"
+    },
+    "warning": null,
+    "takeaway": "Book a treatment to get in as a day visitor — the separate hammams sit inside a full Ottoman-palace replica."
   },
   {
     "name": "Bota Bota, spa-sur-l'eau",
@@ -52,12 +82,22 @@
     "country": "CA",
     "who": "A repurposed ferryboat moored in the Old Port with four decks of saunas, cold baths and an Aufguss ritual sauna; pure day-spa model, no lodging.",
     "why": "The only major spa built inside a boat, and an instant Montreal landmark with real bathing-culture etiquette.",
-    "factors": { "legacy": 40, "experience": 75, "facility": 90, "community": 70, "reach": 51, "destination": 65 },
+    "factors": {
+      "legacy": 40,
+      "experience": 75,
+      "facility": 90,
+      "community": 70,
+      "reach": 51,
+      "destination": 65
+    },
     "reach": "IG 54K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://botabota.ca/en/",
-    "handles": { "instagram": "https://instagram.com/botabotamtl" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/botabotamtl"
+    },
+    "warning": null,
+    "takeaway": "Work your way through all four decks of the boat — real sauna etiquette applies, and it's day-visit only, no lodging."
   },
   {
     "name": "Nordik Spa-Nature",
@@ -67,12 +107,22 @@
     "country": "CA",
     "who": "10 outdoor baths, 9 saunas and 4 restaurants on a forested hillside at the edge of Gatineau Park; walk-in day-spa model, no hotel attached.",
     "why": "Widely cited as the largest spa in North America, with a real thermotherapy-circuit culture among regulars.",
-    "factors": { "legacy": 35, "experience": 80, "facility": 85, "community": 65, "reach": 55, "destination": 65 },
+    "factors": {
+      "legacy": 35,
+      "experience": 80,
+      "facility": 85,
+      "community": 65,
+      "reach": 55,
+      "destination": 65
+    },
     "reach": "IG 102K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.nordikspa-nature.com/en/",
-    "handles": { "instagram": "https://instagram.com/nordikchelsea" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/nordikchelsea"
+    },
+    "warning": null,
+    "takeaway": "Follow the hot-cold thermotherapy circuit like the regulars do — walk-in day access only, no hotel attached."
   },
   {
     "name": "Scandinave Spa Whistler",
@@ -82,12 +132,22 @@
     "country": "CA",
     "who": "Outdoor Nordic thermal-circuit day spa in the forest outside Whistler village; walk-in/booked day access, no lodging on site.",
     "why": "The flagship of a small Canadian chain that popularized the hot-cold circuit format for North American ski towns.",
-    "factors": { "legacy": 35, "experience": 75, "facility": 70, "community": 60, "reach": 52, "destination": 55 },
+    "factors": {
+      "legacy": 35,
+      "experience": 75,
+      "facility": 70,
+      "community": 60,
+      "reach": 52,
+      "destination": 55
+    },
     "reach": "IG 71K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.scandinave.com/whistler",
-    "handles": { "instagram": "https://instagram.com/scandinavewhis" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/scandinavewhis"
+    },
+    "warning": null,
+    "takeaway": "Walk in or book ahead for the outdoor hot-cold circuit — day-visit only, no lodging, forest setting outside the village."
   },
   {
     "name": "The Oriental Spa, Mandarin Oriental Bangkok",
@@ -97,12 +157,22 @@
     "country": "TH",
     "who": "Riverside spa reached by private ferry across the Chao Phraya, inside a hotel operating since 1876; non-resident guests are welcomed by reservation.",
     "why": "Opened in 1993 as one of the first purpose-built luxury hotel spas in Asia and widely credited with defining the modern Asian resort-spa template.",
-    "factors": { "legacy": 75, "experience": 85, "facility": 85, "community": 55, "reach": 55, "destination": 75 },
+    "factors": {
+      "legacy": 75,
+      "experience": 85,
+      "facility": 85,
+      "community": 55,
+      "reach": 55,
+      "destination": 75
+    },
     "reach": "IG 102K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness/the-spa",
-    "handles": { "instagram": "https://instagram.com/mo_bangkok" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/mo_bangkok"
+    },
+    "warning": null,
+    "takeaway": "Book ahead as a non-resident guest and take the private ferry across the river — arriving is part of the ritual."
   },
   {
     "name": "The Peninsula Spa, Hong Kong",
@@ -112,12 +182,22 @@
     "country": "HK",
     "who": "Harbour-view spa atop a hotel operating since 1928, with separate male and female thermal areas; non-guests gain facility access by booking a treatment.",
     "why": "One of Asia's original grand-hotel spas, consistently ranked among the world's best hotel spas.",
-    "factors": { "legacy": 70, "experience": 80, "facility": 80, "community": 50, "reach": 53, "destination": 70 },
+    "factors": {
+      "legacy": 70,
+      "experience": 80,
+      "facility": 80,
+      "community": 50,
+      "reach": 53,
+      "destination": 70
+    },
     "reach": "IG 85K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.peninsula.com/en/hong-kong/wellness/luxury-hotel-spa",
-    "handles": { "instagram": "https://instagram.com/peninsulahongkong" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/peninsulahongkong"
+    },
+    "warning": null,
+    "takeaway": "Book a treatment as a non-guest to gain access — the harbour-view thermal areas are separated by gender."
   },
   {
     "name": "Tierra Santa Healing House",
@@ -127,12 +207,22 @@
     "country": "US",
     "who": "22,000 sq ft South-American-inspired wet spa on the Faena hotel's third floor with direct pool and beach access; day spa packages sold Monday-Thursday.",
     "why": "Faena's theatrical art-hotel setting makes this one of the most photographed spas in the US, built around a genuinely distinct healing-tradition concept.",
-    "factors": { "legacy": 30, "experience": 70, "facility": 85, "community": 50, "reach": 52, "destination": 65 },
+    "factors": {
+      "legacy": 30,
+      "experience": 70,
+      "facility": 85,
+      "community": 50,
+      "reach": 52,
+      "destination": 65
+    },
     "reach": "IG 67K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.faena.com/miami-beach/wellness/tierra-santa-healing-house",
-    "handles": { "instagram": "https://instagram.com/faenamiamibeach" },
-    "warning": "Day spa packages are advertised Monday-Thursday and historically restricted to Florida residents; confirm current terms before booking."
+    "handles": {
+      "instagram": "https://instagram.com/faenamiamibeach"
+    },
+    "warning": "Day spa packages are advertised Monday-Thursday and historically restricted to Florida residents; confirm current terms before booking.",
+    "takeaway": "Book a Monday-through-Thursday day package and confirm current terms — access has historically favored Florida residents."
   },
   {
     "name": "Dior Spa, Hôtel Plaza Athénée",
@@ -142,12 +232,20 @@
     "country": "FR",
     "who": "Ultra-private spa relaunched by Dior in 2023 inside a five-star hotel on Avenue Montaigne; access runs mainly through hotel guests and Dior clients, plus a weekly public evening ritual.",
     "why": "The most talked-about luxury hotel-spa reopening in Paris in years, a full couture-house takeover in the middle of the Golden Triangle.",
-    "factors": { "legacy": 40, "experience": 80, "facility": 90, "community": 40, "reach": 40, "destination": 70 },
+    "factors": {
+      "legacy": 40,
+      "experience": 80,
+      "facility": 90,
+      "community": 40,
+      "reach": 40,
+      "destination": 70
+    },
     "reach": "IG unverified — spa has no isolated handle from the hotel account (2026-08)",
     "reachVerified": false,
     "website": "https://www.dorchestercollection.com/paris/hotel-plaza-athenee/spa-wellness",
     "handles": {},
-    "warning": "Primarily hotel-guest and Dior-client access; public access is limited to the weekly 'Les Jeudis Étoilés' evening. Included for its cultural weight, but confirm current access terms before booking."
+    "warning": "Primarily hotel-guest and Dior-client access; public access is limited to the weekly 'Les Jeudis Étoilés' evening. Included for its cultural weight, but confirm current access terms before booking.",
+    "takeaway": "Unless you're a hotel guest or Dior client, your way in is the weekly Les Jeudis Étoilés evening — confirm first."
   },
   {
     "name": "AWAY Spa, W Dubai – The Palm",
@@ -157,12 +255,20 @@
     "country": "AE",
     "who": "Beach-club hotel spa on Palm Jumeirah; sells a daycation pass (around AED 599) bundling a 60-minute massage with sauna, pool and beach access.",
     "why": "One of the clearest day-access models in the Gulf, folding spa, beach and lounge culture into a single pass.",
-    "factors": { "legacy": 25, "experience": 65, "facility": 70, "community": 55, "reach": 35, "destination": 55 },
+    "factors": {
+      "legacy": 25,
+      "experience": 65,
+      "facility": 70,
+      "community": 55,
+      "reach": 35,
+      "destination": 55
+    },
     "reach": "IG unverified — AWAY Spa handle not isolated from the property account (2026-08)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Buy the daycation pass — it bundles a 60-minute massage with sauna, pool, and beach access in one clean package."
   },
   {
     "name": "The Spa at Gleneagles",
@@ -172,12 +278,22 @@
     "country": "GB",
     "who": "Spa inside a country-house hotel that opened in 1924; day spa packages (treatment, spa/health-club access, lunch) are sold to non-residents.",
     "why": "Anchor wellness offering of Scotland's most famous resort hotel, part of an estate identity built on golf, sport and hospitality history.",
-    "factors": { "legacy": 70, "experience": 70, "facility": 75, "community": 55, "reach": 38, "destination": 60 },
+    "factors": {
+      "legacy": 70,
+      "experience": 70,
+      "facility": 75,
+      "community": 55,
+      "reach": 38,
+      "destination": 60
+    },
     "reach": "IG unverified — @thegleneagleshotel not isolated to the spa (2026-08)",
     "reachVerified": false,
     "website": "https://gleneagles.com/spa-wellness/",
-    "handles": { "instagram": "https://instagram.com/thegleneagleshotel" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/thegleneagleshotel"
+    },
+    "warning": null,
+    "takeaway": "Book the full day-spa package with lunch — that bundle is how non-residents get into this 1924 estate spa."
   },
   {
     "name": "The Spa at Adare Manor",
@@ -187,12 +303,22 @@
     "country": "IE",
     "who": "Spa inside a restored 19th-century manor-house hotel; day spa packages exist but non-resident terms vary by season.",
     "why": "Ireland's most talked-about luxury-estate hotel, first in the country to offer 111SKIN treatments, riding a growing golf-and-wellness pilgrimage trade.",
-    "factors": { "legacy": 45, "experience": 65, "facility": 80, "community": 45, "reach": 62, "destination": 60 },
+    "factors": {
+      "legacy": 45,
+      "experience": 65,
+      "facility": 80,
+      "community": 45,
+      "reach": 62,
+      "destination": 60
+    },
     "reach": "IG 187K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.adaremanor.com/spa/",
-    "handles": { "instagram": "https://instagram.com/theadaremanor" },
-    "warning": "Day-spa terms are promotion-driven; confirm current non-resident access before booking."
+    "handles": {
+      "instagram": "https://instagram.com/theadaremanor"
+    },
+    "warning": "Day-spa terms are promotion-driven; confirm current non-resident access before booking.",
+    "takeaway": "Check current non-resident terms before booking — day-spa access to this manor-house spa runs on seasonal promotions."
   },
   {
     "name": "One&Only Spa, Cape Town",
@@ -202,12 +328,20 @@
     "country": "ZA",
     "who": "Thermal-suite hotel spa on the V&A Waterfront with 13 treatment suites; day visitors are welcomed with advance booking.",
     "why": "Anchor spa of one of Africa's most awarded resort hotels, with a recently reimagined thermal suite that drew strong press.",
-    "factors": { "legacy": 35, "experience": 70, "facility": 75, "community": 45, "reach": 38, "destination": 60 },
+    "factors": {
+      "legacy": 35,
+      "experience": 70,
+      "facility": 75,
+      "community": 45,
+      "reach": 38,
+      "destination": 60
+    },
     "reach": "IG unverified — spa handle not separate from the hotel account (2026-08)",
     "reachVerified": false,
     "website": "https://www.oneandonlyresorts.com/cape-town/wellness",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book the thermal suite in advance as a day visitor — it's the recently reimagined part that earned the press attention."
   },
   {
     "name": "Saxon Spa",
@@ -217,12 +351,22 @@
     "country": "ZA",
     "who": "Boutique hotel spa on a 10-acre Sandhurst estate that once housed Nelson Mandela while he wrote his autobiography; treatments bookable by day visitors.",
     "why": "The property's historical resonance plus a genuinely serene spa make it South Africa's best-known luxury-hotel spa.",
-    "factors": { "legacy": 50, "experience": 60, "facility": 70, "community": 45, "reach": 48, "destination": 55 },
+    "factors": {
+      "legacy": 50,
+      "experience": 60,
+      "facility": 70,
+      "community": 45,
+      "reach": 48,
+      "destination": 55
+    },
     "reach": "IG 41K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.saxon.co.za/",
-    "handles": { "instagram": "https://instagram.com/thesaxonhotel" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/thesaxonhotel"
+    },
+    "warning": null,
+    "takeaway": "Book a treatment as a day visitor and take in the history — Mandela once lived on this estate while writing."
   },
   {
     "name": "Ahín Wellness & Spa, Palacio Duhau",
@@ -232,12 +376,20 @@
     "country": "AR",
     "who": "Spa inside a restored 1930s family palace at the Park Hyatt Buenos Aires, with a 25-metre indoor pool and hydrotherapy room; day visitors accepted case by case through Hyatt's spa reservations.",
     "why": "South America's best-known grand-hotel spa, set inside a genuine early-20th-century palace in Recoleta.",
-    "factors": { "legacy": 55, "experience": 60, "facility": 80, "community": 40, "reach": 30, "destination": 55 },
+    "factors": {
+      "legacy": 55,
+      "experience": 60,
+      "facility": 80,
+      "community": 40,
+      "reach": 30,
+      "destination": 55
+    },
     "reach": "IG unverified — no dedicated spa account found (2026-08)",
     "reachVerified": false,
     "website": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/spa",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Call ahead through Hyatt's spa reservations as a day visitor — access is case-by-case, not a standing day-pass policy."
   },
   {
     "name": "The Standard Spa, Miami Beach",
@@ -247,12 +399,22 @@
     "country": "US",
     "who": "Waterfront hotel spa on a private mangrove-lined slip of Biscayne Bay; day/pool passes via ResortPass Monday-Thursday, hydrotherapy access with a spa-service minimum.",
     "why": "Defined mid-2000s wellness-forward Miami with its hammam, mud room and floating hot tub over the water — still one of the most photographed hotel spas in the US.",
-    "factors": { "legacy": 40, "experience": 65, "facility": 70, "community": 55, "reach": 38, "destination": 55 },
+    "factors": {
+      "legacy": 40,
+      "experience": 65,
+      "facility": 70,
+      "community": 55,
+      "reach": 38,
+      "destination": 55
+    },
     "reach": "IG 23K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.standardhotels.com/miami/properties/miami-beach",
-    "handles": { "instagram": "https://instagram.com/thestandardmiami" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/thestandardmiami"
+    },
+    "warning": null,
+    "takeaway": "Book a Monday-through-Thursday ResortPass and pair a treatment with hydrotherapy — the floating hot tub over water is the signature."
   },
   {
     "name": "QC NY (QC Terme)",
@@ -262,12 +424,20 @@
     "country": "US",
     "who": "Open-air Italian-style thermal spa built into a former army barracks on Governors Island; ticketed day access is the entire model, no hotel attached.",
     "why": "The first QC Terme spa outside Europe and the only outdoor pools open year-round in New York City, bringing the Italian bagni-termali day-spa format to the US.",
-    "factors": { "legacy": 30, "experience": 70, "facility": 75, "community": 50, "reach": 33, "destination": 55 },
+    "factors": {
+      "legacy": 30,
+      "experience": 70,
+      "facility": 75,
+      "community": 50,
+      "reach": 33,
+      "destination": 55
+    },
     "reach": "IG unverified — follower count not confirmed at verification time (2026-08)",
     "reachVerified": false,
     "website": "https://www.qcny.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book the day ticket — it's the only outdoor thermal pools open year-round in New York, no hotel attached."
   },
   {
     "name": "Kohler Waters Spa, The American Club",
@@ -277,12 +447,22 @@
     "country": "US",
     "who": "Forbes five-star spa inside a historic resort hotel built by the Kohler plumbing-fixture company; day-spa visitors are welcomed alongside resort guests.",
     "why": "The Midwest's reference luxury spa for two decades, tied to Kohler's design pedigree and a genuine American destination-spa institution.",
-    "factors": { "legacy": 45, "experience": 65, "facility": 65, "community": 45, "reach": 38, "destination": 45 },
+    "factors": {
+      "legacy": 45,
+      "experience": 65,
+      "facility": 65,
+      "community": 45,
+      "reach": 38,
+      "destination": 45
+    },
     "reach": "IG 27K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.kohlerwisconsin.com/wellness/kohler-water-spa",
-    "handles": { "instagram": "https://instagram.com/kohlerwatersspa" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/kohlerwatersspa"
+    },
+    "warning": null,
+    "takeaway": "Book as a day-spa visitor alongside resort guests — the design pedigree traces straight back to the Kohler company itself."
   },
   {
     "name": "Aman Spa Houses, Aman New York",
@@ -292,11 +472,21 @@
     "country": "US",
     "who": "Private Banya and Hammam 'Spa Houses' inside the landmark Crown Building; access is for hotel guests, residents and Aman Club members, with only occasional discretionary outside bookings.",
     "why": "The most architecturally distinct spa concept to open in New York in years, with genuine banya and hammam craft inside a landmark building.",
-    "factors": { "legacy": 30, "experience": 85, "facility": 85, "community": 35, "reach": 57, "destination": 60 },
+    "factors": {
+      "legacy": 30,
+      "experience": 85,
+      "facility": 85,
+      "community": 35,
+      "reach": 57,
+      "destination": 60
+    },
     "reach": "IG 123K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.aman.com/hotels/aman-new-york/wellness/spa-houses",
-    "handles": { "instagram": "https://instagram.com/amannewyork" },
-    "warning": "Access is restricted to hotel guests, residents and Aman Club members; outside bookings are discretionary and inconsistent. Included for its singular design, but this is genuinely close to guests-only — judge before ranking high."
+    "handles": {
+      "instagram": "https://instagram.com/amannewyork"
+    },
+    "warning": "Access is restricted to hotel guests, residents and Aman Club members; outside bookings are discretionary and inconsistent. Included for its singular design, but this is genuinely close to guests-only — judge before ranking high.",
+    "takeaway": "Access runs through hotel guests, residents, or Aman Club membership — outside bookings are rare and not guaranteed."
   }
 ]

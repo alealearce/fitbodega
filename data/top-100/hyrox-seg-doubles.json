@@ -6,12 +6,22 @@
     "country": "DE",
     "who": "Reigning Elite 15 world champion (2025) who also races Pro Doubles, taking doubles bronze with Viola Oberländer at the 2025 Worlds.",
     "why": "Follow her for a rare double threat: she wins in singles and podiums in doubles the same season.",
-    "factors": { "results": 92, "reach": 45, "content": 55, "momentum": 85, "crossover": 45, "longevity": 65 },
+    "factors": {
+      "results": 92,
+      "reach": 45,
+      "content": 55,
+      "momentum": 85,
+      "crossover": 45,
+      "longevity": 65
+    },
     "reach": "IG handle confirmed (@lindaaa.jm); follower count not verified (2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/lindaaa.jm/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/lindaaa.jm/"
+    },
+    "warning": null,
+    "takeaway": "Treat Hyrox as a serious second discipline alongside your day job — a title doesn't require training full-time."
   },
   {
     "name": "Tim Wenisch",
@@ -20,12 +30,22 @@
     "country": "DE",
     "who": "German Elite 15 racer who swept singles and Pro Doubles at the 2025 Chicago Worlds, then took the 2026 Stockholm Doubles title and the Men's Pro Doubles world record with Alexander Rončević.",
     "why": "The most decorated men's doubles racer active right now, and only 26.",
-    "factors": { "results": 95, "reach": 50, "content": 55, "momentum": 90, "crossover": 45, "longevity": 55 },
+    "factors": {
+      "results": 95,
+      "reach": 50,
+      "content": 55,
+      "momentum": 90,
+      "crossover": 45,
+      "longevity": 55
+    },
     "reach": "IG 54K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/tim_wenisch/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/tim_wenisch/"
+    },
+    "warning": null,
+    "takeaway": "Race both singles and doubles in the same season to build all-around fitness."
   },
   {
     "name": "Alexander Rončević",
@@ -34,12 +54,22 @@
     "country": "AT",
     "who": "Austrian Elite 15 world-record holder in singles who, with Tim Wenisch, won the 2026 Stockholm Doubles World Championship and set the Men's Pro Doubles world record (47:40) in London.",
     "why": "The most dominant all-around men's racer in the sport right now, singles and doubles both.",
-    "factors": { "results": 95, "reach": 60, "content": 60, "momentum": 90, "crossover": 55, "longevity": 60 },
+    "factors": {
+      "results": 95,
+      "reach": 60,
+      "content": 60,
+      "momentum": 90,
+      "crossover": 55,
+      "longevity": 60
+    },
     "reach": "IG 150K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/alexander.roncevic/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/alexander.roncevic/"
+    },
+    "warning": null,
+    "takeaway": "Train doubles and singles both — the crossover skills sharpen each other."
   },
   {
     "name": "Lauren Weeks",
@@ -48,12 +78,22 @@
     "country": "US",
     "who": "Three-time Hyrox World Champion (2020, 2021, 2023) who calls doubles her favorite format and won the 2026 Women's Pro Doubles title in Stockholm with Vivian Tafuto.",
     "why": "The most decorated woman in Hyrox history, still racing and still winning doubles titles as a mother.",
-    "factors": { "results": 95, "reach": 55, "content": 60, "momentum": 75, "crossover": 55, "longevity": 85 },
+    "factors": {
+      "results": 95,
+      "reach": 55,
+      "content": 60,
+      "momentum": 75,
+      "crossover": 55,
+      "longevity": 85
+    },
     "reach": "IG 68K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/lauren_e_weeks/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/lauren_e_weeks/"
+    },
+    "warning": null,
+    "takeaway": "Build a training approach that holds up across years, not just one peak season."
   },
   {
     "name": "Joanna Wietrzyk",
@@ -62,12 +102,22 @@
     "country": "AU",
     "who": "Australia's breakout Elite 15 racer, silver medalist in Women's Doubles at the 2025 Worlds, and with partner Jess Pettrow the Pro Doubles Women world-record holder.",
     "why": "22 years old, already the fastest woman in Hyrox in Australia, and the doubles world record makes her worth watching in both formats.",
-    "factors": { "results": 85, "reach": 55, "content": 50, "momentum": 90, "crossover": 40, "longevity": 40 },
+    "factors": {
+      "results": 85,
+      "reach": 55,
+      "content": 50,
+      "momentum": 90,
+      "crossover": 40,
+      "longevity": 40
+    },
     "reach": "IG 68K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/joannawietrzyk/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/joannawietrzyk/"
+    },
+    "warning": null,
+    "takeaway": "Chase consistency over one big result — repeat podiums beat a single win."
   },
   {
     "name": "Jake Dearden",
@@ -76,12 +126,22 @@
     "country": "GB",
     "who": "Former rugby player turned Red Bull hybrid-fitness athlete who won the 2024 Pro Doubles World Championship in Nice with Marc Dean.",
     "why": "The sport's biggest crossover name, a 681K-follower audience that pulls outsiders into doubles racing.",
-    "factors": { "results": 80, "reach": 60, "content": 75, "momentum": 60, "crossover": 85, "longevity": 75 },
+    "factors": {
+      "results": 80,
+      "reach": 60,
+      "content": 75,
+      "momentum": 60,
+      "crossover": 85,
+      "longevity": 75
+    },
     "reach": "IG 681K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/jakedearden_/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/jakedearden_/"
+    },
+    "warning": null,
+    "takeaway": "Keep racing yourself even after you start coaching — it keeps your advice honest."
   },
   {
     "name": "Marc Dean",
@@ -90,12 +150,22 @@
     "country": "GB",
     "who": "2024 Pro Doubles World Champion alongside Jake Dearden, and a Hyrox coach who breaks down doubles strategy for his own athletes.",
     "why": "A genuine doubles-title résumé plus a coaching voice aimed squarely at age-group doubles teams.",
-    "factors": { "results": 78, "reach": 35, "content": 55, "momentum": 45, "crossover": 35, "longevity": 55 },
+    "factors": {
+      "results": 78,
+      "reach": 35,
+      "content": 55,
+      "momentum": 45,
+      "crossover": 35,
+      "longevity": 55
+    },
     "reach": "IG 27K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/marcdean_/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/marcdean_/"
+    },
+    "warning": null,
+    "takeaway": "Study doubles-specific strategy explicitly — pairing tactics differ from solo racing and deserve separate practice."
   },
   {
     "name": "Megan Jacoby",
@@ -104,12 +174,20 @@
     "country": "US",
     "who": "2024 Hyrox World Champion in singles, rated among the sport's greatest female athletes, who has also raced and won Pro Doubles alongside Linda Meier.",
     "why": "A former world champion whose doubles pairing with Meier shows how the sport's top names cross divisions.",
-    "factors": { "results": 85, "reach": 35, "content": 50, "momentum": 45, "crossover": 55, "longevity": 70 },
+    "factors": {
+      "results": 85,
+      "reach": 35,
+      "content": 50,
+      "momentum": 45,
+      "crossover": 55,
+      "longevity": 70
+    },
     "reach": "IG handle unconfirmed; CNN and other mainstream press coverage (2026)",
     "reachVerified": false,
     "website": "https://megjacoby.com/",
     "handles": {},
-    "warning": "Did not return to the Elite 15 field in the 2025 or 2026 seasons per current search results."
+    "warning": "Did not return to the Elite 15 field in the 2025 or 2026 seasons per current search results.",
+    "takeaway": "Set one hard time goal, like breaking an hour, and structure training specifically around it."
   },
   {
     "name": "Celia Duff",
@@ -118,12 +196,20 @@
     "country": "GB",
     "who": "\"Badass Gran\" — retired doctor who took up Hyrox at 68 and became age-group world champion at 65-69 (2023) and 70-74 (2024/25), and holds the 70-74 world record.",
     "why": "Proof Hyrox has no age ceiling, and a joyful presence who has pulled thousands of older adults toward the sport.",
-    "factors": { "results": 40, "reach": 40, "content": 55, "momentum": 70, "crossover": 60, "longevity": 45 },
+    "factors": {
+      "results": 40,
+      "reach": 40,
+      "content": 55,
+      "momentum": 70,
+      "crossover": 60,
+      "longevity": 45
+    },
     "reach": "IG account active; follower count not confirmed in search; Women's Health and CNN coverage (2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "It's never too late to start — begin training in your 60s or 70s if you haven't yet."
   },
   {
     "name": "Alejandro Rojas-Marcos & Julio Paneque",
@@ -132,12 +218,20 @@
     "country": "ES",
     "who": "Former mayor of Sevilla, 85, and his partner Julio Paneque, 59 — combined age 144 — who won age-group doubles bronze at the 2026 Hyrox World Championships in Stockholm.",
     "why": "The most-shared age-group story of the 2026 season, and a case study in no upper age limit for Hyrox doubles.",
-    "factors": { "results": 38, "reach": 10, "content": 20, "momentum": 70, "crossover": 55, "longevity": 30 },
+    "factors": {
+      "results": 38,
+      "reach": 10,
+      "content": 20,
+      "momentum": 70,
+      "crossover": 55,
+      "longevity": 30
+    },
     "reach": "No social following found; Spanish and English press coverage only (2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Keep training and competing in doubles well into your seventies and eighties — age doesn't cap performance."
   },
   {
     "name": "Pete Langsjoen",
@@ -146,12 +240,20 @@
     "country": "US",
     "who": "Became a Hyrox world champion in the men's 75-79 age group at 77, training out of Life Time facilities in California.",
     "why": "A lifelong-training blueprint that shows the sport scales to any age, profiled in Experience Life magazine.",
-    "factors": { "results": 40, "reach": 10, "content": 20, "momentum": 55, "crossover": 40, "longevity": 30 },
+    "factors": {
+      "results": 40,
+      "reach": 10,
+      "content": 20,
+      "momentum": 55,
+      "crossover": 40,
+      "longevity": 30
+    },
     "reach": "No social presence found; Experience Life magazine profile only (2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Keep training consistently at a real facility into your seventies — routine, not age, decides your ceiling."
   },
   {
     "name": "Annie Reid",
@@ -160,12 +262,20 @@
     "country": "GB",
     "who": "75-year-old breast cancer survivor from Essex who raced solo at the 2026 Hyrox World Championships in Stockholm, finishing 12th in the women's 70-74 category, and aims to be the first woman to race solo at 80.",
     "why": "One of the sport's most-covered human-interest stories, pure grit with no following required.",
-    "factors": { "results": 30, "reach": 10, "content": 15, "momentum": 60, "crossover": 45, "longevity": 30 },
+    "factors": {
+      "results": 30,
+      "reach": 10,
+      "content": 15,
+      "momentum": 60,
+      "crossover": 45,
+      "longevity": 30
+    },
     "reach": "No social presence found; BBC, Yahoo Sports and Boxrox coverage only (2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Set a long-range goal and keep training toward it despite past setbacks like illness."
   },
   {
     "name": "David Wetherill",
@@ -174,12 +284,22 @@
     "country": "GB",
     "who": "British Paralympian (three Games in table tennis) turned Hyrox Adaptive ambassador, racing with mobility aids and helping shape the division's rules.",
     "why": "The face of Hyrox Adaptive — his 2025 Worlds moment, a spontaneous cheer circle at the final wall-ball station, defined the division.",
-    "factors": { "results": 45, "reach": 45, "content": 55, "momentum": 65, "crossover": 60, "longevity": 40 },
+    "factors": {
+      "results": 45,
+      "reach": 45,
+      "content": 55,
+      "momentum": 65,
+      "crossover": 60,
+      "longevity": 40
+    },
     "reach": "IG 37K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/wetherill.para.fit/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/wetherill.para.fit/"
+    },
+    "warning": null,
+    "takeaway": "Advocate for and help shape adaptive-division rules if you compete with mobility aids."
   },
   {
     "name": "Maurice Andre",
@@ -188,11 +308,21 @@
     "country": "DE",
     "who": "Paraplegic adaptive athlete, posting as @SCImotivation, who took up Hyrox after a paragliding accident and was named Hyrox's Inspirational Athlete of the Year 2024.",
     "why": "Advocacy-first content from Team Hyrox Allgäu that has opened the adaptive division to a wider audience.",
-    "factors": { "results": 40, "reach": 35, "content": 55, "momentum": 60, "crossover": 50, "longevity": 35 },
+    "factors": {
+      "results": 40,
+      "reach": 35,
+      "content": 55,
+      "momentum": 60,
+      "crossover": 50,
+      "longevity": 35
+    },
     "reach": "IG account active; follower count not confirmed in search (2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/scimotivation/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/scimotivation/"
+    },
+    "warning": null,
+    "takeaway": "Adapt your training to your body's real situation and share the process openly."
   }
 ]

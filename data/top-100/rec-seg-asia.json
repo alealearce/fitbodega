@@ -7,12 +7,20 @@
     "country": "KR",
     "who": "Department-store jjimjilbang with 18 hot-spring pools and 13 themed sauna rooms, walk-in day pass.",
     "why": "Korea's best-known modern bathhouse and the benchmark for jjimjilbang scale and design since 2009.",
-    "factors": { "legacy": 45, "experience": 85, "facility": 88, "community": 65, "reach": 45, "destination": 78 },
+    "factors": {
+      "legacy": 45,
+      "experience": 85,
+      "facility": 88,
+      "community": 65,
+      "reach": 45,
+      "destination": 78
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Get the walk-in day pass and work through the themed sauna rooms — this set the modern jjimjilbang template in 2009."
   },
   {
     "name": "Spa World Osaka",
@@ -22,12 +30,22 @@
     "country": "JP",
     "who": "24-hour hot-spring theme park with globally themed baths, rooftop water park, hotel and gym.",
     "why": "One of the world's largest bathing complexes and a signature Osaka wellness landmark.",
-    "factors": { "legacy": 55, "experience": 82, "facility": 90, "community": 55, "reach": 45, "destination": 75 },
+    "factors": {
+      "legacy": 55,
+      "experience": 82,
+      "facility": 90,
+      "community": 55,
+      "reach": 45,
+      "destination": 75
+    },
     "reach": "IG 14K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.spaworld.co.jp/english/",
-    "handles": { "instagram": "https://www.instagram.com/spaworld_jp/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/spaworld_jp/"
+    },
+    "warning": null,
+    "takeaway": "It's open 24 hours — treat it like a theme park and move through the globally themed baths."
   },
   {
     "name": "Solaniwa Onsen Osaka Bay Tower",
@@ -37,12 +55,20 @@
     "country": "JP",
     "who": "Garden-view hot-spring theme park with 9 bath types near Osaka Bay, walk-in day access.",
     "why": "A newer (2019) large-scale onsen resort praised for its landscaped bathing garden.",
-    "factors": { "legacy": 32, "experience": 72, "facility": 78, "community": 45, "reach": 40, "destination": 55 },
+    "factors": {
+      "legacy": 32,
+      "experience": 72,
+      "facility": 78,
+      "community": 45,
+      "reach": 40,
+      "destination": 55
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://solaniwa.com/en-us/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Walk in and work through the nine bath types — the landscaped garden setting is what people come back for."
   },
   {
     "name": "Spa LaQua",
@@ -52,12 +78,20 @@
     "country": "JP",
     "who": "Urban hot-spring spa inside Tokyo Dome City drawing natural spring water pumped from 1,700m underground.",
     "why": "A central-Tokyo onsen escape inside one of the city's biggest entertainment complexes.",
-    "factors": { "legacy": 45, "experience": 70, "facility": 80, "community": 50, "reach": 45, "destination": 68 },
+    "factors": {
+      "legacy": 45,
+      "experience": 70,
+      "facility": 80,
+      "community": 50,
+      "reach": 45,
+      "destination": 68
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://en.www.laqua.jp/spa/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Duck in mid-visit to Tokyo Dome City for the deep-pumped natural spring water — it's an onsen escape, not a detour."
   },
   {
     "name": "Thermae-Yu Shinjuku",
@@ -67,12 +101,20 @@
     "country": "JP",
     "who": "24-hour natural hot-spring sento in Kabukicho with carbonated baths, open-air onsen and saunas, no booking needed.",
     "why": "The go-to walk-in bathhouse for Shinjuku's nightlife district.",
-    "factors": { "legacy": 40, "experience": 68, "facility": 62, "community": 55, "reach": 40, "destination": 60 },
+    "factors": {
+      "legacy": 40,
+      "experience": 68,
+      "facility": 62,
+      "community": 55,
+      "reach": 40,
+      "destination": 60
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://thermae-yu.jp/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Just walk in, day or night — no booking needed, and the carbonated baths are worth seeking out first."
   },
   {
     "name": "Aquafield",
@@ -82,12 +124,22 @@
     "country": "KR",
     "who": "E-Land luxury jjimjilbang-meets-waterpark chain (Goyang, Hanam, Anseong) with Korea's longest infinity pool.",
     "why": "Redefined the Korean bathhouse as a design-forward day resort for families and couples.",
-    "factors": { "legacy": 30, "experience": 78, "facility": 85, "community": 55, "reach": 50, "destination": 62 },
+    "factors": {
+      "legacy": 30,
+      "experience": 78,
+      "facility": 85,
+      "community": 55,
+      "reach": 50,
+      "destination": 62
+    },
     "reach": "IG 17K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://aquafield.co.kr/",
-    "handles": { "instagram": "https://www.instagram.com/aquafield.official/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/aquafield.official/"
+    },
+    "warning": null,
+    "takeaway": "Come as a couple or family — it's a jjimjilbang built as a day resort, anchored by Korea's longest infinity pool."
   },
   {
     "name": "Cimer",
@@ -97,12 +149,22 @@
     "country": "KR",
     "who": "European-styled spa inside the Paradise City resort, blending jjimjilbang tradition with pool-party events.",
     "why": "The luxury-resort take on Korean bathhouse culture, steps from Incheon airport.",
-    "factors": { "legacy": 30, "experience": 75, "facility": 82, "community": 55, "reach": 48, "destination": 60 },
+    "factors": {
+      "legacy": 30,
+      "experience": 75,
+      "facility": 82,
+      "community": 55,
+      "reach": 48,
+      "destination": 60
+    },
     "reach": "IG 15K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.p-city.com/front/cimer/overview",
-    "handles": { "instagram": "https://www.instagram.com/pcitycimer/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/pcitycimer/"
+    },
+    "warning": null,
+    "takeaway": "Layer in a pool-party event if one's on — this blends traditional jjimjilbang bathing with resort-style poolside energy."
   },
   {
     "name": "King Spa & Sauna Dallas",
@@ -112,12 +174,22 @@
     "country": "US",
     "who": "Korean-inspired 24-hour spa and waterpark resort in the DFW suburbs, open since 2014.",
     "why": "The Texas anchor of the King Spa chain and a major hub for Korean-diaspora bath culture in the US South.",
-    "factors": { "legacy": 35, "experience": 70, "facility": 72, "community": 60, "reach": 48, "destination": 55 },
+    "factors": {
+      "legacy": 35,
+      "experience": 70,
+      "facility": 72,
+      "community": 60,
+      "reach": 48,
+      "destination": 55
+    },
     "reach": "IG 18K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://kingspa.com/dallas/",
-    "handles": { "instagram": "https://www.instagram.com/kingspadallas/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/kingspadallas/"
+    },
+    "warning": null,
+    "takeaway": "It runs 24 hours, so come off-peak if you want the Korean-diaspora bath culture without the waterpark crowds."
   },
   {
     "name": "King Spa & Sauna Chicago",
@@ -127,12 +199,22 @@
     "country": "US",
     "who": "Longtime Chicago-area Korean spa and sauna resort, sister property to the Dallas and LA locations.",
     "why": "One of the original US King Spa locations and a fixture of Chicago's Korean-American wellness scene.",
-    "factors": { "legacy": 40, "experience": 68, "facility": 68, "community": 58, "reach": 38, "destination": 48 },
+    "factors": {
+      "legacy": 40,
+      "experience": 68,
+      "facility": 68,
+      "community": 58,
+      "reach": 38,
+      "destination": 48
+    },
     "reach": "IG 8.6K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://kingspa.com/",
-    "handles": { "instagram": "https://www.instagram.com/kingspachicago/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/kingspachicago/"
+    },
+    "warning": null,
+    "takeaway": "Go as you would to a neighborhood fixture — this is one of the original King Spa locations, not a newcomer."
   },
   {
     "name": "Wi Spa",
@@ -142,12 +224,20 @@
     "country": "US",
     "who": "24-hour Koreatown jjimjilbang with five specialty sauna rooms, restaurant and full spa services.",
     "why": "LA's best-known Korean bathhouse, drawing a mixed, round-the-clock crowd.",
-    "factors": { "legacy": 42, "experience": 68, "facility": 65, "community": 62, "reach": 40, "destination": 55 },
+    "factors": {
+      "legacy": 42,
+      "experience": 68,
+      "facility": 65,
+      "community": 62,
+      "reach": 40,
+      "destination": 55
+    },
     "reach": "IG ~12K (approx 2026)",
     "reachVerified": false,
     "website": "https://wispausa.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "It's open around the clock — work through the five specialty sauna rooms whenever suits, day or night."
   },
   {
     "name": "Spa Castle New York",
@@ -157,12 +247,22 @@
     "country": "US",
     "who": "15+ year all-season spa resort in College Point with saunas, hydrotherapy pools, day spa, poolside bar and restaurants.",
     "why": "The East Coast's landmark Korean-style bath resort and a NYC weekend-escape institution.",
-    "factors": { "legacy": 45, "experience": 75, "facility": 80, "community": 62, "reach": 62, "destination": 68 },
+    "factors": {
+      "legacy": 45,
+      "experience": 75,
+      "facility": 80,
+      "community": 62,
+      "reach": 62,
+      "destination": 68
+    },
     "reach": "IG 62K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://ny.spacastleusa.com/",
-    "handles": { "instagram": "https://www.instagram.com/spacastlenewyork/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/spacastlenewyork/"
+    },
+    "warning": null,
+    "takeaway": "Treat it as a full weekend escape — hydrotherapy pools, saunas, and a poolside bar all in one day-spa visit."
   },
   {
     "name": "Spa Castle Texas",
@@ -172,12 +272,20 @@
     "country": "US",
     "who": "100,000-sq-ft bathhouse and wellness resort that reopened July 2026 after a $4.5M renovation.",
     "why": "A freshly rebuilt flagship for Korean bath culture in North Texas, with equipment sourced from Korea, Japan and Germany.",
-    "factors": { "legacy": 32, "experience": 72, "facility": 78, "community": 50, "reach": 45, "destination": 55 },
+    "factors": {
+      "legacy": 32,
+      "experience": 72,
+      "facility": 78,
+      "community": 50,
+      "reach": 45,
+      "destination": 55
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://tx.spacastleusa.com/",
     "handles": {},
-    "warning": "Reopened July 4, 2026 after a year-long renovation closure -- very new to its current form."
+    "warning": "Reopened July 4, 2026 after a year-long renovation closure -- very new to its current form.",
+    "takeaway": "It just reopened in July 2026 after renovation, so expect a genuinely fresh build, not a worn-in bathhouse."
   },
   {
     "name": "Yunomori Onsen & Spa",
@@ -187,12 +295,22 @@
     "country": "TH",
     "who": "Japanese-style onsen and spa chain (Sathorn, Sukhumvit, Pattaya) bringing communal hot-bath culture to Thailand.",
     "why": "Introduced authentic onsen bathing to Bangkok's wellness scene and remains its most recognizable Japanese-style bathhouse.",
-    "factors": { "legacy": 35, "experience": 68, "facility": 62, "community": 55, "reach": 50, "destination": 55 },
+    "factors": {
+      "legacy": 35,
+      "experience": 68,
+      "facility": 62,
+      "community": 55,
+      "reach": 50,
+      "destination": 55
+    },
     "reach": "IG 30K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.yunomorionsen.com/",
-    "handles": { "instagram": "https://www.instagram.com/yunomori_onsen/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/yunomori_onsen/"
+    },
+    "warning": null,
+    "takeaway": "Pick any branch for a proper communal onsen soak — this introduced authentic Japanese hot-bath culture to Bangkok."
   },
   {
     "name": "Yunomori Onsen & Spa Singapore",
@@ -202,12 +320,22 @@
     "country": "SG",
     "who": "Kallang Wave Mall branch of the Japanese onsen chain, with hot/cold baths, sauna and traditional Thai massage.",
     "why": "Singapore's main dedicated onsen bathhouse, filling a gap in the city-state's heat/water recovery options.",
-    "factors": { "legacy": 30, "experience": 65, "facility": 60, "community": 52, "reach": 45, "destination": 45 },
+    "factors": {
+      "legacy": 30,
+      "experience": 65,
+      "facility": 60,
+      "community": 52,
+      "reach": 45,
+      "destination": 45
+    },
     "reach": "IG 18K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://yunomorisg.com/",
-    "handles": { "instagram": "https://www.instagram.com/yunomori_sg/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/yunomori_sg/"
+    },
+    "warning": null,
+    "takeaway": "Head to the Kallang Wave Mall branch for the hot-cold bath circuit — it's Singapore's main dedicated onsen bathhouse."
   },
   {
     "name": "Let's Relax Spa",
@@ -217,12 +345,22 @@
     "country": "TH",
     "who": "Thailand's largest day-spa chain, with dozens of branches nationwide offering massage, herbal steam and body treatments.",
     "why": "The country's most recognizable mid-market spa brand and a byword for accessible Thai bodywork.",
-    "factors": { "legacy": 35, "experience": 62, "facility": 55, "community": 45, "reach": 45, "destination": 45 },
+    "factors": {
+      "legacy": 35,
+      "experience": 62,
+      "facility": 55,
+      "community": 45,
+      "reach": 45,
+      "destination": 45
+    },
     "reach": "IG 17K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://letsrelaxspa.com/",
-    "handles": { "instagram": "https://www.instagram.com/letsrelaxspa.official/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/letsrelaxspa.official/"
+    },
+    "warning": null,
+    "takeaway": "Pick any branch nationwide for reliable, accessible Thai massage and herbal steam — it's the mid-market standard, not a splurge."
   },
   {
     "name": "Health Land",
@@ -232,12 +370,22 @@
     "country": "TH",
     "who": "20+ year Thai massage and spa chain with multiple Bangkok, Pattaya and Chiang Mai branches, mid-market pricing.",
     "why": "The most-trusted volume Thai massage brand for locals and visitors alike, known for quality at low prices.",
-    "factors": { "legacy": 40, "experience": 60, "facility": 50, "community": 48, "reach": 38, "destination": 40 },
+    "factors": {
+      "legacy": 40,
+      "experience": 60,
+      "facility": 50,
+      "community": 48,
+      "reach": 38,
+      "destination": 40
+    },
     "reach": "IG 7.7K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.healthlandspa.com/",
-    "handles": { "instagram": "https://www.instagram.com/healthland.official/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/healthland.official/"
+    },
+    "warning": null,
+    "takeaway": "Walk into any branch for trusted, low-priced Thai massage — locals and visitors alike treat this as the reliable default."
   },
   {
     "name": "Wat Pho Thai Traditional Massage School",
@@ -247,12 +395,20 @@
     "country": "TH",
     "who": "Massage school and clinic inside the Wat Pho temple complex, offering public Thai massage and foot massage sessions.",
     "why": "The founding institution of traditional Thai massage, government-recognized since 1955 and rooted in the temple's centuries-old healing tradition.",
-    "factors": { "legacy": 90, "experience": 62, "facility": 60, "community": 55, "reach": 25, "destination": 80 },
+    "factors": {
+      "legacy": 90,
+      "experience": 62,
+      "facility": 60,
+      "community": 55,
+      "reach": 25,
+      "destination": 80
+    },
     "reach": "IG unconfirmed -- no verified follower count found (approx 2026)",
     "reachVerified": false,
     "website": "https://www.watpho.com/en/massage-school",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book a Thai massage or foot massage session at the temple clinic that founded the discipline, recognized since 1955."
   },
   {
     "name": "Longnaitang",
@@ -262,12 +418,20 @@
     "country": "TW",
     "who": "Beitou's oldest working public hot-spring bathhouse, a simple wooden communal bath open since 1907.",
     "why": "Taiwan's oldest continuously operating hot spring and the closest thing left to a century-old public bathing ritual.",
-    "factors": { "legacy": 92, "experience": 55, "facility": 50, "community": 60, "reach": 20, "destination": 55 },
+    "factors": {
+      "legacy": 92,
+      "experience": 55,
+      "facility": 50,
+      "community": 60,
+      "reach": 20,
+      "destination": 55
+    },
     "reach": "IG minimal (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Bathe communally in the plain wooden hall — this is Taiwan's oldest hot spring, running the same way since 1907."
   },
   {
     "name": "Hurshimchung (Heosimcheong Spa)",
@@ -277,12 +441,20 @@
     "country": "KR",
     "who": "Largest hot-spring spa in Asia (40+ baths, 3,000-person capacity) fed by the 1,300-year Dongnae geothermal spring.",
     "why": "Anchors Korea's oldest continuously used hot-spring district and remains the scale benchmark for hot-spring bathing in Asia.",
-    "factors": { "legacy": 78, "experience": 78, "facility": 82, "community": 58, "reach": 35, "destination": 62 },
+    "factors": {
+      "legacy": 78,
+      "experience": 78,
+      "facility": 82,
+      "community": 58,
+      "reach": 35,
+      "destination": 62
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the scale — 40-plus baths fed by a natural spring that's been flowing here for 1,300 years."
   },
   {
     "name": "No. 8 Hot Springs Club",
@@ -292,11 +464,19 @@
     "country": "CN",
     "who": "Chaoyang District 24-hour hot-spring bathhouse and lifestyle club with pools, saunas, dining and overnight sleep zones.",
     "why": "A representative modern Chinese bath palace / tangquan club, illustrating Beijing's thriving 24-hour bathhouse culture.",
-    "factors": { "legacy": 35, "experience": 60, "facility": 62, "community": 55, "reach": 20, "destination": 40 },
+    "factors": {
+      "legacy": 35,
+      "experience": 60,
+      "facility": 62,
+      "community": 55,
+      "reach": 20,
+      "destination": 40
+    },
     "reach": "IG minimal -- market runs on WeChat/Xiaohongshu, not Instagram (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a full overnight stay if you can — pools, saunas, dining, and sleep zones all run around the clock."
   }
 ]

@@ -6,12 +6,24 @@
     "country": "US",
     "who": "Actor and former pro wrestler who posts his own gym training to the largest audience of any human on Instagram.",
     "why": "His 4am gym sessions and Iron Paradise content move the culture on scale alone; backed by his own Project Rock apparel line and ZOA/Teremana drink brands.",
-    "factors": { "reach": 100, "engagement": 55, "credibility": 55, "impact": 85, "commerce": 90, "consistency": 85 },
+    "factors": {
+      "reach": 100,
+      "engagement": 55,
+      "credibility": 55,
+      "impact": 85,
+      "commerce": 90,
+      "consistency": 85
+    },
     "reach": "IG 382M · YT 6M+ (verified 2026-06, HypeAuditor/SocialBlade)",
     "reachVerified": true,
     "website": "https://projectrock.com",
-    "handles": { "instagram": "https://instagram.com/therock", "youtube": "https://youtube.com/@TheRock", "x": "https://x.com/TheRock" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/therock",
+      "youtube": "https://youtube.com/@TheRock",
+      "x": "https://x.com/TheRock"
+    },
+    "warning": null,
+    "takeaway": "Keep showing up to train even after you've made it — visible consistency is what people actually want to see."
   },
   {
     "name": "Chris Hemsworth",
@@ -20,12 +32,23 @@
     "country": "AU",
     "who": "Actor and founder of Centr, a training-and-nutrition app built on his own Thor-era fitness regimens.",
     "why": "Turned superhero body-prep into a subscription business millions of people actually train inside, not just watch.",
-    "factors": { "reach": 90, "engagement": 55, "credibility": 55, "impact": 80, "commerce": 85, "consistency": 80 },
+    "factors": {
+      "reach": 90,
+      "engagement": 55,
+      "credibility": 55,
+      "impact": 80,
+      "commerce": 85,
+      "consistency": 80
+    },
     "reach": "IG 58M (verified 2026-08, Instagram profile); Centr subscribers in the millions",
     "reachVerified": true,
     "website": "https://centr.com",
-    "handles": { "instagram": "https://instagram.com/chrishemsworth", "youtube": "https://youtube.com/@centr" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/chrishemsworth",
+      "youtube": "https://youtube.com/@centr"
+    },
+    "warning": null,
+    "takeaway": "Turn your own training routine into something people can actually follow, not just something they admire."
   },
   {
     "name": "Joe Rogan",
@@ -34,12 +57,24 @@
     "country": "US",
     "who": "Podcast host and BJJ black belt whose show constantly pulls fitness, strength, and longevity topics into mainstream conversation.",
     "why": "The Joe Rogan Experience is the biggest amplification engine in health/fitness media; a single episode can send a coach, diet, or supplement viral overnight.",
-    "factors": { "reach": 90, "engagement": 85, "credibility": 65, "impact": 85, "commerce": 65, "consistency": 90 },
+    "factors": {
+      "reach": 90,
+      "engagement": 85,
+      "credibility": 65,
+      "impact": 85,
+      "commerce": 65,
+      "consistency": 90
+    },
     "reach": "IG ~19.7M · YT ~21M (verified 2026-06/08, HypeAuditor/SocialBlade)",
     "reachVerified": true,
     "website": "https://joerogan.com",
-    "handles": { "instagram": "https://instagram.com/joerogan", "youtube": "https://youtube.com/@joerogan", "podcast": "The Joe Rogan Experience" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/joerogan",
+      "youtube": "https://youtube.com/@joerogan",
+      "podcast": "The Joe Rogan Experience"
+    },
+    "warning": null,
+    "takeaway": "Check a claim before repeating it to your audience — careless amplification spreads bad advice fast."
   },
   {
     "name": "Terry Crews",
@@ -48,12 +83,22 @@
     "country": "US",
     "who": "Actor and former NFL player known for a decades-long, visibly maintained bodybuilder physique.",
     "why": "Mainstream TV and film presence keeps an old-school bodybuilding aesthetic in front of a general audience that would never watch a bodybuilding channel.",
-    "factors": { "reach": 82, "engagement": 60, "credibility": 60, "impact": 55, "commerce": 35, "consistency": 80 },
+    "factors": {
+      "reach": 82,
+      "engagement": 60,
+      "credibility": 60,
+      "impact": 55,
+      "commerce": 35,
+      "consistency": 80
+    },
     "reach": "IG ~16M (verified 2026-08, SPEAKRJ/profile data)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/terrycrews" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/terrycrews"
+    },
+    "warning": null,
+    "takeaway": "Maintain a visible physique consistently across decades, not just for a single role or season."
   },
   {
     "name": "Mark Wahlberg",
@@ -62,12 +107,22 @@
     "country": "US",
     "who": "Actor and entrepreneur whose 2:30am-wake-up training routine became a recurring media story.",
     "why": "Backs it with real businesses: Municipal performance apparel and a significant stake in the F45 gym franchise chain.",
-    "factors": { "reach": 85, "engagement": 35, "credibility": 40, "impact": 70, "commerce": 75, "consistency": 75 },
+    "factors": {
+      "reach": 85,
+      "engagement": 35,
+      "credibility": 40,
+      "impact": 70,
+      "commerce": 75,
+      "consistency": 75
+    },
     "reach": "IG ~31M (verified 2026-08, SPEAKRJ/profile data)",
     "reachVerified": true,
     "website": "https://municipal.com",
-    "handles": { "instagram": "https://instagram.com/markwahlberg" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/markwahlberg"
+    },
+    "warning": null,
+    "takeaway": "Back a highly visible routine, like an early wake-up habit, with real business investment, not just talk."
   },
   {
     "name": "Sylvester Stallone",
@@ -76,12 +131,22 @@
     "country": "US",
     "who": "Actor whose Rocky/Rambo-era physique defined 1980s action-hero fitness and who still posts gym footage in his late 70s.",
     "why": "Periodic viral gym clips ('it gets harder and harder, that's why you gotta push') keep an older audience engaged with strength training as a lifelong habit.",
-    "factors": { "reach": 78, "engagement": 40, "credibility": 60, "impact": 65, "commerce": 30, "consistency": 45 },
+    "factors": {
+      "reach": 78,
+      "engagement": 40,
+      "credibility": 60,
+      "impact": 65,
+      "commerce": 30,
+      "consistency": 45
+    },
     "reach": "IG approx 13-14M (approx 2026, based on 2025 profile data)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/sylvesterstallone" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/sylvesterstallone"
+    },
+    "warning": null,
+    "takeaway": "Keep training visibly into old age — it shows strength training as a lifelong habit, not a young person's game."
   },
   {
     "name": "Joe Wicks",
@@ -90,12 +155,24 @@
     "country": "UK",
     "who": "The Body Coach, UK home-fitness personality who ran nationwide live PE lessons during the pandemic.",
     "why": "Turned a nation's living rooms into a gym class; still runs a paid app and bestselling cookbooks on the back of that trust.",
-    "factors": { "reach": 78, "engagement": 70, "credibility": 60, "impact": 80, "commerce": 70, "consistency": 80 },
+    "factors": {
+      "reach": 78,
+      "engagement": 70,
+      "credibility": 60,
+      "impact": 80,
+      "commerce": 70,
+      "consistency": 80
+    },
     "reach": "IG 4.7M · YT ~2.9M+ (verified 2026-05, HypeAuditor/CreatorDB)",
     "reachVerified": true,
     "website": "https://thebodycoach.com",
-    "handles": { "instagram": "https://instagram.com/thebodycoach", "youtube": "https://youtube.com/@thebodycoach", "tiktok": "https://tiktok.com/@joewicksthebodycoach" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/thebodycoach",
+      "youtube": "https://youtube.com/@thebodycoach",
+      "tiktok": "https://tiktok.com/@joewicksthebodycoach"
+    },
+    "warning": null,
+    "takeaway": "Make training free and accessible first — build trust before you ever ask for payment."
   },
   {
     "name": "Jillian Michaels",
@@ -104,12 +181,22 @@
     "country": "US",
     "who": "The Biggest Loser's tough-love trainer, still running her own fitness app and program business.",
     "why": "Defined the 2000s-2010s reality-TV transformation genre and put certified personal training in front of a mass audience.",
-    "factors": { "reach": 68, "engagement": 40, "credibility": 65, "impact": 70, "commerce": 60, "consistency": 55 },
+    "factors": {
+      "reach": 68,
+      "engagement": 40,
+      "credibility": 65,
+      "impact": 70,
+      "commerce": 60,
+      "consistency": 55
+    },
     "reach": "IG 1.85M (verified 2026-08, HypeAuditor)",
     "reachVerified": true,
     "website": "https://jillianmichaels.com",
-    "handles": { "instagram": "https://instagram.com/jillianmichaels" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/jillianmichaels"
+    },
+    "warning": null,
+    "takeaway": "Bring certified, structured coaching to a mass audience instead of just motivational talk."
   },
   {
     "name": "Tracy Anderson",
@@ -118,12 +205,22 @@
     "country": "US",
     "who": "Celebrity trainer behind the dance-cardio Tracy Anderson Method, longtime trainer to Gwyneth Paltrow and other A-listers.",
     "why": "Built a lasting studio-and-streaming business around a signature technique widely imitated across the celebrity-trainer space.",
-    "factors": { "reach": 62, "engagement": 45, "credibility": 55, "impact": 65, "commerce": 60, "consistency": 75 },
+    "factors": {
+      "reach": 62,
+      "engagement": 45,
+      "credibility": 55,
+      "impact": 65,
+      "commerce": 60,
+      "consistency": 75
+    },
     "reach": "IG ~1M + Studio 190K (verified 2026-08, Instagram profile data)",
     "reachVerified": true,
     "website": "https://tracyanderson.com",
-    "handles": { "instagram": "https://instagram.com/tracyandersonmethod" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/tracyandersonmethod"
+    },
+    "warning": null,
+    "takeaway": "Name your own training method and build both a studio and a streaming product around it."
   },
   {
     "name": "Harley Pasternak",
@@ -132,12 +229,23 @@
     "country": "CA",
     "who": "Canadian celebrity trainer and nutritionist with an MSc in exercise physiology, longtime trainer to pop stars and reality-TV names.",
     "why": "Regular mainstream media go-to on nutrition and exercise, with the 5-Factor Diet a genuine bestseller-era phenomenon.",
-    "factors": { "reach": 58, "engagement": 40, "credibility": 70, "impact": 60, "commerce": 55, "consistency": 75 },
+    "factors": {
+      "reach": 58,
+      "engagement": 40,
+      "credibility": 70,
+      "impact": 60,
+      "commerce": 55,
+      "consistency": 75
+    },
     "reach": "IG 456K (verified 2026-08, profile data)",
     "reachVerified": true,
     "website": "https://harleypasternak.com",
-    "handles": { "instagram": "https://instagram.com/harleypasternak", "x": "https://x.com/harleypasternak" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/harleypasternak",
+      "x": "https://x.com/harleypasternak"
+    },
+    "warning": null,
+    "takeaway": "Pair a real science credential with mainstream media appearances to reach beyond your own following."
   },
   {
     "name": "Don Saladino",
@@ -146,12 +254,23 @@
     "country": "US",
     "who": "Trainer behind the superhero physiques of Ryan Reynolds, Blake Lively, Hugh Jackman, and other Hollywood A-listers.",
     "why": "One of the most trusted names in actor body-prep, with a training app and podcast extending his reach past his private clients.",
-    "factors": { "reach": 58, "engagement": 55, "credibility": 70, "impact": 65, "commerce": 55, "consistency": 75 },
+    "factors": {
+      "reach": 58,
+      "engagement": 55,
+      "credibility": 70,
+      "impact": 65,
+      "commerce": 55,
+      "consistency": 75
+    },
     "reach": "IG 426K (verified 2026-08, profile data)",
     "reachVerified": true,
     "website": "https://donsaladino.com",
-    "handles": { "instagram": "https://instagram.com/donsaladino", "podcast": "Stronger with Don Saladino" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/donsaladino",
+      "podcast": "Stronger with Don Saladino"
+    },
+    "warning": null,
+    "takeaway": "Extend one-on-one coaching reach with a podcast or app so it isn't limited to private clients."
   },
   {
     "name": "Magnus Lygdback",
@@ -160,12 +279,22 @@
     "country": "SE",
     "who": "Swedish trainer behind Chris Hemsworth's Thor transformation and prep for Ben Affleck, Alicia Vikander, and other stars.",
     "why": "The Magnus Method turned superhero-prep training into a widely referenced methodology and app.",
-    "factors": { "reach": 55, "engagement": 45, "credibility": 65, "impact": 55, "commerce": 50, "consistency": 65 },
+    "factors": {
+      "reach": 55,
+      "engagement": 45,
+      "credibility": 65,
+      "impact": 55,
+      "commerce": 50,
+      "consistency": 65
+    },
     "reach": "IG 322K (verified 2026-08, profile data)",
     "reachVerified": true,
     "website": "https://magnusmethod.com",
-    "handles": { "instagram": "https://instagram.com/magnuslygdback" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/magnuslygdback"
+    },
+    "warning": null,
+    "takeaway": "Package a celebrity-training methodology into a named system and an app anyone can access."
   },
   {
     "name": "Lucy Wyndham-Read",
@@ -174,12 +303,23 @@
     "country": "UK",
     "who": "British fitness instructor known for low-impact, no-equipment home workouts aimed at beginners and older audiences.",
     "why": "Pioneered accessible workout content for a demographic most fitness media ignores, with strong international reach on YouTube.",
-    "factors": { "reach": 65, "engagement": 60, "credibility": 55, "impact": 55, "commerce": 40, "consistency": 75 },
+    "factors": {
+      "reach": 65,
+      "engagement": 60,
+      "credibility": 55,
+      "impact": 55,
+      "commerce": 40,
+      "consistency": 75
+    },
     "reach": "YT 1.96M · IG 242K (approx 2026, from public bio stats)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/lucywyndhamread", "youtube": "https://youtube.com/@lucywyndhamread" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/lucywyndhamread",
+      "youtube": "https://youtube.com/@lucywyndhamread"
+    },
+    "warning": null,
+    "takeaway": "Design workouts specifically for beginners and older audiences most fitness media ignores."
   },
   {
     "name": "Fraser Wilson",
@@ -188,12 +328,22 @@
     "country": "AU",
     "who": "Australian YouTuber known for viral home ab and core-focused workout videos.",
     "why": "Helped popularize the short, no-equipment home-workout video format that later dominated fitness YouTube and Shorts.",
-    "factors": { "reach": 65, "engagement": 65, "credibility": 45, "impact": 50, "commerce": 50, "consistency": 70 },
+    "factors": {
+      "reach": 65,
+      "engagement": 65,
+      "credibility": 45,
+      "impact": 50,
+      "commerce": 50,
+      "consistency": 70
+    },
     "reach": "YT 2M+ (approx 2026, 455M+ total views)",
     "reachVerified": false,
     "website": "https://fraserwilsonfitness.com",
-    "handles": { "youtube": "https://youtube.com/@FraserWilson" },
-    "warning": null
+    "handles": {
+      "youtube": "https://youtube.com/@FraserWilson"
+    },
+    "warning": null,
+    "takeaway": "Make workout videos short and equipment-free — brevity spreads further than long-form content."
   },
   {
     "name": "Jeremy Ethier",
@@ -202,12 +352,23 @@
     "country": "CA",
     "who": "Canadian kinesiologist-turned-YouTuber known for science-based lifting and training critique content.",
     "why": "Helped mainstream the 'science-based' fitness content wave, with a real 7-8 figure coaching program behind it.",
-    "factors": { "reach": 75, "engagement": 65, "credibility": 75, "impact": 70, "commerce": 65, "consistency": 80 },
+    "factors": {
+      "reach": 75,
+      "engagement": 65,
+      "credibility": 75,
+      "impact": 70,
+      "commerce": 65,
+      "consistency": 80
+    },
     "reach": "YT 7.8M · IG ~421K (verified 2026-08, HypeAuditor/vidIQ)",
     "reachVerified": true,
     "website": "https://builtwithscience.com",
-    "handles": { "instagram": "https://instagram.com/jeremyethier", "youtube": "https://youtube.com/@JeremyEthier" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/jeremyethier",
+      "youtube": "https://youtube.com/@JeremyEthier"
+    },
+    "warning": null,
+    "takeaway": "Turn credible, evidence-based content into an actual coaching product, not just more videos."
   },
   {
     "name": "MadFit (Maddie Lymburner)",
@@ -216,12 +377,23 @@
     "country": "CA",
     "who": "Canadian creator behind MadFit, one of the largest no-equipment, low-noise home-workout channels on YouTube.",
     "why": "Defined the quiet, apartment-friendly home workout format that exploded during the pandemic and never really faded.",
-    "factors": { "reach": 80, "engagement": 70, "credibility": 40, "impact": 70, "commerce": 45, "consistency": 75 },
+    "factors": {
+      "reach": 80,
+      "engagement": 70,
+      "credibility": 40,
+      "impact": 70,
+      "commerce": 45,
+      "consistency": 75
+    },
     "reach": "YT 11.1M · IG 2M+ · TT 378K (verified 2026-01/2026, builtbyfoundry/gb.youtubers.me)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/madfit.ig", "youtube": "https://youtube.com/@MadFit" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/madfit.ig",
+      "youtube": "https://youtube.com/@MadFit"
+    },
+    "warning": null,
+    "takeaway": "Keep home workouts quiet and equipment-free — removing noise and gear barriers grows a bigger audience."
   },
   {
     "name": "growingannanas (Anna Engelschall)",
@@ -230,12 +402,22 @@
     "country": "AT",
     "who": "Austrian creator known for glute-focused home and gym programs and a large 'Team Grow' community.",
     "why": "Mainstreamed the glute-training niche into a broad international audience with a real program business behind it.",
-    "factors": { "reach": 68, "engagement": 60, "credibility": 50, "impact": 55, "commerce": 55, "consistency": 70 },
+    "factors": {
+      "reach": 68,
+      "engagement": 60,
+      "credibility": 50,
+      "impact": 55,
+      "commerce": 55,
+      "consistency": 70
+    },
     "reach": "IG 1.7M (verified 2026-06, HypeAuditor)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/growingannanas" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/growingannanas"
+    },
+    "warning": null,
+    "takeaway": "Build a real community, not just followers, around one focused training niche."
   },
   {
     "name": "Kim French",
@@ -244,12 +426,22 @@
     "country": "UK",
     "who": "NASM-certified trainer known for a documented postpartum body-transformation story and glute-focused programming.",
     "why": "One of the mainstream faces of the 'mom transformation' fitness niche, with her own app and gear brand.",
-    "factors": { "reach": 68, "engagement": 45, "credibility": 45, "impact": 45, "commerce": 50, "consistency": 65 },
+    "factors": {
+      "reach": 68,
+      "engagement": 45,
+      "credibility": 45,
+      "impact": 45,
+      "commerce": 50,
+      "consistency": 65
+    },
     "reach": "IG 2M+ (approx 2026, public profile data)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/kimfrench87" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/kimfrench87"
+    },
+    "warning": null,
+    "takeaway": "Document your own transformation story honestly — it can become the foundation for an app or brand."
   },
   {
     "name": "Liver King (Brian Johnson)",
@@ -258,12 +450,22 @@
     "country": "US",
     "who": "Carnivore/ancestral-lifestyle influencer built around raw-organ eating and a hyper-muscular physique.",
     "why": "At his peak drove one of the biggest fitness-adjacent brand businesses (Ancestral Supplements) and defined the carnivore-aesthetic trend before the scandal.",
-    "factors": { "reach": 72, "engagement": 55, "credibility": 25, "impact": 60, "commerce": 75, "consistency": 40 },
+    "factors": {
+      "reach": 72,
+      "engagement": 55,
+      "credibility": 25,
+      "impact": 60,
+      "commerce": 75,
+      "consistency": 40
+    },
     "reach": "IG 2.9M (verified 2026, post-scandal profile reporting)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/liverking" },
-    "warning": "Publicly admitted in December 2022 to extensive steroid use after previously denying it for years while marketing an all-natural 'ancestral' persona; faced consumer lawsuits over the deception."
+    "handles": {
+      "instagram": "https://instagram.com/liverking"
+    },
+    "warning": "Publicly admitted in December 2022 to extensive steroid use after previously denying it for years while marketing an all-natural 'ancestral' persona; faced consumer lawsuits over the deception.",
+    "takeaway": "Tell the truth about what's actually behind your results — deception catches up and destroys trust fast."
   },
   {
     "name": "Kayla Itsines",
@@ -272,11 +474,20 @@
     "country": "AU",
     "who": "Australian trainer behind the Bikini Body Guide (BBG) and the Sweat training app.",
     "why": "BBG defined an entire era of women's fitness content and influencer marketing; Sweat became a major standalone business.",
-    "factors": { "reach": 80, "engagement": 50, "credibility": 55, "impact": 80, "commerce": 85, "consistency": 60 },
+    "factors": {
+      "reach": 80,
+      "engagement": 50,
+      "credibility": 55,
+      "impact": 80,
+      "commerce": 85,
+      "consistency": 60
+    },
     "reach": "IG approx 15M (approx 2026, based on prior verified profile scale)",
     "reachVerified": false,
     "website": "https://sweat.com",
-    "handles": { "instagram": "https://instagram.com/kayla_itsines" },
+    "handles": {
+      "instagram": "https://instagram.com/kayla_itsines"
+    },
     "warning": null
   },
   {
@@ -286,11 +497,22 @@
     "country": "US",
     "who": "Creator behind Blogilates and POPFLEX activewear, known for Pilates-inspired workouts and body-positive sizing advocacy.",
     "why": "15+ years of consistent output plus a genuine apparel brand; her TikTok sizing-transparency campaigns pushed real industry change.",
-    "factors": { "reach": 82, "engagement": 70, "credibility": 45, "impact": 70, "commerce": 70, "consistency": 85 },
+    "factors": {
+      "reach": 82,
+      "engagement": 70,
+      "credibility": 45,
+      "impact": 70,
+      "commerce": 70,
+      "consistency": 85
+    },
     "reach": "YT ~5.9M · IG ~2M · TT ~10M (approx 2026)",
     "reachVerified": false,
     "website": "https://popflex.com",
-    "handles": { "instagram": "https://instagram.com/blogilates", "youtube": "https://youtube.com/@blogilates", "tiktok": "https://tiktok.com/@blogilates" },
+    "handles": {
+      "instagram": "https://instagram.com/blogilates",
+      "youtube": "https://youtube.com/@blogilates",
+      "tiktok": "https://tiktok.com/@blogilates"
+    },
     "warning": null
   },
   {
@@ -300,11 +522,21 @@
     "country": "AU",
     "who": "Creator whose '2 Week Shred' and ab challenge videos became a global pandemic-era phenomenon.",
     "why": "The 'Chloe Ting Challenge' defined the home-workout-challenge format that millions copied worldwide, even as growth has cooled since its 2020-21 peak.",
-    "factors": { "reach": 84, "engagement": 45, "credibility": 35, "impact": 80, "commerce": 40, "consistency": 45 },
+    "factors": {
+      "reach": 84,
+      "engagement": 45,
+      "credibility": 35,
+      "impact": 80,
+      "commerce": 40,
+      "consistency": 45
+    },
     "reach": "YT approx 24M · IG approx 4M (approx 2026, down from pandemic peak)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/chloe_ting", "youtube": "https://youtube.com/@ChloeTing" },
+    "handles": {
+      "instagram": "https://instagram.com/chloe_ting",
+      "youtube": "https://youtube.com/@ChloeTing"
+    },
     "warning": null
   },
   {
@@ -314,11 +546,21 @@
     "country": "DE",
     "who": "German creator and one of Europe's largest home-workout personalities, also active in music.",
     "why": "Dominates the German/European home-fitness space with a large, loyal, mainstream-crossover audience.",
-    "factors": { "reach": 82, "engagement": 60, "credibility": 40, "impact": 60, "commerce": 45, "consistency": 75 },
+    "factors": {
+      "reach": 82,
+      "engagement": 60,
+      "credibility": 40,
+      "impact": 60,
+      "commerce": 45,
+      "consistency": 75
+    },
     "reach": "YT approx 10M · IG approx 9.3M (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/pamela_rf", "youtube": "https://youtube.com/@PamelaReif" },
+    "handles": {
+      "instagram": "https://instagram.com/pamela_rf",
+      "youtube": "https://youtube.com/@PamelaReif"
+    },
     "warning": null
   },
   {
@@ -328,12 +570,22 @@
     "country": "US",
     "who": "Dance-fitness trainer behind Beachbody's Insanity and T25 programs, a defining wave of 2010s home HIIT.",
     "why": "His DVD-and-streaming programs shaped a decade of home HIIT culture, even as Beachbody's own decline has cooled his current reach.",
-    "factors": { "reach": 62, "engagement": 40, "credibility": 55, "impact": 65, "commerce": 55, "consistency": 50 },
+    "factors": {
+      "reach": 62,
+      "engagement": 40,
+      "credibility": 55,
+      "impact": 65,
+      "commerce": 55,
+      "consistency": 50
+    },
     "reach": "IG approx 1.3M (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/shauntfit" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/shauntfit"
+    },
+    "warning": null,
+    "takeaway": "Don't let your reach depend entirely on one platform or distributor's success."
   },
   {
     "name": "Gunnar Peterson",
@@ -342,12 +594,22 @@
     "country": "US",
     "who": "Longtime celebrity and NBA-adjacent strength trainer, known for training the Kardashian-Jenner family and pro athletes.",
     "why": "25+ years of elite client results and constant mainstream media presence, even without a mass personal following of his own.",
-    "factors": { "reach": 58, "engagement": 35, "credibility": 65, "impact": 50, "commerce": 35, "consistency": 80 },
+    "factors": {
+      "reach": 58,
+      "engagement": 35,
+      "credibility": 65,
+      "impact": 50,
+      "commerce": 35,
+      "consistency": 80
+    },
     "reach": "IG approx 700K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/gunnarfitness" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/gunnarfitness"
+    },
+    "warning": null,
+    "takeaway": "Elite client results and media presence can build a career even without a huge personal following."
   },
   {
     "name": "Denise Austin",
@@ -356,11 +618,21 @@
     "country": "US",
     "who": "Pioneer of daytime-TV home fitness in the 1980s-90s, still active in fitness media today.",
     "why": "Foundational figure for the entire home-workout-video genre that every later creator on this list is descended from.",
-    "factors": { "reach": 50, "engagement": 30, "credibility": 55, "impact": 65, "commerce": 40, "consistency": 90 },
+    "factors": {
+      "reach": 50,
+      "engagement": 30,
+      "credibility": 55,
+      "impact": 65,
+      "commerce": 40,
+      "consistency": 90
+    },
     "reach": "IG approx 300K (approx 2026)",
     "reachVerified": false,
     "website": null,
-    "handles": { "instagram": "https://instagram.com/deniseaustin" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/deniseaustin"
+    },
+    "warning": null,
+    "takeaway": "Stay active in your field for decades — foundational figures earn respect long after the trend passes."
   }
 ]

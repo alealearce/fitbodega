@@ -7,12 +7,22 @@
     "country": "FI",
     "who": "Wood-fired public bathhouse open since 1906, the oldest running public sauna in Finland, pay-per-visit with separate men's and women's sides.",
     "why": "Barely changed in over a century; the reference point for the working-class Finnish public-sauna tradition.",
-    "factors": { "legacy": 92, "experience": 58, "facility": 55, "community": 85, "reach": 30, "destination": 55 },
+    "factors": {
+      "legacy": 92,
+      "experience": 58,
+      "facility": 55,
+      "community": 85,
+      "reach": 30,
+      "destination": 55
+    },
     "reach": "IG 1.9K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.rajaportinsauna.fi/sauna.en.html",
-    "handles": { "instagram": "https://www.instagram.com/rajaportinsauna/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/rajaportinsauna/"
+    },
+    "warning": null,
+    "takeaway": "Pay per visit and use the separate men's or women's side — it's run almost unchanged from Finland's working-class sauna past."
   },
   {
     "name": "Kotiharjun Sauna",
@@ -22,12 +32,22 @@
     "country": "FI",
     "who": "Helsinki's last wood-heated public courtyard sauna, running since 1928, open Tue-Sun afternoons, whisks and towels for rent.",
     "why": "The living link to Helsinki's vanished network of neighborhood saunas, still wood-fired and still open to anyone.",
-    "factors": { "legacy": 88, "experience": 60, "facility": 55, "community": 82, "reach": 30, "destination": 50 },
+    "factors": {
+      "legacy": 88,
+      "experience": 60,
+      "facility": 55,
+      "community": 82,
+      "reach": 30,
+      "destination": 50
+    },
     "reach": "IG 2.8K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.kotiharjunsauna.fi/",
-    "handles": { "instagram": "https://www.instagram.com/kotiharjunsauna/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/kotiharjunsauna/"
+    },
+    "warning": null,
+    "takeaway": "Go on a Tuesday-to-Sunday afternoon and rent a whisk — it's the last of Helsinki's old wood-heated courtyard saunas."
   },
   {
     "name": "Loyly",
@@ -37,12 +57,22 @@
     "country": "FI",
     "who": "Design-award-winning public sauna and restaurant on the Helsinki waterfront, timber-clad, walk-in and ticketed sessions, sea swimming off its own rocks.",
     "why": "The building that put contemporary Finnish sauna architecture on the world map and turned sauna-going into a destination outing.",
-    "factors": { "legacy": 55, "experience": 78, "facility": 90, "community": 65, "reach": 55, "destination": 78 },
+    "factors": {
+      "legacy": 55,
+      "experience": 78,
+      "facility": 90,
+      "community": 65,
+      "reach": 55,
+      "destination": 78
+    },
     "reach": "IG 49K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.loylyhelsinki.fi/en",
-    "handles": { "instagram": "https://www.instagram.com/loylyhelsinki/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/loylyhelsinki/"
+    },
+    "warning": null,
+    "takeaway": "Book a session, then swim off the rocks right outside — the sauna-and-sea-dip combo is the whole outing here."
   },
   {
     "name": "Allas Sea Pool",
@@ -52,12 +82,22 @@
     "country": "FI",
     "who": "Seaside lido in the harbor with three pools (seawater, warm, kids') plus sauna and cafe, open year-round with day tickets.",
     "why": "Central Helsinki's default sauna-and-swim social spot, floating right on the harbor water.",
-    "factors": { "legacy": 40, "experience": 68, "facility": 78, "community": 68, "reach": 45, "destination": 60 },
+    "factors": {
+      "legacy": 40,
+      "experience": 68,
+      "facility": 78,
+      "community": 68,
+      "reach": 45,
+      "destination": 60
+    },
     "reach": "IG 25K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.allaspool.fi/en/",
-    "handles": { "instagram": "https://www.instagram.com/allaspool/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/allaspool/"
+    },
+    "warning": null,
+    "takeaway": "Get a day ticket and cycle between the seawater, warm, and kids' pools plus the sauna and cafe."
   },
   {
     "name": "Kulttuurisauna",
@@ -67,12 +107,20 @@
     "country": "FI",
     "who": "Minimalist wood-heated public sauna on the water in Merihaka, opened 2012 by architect Tuomas Toivonen and designer Nene Tsuboi, ticketed, caps group size to keep it quiet.",
     "why": "The architects' sauna: a small, deliberately calm counterpoint to Helsinki's bigger wellness venues, praised worldwide for its design.",
-    "factors": { "legacy": 42, "experience": 70, "facility": 80, "community": 60, "reach": 30, "destination": 55 },
+    "factors": {
+      "legacy": 42,
+      "experience": 70,
+      "facility": 80,
+      "community": 60,
+      "reach": 30,
+      "destination": 55
+    },
     "reach": "IG unverified (2026)",
     "reachVerified": false,
     "website": "https://kulttuurisauna.fi/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Buy a ticket for a quiet session — group size is capped on purpose, so expect calm, not a social scene."
   },
   {
     "name": "Sompasauna",
@@ -82,12 +130,22 @@
     "country": "FI",
     "who": "Free, volunteer-run wood-heated sauna village on the Helsinki shore, open 24/7, no staff, no booking, bring your own wood and towel.",
     "why": "The purest expression of Finnish sauna as commons: no owner, no fee, self-policed sauna peace, copied by grassroots groups across Europe.",
-    "factors": { "legacy": 48, "experience": 55, "facility": 45, "community": 92, "reach": 40, "destination": 60 },
+    "factors": {
+      "legacy": 48,
+      "experience": 55,
+      "facility": 45,
+      "community": 92,
+      "reach": 40,
+      "destination": 60
+    },
     "reach": "IG 11K (verified 2026-08)",
     "reachVerified": true,
     "website": null,
-    "handles": { "instagram": "https://www.instagram.com/sompasauna/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/sompasauna/"
+    },
+    "warning": null,
+    "takeaway": "Bring your own wood and towel — there's no staff, no booking, and no fee, just self-policed sauna etiquette."
   },
   {
     "name": "Hellasgarden",
@@ -97,12 +155,22 @@
     "country": "SE",
     "who": "Lakeside outdoor recreation area since the 1930s with wood-fired sauna huts, cold plunge, and a rowdy after-work sauna scene, day access and membership options.",
     "why": "Stockholm's oldest and most devoted sauna-and-lake club, where the after-work crowd has run its own rituals for decades.",
-    "factors": { "legacy": 72, "experience": 60, "facility": 55, "community": 80, "reach": 30, "destination": 45 },
+    "factors": {
+      "legacy": 72,
+      "experience": 60,
+      "facility": 55,
+      "community": 80,
+      "reach": 30,
+      "destination": 45
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": true,
     "website": "https://hellasgarden.se/en/",
-    "handles": { "instagram": "https://www.instagram.com/hellasgarden/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/hellasgarden/"
+    },
+    "warning": null,
+    "takeaway": "Go after work like the regulars — this lakeside sauna-and-plunge club has run its own rowdy rituals since the 1930s."
   },
   {
     "name": "KOK Oslo",
@@ -112,12 +180,22 @@
     "country": "NO",
     "who": "Architect-designed floating saunas moored at Aker Brygge and Langkaia in the Oslo fjord, book-by-the-hour, wood-fired with fjord-water plunges.",
     "why": "The venue that turned floating sauna into an Oslo institution and a template copied around the Nordics.",
-    "factors": { "legacy": 40, "experience": 72, "facility": 82, "community": 70, "reach": 42, "destination": 65 },
+    "factors": {
+      "legacy": 40,
+      "experience": 72,
+      "facility": 82,
+      "community": 70,
+      "reach": 42,
+      "destination": 65
+    },
     "reach": "IG 23K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://koknorge.no/en/",
-    "handles": { "instagram": "https://www.instagram.com/kokoslo.no/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/kokoslo.no/"
+    },
+    "warning": null,
+    "takeaway": "Book a floating sauna by the hour and plunge straight into the fjord between rounds — that's the whole ritual."
   },
   {
     "name": "Oslo Badstuforening",
@@ -127,12 +205,22 @@
     "country": "NO",
     "who": "Non-profit sauna association running a fleet of named floating saunas (Maken, Stampen, Skarven, Havornen, Anda, Trosten) across the Oslo fjord, single tickets or membership, one fully wheelchair-accessible raft.",
     "why": "Built the fjord's floating-sauna network as a public-good project rather than a single luxury venue, scaling the format city-wide.",
-    "factors": { "legacy": 42, "experience": 70, "facility": 75, "community": 78, "reach": 40, "destination": 60 },
+    "factors": {
+      "legacy": 42,
+      "experience": 70,
+      "facility": 75,
+      "community": 78,
+      "reach": 40,
+      "destination": 60
+    },
     "reach": "IG 13.8K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://oslobadstuforening.no/en/home/",
-    "handles": { "instagram": "https://www.instagram.com/oslobadstuforening/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/oslobadstuforening/"
+    },
+    "warning": null,
+    "takeaway": "Buy a single ticket or join as a member — it's a non-profit fleet of named saunas across the fjord."
   },
   {
     "name": "Therme Erding",
@@ -142,12 +230,22 @@
     "country": "DE",
     "who": "The world's largest thermal spa complex, multiple sauna villages, Aufguss shows, water park, day tickets and multi-day passes.",
     "why": "Sheer scale defines it: no other thermal complex on earth packs in this much sauna, water, and staged Aufguss ritual under one roof.",
-    "factors": { "legacy": 45, "experience": 85, "facility": 95, "community": 55, "reach": 65, "destination": 78 },
+    "factors": {
+      "legacy": 45,
+      "experience": 85,
+      "facility": 95,
+      "community": 55,
+      "reach": 65,
+      "destination": 78
+    },
     "reach": "IG 375K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.therme-erding.de/en/",
-    "handles": { "instagram": "https://www.instagram.com/thermeerding/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/thermeerding/"
+    },
+    "warning": null,
+    "takeaway": "Plan a full day and catch a staged Aufguss show — the sauna villages' scale is the whole point."
   },
   {
     "name": "vabali spa Berlin",
@@ -157,12 +255,22 @@
     "country": "DE",
     "who": "Balinese-themed wellness resort with 13 saunas and steam baths, pools, a large sauna garden, and fireplace rooms, day-ticket access.",
     "why": "Berlin's biggest and most photographed sauna resort, credited with popularizing large-format Aufguss culture in the city.",
-    "factors": { "legacy": 40, "experience": 80, "facility": 85, "community": 55, "reach": 62, "destination": 68 },
+    "factors": {
+      "legacy": 40,
+      "experience": 80,
+      "facility": 85,
+      "community": 55,
+      "reach": 62,
+      "destination": 68
+    },
     "reach": "IG 287K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.vabali.de/en/berlin/",
-    "handles": { "instagram": "https://www.instagram.com/vabalispa_official/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/vabalispa_official/"
+    },
+    "warning": null,
+    "takeaway": "Buy the day ticket and catch an Aufguss pour in the sauna garden — this popularized the large-format ritual in Berlin."
   },
   {
     "name": "Liquidrom",
@@ -172,12 +280,22 @@
     "country": "DE",
     "who": "Domed urban spa in Kreuzberg built around a 36-degree saltwater pool with underwater sound and light, plus steam rooms and a Finnish sauna running Aufguss sessions, open daily.",
     "why": "A cult Berlin design object as much as a spa: light, sound, and water staged as one immersive room, unlike anything else in the segment.",
-    "factors": { "legacy": 50, "experience": 72, "facility": 88, "community": 60, "reach": 40, "destination": 62 },
+    "factors": {
+      "legacy": 50,
+      "experience": 72,
+      "facility": 88,
+      "community": 60,
+      "reach": 40,
+      "destination": 62
+    },
     "reach": "IG 18K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.liquidrom-berlin.de/en/",
-    "handles": { "instagram": "https://www.instagram.com/liquidrom.berlin/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/liquidrom.berlin/"
+    },
+    "warning": null,
+    "takeaway": "Float in the saltwater pool and just listen — the underwater sound and light show is the point, not extra pools."
   },
   {
     "name": "Tropical Islands Resort",
@@ -187,12 +305,22 @@
     "country": "DE",
     "who": "Sauna and spa complex inside a former airship hangar near Berlin, seven themed sauna areas modeled on Southeast Asian temple sites, professional Aufguss masters, day and overnight access.",
     "why": "Europe's largest tropical sauna complex, built at a scale and inside a structure no competitor can replicate.",
-    "factors": { "legacy": 35, "experience": 78, "facility": 92, "community": 50, "reach": 55, "destination": 72 },
+    "factors": {
+      "legacy": 35,
+      "experience": 78,
+      "facility": 92,
+      "community": 50,
+      "reach": 55,
+      "destination": 72
+    },
     "reach": "IG 197K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.tropical-islands.de/en/",
-    "handles": { "instagram": "https://www.instagram.com/tropicalislandsresort/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/tropicalislandsresort/"
+    },
+    "warning": null,
+    "takeaway": "Stay overnight if you can, and catch a professional Aufguss pour in one of the seven temple-themed sauna areas."
   },
   {
     "name": "Community Sauna Baths",
@@ -202,12 +330,22 @@
     "country": "UK",
     "who": "Not-for-profit outdoor sauna and cold-plunge sites across Camberwell, Hackney Wick, Peckham, Stratford, and Walthamstow, book-by-the-slot barrel and cabin saunas.",
     "why": "The venue behind London's sauna boom, proving a cold-climate ritual could take root as a social habit in a city with no sauna tradition at all.",
-    "factors": { "legacy": 32, "experience": 60, "facility": 55, "community": 75, "reach": 45, "destination": 45 },
+    "factors": {
+      "legacy": 32,
+      "experience": 60,
+      "facility": 55,
+      "community": 75,
+      "reach": 45,
+      "destination": 45
+    },
     "reach": "IG 47K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://www.community-sauna.co.uk/",
-    "handles": { "instagram": "https://www.instagram.com/communitysaunabaths/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/communitysaunabaths/"
+    },
+    "warning": null,
+    "takeaway": "Book a slot at your nearest site — this proved sauna culture could take root in a city with none before."
   },
   {
     "name": "Sauna Deco",
@@ -217,12 +355,22 @@
     "country": "NL",
     "who": "Boutique canal-house sauna and hammam built inside a 1920s Art Deco interior salvaged from the Paris department store Le Bon Marche, ticketed day sessions.",
     "why": "A one-off: no other sauna in the segment sits inside a protected Art Deco period interior in a city center canal house.",
-    "factors": { "legacy": 55, "experience": 62, "facility": 78, "community": 45, "reach": 25, "destination": 42 },
+    "factors": {
+      "legacy": 55,
+      "experience": 62,
+      "facility": 78,
+      "community": 45,
+      "reach": 25,
+      "destination": 42
+    },
     "reach": "IG 2.7K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://saunadeco.nl/en/",
-    "handles": { "instagram": "https://www.instagram.com/saunadecoamsterdam/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/saunadecoamsterdam/"
+    },
+    "warning": null,
+    "takeaway": "Book a ticketed day session and look around — the Art Deco interior was salvaged whole from a Paris department store."
   },
   {
     "name": "Iglupark",
@@ -232,12 +380,22 @@
     "country": "EE",
     "who": "Igloo-shaped waterfront saunas and cabins at Noblessner Marina, bookable by the hour with guided sauna rituals.",
     "why": "Leads Tallinn's new wave of design-forward waterfront saunas, exporting the Baltic sauna revival to a marina setting.",
-    "factors": { "legacy": 30, "experience": 68, "facility": 75, "community": 55, "reach": 38, "destination": 50 },
+    "factors": {
+      "legacy": 30,
+      "experience": 68,
+      "facility": 75,
+      "community": 55,
+      "reach": 38,
+      "destination": 50
+    },
     "reach": "IG 13K (verified 2026-08)",
     "reachVerified": true,
     "website": "https://iglupark.com/en/",
-    "handles": { "instagram": "https://www.instagram.com/iglupark/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/iglupark/"
+    },
+    "warning": null,
+    "takeaway": "Book an igloo sauna by the hour and follow the guided ritual — this leads Tallinn's new waterfront sauna wave."
   },
   {
     "name": "Mooska Smoke Sauna Farm",
@@ -247,12 +405,20 @@
     "country": "EE",
     "who": "Working farm in South Estonia offering guided sessions in a traditional Voromaa smoke sauna, the tradition UNESCO listed as Intangible Cultural Heritage in 2014, booking by appointment.",
     "why": "The clearest public gateway into a centuries-old smoke-sauna tradition that UNESCO itself recognizes as a living cultural practice, not a spa product.",
-    "factors": { "legacy": 90, "experience": 72, "facility": 45, "community": 70, "reach": 20, "destination": 58 },
+    "factors": {
+      "legacy": 90,
+      "experience": 72,
+      "facility": 45,
+      "community": 70,
+      "reach": 20,
+      "destination": 58
+    },
     "reach": "FB ~1.4K (approx 2026)",
     "reachVerified": true,
     "website": "https://mooska.eu/en/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Book a guided session by appointment — this is a UNESCO-recognized living tradition, not a spa product, so follow the host."
   },
   {
     "name": "SaunaLab Kanda",
@@ -262,11 +428,21 @@
     "country": "JP",
     "who": "Design-led urban sauna facility in Kanda, Tokyo, women-friendly hours, midday-to-night booking, part of Japan's current sauna boom.",
     "why": "A flagship of Japan's design-driven sauna wave, built for the city's younger, gender-mixed sauna crowd rather than the old bathhouse model.",
-    "factors": { "legacy": 25, "experience": 65, "facility": 70, "community": 55, "reach": 20, "destination": 40 },
+    "factors": {
+      "legacy": 25,
+      "experience": 65,
+      "facility": 70,
+      "community": 55,
+      "reach": 20,
+      "destination": 40
+    },
     "reach": "IG 504 (verified 2026-08)",
     "reachVerified": true,
     "website": "https://saunalab.jp/kanda/",
-    "handles": { "instagram": "https://www.instagram.com/saunalabkanda/" },
-    "warning": null
+    "handles": {
+      "instagram": "https://www.instagram.com/saunalabkanda/"
+    },
+    "warning": null,
+    "takeaway": "Book a midday-to-night slot and check the women-friendly hours — this skews young and gender-mixed, not old-bathhouse style."
   }
 ]

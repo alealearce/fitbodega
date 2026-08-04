@@ -19,7 +19,8 @@
     "reachVerified": false,
     "website": "https://recreation.parks.lacity.gov/venice/muscle-beach-venice-outdoor-gym.html",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Free and open to all — claim a spot on the platform where 1970s-80s bodybuilding first performed for the public."
   },
   {
     "name": "Original Muscle Beach",
@@ -41,7 +42,8 @@
     "reachVerified": false,
     "website": "https://www.santamonica.com/things-to-do/original-muscle-beach/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Try the rings and bars on the WPA-built ground considered the birthplace of America's outdoor fitness culture."
   },
   {
     "name": "Kachalka Muscle Beach",
@@ -63,7 +65,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": "Historically reopens fast after disruptions, but day-to-day status during the ongoing war was not independently reconfirmed for 2026."
+    "warning": "Historically reopens fast after disruptions, but day-to-day status during the ongoing war was not independently reconfirmed for 2026.",
+    "takeaway": "Try the homemade scrap-metal machines and train shoulder to shoulder with champions, celebrities, and factory workers alike."
   },
   {
     "name": "Bondi Beach Outdoor Gym",
@@ -85,7 +88,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Free and open 24/7 — bring your calisthenics skills, because Bondi turns every set into a beachfront show."
   },
   {
     "name": "Academia Publica do Arpoador",
@@ -107,7 +111,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Lift with real squat racks and free weights, not just bars, against an Atlantic Ocean backdrop, for free."
   },
   {
     "name": "Gordon Beach Outdoor Gym",
@@ -129,7 +134,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Free beachfront bars and rings — join the regulars who train here daily no matter the season."
   },
   {
     "name": "Pahlevanpour Zurkhaneh",
@@ -151,7 +157,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Watch varzesh-e pahlavani performed with wooden clubs, live drumming and poetry — training as ritual, not reps."
   },
   {
     "name": "Smart Fit Copacabana",
@@ -173,7 +180,8 @@
     "reachVerified": false,
     "website": "https://www.smartfit.com.br",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Try the attached beach-sports arena for futevolei and beach tennis, a rare add-on at the chain's flagship."
   },
   {
     "name": "Gold's Gym Golden Heights",
@@ -197,7 +205,8 @@
     "handles": {
       "instagram": "https://instagram.com/goldsgym.egypt"
     },
-    "warning": "Reach figure is for the national Gold's Gym Egypt brand account, not this location specifically."
+    "warning": "Reach figure is for the national Gold's Gym Egypt brand account, not this location specifically.",
+    "takeaway": "Trades on the same Gold's Gym name as Venice — go see how that legacy plays in the Arab world's biggest fitness market."
   },
   {
     "name": "Gold's Gym Harajuku",
@@ -221,7 +230,8 @@
     "handles": {
       "instagram": "https://instagram.com/goldsgym.harajukutokyo"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Head down to the hardcore Classic Gold basement floor, the part of this 24-hour club athletes actually seek out."
   },
   {
     "name": "John Reed Fitness Club Berlin-Botzow",
@@ -245,7 +255,8 @@
     "handles": {
       "instagram": "https://instagram.com/johnreedfitness_"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the DJ-decks-and-art-deco design language John Reed exported across Europe, not a quiet lift."
   },
   {
     "name": "McFit Flagship Berlin",
@@ -269,7 +280,8 @@
     "handles": {
       "instagram": "https://instagram.com/mcfit"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "See the brand's current showcase, rebuilt to be what the company calls the world's greenest gym."
   },
   {
     "name": "Binous Gym",
@@ -293,7 +305,8 @@
     "handles": {
       "instagram": "https://instagram.com/binousgym_"
     },
-    "warning": "A larger second location was under construction in Jumeirah Village Circle at last check; the original Al Quoz gym is the current flagship."
+    "warning": "A larger second location was under construction in Jumeirah Village Circle at last check; the original Al Quoz gym is the current flagship.",
+    "takeaway": "Seek out the rare specialist equipment that draws elite bodybuilders, and ask about the Binous Classic show."
   },
   {
     "name": "GymNation Sheikh Zayed Road",
@@ -317,7 +330,8 @@
     "handles": {
       "instagram": "https://instagram.com/gymnation_me"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "See the low-cost mega-gym model that hit 10,000 members within a year and now leads GymNation's Gulf expansion."
   },
   {
     "name": "Fitness Time Pro Gym Riyadh",
@@ -339,7 +353,8 @@
     "reachVerified": false,
     "website": "https://www.fitnesstime.com.sa",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Anchor location for Saudi Arabia's largest homegrown gym chain, built for the Kingdom's gender-segmented gym market."
   },
   {
     "name": "Kris Gethin Gyms Gurugram",
@@ -363,7 +378,8 @@
     "handles": {
       "instagram": "https://instagram.com/gethingymsgurugram.sector65"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "See the celebrity-led push for Western-style luxury bodybuilding coaching in India's fast-growing fitness market."
   },
   {
     "name": "Virgin Active Collection Green Point",
@@ -385,7 +401,8 @@
     "reachVerified": false,
     "website": "https://www.virginactive.co.za",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Explore the social-wellness-club format — training, recovery, nutrition and co-working under one roof, Africa's most ambitious gym rebuild."
   },
   {
     "name": "Fitness First Market Street",
@@ -409,7 +426,8 @@
     "handles": {
       "instagram": "https://instagram.com/fitnessfirst_sg"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "See the brand's current club-design showcase for Southeast Asia's premium fitness market."
   },
   {
     "name": "Sport City Flagship",
@@ -431,7 +449,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Expect a country-club feel — pools and courts alongside weights, a fixture distinct from Latin America's budget mega-gyms."
   },
   {
     "name": "Tempelhofer Feld Calisthenics Park",
@@ -453,7 +472,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Free and vast — join Europe's competitive calisthenics scene training out in the open field of a decommissioned airport."
   },
   {
     "name": "Obsidian Gym Bali",
@@ -477,7 +497,8 @@
     "handles": {
       "instagram": "https://instagram.com/obsidian.bali"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the striking architecture and the country's longest dumbbell row — this went viral for design, not just iron."
   },
   {
     "name": "Ultra Gym at The Charlee Hotel",
@@ -501,6 +522,7 @@
     "handles": {
       "instagram": "https://instagram.com/hotelthecharlee"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Buy a day pass (about 60,000 COP) for the panoramic glass-walled views — you don't need to be a hotel guest."
   }
 ]

@@ -20,7 +20,8 @@
     "handles": {
       "instagram": "https://instagram.com/rujuta.diwekar"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Favor simple, local, culturally rooted eating over imported trends and sponsored diet advice."
   },
   {
     "name": "Pooja Makhija",
@@ -43,7 +44,8 @@
     "handles": {
       "instagram": "https://instagram.com/poojamakhija"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Get a clinical nutrition assessment before adopting a celebrity's diet plan."
   },
   {
     "name": "Carlos Ríos",
@@ -67,7 +69,8 @@
       "instagram": "https://instagram.com/carlosriosq",
       "podcast": "Realfooding Podcast"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Check ingredient lists and choose minimally processed foods over ultra-processed convenience options."
   },
   {
     "name": "Aitor Sánchez García",
@@ -90,7 +93,8 @@
     "handles": {
       "instagram": "https://instagram.com/midietacojea"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Weigh dietary claims against actual evidence rather than tradition or popular opinion."
   },
   {
     "name": "Julio Basulto",
@@ -113,7 +117,8 @@
     "handles": {
       "instagram": "https://instagram.com/juliobasulto_dn"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Default to skepticism toward miracle foods and detox claims making the rounds in nutrition media."
   },
   {
     "name": "Niko Rittenau",
@@ -136,7 +141,8 @@
     "handles": {
       "instagram": "https://instagram.com/niko_rittenau"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Plan plant-based eating around the nutrients it makes harder to get, and check who sells you the supplement."
   },
   {
     "name": "Jean-Michel Cohen",
@@ -157,7 +163,8 @@
     "reachVerified": true,
     "website": "https://www.savoirmaigrir.com",
     "handles": {},
-    "warning": "France's medical board (Ordre des médecins) sanctioned Cohen in 2015 for advertising and commercial-practice violations tied to his nutrition program; the penalty was reduced to a fine on appeal in 2017."
+    "warning": "France's medical board (Ordre des médecins) sanctioned Cohen in 2015 for advertising and commercial-practice violations tied to his nutrition program; the penalty was reduced to a fine on appeal in 2017.",
+    "takeaway": "Use a simple food-labeling system to guide grocery choices instead of memorizing nutrition facts."
   },
   {
     "name": "Frédéric Saldmann",
@@ -178,7 +185,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat food choices as everyday preventive medicine, not just a tool for weight management."
   },
   {
     "name": "Frederico Lobo",
@@ -199,7 +207,8 @@
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Get metabolic and nutrition concerns evaluated by a physician trained specifically in nutrition."
   },
   {
     "name": "Tim Noakes",
@@ -220,7 +229,8 @@
     "reachVerified": false,
     "website": "https://www.thenoakesfoundation.org",
     "handles": {},
-    "warning": "South Africa's health regulator (HPCSA) brought a professional-conduct case over his public low-carbohydrate infant-feeding advice in 2014; he was acquitted in 2017 and the regulator's appeal was dismissed in 2018."
+    "warning": "South Africa's health regulator (HPCSA) brought a professional-conduct case over his public low-carbohydrate infant-feeding advice in 2014; he was acquitted in 2017 and the regulator's appeal was dismissed in 2018.",
+    "takeaway": "Question default high-carb sports-nutrition dogma and test how your own body handles fat versus carbs."
   },
   {
     "name": "Alberto Cormillot",
@@ -243,7 +253,8 @@
     "handles": {
       "instagram": "https://instagram.com/drcormi"
     },
-    "warning": null
+    "warning": null,
+    "takeaway": "Pair any diet change with ongoing group or clinical support, not willpower alone."
   },
   {
     "name": "Iris Shai",
@@ -264,7 +275,8 @@
     "reachVerified": true,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Consider a Mediterranean-style eating pattern as a rigorously tested alternative to strict low-carb diets."
   },
   {
     "name": "Fan Zhihong",
@@ -285,7 +297,8 @@
     "reachVerified": true,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Get your nutrition facts from a credentialed scientist, not a viral claim, amid social-media hype."
   },
   {
     "name": "Antonio Paoli",
@@ -306,6 +319,7 @@
     "reachVerified": true,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat ketogenic diets as a researched performance tool with real trade-offs, not a fad to copy."
   }
 ]

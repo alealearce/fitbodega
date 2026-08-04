@@ -7,12 +7,20 @@
     "country": "Japan",
     "who": "Japan's original organic supermarket chain (about 30 stores nationwide), anchored by its Aoyama store near Omotesando.",
     "why": "The store that brought organic and macrobiotic groceries into mainstream Tokyo shopping.",
-    "factors": { "legacy": 85, "selection": 75, "experience": 60, "community": 55, "reach": 40, "destination": 55 },
+    "factors": {
+      "legacy": 85,
+      "selection": 75,
+      "experience": 60,
+      "community": 55,
+      "reach": 40,
+      "destination": 55
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.naturalhouse.co.jp",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the store that first brought organic and macrobiotic groceries into mainstream Tokyo shopping."
   },
   {
     "name": "Crayon House",
@@ -22,12 +30,20 @@
     "country": "Japan",
     "who": "Organic cafe, grocery and bookstore in Aoyama, open since 1976 as a combined publishing house and health-food pioneer.",
     "why": "One of Tokyo's oldest organic institutions, still open and still mixing books, toys and organic food under one roof.",
-    "factors": { "legacy": 80, "selection": 65, "experience": 75, "community": 60, "reach": 40, "destination": 60 },
+    "factors": {
+      "legacy": 80,
+      "selection": 65,
+      "experience": 75,
+      "community": 60,
+      "reach": 40,
+      "destination": 60
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.crayonhouse.co.jp",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the odd mix — organic groceries, a bookstore and toys under one Aoyama roof since 1976."
   },
   {
     "name": "Hansalim",
@@ -37,12 +53,20 @@
     "country": "South Korea",
     "who": "South Korea's largest organic consumer cooperative, founded in 1986, with retail shops across Seoul serving well over a million members.",
     "why": "Defined the direct farmer-to-consumer organic movement in Korea; the world's biggest cooperative of its kind.",
-    "factors": { "legacy": 90, "selection": 75, "experience": 50, "community": 95, "reach": 40, "destination": 50 },
+    "factors": {
+      "legacy": 90,
+      "selection": 75,
+      "experience": 50,
+      "community": 95,
+      "reach": 40,
+      "destination": 50
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.hansalim.or.kr",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see the world's biggest organic consumer co-op in action — direct farmer-to-consumer buying, not a boutique shop."
   },
   {
     "name": "Chorokmaeul (Green Village)",
@@ -52,12 +76,20 @@
     "country": "South Korea",
     "who": "Organic co-op supermarket chain with stores across Korea, a sister strand of the country's farm-to-table cooperative movement.",
     "why": "A flagship of Korea's organic co-op retail scene, distinct from Hansalim's larger cooperative model.",
-    "factors": { "legacy": 65, "selection": 65, "experience": 50, "community": 65, "reach": 30, "destination": 40 },
+    "factors": {
+      "legacy": 65,
+      "selection": 65,
+      "experience": 50,
+      "community": 65,
+      "reach": 30,
+      "destination": 40
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see Korea's organic co-op retail scene from a different angle than the bigger Hansalim model."
   },
   {
     "name": "Orga Whole Foods",
@@ -67,12 +99,20 @@
     "country": "South Korea",
     "who": "Premium organic grocery chain in Seoul known for imported and domestic organic goods with in-store cafe corners.",
     "why": "Seoul's closest equivalent to a Western-style organic supermarket experience.",
-    "factors": { "legacy": 50, "selection": 70, "experience": 65, "community": 45, "reach": 30, "destination": 45 },
+    "factors": {
+      "legacy": 50,
+      "selection": 70,
+      "experience": 65,
+      "community": 45,
+      "reach": 30,
+      "destination": 45
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the closest thing Seoul has to a Western-style organic supermarket experience, cafe corner included."
   },
   {
     "name": "Green Common",
@@ -82,12 +122,22 @@
     "country": "Hong Kong",
     "who": "Hong Kong's leading plant-based grocery-and-cafe flagship, a two-storey concept in Central with a grocery, deli and restaurant.",
     "why": "The regional reference for plant-based retail, backed by the Green Monday movement.",
-    "factors": { "legacy": 55, "selection": 80, "experience": 85, "community": 60, "reach": 55, "destination": 65 },
+    "factors": {
+      "legacy": 55,
+      "selection": 80,
+      "experience": 85,
+      "community": 60,
+      "reach": 55,
+      "destination": 65
+    },
     "reach": "IG ~30K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.greencommon.com",
-    "handles": { "instagram": "https://instagram.com/green_common" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/green_common"
+    },
+    "warning": null,
+    "takeaway": "Go for the region's reference plant-based grocery-deli-restaurant concept, two storeys deep in Central."
   },
   {
     "name": "Little Farms",
@@ -97,12 +147,20 @@
     "country": "Singapore",
     "who": "Singapore's premium organic and health-food grocer chain, multiple locations descending from its original Dempsey Hill store.",
     "why": "The default organic grocer for Singapore's health-conscious expat and local shoppers.",
-    "factors": { "legacy": 45, "selection": 70, "experience": 60, "community": 40, "reach": 35, "destination": 40 },
+    "factors": {
+      "legacy": 45,
+      "selection": 70,
+      "experience": 60,
+      "community": 40,
+      "reach": 35,
+      "destination": 40
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.littlefarms.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the default organic grocer of Singapore's health-conscious expat and local shopping crowd."
   },
   {
     "name": "SuperNature",
@@ -112,12 +170,20 @@
     "country": "Singapore",
     "who": "Independent organic and health-food store with a cafe corner, a longstanding name in Singapore's wellness retail scene.",
     "why": "One of Singapore's older organic specialty grocers, known for curated imported goods.",
-    "factors": { "legacy": 50, "selection": 65, "experience": 55, "community": 40, "reach": 25, "destination": 35 },
+    "factors": {
+      "legacy": 50,
+      "selection": 65,
+      "experience": 55,
+      "community": 40,
+      "reach": 25,
+      "destination": 35
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.supernature.com.sg",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for curated imported goods at one of Singapore's older organic specialty grocers, cafe corner included."
   },
   {
     "name": "Lemon Farm",
@@ -127,12 +193,20 @@
     "country": "Thailand",
     "who": "Thailand's pioneering organic supermarket chain, founded 1999 and now 14-plus branches with in-store organic cafes.",
     "why": "Defined organic retail in Thailand and helped build the country's organic-farmer supply network.",
-    "factors": { "legacy": 75, "selection": 65, "experience": 55, "community": 55, "reach": 35, "destination": 45 },
+    "factors": {
+      "legacy": 75,
+      "selection": 65,
+      "experience": 55,
+      "community": 55,
+      "reach": 35,
+      "destination": 45
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.lemonfarm.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the chain that defined organic retail in Thailand and built its farmer supply network."
   },
   {
     "name": "Nature's Basket",
@@ -142,12 +216,20 @@
     "country": "India",
     "who": "India's premium gourmet-and-organic grocery chain, active with a rebuilt flagship store in Mumbai's Khar area.",
     "why": "The reference for curated imported and organic goods in urban India, though closer to gourmet than pure health-food.",
-    "factors": { "legacy": 55, "selection": 60, "experience": 60, "community": 35, "reach": 35, "destination": 40 },
+    "factors": {
+      "legacy": 55,
+      "selection": 60,
+      "experience": 60,
+      "community": 35,
+      "reach": 35,
+      "destination": 40
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.naturesbasket.co.in",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for curated imported and organic goods — more gourmet than pure health-food, but the urban-India reference."
   },
   {
     "name": "The Source Bulk Foods",
@@ -157,12 +239,20 @@
     "country": "Australia",
     "who": "Originator of Australia's zero-waste bulk-foods grocery format, founded 2012 near Byron Bay, now 50-plus stores including overseas expansion.",
     "why": "Created the bring-your-own-container, buy-by-weight retail model now copied worldwide.",
-    "factors": { "legacy": 65, "selection": 60, "experience": 60, "community": 50, "reach": 45, "destination": 45 },
+    "factors": {
+      "legacy": 65,
+      "selection": 60,
+      "experience": 60,
+      "community": 50,
+      "reach": 45,
+      "destination": 45
+    },
     "reach": "IG ~60K (approx 2026)",
     "reachVerified": false,
     "website": "https://thesourcebulkfoods.com.au",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see the bring-your-own-container, buy-by-weight model Australia's zero-waste grocers everywhere have since copied."
   },
   {
     "name": "Flannerys",
@@ -172,12 +262,20 @@
     "country": "Australia",
     "who": "Queensland-founded organic and health-food supermarket chain with stores across QLD and northern NSW.",
     "why": "A long-running regional institution for organic groceries and supplements in southeast Queensland.",
-    "factors": { "legacy": 60, "selection": 60, "experience": 50, "community": 50, "reach": 25, "destination": 30 },
+    "factors": {
+      "legacy": 60,
+      "selection": 60,
+      "experience": 50,
+      "community": 50,
+      "reach": 25,
+      "destination": 30
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.flannerys.com.au",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a long-running regional institution stocking organic groceries and supplements across southeast Queensland."
   },
   {
     "name": "Terra Madre",
@@ -187,12 +285,20 @@
     "country": "Australia",
     "who": "Independent organic grocer and cafe in Melbourne known for its curated pantry and produce selection.",
     "why": "A neighborhood fixture for Melbourne's organic and slow-food crowd.",
-    "factors": { "legacy": 45, "selection": 60, "experience": 55, "community": 45, "reach": 20, "destination": 30 },
+    "factors": {
+      "legacy": 45,
+      "selection": 60,
+      "experience": 55,
+      "community": 45,
+      "reach": 20,
+      "destination": 30
+    },
     "reach": "IG ~4K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a curated pantry — a neighborhood fixture for Melbourne's organic and slow-food crowd."
   },
   {
     "name": "Wholefoods House",
@@ -202,12 +308,20 @@
     "country": "Australia",
     "who": "Independent health-food store in Sydney offering organic groceries, supplements and bulk goods.",
     "why": "A steady, no-frills fixture of Sydney's health-food retail scene.",
-    "factors": { "legacy": 45, "selection": 55, "experience": 45, "community": 40, "reach": 15, "destination": 25 },
+    "factors": {
+      "legacy": 45,
+      "selection": 55,
+      "experience": 45,
+      "community": 40,
+      "reach": 15,
+      "destination": 25
+    },
     "reach": "IG ~3K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a steady, no-frills fixture of Sydney's health-food retail scene — groceries, supplements, bulk goods."
   },
   {
     "name": "Commonsense Organics",
@@ -217,12 +331,20 @@
     "country": "New Zealand",
     "who": "Independent organic supermarket group founded in the 1990s, with anchor stores in Wellington's Thorndon and Newtown.",
     "why": "A defining institution of New Zealand's organic-food retail culture.",
-    "factors": { "legacy": 70, "selection": 65, "experience": 55, "community": 60, "reach": 25, "destination": 35 },
+    "factors": {
+      "legacy": 70,
+      "selection": 65,
+      "experience": 55,
+      "community": 60,
+      "reach": 25,
+      "destination": 35
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.commonsenseorganics.co.nz",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a defining piece of New Zealand's organic-food retail culture, anchored in two Wellington neighborhoods."
   },
   {
     "name": "Mundo Verde",
@@ -232,12 +354,20 @@
     "country": "Brazil",
     "who": "Brazil's organic and health-food supermarket chain, founded in the late 1990s with stores across Sao Paulo.",
     "why": "Brazil's reference organic supermarket brand, credited with popularizing organic retail nationally.",
-    "factors": { "legacy": 65, "selection": 60, "experience": 55, "community": 45, "reach": 30, "destination": 40 },
+    "factors": {
+      "legacy": 65,
+      "selection": 60,
+      "experience": 55,
+      "community": 45,
+      "reach": 30,
+      "destination": 40
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.mundoverde.com.br",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the chain credited with popularizing organic retail across Brazil, since the late 1990s."
   },
   {
     "name": "The Green Corner",
@@ -247,12 +377,20 @@
     "country": "Mexico",
     "who": "Organic and health-food grocery chain in Mexico City with a cafe and juice-bar format across several branches.",
     "why": "One of Mexico City's go-to spots for organic groceries and a health-food lifestyle scene.",
-    "factors": { "legacy": 45, "selection": 55, "experience": 60, "community": 40, "reach": 25, "destination": 35 },
+    "factors": {
+      "legacy": 45,
+      "selection": 55,
+      "experience": 60,
+      "community": 40,
+      "reach": 25,
+      "destination": 35
+    },
     "reach": "IG ~15K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the juice bar and cafe that make this a go-to for Mexico City's health-food scene."
   },
   {
     "name": "Organic Foods & Cafe",
@@ -262,12 +400,20 @@
     "country": "United Arab Emirates",
     "who": "The Middle East's pioneering organic supermarket and cafe, founded 2004, with locations across Dubai.",
     "why": "Introduced organic retail to the Gulf region and remains its most established organic grocer.",
-    "factors": { "legacy": 70, "selection": 65, "experience": 65, "community": 40, "reach": 40, "destination": 50 },
+    "factors": {
+      "legacy": 70,
+      "selection": 65,
+      "experience": 65,
+      "community": 40,
+      "reach": 40,
+      "destination": 50
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.organicfoodsandcafe.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the store that introduced organic retail to the Gulf and remains its most established name."
   },
   {
     "name": "Wellness Warehouse",
@@ -277,12 +423,20 @@
     "country": "South Africa",
     "who": "South Africa's leading wellness-and-organic retail chain, flagship on Cape Town's Kloof Street, with stores nationwide.",
     "why": "Defined organic and supplement retail in South Africa, closest thing the country has to a health-food department store.",
-    "factors": { "legacy": 65, "selection": 70, "experience": 65, "community": 45, "reach": 40, "destination": 45 },
+    "factors": {
+      "legacy": 65,
+      "selection": 70,
+      "experience": 65,
+      "community": 45,
+      "reach": 40,
+      "destination": 45
+    },
     "reach": "IG ~20K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.wellnesswarehouse.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for South Africa's closest thing to a health-food department store — organic groceries plus a full supplement wall."
   },
   {
     "name": "Jackson's Real Food Market",
@@ -292,11 +446,19 @@
     "country": "South Africa",
     "who": "Independent organic and real-food grocery and cafe in Johannesburg's Craighall Park.",
     "why": "A community favorite for organic produce and clean-eating groceries in Joburg's northern suburbs.",
-    "factors": { "legacy": 40, "selection": 60, "experience": 55, "community": 50, "reach": 20, "destination": 30 },
+    "factors": {
+      "legacy": 40,
+      "selection": 60,
+      "experience": 55,
+      "community": 50,
+      "reach": 20,
+      "destination": 30
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for organic produce and clean-eating groceries, a community favorite in Joburg's northern suburbs."
   }
 ]

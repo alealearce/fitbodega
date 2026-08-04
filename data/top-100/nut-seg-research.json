@@ -6,12 +6,20 @@
     "country": "US",
     "who": "MD, DrPH — Professor of Epidemiology and Nutrition at Harvard T.H. Chan School of Public Health; ran the Nurses' Health Study and co-chaired the EAT-Lancet Commission on planetary diets.",
     "why": "The most-cited nutrition scientist alive; his cohort work and Healthy Eating Plate reshaped dietary guidelines worldwide.",
-    "factors": { "credibility": 97, "practice": 40, "content": 70, "reach": 35, "impact": 95, "consistency": 90 },
+    "factors": {
+      "credibility": 97,
+      "practice": 40,
+      "content": 70,
+      "reach": 35,
+      "impact": 95,
+      "consistency": 90
+    },
     "reach": "Public profile modest relative to output; no notable social following (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.hsph.harvard.edu/walter-willett/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Build your plate around mostly vegetables, whole grains, and healthy protein, his Healthy Eating Plate ratio."
   },
   {
     "name": "Dr. Frank Hu",
@@ -20,12 +28,20 @@
     "country": "US",
     "who": "MD, PhD — Chair of the Department of Nutrition at Harvard T.H. Chan School of Public Health; leads large-scale cohort research on diet, diabetes and cardiovascular risk.",
     "why": "One of the most-published nutrition epidemiologists in the world; his work underpins global diabetes-prevention guidance.",
-    "factors": { "credibility": 92, "practice": 35, "content": 55, "reach": 25, "impact": 85, "consistency": 85 },
+    "factors": {
+      "credibility": 92,
+      "practice": 35,
+      "content": 55,
+      "reach": 25,
+      "impact": 85,
+      "consistency": 85
+    },
     "reach": "Academic profile, no notable public social following (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.hsph.harvard.edu/frank-hu/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Think in long-term dietary patterns tracked over years, not single superfoods, for chronic-disease risk."
   },
   {
     "name": "Dr. David Ludwig",
@@ -34,12 +50,20 @@
     "country": "US",
     "who": "MD, PhD — endocrinologist at Boston Children's Hospital/Harvard Medical School; runs an obesity-prevention clinic and developed the carbohydrate-insulin model of obesity.",
     "why": "Bridges bench research and a working clinic; his insulin-carb framework reset the low-fat-vs-low-carb debate.",
-    "factors": { "credibility": 85, "practice": 65, "content": 65, "reach": 40, "impact": 78, "consistency": 78 },
+    "factors": {
+      "credibility": 85,
+      "practice": 65,
+      "content": 65,
+      "reach": 40,
+      "impact": 78,
+      "consistency": 78
+    },
     "reach": "Modest public following; reach mainly via bestselling books (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.drdavidludwig.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Watch how refined carbohydrates affect your hunger and insulin, not just the calories you eat."
   },
   {
     "name": "Dr. Christopher Gardner",
@@ -48,12 +72,20 @@
     "country": "US",
     "who": "PhD — Director of Nutrition Studies at the Stanford Prevention Research Center; led the landmark DIETFITS low-fat vs. low-carb trial.",
     "why": "Runs some of the most rigorous, most-cited diet-comparison trials in the field.",
-    "factors": { "credibility": 88, "practice": 45, "content": 60, "reach": 30, "impact": 78, "consistency": 80 },
+    "factors": {
+      "credibility": 88,
+      "practice": 45,
+      "content": 60,
+      "reach": 30,
+      "impact": 78,
+      "consistency": 80
+    },
     "reach": "Academic reach with occasional mainstream press, no verified following (approx, unverified)",
     "reachVerified": false,
     "website": "https://med.stanford.edu/profiles/christopher-gardner",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Pick whichever sustainable diet style you can stick with — his own trial found adherence beat macros."
   },
   {
     "name": "Dr. Marion Nestle",
@@ -62,12 +94,20 @@
     "country": "US",
     "who": "PhD, MPH — Paulette Goddard Professor Emerita of Nutrition, Food Studies and Public Health at NYU; author of Food Politics.",
     "why": "Defined food-industry-influence scholarship; decades of books and her Food Politics blog still set the agenda for nutrition-policy debate.",
-    "factors": { "credibility": 88, "practice": 40, "content": 78, "reach": 45, "impact": 88, "consistency": 88 },
+    "factors": {
+      "credibility": 88,
+      "practice": 40,
+      "content": 78,
+      "reach": 45,
+      "impact": 88,
+      "consistency": 88
+    },
     "reach": "Blog and book audience, moderate social following (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.foodpolitics.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Read a nutrition claim with an eye toward who funded the study or wrote the guideline."
   },
   {
     "name": "Dr. Sarah Berry",
@@ -76,12 +116,22 @@
     "country": "UK",
     "who": "PhD — Reader in Nutritional Sciences at King's College London and Chief Scientist at ZOE; leads the PREDICT population nutrition studies.",
     "why": "Her PREDICT research is the evidence base behind a personalized-nutrition program used by hundreds of thousands.",
-    "factors": { "credibility": 82, "practice": 68, "content": 62, "reach": 42, "impact": 72, "consistency": 65 },
+    "factors": {
+      "credibility": 82,
+      "practice": 68,
+      "content": 62,
+      "reach": 42,
+      "impact": 72,
+      "consistency": 65
+    },
     "reach": "Modest personal following; reach mainly via the ZOE platform and podcast (approx, unverified)",
     "reachVerified": false,
     "website": "https://zoe.com",
-    "handles": { "podcast": "ZOE Science & Nutrition" },
-    "warning": null
+    "handles": {
+      "podcast": "ZOE Science & Nutrition"
+    },
+    "warning": null,
+    "takeaway": "Expect your blood-sugar response to a food to differ from everyone else's — personalize, don't generalize."
   },
   {
     "name": "Dr. Federica Amati",
@@ -90,12 +140,23 @@
     "country": "UK",
     "who": "Registered Nutritionist (ANutr) with a PhD — Head Nutritionist at ZOE and Clinical Lead for Nutrition at Imperial College Health Partners.",
     "why": "Translates population science into daily clinical and consumer guidance at scale; author of a bestselling nutrition-myth book.",
-    "factors": { "credibility": 72, "practice": 68, "content": 75, "reach": 55, "impact": 62, "consistency": 55 },
+    "factors": {
+      "credibility": 72,
+      "practice": 68,
+      "content": 75,
+      "reach": 55,
+      "impact": 62,
+      "consistency": 55
+    },
     "reach": "IG in the low hundreds of thousands (approx, unverified)",
     "reachVerified": false,
     "website": "https://zoe.com",
-    "handles": { "instagram": "https://instagram.com/dr_federica_amati", "podcast": "ZOE Science & Nutrition" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/dr_federica_amati",
+      "podcast": "ZOE Science & Nutrition"
+    },
+    "warning": null,
+    "takeaway": "Translate big population nutrition science into small, consistent daily habits rather than overhauling everything at once."
   },
   {
     "name": "Tim Spector",
@@ -104,12 +165,23 @@
     "country": "UK",
     "who": "MD, PhD — Professor of Genetic Epidemiology at King's College London; pivoted a career in twin and microbiome research into founding ZOE.",
     "why": "Turned twin-study and microbiome findings into the most-listened diet-science podcast and one of the largest personalized-nutrition programs in the world; nutrition is now his full-time research focus, which is why he clears the specialization gate.",
-    "factors": { "credibility": 90, "practice": 60, "content": 82, "reach": 68, "impact": 85, "consistency": 72 },
+    "factors": {
+      "credibility": 90,
+      "practice": 60,
+      "content": 82,
+      "reach": 68,
+      "impact": 85,
+      "consistency": 72
+    },
     "reach": "IG in the mid hundreds of thousands; podcast in global nutrition charts (approx, unverified)",
     "reachVerified": false,
     "website": "https://timspector.co.uk",
-    "handles": { "instagram": "https://instagram.com/timspector", "podcast": "ZOE Science & Nutrition" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/timspector",
+      "podcast": "ZOE Science & Nutrition"
+    },
+    "warning": null,
+    "takeaway": "Track how your own blood sugar and gut respond to foods, instead of following generic rules."
   },
   {
     "name": "Dr. Stacy Sims",
@@ -118,12 +190,22 @@
     "country": "NZ/US",
     "who": "PhD in Exercise Physiology and Nutrition Science — adjunct senior lecturer at the University of Waikato; consults with elite female athletes and teams.",
     "why": "Built the female-specific sports-nutrition field largely from scratch; ROAR and Next Level rewired how women train and fuel.",
-    "factors": { "credibility": 80, "practice": 65, "content": 78, "reach": 58, "impact": 78, "consistency": 72 },
+    "factors": {
+      "credibility": 80,
+      "practice": 65,
+      "content": 78,
+      "reach": 58,
+      "impact": 78,
+      "consistency": 72
+    },
     "reach": "IG in the low hundreds of thousands (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.drstacysims.com",
-    "handles": { "instagram": "https://instagram.com/drstacysims" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/drstacysims"
+    },
+    "warning": null,
+    "takeaway": "Train and fuel according to your own physiology, not a male-based default sports-nutrition template."
   },
   {
     "name": "Dr. Kevin Hall",
@@ -132,12 +214,20 @@
     "country": "US",
     "who": "PhD (physics) — spent two decades as a senior investigator in NIH's metabolism and nutrition research group; retired from NIH in 2025 following a public dispute over research independence; current institutional role not independently confirmed here.",
     "why": "His controlled-feeding trials gave the first causal evidence that ultra-processed food drives overeating — the single most field-shifting nutrition experiment of the decade.",
-    "factors": { "credibility": 88, "practice": 25, "content": 40, "reach": 22, "impact": 85, "consistency": 60 },
+    "factors": {
+      "credibility": 88,
+      "practice": 25,
+      "content": 40,
+      "reach": 22,
+      "impact": 85,
+      "consistency": 60
+    },
     "reach": "Academic and media profile, no verified social following (approx, unverified)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Cut back on ultra-processed foods specifically — his controlled trials found they drive overeating on their own."
   },
   {
     "name": "Dr. Gil Carvalho",
@@ -146,12 +236,20 @@
     "country": "US/PT",
     "who": "MD, PhD (biophysics) — physician-scientist behind Nutrition Made Simple!, an evidence-review channel fact-checking nutrition claims.",
     "why": "One of the few MDs doing rigorous, citation-backed myth-busting at real scale; borderline on active clinical practice, but the education work is genuinely field-shaping.",
-    "factors": { "credibility": 68, "practice": 35, "content": 78, "reach": 42, "impact": 55, "consistency": 55 },
+    "factors": {
+      "credibility": 68,
+      "practice": 35,
+      "content": 78,
+      "reach": 42,
+      "impact": 55,
+      "consistency": 55
+    },
     "reach": "Subscriber base in the low hundreds of thousands (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.nutritionmadesimple.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Trace a bold nutrition claim back to its original citation before you believe it."
   },
   {
     "name": "Dr. Alan Flanagan",
@@ -160,12 +258,20 @@
     "country": "UK/IE",
     "who": "PhD in Nutritional Sciences (University of Surrey) — Registered Associate Nutritionist running the Alinea Nutrition consultancy, specializing in circadian nutrition.",
     "why": "Rare combination of a rigorous PhD and an active client-facing practice; a leading voice against nutrition-influencer overreach.",
-    "factors": { "credibility": 62, "practice": 62, "content": 66, "reach": 28, "impact": 50, "consistency": 50 },
+    "factors": {
+      "credibility": 62,
+      "practice": 62,
+      "content": 66,
+      "reach": 28,
+      "impact": 50,
+      "consistency": 50
+    },
     "reach": "Modest following, mostly a professional/industry audience (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.alineanutrition.com",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Pay attention to when you eat, not just what, aligning bigger meals with your active hours."
   },
   {
     "name": "Dr. Michael Greger",
@@ -174,12 +280,20 @@
     "country": "US",
     "who": "MD — founder of NutritionFacts.org, the largest free video library of evidence reviews on nutrition; author of How Not to Die.",
     "why": "Borderline on current clinical practice, but the scale and rigor of his evidence-synthesis library is field-defining for plant-based nutrition education.",
-    "factors": { "credibility": 62, "practice": 25, "content": 88, "reach": 68, "impact": 72, "consistency": 78 },
+    "factors": {
+      "credibility": 62,
+      "practice": 25,
+      "content": 88,
+      "reach": 68,
+      "impact": 72,
+      "consistency": 78
+    },
     "reach": "Video and newsletter audience in the high hundreds of thousands to low millions (approx, unverified)",
     "reachVerified": false,
     "website": "https://nutritionfacts.org",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Check a bold claim against a free evidence-review library before you accept it."
   },
   {
     "name": "Dr. Gemma Newman",
@@ -188,12 +302,22 @@
     "country": "UK",
     "who": "MBBS — practicing NHS GP in the UK ('The Plant Power Doctor') focused on lifestyle and plant-based nutrition in primary care.",
     "why": "Borderline on formal nutrition-science credentials, but an active GP practice plus consistent, credentialed public education on diet and chronic disease.",
-    "factors": { "credibility": 52, "practice": 58, "content": 55, "reach": 38, "impact": 45, "consistency": 52 },
+    "factors": {
+      "credibility": 52,
+      "practice": 58,
+      "content": 55,
+      "reach": 38,
+      "impact": 45,
+      "consistency": 52
+    },
     "reach": "IG in the tens to low hundreds of thousands (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.gemmanewman.com",
-    "handles": { "instagram": "https://instagram.com/plantpowerdoctor" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/plantpowerdoctor"
+    },
+    "warning": null,
+    "takeaway": "Bring diet and lifestyle questions to your primary-care doctor, not only a specialist, for chronic disease."
   },
   {
     "name": "Dr. Valter Longo",
@@ -202,12 +326,20 @@
     "country": "US/IT",
     "who": "PhD in Biochemistry — Professor of Gerontology and Biological Sciences at USC and Director of the USC Longevity Institute; developed the Fasting-Mimicking Diet.",
     "why": "Turned lab longevity research into a clinically tested dietary intervention now used in hospitals and licensed commercially.",
-    "factors": { "credibility": 85, "practice": 55, "content": 60, "reach": 42, "impact": 78, "consistency": 72 },
+    "factors": {
+      "credibility": 85,
+      "practice": 55,
+      "content": 60,
+      "reach": 42,
+      "impact": 78,
+      "consistency": 72
+    },
     "reach": "Moderate public following, larger in Italy/Europe (approx, unverified)",
     "reachVerified": false,
     "website": "https://longevity.usc.edu",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Consider periodic, clinically tested fasting-style protocols rather than improvising extended fasts on your own."
   },
   {
     "name": "Prof. Susan Jebb",
@@ -216,12 +348,20 @@
     "country": "UK",
     "who": "PhD — Professor of Diet and Population Health at the University of Oxford and Chair of the UK Food Standards Agency.",
     "why": "Shapes UK national nutrition and food-safety policy directly; decades advising government on obesity and diet.",
-    "factors": { "credibility": 82, "practice": 42, "content": 40, "reach": 15, "impact": 72, "consistency": 78 },
+    "factors": {
+      "credibility": 82,
+      "practice": 42,
+      "content": 40,
+      "reach": 15,
+      "impact": 72,
+      "consistency": 78
+    },
     "reach": "Academic/policy profile, minimal public social presence (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.phc.ox.ac.uk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Treat national dietary guidelines as a baseline — they're built from population-level evidence."
   },
   {
     "name": "Prof. Jose Ordovas",
@@ -230,12 +370,20 @@
     "country": "US/ES",
     "who": "PhD — Director of the Nutrition and Genomics Laboratory at Tufts University's Jean Mayer USDA Human Nutrition Research Center.",
     "why": "Founding figure of nutrigenomics; his gene-diet interaction studies (e.g., Mediterranean-diet research) underlie the whole personalized-nutrition field.",
-    "factors": { "credibility": 78, "practice": 30, "content": 42, "reach": 12, "impact": 68, "consistency": 78 },
+    "factors": {
+      "credibility": 78,
+      "practice": 30,
+      "content": 42,
+      "reach": 12,
+      "impact": 68,
+      "consistency": 78
+    },
     "reach": "Academic profile only (approx, unverified)",
     "reachVerified": false,
     "website": "https://hnrca.tufts.edu",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Recognize your genes can shape how you individually respond to a diet like the Mediterranean pattern."
   },
   {
     "name": "Dr. Sumantra Ray",
@@ -244,12 +392,20 @@
     "country": "UK",
     "who": "Physician-scientist — founder and Chair of the NNEdPro Global Institute for Food, Nutrition and Health, a WHO-collaborating nutrition-education program spanning over 100 countries.",
     "why": "Built the largest cross-border nutrition-in-medicine education network, training clinicians worldwide to actually use nutrition science.",
-    "factors": { "credibility": 72, "practice": 45, "content": 45, "reach": 12, "impact": 55, "consistency": 62 },
+    "factors": {
+      "credibility": 72,
+      "practice": 45,
+      "content": 45,
+      "reach": 12,
+      "impact": 55,
+      "consistency": 62
+    },
     "reach": "Institutional/academic reach, no personal social following (approx, unverified)",
     "reachVerified": false,
     "website": "https://www.nnedpro.org.uk",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Expect your doctor to be trained in practical nutrition, and ask about it if guidance feels thin."
   },
   {
     "name": "Prof. Barbara Rolls",
@@ -258,11 +414,19 @@
     "country": "US/UK",
     "who": "PhD — Helen A. Guthrie Chair of Nutritional Sciences at Penn State; created the Volumetrics approach to satiety and portion research.",
     "why": "Her food-volume/energy-density research reshaped how dietitians and the public think about fullness and portion control.",
-    "factors": { "credibility": 80, "practice": 30, "content": 55, "reach": 15, "impact": 68, "consistency": 82 },
+    "factors": {
+      "credibility": 80,
+      "practice": 30,
+      "content": 55,
+      "reach": 15,
+      "impact": 68,
+      "consistency": 82
+    },
     "reach": "Academic and book audience only (approx, unverified)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Fill your plate with high-volume, low-energy-density foods like vegetables and broths to feel full on less."
   }
 ]

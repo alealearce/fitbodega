@@ -7,12 +7,22 @@
     "country": "US",
     "who": "Member-owned grocery co-op on G Street, open since 1972 with over 8,000 member households.",
     "why": "A textbook college-town co-op: five decades of local ownership and farm-direct sourcing.",
-    "factors": { "legacy": 70, "selection": 55, "experience": 50, "community": 80, "reach": 35, "destination": 40 },
+    "factors": {
+      "legacy": 70,
+      "selection": 55,
+      "experience": 50,
+      "community": 80,
+      "reach": 35,
+      "destination": 40
+    },
     "reach": "IG ~6K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.davisfood.coop/",
-    "handles": { "instagram": "https://instagram.com/davisfoodcoop" },
-    "warning": null
+    "handles": {
+      "instagram": "https://instagram.com/davisfoodcoop"
+    },
+    "warning": null,
+    "takeaway": "Go for farm-direct sourcing at a textbook college-town co-op, locally owned for five decades."
   },
   {
     "name": "Boise Co-op Market",
@@ -22,12 +32,20 @@
     "country": "US",
     "who": "Member-owned natural foods market with a full deli and cafe, a fixture of Boise's food scene.",
     "why": "Idaho's reference co-op for organic and local sourcing, with a following well beyond members.",
-    "factors": { "legacy": 60, "selection": 58, "experience": 55, "community": 70, "reach": 35, "destination": 45 },
+    "factors": {
+      "legacy": 60,
+      "selection": 58,
+      "experience": 55,
+      "community": 70,
+      "reach": 35,
+      "destination": 45
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.boise.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Idaho's reference co-op — go for the full deli and cafe that pull in a following well beyond members."
   },
   {
     "name": "Outpost Natural Foods Co-op",
@@ -37,12 +55,20 @@
     "country": "US",
     "who": "Milwaukee-area natural foods co-op with four stores (Bay View, Wauwatosa, Mequon, Capitol Drive).",
     "why": "The main organic anchor for Milwaukee, grown to four stores while staying member-run.",
-    "factors": { "legacy": 60, "selection": 55, "experience": 55, "community": 70, "reach": 35, "destination": 40 },
+    "factors": {
+      "legacy": 60,
+      "selection": 55,
+      "experience": 55,
+      "community": 70,
+      "reach": 35,
+      "destination": 40
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.outpost.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for Milwaukee's main organic anchor — four stores deep, still member-run all the way."
   },
   {
     "name": "BriarPatch Food Co-op",
@@ -52,12 +78,20 @@
     "country": "US",
     "who": "Sierra foothills natural foods co-op founded in 1976, with a second store in Auburn.",
     "why": "Nearly fifty years feeding the Gold Country region on local, organic sourcing.",
-    "factors": { "legacy": 65, "selection": 55, "experience": 55, "community": 70, "reach": 32, "destination": 42 },
+    "factors": {
+      "legacy": 65,
+      "selection": 55,
+      "experience": 55,
+      "community": 70,
+      "reach": 32,
+      "destination": 42
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.briarpatch.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for nearly fifty years of local, organic sourcing feeding California's Gold Country foothills."
   },
   {
     "name": "Sacramento Natural Foods Co-op",
@@ -67,12 +101,20 @@
     "country": "US",
     "who": "Community-owned natural foods grocer on R Street, serving Sacramento since 1973.",
     "why": "One of California's older urban co-ops, still community-powered after five decades.",
-    "factors": { "legacy": 65, "selection": 55, "experience": 50, "community": 70, "reach": 32, "destination": 38 },
+    "factors": {
+      "legacy": 65,
+      "selection": 55,
+      "experience": 50,
+      "community": 70,
+      "reach": 32,
+      "destination": 38
+    },
     "reach": "IG ~7K (approx 2026)",
     "reachVerified": false,
     "website": "https://sac.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a community-powered urban co-op that's kept its founding model for over five decades."
   },
   {
     "name": "Weavers Way Co-op",
@@ -82,12 +124,20 @@
     "country": "US",
     "who": "Philadelphia's neighborhood grocer co-op since 1973, now spanning seven locations incl. a farm market.",
     "why": "Grown from one Mt. Airy storefront into a multi-site network without losing its co-op structure.",
-    "factors": { "legacy": 68, "selection": 55, "experience": 55, "community": 75, "reach": 38, "destination": 42 },
+    "factors": {
+      "legacy": 68,
+      "selection": 55,
+      "experience": 55,
+      "community": 75,
+      "reach": 38,
+      "destination": 42
+    },
     "reach": "IG ~12K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.weaversway.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go to see a single Mt. Airy storefront grown into seven locations without losing its co-op structure."
   },
   {
     "name": "Honest Weight Food Co-op",
@@ -97,12 +147,20 @@
     "country": "US",
     "who": "Large all-volunteer-rooted natural foods co-op on Watervliet Avenue, marking fifty years in 2026.",
     "why": "One of the biggest member-owned co-ops in the Northeast, still built on working membership.",
-    "factors": { "legacy": 70, "selection": 58, "experience": 55, "community": 78, "reach": 33, "destination": 40 },
+    "factors": {
+      "legacy": 70,
+      "selection": 58,
+      "experience": 55,
+      "community": 78,
+      "reach": 33,
+      "destination": 40
+    },
     "reach": "IG ~7K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.honestweight.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for one of the Northeast's biggest member-owned co-ops, still running on working membership after fifty years."
   },
   {
     "name": "Hunger Mountain Co-op",
@@ -112,12 +170,20 @@
     "country": "US",
     "who": "Vermont's capital-city natural food co-op: 10,000 member-owners and 400 local vendors on Stone Cutters Way.",
     "why": "A dense concentration of member-owners for a small city, and Vermont's local-vendor showcase.",
-    "factors": { "legacy": 62, "selection": 62, "experience": 60, "community": 80, "reach": 33, "destination": 45 },
+    "factors": {
+      "legacy": 62,
+      "selection": 62,
+      "experience": 60,
+      "community": 80,
+      "reach": 33,
+      "destination": 45
+    },
     "reach": "IG ~8K (approx 2026)",
     "reachVerified": false,
     "website": "https://hungermountain.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the local-vendor showcase — 400 Vermont producers stocked by a co-op with 10,000 member-owners."
   },
   {
     "name": "The Big Carrot Community Market",
@@ -127,12 +193,20 @@
     "country": "CA",
     "who": "Worker-owned natural food market on the Danforth, organic and non-GMO since 1983, now two locations.",
     "why": "Toronto's longest-running worker-owned natural grocer, with a juice bar and wellness boutique built in.",
-    "factors": { "legacy": 68, "selection": 62, "experience": 65, "community": 75, "reach": 38, "destination": 50 },
+    "factors": {
+      "legacy": 68,
+      "selection": 62,
+      "experience": 65,
+      "community": 75,
+      "reach": 38,
+      "destination": 50
+    },
     "reach": "IG ~10K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.thebigcarrot.ca/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Toronto's longest-running worker-owned grocer — go for the juice bar and wellness boutique built right in."
   },
   {
     "name": "Community Natural Foods",
@@ -142,12 +216,20 @@
     "country": "CA",
     "who": "Calgary natural foods grocer founded 1977 by the Wilkes brothers, now three stores across the city.",
     "why": "Alberta's longest-standing independent natural grocer, built around local-supplier sourcing.",
-    "factors": { "legacy": 65, "selection": 60, "experience": 55, "community": 65, "reach": 33, "destination": 40 },
+    "factors": {
+      "legacy": 65,
+      "selection": 60,
+      "experience": 55,
+      "community": 65,
+      "reach": 33,
+      "destination": 40
+    },
     "reach": "IG ~9K (approx 2026)",
     "reachVerified": false,
     "website": "https://communitynaturalfoods.com/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for local-supplier sourcing at Alberta's longest-standing independent natural grocer, running since 1977."
   },
   {
     "name": "Ashland Food Co-op",
@@ -157,12 +239,20 @@
     "country": "US",
     "who": "Member-owned grocery co-op serving the Ashland/Rogue Valley area, with deli and bulk sections.",
     "why": "The default natural grocer for a small tourist-and-arts town, with a loyal member base.",
-    "factors": { "legacy": 58, "selection": 55, "experience": 55, "community": 68, "reach": 30, "destination": 48 },
+    "factors": {
+      "legacy": 58,
+      "selection": 55,
+      "experience": 55,
+      "community": 68,
+      "reach": 30,
+      "destination": 48
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.ashlandfood.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for the deli and bulk sections that make this the default natural grocer for an arts-town crowd."
   },
   {
     "name": "Brattleboro Food Co-op",
@@ -172,12 +262,20 @@
     "country": "US",
     "who": "Southern Vermont's community-owned natural foods grocer, open daily with a full cafe.",
     "why": "A small-town co-op that punches above its size for a region defined by food co-ops.",
-    "factors": { "legacy": 58, "selection": 55, "experience": 55, "community": 70, "reach": 30, "destination": 40 },
+    "factors": {
+      "legacy": 58,
+      "selection": 55,
+      "experience": 55,
+      "community": 70,
+      "reach": 30,
+      "destination": 40
+    },
     "reach": "IG ~6K (approx 2026)",
     "reachVerified": false,
     "website": "https://brattleborofoodcoop.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a small-town co-op that punches above its size, in a region defined by food co-ops."
   },
   {
     "name": "Mississippi Market",
@@ -187,12 +285,20 @@
     "country": "US",
     "who": "St. Paul natural foods co-op with three neighborhood stores across the city.",
     "why": "A long-running Twin Cities co-op network known for deep local-vendor relationships.",
-    "factors": { "legacy": 55, "selection": 55, "experience": 50, "community": 68, "reach": 28, "destination": 35 },
+    "factors": {
+      "legacy": 55,
+      "selection": 55,
+      "experience": 50,
+      "community": 68,
+      "reach": 28,
+      "destination": 35
+    },
     "reach": "IG ~5K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for deep local-vendor relationships at a long-running Twin Cities neighborhood co-op network."
   },
   {
     "name": "Linden Hills Co-op",
@@ -202,12 +308,20 @@
     "country": "US",
     "who": "Small neighborhood natural foods co-op in the Linden Hills district, one of the Twin Cities' older co-ops.",
     "why": "A tight, walkable neighborhood co-op with deep roots in a famously co-op-dense metro.",
-    "factors": { "legacy": 58, "selection": 50, "experience": 48, "community": 70, "reach": 26, "destination": 32 },
+    "factors": {
+      "legacy": 58,
+      "selection": 50,
+      "experience": 48,
+      "community": 70,
+      "reach": 26,
+      "destination": 32
+    },
     "reach": "IG ~4K (approx 2026)",
     "reachVerified": false,
     "website": null,
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a tight, walkable neighborhood co-op with deep roots in a famously co-op-dense metro."
   },
   {
     "name": "First Alternative Co-op",
@@ -217,12 +331,20 @@
     "country": "US",
     "who": "Corvallis natural foods co-op with north and south stores, a mainstay of the Willamette Valley co-op scene.",
     "why": "A steady, member-run counterpart to Oregon's better-known co-ops, serving a college town.",
-    "factors": { "legacy": 58, "selection": 52, "experience": 48, "community": 68, "reach": 26, "destination": 32 },
+    "factors": {
+      "legacy": 58,
+      "selection": 52,
+      "experience": 48,
+      "community": 68,
+      "reach": 26,
+      "destination": 32
+    },
     "reach": "IG ~4K (approx 2026)",
     "reachVerified": false,
     "website": "https://www.firstalt.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for a steady, member-run counterpart to Oregon's better-known co-ops, serving a college town."
   },
   {
     "name": "Lakewinds Food Co-op",
@@ -232,11 +354,19 @@
     "country": "US",
     "who": "Twin Cities-suburbs natural foods co-op, no membership required, with stores in Chanhassen, Minnetonka, and Richfield.",
     "why": "An open-to-all co-op model that still built a loyal following across three Minnesota locations.",
-    "factors": { "legacy": 50, "selection": 52, "experience": 48, "community": 60, "reach": 26, "destination": 30 },
+    "factors": {
+      "legacy": 50,
+      "selection": 52,
+      "experience": 48,
+      "community": 60,
+      "reach": 26,
+      "destination": 30
+    },
     "reach": "IG ~4K (approx 2026)",
     "reachVerified": false,
     "website": "https://lakewinds.coop/",
     "handles": {},
-    "warning": null
+    "warning": null,
+    "takeaway": "Go for an open-to-all co-op model — no membership required, across three Minnesota locations."
   }
 ]
