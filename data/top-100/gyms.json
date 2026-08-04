@@ -31,12 +31,12 @@
       "who": "Rich Froning's home box and training compound, anchor of the Mayhem Nation programming and apparel brand.",
       "why": "Base for a four-time individual and multiple-time team CrossFit Games champion; drives one of the sport's largest media operations.",
       "factors": {
-        "legacy": 87,
-        "talent": 93,
-        "facility": 88,
-        "community": 93,
+        "legacy": 86,
+        "talent": 92,
+        "facility": 87,
+        "community": 92,
         "reach": 64,
-        "destination": 88
+        "destination": 87
       },
       "reach": "IG 458K (verified 2026-08)",
       "reachVerified": true,
@@ -45,7 +45,7 @@
         "instagram": "https://instagram.com/thecrossfitmayhem"
       },
       "warning": null,
-      "score": 86
+      "score": 85
     },
     {
       "rank": 2,
@@ -83,12 +83,12 @@
       "who": "The original Gold's Gym, founded on Venice Beach in 1965 and now on Hampton Drive.",
       "why": "Known worldwide as \"the Mecca of bodybuilding\" — Arnold Schwarzenegger and generations of champions trained here, and it still draws lifters on pilgrimage.",
       "factors": {
-        "legacy": 94,
-        "talent": 84,
-        "facility": 74,
-        "community": 84,
+        "legacy": 93,
+        "talent": 83,
+        "facility": 73,
+        "community": 83,
         "reach": 64,
-        "destination": 89
+        "destination": 88
       },
       "reach": "IG 31K on the location account @goldsgymvenice1; global Gold's Gym brand account is 455K (verified 2026-08)",
       "reachVerified": true,
@@ -97,7 +97,7 @@
         "instagram": "https://instagram.com/goldsgymvenice1"
       },
       "warning": null,
-      "score": 82
+      "score": 81
     },
     {
       "rank": 4,
@@ -125,32 +125,6 @@
     },
     {
       "rank": 5,
-      "name": "MetroFlex Gym (Original)",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "Arlington, Texas",
-      "country": "US",
-      "who": "The original MetroFlex warehouse gym, running since 1987, marketed as \"the gym that built Ronnie Coleman.\"",
-      "why": "Home turf of 8x Mr. Olympia Ronnie Coleman and 2x Arnold Classic champion Branch Warren; raw, no-frills training culture that spawned a national gym chain.",
-      "factors": {
-        "legacy": 94,
-        "talent": 74,
-        "facility": 59,
-        "community": 89,
-        "reach": 45,
-        "destination": 89
-      },
-      "reach": "Instagram @originalmetroflexgym; open and active, follower count not confirmed (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://metroflexgym.com/locations/arlington",
-      "handles": {
-        "instagram": "https://instagram.com/originalmetroflexgym"
-      },
-      "warning": null,
-      "score": 76
-    },
-    {
-      "rank": 6,
       "name": "American Top Team",
       "segment": "Combat & Performance",
       "tier": "chain-flagship",
@@ -176,6 +150,32 @@
       "score": 76
     },
     {
+      "rank": 6,
+      "name": "MetroFlex Gym (Original)",
+      "segment": "Bodybuilding Meccas",
+      "tier": "independent",
+      "city": "Arlington, Texas",
+      "country": "US",
+      "who": "The original MetroFlex warehouse gym, running since 1987, marketed as \"the gym that built Ronnie Coleman.\"",
+      "why": "Home turf of 8x Mr. Olympia Ronnie Coleman and 2x Arnold Classic champion Branch Warren; raw, no-frills training culture that spawned a national gym chain.",
+      "factors": {
+        "legacy": 93,
+        "talent": 73,
+        "facility": 58,
+        "community": 88,
+        "reach": 45,
+        "destination": 88
+      },
+      "reach": "Instagram @originalmetroflexgym; open and active, follower count not confirmed (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://metroflexgym.com/locations/arlington",
+      "handles": {
+        "instagram": "https://instagram.com/originalmetroflexgym"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
       "rank": 7,
       "name": "CompTrain (formerly CrossFit New England)",
       "segment": "CrossFit & Functional",
@@ -185,12 +185,12 @@
       "who": "Ben Bergeron's strength-and-conditioning gym, rebuilt from the de-affiliated CrossFit New England.",
       "why": "Produced Mat Fraser and Katrin Davidsdottir; its whiteboard-and-mindset culture became a template copied across the sport.",
       "factors": {
-        "legacy": 93,
-        "talent": 78,
-        "facility": 68,
-        "community": 83,
+        "legacy": 92,
+        "talent": 77,
+        "facility": 67,
+        "community": 82,
         "reach": 59,
-        "destination": 63
+        "destination": 62
       },
       "reach": "IG 266K (verified 2026-08)",
       "reachVerified": true,
@@ -199,7 +199,7 @@
         "instagram": "https://instagram.com/comptrain.co"
       },
       "warning": "De-affiliated from CrossFit HQ and rebranded CompTrain; no longer an official CrossFit affiliate but still the same physical gym and program lineage.",
-      "score": 75
+      "score": 74
     },
     {
       "rank": 8,
@@ -255,32 +255,6 @@
     },
     {
       "rank": 10,
-      "name": "CrossFit Invictus",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "San Diego, California",
-      "country": "US",
-      "who": "Longstanding San Diego box and one of the sport's most influential coaching-education and programming brands.",
-      "why": "Its methodology and seminars shaped how competitive CrossFit is coached worldwide since the mid-2000s.",
-      "factors": {
-        "legacy": 88,
-        "talent": 73,
-        "facility": 68,
-        "community": 83,
-        "reach": 59,
-        "destination": 63
-      },
-      "reach": "IG 254K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.crossfitinvictus.com",
-      "handles": {
-        "instagram": "https://instagram.com/invictus_fitness"
-      },
-      "warning": null,
-      "score": 73
-    },
-    {
-      "rank": 11,
       "name": "Binous Gym",
       "segment": "World Icons & Open Air",
       "tier": "independent",
@@ -306,7 +280,7 @@
       "score": 73
     },
     {
-      "rank": 12,
+      "rank": 11,
       "name": "Dogpound",
       "segment": "Boutique & Luxury",
       "tier": "independent",
@@ -332,7 +306,7 @@
       "score": 72
     },
     {
-      "rank": 13,
+      "rank": 12,
       "name": "American Kickboxing Academy (AKA)",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -353,6 +327,32 @@
       "website": "https://www.americankickboxingacademy.com/",
       "handles": {
         "instagram": "https://instagram.com/americankickboxingacademy"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 13,
+      "name": "CrossFit Invictus",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "San Diego, California",
+      "country": "US",
+      "who": "Longstanding San Diego box and one of the sport's most influential coaching-education and programming brands.",
+      "why": "Its methodology and seminars shaped how competitive CrossFit is coached worldwide since the mid-2000s.",
+      "factors": {
+        "legacy": 87,
+        "talent": 72,
+        "facility": 67,
+        "community": 82,
+        "reach": 59,
+        "destination": 62
+      },
+      "reach": "IG 254K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.crossfitinvictus.com",
+      "handles": {
+        "instagram": "https://instagram.com/invictus_fitness"
       },
       "warning": null,
       "score": 72
@@ -385,32 +385,6 @@
     },
     {
       "rank": 15,
-      "name": "PRVN Fitness",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "Nashville, Tennessee",
-      "country": "US",
-      "who": "Garage-style training facility built by coach Shane Orr for his wife Tia-Clair Toomey-Orr's programming brand.",
-      "why": "Home base of the most decorated woman in CrossFit Games history, now a widely followed methodology and gear brand.",
-      "factors": {
-        "legacy": 73,
-        "talent": 93,
-        "facility": 63,
-        "community": 68,
-        "reach": 59,
-        "destination": 63
-      },
-      "reach": "IG 269K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://prvnfitness.com",
-      "handles": {
-        "instagram": "https://instagram.com/prvnfitness"
-      },
-      "warning": null,
-      "score": 71
-    },
-    {
-      "rank": 16,
       "name": "Kachalka Muscle Beach",
       "segment": "World Icons & Open Air",
       "tier": "independent",
@@ -434,7 +408,7 @@
       "score": 71
     },
     {
-      "rank": 17,
+      "rank": 16,
       "name": "Zoo Culture",
       "segment": "Creator & New School",
       "tier": "independent",
@@ -443,12 +417,12 @@
       "who": "Members-only gym and social club built by bodybuilder-YouTuber Bradley Martyn, a fixture for LA fitness creators and celebrities.",
       "why": "One of the first gyms built entirely from a creator's personal brand — turned Bradley Martyn's online fame into a real-world hangout-and-train destination.",
       "factors": {
-        "legacy": 59,
-        "talent": 74,
-        "facility": 79,
-        "community": 84,
+        "legacy": 58,
+        "talent": 73,
+        "facility": 78,
+        "community": 83,
         "reach": 60,
-        "destination": 69
+        "destination": 68
       },
       "reach": "IG 291K (verified 2026-08)",
       "reachVerified": true,
@@ -460,7 +434,7 @@
       "score": 70
     },
     {
-      "rank": 18,
+      "rank": 17,
       "name": "Art of Jiu-Jitsu (AOJ)",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -481,6 +455,32 @@
       "website": null,
       "handles": {
         "instagram": "https://instagram.com/artofjiujitsu"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 18,
+      "name": "PRVN Fitness",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "Nashville, Tennessee",
+      "country": "US",
+      "who": "Garage-style training facility built by coach Shane Orr for his wife Tia-Clair Toomey-Orr's programming brand.",
+      "why": "Home base of the most decorated woman in CrossFit Games history, now a widely followed methodology and gear brand.",
+      "factors": {
+        "legacy": 72,
+        "talent": 92,
+        "facility": 62,
+        "community": 67,
+        "reach": 59,
+        "destination": 62
+      },
+      "reach": "IG 269K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://prvnfitness.com",
+      "handles": {
+        "instagram": "https://instagram.com/prvnfitness"
       },
       "warning": null,
       "score": 70
@@ -563,32 +563,6 @@
     },
     {
       "rank": 22,
-      "name": "Bev Francis' Powerhouse Gym",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "Syosset, New York",
-      "country": "US",
-      "who": "An independent hardcore gym on Long Island founded by IFBB legend Bev Francis, billed as \"the East Coast Mecca of bodybuilding.\"",
-      "why": "Trains top NPC and IFBB competitors — Chris Bumstead used it during a 2022 Olympia prep stretch — and keeps a coaching-floor culture built around Francis's own competitive record.",
-      "factors": {
-        "legacy": 79,
-        "talent": 69,
-        "facility": 64,
-        "community": 79,
-        "reach": 46,
-        "destination": 69
-      },
-      "reach": "Facebook 59K; X (@eastcoastmecca) 17.4K; Instagram follower count not confirmed (verified open 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.bevfrancis.com/",
-      "handles": {
-        "twitter": "https://x.com/eastcoastmecca"
-      },
-      "warning": null,
-      "score": 68
-    },
-    {
-      "rank": 23,
       "name": "Renzo Gracie Academy",
       "segment": "Combat & Performance",
       "tier": "chain-flagship",
@@ -614,7 +588,7 @@
       "score": 68
     },
     {
-      "rank": 24,
+      "rank": 23,
       "name": "IMG Academy",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -638,7 +612,7 @@
       "score": 68
     },
     {
-      "rank": 25,
+      "rank": 24,
       "name": "Fairtex Training Center",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -664,6 +638,32 @@
       "score": 68
     },
     {
+      "rank": 25,
+      "name": "Bev Francis' Powerhouse Gym",
+      "segment": "Bodybuilding Meccas",
+      "tier": "independent",
+      "city": "Syosset, New York",
+      "country": "US",
+      "who": "An independent hardcore gym on Long Island founded by IFBB legend Bev Francis, billed as \"the East Coast Mecca of bodybuilding.\"",
+      "why": "Trains top NPC and IFBB competitors — Chris Bumstead used it during a 2022 Olympia prep stretch — and keeps a coaching-floor culture built around Francis's own competitive record.",
+      "factors": {
+        "legacy": 78,
+        "talent": 68,
+        "facility": 63,
+        "community": 78,
+        "reach": 46,
+        "destination": 68
+      },
+      "reach": "Facebook 59K; X (@eastcoastmecca) 17.4K; Instagram follower count not confirmed (verified open 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.bevfrancis.com/",
+      "handles": {
+        "twitter": "https://x.com/eastcoastmecca"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
       "rank": 26,
       "name": "CrossFit Reykjavik",
       "segment": "CrossFit & Functional",
@@ -673,12 +673,12 @@
       "who": "Iceland's flagship box, training ground for the country's cluster of world-class CrossFit athletes.",
       "why": "Home of two-time Games champion Annie Thorisdottir and an international 'super team' of transplant athletes drawn to Iceland's training culture.",
       "factors": {
-        "legacy": 78,
-        "talent": 83,
-        "facility": 53,
-        "community": 73,
+        "legacy": 77,
+        "talent": 82,
+        "facility": 52,
+        "community": 72,
         "reach": 39,
-        "destination": 68
+        "destination": 67
       },
       "reach": "IG 27K (verified 2026-08)",
       "reachVerified": true,
@@ -687,7 +687,7 @@
         "instagram": "https://instagram.com/crossfitreykjavik"
       },
       "warning": null,
-      "score": 67
+      "score": 66
     },
     {
       "rank": 27,
@@ -769,58 +769,6 @@
     },
     {
       "rank": 30,
-      "name": "Dragon's Lair Gym",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "Las Vegas, Nevada",
-      "country": "US",
-      "who": "A 12,600 sq ft hardcore training facility owned by 7x 212lb Mr. Olympia Flex Lewis, with 115+ machines and dedicated power racks.",
-      "why": "Gives fans a direct line to a reigning Olympia-class champion's personal training approach, with regular pro visits and seminars.",
-      "factors": {
-        "legacy": 54,
-        "talent": 69,
-        "facility": 79,
-        "community": 64,
-        "reach": 55,
-        "destination": 64
-      },
-      "reach": "Instagram @the_dragons_lair; open, follower count not confirmed (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://thedragonslairgym.com/",
-      "handles": {
-        "instagram": "https://instagram.com/the_dragons_lair"
-      },
-      "warning": null,
-      "score": 64
-    },
-    {
-      "rank": 31,
-      "name": "Temple Gym",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "Birmingham, England",
-      "country": "UK",
-      "who": "The gym built by 6x Mr. Olympia Dorian Yates, now relocated to Birmingham's Jewellery Quarter.",
-      "why": "Defined the 1990s \"blood and guts\" high-intensity training era; still draws UK and international lifters tracing Yates's method.",
-      "factors": {
-        "legacy": 89,
-        "talent": 44,
-        "facility": 59,
-        "community": 74,
-        "reach": 45,
-        "destination": 69
-      },
-      "reach": "Instagram @templegymuk; relocated but active, listings current as of July 2026 (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://templegymuk.com/",
-      "handles": {
-        "instagram": "https://instagram.com/templegymuk"
-      },
-      "warning": null,
-      "score": 64
-    },
-    {
-      "rank": 32,
       "name": "Gold's Gym Harajuku",
       "segment": "World Icons & Open Air",
       "tier": "chain-flagship",
@@ -846,7 +794,7 @@
       "score": 64
     },
     {
-      "rank": 33,
+      "rank": 31,
       "name": "P3 Applied Sports Science",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -872,7 +820,7 @@
       "score": 64
     },
     {
-      "rank": 34,
+      "rank": 32,
       "name": "Gymshark Lifting Club",
       "segment": "Creator & New School",
       "tier": "chain-flagship",
@@ -881,12 +829,12 @@
       "who": "Gymshark's own gym and innovation hub at its Solihull HQ, built to test product and shoot athlete content on-site.",
       "why": "The physical anchor of the biggest fitness-apparel creator economy in the world — sponsored athletes train and film here.",
       "factors": {
-        "legacy": 49,
-        "talent": 69,
-        "facility": 84,
-        "community": 59,
+        "legacy": 48,
+        "talent": 68,
+        "facility": 83,
+        "community": 58,
         "reach": 70,
-        "destination": 59
+        "destination": 58
       },
       "reach": "IG 1M (verified 2026-08)",
       "reachVerified": true,
@@ -898,7 +846,7 @@
       "score": 64
     },
     {
-      "rank": 35,
+      "rank": 33,
       "name": "Bondi Beach Outdoor Gym",
       "segment": "World Icons & Open Air",
       "tier": "independent",
@@ -922,33 +870,59 @@
       "score": 64
     },
     {
-      "rank": 36,
-      "name": "Training Think Tank",
-      "segment": "CrossFit & Functional",
+      "rank": 34,
+      "name": "Dragon's Lair Gym",
+      "segment": "Bodybuilding Meccas",
       "tier": "independent",
-      "city": "Roswell, Georgia",
+      "city": "Las Vegas, Nevada",
       "country": "US",
-      "who": "Atlanta-area box built around a coaching staff of CrossFit Games veterans, led by nine-time Games athlete Travis Mayer.",
-      "why": "One of the deeper competitive coaching benches outside the traditional CrossFit power centers, with a fast-growing following.",
+      "who": "A 12,600 sq ft hardcore training facility owned by 7x 212lb Mr. Olympia Flex Lewis, with 115+ machines and dedicated power racks.",
+      "why": "Gives fans a direct line to a reigning Olympia-class champion's personal training approach, with regular pro visits and seminars.",
       "factors": {
-        "legacy": 68,
-        "talent": 73,
-        "facility": 63,
-        "community": 68,
-        "reach": 50,
-        "destination": 48
+        "legacy": 53,
+        "talent": 68,
+        "facility": 78,
+        "community": 63,
+        "reach": 55,
+        "destination": 63
       },
-      "reach": "IG 96K (verified 2026-08)",
+      "reach": "Instagram @the_dragons_lair; open, follower count not confirmed (verified 2026-08)",
       "reachVerified": true,
-      "website": "https://trainingthinktank.com",
+      "website": "https://thedragonslairgym.com/",
       "handles": {
-        "instagram": "https://instagram.com/trainingthinktank"
+        "instagram": "https://instagram.com/the_dragons_lair"
       },
       "warning": null,
       "score": 63
     },
     {
-      "rank": 37,
+      "rank": 35,
+      "name": "Temple Gym",
+      "segment": "Bodybuilding Meccas",
+      "tier": "independent",
+      "city": "Birmingham, England",
+      "country": "UK",
+      "who": "The gym built by 6x Mr. Olympia Dorian Yates, now relocated to Birmingham's Jewellery Quarter.",
+      "why": "Defined the 1990s \"blood and guts\" high-intensity training era; still draws UK and international lifters tracing Yates's method.",
+      "factors": {
+        "legacy": 88,
+        "talent": 43,
+        "facility": 58,
+        "community": 73,
+        "reach": 45,
+        "destination": 68
+      },
+      "reach": "Instagram @templegymuk; relocated but active, listings current as of July 2026 (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://templegymuk.com/",
+      "handles": {
+        "instagram": "https://instagram.com/templegymuk"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 36,
       "name": "Pahlevanpour Zurkhaneh",
       "segment": "World Icons & Open Air",
       "tier": "independent",
@@ -972,33 +946,7 @@
       "score": 63
     },
     {
-      "rank": 38,
-      "name": "Alphaland",
-      "segment": "Creator & New School",
-      "tier": "independent",
-      "city": "Missouri City, Texas",
-      "country": "US",
-      "who": "18.5-acre fitness compound built by YouTuber and Alphalete founder Christian Guzman — three gyms, courts, a sauna, a cafe, and a retail store under one roof.",
-      "why": "The most ambitious creator-built gym in the world, a self-described 'Disney World for bodybuilders' that pulls visitors from across Texas and beyond.",
-      "factors": {
-        "legacy": 44,
-        "talent": 49,
-        "facility": 89,
-        "community": 69,
-        "reach": 55,
-        "destination": 74
-      },
-      "reach": "IG 177K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://officialalphaland.com/",
-      "handles": {
-        "instagram": "https://www.instagram.com/official_alphaland/"
-      },
-      "warning": null,
-      "score": 62
-    },
-    {
-      "rank": 39,
+      "rank": 37,
       "name": "Straight Blast Gym Ireland",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -1024,7 +972,7 @@
       "score": 62
     },
     {
-      "rank": 40,
+      "rank": 38,
       "name": "Evolve MMA",
       "segment": "Combat & Performance",
       "tier": "chain-flagship",
@@ -1050,7 +998,7 @@
       "score": 62
     },
     {
-      "rank": 41,
+      "rank": 39,
       "name": "Gleason's Gym",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -1076,7 +1024,7 @@
       "score": 62
     },
     {
-      "rank": 42,
+      "rank": 40,
       "name": "EXOS",
       "segment": "Combat & Performance",
       "tier": "chain-flagship",
@@ -1100,6 +1048,58 @@
       },
       "warning": null,
       "score": 62
+    },
+    {
+      "rank": 41,
+      "name": "Training Think Tank",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "Roswell, Georgia",
+      "country": "US",
+      "who": "Atlanta-area box built around a coaching staff of CrossFit Games veterans, led by nine-time Games athlete Travis Mayer.",
+      "why": "One of the deeper competitive coaching benches outside the traditional CrossFit power centers, with a fast-growing following.",
+      "factors": {
+        "legacy": 67,
+        "talent": 72,
+        "facility": 62,
+        "community": 67,
+        "reach": 50,
+        "destination": 47
+      },
+      "reach": "IG 96K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://trainingthinktank.com",
+      "handles": {
+        "instagram": "https://instagram.com/trainingthinktank"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 42,
+      "name": "Alphaland",
+      "segment": "Creator & New School",
+      "tier": "independent",
+      "city": "Missouri City, Texas",
+      "country": "US",
+      "who": "18.5-acre fitness compound built by YouTuber and Alphalete founder Christian Guzman — three gyms, courts, a sauna, a cafe, and a retail store under one roof.",
+      "why": "The most ambitious creator-built gym in the world, a self-described 'Disney World for bodybuilders' that pulls visitors from across Texas and beyond.",
+      "factors": {
+        "legacy": 43,
+        "talent": 48,
+        "facility": 88,
+        "community": 68,
+        "reach": 55,
+        "destination": 73
+      },
+      "reach": "IG 177K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://officialalphaland.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/official_alphaland/"
+      },
+      "warning": null,
+      "score": 61
     },
     {
       "rank": 43,
@@ -1175,32 +1175,6 @@
     },
     {
       "rank": 46,
-      "name": "Oxygen Gym",
-      "segment": "Creator & New School",
-      "tier": "chain-flagship",
-      "city": "Kuwait City",
-      "country": "KW",
-      "who": "Leading hardcore bodybuilding gym brand in Kuwait, a hub for the country's outsized competitive bodybuilding scene.",
-      "why": "The best-known gym name in Gulf bodybuilding culture, with a huge regional social following and heavy competition-prep traffic.",
-      "factors": {
-        "legacy": 49,
-        "talent": 59,
-        "facility": 64,
-        "community": 69,
-        "reach": 67,
-        "destination": 54
-      },
-      "reach": "IG 671K (verified 2026-08)",
-      "reachVerified": true,
-      "website": null,
-      "handles": {
-        "instagram": "https://www.instagram.com/o2_gyms/"
-      },
-      "warning": null,
-      "score": 60
-    },
-    {
-      "rank": 47,
       "name": "Boss Barbell Club",
       "segment": "Strength & Powerlifting",
       "tier": "independent",
@@ -1226,7 +1200,7 @@
       "score": 60
     },
     {
-      "rank": 48,
+      "rank": 47,
       "name": "Sorinex Strength Compound",
       "segment": "Strength & Powerlifting",
       "tier": "independent",
@@ -1252,7 +1226,7 @@
       "score": 60
     },
     {
-      "rank": 49,
+      "rank": 48,
       "name": "Tempelhofer Feld Calisthenics Park",
       "segment": "World Icons & Open Air",
       "tier": "independent",
@@ -1274,6 +1248,32 @@
       "handles": {},
       "warning": null,
       "score": 60
+    },
+    {
+      "rank": 49,
+      "name": "Oxygen Gym",
+      "segment": "Creator & New School",
+      "tier": "chain-flagship",
+      "city": "Kuwait City",
+      "country": "KW",
+      "who": "Leading hardcore bodybuilding gym brand in Kuwait, a hub for the country's outsized competitive bodybuilding scene.",
+      "why": "The best-known gym name in Gulf bodybuilding culture, with a huge regional social following and heavy competition-prep traffic.",
+      "factors": {
+        "legacy": 48,
+        "talent": 58,
+        "facility": 63,
+        "community": 68,
+        "reach": 67,
+        "destination": 53
+      },
+      "reach": "IG 671K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/o2_gyms/"
+      },
+      "warning": null,
+      "score": 59
     },
     {
       "rank": 50,
@@ -1353,58 +1353,6 @@
     },
     {
       "rank": 53,
-      "name": "Doherty's Gym",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "Melbourne",
-      "country": "AU",
-      "who": "Australia's best-known hardcore bodybuilding gym group, anchored by its 24/7 Melbourne City location.",
-      "why": "The default training base for Australia's competitive bodybuilding and powerlifting scene for decades, open every day of the year.",
-      "factors": {
-        "legacy": 64,
-        "talent": 49,
-        "facility": 64,
-        "community": 74,
-        "reach": 42,
-        "destination": 54
-      },
-      "reach": "IG 40K (verified 2026-08, @dohertysgym)",
-      "reachVerified": true,
-      "website": "https://dohertysgym.com/",
-      "handles": {
-        "instagram": "https://instagram.com/dohertysgym"
-      },
-      "warning": null,
-      "score": 58
-    },
-    {
-      "rank": 54,
-      "name": "Ironberg (São Paulo)",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "who": "A 24-hour flagship of Brazil's Ironberg chain, self-described as Latin America's largest bodybuilding training center.",
-      "why": "Anchors Brazil's large, IFBB-heavy bodybuilding scene inside one of the region's biggest and busiest training floors.",
-      "factors": {
-        "legacy": 54,
-        "talent": 49,
-        "facility": 74,
-        "community": 64,
-        "reach": 54,
-        "destination": 54
-      },
-      "reach": "IG 150K (verified 2026-08, @ironberg_sp)",
-      "reachVerified": true,
-      "website": null,
-      "handles": {
-        "instagram": "https://instagram.com/ironberg_sp"
-      },
-      "warning": null,
-      "score": 58
-    },
-    {
-      "rank": 55,
       "name": "KX Chelsea",
       "segment": "Boutique & Luxury",
       "tier": "independent",
@@ -1428,7 +1376,7 @@
       "score": 58
     },
     {
-      "rank": 56,
+      "rank": 54,
       "name": "Anatomy Miami Beach",
       "segment": "Boutique & Luxury",
       "tier": "independent",
@@ -1454,7 +1402,7 @@
       "score": 58
     },
     {
-      "rank": 57,
+      "rank": 55,
       "name": "Kill Cliff FC",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -1478,7 +1426,7 @@
       "score": 58
     },
     {
-      "rank": 58,
+      "rank": 56,
       "name": "Alliance Jiu-Jitsu San Diego",
       "segment": "Combat & Performance",
       "tier": "chain-flagship",
@@ -1504,7 +1452,7 @@
       "score": 58
     },
     {
-      "rank": 59,
+      "rank": 57,
       "name": "Strength Asylum",
       "segment": "Strength & Powerlifting",
       "tier": "independent",
@@ -1530,57 +1478,59 @@
       "score": 58
     },
     {
-      "rank": 60,
-      "name": "THENX Fitness Studio",
-      "segment": "Creator & New School",
+      "rank": 58,
+      "name": "Doherty's Gym",
+      "segment": "Bodybuilding Meccas",
       "tier": "independent",
-      "city": "Miami, Florida",
-      "country": "US",
-      "who": "Calisthenics training studio in Miami built around Chris Heria's THENX brand, the home base seen throughout his videos.",
-      "why": "Anchors one of the largest calisthenics content ecosystems online; THENX and Heria Pro programs trace back to this floor.",
+      "city": "Melbourne",
+      "country": "AU",
+      "who": "Australia's best-known hardcore bodybuilding gym group, anchored by its 24/7 Melbourne City location.",
+      "why": "The default training base for Australia's competitive bodybuilding and powerlifting scene for decades, open every day of the year.",
       "factors": {
-        "legacy": 44,
-        "talent": 49,
-        "facility": 59,
-        "community": 64,
-        "reach": 76,
-        "destination": 54
+        "legacy": 63,
+        "talent": 48,
+        "facility": 63,
+        "community": 73,
+        "reach": 42,
+        "destination": 53
       },
-      "reach": "IG 2M (Chris Heria's personal following, verified 2026-08; the studio itself has no separate large account)",
+      "reach": "IG 40K (verified 2026-08, @dohertysgym)",
+      "reachVerified": true,
+      "website": "https://dohertysgym.com/",
+      "handles": {
+        "instagram": "https://instagram.com/dohertysgym"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 59,
+      "name": "Ironberg (São Paulo)",
+      "segment": "Bodybuilding Meccas",
+      "tier": "independent",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "who": "A 24-hour flagship of Brazil's Ironberg chain, self-described as Latin America's largest bodybuilding training center.",
+      "why": "Anchors Brazil's large, IFBB-heavy bodybuilding scene inside one of the region's biggest and busiest training floors.",
+      "factors": {
+        "legacy": 53,
+        "talent": 48,
+        "facility": 73,
+        "community": 63,
+        "reach": 54,
+        "destination": 53
+      },
+      "reach": "IG 150K (verified 2026-08, @ironberg_sp)",
       "reachVerified": true,
       "website": null,
-      "handles": {},
-      "warning": null,
-      "score": 57
-    },
-    {
-      "rank": 61,
-      "name": "Royal Docks CrossFit",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "London",
-      "country": "GB",
-      "who": "East London box next to the ExCeL centre, one of the UK's most competition-focused CrossFit gyms.",
-      "why": "A regular stop for touring elite athletes training in London, including Mat Fraser, Tia-Clair Toomey and Rich Froning.",
-      "factors": {
-        "legacy": 58,
-        "talent": 58,
-        "facility": 58,
-        "community": 63,
-        "reach": 29,
-        "destination": 73
-      },
-      "reach": "IG 8.4K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "http://www.royaldockscrossfit.com",
       "handles": {
-        "instagram": "https://instagram.com/royaldocksfitness"
+        "instagram": "https://instagram.com/ironberg_sp"
       },
       "warning": null,
       "score": 57
     },
     {
-      "rank": 62,
+      "rank": 60,
       "name": "Untamed Strength",
       "segment": "Strength & Powerlifting",
       "tier": "independent",
@@ -1607,7 +1557,7 @@
       "score": 57
     },
     {
-      "rank": 63,
+      "rank": 61,
       "name": "Barbell Brigade",
       "segment": "Strength & Powerlifting",
       "tier": "independent",
@@ -1633,7 +1583,7 @@
       "score": 57
     },
     {
-      "rank": 64,
+      "rank": 62,
       "name": "California Strength",
       "segment": "Strength & Powerlifting",
       "tier": "independent",
@@ -1659,7 +1609,7 @@
       "score": 57
     },
     {
-      "rank": 65,
+      "rank": 63,
       "name": "Gold's Gym Golden Heights",
       "segment": "World Icons & Open Air",
       "tier": "chain-flagship",
@@ -1685,57 +1635,7 @@
       "score": 57
     },
     {
-      "rank": 66,
-      "name": "Armbrust Pro Gym",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "Denver, Colorado",
-      "country": "US",
-      "who": "Josh Bryant's strength-and-physique hybrid gym, known for a dedicated leg room with eight-plus Olympic power racks.",
-      "why": "Trains IFBB pros and elite strength athletes and serves as a serious destination for hardcore leg and powerlifting-style training.",
-      "factors": {
-        "legacy": 49,
-        "talent": 59,
-        "facility": 69,
-        "community": 69,
-        "reach": 36,
-        "destination": 54
-      },
-      "reach": "IG 18.8K (verified 2026-08, @armbrustprogym)",
-      "reachVerified": true,
-      "website": "https://www.armbrustprogym.com/",
-      "handles": {
-        "instagram": "https://instagram.com/armbrustprogym"
-      },
-      "warning": null,
-      "score": 56
-    },
-    {
-      "rank": 67,
-      "name": "Choopan Classic Gym",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "Shiraz",
-      "country": "Iran",
-      "who": "A 130-plus-machine gym Mr. Olympia champion Hadi Choopan built in his home region of Iran.",
-      "why": "A symbol of Iran's rising bodybuilding pipeline and Choopan's effort to give back to the community that produced a world champion despite travel barriers to Western training hubs.",
-      "factors": {
-        "legacy": 54,
-        "talent": 64,
-        "facility": 64,
-        "community": 59,
-        "reach": 40,
-        "destination": 54
-      },
-      "reach": "Covered widely in bodybuilding press through 2025-2026; gym's own social reach not independently verified this pass",
-      "reachVerified": false,
-      "website": null,
-      "handles": {},
-      "warning": null,
-      "score": 56
-    },
-    {
-      "rank": 68,
+      "rank": 64,
       "name": "SoulCycle Tribeca",
       "segment": "Boutique & Luxury",
       "tier": "chain-flagship",
@@ -1759,7 +1659,57 @@
       "score": 56
     },
     {
-      "rank": 69,
+      "rank": 65,
+      "name": "THENX Fitness Studio",
+      "segment": "Creator & New School",
+      "tier": "independent",
+      "city": "Miami, Florida",
+      "country": "US",
+      "who": "Calisthenics training studio in Miami built around Chris Heria's THENX brand, the home base seen throughout his videos.",
+      "why": "Anchors one of the largest calisthenics content ecosystems online; THENX and Heria Pro programs trace back to this floor.",
+      "factors": {
+        "legacy": 43,
+        "talent": 48,
+        "facility": 58,
+        "community": 63,
+        "reach": 76,
+        "destination": 53
+      },
+      "reach": "IG 2M (Chris Heria's personal following, verified 2026-08; the studio itself has no separate large account)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 66,
+      "name": "Royal Docks CrossFit",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "London",
+      "country": "GB",
+      "who": "East London box next to the ExCeL centre, one of the UK's most competition-focused CrossFit gyms.",
+      "why": "A regular stop for touring elite athletes training in London, including Mat Fraser, Tia-Clair Toomey and Rich Froning.",
+      "factors": {
+        "legacy": 57,
+        "talent": 57,
+        "facility": 57,
+        "community": 62,
+        "reach": 29,
+        "destination": 72
+      },
+      "reach": "IG 8.4K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "http://www.royaldockscrossfit.com",
+      "handles": {
+        "instagram": "https://instagram.com/royaldocksfitness"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 67,
       "name": "Smart Fit Copacabana",
       "segment": "World Icons & Open Air",
       "tier": "chain-flagship",
@@ -1783,23 +1733,49 @@
       "score": 56
     },
     {
-      "rank": 70,
-      "name": "World Gym (Venice)",
+      "rank": 68,
+      "name": "Armbrust Pro Gym",
       "segment": "Bodybuilding Meccas",
-      "tier": "chain-flagship",
-      "city": "Venice, California",
+      "tier": "independent",
+      "city": "Denver, Colorado",
       "country": "US",
-      "who": "Joe Gold's second Venice gym, founded in 1976 after he sold the original Gold's Gym, since relocated within Venice.",
-      "why": "The historic rival mecca to Gold's Gym Venice, once home to Arnold Schwarzenegger, Lou Ferrigno, and the golden-era crew, and the root of the worldwide World Gym chain.",
+      "who": "Josh Bryant's strength-and-physique hybrid gym, known for a dedicated leg room with eight-plus Olympic power racks.",
+      "why": "Trains IFBB pros and elite strength athletes and serves as a serious destination for hardcore leg and powerlifting-style training.",
       "factors": {
-        "legacy": 84,
-        "talent": 34,
-        "facility": 54,
-        "community": 59,
-        "reach": 35,
-        "destination": 59
+        "legacy": 48,
+        "talent": 58,
+        "facility": 68,
+        "community": 68,
+        "reach": 36,
+        "destination": 53
       },
-      "reach": "Relocated within Venice; current location's follower count not independently verified this pass",
+      "reach": "IG 18.8K (verified 2026-08, @armbrustprogym)",
+      "reachVerified": true,
+      "website": "https://www.armbrustprogym.com/",
+      "handles": {
+        "instagram": "https://instagram.com/armbrustprogym"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 69,
+      "name": "Choopan Classic Gym",
+      "segment": "Bodybuilding Meccas",
+      "tier": "independent",
+      "city": "Shiraz",
+      "country": "Iran",
+      "who": "A 130-plus-machine gym Mr. Olympia champion Hadi Choopan built in his home region of Iran.",
+      "why": "A symbol of Iran's rising bodybuilding pipeline and Choopan's effort to give back to the community that produced a world champion despite travel barriers to Western training hubs.",
+      "factors": {
+        "legacy": 53,
+        "talent": 63,
+        "facility": 63,
+        "community": 58,
+        "reach": 40,
+        "destination": 53
+      },
+      "reach": "Covered widely in bodybuilding press through 2025-2026; gym's own social reach not independently verified this pass",
       "reachVerified": false,
       "website": null,
       "handles": {},
@@ -1807,7 +1783,7 @@
       "score": 55
     },
     {
-      "rank": 71,
+      "rank": 70,
       "name": "Heimat",
       "segment": "Boutique & Luxury",
       "tier": "independent",
@@ -1833,7 +1809,7 @@
       "score": 55
     },
     {
-      "rank": 72,
+      "rank": 71,
       "name": "Saint Haven Collingwood",
       "segment": "Boutique & Luxury",
       "tier": "independent",
@@ -1857,7 +1833,7 @@
       "score": 55
     },
     {
-      "rank": 73,
+      "rank": 72,
       "name": "Xtreme Couture MMA",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -1881,59 +1857,7 @@
       "score": 55
     },
     {
-      "rank": 74,
-      "name": "Iron Religion Gym",
-      "segment": "Creator & New School",
-      "tier": "independent",
-      "city": "Orlando, Florida",
-      "country": "US",
-      "who": "24/7 hardcore bodybuilding and powerlifting gym on International Drive, open since 2016.",
-      "why": "A regular stop for pros passing through Orlando for the Olympia Expo, built on old-school equipment mixed with modern plate-loaded gear.",
-      "factors": {
-        "legacy": 49,
-        "talent": 59,
-        "facility": 64,
-        "community": 69,
-        "reach": 39,
-        "destination": 49
-      },
-      "reach": "IG 28K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.ironreligiongym.com/",
-      "handles": {
-        "instagram": "https://www.instagram.com/ironreligiongym/"
-      },
-      "warning": null,
-      "score": 55
-    },
-    {
-      "rank": 75,
-      "name": "Raw Athletic Club",
-      "segment": "Creator & New School",
-      "tier": "independent",
-      "city": "Port St. Lucie, Florida",
-      "country": "US",
-      "who": "Premium gym opened in 2024 by five-time Classic Physique Olympia champion Chris Bumstead's Raw Nutrition brand, with a barber, smoothie bar, and apparel shop attached.",
-      "why": "The newest major creator-gym launch in bodybuilding, already drawing touring pros to train and film on camera.",
-      "factors": {
-        "legacy": 34,
-        "talent": 64,
-        "facility": 74,
-        "community": 59,
-        "reach": 41,
-        "destination": 59
-      },
-      "reach": "IG 33K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://rawathletic.club/",
-      "handles": {
-        "instagram": "https://www.instagram.com/rawathletic.club/"
-      },
-      "warning": null,
-      "score": 55
-    },
-    {
-      "rank": 76,
+      "rank": 73,
       "name": "Shaw Strength and Conditioning",
       "segment": "Strength & Powerlifting",
       "tier": "independent",
@@ -1957,7 +1881,7 @@
       "score": 55
     },
     {
-      "rank": 77,
+      "rank": 74,
       "name": "Quads Gym",
       "segment": "Bodybuilding Meccas",
       "tier": "independent",
@@ -1966,12 +1890,12 @@
       "who": "A 40,000 sq ft hardcore bodybuilding gym on Chicago's North Side, running since 1976 and nicknamed \"Land of the Giants.\"",
       "why": "A Midwest bodybuilding institution with decades of old-school iron culture; voted a top-10 gym in America.",
       "factors": {
-        "legacy": 74,
-        "talent": 39,
-        "facility": 59,
-        "community": 79,
+        "legacy": 73,
+        "talent": 38,
+        "facility": 58,
+        "community": 78,
         "reach": 25,
-        "destination": 49
+        "destination": 48
       },
       "reach": "IG 3.5K (verified 2026-08, @quadsgymchicago)",
       "reachVerified": true,
@@ -1983,7 +1907,31 @@
       "score": 54
     },
     {
-      "rank": 78,
+      "rank": 75,
+      "name": "World Gym (Venice)",
+      "segment": "Bodybuilding Meccas",
+      "tier": "chain-flagship",
+      "city": "Venice, California",
+      "country": "US",
+      "who": "Joe Gold's second Venice gym, founded in 1976 after he sold the original Gold's Gym, since relocated within Venice.",
+      "why": "The historic rival mecca to Gold's Gym Venice, once home to Arnold Schwarzenegger, Lou Ferrigno, and the golden-era crew, and the root of the worldwide World Gym chain.",
+      "factors": {
+        "legacy": 83,
+        "talent": 33,
+        "facility": 53,
+        "community": 58,
+        "reach": 35,
+        "destination": 58
+      },
+      "reach": "Relocated within Venice; current location's follower count not independently verified this pass",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 76,
       "name": "Lanserhof at The Arts Club",
       "segment": "Boutique & Luxury",
       "tier": "independent",
@@ -2007,7 +1955,7 @@
       "score": 54
     },
     {
-      "rank": 79,
+      "rank": 77,
       "name": "Mike's Gym",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -2028,6 +1976,58 @@
       "website": "https://mikesgym.com/",
       "handles": {
         "instagram": "https://instagram.com/officialmikesgymone01"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 78,
+      "name": "Iron Religion Gym",
+      "segment": "Creator & New School",
+      "tier": "independent",
+      "city": "Orlando, Florida",
+      "country": "US",
+      "who": "24/7 hardcore bodybuilding and powerlifting gym on International Drive, open since 2016.",
+      "why": "A regular stop for pros passing through Orlando for the Olympia Expo, built on old-school equipment mixed with modern plate-loaded gear.",
+      "factors": {
+        "legacy": 48,
+        "talent": 58,
+        "facility": 63,
+        "community": 68,
+        "reach": 39,
+        "destination": 48
+      },
+      "reach": "IG 28K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.ironreligiongym.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/ironreligiongym/"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 79,
+      "name": "Raw Athletic Club",
+      "segment": "Creator & New School",
+      "tier": "independent",
+      "city": "Port St. Lucie, Florida",
+      "country": "US",
+      "who": "Premium gym opened in 2024 by five-time Classic Physique Olympia champion Chris Bumstead's Raw Nutrition brand, with a barber, smoothie bar, and apparel shop attached.",
+      "why": "The newest major creator-gym launch in bodybuilding, already drawing touring pros to train and film on camera.",
+      "factors": {
+        "legacy": 33,
+        "talent": 63,
+        "facility": 73,
+        "community": 58,
+        "reach": 41,
+        "destination": 58
+      },
+      "reach": "IG 33K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://rawathletic.club/",
+      "handles": {
+        "instagram": "https://www.instagram.com/rawathletic.club/"
       },
       "warning": null,
       "score": 54
@@ -2060,32 +2060,6 @@
     },
     {
       "rank": 81,
-      "name": "Iron Addicts Gym",
-      "segment": "Bodybuilding Meccas",
-      "tier": "independent",
-      "city": "Signal Hill, California",
-      "country": "US",
-      "who": "The gym CT Fletcher built his brand around; still running under new ownership after Fletcher's exit from day-to-day operations.",
-      "why": "Years of viral \"It's a lifestyle!\" training footage made this a global reference point for hardcore strength culture, and the location keeps that identity.",
-      "factors": {
-        "legacy": 64,
-        "talent": 34,
-        "facility": 54,
-        "community": 69,
-        "reach": 50,
-        "destination": 49
-      },
-      "reach": "Active social presence; follower count not confirmed this pass (verified open 2026-08)",
-      "reachVerified": true,
-      "website": "https://ironaddictsbrands.com/the-gym/",
-      "handles": {
-        "facebook": "https://www.facebook.com/WW.IAG"
-      },
-      "warning": "CT Fletcher is no longer associated with day-to-day operation of this location; the gym continues under different ownership.",
-      "score": 53
-    },
-    {
-      "rank": 82,
       "name": "Ultimate Performance London City",
       "segment": "Boutique & Luxury",
       "tier": "chain-flagship",
@@ -2111,7 +2085,7 @@
       "score": 53
     },
     {
-      "rank": 83,
+      "rank": 82,
       "name": "Mayweather Boxing Club",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -2137,7 +2111,7 @@
       "score": 53
     },
     {
-      "rank": 84,
+      "rank": 83,
       "name": "McFit Flagship Berlin",
       "segment": "World Icons & Open Air",
       "tier": "chain-flagship",
@@ -2163,7 +2137,7 @@
       "score": 53
     },
     {
-      "rank": 85,
+      "rank": 84,
       "name": "Virgin Active Collection Green Point",
       "segment": "World Icons & Open Air",
       "tier": "chain-flagship",
@@ -2187,6 +2161,32 @@
       "score": 53
     },
     {
+      "rank": 85,
+      "name": "Iron Addicts Gym",
+      "segment": "Bodybuilding Meccas",
+      "tier": "independent",
+      "city": "Signal Hill, California",
+      "country": "US",
+      "who": "The gym CT Fletcher built his brand around; still running under new ownership after Fletcher's exit from day-to-day operations.",
+      "why": "Years of viral \"It's a lifestyle!\" training footage made this a global reference point for hardcore strength culture, and the location keeps that identity.",
+      "factors": {
+        "legacy": 63,
+        "talent": 33,
+        "facility": 53,
+        "community": 68,
+        "reach": 50,
+        "destination": 48
+      },
+      "reach": "Active social presence; follower count not confirmed this pass (verified open 2026-08)",
+      "reachVerified": true,
+      "website": "https://ironaddictsbrands.com/the-gym/",
+      "handles": {
+        "facebook": "https://www.facebook.com/WW.IAG"
+      },
+      "warning": "CT Fletcher is no longer associated with day-to-day operation of this location; the gym continues under different ownership.",
+      "score": 52
+    },
+    {
       "rank": 86,
       "name": "1st Phorm HQ",
       "segment": "Creator & New School",
@@ -2196,12 +2196,12 @@
       "who": "185,000 sq ft supplement-company headquarters with a full athletic facility, turf field, and basketball court, built by 1st Phorm founder Andy Frisella's team.",
       "why": "One of the most-toured facilities on fitness YouTube — a supplement brand's HQ built as a destination gym, not just an office.",
       "factors": {
-        "legacy": 34,
-        "talent": 39,
-        "facility": 84,
-        "community": 44,
+        "legacy": 33,
+        "talent": 38,
+        "facility": 83,
+        "community": 43,
         "reach": 70,
-        "destination": 54
+        "destination": 53
       },
       "reach": "IG 1M (1st Phorm brand account; approx 2026, not gym-specific)",
       "reachVerified": false,
@@ -2214,30 +2214,6 @@
     },
     {
       "rank": 87,
-      "name": "XT Oslo",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "Oslo",
-      "country": "NO",
-      "who": "One of the largest and oldest CrossFit facilities in Europe, spread across three training halls.",
-      "why": "Anchors Oslo's functional-fitness scene, which also hosts the Oslo Throwdown, one of Northern Europe's biggest CrossFit competitions.",
-      "factors": {
-        "legacy": 58,
-        "talent": 43,
-        "facility": 73,
-        "community": 58,
-        "reach": 35,
-        "destination": 43
-      },
-      "reach": "IG ~10K (approx 2026)",
-      "reachVerified": false,
-      "website": null,
-      "handles": {},
-      "warning": null,
-      "score": 52
-    },
-    {
-      "rank": 88,
       "name": "Gordon Beach Outdoor Gym",
       "segment": "World Icons & Open Air",
       "tier": "independent",
@@ -2261,7 +2237,7 @@
       "score": 52
     },
     {
-      "rank": 89,
+      "rank": 88,
       "name": "MetroFlex Gym Long Beach",
       "segment": "Bodybuilding Meccas",
       "tier": "chain-flagship",
@@ -2270,12 +2246,12 @@
       "who": "MetroFlex's Southern California outpost, a hardcore bodybuilding and powerlifting gym near Long Beach.",
       "why": "Carries the MetroFlex chain's coaching culture and equipment standard into the dense SoCal bodybuilding scene.",
       "factors": {
-        "legacy": 54,
-        "talent": 44,
-        "facility": 59,
-        "community": 69,
+        "legacy": 53,
+        "talent": 43,
+        "facility": 58,
+        "community": 68,
         "reach": 35,
-        "destination": 49
+        "destination": 48
       },
       "reach": "Instagram @metroflexlbc; open, follower count not confirmed (verified 2026-08)",
       "reachVerified": true,
@@ -2287,7 +2263,7 @@
       "score": 51
     },
     {
-      "rank": 90,
+      "rank": 89,
       "name": "FIBRA MAX",
       "segment": "Bodybuilding Meccas",
       "tier": "independent",
@@ -2296,12 +2272,12 @@
       "who": "\"The Athletes' Factory,\" billed as the largest weight-training gym in Europe, opened in 2024 with 400-plus machines and dumbbells.",
       "why": "A new-generation European mega-gym putting Spain on the map for large-scale strength and physique training.",
       "factors": {
-        "legacy": 29,
-        "talent": 39,
-        "facility": 89,
-        "community": 54,
+        "legacy": 28,
+        "talent": 38,
+        "facility": 88,
+        "community": 53,
         "reach": 45,
-        "destination": 64
+        "destination": 63
       },
       "reach": "Described in press as Europe's largest weight-training gym; follower count not independently verified this pass",
       "reachVerified": false,
@@ -2311,7 +2287,7 @@
       "score": 51
     },
     {
-      "rank": 91,
+      "rank": 90,
       "name": "Roufusport MMA Academy",
       "segment": "Combat & Performance",
       "tier": "independent",
@@ -2333,6 +2309,30 @@
       "handles": {
         "instagram": "https://instagram.com/roufusport"
       },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 91,
+      "name": "XT Oslo",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "Oslo",
+      "country": "NO",
+      "who": "One of the largest and oldest CrossFit facilities in Europe, spread across three training halls.",
+      "why": "Anchors Oslo's functional-fitness scene, which also hosts the Oslo Throwdown, one of Northern Europe's biggest CrossFit competitions.",
+      "factors": {
+        "legacy": 57,
+        "talent": 42,
+        "facility": 72,
+        "community": 57,
+        "reach": 35,
+        "destination": 42
+      },
+      "reach": "IG ~10K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
       "warning": null,
       "score": 51
     },
@@ -2364,6 +2364,32 @@
     },
     {
       "rank": 93,
+      "name": "Obsidian Gym Bali",
+      "segment": "World Icons & Open Air",
+      "tier": "independent",
+      "city": "Pererenan, Canggu, Bali",
+      "country": "ID",
+      "who": "The largest gym in Indonesia: a 6,000 sqm design-forward complex in Pererenan/Canggu with a pool, cold plunge, sauna, and the country's longest dumbbell row, opened 2023.",
+      "why": "Went viral worldwide for its striking architecture and design, turning it into a bucket-list stop for Bali's digital-nomad fitness crowd.",
+      "factors": {
+        "legacy": 33,
+        "talent": 36,
+        "facility": 89,
+        "community": 56,
+        "reach": 45,
+        "destination": 61
+      },
+      "reach": "IG ~52K (approx 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.obsidian-bali.com/",
+      "handles": {
+        "instagram": "https://instagram.com/obsidian.bali"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 94,
       "name": "Continuum Club West Village",
       "segment": "Boutique & Luxury",
       "tier": "independent",
@@ -2380,30 +2406,6 @@
         "destination": 72
       },
       "reach": "IG small/unverified boutique account (2026)",
-      "reachVerified": false,
-      "website": null,
-      "handles": {},
-      "warning": null,
-      "score": 50
-    },
-    {
-      "rank": 94,
-      "name": "Cape CrossFit",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "Cape Town",
-      "country": "ZA",
-      "who": "South Africa's most competitive CrossFit team gym, a fixture of the Cape Town functional-fitness scene.",
-      "why": "The winningest team in Fittest in Cape Town history and a Regionals qualifier every year since 2011.",
-      "factors": {
-        "legacy": 63,
-        "talent": 58,
-        "facility": 48,
-        "community": 58,
-        "reach": 30,
-        "destination": 38
-      },
-      "reach": "IG ~5K (approx 2026)",
       "reachVerified": false,
       "website": null,
       "handles": {},
@@ -2436,22 +2438,22 @@
     },
     {
       "rank": 96,
-      "name": "Juggernaut Training Systems HQ",
-      "segment": "Creator & New School",
+      "name": "Cape CrossFit",
+      "segment": "CrossFit & Functional",
       "tier": "independent",
-      "city": "Mooresville, North Carolina",
-      "country": "US",
-      "who": "Powerlifting gym and coaching HQ built by Chad Wesley Smith's Juggernaut Training Systems, pairing sports-science content with a hardcore lifting floor.",
-      "why": "A hub for competitive powerlifters and one of the most-followed programming brands in strength sport.",
+      "city": "Cape Town",
+      "country": "ZA",
+      "who": "South Africa's most competitive CrossFit team gym, a fixture of the Cape Town functional-fitness scene.",
+      "why": "The winningest team in Fittest in Cape Town history and a Regionals qualifier every year since 2011.",
       "factors": {
-        "legacy": 44,
-        "talent": 49,
-        "facility": 59,
-        "community": 59,
-        "reach": 45,
-        "destination": 39
+        "legacy": 62,
+        "talent": 57,
+        "facility": 47,
+        "community": 57,
+        "reach": 30,
+        "destination": 37
       },
-      "reach": "IG ~60K (approx 2026, not independently verified)",
+      "reach": "IG ~5K (approx 2026)",
       "reachVerified": false,
       "website": null,
       "handles": {},
@@ -2460,30 +2462,6 @@
     },
     {
       "rank": 97,
-      "name": "CrossFit Kailua",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "Kailua, Hawaii",
-      "country": "US",
-      "who": "Community box on Oahu built around the Hawaiian concept of ohana (family), with a roster of CrossFit Games-level members.",
-      "why": "One of the sport's early Games-era affiliates, still drawing fitness travelers to Hawaii's CrossFit scene.",
-      "factors": {
-        "legacy": 58,
-        "talent": 43,
-        "facility": 48,
-        "community": 63,
-        "reach": 30,
-        "destination": 48
-      },
-      "reach": "IG ~3K (approx 2026)",
-      "reachVerified": false,
-      "website": "https://crossfitkailua.com",
-      "handles": {},
-      "warning": null,
-      "score": 49
-    },
-    {
-      "rank": 98,
       "name": "Fitness Time Pro Gym Riyadh",
       "segment": "World Icons & Open Air",
       "tier": "chain-flagship",
@@ -2507,105 +2485,81 @@
       "score": 49
     },
     {
-      "rank": 99,
-      "name": "MetroFlex Gym Japan",
-      "segment": "Bodybuilding Meccas",
-      "tier": "chain-flagship",
-      "city": "Soka City, Saitama",
-      "country": "JP",
-      "who": "MetroFlex's first Asia location, in Saitama Prefecture, importing the chain's rare equipment and hardcore culture.",
-      "why": "A pilgrimage stop for Japanese and touring lifters seeking MetroFlex's specific old-school machines and floor culture outside the US.",
+      "rank": 98,
+      "name": "Ultra Gym at The Charlee Hotel",
+      "segment": "World Icons & Open Air",
+      "tier": "independent",
+      "city": "Medellin (El Poblado)",
+      "country": "CO",
+      "who": "Glass-walled wellness gym atop The Charlee Lifestyle Hotel in El Poblado, Medellin, with panoramic city views, a group-class studio, and a sauna/jacuzzi wet zone; day passes (about 60,000 COP) are sold to non-guests, so access is not hotel-guests-only.",
+      "why": "Floor-to-ceiling city views and the hotel's celebrity-sighting reputation make it a photographed, sought-after stop in Poblado's boutique-hotel fitness scene.",
       "factors": {
-        "legacy": 44,
-        "talent": 34,
-        "facility": 64,
-        "community": 69,
-        "reach": 30,
-        "destination": 54
+        "legacy": 31,
+        "talent": 46,
+        "facility": 81,
+        "community": 46,
+        "reach": 41,
+        "destination": 56
       },
-      "reach": "Instagram @metroflex_gym_japan; open, active as of mid-2026 (verified 2026-08)",
+      "reach": "IG 34K (hotel account @hotelthecharlee, verified 2026-08; Ultra Gym has no separate account)",
       "reachVerified": true,
-      "website": "https://metroflexgym.com/locations/saitama",
+      "website": "https://www.thecharlee.com/en/ultra-gym/",
       "handles": {
-        "instagram": "https://instagram.com/metroflex_gym_japan"
+        "instagram": "https://instagram.com/hotelthecharlee"
       },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 99,
+      "name": "Juggernaut Training Systems HQ",
+      "segment": "Creator & New School",
+      "tier": "independent",
+      "city": "Mooresville, North Carolina",
+      "country": "US",
+      "who": "Powerlifting gym and coaching HQ built by Chad Wesley Smith's Juggernaut Training Systems, pairing sports-science content with a hardcore lifting floor.",
+      "why": "A hub for competitive powerlifters and one of the most-followed programming brands in strength sport.",
+      "factors": {
+        "legacy": 43,
+        "talent": 48,
+        "facility": 58,
+        "community": 58,
+        "reach": 45,
+        "destination": 38
+      },
+      "reach": "IG ~60K (approx 2026, not independently verified)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
       "warning": null,
       "score": 48
     },
     {
       "rank": 100,
-      "name": "Overtime Athletics",
-      "segment": "Creator & New School",
+      "name": "CrossFit Kailua",
+      "segment": "CrossFit & Functional",
       "tier": "independent",
-      "city": "Elizabeth, New Jersey",
+      "city": "Kailua, Hawaii",
       "country": "US",
-      "who": "Powerbuilding gym associated with boxer and content creator Mike Rashid, known for raw, no-frills strength content.",
-      "why": "One of the earlier gyms to build an identity purely from documentary-style YouTube training footage.",
+      "who": "Community box on Oahu built around the Hawaiian concept of ohana (family), with a roster of CrossFit Games-level members.",
+      "why": "One of the sport's early Games-era affiliates, still drawing fitness travelers to Hawaii's CrossFit scene.",
       "factors": {
-        "legacy": 44,
-        "talent": 44,
-        "facility": 49,
-        "community": 69,
-        "reach": 45,
-        "destination": 39
+        "legacy": 57,
+        "talent": 42,
+        "facility": 47,
+        "community": 62,
+        "reach": 30,
+        "destination": 47
       },
-      "reach": "IG ~50K (approx 2026, not independently verified)",
+      "reach": "IG ~3K (approx 2026)",
       "reachVerified": false,
-      "website": null,
+      "website": "https://crossfitkailua.com",
       "handles": {},
       "warning": null,
       "score": 48
     }
   ],
   "bubblingUnder": [
-    {
-      "name": "CrossFit Condesa",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "Mexico City",
-      "country": "MX",
-      "who": "800-square-meter box in central Mexico City, formerly branded Reebok CrossFit Plaza Condesa.",
-      "why": "One of the largest and longest-running CrossFit facilities in Latin America's second-biggest CrossFit market.",
-      "factors": {
-        "legacy": 53,
-        "talent": 43,
-        "facility": 58,
-        "community": 53,
-        "reach": 35,
-        "destination": 43
-      },
-      "reach": "IG ~15K (approx 2026)",
-      "reachVerified": false,
-      "website": null,
-      "handles": {},
-      "warning": null,
-      "score": 48
-    },
-    {
-      "name": "Wasatch CrossFit",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "Layton, Utah",
-      "country": "US",
-      "who": "Davis County box coaching Salt Lake City-area athletes since 2007, one of Utah's first CrossFit affiliates.",
-      "why": "2017 CrossFit Games Affiliate Cup champions, a genuine national title that put a small-market gym on the map.",
-      "factors": {
-        "legacy": 63,
-        "talent": 48,
-        "facility": 48,
-        "community": 58,
-        "reach": 25,
-        "destination": 38
-      },
-      "reach": "IG 3.7K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://wasatchcrossfit.com",
-      "handles": {
-        "instagram": "https://instagram.com/wasatchcrossfit"
-      },
-      "warning": null,
-      "score": 48
-    },
     {
       "name": "Underground Strength Gym",
       "segment": "Strength & Powerlifting",
@@ -2676,6 +2630,31 @@
       "handles": {},
       "warning": null,
       "score": 48
+    },
+    {
+      "name": "MetroFlex Gym Japan",
+      "segment": "Bodybuilding Meccas",
+      "tier": "chain-flagship",
+      "city": "Soka City, Saitama",
+      "country": "JP",
+      "who": "MetroFlex's first Asia location, in Saitama Prefecture, importing the chain's rare equipment and hardcore culture.",
+      "why": "A pilgrimage stop for Japanese and touring lifters seeking MetroFlex's specific old-school machines and floor culture outside the US.",
+      "factors": {
+        "legacy": 43,
+        "talent": 33,
+        "facility": 63,
+        "community": 68,
+        "reach": 30,
+        "destination": 53
+      },
+      "reach": "Instagram @metroflex_gym_japan; open, active as of mid-2026 (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://metroflexgym.com/locations/saitama",
+      "handles": {
+        "instagram": "https://instagram.com/metroflex_gym_japan"
+      },
+      "warning": null,
+      "score": 47
     },
     {
       "name": "S10 Training",
@@ -2753,6 +2732,77 @@
       "score": 47
     },
     {
+      "name": "Overtime Athletics",
+      "segment": "Creator & New School",
+      "tier": "independent",
+      "city": "Elizabeth, New Jersey",
+      "country": "US",
+      "who": "Powerbuilding gym associated with boxer and content creator Mike Rashid, known for raw, no-frills strength content.",
+      "why": "One of the earlier gyms to build an identity purely from documentary-style YouTube training footage.",
+      "factors": {
+        "legacy": 43,
+        "talent": 43,
+        "facility": 48,
+        "community": 68,
+        "reach": 45,
+        "destination": 38
+      },
+      "reach": "IG ~50K (approx 2026, not independently verified)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 47
+    },
+    {
+      "name": "CrossFit Condesa",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "Mexico City",
+      "country": "MX",
+      "who": "800-square-meter box in central Mexico City, formerly branded Reebok CrossFit Plaza Condesa.",
+      "why": "One of the largest and longest-running CrossFit facilities in Latin America's second-biggest CrossFit market.",
+      "factors": {
+        "legacy": 52,
+        "talent": 42,
+        "facility": 57,
+        "community": 52,
+        "reach": 35,
+        "destination": 42
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 47
+    },
+    {
+      "name": "Wasatch CrossFit",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "Layton, Utah",
+      "country": "US",
+      "who": "Davis County box coaching Salt Lake City-area athletes since 2007, one of Utah's first CrossFit affiliates.",
+      "why": "2017 CrossFit Games Affiliate Cup champions, a genuine national title that put a small-market gym on the map.",
+      "factors": {
+        "legacy": 62,
+        "talent": 47,
+        "facility": 47,
+        "community": 57,
+        "reach": 25,
+        "destination": 37
+      },
+      "reach": "IG 3.7K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://wasatchcrossfit.com",
+      "handles": {
+        "instagram": "https://instagram.com/wasatchcrossfit"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
       "name": "Gymbox Covent Garden",
       "segment": "Boutique & Luxury",
       "tier": "chain-flagship",
@@ -2824,29 +2874,6 @@
       "score": 45
     },
     {
-      "name": "SKILL CGN",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "Cologne",
-      "country": "DE",
-      "who": "Official Hyrox performance-training gym in Cologne, one of Germany's hubs for the fast-growing race format.",
-      "why": "Sits inside Hyrox's home market of Germany, which hosts some of the sport's largest annual events.",
-      "factors": {
-        "legacy": 43,
-        "talent": 43,
-        "facility": 53,
-        "community": 48,
-        "reach": 30,
-        "destination": 48
-      },
-      "reach": "IG ~5K (approx 2026)",
-      "reachVerified": false,
-      "website": "https://skill-studios.com",
-      "handles": {},
-      "warning": null,
-      "score": 44
-    },
-    {
       "name": "Allegiate Gym",
       "segment": "Strength & Powerlifting",
       "tier": "chain-flagship",
@@ -2897,6 +2924,29 @@
       "score": 44
     },
     {
+      "name": "SKILL CGN",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "Cologne",
+      "country": "DE",
+      "who": "Official Hyrox performance-training gym in Cologne, one of Germany's hubs for the fast-growing race format.",
+      "why": "Sits inside Hyrox's home market of Germany, which hosts some of the sport's largest annual events.",
+      "factors": {
+        "legacy": 42,
+        "talent": 42,
+        "facility": 52,
+        "community": 47,
+        "reach": 30,
+        "destination": 47
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://skill-studios.com",
+      "handles": {},
+      "warning": null,
+      "score": 43
+    },
+    {
       "name": "Lvl Up CrossFit",
       "segment": "CrossFit & Functional",
       "tier": "independent",
@@ -2905,12 +2955,12 @@
       "who": "CrossFit affiliate in Dubai's IMPZ district, part of the emirate's fast-growing functional-fitness box scene.",
       "why": "Represents Dubai's cluster of expat-driven CrossFit boxes that has grown alongside the city's fitness-tourism boom.",
       "factors": {
-        "legacy": 43,
-        "talent": 38,
-        "facility": 53,
-        "community": 53,
+        "legacy": 42,
+        "talent": 37,
+        "facility": 52,
+        "community": 52,
         "reach": 25,
-        "destination": 43
+        "destination": 42
       },
       "reach": "IG 3.4K (verified 2026-08)",
       "reachVerified": true,
@@ -2919,7 +2969,7 @@
         "instagram": "https://instagram.com/lvlupcrossfit_dxb"
       },
       "warning": null,
-      "score": 42
+      "score": 41
     },
     {
       "name": "Second City CrossFit",
@@ -2930,43 +2980,18 @@
       "who": "One of Chicago's longest-running CrossFit boxes, a community fixture of the city's functional-fitness scene.",
       "why": "Represents the deep bench of veteran, non-flagship urban boxes that anchor CrossFit's everyday culture in major US cities.",
       "factors": {
-        "legacy": 53,
-        "talent": 38,
-        "facility": 48,
-        "community": 53,
+        "legacy": 52,
+        "talent": 37,
+        "facility": 47,
+        "community": 52,
         "reach": 25,
-        "destination": 33
+        "destination": 32
       },
       "reach": "IG 4.1K (verified 2026-08)",
       "reachVerified": true,
       "website": null,
       "handles": {
         "instagram": "https://instagram.com/secondcityfitness"
-      },
-      "warning": null,
-      "score": 42
-    },
-    {
-      "name": "Team Training UK",
-      "segment": "CrossFit & Functional",
-      "tier": "independent",
-      "city": "Northwich, Cheshire",
-      "country": "GB",
-      "who": "Official Hyrox training club in Cheshire, offering dedicated Hyrox race-prep programming alongside general fitness classes.",
-      "why": "One of the UK's earliest gyms built specifically around Hyrox racing rather than retrofitted from a CrossFit box.",
-      "factors": {
-        "legacy": 38,
-        "talent": 43,
-        "facility": 48,
-        "community": 48,
-        "reach": 30,
-        "destination": 38
-      },
-      "reach": "IG ~8K (approx 2026)",
-      "reachVerified": false,
-      "website": "https://www.teamtraininguk.com",
-      "handles": {
-        "instagram": "https://instagram.com/teamtraininguk"
       },
       "warning": null,
       "score": 41
@@ -2997,6 +3022,31 @@
       "score": 41
     },
     {
+      "name": "Team Training UK",
+      "segment": "CrossFit & Functional",
+      "tier": "independent",
+      "city": "Northwich, Cheshire",
+      "country": "GB",
+      "who": "Official Hyrox training club in Cheshire, offering dedicated Hyrox race-prep programming alongside general fitness classes.",
+      "why": "One of the UK's earliest gyms built specifically around Hyrox racing rather than retrofitted from a CrossFit box.",
+      "factors": {
+        "legacy": 37,
+        "talent": 42,
+        "facility": 47,
+        "community": 47,
+        "reach": 30,
+        "destination": 37
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.teamtraininguk.com",
+      "handles": {
+        "instagram": "https://instagram.com/teamtraininguk"
+      },
+      "warning": null,
+      "score": 40
+    },
+    {
       "name": "Atlas Training Club",
       "segment": "CrossFit & Functional",
       "tier": "independent",
@@ -3005,19 +3055,19 @@
       "who": "South Manchester and Cheshire's first gym built specifically for Hyrox training.",
       "why": "Illustrates Hyrox's rapid spread into purpose-built training clubs across the UK beyond London.",
       "factors": {
-        "legacy": 33,
-        "talent": 38,
-        "facility": 53,
-        "community": 48,
+        "legacy": 32,
+        "talent": 37,
+        "facility": 52,
+        "community": 47,
         "reach": 30,
-        "destination": 38
+        "destination": 37
       },
       "reach": "IG ~2K (approx 2026)",
       "reachVerified": false,
       "website": "https://www.atlastrainingclub.co.uk",
       "handles": {},
       "warning": null,
-      "score": 40
+      "score": 39
     }
   ]
 }

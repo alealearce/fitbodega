@@ -454,5 +454,53 @@
     "website": null,
     "handles": {},
     "warning": null
+  },
+  {
+    "name": "Obsidian Gym Bali",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Pererenan, Canggu, Bali",
+    "country": "ID",
+    "who": "The largest gym in Indonesia: a 6,000 sqm design-forward complex in Pererenan/Canggu with a pool, cold plunge, sauna, and the country's longest dumbbell row, opened 2023.",
+    "why": "Went viral worldwide for its striking architecture and design, turning it into a bucket-list stop for Bali's digital-nomad fitness crowd.",
+    "factors": {
+      "legacy": 32,
+      "talent": 35,
+      "facility": 88,
+      "community": 55,
+      "reach": 45,
+      "destination": 60
+    },
+    "reach": "IG ~52K (approx 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.obsidian-bali.com/",
+    "handles": {
+      "instagram": "https://instagram.com/obsidian.bali"
+    },
+    "warning": null
+  },
+  {
+    "name": "Ultra Gym at The Charlee Hotel",
+    "segment": "World Icons & Open Air",
+    "tier": "independent",
+    "city": "Medellin (El Poblado)",
+    "country": "CO",
+    "who": "Glass-walled wellness gym atop The Charlee Lifestyle Hotel in El Poblado, Medellin, with panoramic city views, a group-class studio, and a sauna/jacuzzi wet zone; day passes (about 60,000 COP) are sold to non-guests, so access is not hotel-guests-only.",
+    "why": "Floor-to-ceiling city views and the hotel's celebrity-sighting reputation make it a photographed, sought-after stop in Poblado's boutique-hotel fitness scene.",
+    "factors": {
+      "legacy": 30,
+      "talent": 45,
+      "facility": 80,
+      "community": 45,
+      "reach": 42,
+      "destination": 55
+    },
+    "reach": "IG 34K (hotel account @hotelthecharlee, verified 2026-08; Ultra Gym has no separate account)",
+    "reachVerified": true,
+    "website": "https://www.thecharlee.com/en/ultra-gym/",
+    "handles": {
+      "instagram": "https://instagram.com/hotelthecharlee"
+    },
+    "warning": null
   }
 ]
