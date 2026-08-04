@@ -154,45 +154,70 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── The Index — typographic category list, no cards ── */}
+      {/* ── The Index — asymmetric split: sticky intro left, typographic
+          rows right. Hovering a row slides in a giant ghost category word,
+          echoing the FitBodega 100 watermark language. ── */}
       <section className="py-24 lg:py-32 bg-bg">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="w-7 h-[3px] bg-primary" aria-hidden />
-            <p className="font-sans text-label-md uppercase text-primary">
-              The Directory
-            </p>
-          </div>
-          <h2 className="font-serif text-display-md uppercase text-on-surface mb-14">
-            The Index
-          </h2>
-
-          <div>
-            {CATEGORIES.map((cat, i) => (
+          <div className="grid lg:grid-cols-[1fr_2fr] gap-10 lg:gap-16">
+            <div className="lg:sticky lg:top-28 lg:self-start">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                <p className="font-sans text-label-md uppercase text-primary">
+                  The Directory
+                </p>
+              </div>
+              <h2 className="font-serif text-display-md uppercase text-on-surface">
+                The Index
+              </h2>
+              <p className="font-sans text-base text-on-surface-variant mt-5 max-w-sm">
+                Seven categories, one standard. Every space in the network is reviewed before it
+                lists — curated, not crawled.
+              </p>
               <Link
-                key={cat.href}
-                href={cat.href}
-                className="group flex items-baseline justify-between gap-6 py-7 hover:bg-surface-low -mx-6 lg:-mx-8 px-6 lg:px-8 transition-colors duration-300"
+                href="/search"
+                className="mt-8 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
               >
-                <div className="flex items-baseline gap-6 min-w-0">
-                  <span className="font-sans text-label-sm text-on-surface-variant w-8 flex-shrink-0">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <div className="min-w-0">
-                    <h3 className="font-serif text-2xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
-                      {cat.name}
-                    </h3>
-                    <p className="font-sans text-sm text-on-surface-variant mt-2 max-w-lg">
-                      {cat.desc}
-                    </p>
-                  </div>
-                </div>
-                <ArrowUpRight
-                  size={22}
-                  className="flex-shrink-0 text-outline-variant group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
-                />
+                Search the network
+                <ArrowUpRight size={16} />
               </Link>
-            ))}
+            </div>
+
+            <div>
+              {CATEGORIES.map((cat, i) => (
+                <Link
+                  key={cat.href}
+                  href={cat.href}
+                  className="group relative overflow-hidden flex items-baseline justify-between gap-6 py-7 hover:bg-surface-low -mx-6 lg:mx-0 px-6 transition-colors duration-300"
+                >
+                  {/* Ghost word — slides in on hover */}
+                  <span
+                    aria-hidden
+                    className="pointer-events-none select-none absolute inset-y-0 right-0 flex items-center font-serif font-extrabold uppercase tracking-tighter leading-none whitespace-nowrap text-7xl lg:text-8xl text-primary/[0.07] opacity-0 translate-x-10 group-hover:opacity-100 group-hover:translate-x-4 transition-all duration-500"
+                  >
+                    {cat.name}
+                  </span>
+
+                  <div className="relative flex items-baseline gap-6 min-w-0">
+                    <span className="font-sans text-label-sm text-on-surface-variant flex-shrink-0 tabular-nums">
+                      {String(i + 1).padStart(2, "0")} / {String(CATEGORIES.length).padStart(2, "0")}
+                    </span>
+                    <div className="min-w-0">
+                      <h3 className="font-serif text-2xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
+                        {cat.name}
+                      </h3>
+                      <p className="font-sans text-sm text-on-surface-variant mt-2 max-w-lg">
+                        {cat.desc}
+                      </p>
+                    </div>
+                  </div>
+                  <ArrowUpRight
+                    size={22}
+                    className="relative flex-shrink-0 text-outline-variant group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
+                  />
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>
