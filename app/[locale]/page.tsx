@@ -8,6 +8,17 @@ import type { Metadata } from "next";
 import HeroSection from "@/components/home/HeroSection";
 import ListingCard from "@/components/directory/ListingCard";
 import { TOP100_LISTS } from "@/components/top100/lists";
+import Top100Card from "@/components/top100/Top100Card";
+import influencersList from "@/data/top-100/fitness-influencers.json";
+import gymsList from "@/data/top-100/gyms.json";
+import retreatsList from "@/data/top-100/retreats.json";
+
+// Three featured rankings on the homepage; the /top-100 hub carries all nine.
+const FEATURED_TOP100 = [
+  { ...TOP100_LISTS[0], top3: influencersList.entries.slice(0, 3).map((e) => e.name) },
+  { ...TOP100_LISTS[1], top3: gymsList.entries.slice(0, 3).map((e) => e.name) },
+  { ...TOP100_LISTS[2], top3: retreatsList.entries.slice(0, 3).map((e) => e.name) },
+];
 
 export const metadata: Metadata = {
   title: `${SITE.name} — ${SITE.tagline}`,
@@ -186,46 +197,64 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── The FitBodega 100 — ranked world lists ── */}
+      {/* ── The FitBodega 100 — featured poster cards + view-all bar ── */}
       <section className="py-24 lg:py-32 bg-surface-low">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="w-7 h-[3px] bg-primary" aria-hidden />
-            <p className="font-sans text-label-md uppercase text-primary">Ranked monthly</p>
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                <p className="font-sans text-label-md uppercase text-primary">Ranked monthly</p>
+              </div>
+              <h2 className="font-serif text-display-md uppercase text-on-surface">
+                The FitBodega 100
+              </h2>
+              <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
+                Nine world rankings, one scoring system. The people, places, and spaces that
+                define training culture.
+              </p>
+            </div>
+            <Link
+              href="/top-100"
+              className="flex-shrink-0 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
+            >
+              The full index
+              <ArrowUpRight size={16} />
+            </Link>
           </div>
-          <h2 className="font-serif text-display-md uppercase text-on-surface mb-4">
-            The FitBodega 100
-          </h2>
-          <p className="font-sans text-base text-on-surface-variant max-w-xl mb-14">
-            Six world rankings, one scoring system. The people, places, and spaces that define
-            training culture.
-          </p>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {TOP100_LISTS.map((list, i) => (
-              <Link
-                key={list.slug}
-                href={list.slug}
-                className="group bg-surface-card hover:bg-surface-input transition-colors duration-300 p-7 lg:p-8 flex flex-col min-h-[180px]"
-              >
-                <div className="flex items-start justify-between gap-4">
-                  <span className="font-sans text-label-sm text-on-surface-variant tabular-nums">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <ArrowUpRight
-                    size={20}
-                    className="flex-shrink-0 text-outline-variant group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
-                  />
-                </div>
-                <div className="mt-auto pt-8">
-                  <h3 className="font-serif text-xl lg:text-2xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
-                    {list.navLabel}
-                  </h3>
-                  <p className="font-sans text-sm text-on-surface-variant mt-2">{list.desc}</p>
-                </div>
-              </Link>
+            {FEATURED_TOP100.map((f, i) => (
+              <Top100Card
+                key={f.slug}
+                slug={f.slug}
+                navLabel={f.navLabel}
+                top3={f.top3}
+                lime={i === 1}
+                indexLabel={`${String(i + 1).padStart(2, "0")} / ${String(TOP100_LISTS.length).padStart(2, "0")}`}
+              />
             ))}
           </div>
+
+          {/* View-all bar — same watermark language, full width */}
+          <Link
+            href="/top-100"
+            className="group relative overflow-hidden mt-3 flex items-center justify-between gap-6 bg-surface-card hover:bg-primary transition-colors duration-300 px-7 py-8 lg:px-10 lg:py-10"
+          >
+            <span
+              aria-hidden
+              className="pointer-events-none select-none absolute -top-16 right-6 font-serif font-extrabold leading-none tracking-tighter text-[11rem] text-on-surface/[0.05] group-hover:text-primary-on/10 transition-colors duration-300"
+            >
+              100
+            </span>
+            <span className="relative font-serif text-xl lg:text-3xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary-on transition-colors duration-300">
+              View all {TOP100_LISTS.length} rankings
+            </span>
+            <ArrowUpRight
+              size={22}
+              className="relative flex-shrink-0 text-outline-variant group-hover:text-primary-on group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
+            />
+          </Link>
         </div>
       </section>
 

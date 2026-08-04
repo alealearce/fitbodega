@@ -18,6 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: base,                                        changeFrequency: "weekly",  priority: 1.0 },
     ...hubRoutes,
     { url: `${base}/community`,                         changeFrequency: "daily",   priority: 0.8 },
+    { url: `${base}/top-100`,                           changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/top-100-fitness-influencers`,       changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/top-100-gyms`,                      changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/top-100-fitness-retreats`,          changeFrequency: "monthly", priority: 0.9 },
