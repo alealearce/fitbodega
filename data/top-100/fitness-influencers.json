@@ -1,0 +1,3732 @@
+{
+  "meta": {
+    "title": "Top 100 Fitness Influencers 2026",
+    "subtitle": "The world's most influential people in fitness — ranked. Athletes, coaches, educators, and the megastars who move training culture.",
+    "series": "The FitBodega 100",
+    "updated": "2026-08-04",
+    "reviewCadence": "monthly",
+    "scoreModel": {
+      "name": "Fitness Influence Score",
+      "gate": "Two tiers. Core — fitness is their main output. Amplifiers — fitness is not their core topic, but their reach moves the whole culture when they train, transform, or talk protocols; amplifier scores carry a 0.9 relevance discount.",
+      "weights": {
+        "reach": 0.25,
+        "engagement": 0.15,
+        "credibility": 0.2,
+        "impact": 0.15,
+        "commerce": 0.1,
+        "consistency": 0.15
+      },
+      "notes": "Reach is log-scaled and platform-weighted (Instagram, YouTube, TikTok full weight; X half) and recomputed from researched follower counts. The five judgment factors are calibrated across research segments so no category is scored on an easier curve. Follower counts marked verified were browser-checked at the listed date; the rest are approximate."
+    },
+    "disclaimer": "Follower counts are approximate (2026) and the ranking is reviewed monthly. Educational and editorial — inclusion is not an endorsement, and scores measure influence, not advice quality."
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "name": "Chris Bumstead",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "CA",
+      "who": "Five-time Classic Physique Mr. Olympia champion, retired from competition in 2024.",
+      "why": "Defined the modern classic physique look and built a business empire (RAW Nutrition, Bum Energy, CBum Fitness) that outgrew the sport itself.",
+      "factors": {
+        "reach": 85,
+        "engagement": 74,
+        "credibility": 91,
+        "impact": 89,
+        "commerce": 77,
+        "consistency": 84
+      },
+      "reach": "IG 25.8M (verified 2026-06)",
+      "reachVerified": true,
+      "website": "https://cbumfitness.com",
+      "handles": {
+        "instagram": "https://instagram.com/cbum",
+        "youtube": "https://youtube.com/@cbum"
+      },
+      "warning": null,
+      "score": 84
+    },
+    {
+      "rank": 2,
+      "name": "David Goggins",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Retired Navy SEAL, ultra-endurance racer, and author of Can't Hurt Me.",
+      "why": "Built the modern mental-toughness genre; his callouses-and-suffering ethos is imitated across every fitness niche.",
+      "factors": {
+        "reach": 81,
+        "engagement": 75,
+        "credibility": 80,
+        "impact": 92,
+        "commerce": 75,
+        "consistency": 90
+      },
+      "reach": "IG 14.2M · YT 2.1M · TT est. 3M (verified 2026-08, IG)",
+      "reachVerified": true,
+      "website": "https://davidgoggins.com",
+      "handles": {
+        "instagram": "https://instagram.com/davidgoggins",
+        "youtube": "https://youtube.com/@davidgoggins"
+      },
+      "warning": null,
+      "score": 82
+    },
+    {
+      "rank": 3,
+      "name": "Kayla Itsines",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "AU",
+      "who": "Australian trainer, co-founder of the Bikini Body Guide (BBG) and the Sweat app.",
+      "why": "BBG and Sweat defined the at-home women's fitness-app category and built a nine-figure business.",
+      "factors": {
+        "reach": 80,
+        "engagement": 58,
+        "credibility": 78,
+        "impact": 91,
+        "commerce": 98,
+        "consistency": 88
+      },
+      "reach": "IG 15.4M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://kaylaitsines.com",
+      "handles": {
+        "instagram": "https://instagram.com/kayla_itsines",
+        "youtube": "https://youtube.com/@kaylaitsines",
+        "podcast": "Sweat Daily with Kayla Itsines"
+      },
+      "warning": null,
+      "score": 81
+    },
+    {
+      "rank": 4,
+      "name": "Jeff Nippard",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "CA",
+      "who": "Natural bodybuilder and YouTuber who turns exercise-science studies into structured hypertrophy and strength programs.",
+      "why": "The reference standard for evidence-based lifting content; his myth-busting videos and programs set the tone the whole segment is measured against.",
+      "factors": {
+        "reach": 78,
+        "engagement": 72,
+        "credibility": 82,
+        "impact": 82,
+        "commerce": 72,
+        "consistency": 85
+      },
+      "reach": "IG 3.9M · YT 8.6M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.jeffnippard.com",
+      "handles": {
+        "instagram": "https://instagram.com/jeffnippard",
+        "youtube": "https://youtube.com/@JeffNippard"
+      },
+      "warning": null,
+      "score": 79
+    },
+    {
+      "rank": 5,
+      "name": "Tia-Clair Toomey",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "AU",
+      "who": "Most decorated athlete in CrossFit Games history, 8-time Fittest Woman on Earth through the 2025 season.",
+      "why": "Sets the competitive standard the entire women's field trains against; her app and gear line extend that authority into commerce.",
+      "factors": {
+        "reach": 63,
+        "engagement": 61,
+        "credibility": 96,
+        "impact": 91,
+        "commerce": 61,
+        "consistency": 91
+      },
+      "reach": "IG 2.1M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/tiaclair1/"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 6,
+      "name": "Jeff Cavaliere",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Physical therapist and former MLB strength coach behind ATHLEAN-X, the largest science-based training channel on YouTube.",
+      "why": "14M+ YouTube subscribers make him the biggest single reach in this segment; his corrective-training, fix-your-form format is widely copied.",
+      "factors": {
+        "reach": 81,
+        "engagement": 69,
+        "credibility": 75,
+        "impact": 79,
+        "commerce": 75,
+        "consistency": 87
+      },
+      "reach": "IG 2M · YT 14.3M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://athleanx.com",
+      "handles": {
+        "instagram": "https://instagram.com/athleanx",
+        "youtube": "https://youtube.com/@athleanx"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 7,
+      "name": "Rich Froning",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Four-time individual CrossFit Games champion and multi-time team champion, founder of CrossFit Mayhem.",
+      "why": "Built the sport's biggest affiliate-and-media brand and still competes and coaches team events, bridging the sport's early and current eras.",
+      "factors": {
+        "reach": 59,
+        "engagement": 54,
+        "credibility": 95,
+        "impact": 87,
+        "commerce": 84,
+        "consistency": 91
+      },
+      "reach": "IG 1.4M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://mayhemnation.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/richfroning/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 8,
+      "name": "Dr. Mike Israetel",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Sport scientist and co-founder of Renaissance Periodization (RP), known for periodization science and blunt on-camera debates.",
+      "why": "RP's app and templates put periodization science in front of a mass audience; his channel and clips generate outsized engagement and debate.",
+      "factors": {
+        "reach": 71,
+        "engagement": 77,
+        "credibility": 79,
+        "impact": 75,
+        "commerce": 82,
+        "consistency": 82
+      },
+      "reach": "IG 1.8M combined (@drmikeisraetel + @drmikeclips) · YT 3.8M RP channel (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://rpstrength.com",
+      "handles": {
+        "instagram": "https://instagram.com/drmikeisraetel",
+        "youtube": "https://youtube.com/@RenaissancePeriodization"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 9,
+      "name": "Arnold Schwarzenegger",
+      "segment": "Bodybuilding & Physique",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Seven-time Mr. Olympia, actor, former California governor, still runs the Arnold Sports Festival and a daily fitness newsletter.",
+      "why": "Amplifier: fitness is a fraction of his output, but his Pump Club newsletter and Arnold Classic events move the whole industry when he speaks.",
+      "factors": {
+        "reach": 85,
+        "engagement": 54,
+        "credibility": 94,
+        "impact": 94,
+        "commerce": 84,
+        "consistency": 94
+      },
+      "reach": "IG 27M (verified 2026)",
+      "reachVerified": true,
+      "website": "https://schwarzenegger.com",
+      "handles": {
+        "instagram": "https://instagram.com/schwarzenegger",
+        "x": "https://x.com/schwarzenegger"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 10,
+      "name": "Mat Fraser",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Five-time CrossFit Games champion (2016-2020), widely regarded as the greatest individual competitor in the sport's history.",
+      "why": "Retired unbeaten in Games finals; his name still headlines comeback speculation and his training company keeps his standards visible.",
+      "factors": {
+        "reach": 64,
+        "engagement": 54,
+        "credibility": 97,
+        "impact": 94,
+        "commerce": 64,
+        "consistency": 77
+      },
+      "reach": "IG 2.4M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/mathewfras/"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 11,
+      "name": "Cassey Ho",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "US",
+      "who": "Founder of Blogilates and the POPFLEX activewear brand, pioneer of Pop Pilates.",
+      "why": "One of the longest-running fitness YouTubers; built Pop Pilates into a format and POPFLEX into a real apparel brand.",
+      "factors": {
+        "reach": 81,
+        "engagement": 68,
+        "credibility": 58,
+        "impact": 78,
+        "commerce": 78,
+        "consistency": 93
+      },
+      "reach": "YT 11M · IG 3M · TT 3.7M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.popflex.com",
+      "handles": {
+        "instagram": "https://instagram.com/blogilates",
+        "youtube": "https://youtube.com/@blogilates",
+        "tiktok": "https://tiktok.com/@blogilates"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 12,
+      "name": "Mind Pump",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Three-host fitness media company (Sal Di Stefano, Adam Schafer, Justin Andrews) behind the 'Raw Fitness Truth' podcast and MAPS training programs.",
+      "why": "The longest-running mainstream fitness podcast, with a large, loyal, purchase-ready audience and a real coaching-programs business behind it.",
+      "factors": {
+        "reach": 100,
+        "engagement": 65,
+        "credibility": 62,
+        "impact": 62,
+        "commerce": 75,
+        "consistency": 82
+      },
+      "reach": "IG 403K · podcast 250M+ downloads (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://mindpumpmedia.com",
+      "handles": {
+        "instagram": "https://instagram.com/mindpumpmedia",
+        "youtube": "https://youtube.com/@MindPumpTV",
+        "podcast": "Mind Pump: Raw Fitness Truth"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 13,
+      "name": "Ronnie Coleman",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Eight-time Mr. Olympia (1998-2005), widely regarded as one of the greatest bodybuilders ever.",
+      "why": "His 'Yeah buddy, lightweight' persona and record-setting Olympia run still define the sport's golden era in pop culture.",
+      "factors": {
+        "reach": 75,
+        "engagement": 39,
+        "credibility": 97,
+        "impact": 94,
+        "commerce": 64,
+        "consistency": 69
+      },
+      "reach": "IG ~7.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/ronniecoleman8"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
+      "rank": 14,
+      "name": "Chris Heria",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Calisthenics athlete and founder of THENX, one of the largest bodyweight-training brands online.",
+      "why": "Defined the mainstream calisthenics/street-workout era and built an app-and-apparel business off it.",
+      "factors": {
+        "reach": 80,
+        "engagement": 65,
+        "credibility": 60,
+        "impact": 85,
+        "commerce": 78,
+        "consistency": 85
+      },
+      "reach": "IG 2.5M · YT 13M combined THENX+personal (verified 2026-02)",
+      "reachVerified": true,
+      "website": "https://thenx.com",
+      "handles": {
+        "instagram": "https://instagram.com/christian.heria",
+        "youtube": "https://youtube.com/@thenx"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
+      "rank": 15,
+      "name": "Eliud Kipchoge",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "KE",
+      "who": "Two-time Olympic marathon champion and former marathon world-record holder, first to run a sub-two-hour marathon (unofficial).",
+      "why": "Defined an era of distance running; his training and mindset are studied and imitated worldwide.",
+      "factors": {
+        "reach": 62,
+        "engagement": 45,
+        "credibility": 98,
+        "impact": 90,
+        "commerce": 60,
+        "consistency": 85
+      },
+      "reach": "IG approx. 2.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/eliudkipchoge"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 16,
+      "name": "Kilian Jornet",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "ES",
+      "who": "Mountain and skyrunning legend; holder of multiple speed records including Everest without supplemental oxygen.",
+      "why": "The most decorated mountain-endurance athlete alive, and co-founder of the NNormal footwear brand.",
+      "factors": {
+        "reach": 62,
+        "engagement": 50,
+        "credibility": 95,
+        "impact": 85,
+        "commerce": 65,
+        "consistency": 88
+      },
+      "reach": "IG 2.0M (verified 2026)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/kilianjornet"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 17,
+      "name": "Joe Rogan",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Podcast host and BJJ black belt whose show constantly pulls fitness, strength, and longevity topics into mainstream conversation.",
+      "why": "The Joe Rogan Experience is the biggest amplification engine in health/fitness media; a single episode can send a coach, diet, or supplement viral overnight.",
+      "factors": {
+        "reach": 90,
+        "engagement": 87,
+        "credibility": 67,
+        "impact": 87,
+        "commerce": 67,
+        "consistency": 92
+      },
+      "reach": "IG ~19.7M · YT ~21M (verified 2026-06/08, HypeAuditor/SocialBlade)",
+      "reachVerified": true,
+      "website": "https://joerogan.com",
+      "handles": {
+        "instagram": "https://instagram.com/joerogan",
+        "youtube": "https://youtube.com/@joerogan",
+        "podcast": "The Joe Rogan Experience"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 18,
+      "name": "Jeremy Ethier",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "CA",
+      "who": "Canadian kinesiologist-turned-YouTuber known for science-based lifting and training critique content.",
+      "why": "Helped mainstream the 'science-based' fitness content wave, with a real 7-8 figure coaching program behind it.",
+      "factors": {
+        "reach": 74,
+        "engagement": 67,
+        "credibility": 77,
+        "impact": 72,
+        "commerce": 67,
+        "consistency": 82
+      },
+      "reach": "YT 7.8M · IG ~421K (verified 2026-08, HypeAuditor/vidIQ)",
+      "reachVerified": true,
+      "website": "https://builtwithscience.com",
+      "handles": {
+        "instagram": "https://instagram.com/jeremyethier",
+        "youtube": "https://youtube.com/@JeremyEthier"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 19,
+      "name": "Joe Wicks",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "UK",
+      "who": "The Body Coach, UK home-fitness personality who ran nationwide live PE lessons during the pandemic.",
+      "why": "Turned a nation's living rooms into a gym class; still runs a paid app and bestselling cookbooks on the back of that trust.",
+      "factors": {
+        "reach": 70,
+        "engagement": 72,
+        "credibility": 62,
+        "impact": 82,
+        "commerce": 72,
+        "consistency": 82
+      },
+      "reach": "IG 4.7M · YT ~2.9M+ (verified 2026-05, HypeAuditor/CreatorDB)",
+      "reachVerified": true,
+      "website": "https://thebodycoach.com",
+      "handles": {
+        "instagram": "https://instagram.com/thebodycoach",
+        "youtube": "https://youtube.com/@thebodycoach",
+        "tiktok": "https://tiktok.com/@joewicksthebodycoach"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 20,
+      "name": "Caroline Girvan",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "IE",
+      "who": "Irish trainer behind the EPIC and Hero dumbbell-workout programs on YouTube.",
+      "why": "Currently the most imitated name in home strength training; her programs drive huge, sustained view spikes.",
+      "factors": {
+        "reach": 71,
+        "engagement": 83,
+        "credibility": 68,
+        "impact": 83,
+        "commerce": 48,
+        "consistency": 78
+      },
+      "reach": "YT 4.4M · IG approx 780K (verified YT 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/carolinegirvan",
+        "youtube": "https://youtube.com/@carolinegirvan"
+      },
+      "warning": null,
+      "score": 73
+    },
+    {
+      "rank": 21,
+      "name": "Larry Wheels",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Powerlifter, strongman, and arm-wrestler who documents extreme-strength feats and PED-assisted training openly.",
+      "why": "Bridges powerlifting, strongman, and bodybuilding audiences with genuine elite-level lifting numbers.",
+      "factors": {
+        "reach": 71,
+        "engagement": 64,
+        "credibility": 84,
+        "impact": 74,
+        "commerce": 49,
+        "consistency": 79
+      },
+      "reach": "IG 5.4M · YT ~3M (verified 2026-06)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/larrywheels",
+        "youtube": "https://youtube.com/@LarryWheels"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 22,
+      "name": "Eddie Hall",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "GB",
+      "who": "2017 World's Strongest Man and former deadlift world record holder (500kg raw).",
+      "why": "Crossed strongman into mainstream media via a Netflix documentary and a headline boxing match against Hafthor Bjornsson.",
+      "factors": {
+        "reach": 71,
+        "engagement": 59,
+        "credibility": 87,
+        "impact": 74,
+        "commerce": 54,
+        "consistency": 79
+      },
+      "reach": "IG 5.4M (verified 2026-06)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/eddiehallwsm"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 23,
+      "name": "Jay Cutler",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Four-time Mr. Olympia (2006, 2007, 2009, 2010), now runs a large supplement brand and gyms.",
+      "why": "One of the sport's most successful post-competition business builders, still a reference name for casual fans.",
+      "factors": {
+        "reach": 68,
+        "engagement": 44,
+        "credibility": 89,
+        "impact": 69,
+        "commerce": 74,
+        "consistency": 84
+      },
+      "reach": "IG ~4.5M (approx 2026)",
+      "reachVerified": false,
+      "website": "https://cutlernutrition.com",
+      "handles": {
+        "instagram": "https://instagram.com/jaycutler",
+        "youtube": "https://youtube.com/@JayCutlerTV"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 24,
+      "name": "Katrin Davidsdottir",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "IS",
+      "who": "Two-time Fittest Woman on Earth (2015, 2016) and veteran competitor still contending for the Games podium.",
+      "why": "A decade-plus at the top with a large, loyal following and co-founded nutrition and recovery brands.",
+      "factors": {
+        "reach": 63,
+        "engagement": 54,
+        "credibility": 89,
+        "impact": 81,
+        "commerce": 57,
+        "consistency": 84
+      },
+      "reach": "IG ~2M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/katrintanja/"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 25,
+      "name": "Nick Bare",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Army veteran, marathoner/Ironman finisher, and founder of Bare Performance Nutrition.",
+      "why": "Popularized the daily-vlog 'hybrid athlete' training model that fuses marathon/triathlon work with lifting.",
+      "factors": {
+        "reach": 64,
+        "engagement": 65,
+        "credibility": 65,
+        "impact": 78,
+        "commerce": 80,
+        "consistency": 88
+      },
+      "reach": "IG 1.0M · YT 1.5M (verified 2026-07)",
+      "reachVerified": true,
+      "website": "https://nickbare.com",
+      "handles": {
+        "instagram": "https://instagram.com/nickbarefitness",
+        "youtube": "https://youtube.com/@nickbare"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 26,
+      "name": "Dwayne Johnson",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Actor and former pro wrestler who posts his own gym training to the largest audience of any human on Instagram.",
+      "why": "His 4am gym sessions and Iron Paradise content move the culture on scale alone; backed by his own Project Rock apparel line and ZOA/Teremana drink brands.",
+      "factors": {
+        "reach": 100,
+        "engagement": 57,
+        "credibility": 57,
+        "impact": 87,
+        "commerce": 92,
+        "consistency": 87
+      },
+      "reach": "IG 382M · YT 6M+ (verified 2026-06, HypeAuditor/SocialBlade)",
+      "reachVerified": true,
+      "website": "https://projectrock.com",
+      "handles": {
+        "instagram": "https://instagram.com/therock",
+        "youtube": "https://youtube.com/@TheRock",
+        "x": "https://x.com/TheRock"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 27,
+      "name": "Chloe Ting",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "SG",
+      "who": "Singapore-raised, Australia-based creator behind viral workout challenges like the '2 Week Shred'.",
+      "why": "Most-subscribed fitness YouTuber; her challenge-video format defined the COVID-era home-workout boom worldwide.",
+      "factors": {
+        "reach": 91,
+        "engagement": 78,
+        "credibility": 38,
+        "impact": 88,
+        "commerce": 68,
+        "consistency": 63
+      },
+      "reach": "YT 26.2M · IG 25M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://chloeting.com",
+      "handles": {
+        "instagram": "https://instagram.com/chloe_ting",
+        "youtube": "https://youtube.com/@chloeting"
+      },
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 28,
+      "name": "Ben Bergeron",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Founder of CompTrain and CrossFit New England, coach behind multiple individual and team Games champions.",
+      "why": "The sport's most influential coach: his programming and mindset content are studied and copied across affiliates worldwide.",
+      "factors": {
+        "reach": 45,
+        "engagement": 54,
+        "credibility": 91,
+        "impact": 81,
+        "commerce": 79,
+        "consistency": 89
+      },
+      "reach": "IG (personal) 304K + CompTrain 266K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://comptrain.co",
+      "handles": {
+        "instagram": "https://www.instagram.com/benbergeron/",
+        "podcast": "Chasing Excellence"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 29,
+      "name": "Michelle Lewin",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "VE",
+      "who": "Venezuelan bikini-fitness competitor and one of the earliest global Instagram fitness stars.",
+      "why": "Helped define the bikini-fitness-model aesthetic that shaped a decade of fitness content worldwide.",
+      "factors": {
+        "reach": 80,
+        "engagement": 58,
+        "credibility": 63,
+        "impact": 73,
+        "commerce": 58,
+        "consistency": 83
+      },
+      "reach": "IG 15M (verified 2026-06)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/michelle_lewin",
+        "youtube": "https://youtube.com/@michellelewin"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 30,
+      "name": "Anllela Sagra",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "CO",
+      "who": "Colombian fitness model and one of the most-followed Latin American fitness figures on Instagram.",
+      "why": "Huge cultural reach across Latin America; a defining face of the region's fitness-model wave.",
+      "factors": {
+        "reach": 85,
+        "engagement": 58,
+        "credibility": 58,
+        "impact": 73,
+        "commerce": 58,
+        "consistency": 83
+      },
+      "reach": "IG 27.1M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/anllela_sagra",
+        "youtube": "https://youtube.com/@anllelasagra"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 31,
+      "name": "Eva Andressa",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "BR",
+      "who": "Brazilian bodybuilder, gym owner and one of Brazil's most-followed fitness personalities.",
+      "why": "Real competitive bodybuilding background plus a gym and supplement business, huge domestic cultural reach.",
+      "factors": {
+        "reach": 81,
+        "engagement": 53,
+        "credibility": 68,
+        "impact": 68,
+        "commerce": 63,
+        "consistency": 83
+      },
+      "reach": "IG approx 17M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/eva_andressa"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 32,
+      "name": "Hafthor Bjornsson",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "IS",
+      "who": "2018 World's Strongest Man, former deadlift world record holder, and Game of Thrones' 'The Mountain'.",
+      "why": "One of the few strength athletes with genuine Hollywood crossover, plus a headline pivot into pro boxing.",
+      "factors": {
+        "reach": 69,
+        "engagement": 54,
+        "credibility": 84,
+        "impact": 74,
+        "commerce": 49,
+        "consistency": 77
+      },
+      "reach": "IG 4.1M (verified 2026-07)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/thorbjornsson"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 33,
+      "name": "Derek (More Plates More Dates)",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Researcher-creator focused on PED harm reduction, hormone science, and bodybuilding history.",
+      "why": "Shaped mainstream harm-reduction discourse around PED use and co-founded a real hormone-testing business.",
+      "factors": {
+        "reach": 68,
+        "engagement": 59,
+        "credibility": 69,
+        "impact": 74,
+        "commerce": 74,
+        "consistency": 79
+      },
+      "reach": "YT ~2.8M · IG ~1.8M (approx 2026)",
+      "reachVerified": false,
+      "website": "https://marekhealth.com",
+      "handles": {
+        "instagram": "https://instagram.com/moreplatesmoredates",
+        "youtube": "https://youtube.com/@MorePlatesMoreDates"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 34,
+      "name": "Ramon Dino (Ramon Rocha Queiroz)",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "BR",
+      "who": "First Brazilian man to win a Mr. Olympia title, taking the 2025 Classic Physique crown.",
+      "why": "Brought huge Brazilian and Latin American audiences into competitive bodybuilding's spotlight.",
+      "factors": {
+        "reach": 74,
+        "engagement": 64,
+        "credibility": 89,
+        "impact": 74,
+        "commerce": 44,
+        "consistency": 59
+      },
+      "reach": "IG 7.2M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/ramondinopro"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 35,
+      "name": "Layne Norton",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "PhD in nutritional sciences, pro natural bodybuilder and powerlifter, runs Bio Layne coaching and the Carbon Diet Coach app.",
+      "why": "One of the most credentialed nutrition scientists in fitness media; rigorous myth-debunking backed by a competitive record and a PhD.",
+      "factors": {
+        "reach": 56,
+        "engagement": 62,
+        "credibility": 87,
+        "impact": 67,
+        "commerce": 65,
+        "consistency": 82
+      },
+      "reach": "IG 1M (verified 2026-08) · YT ~900K (approx 2026)",
+      "reachVerified": true,
+      "website": "https://biolayne.com",
+      "handles": {
+        "instagram": "https://instagram.com/biolayne",
+        "youtube": "https://youtube.com/@BioLayne"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 36,
+      "name": "Peter Attia",
+      "segment": "Science & Coaching",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Physician focused on longevity medicine and host of The Drive podcast, a strong advocate for strength and VO2 max training as lifespan medicine.",
+      "why": "Popularized the idea of training for a 'Centenarian Decathlon' among a mainstream, affluent audience, pulling fitness science into longevity media.",
+      "factors": {
+        "reach": 97,
+        "engagement": 59,
+        "credibility": 79,
+        "impact": 72,
+        "commerce": 62,
+        "consistency": 77
+      },
+      "reach": "IG 2M · podcast 100M+ downloads (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://peterattiamd.com",
+      "handles": {
+        "instagram": "https://instagram.com/peterattiamd",
+        "youtube": "https://youtube.com/@PeterAttiaMD",
+        "podcast": "The Drive"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 37,
+      "name": "Whitney Simmons",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "US",
+      "who": "US lifting and glute-training creator, equity partner in the Alphalete apparel brand.",
+      "why": "Popularized the modern 'gym girlie' lifting-vlog format that a generation of lifters now copies.",
+      "factors": {
+        "reach": 76,
+        "engagement": 68,
+        "credibility": 53,
+        "impact": 68,
+        "commerce": 73,
+        "consistency": 83
+      },
+      "reach": "IG 4.05M · YT 2.34M · TT approx 3M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://alphaleteathletics.com",
+      "handles": {
+        "instagram": "https://instagram.com/whitneyysimmons",
+        "youtube": "https://youtube.com/@whitneysimmons",
+        "tiktok": "https://tiktok.com/@whitneyysimmons"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 38,
+      "name": "Hunter McIntyre",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Three-time HYROX World Champion and founder of BLDR Sports, formerly a top obstacle-course/Spartan racer.",
+      "why": "The loudest, most recognizable face driving HYROX's US growth, with a hybrid-training persona built for virality.",
+      "factors": {
+        "reach": 44,
+        "engagement": 67,
+        "credibility": 87,
+        "impact": 79,
+        "commerce": 64,
+        "consistency": 84
+      },
+      "reach": "IG 242K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/huntthesheriff/"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 39,
+      "name": "Courtney Dauwalter",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Dominant ultramarathon runner; winner of UTMB, Western States, and Hardrock 100 in a single season.",
+      "why": "The defining ultrarunner of her generation; a Netflix documentary and repeated record-breaking wins gave the sport mainstream visibility.",
+      "factors": {
+        "reach": 54,
+        "engagement": 55,
+        "credibility": 92,
+        "impact": 78,
+        "commerce": 50,
+        "consistency": 82
+      },
+      "reach": "IG 742K (verified 2026)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/courtneydauwalter"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 40,
+      "name": "Chris Hemsworth",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "amplifier",
+      "country": "AU",
+      "who": "Actor and founder of Centr, a training-and-nutrition app built on his own Thor-era fitness regimens.",
+      "why": "Turned superhero body-prep into a subscription business millions of people actually train inside, not just watch.",
+      "factors": {
+        "reach": 92,
+        "engagement": 57,
+        "credibility": 57,
+        "impact": 82,
+        "commerce": 87,
+        "consistency": 82
+      },
+      "reach": "IG 58M (verified 2026-08, Instagram profile); Centr subscribers in the millions",
+      "reachVerified": true,
+      "website": "https://centr.com",
+      "handles": {
+        "instagram": "https://instagram.com/chrishemsworth",
+        "youtube": "https://youtube.com/@centr"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 41,
+      "name": "Andrew Huberman",
+      "segment": "Science & Coaching",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Stanford neuroscientist and host of the Huberman Lab podcast, with recurring episodes on resistance training, recovery and VO2 max protocols.",
+      "why": "His training and recovery protocol episodes move millions to change their routines overnight, the exact amplifier effect this segment is built to capture.",
+      "factors": {
+        "reach": 80,
+        "engagement": 67,
+        "credibility": 77,
+        "impact": 85,
+        "commerce": 57,
+        "consistency": 82
+      },
+      "reach": "IG 8M · YT 7.5M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://hubermanlab.com",
+      "handles": {
+        "instagram": "https://instagram.com/hubermanlab",
+        "youtube": "https://youtube.com/@hubermanlab",
+        "podcast": "Huberman Lab"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 42,
+      "name": "Krissy Cela",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "GB",
+      "who": "UK trainer and co-founder of the Tone & Sculpt / EvolveYou training app.",
+      "why": "Built one of the UK's biggest fitness-app businesses and remains a leading voice in gym-based training for women.",
+      "factors": {
+        "reach": 66,
+        "engagement": 63,
+        "credibility": 68,
+        "impact": 63,
+        "commerce": 78,
+        "consistency": 78
+      },
+      "reach": "IG 3M plus large app user base (verified IG 2026-08)",
+      "reachVerified": true,
+      "website": "https://tonesculptapp.com",
+      "handles": {
+        "instagram": "https://instagram.com/krissycela",
+        "youtube": "https://youtube.com/@krissycela",
+        "tiktok": "https://tiktok.com/@krissycela"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 43,
+      "name": "Natacha Oceane",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "FR",
+      "who": "French physicist turned science-based fitness YouTuber, based in the UK.",
+      "why": "Brings genuine scientific rigor to training and nutrition content, respected by the evidence-based fitness crowd.",
+      "factors": {
+        "reach": 65,
+        "engagement": 63,
+        "credibility": 88,
+        "impact": 63,
+        "commerce": 43,
+        "consistency": 78
+      },
+      "reach": "YT approx 1.8M · IG approx 1M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/natachaoceane",
+        "youtube": "https://youtube.com/@NatachaOceane"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 44,
+      "name": "Dorian Yates",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "GB",
+      "who": "Six-time Mr. Olympia (1992-1997), credited with starting bodybuilding's 'mass monster' era.",
+      "why": "His high-intensity training template still shapes how top-level bodybuilders train decades later.",
+      "factors": {
+        "reach": 57,
+        "engagement": 39,
+        "credibility": 91,
+        "impact": 84,
+        "commerce": 59,
+        "consistency": 74
+      },
+      "reach": "IG ~1.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/thedorianyates"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 45,
+      "name": "Cameron Hanes",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Bowhunter and ultra-distance runner known for the 'Keep Hammering' philosophy.",
+      "why": "Fused extreme endurance running with hunting culture; frequent Joe Rogan crossover gave the ethos mainstream reach.",
+      "factors": {
+        "reach": 62,
+        "engagement": 60,
+        "credibility": 70,
+        "impact": 72,
+        "commerce": 55,
+        "consistency": 85
+      },
+      "reach": "IG 1.8M (verified 2026-06)",
+      "reachVerified": true,
+      "website": "https://cameronhanes.com",
+      "handles": {
+        "instagram": "https://instagram.com/cameronrhanes"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 46,
+      "name": "Rich Roll",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Plant-based ultra-endurance athlete (Ultraman finisher) and host of The Rich Roll Podcast.",
+      "why": "Defined the plant-based endurance/wellness podcast genre; his platform shapes mainstream health and fitness discourse.",
+      "factors": {
+        "reach": 62,
+        "engagement": 55,
+        "credibility": 65,
+        "impact": 80,
+        "commerce": 65,
+        "consistency": 85
+      },
+      "reach": "IG 2.0M · top-charting health podcast (verified 2026)",
+      "reachVerified": true,
+      "website": "https://richroll.com",
+      "handles": {
+        "instagram": "https://instagram.com/richroll",
+        "podcast": "The Rich Roll Podcast"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 47,
+      "name": "Knees Over Toes Guy",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Ben Patrick, former basketball player turned knee-rehab specialist, creator of the ATG (Athletic Truth Group) training system.",
+      "why": "Reframed how lifters and rehab clients think about knee health; the ATG split squat became a global gym staple in a few years.",
+      "factors": {
+        "reach": 68,
+        "engagement": 69,
+        "credibility": 62,
+        "impact": 75,
+        "commerce": 65,
+        "consistency": 72
+      },
+      "reach": "IG ~2.5M · YT ~700K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://kneesovertoesguy.com",
+      "handles": {
+        "instagram": "https://instagram.com/kneesovertoesguy",
+        "youtube": "https://youtube.com/@KneesOverToesGuy"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 48,
+      "name": "Sam Sulek",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "College-age gym creator turned the biggest name in raw workout-vlog content since 2023.",
+      "why": "Set off a wave of copycat long-form training vlogs; his views routinely outstrip his subscriber count.",
+      "factors": {
+        "reach": 78,
+        "engagement": 89,
+        "credibility": 39,
+        "impact": 84,
+        "commerce": 44,
+        "consistency": 59
+      },
+      "reach": "IG 7.1M · YT 4.5M (verified 2026-06/07)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/sam_sulek",
+        "youtube": "https://youtube.com/@samsulek"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 49,
+      "name": "Annie Thorisdottir",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "IS",
+      "who": "First two-time Fittest Woman on Earth (2011, 2012), one of the sport's founding stars.",
+      "why": "Her early dominance helped put women's CrossFit on equal billing with the men's field; still a respected voice and occasional competitor.",
+      "factors": {
+        "reach": 53,
+        "engagement": 49,
+        "credibility": 91,
+        "impact": 84,
+        "commerce": 44,
+        "consistency": 77
+      },
+      "reach": "IG approx 700K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/anniethorisdottir/"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 50,
+      "name": "Magnus Midtbø",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "NO",
+      "who": "Norwegian rock climber whose channel regularly features strength, bodybuilding, and endurance training challenges.",
+      "why": "Bridges climbing and general fitness content with viral training-challenge videos and a growing gear brand.",
+      "factors": {
+        "reach": 69,
+        "engagement": 65,
+        "credibility": 65,
+        "impact": 62,
+        "commerce": 55,
+        "consistency": 80
+      },
+      "reach": "YT 3.6M · IG 708K (verified 2026-07)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "youtube": "https://youtube.com/@magnusmidtbo",
+        "instagram": "https://instagram.com/magnusmidtbo"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 51,
+      "name": "Lilly Sabri",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "GB",
+      "who": "UK physiotherapist and trainer focused on pilates, pelvic floor and postpartum fitness.",
+      "why": "Brings a clinical, physiotherapy-backed angle to a niche most fitness creators ignore, with a loyal community.",
+      "factors": {
+        "reach": 72,
+        "engagement": 63,
+        "credibility": 73,
+        "impact": 63,
+        "commerce": 48,
+        "consistency": 73
+      },
+      "reach": "YT approx 4M · IG approx 1.7M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/lillysabri",
+        "youtube": "https://youtube.com/@LillySabri",
+        "tiktok": "https://tiktok.com/@lillysabri"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 52,
+      "name": "Mike O'Hearn",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Veteran natural bodybuilder, model, and actor known as 'The Maniac' or 'The Titan'.",
+      "why": "Over 30 years of visible relevance across bodybuilding, TV, and film work, longer than almost anyone in the segment.",
+      "factors": {
+        "reach": 68,
+        "engagement": 49,
+        "credibility": 69,
+        "impact": 59,
+        "commerce": 54,
+        "consistency": 89
+      },
+      "reach": "IG 3.9M (verified 2026-07)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/mikeohearn",
+        "youtube": "https://youtube.com/@MikeOHearn"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 53,
+      "name": "MadFit (Maddie Lymburner)",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "CA",
+      "who": "Canadian creator behind MadFit, one of the largest no-equipment, low-noise home-workout channels on YouTube.",
+      "why": "Defined the quiet, apartment-friendly home workout format that exploded during the pandemic and never really faded.",
+      "factors": {
+        "reach": 79,
+        "engagement": 72,
+        "credibility": 42,
+        "impact": 72,
+        "commerce": 47,
+        "consistency": 77
+      },
+      "reach": "YT 11.1M · IG 2M+ · TT 378K (verified 2026-01/2026, builtbyfoundry/gb.youtubers.me)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/madfit.ig",
+        "youtube": "https://youtube.com/@MadFit"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 54,
+      "name": "Squat University",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Aaron Horschig, physical therapist and strength coach, built Squat University on lift-specific biomechanics and injury-prevention content.",
+      "why": "The go-to reference for lifters diagnosing pain and technique flaws; his format has been widely copied by other PT-creators.",
+      "factors": {
+        "reach": 65,
+        "engagement": 59,
+        "credibility": 72,
+        "impact": 65,
+        "commerce": 55,
+        "consistency": 75
+      },
+      "reach": "YT ~2.9M · IG ~750K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://squatuniversity.com",
+      "handles": {
+        "instagram": "https://instagram.com/squat_university",
+        "youtube": "https://youtube.com/@SquatUniversity"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 55,
+      "name": "Justin Medeiros",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Two-time Fittest Man on Earth (2021, 2022) and one of the most consistently ranked men of the past five years.",
+      "why": "A crossover face for the sport with strong brand deals and steady top-5 Games finishes since his titles.",
+      "factors": {
+        "reach": 52,
+        "engagement": 54,
+        "credibility": 89,
+        "impact": 69,
+        "commerce": 51,
+        "consistency": 74
+      },
+      "reach": "IG 571K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/justinmedeiros34/"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 56,
+      "name": "Marcus Filly",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Former CrossFit Games competitor turned founder of Functional Bodybuilding, a training style he popularized.",
+      "why": "Created and named a training category now used across gyms worldwide, backed by a real subscription-program business.",
+      "factors": {
+        "reach": 46,
+        "engagement": 57,
+        "credibility": 67,
+        "impact": 81,
+        "commerce": 74,
+        "consistency": 81
+      },
+      "reach": "IG (personal) 1M + Functional Bodybuilding 300K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://functionalbodybuilding.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/marcusfilly/"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 57,
+      "name": "Ross Edgley",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "GB",
+      "who": "Extreme-endurance athlete holding multiple Guinness World Records, including swimming around Great Britain.",
+      "why": "Mainstream crossover endurance figure (bestselling author, frequent podcast guest) who legitimizes extreme feats scientifically.",
+      "factors": {
+        "reach": 56,
+        "engagement": 55,
+        "credibility": 80,
+        "impact": 65,
+        "commerce": 55,
+        "consistency": 78
+      },
+      "reach": "IG 1.0M (verified 2026-02)",
+      "reachVerified": true,
+      "website": "https://rossedgley.com",
+      "handles": {
+        "instagram": "https://instagram.com/rossedgley"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 58,
+      "name": "Pamela Reif",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "DE",
+      "who": "German home-workout and dance-fitness creator, one of Europe's biggest fitness YouTubers.",
+      "why": "Defined the free, no-equipment home-workout genre in Europe and stayed dominant for a decade.",
+      "factors": {
+        "reach": 81,
+        "engagement": 48,
+        "credibility": 43,
+        "impact": 68,
+        "commerce": 53,
+        "consistency": 88
+      },
+      "reach": "IG 8.7M · YT approx 9M (verified IG 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/pamela_rf",
+        "youtube": "https://youtube.com/@PamelaReif",
+        "tiktok": "https://tiktok.com/@pamelareif"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 59,
+      "name": "Thomas DeLauer",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Former bodybuilder turned science communicator covering fat loss, fasting and metabolic health.",
+      "why": "One of the earliest YouTubers to build a channel purely on translating studies into practical diet and fasting protocols.",
+      "factors": {
+        "reach": 70,
+        "engagement": 59,
+        "credibility": 57,
+        "impact": 62,
+        "commerce": 62,
+        "consistency": 75
+      },
+      "reach": "YT ~3.2M · IG ~1.9M (approx 2026)",
+      "reachVerified": false,
+      "website": "https://thomasdelauer.com",
+      "handles": {
+        "instagram": "https://instagram.com/thomasdelauer",
+        "youtube": "https://youtube.com/@ThomasDeLauerOfficial"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 60,
+      "name": "Greg Doucette",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "CA",
+      "who": "IFBB pro bodybuilder and coach known for calling out fraud and misinformation in bodybuilding media.",
+      "why": "A rare credentialed insider voice who publicly polices claims made by other bodybuilding influencers.",
+      "factors": {
+        "reach": 65,
+        "engagement": 54,
+        "credibility": 74,
+        "impact": 59,
+        "commerce": 49,
+        "consistency": 77
+      },
+      "reach": "YT ~2.5M · IG ~1.3M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/gregdoucette",
+        "youtube": "https://youtube.com/@gregdoucette"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 61,
+      "name": "Sondre Berg",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "NO",
+      "who": "Founder of Nordic Strength, a large YouTube channel covering parkour, calisthenics, and freerunning.",
+      "why": "One of the biggest bodyweight-athletics channels globally, sustaining strong output for years.",
+      "factors": {
+        "reach": 68,
+        "engagement": 60,
+        "credibility": 60,
+        "impact": 65,
+        "commerce": 50,
+        "consistency": 75
+      },
+      "reach": "YT approx. 3.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "youtube": "https://youtube.com/@nordicstrength"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 62,
+      "name": "Stan Efferding",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Pro bodybuilder and powerlifter, creator of the Vertical Diet, coaches elite strength and physique athletes.",
+      "why": "A rare crossover between an elite competitive record in two sports and real nutrition-coaching credibility.",
+      "factors": {
+        "reach": 55,
+        "engagement": 52,
+        "credibility": 82,
+        "impact": 59,
+        "commerce": 52,
+        "consistency": 79
+      },
+      "reach": "IG ~700K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://stanefferding.com",
+      "handles": {
+        "instagram": "https://instagram.com/stanefferding",
+        "youtube": "https://youtube.com/@StanEfferding"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 63,
+      "name": "Nick Walker",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Men's Open pro bodybuilder known as 'The Mutant', multiple Arnold Classic winner.",
+      "why": "One of the biggest mass-monster physiques currently competing, influential in the current Open bodybuilding trend.",
+      "factors": {
+        "reach": 62,
+        "engagement": 54,
+        "credibility": 81,
+        "impact": 59,
+        "commerce": 39,
+        "consistency": 67
+      },
+      "reach": "IG 1.8M (verified 2026-02)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/nick_walker39"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 64,
+      "name": "Sara Sigmundsdottir",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "IS",
+      "who": "Longtime individual Games competitor and Mayhem Freedom team athlete known for raw strength and candid, personality-driven content.",
+      "why": "One of the more entertaining, outspoken voices in the sport, with a following that predates and outlasts her competitive peak.",
+      "factors": {
+        "reach": 56,
+        "engagement": 59,
+        "credibility": 77,
+        "impact": 59,
+        "commerce": 44,
+        "consistency": 77
+      },
+      "reach": "IG approx 900K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/sarasigmundsdottir/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 65,
+      "name": "Mark Rippetoe",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Strength coach and author of 'Starting Strength,' the foundational modern barbell-training text.",
+      "why": "Nearly every other strength coach on this list cites his programming; the Starting Strength template is still the default beginner program decades on.",
+      "factors": {
+        "reach": 45,
+        "engagement": 42,
+        "credibility": 79,
+        "impact": 79,
+        "commerce": 52,
+        "consistency": 85
+      },
+      "reach": "YT ~500K · IG ~150K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://startingstrength.com",
+      "handles": {
+        "instagram": "https://instagram.com/markrippetoe",
+        "youtube": "https://youtube.com/@StartingStrength"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 66,
+      "name": "Kelly Starrett",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Physical therapist and mobility coach, co-founder of The Ready State (formerly MobilityWOD), author of 'Becoming a Supple Leopard.'",
+      "why": "Mainstreamed mobility work as a training pillar; his framework is now standard vocabulary in CrossFit and strength gyms.",
+      "factors": {
+        "reach": 52,
+        "engagement": 52,
+        "credibility": 72,
+        "impact": 69,
+        "commerce": 57,
+        "consistency": 79
+      },
+      "reach": "IG ~600K · YT ~300K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://thereadystate.com",
+      "handles": {
+        "instagram": "https://instagram.com/thereadystate",
+        "youtube": "https://youtube.com/@thereadystate"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 67,
+      "name": "Tren Twins",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Identical twins Christian and Michael Gaiera, comedic gym-vlog duo who blew up in under two years.",
+      "why": "Their deadpan, self-aware 'gym bro' format got copied across the creator economy faster than almost anyone else's.",
+      "factors": {
+        "reach": 73,
+        "engagement": 84,
+        "credibility": 34,
+        "impact": 74,
+        "commerce": 54,
+        "consistency": 54
+      },
+      "reach": "IG 2.1M · YT 1.9M · TT 2.4M (verified 2026)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/trentwins",
+        "youtube": "https://youtube.com/@TheTrenTwins"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 68,
+      "name": "Bradley Martyn",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Gym-culture veteran and owner of the Zoo Culture gym chain in California.",
+      "why": "One of the longest-running gym-vlog creators; turned his following into an actual gym business, not just content.",
+      "factors": {
+        "reach": 69,
+        "engagement": 54,
+        "credibility": 44,
+        "impact": 64,
+        "commerce": 64,
+        "consistency": 79
+      },
+      "reach": "IG 4.1M (verified 2026-05)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/bradleymartyn",
+        "youtube": "https://youtube.com/@bradleymartyn"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 69,
+      "name": "Joey Swoll",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Former gym manager turned viral 'gym positivity' creator who calls out bullying and gym-shaming clips.",
+      "why": "Started an entire anti-gym-shaming content genre now copied by dozens of smaller creators.",
+      "factors": {
+        "reach": 67,
+        "engagement": 74,
+        "credibility": 39,
+        "impact": 77,
+        "commerce": 54,
+        "consistency": 64
+      },
+      "reach": "IG 3.5M · TT ~4M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/joeyswoll",
+        "tiktok": "https://tiktok.com/@joeyswoll"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 70,
+      "name": "Laura Horvath",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "HU",
+      "who": "2023 Fittest Woman on Earth, Hungary's first CrossFit Games champion.",
+      "why": "Broke a long US/Icelandic/Australian hold on the women's title and remains a top podium threat.",
+      "factors": {
+        "reach": 49,
+        "engagement": 54,
+        "credibility": 91,
+        "impact": 67,
+        "commerce": 37,
+        "consistency": 64
+      },
+      "reach": "IG approx 400K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/laurahorvathh/"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 71,
+      "name": "Don Saladino",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "US",
+      "who": "Trainer behind the superhero physiques of Ryan Reynolds, Blake Lively, Hugh Jackman, and other Hollywood A-listers.",
+      "why": "One of the most trusted names in actor body-prep, with a training app and podcast extending his reach past his private clients.",
+      "factors": {
+        "reach": 49,
+        "engagement": 57,
+        "credibility": 72,
+        "impact": 67,
+        "commerce": 57,
+        "consistency": 77
+      },
+      "reach": "IG 426K (verified 2026-08, profile data)",
+      "reachVerified": true,
+      "website": "https://donsaladino.com",
+      "handles": {
+        "instagram": "https://instagram.com/donsaladino",
+        "podcast": "Stronger with Don Saladino"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 72,
+      "name": "Eugene Teo",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "AU",
+      "who": "Natural bodybuilding coach and YouTuber known for minimalist, sustainable training templates grounded in research.",
+      "why": "Represents the calm, low-hype wing of evidence-based lifting, popular with viewers fatigued by extreme claims.",
+      "factors": {
+        "reach": 58,
+        "engagement": 65,
+        "credibility": 69,
+        "impact": 57,
+        "commerce": 52,
+        "consistency": 69
+      },
+      "reach": "YT ~1.1M · IG ~450K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/eugeneteo",
+        "youtube": "https://youtube.com/@eugeneteo"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 73,
+      "name": "Greg Nuckols",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Powerlifter and researcher, co-founder of Stronger By Science, publishing deep-dive literature reviews on training and nutrition.",
+      "why": "The most cited 'read the papers so you don't have to' resource in the segment, shaping how other creators talk about the evidence.",
+      "factors": {
+        "reach": 42,
+        "engagement": 52,
+        "credibility": 82,
+        "impact": 65,
+        "commerce": 55,
+        "consistency": 77
+      },
+      "reach": "Newsletter/site ~300K · IG ~150K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://strongerbyscience.com",
+      "handles": {
+        "instagram": "https://instagram.com/gnuckols",
+        "x": "https://x.com/gregnuckols"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 74,
+      "name": "Dr. Gabrielle Lyon",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Physician specializing in 'muscle-centric medicine,' podcast host and advocate for protein intake and resistance training as preventive medicine.",
+      "why": "A fast-growing crossover figure connecting clinical medicine to strength-training messaging for a mainstream health audience.",
+      "factors": {
+        "reach": 57,
+        "engagement": 59,
+        "credibility": 69,
+        "impact": 62,
+        "commerce": 57,
+        "consistency": 65
+      },
+      "reach": "IG 1.1M (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://drgabriellelyon.com",
+      "handles": {
+        "instagram": "https://instagram.com/drgabriellelyon",
+        "podcast": "The Dr. Gabrielle Lyon Show"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 75,
+      "name": "Grow with Jo",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "GB",
+      "who": "UK creator behind fast-growing low-impact and walking-workout videos on YouTube.",
+      "why": "Popularized the walking-workout format for a broad, often older audience underserved by typical HIIT content.",
+      "factors": {
+        "reach": 69,
+        "engagement": 53,
+        "credibility": 58,
+        "impact": 68,
+        "commerce": 43,
+        "consistency": 68
+      },
+      "reach": "YT approx 4M+ (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/growwithjo",
+        "youtube": "https://youtube.com/@growwithjo"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 76,
+      "name": "Tammy Hembrow",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "AU",
+      "who": "Australian fitness influencer, founder of Saski Collection and the Tammy Fit training app.",
+      "why": "Pioneered the fitness-influencer-to-apparel-and-app-brand playbook that many others later copied.",
+      "factors": {
+        "reach": 80,
+        "engagement": 48,
+        "credibility": 33,
+        "impact": 63,
+        "commerce": 73,
+        "consistency": 78
+      },
+      "reach": "IG approx 16-17M (verified range 2026-08)",
+      "reachVerified": true,
+      "website": "https://saskicollection.com",
+      "handles": {
+        "instagram": "https://instagram.com/tammyhembrow",
+        "tiktok": "https://tiktok.com/@tammyhembrow"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 77,
+      "name": "David Laid",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Natural-aesthetics creator who went viral as a teenager for a dramatic physique transformation.",
+      "why": "One of the longest-running faces of the 'aesthetic natural' training niche, still posting after nearly a decade.",
+      "factors": {
+        "reach": 72,
+        "engagement": 59,
+        "credibility": 44,
+        "impact": 59,
+        "commerce": 54,
+        "consistency": 74
+      },
+      "reach": "IG 5.9M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/davidlaid",
+        "youtube": "https://youtube.com/@davidlaid"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 78,
+      "name": "Alexander Roncevic",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "AT",
+      "who": "Austrian HYROX World Champion and double world-record holder, first athlete to break the 52-minute barrier.",
+      "why": "The technical benchmark of the sport right now, setting times and standards other elite racers chase.",
+      "factors": {
+        "reach": 40,
+        "engagement": 54,
+        "credibility": 91,
+        "impact": 71,
+        "commerce": 41,
+        "consistency": 67
+      },
+      "reach": "IG 150K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/alexander.roncevic/"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 79,
+      "name": "FitnessFAQs (Daniel Vadnal)",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "AU",
+      "who": "Weighted-calisthenics coach and YouTuber teaching skill progressions (muscle-up, front lever, planche).",
+      "why": "Respected technical authority in the calisthenics coaching niche with a decade of steady, credible output.",
+      "factors": {
+        "reach": 50,
+        "engagement": 55,
+        "credibility": 70,
+        "impact": 60,
+        "commerce": 55,
+        "consistency": 80
+      },
+      "reach": "YT approx. 1.3M · IG approx. 300K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "youtube": "https://youtube.com/@fitnessfaqs",
+        "instagram": "https://instagram.com/fitnessfaqs"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 80,
+      "name": "Jillian Michaels",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "US",
+      "who": "The Biggest Loser's tough-love trainer, still running her own fitness app and program business.",
+      "why": "Defined the 2000s-2010s reality-TV transformation genre and put certified personal training in front of a mass audience.",
+      "factors": {
+        "reach": 62,
+        "engagement": 42,
+        "credibility": 67,
+        "impact": 72,
+        "commerce": 62,
+        "consistency": 57
+      },
+      "reach": "IG 1.85M (verified 2026-08, HypeAuditor)",
+      "reachVerified": true,
+      "website": "https://jillianmichaels.com",
+      "handles": {
+        "instagram": "https://instagram.com/jillianmichaels"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 81,
+      "name": "Lucy Wyndham-Read",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "UK",
+      "who": "British fitness instructor known for low-impact, no-equipment home workouts aimed at beginners and older audiences.",
+      "why": "Pioneered accessible workout content for a demographic most fitness media ignores, with strong international reach on YouTube.",
+      "factors": {
+        "reach": 63,
+        "engagement": 62,
+        "credibility": 57,
+        "impact": 57,
+        "commerce": 42,
+        "consistency": 77
+      },
+      "reach": "YT 1.96M · IG 242K (approx 2026, from public bio stats)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/lucywyndhamread",
+        "youtube": "https://youtube.com/@lucywyndhamread"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 82,
+      "name": "Stephanie Buttermore",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "US",
+      "who": "US creator with a PhD in biomedical science, known for publicly documenting her own reverse-diet recovery.",
+      "why": "Turned her own metabolic-recovery experiment into one of the most credible physiology deep-dives in fitness media.",
+      "factors": {
+        "reach": 61,
+        "engagement": 53,
+        "credibility": 83,
+        "impact": 58,
+        "commerce": 33,
+        "consistency": 63
+      },
+      "reach": "YT approx 1M · IG approx 700K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/stephanie_buttermore",
+        "youtube": "https://youtube.com/@StephanieButtermorePHD"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 83,
+      "name": "Will Tennyson",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "CA",
+      "who": "Scottish-Canadian fitness YouTuber known for 'try the diet of X celebrity' and coaching content.",
+      "why": "A steady, credentialed voice in natural bodybuilding YouTube with almost a decade of consistent output.",
+      "factors": {
+        "reach": 67,
+        "engagement": 54,
+        "credibility": 54,
+        "impact": 54,
+        "commerce": 44,
+        "consistency": 77
+      },
+      "reach": "YT ~3.2M · IG ~1.2M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/willtennyson",
+        "youtube": "https://youtube.com/@WillTennyson"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 84,
+      "name": "Jeffrey Adler",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "CA",
+      "who": "2023 Fittest Man on Earth and back-to-back Rogue Invitational champion (2024, 2025).",
+      "why": "Canada's most decorated current male competitor, still adding to a growing trophy case.",
+      "factors": {
+        "reach": 42,
+        "engagement": 54,
+        "credibility": 89,
+        "impact": 61,
+        "commerce": 39,
+        "consistency": 69
+      },
+      "reach": "IG 193K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/adlerjeff/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 85,
+      "name": "Brooke Wells",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Longtime individual Games competitor and one of the most consistent top-10 women of the past decade.",
+      "why": "A steady top finisher with strong sponsor relationships and a loyal training-content following.",
+      "factors": {
+        "reach": 50,
+        "engagement": 51,
+        "credibility": 77,
+        "impact": 54,
+        "commerce": 41,
+        "consistency": 79
+      },
+      "reach": "IG approx 500K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/brookeewells/"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 86,
+      "name": "Marston Sawyers",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Co-founder of the Buttery Bros, CrossFit's best-known documentary and comedy media duo (with Heber Cannon).",
+      "why": "Their films and event coverage have shaped how the whole sport is presented on camera, and their apparel brand extends that reach.",
+      "factors": {
+        "reach": 39,
+        "engagement": 67,
+        "credibility": 54,
+        "impact": 74,
+        "commerce": 54,
+        "consistency": 84
+      },
+      "reach": "IG (personal) 108K + Buttery Bros account 138K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://butterybros.com",
+      "handles": {
+        "instagram": "https://www.instagram.com/marstonsawyers/",
+        "youtube": "https://www.youtube.com/@butterybros"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 87,
+      "name": "Craig Richey",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "GB",
+      "who": "British Weightlifting national champion turned YouTube fitness personality, known for daily follow-along cardio and CrossFit-style content.",
+      "why": "One of the sport's longest-running creators, translating CrossFit and weightlifting training into daily content for a mainstream audience.",
+      "factors": {
+        "reach": 51,
+        "engagement": 61,
+        "credibility": 59,
+        "impact": 57,
+        "commerce": 54,
+        "consistency": 84
+      },
+      "reach": "YT 340K subs (verified 2026-08) + IG approx 200K (approx 2026)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 88,
+      "name": "Wim Hof",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "amplifier",
+      "country": "NL",
+      "who": "Dutch extreme athlete known as 'The Iceman' for cold-exposure and breathing-method world records.",
+      "why": "Fitness is not his core topic, but his cold-exposure and breathwork method moved training culture broadly and built a large certified-instructor business.",
+      "factors": {
+        "reach": 65,
+        "engagement": 50,
+        "credibility": 55,
+        "impact": 88,
+        "commerce": 70,
+        "consistency": 80
+      },
+      "reach": "IG approx. 3M, sources vary 2.6M-4M (verified 2026)",
+      "reachVerified": true,
+      "website": "https://www.wimhofmethod.com",
+      "handles": {
+        "instagram": "https://instagram.com/iceman_hof"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 89,
+      "name": "Terry Crews",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Actor and former NFL player known for a decades-long, visibly maintained bodybuilder physique.",
+      "why": "Mainstream TV and film presence keeps an old-school bodybuilding aesthetic in front of a general audience that would never watch a bodybuilding channel.",
+      "factors": {
+        "reach": 82,
+        "engagement": 62,
+        "credibility": 62,
+        "impact": 57,
+        "commerce": 37,
+        "consistency": 82
+      },
+      "reach": "IG ~16M (verified 2026-08, SPEAKRJ/profile data)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/terrycrews"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 90,
+      "name": "Harley Pasternak",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "CA",
+      "who": "Canadian celebrity trainer and nutritionist with an MSc in exercise physiology, longtime trainer to pop stars and reality-TV names.",
+      "why": "Regular mainstream media go-to on nutrition and exercise, with the 5-Factor Diet a genuine bestseller-era phenomenon.",
+      "factors": {
+        "reach": 50,
+        "engagement": 42,
+        "credibility": 72,
+        "impact": 62,
+        "commerce": 57,
+        "consistency": 77
+      },
+      "reach": "IG 456K (verified 2026-08, profile data)",
+      "reachVerified": true,
+      "website": "https://harleypasternak.com",
+      "handles": {
+        "instagram": "https://instagram.com/harleypasternak",
+        "x": "https://x.com/harleypasternak"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 91,
+      "name": "growingannanas (Anna Engelschall)",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "AT",
+      "who": "Austrian creator known for glute-focused home and gym programs and a large 'Team Grow' community.",
+      "why": "Mainstreamed the glute-training niche into a broad international audience with a real program business behind it.",
+      "factors": {
+        "reach": 61,
+        "engagement": 62,
+        "credibility": 52,
+        "impact": 57,
+        "commerce": 57,
+        "consistency": 72
+      },
+      "reach": "IG 1.7M (verified 2026-06, HypeAuditor)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/growingannanas"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 92,
+      "name": "Menno Henselmans",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "NL",
+      "who": "Evidence-based personal trainer and researcher who runs Bayesian Bodybuilding and regularly critiques published hypertrophy studies.",
+      "why": "Among the most technically respected voices in evidence-based coaching, cited by peer coaches more than by mass audience size.",
+      "factors": {
+        "reach": 45,
+        "engagement": 52,
+        "credibility": 79,
+        "impact": 59,
+        "commerce": 52,
+        "consistency": 72
+      },
+      "reach": "IG ~350K · YT ~250K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://mennohenselmans.com",
+      "handles": {
+        "instagram": "https://instagram.com/mennohenselmans",
+        "youtube": "https://youtube.com/@MennoHenselmans"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 93,
+      "name": "Meg Squats",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Meg Gallagher, competitive powerlifter and coach, YouTuber covering training logs, form checks and women's strength content.",
+      "why": "One of the most visible women in barbell-strength media, credited with helping grow the female powerlifting audience.",
+      "factors": {
+        "reach": 52,
+        "engagement": 59,
+        "credibility": 67,
+        "impact": 55,
+        "commerce": 52,
+        "consistency": 72
+      },
+      "reach": "YT ~700K · IG ~500K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://megsquats.com",
+      "handles": {
+        "instagram": "https://instagram.com/megsquats",
+        "youtube": "https://youtube.com/@MegSquats"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 94,
+      "name": "Sydney Cummings",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "US",
+      "who": "US trainer known for free, daily-cadence YouTube strength workouts.",
+      "why": "Sustained a consistent daily-upload gym-workout channel for years, building strong community loyalty.",
+      "factors": {
+        "reach": 62,
+        "engagement": 58,
+        "credibility": 58,
+        "impact": 53,
+        "commerce": 43,
+        "consistency": 78
+      },
+      "reach": "YT approx 2M+ (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/sydneycummingsfit",
+        "youtube": "https://youtube.com/@SydneyCummings"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 95,
+      "name": "Heather Robertson",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "CA",
+      "who": "Canadian trainer known for free no-equipment and dumbbell workout videos on YouTube.",
+      "why": "Long-running, reliable source for structured home-workout programming with a loyal following.",
+      "factors": {
+        "reach": 64,
+        "engagement": 58,
+        "credibility": 58,
+        "impact": 53,
+        "commerce": 38,
+        "consistency": 78
+      },
+      "reach": "YT approx 2.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/heatherrobertsonfit",
+        "youtube": "https://youtube.com/@HeatherRobertsonFit"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 96,
+      "name": "Alex Eubank",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Aesthetics-focused creator known for full-day-of-eating and cutting/bulking vlogs.",
+      "why": "Popularized the modern 'lean bulk' aesthetic content format now standard across natural bodybuilding YouTube.",
+      "factors": {
+        "reach": 70,
+        "engagement": 64,
+        "credibility": 44,
+        "impact": 54,
+        "commerce": 44,
+        "consistency": 69
+      },
+      "reach": "IG ~3M · YT ~2.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/alexeubank__",
+        "youtube": "https://youtube.com/@AlexEubank"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 97,
+      "name": "Jesse James West",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Comedic gym-collaboration creator who films workouts with other influencers and pro athletes.",
+      "why": "Pioneered the collab-heavy comedic gym-vlog format that many mid-tier creators now run on.",
+      "factors": {
+        "reach": 68,
+        "engagement": 69,
+        "credibility": 34,
+        "impact": 64,
+        "commerce": 54,
+        "consistency": 67
+      },
+      "reach": "YT ~3M · IG ~1.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/jessejameswest",
+        "youtube": "https://youtube.com/@JesseJamesWest"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 98,
+      "name": "James Sprague",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Two-time Fittest Man on Earth (2024, 2026), the current standard-bearer of the men's field.",
+      "why": "Fresh off defending his title, he is the sport's newest breakout star, with reach still catching up to his results.",
+      "factors": {
+        "reach": 38,
+        "engagement": 64,
+        "credibility": 94,
+        "impact": 61,
+        "commerce": 34,
+        "consistency": 54
+      },
+      "reach": "IG 126K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/spraguerrrr/"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 99,
+      "name": "Noah Ohlsen",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Ten-plus-year individual Games competitor, among the most durable men's careers in the sport.",
+      "why": "Rarely misses a Games appearance and is respected as one of the field's most consistent performers.",
+      "factors": {
+        "reach": 47,
+        "engagement": 49,
+        "credibility": 77,
+        "impact": 54,
+        "commerce": 37,
+        "consistency": 87
+      },
+      "reach": "IG approx 350K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/noahohlsen/"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 100,
+      "name": "Lazar Novović",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "RS",
+      "who": "Serbian calisthenics athlete known for extreme strength feats like weighted one-arm pull-ups.",
+      "why": "Viral demonstrations of raw bodyweight strength keep the calisthenics discipline visible internationally.",
+      "factors": {
+        "reach": 60,
+        "engagement": 60,
+        "credibility": 65,
+        "impact": 60,
+        "commerce": 35,
+        "consistency": 65
+      },
+      "reach": "IG approx. 1.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 59
+    }
+  ],
+  "bubblingUnder": [
+    {
+      "name": "Mark Wahlberg",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Actor and entrepreneur whose 2:30am-wake-up training routine became a recurring media story.",
+      "why": "Backs it with real businesses: Municipal performance apparel and a significant stake in the F45 gym franchise chain.",
+      "factors": {
+        "reach": 85,
+        "engagement": 37,
+        "credibility": 42,
+        "impact": 72,
+        "commerce": 77,
+        "consistency": 77
+      },
+      "reach": "IG ~31M (verified 2026-08, SPEAKRJ/profile data)",
+      "reachVerified": true,
+      "website": "https://municipal.com",
+      "handles": {
+        "instagram": "https://instagram.com/markwahlberg"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "name": "Fraser Wilson",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "AU",
+      "who": "Australian YouTuber known for viral home ab and core-focused workout videos.",
+      "why": "Helped popularize the short, no-equipment home-workout video format that later dominated fitness YouTube and Shorts.",
+      "factors": {
+        "reach": 62,
+        "engagement": 67,
+        "credibility": 47,
+        "impact": 52,
+        "commerce": 52,
+        "consistency": 72
+      },
+      "reach": "YT 2M+ (approx 2026, 455M+ total views)",
+      "reachVerified": false,
+      "website": "https://fraserwilsonfitness.com",
+      "handles": {
+        "youtube": "https://youtube.com/@FraserWilson"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "name": "Alan Thrall",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Powerlifting gym owner and coach (Untamed Strength) known for barbell-technique breakdowns and gym-culture commentary.",
+      "why": "A bridge between old-school strength coaching and modern YouTube fitness media, respected in both worlds.",
+      "factors": {
+        "reach": 55,
+        "engagement": 57,
+        "credibility": 65,
+        "impact": 52,
+        "commerce": 47,
+        "consistency": 72
+      },
+      "reach": "YT ~1.3M · IG ~250K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/alanthrall",
+        "youtube": "https://youtube.com/@AlanThrall"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "name": "Bryan Johnson",
+      "segment": "Science & Coaching",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Tech entrepreneur running the 'Don't Die' Blueprint longevity protocol on himself, publishing exhaustive personal training and biomarker data.",
+      "why": "Turned his own body into a public longevity experiment; Blueprint training and diet updates regularly go viral well outside fitness media.",
+      "factors": {
+        "reach": 66,
+        "engagement": 72,
+        "credibility": 52,
+        "impact": 75,
+        "commerce": 67,
+        "consistency": 65
+      },
+      "reach": "IG 3M (verified 2026-08) · Blueprint brand account 64K",
+      "reachVerified": true,
+      "website": "https://blueprint.bryanjohnson.com",
+      "handles": {
+        "instagram": "https://instagram.com/bryanjohnson_",
+        "x": "https://x.com/bryan_johnson"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "name": "Hanna Oberg",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "SE",
+      "who": "Swedish fitness influencer, nutrition advisor and founder of the Ownu training app.",
+      "why": "One of the Nordic region's biggest fitness voices, with a real app business behind the following.",
+      "factors": {
+        "reach": 65,
+        "engagement": 53,
+        "credibility": 58,
+        "impact": 48,
+        "commerce": 58,
+        "consistency": 68
+      },
+      "reach": "IG 1.8M · YT 760K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/hannaoeberg",
+        "youtube": "https://youtube.com/@hannaoeberg"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "name": "Robin Gallant",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "CA",
+      "who": "Canadian trainer with a biochemistry degree and NSCA-CSCS certification, known for science-based glute training.",
+      "why": "Smaller reach than most on this list but genuinely credentialed, explaining muscle mechanics most creators skip.",
+      "factors": {
+        "reach": 58,
+        "engagement": 53,
+        "credibility": 73,
+        "impact": 48,
+        "commerce": 43,
+        "consistency": 68
+      },
+      "reach": "IG approx 750K · YT approx 400K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/robingallant",
+        "youtube": "https://youtube.com/@RobinGallant"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "name": "Aimee Cringle",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "GB",
+      "who": "2026 Fittest Woman on Earth, the first British Games champion since Sam Briggs in 2013.",
+      "why": "A six-year rise from mid-pack to champion that is reshaping the UK CrossFit scene and drawing new mainstream press.",
+      "factors": {
+        "reach": 47,
+        "engagement": 61,
+        "credibility": 92,
+        "impact": 57,
+        "commerce": 31,
+        "consistency": 47
+      },
+      "reach": "IG 340K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/aimee_cringle/"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "name": "Emi Wong",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "HK",
+      "who": "Hong Kong-based fitness and lifestyle YouTuber, bilingual (English/Cantonese) creator.",
+      "why": "One of the most-recognized fitness voices across Asian markets, with strong crossover into China.",
+      "factors": {
+        "reach": 66,
+        "engagement": 58,
+        "credibility": 48,
+        "impact": 58,
+        "commerce": 38,
+        "consistency": 68
+      },
+      "reach": "IG 900K · YT approx 2M+ (approx 2026)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/emiwong_",
+        "youtube": "https://youtube.com/@EmiWong"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "name": "Urs Kalecinski",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "DE",
+      "who": "2023 Classic Physique Mr. Olympia champion from Germany.",
+      "why": "The rising European face of classic physique now that Bumstead has stepped back from competing.",
+      "factors": {
+        "reach": 55,
+        "engagement": 49,
+        "credibility": 81,
+        "impact": 54,
+        "commerce": 34,
+        "consistency": 54
+      },
+      "reach": "IG ~1.3M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/urs_kalecinski"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Zach Bitter",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Ultrarunning world-record holder (100-mile) and endurance coach/podcaster.",
+      "why": "Elite competitive record plus a coaching and podcast platform that shapes ultrarunning training discourse.",
+      "factors": {
+        "reach": 40,
+        "engagement": 45,
+        "credibility": 80,
+        "impact": 55,
+        "commerce": 45,
+        "consistency": 75
+      },
+      "reach": "IG approx. 150K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Amelia Boone",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Corporate attorney turned elite obstacle-course-racing champion, multiple World's Toughest Mudder titles.",
+      "why": "Helped legitimize OCR as a competitive endurance sport with an elite record and outspoken advocacy for women in endurance.",
+      "factors": {
+        "reach": 40,
+        "engagement": 45,
+        "credibility": 88,
+        "impact": 60,
+        "commerce": 35,
+        "consistency": 70
+      },
+      "reach": "IG approx. 350K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/ameliaboone"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Tracy Anderson",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "US",
+      "who": "Celebrity trainer behind the dance-cardio Tracy Anderson Method, longtime trainer to Gwyneth Paltrow and other A-listers.",
+      "why": "Built a lasting studio-and-streaming business around a signature technique widely imitated across the celebrity-trainer space.",
+      "factors": {
+        "reach": 42,
+        "engagement": 47,
+        "credibility": 57,
+        "impact": 67,
+        "commerce": 62,
+        "consistency": 77
+      },
+      "reach": "IG ~1M + Studio 190K (verified 2026-08, Instagram profile data)",
+      "reachVerified": true,
+      "website": "https://tracyanderson.com",
+      "handles": {
+        "instagram": "https://instagram.com/tracyandersonmethod"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Rhonda Patrick",
+      "segment": "Science & Coaching",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Biomedical scientist and host of FoundMyFitness, covering nutrition, exercise physiology and longevity research in technical depth.",
+      "why": "Trusted by both hardcore researchers and mainstream health podcasters for accurate deep dives that regularly feature exercise-science protocols.",
+      "factors": {
+        "reach": 58,
+        "engagement": 52,
+        "credibility": 82,
+        "impact": 59,
+        "commerce": 47,
+        "consistency": 77
+      },
+      "reach": "IG ~700K · YT ~1M (approx 2026)",
+      "reachVerified": false,
+      "website": "https://foundmyfitness.com",
+      "handles": {
+        "instagram": "https://instagram.com/foundmyfitness",
+        "youtube": "https://youtube.com/@FoundMyFitness",
+        "podcast": "FoundMyFitness"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Sommer Ray",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "US",
+      "who": "US fitness model and social-media star who broke out through glute-training content.",
+      "why": "One of the biggest fitness-model accounts of the late 2010s; still huge reach though now more general influencer content.",
+      "factors": {
+        "reach": 84,
+        "engagement": 63,
+        "credibility": 33,
+        "impact": 53,
+        "commerce": 43,
+        "consistency": 48
+      },
+      "reach": "IG 22.6M (verified 2026-05)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/sommerray",
+        "tiktok": "https://tiktok.com/@sommerray"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Senada Greca",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "AL",
+      "who": "Albanian-American gym-training creator and fitness model with a large Instagram following.",
+      "why": "Prominent in the gym-influencer wave that pushed women's strength training into mainstream social feeds.",
+      "factors": {
+        "reach": 65,
+        "engagement": 53,
+        "credibility": 43,
+        "impact": 58,
+        "commerce": 48,
+        "consistency": 73
+      },
+      "reach": "IG approx 6-7M, sources vary (verified range 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/senada.greca"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Alexia Clark",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "US",
+      "who": "US creator known as the 'Queen of Workouts', posting widely reposted gym total-body routines.",
+      "why": "Her workout-clip format became a template widely copied across fitness social media.",
+      "factors": {
+        "reach": 71,
+        "engagement": 53,
+        "credibility": 38,
+        "impact": 58,
+        "commerce": 43,
+        "consistency": 68
+      },
+      "reach": "IG approx 5.5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/alexia_clark"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "name": "Kristi Eramo O'Connell",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Multiple-time individual Games competitor and coach known for technical lifting content.",
+      "why": "A steady presence bridging elite competition and everyday training advice for a broad training audience.",
+      "factors": {
+        "reach": 44,
+        "engagement": 51,
+        "credibility": 74,
+        "impact": 49,
+        "commerce": 39,
+        "consistency": 74
+      },
+      "reach": "IG approx 240K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/kristieramo/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Lauren Weeks",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Three-time HYROX World Champion, the most decorated woman in the sport.",
+      "why": "The benchmark competitor for women's HYROX as the sport professionalizes and its audience grows.",
+      "factors": {
+        "reach": 33,
+        "engagement": 54,
+        "credibility": 89,
+        "impact": 59,
+        "commerce": 34,
+        "consistency": 61
+      },
+      "reach": "IG 68K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/lauren_e_weeks/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Alec Blenis",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "DEKA Fit hybrid-fitness competitor and coach.",
+      "why": "Competitive record in hybrid/functional racing gives him credibility as the format's growth continues.",
+      "factors": {
+        "reach": 42,
+        "engagement": 55,
+        "credibility": 75,
+        "impact": 55,
+        "commerce": 45,
+        "consistency": 60
+      },
+      "reach": "IG approx. 250K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Frank Medrano",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Early viral calisthenics figure known for planche and human-flag feats.",
+      "why": "Helped launch the global calisthenics movement in the early 2010s, though output has slowed in recent years.",
+      "factors": {
+        "reach": 62,
+        "engagement": 40,
+        "credibility": 60,
+        "impact": 75,
+        "commerce": 40,
+        "consistency": 45
+      },
+      "reach": "IG approx. 2.2M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/frankmedranooff"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Magnus Lygdback",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "SE",
+      "who": "Swedish trainer behind Chris Hemsworth's Thor transformation and prep for Ben Affleck, Alicia Vikander, and other stars.",
+      "why": "The Magnus Method turned superhero-prep training into a widely referenced methodology and app.",
+      "factors": {
+        "reach": 47,
+        "engagement": 47,
+        "credibility": 67,
+        "impact": 57,
+        "commerce": 52,
+        "consistency": 67
+      },
+      "reach": "IG 322K (verified 2026-08, profile data)",
+      "reachVerified": true,
+      "website": "https://magnusmethod.com",
+      "handles": {
+        "instagram": "https://instagram.com/magnuslygdback"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Shaun T",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "US",
+      "who": "Dance-fitness trainer behind Beachbody's Insanity and T25 programs, a defining wave of 2010s home HIIT.",
+      "why": "His DVD-and-streaming programs shaped a decade of home HIIT culture, even as Beachbody's own decline has cooled his current reach.",
+      "factors": {
+        "reach": 59,
+        "engagement": 42,
+        "credibility": 57,
+        "impact": 67,
+        "commerce": 57,
+        "consistency": 52
+      },
+      "reach": "IG approx 1.3M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/shauntfit"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Gunnar Peterson",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "US",
+      "who": "Longtime celebrity and NBA-adjacent strength trainer, known for training the Kardashian-Jenner family and pro athletes.",
+      "why": "25+ years of elite client results and constant mainstream media presence, even without a mass personal following of his own.",
+      "factors": {
+        "reach": 53,
+        "engagement": 37,
+        "credibility": 67,
+        "impact": 52,
+        "commerce": 37,
+        "consistency": 82
+      },
+      "reach": "IG approx 700K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/gunnarfitness"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Denise Austin",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "US",
+      "who": "Pioneer of daytime-TV home fitness in the 1980s-90s, still active in fitness media today.",
+      "why": "Foundational figure for the entire home-workout-video genre that every later creator on this list is descended from.",
+      "factors": {
+        "reach": 46,
+        "engagement": 32,
+        "credibility": 57,
+        "impact": 67,
+        "commerce": 42,
+        "consistency": 92
+      },
+      "reach": "IG approx 300K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/deniseaustin"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Daisy Keech",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "US",
+      "who": "US fitness and lifestyle creator, founder of the Formation training app.",
+      "why": "Drove the TikTok-era 'hourglass' workout trend and built a following-turned-app business around it.",
+      "factors": {
+        "reach": 77,
+        "engagement": 58,
+        "credibility": 38,
+        "impact": 58,
+        "commerce": 48,
+        "consistency": 48
+      },
+      "reach": "IG approx 5.5M · TT approx 5M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/daisykeech",
+        "tiktok": "https://tiktok.com/@daisykeech"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Jen Selter",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "US",
+      "who": "US creator widely credited as one of the first Instagram-era 'fitness selfie' stars.",
+      "why": "Helped invent the glute-focused fitness-Instagram genre years before it became an industry standard.",
+      "factors": {
+        "reach": 79,
+        "engagement": 43,
+        "credibility": 33,
+        "impact": 78,
+        "commerce": 43,
+        "consistency": 48
+      },
+      "reach": "IG 12.9M (verified 2026-07)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/jenselter"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "name": "Lexx Little",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "US",
+      "who": "Powerlifter and bodybuilder with dwarfism who competes and trains alongside able-bodied lifters.",
+      "why": "Built one of fitness's most inspirational niches by posting real training numbers, not just transformation photos.",
+      "factors": {
+        "reach": 54,
+        "engagement": 69,
+        "credibility": 59,
+        "impact": 54,
+        "commerce": 34,
+        "consistency": 54
+      },
+      "reach": "IG 750K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/lexx.little",
+        "youtube": "https://youtube.com/@lexx.little"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "name": "Emma Lawson",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "CA",
+      "who": "Runner-up at the 2026 CrossFit Games and one of the sport's most consistent young podium threats.",
+      "why": "Canada's top current CrossFit export, with a fast-growing following tracking her rise toward a title.",
+      "factors": {
+        "reach": 47,
+        "engagement": 57,
+        "credibility": 81,
+        "impact": 51,
+        "commerce": 29,
+        "consistency": 54
+      },
+      "reach": "IG 327K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/emma.lawson_5/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "name": "Dan John",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "US",
+      "who": "Veteran strength coach, author and lecturer known for simple, durable training philosophy ('Easy Strength').",
+      "why": "A coach's coach: decades of influence on how other strength coaches teach and write, measured more in citations than followers.",
+      "factors": {
+        "reach": 32,
+        "engagement": 42,
+        "credibility": 75,
+        "impact": 59,
+        "commerce": 42,
+        "consistency": 82
+      },
+      "reach": "IG ~80K, wider reach via books and seminars (approx 2026)",
+      "reachVerified": false,
+      "website": "https://danjohnuniversity.com",
+      "handles": {
+        "instagram": "https://instagram.com/coachdanjohn"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "name": "Dr. Stuart McGill",
+      "segment": "Science & Coaching",
+      "tier": "core",
+      "country": "CA",
+      "who": "Retired professor of spine biomechanics, the most-cited researcher on low-back injury and the 'McGill Big 3' core-training protocol.",
+      "why": "The scientific backbone cited by nearly every strength coach on spine safety; low social reach but outsized academic and coaching-world credibility.",
+      "factors": {
+        "reach": 28,
+        "engagement": 32,
+        "credibility": 89,
+        "impact": 65,
+        "commerce": 42,
+        "consistency": 79
+      },
+      "reach": "IG ~60K, cited across tens of thousands of academic and coaching sources (approx 2026)",
+      "reachVerified": false,
+      "website": "https://backfitpro.com",
+      "handles": {
+        "instagram": "https://instagram.com/stuartmmcgill"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "name": "Linn Lowes",
+      "segment": "Women's Fitness",
+      "tier": "core",
+      "country": "SE",
+      "who": "Swedish trainer and nutrition coach known for glute-focused gym programs (Body Temple, on the Athli app).",
+      "why": "A leading Nordic voice in structured glute and strength programming, sold through her own app partnerships.",
+      "factors": {
+        "reach": 50,
+        "engagement": 53,
+        "credibility": 58,
+        "impact": 48,
+        "commerce": 53,
+        "consistency": 68
+      },
+      "reach": "combined approx 2-3M across IG/YT/TikTok (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/linnlowes",
+        "youtube": "https://youtube.com/@LINNLOWES01"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "name": "Noel Deyzel",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "ZA",
+      "who": "South African-born giant-frame creator known for size-focused training content.",
+      "why": "Rapid follower growth on sheer physical novelty, part of the current wave of size-first, competition-optional creators.",
+      "factors": {
+        "reach": 73,
+        "engagement": 59,
+        "credibility": 34,
+        "impact": 54,
+        "commerce": 39,
+        "consistency": 54
+      },
+      "reach": "IG 6.6M (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/noeldeyzel_bodybuilder"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "name": "Dallin Pepper",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Multiple-time CrossFit Games podium finisher, runner-up in 2026, long tipped as the next Fittest Man on Earth.",
+      "why": "A young, telegenic contender whose near-misses have made him one of the most-discussed men in the sport.",
+      "factors": {
+        "reach": 38,
+        "engagement": 59,
+        "credibility": 81,
+        "impact": 54,
+        "commerce": 31,
+        "consistency": 54
+      },
+      "reach": "IG 118K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/dallinpepper/"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "name": "Colin O'Brady",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Extreme-endurance explorer; first to complete a solo, unsupported crossing of Antarctica.",
+      "why": "Verified world records in polar and mountain endurance feats, plus a speaking/media platform built on them.",
+      "factors": {
+        "reach": 45,
+        "engagement": 45,
+        "credibility": 78,
+        "impact": 55,
+        "commerce": 40,
+        "consistency": 55
+      },
+      "reach": "IG approx. 500K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/colinobrady"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "name": "Kim French",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "UK",
+      "who": "NASM-certified trainer known for a documented postpartum body-transformation story and glute-focused programming.",
+      "why": "One of the mainstream faces of the 'mom transformation' fitness niche, with her own app and gear brand.",
+      "factors": {
+        "reach": 62,
+        "engagement": 47,
+        "credibility": 47,
+        "impact": 47,
+        "commerce": 52,
+        "consistency": 67
+      },
+      "reach": "IG 2M+ (approx 2026, public profile data)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/kimfrench87"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "name": "Liver King (Brian Johnson)",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "core",
+      "country": "US",
+      "who": "Carnivore/ancestral-lifestyle influencer built around raw-organ eating and a hyper-muscular physique.",
+      "why": "At his peak drove one of the biggest fitness-adjacent brand businesses (Ancestral Supplements) and defined the carnivore-aesthetic trend before the scandal.",
+      "factors": {
+        "reach": 66,
+        "engagement": 57,
+        "credibility": 27,
+        "impact": 62,
+        "commerce": 77,
+        "consistency": 42
+      },
+      "reach": "IG 2.9M (verified 2026, post-scandal profile reporting)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/liverking"
+      },
+      "warning": "Publicly admitted in December 2022 to extensive steroid use after previously denying it for years while marketing an all-natural 'ancestral' persona; faced consumer lawsuits over the deception.",
+      "score": 54
+    },
+    {
+      "name": "Danielle Brandon",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Multiple-time CrossFit Games individual competitor known for explosive gymnastics and a fast-growing profile.",
+      "why": "One of the more talked-about rising women in the sport, with viral-friendly training clips.",
+      "factors": {
+        "reach": 45,
+        "engagement": 59,
+        "credibility": 71,
+        "impact": 51,
+        "commerce": 31,
+        "consistency": 54
+      },
+      "reach": "IG approx 260K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/daniellenicolebrandon/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "name": "Chandler Smith",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "Individual Games competitor and one of the sport's strongest young men, known for elite weightlifting numbers.",
+      "why": "A rising name whose raw strength numbers get shared well outside the CrossFit community.",
+      "factors": {
+        "reach": 42,
+        "engagement": 54,
+        "credibility": 74,
+        "impact": 49,
+        "commerce": 31,
+        "consistency": 59
+      },
+      "reach": "IG approx 200K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/chandlersmith__/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "name": "Sylvester Stallone",
+      "segment": "Mainstream & Celebrity Trainers",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Actor whose Rocky/Rambo-era physique defined 1980s action-hero fitness and who still posts gym footage in his late 70s.",
+      "why": "Periodic viral gym clips ('it gets harder and harder, that's why you gotta push') keep an older audience engaged with strength training as a lifelong habit.",
+      "factors": {
+        "reach": 78,
+        "engagement": 42,
+        "credibility": 62,
+        "impact": 67,
+        "commerce": 32,
+        "consistency": 47
+      },
+      "reach": "IG approx 13-14M (approx 2026, based on 2025 profile data)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/sylvesterstallone"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "name": "Megan Jacoby",
+      "segment": "CrossFit, Hyrox & Competitive",
+      "tier": "core",
+      "country": "US",
+      "who": "2024 HYROX World Champion and one of the sport's top-ranked women.",
+      "why": "A recent breakout champion helping legitimize HYROX as a pro women's circuit.",
+      "factors": {
+        "reach": 34,
+        "engagement": 51,
+        "credibility": 84,
+        "impact": 54,
+        "commerce": 31,
+        "consistency": 54
+      },
+      "reach": "IG 78K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/mjac0by/"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "name": "Ben Parkes",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "GB",
+      "who": "UK street-workout and calisthenics athlete/coach.",
+      "why": "Regular presence in the European calisthenics scene, contributing to bodyweight-training's continued growth.",
+      "factors": {
+        "reach": 50,
+        "engagement": 50,
+        "credibility": 55,
+        "impact": 50,
+        "commerce": 40,
+        "consistency": 65
+      },
+      "reach": "IG approx. 600K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 52
+    },
+    {
+      "name": "Regan Grimes",
+      "segment": "Bodybuilding & Physique",
+      "tier": "core",
+      "country": "CA",
+      "who": "Canadian Men's Open pro bodybuilder, repeat top-5 Olympia finisher.",
+      "why": "A consistent top-tier competitor representing Canada on the Olympia stage.",
+      "factors": {
+        "reach": 48,
+        "engagement": 44,
+        "credibility": 67,
+        "impact": 44,
+        "commerce": 31,
+        "consistency": 61
+      },
+      "reach": "IG ~800K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/regangrimes"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "name": "Austin Dunham",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Fitness YouTuber known for calisthenics-to-bodybuilding transformation content.",
+      "why": "Draws a large audience with progressive-overload calisthenics and physique-transformation storytelling.",
+      "factors": {
+        "reach": 55,
+        "engagement": 55,
+        "credibility": 45,
+        "impact": 45,
+        "commerce": 40,
+        "consistency": 60
+      },
+      "reach": "IG approx. 1.2M (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/austindunham"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "name": "Kofuzi",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Calisthenics YouTuber known for park-workout content and gymnastics-strength skill tutorials.",
+      "why": "Long-running niche voice in the street-workout/calisthenics scene with a loyal, engaged following.",
+      "factors": {
+        "reach": 40,
+        "engagement": 55,
+        "credibility": 55,
+        "impact": 45,
+        "commerce": 35,
+        "consistency": 70
+      },
+      "reach": "YT approx. 500K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "youtube": "https://youtube.com/@kofuzi"
+      },
+      "warning": null,
+      "score": 50
+    },
+    {
+      "name": "The Ginger Runner (Ethan Newberry)",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "US",
+      "who": "Trail-running YouTuber and gear reviewer, longtime voice in the ultrarunning media space.",
+      "why": "Helped popularize trail/ultrarunning as YouTube content years before it went mainstream.",
+      "factors": {
+        "reach": 42,
+        "engagement": 45,
+        "credibility": 60,
+        "impact": 55,
+        "commerce": 35,
+        "consistency": 55
+      },
+      "reach": "YT approx. 350K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "youtube": "https://youtube.com/@thegingerrunner"
+      },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "name": "Fergus Crawley",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "core",
+      "country": "GB",
+      "who": "Ultrarunner, writer, and content creator covering trail and mountain running.",
+      "why": "Growing voice in the ultrarunning content space, blending competitive racing with storytelling.",
+      "factors": {
+        "reach": 38,
+        "engagement": 45,
+        "credibility": 55,
+        "impact": 45,
+        "commerce": 30,
+        "consistency": 60
+      },
+      "reach": "IG/YT combined approx. 150K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 46
+    },
+    {
+      "name": "Jesse Itzler",
+      "segment": "Hybrid, Endurance & Calisthenics",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Entrepreneur and author (Living with a SEAL) who founded the 29029 Everesting endurance-event business.",
+      "why": "Fitness is secondary to his entrepreneurship, but his hybrid-mindset content and endurance events move mainstream audiences into extreme fitness challenges.",
+      "factors": {
+        "reach": 42,
+        "engagement": 45,
+        "credibility": 45,
+        "impact": 55,
+        "commerce": 65,
+        "consistency": 60
+      },
+      "reach": "IG approx. 400K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://29029.com",
+      "handles": {
+        "instagram": "https://instagram.com/jesseitzler"
+      },
+      "warning": null,
+      "score": 45
+    }
+  ]
+}

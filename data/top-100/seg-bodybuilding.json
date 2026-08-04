@@ -1,0 +1,593 @@
+[
+  {
+    "name": "Chris Bumstead",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "CA",
+    "who": "Five-time Classic Physique Mr. Olympia champion, retired from competition in 2024.",
+    "why": "Defined the modern classic physique look and built a business empire (RAW Nutrition, Bum Energy, CBum Fitness) that outgrew the sport itself.",
+    "factors": {
+      "reach": 84,
+      "engagement": 75,
+      "credibility": 92,
+      "impact": 90,
+      "commerce": 78,
+      "consistency": 85
+    },
+    "reach": "IG 25.8M (verified 2026-06)",
+    "reachVerified": true,
+    "website": "https://cbumfitness.com",
+    "handles": {
+      "instagram": "https://instagram.com/cbum",
+      "youtube": "https://youtube.com/@cbum"
+    },
+    "warning": null
+  },
+  {
+    "name": "Sam Sulek",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "College-age gym creator turned the biggest name in raw workout-vlog content since 2023.",
+    "why": "Set off a wave of copycat long-form training vlogs; his views routinely outstrip his subscriber count.",
+    "factors": {
+      "reach": 78,
+      "engagement": 90,
+      "credibility": 40,
+      "impact": 85,
+      "commerce": 45,
+      "consistency": 60
+    },
+    "reach": "IG 7.1M · YT 4.5M (verified 2026-06/07)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/sam_sulek",
+      "youtube": "https://youtube.com/@samsulek"
+    },
+    "warning": null
+  },
+  {
+    "name": "Arnold Schwarzenegger",
+    "segment": "Bodybuilding & Physique",
+    "tier": "amplifier",
+    "country": "US",
+    "who": "Seven-time Mr. Olympia, actor, former California governor, still runs the Arnold Sports Festival and a daily fitness newsletter.",
+    "why": "Amplifier: fitness is a fraction of his output, but his Pump Club newsletter and Arnold Classic events move the whole industry when he speaks.",
+    "factors": {
+      "reach": 88,
+      "engagement": 55,
+      "credibility": 95,
+      "impact": 95,
+      "commerce": 85,
+      "consistency": 95
+    },
+    "reach": "IG 27M (verified 2026)",
+    "reachVerified": true,
+    "website": "https://schwarzenegger.com",
+    "handles": {
+      "instagram": "https://instagram.com/schwarzenegger",
+      "x": "https://x.com/schwarzenegger"
+    },
+    "warning": null
+  },
+  {
+    "name": "David Laid",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Natural-aesthetics creator who went viral as a teenager for a dramatic physique transformation.",
+    "why": "One of the longest-running faces of the 'aesthetic natural' training niche, still posting after nearly a decade.",
+    "factors": {
+      "reach": 70,
+      "engagement": 60,
+      "credibility": 45,
+      "impact": 60,
+      "commerce": 55,
+      "consistency": 75
+    },
+    "reach": "IG 5.9M (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/davidlaid",
+      "youtube": "https://youtube.com/@davidlaid"
+    },
+    "warning": null
+  },
+  {
+    "name": "Lexx Little",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Powerlifter and bodybuilder with dwarfism who competes and trains alongside able-bodied lifters.",
+    "why": "Built one of fitness's most inspirational niches by posting real training numbers, not just transformation photos.",
+    "factors": {
+      "reach": 52,
+      "engagement": 70,
+      "credibility": 60,
+      "impact": 55,
+      "commerce": 35,
+      "consistency": 55
+    },
+    "reach": "IG 750K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/lexx.little",
+      "youtube": "https://youtube.com/@lexx.little"
+    },
+    "warning": null
+  },
+  {
+    "name": "Larry Wheels",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Powerlifter, strongman, and arm-wrestler who documents extreme-strength feats and PED-assisted training openly.",
+    "why": "Bridges powerlifting, strongman, and bodybuilding audiences with genuine elite-level lifting numbers.",
+    "factors": {
+      "reach": 72,
+      "engagement": 65,
+      "credibility": 85,
+      "impact": 75,
+      "commerce": 50,
+      "consistency": 80
+    },
+    "reach": "IG 5.4M · YT ~3M (verified 2026-06)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/larrywheels",
+      "youtube": "https://youtube.com/@LarryWheels"
+    },
+    "warning": null
+  },
+  {
+    "name": "Eddie Hall",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "GB",
+    "who": "2017 World's Strongest Man and former deadlift world record holder (500kg raw).",
+    "why": "Crossed strongman into mainstream media via a Netflix documentary and a headline boxing match against Hafthor Bjornsson.",
+    "factors": {
+      "reach": 70,
+      "engagement": 60,
+      "credibility": 88,
+      "impact": 75,
+      "commerce": 55,
+      "consistency": 80
+    },
+    "reach": "IG 5.4M (verified 2026-06)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/eddiehallwsm"
+    },
+    "warning": null
+  },
+  {
+    "name": "Hafthor Bjornsson",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "IS",
+    "who": "2018 World's Strongest Man, former deadlift world record holder, and Game of Thrones' 'The Mountain'.",
+    "why": "One of the few strength athletes with genuine Hollywood crossover, plus a headline pivot into pro boxing.",
+    "factors": {
+      "reach": 68,
+      "engagement": 55,
+      "credibility": 85,
+      "impact": 75,
+      "commerce": 50,
+      "consistency": 78
+    },
+    "reach": "IG 4.1M (verified 2026-07)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/thorbjornsson"
+    },
+    "warning": null
+  },
+  {
+    "name": "Tren Twins",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Identical twins Christian and Michael Gaiera, comedic gym-vlog duo who blew up in under two years.",
+    "why": "Their deadpan, self-aware 'gym bro' format got copied across the creator economy faster than almost anyone else's.",
+    "factors": {
+      "reach": 70,
+      "engagement": 85,
+      "credibility": 35,
+      "impact": 75,
+      "commerce": 55,
+      "consistency": 55
+    },
+    "reach": "IG 2.1M · YT 1.9M · TT 2.4M (verified 2026)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/trentwins",
+      "youtube": "https://youtube.com/@TheTrenTwins"
+    },
+    "warning": null
+  },
+  {
+    "name": "Bradley Martyn",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Gym-culture veteran and owner of the Zoo Culture gym chain in California.",
+    "why": "One of the longest-running gym-vlog creators; turned his following into an actual gym business, not just content.",
+    "factors": {
+      "reach": 68,
+      "engagement": 55,
+      "credibility": 45,
+      "impact": 65,
+      "commerce": 65,
+      "consistency": 80
+    },
+    "reach": "IG 4.1M (verified 2026-05)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/bradleymartyn",
+      "youtube": "https://youtube.com/@bradleymartyn"
+    },
+    "warning": null
+  },
+  {
+    "name": "Mike O'Hearn",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Veteran natural bodybuilder, model, and actor known as 'The Maniac' or 'The Titan'.",
+    "why": "Over 30 years of visible relevance across bodybuilding, TV, and film work, longer than almost anyone in the segment.",
+    "factors": {
+      "reach": 66,
+      "engagement": 50,
+      "credibility": 70,
+      "impact": 60,
+      "commerce": 55,
+      "consistency": 90
+    },
+    "reach": "IG 3.9M (verified 2026-07)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/mikeohearn",
+      "youtube": "https://youtube.com/@MikeOHearn"
+    },
+    "warning": null
+  },
+  {
+    "name": "Noel Deyzel",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "ZA",
+    "who": "South African-born giant-frame creator known for size-focused training content.",
+    "why": "Rapid follower growth on sheer physical novelty, part of the current wave of size-first, competition-optional creators.",
+    "factors": {
+      "reach": 74,
+      "engagement": 60,
+      "credibility": 35,
+      "impact": 55,
+      "commerce": 40,
+      "consistency": 55
+    },
+    "reach": "IG 6.6M (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/noeldeyzel_bodybuilder"
+    },
+    "warning": null
+  },
+  {
+    "name": "Joey Swoll",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Former gym manager turned viral 'gym positivity' creator who calls out bullying and gym-shaming clips.",
+    "why": "Started an entire anti-gym-shaming content genre now copied by dozens of smaller creators.",
+    "factors": {
+      "reach": 72,
+      "engagement": 75,
+      "credibility": 40,
+      "impact": 78,
+      "commerce": 55,
+      "consistency": 65
+    },
+    "reach": "IG 3.5M · TT ~4M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/joeyswoll",
+      "tiktok": "https://tiktok.com/@joeyswoll"
+    },
+    "warning": null
+  },
+  {
+    "name": "Alex Eubank",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Aesthetics-focused creator known for full-day-of-eating and cutting/bulking vlogs.",
+    "why": "Popularized the modern 'lean bulk' aesthetic content format now standard across natural bodybuilding YouTube.",
+    "factors": {
+      "reach": 70,
+      "engagement": 65,
+      "credibility": 45,
+      "impact": 55,
+      "commerce": 45,
+      "consistency": 70
+    },
+    "reach": "IG ~3M · YT ~2.5M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/alexeubank__",
+      "youtube": "https://youtube.com/@AlexEubank"
+    },
+    "warning": null
+  },
+  {
+    "name": "Jesse James West",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Comedic gym-collaboration creator who films workouts with other influencers and pro athletes.",
+    "why": "Pioneered the collab-heavy comedic gym-vlog format that many mid-tier creators now run on.",
+    "factors": {
+      "reach": 68,
+      "engagement": 70,
+      "credibility": 35,
+      "impact": 65,
+      "commerce": 55,
+      "consistency": 68
+    },
+    "reach": "YT ~3M · IG ~1.5M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/jessejameswest",
+      "youtube": "https://youtube.com/@JesseJamesWest"
+    },
+    "warning": null
+  },
+  {
+    "name": "Will Tennyson",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "CA",
+    "who": "Scottish-Canadian fitness YouTuber known for 'try the diet of X celebrity' and coaching content.",
+    "why": "A steady, credentialed voice in natural bodybuilding YouTube with almost a decade of consistent output.",
+    "factors": {
+      "reach": 67,
+      "engagement": 55,
+      "credibility": 55,
+      "impact": 55,
+      "commerce": 45,
+      "consistency": 78
+    },
+    "reach": "YT ~3.2M · IG ~1.2M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/willtennyson",
+      "youtube": "https://youtube.com/@WillTennyson"
+    },
+    "warning": null
+  },
+  {
+    "name": "Greg Doucette",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "CA",
+    "who": "IFBB pro bodybuilder and coach known for calling out fraud and misinformation in bodybuilding media.",
+    "why": "A rare credentialed insider voice who publicly polices claims made by other bodybuilding influencers.",
+    "factors": {
+      "reach": 65,
+      "engagement": 55,
+      "credibility": 75,
+      "impact": 60,
+      "commerce": 50,
+      "consistency": 78
+    },
+    "reach": "YT ~2.5M · IG ~1.3M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/gregdoucette",
+      "youtube": "https://youtube.com/@gregdoucette"
+    },
+    "warning": null
+  },
+  {
+    "name": "Derek (More Plates More Dates)",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Researcher-creator focused on PED harm reduction, hormone science, and bodybuilding history.",
+    "why": "Shaped mainstream harm-reduction discourse around PED use and co-founded a real hormone-testing business.",
+    "factors": {
+      "reach": 68,
+      "engagement": 60,
+      "credibility": 70,
+      "impact": 75,
+      "commerce": 75,
+      "consistency": 80
+    },
+    "reach": "YT ~2.8M · IG ~1.8M (approx 2026)",
+    "reachVerified": false,
+    "website": "https://marekhealth.com",
+    "handles": {
+      "instagram": "https://instagram.com/moreplatesmoredates",
+      "youtube": "https://youtube.com/@MorePlatesMoreDates"
+    },
+    "warning": null
+  },
+  {
+    "name": "Urs Kalecinski",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "DE",
+    "who": "2023 Classic Physique Mr. Olympia champion from Germany.",
+    "why": "The rising European face of classic physique now that Bumstead has stepped back from competing.",
+    "factors": {
+      "reach": 55,
+      "engagement": 50,
+      "credibility": 82,
+      "impact": 55,
+      "commerce": 35,
+      "consistency": 55
+    },
+    "reach": "IG ~1.3M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/urs_kalecinski"
+    },
+    "warning": null
+  },
+  {
+    "name": "Ramon Dino (Ramon Rocha Queiroz)",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "BR",
+    "who": "First Brazilian man to win a Mr. Olympia title, taking the 2025 Classic Physique crown.",
+    "why": "Brought huge Brazilian and Latin American audiences into competitive bodybuilding's spotlight.",
+    "factors": {
+      "reach": 75,
+      "engagement": 65,
+      "credibility": 90,
+      "impact": 75,
+      "commerce": 45,
+      "consistency": 60
+    },
+    "reach": "IG 7.2M (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/ramondinopro"
+    },
+    "warning": null
+  },
+  {
+    "name": "Nick Walker",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Men's Open pro bodybuilder known as 'The Mutant', multiple Arnold Classic winner.",
+    "why": "One of the biggest mass-monster physiques currently competing, influential in the current Open bodybuilding trend.",
+    "factors": {
+      "reach": 57,
+      "engagement": 55,
+      "credibility": 82,
+      "impact": 60,
+      "commerce": 40,
+      "consistency": 68
+    },
+    "reach": "IG 1.8M (verified 2026-02)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/nick_walker39"
+    },
+    "warning": null
+  },
+  {
+    "name": "Jay Cutler",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Four-time Mr. Olympia (2006, 2007, 2009, 2010), now runs a large supplement brand and gyms.",
+    "why": "One of the sport's most successful post-competition business builders, still a reference name for casual fans.",
+    "factors": {
+      "reach": 68,
+      "engagement": 45,
+      "credibility": 90,
+      "impact": 70,
+      "commerce": 75,
+      "consistency": 85
+    },
+    "reach": "IG ~4.5M (approx 2026)",
+    "reachVerified": false,
+    "website": "https://cutlernutrition.com",
+    "handles": {
+      "instagram": "https://instagram.com/jaycutler",
+      "youtube": "https://youtube.com/@JayCutlerTV"
+    },
+    "warning": null
+  },
+  {
+    "name": "Dorian Yates",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "GB",
+    "who": "Six-time Mr. Olympia (1992-1997), credited with starting bodybuilding's 'mass monster' era.",
+    "why": "His high-intensity training template still shapes how top-level bodybuilders train decades later.",
+    "factors": {
+      "reach": 57,
+      "engagement": 40,
+      "credibility": 92,
+      "impact": 85,
+      "commerce": 60,
+      "consistency": 75
+    },
+    "reach": "IG ~1.5M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/thedorianyates"
+    },
+    "warning": null
+  },
+  {
+    "name": "Regan Grimes",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "CA",
+    "who": "Canadian Men's Open pro bodybuilder, repeat top-5 Olympia finisher.",
+    "why": "A consistent top-tier competitor representing Canada on the Olympia stage.",
+    "factors": {
+      "reach": 48,
+      "engagement": 45,
+      "credibility": 68,
+      "impact": 45,
+      "commerce": 32,
+      "consistency": 62
+    },
+    "reach": "IG ~800K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/regangrimes"
+    },
+    "warning": null
+  },
+  {
+    "name": "Ronnie Coleman",
+    "segment": "Bodybuilding & Physique",
+    "tier": "core",
+    "country": "US",
+    "who": "Eight-time Mr. Olympia (1998-2005), widely regarded as one of the greatest bodybuilders ever.",
+    "why": "His 'Yeah buddy, lightweight' persona and record-setting Olympia run still define the sport's golden era in pop culture.",
+    "factors": {
+      "reach": 75,
+      "engagement": 40,
+      "credibility": 98,
+      "impact": 95,
+      "commerce": 65,
+      "consistency": 70
+    },
+    "reach": "IG ~7.5M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/ronniecoleman8"
+    },
+    "warning": null
+  }
+]

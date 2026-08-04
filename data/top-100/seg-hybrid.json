@@ -1,0 +1,573 @@
+[
+  {
+    "name": "David Goggins",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Retired Navy SEAL, ultra-endurance racer, and author of Can't Hurt Me.",
+    "why": "Built the modern mental-toughness genre; his callouses-and-suffering ethos is imitated across every fitness niche.",
+    "factors": {
+      "reach": 82,
+      "engagement": 75,
+      "credibility": 80,
+      "impact": 92,
+      "commerce": 75,
+      "consistency": 90
+    },
+    "reach": "IG 14.2M · YT 2.1M · TT est. 3M (verified 2026-08, IG)",
+    "reachVerified": true,
+    "website": "https://davidgoggins.com",
+    "handles": {
+      "instagram": "https://instagram.com/davidgoggins",
+      "youtube": "https://youtube.com/@davidgoggins"
+    },
+    "warning": null
+  },
+  {
+    "name": "Nick Bare",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Army veteran, marathoner/Ironman finisher, and founder of Bare Performance Nutrition.",
+    "why": "Popularized the daily-vlog 'hybrid athlete' training model that fuses marathon/triathlon work with lifting.",
+    "factors": {
+      "reach": 62,
+      "engagement": 65,
+      "credibility": 65,
+      "impact": 78,
+      "commerce": 80,
+      "consistency": 88
+    },
+    "reach": "IG 1.0M · YT 1.5M (verified 2026-07)",
+    "reachVerified": true,
+    "website": "https://nickbare.com",
+    "handles": {
+      "instagram": "https://instagram.com/nickbarefitness",
+      "youtube": "https://youtube.com/@nickbare"
+    },
+    "warning": null
+  },
+  {
+    "name": "Cameron Hanes",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Bowhunter and ultra-distance runner known for the 'Keep Hammering' philosophy.",
+    "why": "Fused extreme endurance running with hunting culture; frequent Joe Rogan crossover gave the ethos mainstream reach.",
+    "factors": {
+      "reach": 63,
+      "engagement": 60,
+      "credibility": 70,
+      "impact": 72,
+      "commerce": 55,
+      "consistency": 85
+    },
+    "reach": "IG 1.8M (verified 2026-06)",
+    "reachVerified": true,
+    "website": "https://cameronhanes.com",
+    "handles": {
+      "instagram": "https://instagram.com/cameronrhanes"
+    },
+    "warning": null
+  },
+  {
+    "name": "Chris Heria",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Calisthenics athlete and founder of THENX, one of the largest bodyweight-training brands online.",
+    "why": "Defined the mainstream calisthenics/street-workout era and built an app-and-apparel business off it.",
+    "factors": {
+      "reach": 82,
+      "engagement": 65,
+      "credibility": 60,
+      "impact": 85,
+      "commerce": 78,
+      "consistency": 85
+    },
+    "reach": "IG 2.5M · YT 13M combined THENX+personal (verified 2026-02)",
+    "reachVerified": true,
+    "website": "https://thenx.com",
+    "handles": {
+      "instagram": "https://instagram.com/christian.heria",
+      "youtube": "https://youtube.com/@thenx"
+    },
+    "warning": null
+  },
+  {
+    "name": "Austin Dunham",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Fitness YouTuber known for calisthenics-to-bodybuilding transformation content.",
+    "why": "Draws a large audience with progressive-overload calisthenics and physique-transformation storytelling.",
+    "factors": {
+      "reach": 55,
+      "engagement": 55,
+      "credibility": 45,
+      "impact": 45,
+      "commerce": 40,
+      "consistency": 60
+    },
+    "reach": "IG approx. 1.2M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/austindunham"
+    },
+    "warning": null
+  },
+  {
+    "name": "FitnessFAQs (Daniel Vadnal)",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "AU",
+    "who": "Weighted-calisthenics coach and YouTuber teaching skill progressions (muscle-up, front lever, planche).",
+    "why": "Respected technical authority in the calisthenics coaching niche with a decade of steady, credible output.",
+    "factors": {
+      "reach": 50,
+      "engagement": 55,
+      "credibility": 70,
+      "impact": 60,
+      "commerce": 55,
+      "consistency": 80
+    },
+    "reach": "YT approx. 1.3M · IG approx. 300K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "youtube": "https://youtube.com/@fitnessfaqs",
+      "instagram": "https://instagram.com/fitnessfaqs"
+    },
+    "warning": null
+  },
+  {
+    "name": "Ross Edgley",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "GB",
+    "who": "Extreme-endurance athlete holding multiple Guinness World Records, including swimming around Great Britain.",
+    "why": "Mainstream crossover endurance figure (bestselling author, frequent podcast guest) who legitimizes extreme feats scientifically.",
+    "factors": {
+      "reach": 60,
+      "engagement": 55,
+      "credibility": 80,
+      "impact": 65,
+      "commerce": 55,
+      "consistency": 78
+    },
+    "reach": "IG 1.0M (verified 2026-02)",
+    "reachVerified": true,
+    "website": "https://rossedgley.com",
+    "handles": {
+      "instagram": "https://instagram.com/rossedgley"
+    },
+    "warning": null
+  },
+  {
+    "name": "Eliud Kipchoge",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "KE",
+    "who": "Two-time Olympic marathon champion and former marathon world-record holder, first to run a sub-two-hour marathon (unofficial).",
+    "why": "Defined an era of distance running; his training and mindset are studied and imitated worldwide.",
+    "factors": {
+      "reach": 62,
+      "engagement": 45,
+      "credibility": 98,
+      "impact": 90,
+      "commerce": 60,
+      "consistency": 85
+    },
+    "reach": "IG approx. 2.5M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/eliudkipchoge"
+    },
+    "warning": null
+  },
+  {
+    "name": "Kofuzi",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Calisthenics YouTuber known for park-workout content and gymnastics-strength skill tutorials.",
+    "why": "Long-running niche voice in the street-workout/calisthenics scene with a loyal, engaged following.",
+    "factors": {
+      "reach": 40,
+      "engagement": 55,
+      "credibility": 55,
+      "impact": 45,
+      "commerce": 35,
+      "consistency": 70
+    },
+    "reach": "YT approx. 500K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "youtube": "https://youtube.com/@kofuzi"
+    },
+    "warning": null
+  },
+  {
+    "name": "Ben Parkes",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "GB",
+    "who": "UK street-workout and calisthenics athlete/coach.",
+    "why": "Regular presence in the European calisthenics scene, contributing to bodyweight-training's continued growth.",
+    "factors": {
+      "reach": 50,
+      "engagement": 50,
+      "credibility": 55,
+      "impact": 50,
+      "commerce": 40,
+      "consistency": 65
+    },
+    "reach": "IG approx. 600K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "The Ginger Runner (Ethan Newberry)",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Trail-running YouTuber and gear reviewer, longtime voice in the ultrarunning media space.",
+    "why": "Helped popularize trail/ultrarunning as YouTube content years before it went mainstream.",
+    "factors": {
+      "reach": 42,
+      "engagement": 45,
+      "credibility": 60,
+      "impact": 55,
+      "commerce": 35,
+      "consistency": 55
+    },
+    "reach": "YT approx. 350K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "youtube": "https://youtube.com/@thegingerrunner"
+    },
+    "warning": null
+  },
+  {
+    "name": "Fergus Crawley",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "GB",
+    "who": "Ultrarunner, writer, and content creator covering trail and mountain running.",
+    "why": "Growing voice in the ultrarunning content space, blending competitive racing with storytelling.",
+    "factors": {
+      "reach": 38,
+      "engagement": 45,
+      "credibility": 55,
+      "impact": 45,
+      "commerce": 30,
+      "consistency": 60
+    },
+    "reach": "IG/YT combined approx. 150K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Alec Blenis",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "DEKA Fit hybrid-fitness competitor and coach.",
+    "why": "Competitive record in hybrid/functional racing gives him credibility as the format's growth continues.",
+    "factors": {
+      "reach": 42,
+      "engagement": 55,
+      "credibility": 75,
+      "impact": 55,
+      "commerce": 45,
+      "consistency": 60
+    },
+    "reach": "IG approx. 250K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Zach Bitter",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Ultrarunning world-record holder (100-mile) and endurance coach/podcaster.",
+    "why": "Elite competitive record plus a coaching and podcast platform that shapes ultrarunning training discourse.",
+    "factors": {
+      "reach": 40,
+      "engagement": 45,
+      "credibility": 80,
+      "impact": 55,
+      "commerce": 45,
+      "consistency": 75
+    },
+    "reach": "IG approx. 150K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Courtney Dauwalter",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Dominant ultramarathon runner; winner of UTMB, Western States, and Hardrock 100 in a single season.",
+    "why": "The defining ultrarunner of her generation; a Netflix documentary and repeated record-breaking wins gave the sport mainstream visibility.",
+    "factors": {
+      "reach": 55,
+      "engagement": 55,
+      "credibility": 92,
+      "impact": 78,
+      "commerce": 50,
+      "consistency": 82
+    },
+    "reach": "IG 742K (verified 2026)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/courtneydauwalter"
+    },
+    "warning": null
+  },
+  {
+    "name": "Kilian Jornet",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "ES",
+    "who": "Mountain and skyrunning legend; holder of multiple speed records including Everest without supplemental oxygen.",
+    "why": "The most decorated mountain-endurance athlete alive, and co-founder of the NNormal footwear brand.",
+    "factors": {
+      "reach": 65,
+      "engagement": 50,
+      "credibility": 95,
+      "impact": 85,
+      "commerce": 65,
+      "consistency": 88
+    },
+    "reach": "IG 2.0M (verified 2026)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/kilianjornet"
+    },
+    "warning": null
+  },
+  {
+    "name": "Lazar Novović",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "RS",
+    "who": "Serbian calisthenics athlete known for extreme strength feats like weighted one-arm pull-ups.",
+    "why": "Viral demonstrations of raw bodyweight strength keep the calisthenics discipline visible internationally.",
+    "factors": {
+      "reach": 60,
+      "engagement": 60,
+      "credibility": 65,
+      "impact": 60,
+      "commerce": 35,
+      "consistency": 65
+    },
+    "reach": "IG approx. 1.5M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Frank Medrano",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Early viral calisthenics figure known for planche and human-flag feats.",
+    "why": "Helped launch the global calisthenics movement in the early 2010s, though output has slowed in recent years.",
+    "factors": {
+      "reach": 62,
+      "engagement": 40,
+      "credibility": 60,
+      "impact": 75,
+      "commerce": 40,
+      "consistency": 45
+    },
+    "reach": "IG approx. 2.2M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/frankmedranooff"
+    },
+    "warning": null
+  },
+  {
+    "name": "Sondre Berg",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "NO",
+    "who": "Founder of Nordic Strength, a large YouTube channel covering parkour, calisthenics, and freerunning.",
+    "why": "One of the biggest bodyweight-athletics channels globally, sustaining strong output for years.",
+    "factors": {
+      "reach": 68,
+      "engagement": 60,
+      "credibility": 60,
+      "impact": 65,
+      "commerce": 50,
+      "consistency": 75
+    },
+    "reach": "YT approx. 3.5M (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "youtube": "https://youtube.com/@nordicstrength"
+    },
+    "warning": null
+  },
+  {
+    "name": "Magnus Midtbø",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "NO",
+    "who": "Norwegian rock climber whose channel regularly features strength, bodybuilding, and endurance training challenges.",
+    "why": "Bridges climbing and general fitness content with viral training-challenge videos and a growing gear brand.",
+    "factors": {
+      "reach": 68,
+      "engagement": 65,
+      "credibility": 65,
+      "impact": 62,
+      "commerce": 55,
+      "consistency": 80
+    },
+    "reach": "YT 3.6M · IG 708K (verified 2026-07)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "youtube": "https://youtube.com/@magnusmidtbo",
+      "instagram": "https://instagram.com/magnusmidtbo"
+    },
+    "warning": null
+  },
+  {
+    "name": "Rich Roll",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Plant-based ultra-endurance athlete (Ultraman finisher) and host of The Rich Roll Podcast.",
+    "why": "Defined the plant-based endurance/wellness podcast genre; his platform shapes mainstream health and fitness discourse.",
+    "factors": {
+      "reach": 68,
+      "engagement": 55,
+      "credibility": 65,
+      "impact": 80,
+      "commerce": 65,
+      "consistency": 85
+    },
+    "reach": "IG 2.0M · top-charting health podcast (verified 2026)",
+    "reachVerified": true,
+    "website": "https://richroll.com",
+    "handles": {
+      "instagram": "https://instagram.com/richroll",
+      "podcast": "The Rich Roll Podcast"
+    },
+    "warning": null
+  },
+  {
+    "name": "Wim Hof",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "amplifier",
+    "country": "NL",
+    "who": "Dutch extreme athlete known as 'The Iceman' for cold-exposure and breathing-method world records.",
+    "why": "Fitness is not his core topic, but his cold-exposure and breathwork method moved training culture broadly and built a large certified-instructor business.",
+    "factors": {
+      "reach": 72,
+      "engagement": 50,
+      "credibility": 55,
+      "impact": 88,
+      "commerce": 70,
+      "consistency": 80
+    },
+    "reach": "IG approx. 3M, sources vary 2.6M-4M (verified 2026)",
+    "reachVerified": true,
+    "website": "https://www.wimhofmethod.com",
+    "handles": {
+      "instagram": "https://instagram.com/iceman_hof"
+    },
+    "warning": null
+  },
+  {
+    "name": "Colin O'Brady",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Extreme-endurance explorer; first to complete a solo, unsupported crossing of Antarctica.",
+    "why": "Verified world records in polar and mountain endurance feats, plus a speaking/media platform built on them.",
+    "factors": {
+      "reach": 45,
+      "engagement": 45,
+      "credibility": 78,
+      "impact": 55,
+      "commerce": 40,
+      "consistency": 55
+    },
+    "reach": "IG approx. 500K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/colinobrady"
+    },
+    "warning": null
+  },
+  {
+    "name": "Jesse Itzler",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "amplifier",
+    "country": "US",
+    "who": "Entrepreneur and author (Living with a SEAL) who founded the 29029 Everesting endurance-event business.",
+    "why": "Fitness is secondary to his entrepreneurship, but his hybrid-mindset content and endurance events move mainstream audiences into extreme fitness challenges.",
+    "factors": {
+      "reach": 42,
+      "engagement": 45,
+      "credibility": 45,
+      "impact": 55,
+      "commerce": 65,
+      "consistency": 60
+    },
+    "reach": "IG approx. 400K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://29029.com",
+    "handles": {
+      "instagram": "https://instagram.com/jesseitzler"
+    },
+    "warning": null
+  },
+  {
+    "name": "Amelia Boone",
+    "segment": "Hybrid, Endurance & Calisthenics",
+    "tier": "core",
+    "country": "US",
+    "who": "Corporate attorney turned elite obstacle-course-racing champion, multiple World's Toughest Mudder titles.",
+    "why": "Helped legitimize OCR as a competitive endurance sport with an elite record and outspoken advocacy for women in endurance.",
+    "factors": {
+      "reach": 40,
+      "engagement": 45,
+      "credibility": 88,
+      "impact": 60,
+      "commerce": 35,
+      "consistency": 70
+    },
+    "reach": "IG approx. 350K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/ameliaboone"
+    },
+    "warning": null
+  }
+]
