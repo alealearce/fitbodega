@@ -1,0 +1,366 @@
+[
+  {
+    "name": "parkrun",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "Free, volunteer-run timed 5K (plus a junior 2K) every Saturday morning at 2,800+ parks in 25 countries; register once online, then just turn up.",
+    "why": "Invented mass free timed running — no fee, no pressure, 400,000+ people take part worldwide each week.",
+    "factors": {
+      "legacy": 95,
+      "community": 90,
+      "reach": 40,
+      "events": 90,
+      "crossover": 80,
+      "destination": 85
+    },
+    "reach": "IG fragmented by country — UK 220K, Australia 58K, Ireland 22K, no single global account (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.parkrun.com/",
+    "handles": {
+      "instagram": "https://instagram.com/parkrun"
+    },
+    "warning": null
+  },
+  {
+    "name": "adidas Runners",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "brand-backed",
+    "city": "Berlin",
+    "country": "Germany",
+    "who": "adidas-funded, coach-led free running sessions in 60+ cities worldwide (New York, London, Paris, Berlin, Tokyo); join through the app, no cost.",
+    "why": "The template every sportswear brand copied for building a global run-club network — near a million combined followers.",
+    "factors": {
+      "legacy": 85,
+      "community": 80,
+      "reach": 60,
+      "events": 85,
+      "crossover": 90,
+      "destination": 70
+    },
+    "reach": "IG 932K @adidasrunners; city chapters 3K-9K each (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.adidas.com/us/adidasrunners/",
+    "handles": {
+      "instagram": "https://instagram.com/adidasrunners"
+    },
+    "warning": null
+  },
+  {
+    "name": "Nike Run Club",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "brand-backed",
+    "city": "London",
+    "country": "UK",
+    "who": "Nike-staff-led free weekly group runs from select Nike community stores (London, NYC and others), alongside the NRC coaching app.",
+    "why": "Backed by Nike's global coaching and content machine — the run brand every runner already has on their phone.",
+    "factors": {
+      "legacy": 90,
+      "community": 55,
+      "reach": 60,
+      "events": 55,
+      "crossover": 90,
+      "destination": 55
+    },
+    "reach": "App scale is huge (100M+ downloads); in-person crew presence is fragmented by city, no unified IG (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.nike.com/nrc-app",
+    "handles": {},
+    "warning": "Mostly an app platform; only select cities (e.g. London) run a real weekly store-led session — included per the spec's judgment call, not a pure app entry."
+  },
+  {
+    "name": "Midnight Runners",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "Free weekly night run-plus-bodyweight-workout crew with a music truck, active in 18 cities including London, New York, LA and Mexico City; just show up.",
+    "why": "Turned the group run into a moving street party — an early template for music-led run crews that others since copied.",
+    "factors": {
+      "legacy": 75,
+      "community": 75,
+      "reach": 40,
+      "events": 75,
+      "crossover": 65,
+      "destination": 65
+    },
+    "reach": "IG 46K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.midnightrunners.com/",
+    "handles": {
+      "instagram": "https://instagram.com/midnightrunners"
+    },
+    "warning": null
+  },
+  {
+    "name": "lululemon Run Club",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "brand-backed",
+    "city": "Vancouver",
+    "country": "Canada",
+    "who": "Free, beginner-friendly run clubs led out of lululemon stores worldwide (San Francisco, NYC, Chicago, San Jose and more), weekly, no purchase needed.",
+    "why": "The retail-brand run-club model — every store doubles as a meeting point, feeding into lululemon's SeaWheeze running events.",
+    "factors": {
+      "legacy": 60,
+      "community": 55,
+      "reach": 30,
+      "events": 60,
+      "crossover": 70,
+      "destination": 45
+    },
+    "reach": "Store-level IG accounts run 500-2.5K each, no unified run-club account (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Tracksmith Trackhouse",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "brand-backed",
+    "city": "Boston",
+    "country": "US",
+    "who": "Tracksmith's Newbury Street flagship store runs a free weekly program — Sunday long run, Friday social run, a weekly track workout — plus a Boston Marathon-weekend takeover.",
+    "why": "A real storefront with a real weekly training calendar, timed to Boston Marathon culture — the clubhouse model done right.",
+    "factors": {
+      "legacy": 55,
+      "community": 65,
+      "reach": 35,
+      "events": 75,
+      "crossover": 65,
+      "destination": 75
+    },
+    "reach": "IG in the low tens of thousands on the brand account (approx 2026)",
+    "reachVerified": true,
+    "website": "https://www.tracksmith.com/pages/trackhouse",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Bandit Running",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "brand-backed",
+    "city": "New York",
+    "country": "US",
+    "who": "Brooklyn-founded running brand whose weekly Thursday community runs are now expanding to international cities alongside its apparel line.",
+    "why": "A direct-to-consumer running brand built street-community-first — apparel came after the run club, not before.",
+    "factors": {
+      "legacy": 40,
+      "community": 55,
+      "reach": 50,
+      "events": 55,
+      "crossover": 60,
+      "destination": 40
+    },
+    "reach": "IG 276K brand account @bandit (verified 2026-08); community-run handle much smaller",
+    "reachVerified": true,
+    "website": "https://banditrunning.com/",
+    "handles": {
+      "instagram": "https://instagram.com/bandit"
+    },
+    "warning": null
+  },
+  {
+    "name": "GoodGym",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "Free UK-wide group runs that end at a community task — clearing a garden, visiting an isolated older person — instead of a finish line; a registered charity since 2015.",
+    "why": "The run comes second to the good deed — a genuinely different model that has held up for close to two decades.",
+    "factors": {
+      "legacy": 60,
+      "community": 65,
+      "reach": 30,
+      "events": 65,
+      "crossover": 55,
+      "destination": 35
+    },
+    "reach": "IG presence modest, split across UK area accounts (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.goodgym.org/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Achilles International",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "New York",
+    "country": "US",
+    "who": "Nonprofit pairing disabled athletes with volunteer guides for weekly group workouts and races, through chapters across the US, Canada and New Zealand.",
+    "why": "The one global running org built specifically for para-athletes — its NYC Hope & Possibility race alone draws 8,000-plus people.",
+    "factors": {
+      "legacy": 70,
+      "community": 70,
+      "reach": 30,
+      "events": 65,
+      "crossover": 55,
+      "destination": 50
+    },
+    "reach": "IG presence modest, chapter-level accounts (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.achillesinternational.org/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Front Runners New York",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "New York",
+    "country": "US",
+    "who": "NYC's LGBTQ+ running and multisport club since 1979, 1,200-plus members, weekly fun runs and coached workouts; part of the worldwide International Front Runners network.",
+    "why": "One of the oldest LGBTQ+ sports clubs anywhere — its Pride Run is the largest Pride charity run in the world.",
+    "factors": {
+      "legacy": 80,
+      "community": 65,
+      "reach": 30,
+      "events": 60,
+      "crossover": 60,
+      "destination": 45
+    },
+    "reach": "IG presence modest, chapter-level (approx 2026)",
+    "reachVerified": false,
+    "website": "https://frny.org/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "November Project",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "Boston",
+    "country": "US",
+    "who": "Free, no-signup outdoor workout movement (hills, stairs, track) meeting multiple times a week in 50-plus cities across 10 countries, rain or snow.",
+    "why": "Spawned the modern free-fitness-movement template that GoodGym, Midnight Runners and others followed — over a decade of imitators.",
+    "factors": {
+      "legacy": 80,
+      "community": 70,
+      "reach": 40,
+      "events": 80,
+      "crossover": 55,
+      "destination": 55
+    },
+    "reach": "IG 34K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://november-project.com/",
+    "handles": {
+      "instagram": "https://instagram.com/novemberproject"
+    },
+    "warning": null
+  },
+  {
+    "name": "Black Girls RUN!",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "Atlanta",
+    "country": "US",
+    "who": "National organization with 75-plus local chapters and 250,000-plus members, running weekly group runs in most chapters, founded 2009.",
+    "why": "Built one of the largest Black running communities on earth from a two-person blog — now an official charity partner of majors like Chicago and Boston.",
+    "factors": {
+      "legacy": 70,
+      "community": 80,
+      "reach": 50,
+      "events": 65,
+      "crossover": 65,
+      "destination": 45
+    },
+    "reach": "IG 88K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://blackgirlsrun.com/",
+    "handles": {
+      "instagram": "https://instagram.com/officialblackgirlsrun"
+    },
+    "warning": null
+  },
+  {
+    "name": "Team RWB",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "Tampa",
+    "country": "US",
+    "who": "Veteran-service nonprofit with chapters in all 50 states running weekly group workouts and running programs; 230,000-plus registered members.",
+    "why": "The largest veteran fitness-and-community network in the US, built to fight post-service isolation through group exercise.",
+    "factors": {
+      "legacy": 65,
+      "community": 65,
+      "reach": 40,
+      "events": 60,
+      "crossover": 55,
+      "destination": 35
+    },
+    "reach": "IG in the tens of thousands (approx 2026)",
+    "reachVerified": false,
+    "website": "https://teamrwb.org/",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Black Men Run",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "Atlanta",
+    "country": "US",
+    "who": "National running organization for Black men with local chapters across the US holding weekly group runs, founded 2013.",
+    "why": "Built its own multi-city footprint and health-advocacy running culture, the male counterpart to Black Girls RUN!",
+    "factors": {
+      "legacy": 45,
+      "community": 55,
+      "reach": 30,
+      "events": 50,
+      "crossover": 40,
+      "destination": 30
+    },
+    "reach": "IG presence modest, chapter-level (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Back on My Feet",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "Philadelphia",
+    "country": "US",
+    "who": "National nonprofit running structured morning running teams that help people experiencing homelessness build stability, with chapters in multiple US cities, founded 2007.",
+    "why": "A running org measured in housing and job outcomes, not race times — a genuinely distinct mission among run clubs.",
+    "factors": {
+      "legacy": 60,
+      "community": 55,
+      "reach": 25,
+      "events": 55,
+      "crossover": 45,
+      "destination": 25
+    },
+    "reach": "IG presence modest (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Team In Training",
+    "segment": "Global Orgs & Brand Crews",
+    "tier": "independent",
+    "city": "New York",
+    "country": "US",
+    "who": "Coached endurance-training program for marathons, half marathons and triathlons in cities nationwide, with weekly group training runs, in exchange for fundraising for blood-cancer research.",
+    "why": "Running since 1988, one of the longest-standing charity-endurance programs, turning first-timers into marathoners for a cause.",
+    "factors": {
+      "legacy": 70,
+      "community": 45,
+      "reach": 30,
+      "events": 55,
+      "crossover": 45,
+      "destination": 25
+    },
+    "reach": "IG presence modest (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {},
+    "warning": "Charity fundraising-training program — you join a coached season tied to fundraising, not a drop-in crew."
+  }
+]

@@ -185,6 +185,90 @@ LISTS.recovery = {
   },
 };
 
+LISTS.runclubs = {
+  segPattern: /^club-seg-.*\.json$/,
+  weights: {
+    legacy: 0.2,
+    community: 0.2,
+    reach: 0.15,
+    events: 0.15,
+    crossover: 0.15,
+    destination: 0.15,
+  },
+  discountTier: null,
+  discount: 1,
+  reachBase: { count: 10e3, score: 40 },
+  meta: {
+    title: "Top 100 Run Clubs & Fitness Crews 2026",
+    subtitle:
+      "The communities people actually show up for — ranked. Run crews, cycling clubs, open-water swimmers, and the free workout movements redefining social fitness.",
+    scoreModel: {
+      name: "Crew Score",
+      gate: "Real, currently-active clubs with regular sessions the public can join. Global organizations enter as themselves or through their flagship chapter — whichever is how people know them. Independent crews and brand-backed clubs are scored on the same scale.",
+      notes:
+        "Reach is log-scaled and recomputed from each crew's researched follower counts. The five judgment factors — legacy, community, events, crossover, destination — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+    },
+    disclaimer:
+      "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; crews move, pause, and reform — check their socials for this week's session.",
+  },
+};
+
+LISTS.stores = {
+  segPattern: /^store-seg-.*\.json$/,
+  weights: {
+    legacy: 0.2,
+    selection: 0.2,
+    experience: 0.15,
+    community: 0.15,
+    reach: 0.15,
+    destination: 0.15,
+  },
+  discountTier: null,
+  discount: 1,
+  reachBase: { count: 15e3, score: 40 },
+  meta: {
+    title: "Top 100 Health Food Stores 2026",
+    subtitle:
+      "The stores that define healthy-food retail — ranked. Celebrity grocers, working co-ops, organic pioneers, farm shops, and the zero-waste new wave.",
+    scoreModel: {
+      name: "Store Score",
+      gate: "Specific, currently-operating physical stores where health-food retail is the core business. Chains enter through individual locations judged as places — never as a brand in the abstract. Restaurants and online-only sellers do not qualify.",
+      notes:
+        "Reach is log-scaled and recomputed from each store's researched follower counts. The five judgment factors — legacy, selection, experience, community, destination — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+    },
+    disclaimer:
+      "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; stores move, renovate, and close — check before you travel.",
+  },
+};
+
+LISTS.nutritionists = {
+  segPattern: /^nut-seg-.*\.json$/,
+  weights: {
+    credibility: 0.25,
+    practice: 0.2,
+    content: 0.15,
+    reach: 0.15,
+    impact: 0.15,
+    consistency: 0.1,
+  },
+  discountTier: null,
+  discount: 1,
+  reachBase: { count: 50e3, score: 40 },
+  meta: {
+    title: "Top 100 Nutritionists 2026",
+    subtitle:
+      "The world's leading credentialed nutritionists and dietitians — ranked. Sports RDs, researcher-practitioners, clinical leaders, and the registered dietitians winning the internet.",
+    scoreModel: {
+      name: "Nutrition Authority Score",
+      gate: "One hard gate: recognized credentials — registered dietitian status or graduate-level nutrition science — plus real practice with clients, athletes, teams, or clinics. Famous but uncredentialed voices do not qualify.",
+      notes:
+        "Reach is log-scaled and recomputed from researched follower counts. The five judgment factors — credibility, practice, content, impact, consistency — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+    },
+    disclaimer:
+      "Details are editorial estimates (2026) and the ranking is reviewed monthly. Educational and editorial — inclusion is not an endorsement, rankings measure influence and authority, and nothing here is dietary advice.",
+  },
+};
+
 const [segDir, outFile, listId = "influencers"] = process.argv.slice(2);
 const LIST = LISTS[listId];
 if (!segDir || !outFile || !LIST) {

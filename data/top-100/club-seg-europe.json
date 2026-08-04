@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Run Dem Crew",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "London-wide run crew founded 2007 by Charlie Dark; meets every Tuesday at lululemon Spitalfields, open to all, no membership fee.",
+    "why": "One of the clubs that invented modern run-crew culture — a 500-strong family built for people who don't call themselves runners.",
+    "factors": {
+      "legacy": 90,
+      "community": 85,
+      "reach": 40,
+      "events": 70,
+      "crossover": 80,
+      "destination": 75
+    },
+    "reach": "IG ~20K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.rundemcrew.com/",
+    "handles": {
+      "instagram": "https://instagram.com/rundemcrew"
+    },
+    "warning": null
+  },
+  {
+    "name": "Track Mafia",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "Track-focused crew running since 2014, weekly sessions at Paddington Recreation Ground; DJs and playlists, open to anyone with a fitness base.",
+    "why": "A decade in and still the reference point for London's competitive-but-social track-night scene.",
+    "factors": {
+      "legacy": 65,
+      "community": 75,
+      "reach": 40,
+      "events": 70,
+      "crossover": 60,
+      "destination": 55
+    },
+    "reach": "IG 19K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.trackmafia.co.uk/",
+    "handles": {
+      "instagram": "https://instagram.com/trackmafia.uk"
+    },
+    "warning": null
+  },
+  {
+    "name": "Your Friendly Runners",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "East London crew that grew from Saturday 10K social runs into multiple weekly meet-ups and its own Hackney clubhouse, Knees Up; open to all.",
+    "why": "Turned a running habit into a full clubhouse brand — the fastest-growing social crew in East London.",
+    "factors": {
+      "legacy": 55,
+      "community": 85,
+      "reach": 50,
+      "events": 80,
+      "crossover": 70,
+      "destination": 65
+    },
+    "reach": "IG 30K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/yourfriendlyrunners"
+    },
+    "warning": null
+  },
+  {
+    "name": "Puresport Run Club",
+    "segment": "UK & Europe Crews",
+    "tier": "brand-backed",
+    "city": "London",
+    "country": "UK",
+    "who": "Free weekly run club backed by supplement brand Puresport, with sessions across Battersea, Hackney and Clapham for every pace; expanded to Bristol, Belfast, Manchester and New York.",
+    "why": "Grew into the UK's biggest free weekly run club through 2024-26, with pro-level run leaders and brand-event tie-ins.",
+    "factors": {
+      "legacy": 40,
+      "community": 85,
+      "reach": 50,
+      "events": 90,
+      "crossover": 75,
+      "destination": 60
+    },
+    "reach": "IG ~30K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://puresport.co/pages/clubs",
+    "handles": {
+      "instagram": "https://instagram.com/puresport"
+    },
+    "warning": null
+  },
+  {
+    "name": "Midnight Runners",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "Volunteer-owned nonprofit run crew, born in London around 2013-15 from a late-night run with a speaker; now free chapters in 18 cities worldwide.",
+    "why": "The London night-run-plus-party format it started became a global template, backed by a Mizuno partnership.",
+    "factors": {
+      "legacy": 75,
+      "community": 80,
+      "reach": 40,
+      "events": 70,
+      "crossover": 85,
+      "destination": 80
+    },
+    "reach": "IG ~15K (approx 2026, London chapter)",
+    "reachVerified": false,
+    "website": "https://www.midnightrunners.com/cities/london",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Run Talk Run",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "Free weekly mental-health running group founded in London in 2017 by Jess Robson; gentle 5K pace, no pressure, now 170+ groups worldwide.",
+    "why": "Made talking about mental health while running a movement, with national press and NHS-linked partnerships.",
+    "factors": {
+      "legacy": 60,
+      "community": 75,
+      "reach": 40,
+      "events": 60,
+      "crossover": 80,
+      "destination": 50
+    },
+    "reach": "IG ~15K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.runtalkrun.com/",
+    "handles": {
+      "instagram": "https://instagram.com/runtalkrun_southlondon"
+    },
+    "warning": null
+  },
+  {
+    "name": "Fulham Running Club",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "London",
+    "country": "UK",
+    "who": "England Athletics-registered club running South West London since 2004, with four weekly sessions from intervals to a Saturday parkrun; free and informal.",
+    "why": "Two decades of steady, unglamorous consistency in a scene that mostly chases trend cycles.",
+    "factors": {
+      "legacy": 60,
+      "community": 55,
+      "reach": 30,
+      "events": 70,
+      "crossover": 40,
+      "destination": 40
+    },
+    "reach": "IG 2.8K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.fulhamrunningclub.org.uk/",
+    "handles": {
+      "instagram": "https://instagram.com/fulhamrunningclub"
+    },
+    "warning": null
+  },
+  {
+    "name": "NBRO Running",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "who": "Nonprofit crew born in Norrebro in 2010; free weekly sessions ranging from easy social jogs to speed workouts around Copenhagen's parks and waterfront.",
+    "why": "One of Scandinavia's earliest independent run crews, still fully free and open a decade and a half on.",
+    "factors": {
+      "legacy": 65,
+      "community": 70,
+      "reach": 30,
+      "events": 70,
+      "crossover": 55,
+      "destination": 55
+    },
+    "reach": "IG ~6K (approx 2026)",
+    "reachVerified": false,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/nbrorunning"
+    },
+    "warning": null
+  },
+  {
+    "name": "Berlin Braves",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "Berlin",
+    "country": "Germany",
+    "who": "Kreuzberg-based sports club with running and basketball teams; membership is so in demand it periodically closes and reopens for short windows.",
+    "why": "Rare case of a run club with a waitlist — culture strong enough that access itself is a status marker.",
+    "factors": {
+      "legacy": 60,
+      "community": 80,
+      "reach": 50,
+      "events": 75,
+      "crossover": 65,
+      "destination": 60
+    },
+    "reach": "IG 24K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://berlinbraves.com/",
+    "handles": {
+      "instagram": "https://instagram.com/berlinbraves"
+    },
+    "warning": null
+  },
+  {
+    "name": "KRAFT Runners",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "Berlin",
+    "country": "Germany",
+    "who": "Founded 2016 by two former Nike Run Club pacers; intense, inclusive interval workouts under the #geilballern banner, now with chapters beyond Berlin.",
+    "why": "Grew a single training habit into a national training-culture brand covered by Highsnobiety.",
+    "factors": {
+      "legacy": 70,
+      "community": 80,
+      "reach": 55,
+      "events": 75,
+      "crossover": 75,
+      "destination": 65
+    },
+    "reach": "IG 48K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/kraftrunners"
+    },
+    "warning": null
+  },
+  {
+    "name": "Patta Running Team",
+    "segment": "UK & Europe Crews",
+    "tier": "brand-backed",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "who": "Running arm of Amsterdam streetwear label Patta, founded 2010 by co-founder Edson Sabajo; runs announced via Instagram and Strava, open to all backgrounds and paces.",
+    "why": "Fused street culture and distance running before that crossover was common — a global reference for run-crew style.",
+    "factors": {
+      "legacy": 85,
+      "community": 80,
+      "reach": 50,
+      "events": 70,
+      "crossover": 90,
+      "destination": 80
+    },
+    "reach": "IG 23K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://pattarunningteam.amsterdam/",
+    "handles": {
+      "instagram": "https://instagram.com/pattarunningteam"
+    },
+    "warning": null
+  },
+  {
+    "name": "Rotterdam Running Crew",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "who": "Open weekly run club welcoming beginners through advanced runners around Rotterdam.",
+    "why": "The steady, low-key anchor of Rotterdam's growing but still small run-club scene.",
+    "factors": {
+      "legacy": 40,
+      "community": 55,
+      "reach": 30,
+      "events": 60,
+      "crossover": 35,
+      "destination": 35
+    },
+    "reach": "IG 5.9K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/rotterdamrunningcrew"
+    },
+    "warning": null
+  },
+  {
+    "name": "K I I N Paris Run Club",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "Paris",
+    "country": "France",
+    "who": "Community run club meeting Wednesdays and Sundays at Le Peloton Cafe, open to every level.",
+    "why": "A cafe-anchored, all-levels crew that's become a fixture of Paris's fast-growing social-running scene.",
+    "factors": {
+      "legacy": 35,
+      "community": 55,
+      "reach": 30,
+      "events": 60,
+      "crossover": 40,
+      "destination": 40
+    },
+    "reach": "IG 7.2K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/we.are.kiin"
+    },
+    "warning": null
+  },
+  {
+    "name": "adidas Runners",
+    "segment": "UK & Europe Crews",
+    "tier": "brand-backed",
+    "city": "Paris",
+    "country": "France",
+    "who": "Free adidas-backed running program split into six zones with six team captains, running training, and yoga sessions across the city.",
+    "why": "Long-running local chapter of adidas's global crew program, giving it built-in brand reach and event support.",
+    "factors": {
+      "legacy": 70,
+      "community": 65,
+      "reach": 30,
+      "events": 80,
+      "crossover": 85,
+      "destination": 55
+    },
+    "reach": "IG 7.3K (verified 2026-08, city account)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/runnersofparis"
+    },
+    "warning": null
+  },
+  {
+    "name": "SATISFY",
+    "segment": "UK & Europe Crews",
+    "tier": "brand-backed",
+    "city": "Paris",
+    "country": "France",
+    "who": "Paris running-fashion label founded 2015 that hosts monthly LSD (Long Slow Distance) group runs in Paris and a rotating list of world cities.",
+    "why": "Turned a Paris-based apparel brand's group run into a global fixture at the intersection of running and fashion, with Paris Fashion Week tie-ins.",
+    "factors": {
+      "legacy": 60,
+      "community": 55,
+      "reach": 62,
+      "events": 40,
+      "crossover": 95,
+      "destination": 85
+    },
+    "reach": "IG 535K (verified 2026-08, brand account)",
+    "reachVerified": true,
+    "website": "https://satisfyrunning.com/",
+    "handles": {
+      "instagram": "https://instagram.com/satisfyrunning"
+    },
+    "warning": "Reach reflects the SATISFY brand account, not a dedicated crew account; the Paris LSD run itself is a monthly meetup, not a large weekly regular group."
+  },
+  {
+    "name": "Stockholm Run Club",
+    "segment": "UK & Europe Crews",
+    "tier": "brand-backed",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "who": "Weekly run club powered by Adidas Running and Red Bull Sweden, meeting Tuesdays and Sundays.",
+    "why": "Stockholm's most visible brand-backed crew, with consistent scheduling and dual sponsor support.",
+    "factors": {
+      "legacy": 40,
+      "community": 55,
+      "reach": 40,
+      "events": 60,
+      "crossover": 60,
+      "destination": 45
+    },
+    "reach": "IG 11K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/stockholmrunclub"
+    },
+    "warning": null
+  },
+  {
+    "name": "Dublin Track Club",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "Dublin",
+    "country": "Ireland",
+    "who": "Structured track-training club in Dublin with regular sessions for distance runners of varying levels.",
+    "why": "The steady, training-focused counterpart to Dublin's more social run groups.",
+    "factors": {
+      "legacy": 50,
+      "community": 55,
+      "reach": 30,
+      "events": 60,
+      "crossover": 40,
+      "destination": 40
+    },
+    "reach": "IG 4.8K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.dublintrackclub.com/",
+    "handles": {
+      "instagram": "https://instagram.com/dublintrackclub"
+    },
+    "warning": null
+  },
+  {
+    "name": "Yapperz Club",
+    "segment": "UK & Europe Crews",
+    "tier": "independent",
+    "city": "Milan",
+    "country": "Italy",
+    "who": "Milan crew for beginner, slow and chatty runners, with a Tuesday 'Turbo Yap' and a relaxed Sunday run at a talking pace.",
+    "why": "A fresh, distinctly branded answer to performance-driven run culture, built around chat over pace.",
+    "factors": {
+      "legacy": 30,
+      "community": 60,
+      "reach": 30,
+      "events": 60,
+      "crossover": 45,
+      "destination": 35
+    },
+    "reach": "IG 1.6K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/yapperzclub"
+    },
+    "warning": null
+  }
+]

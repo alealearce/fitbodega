@@ -1,0 +1,2724 @@
+{
+  "meta": {
+    "title": "Top 100 Run Clubs & Fitness Crews 2026",
+    "subtitle": "The communities people actually show up for — ranked. Run crews, cycling clubs, open-water swimmers, and the free workout movements redefining social fitness.",
+    "scoreModel": {
+      "name": "Crew Score",
+      "gate": "Real, currently-active clubs with regular sessions the public can join. Global organizations enter as themselves or through their flagship chapter — whichever is how people know them. Independent crews and brand-backed clubs are scored on the same scale.",
+      "notes": "Reach is log-scaled and recomputed from each crew's researched follower counts. The five judgment factors — legacy, community, events, crossover, destination — are calibrated across research segments so no category is scored on an easier curve. Counts marked verified were browser-checked at the listed date; the rest are approximate.",
+      "weights": {
+        "legacy": 0.2,
+        "community": 0.2,
+        "reach": 0.15,
+        "events": 0.15,
+        "crossover": 0.15,
+        "destination": 0.15
+      }
+    },
+    "disclaimer": "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; crews move, pause, and reform — check their socials for this week's session.",
+    "series": "The FitBodega 100",
+    "updated": "2026-08-04",
+    "reviewCadence": "monthly"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "name": "parkrun",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "Free, volunteer-run timed 5K (plus a junior 2K) every Saturday morning at 2,800+ parks in 25 countries; register once online, then just turn up.",
+      "why": "Invented mass free timed running — no fee, no pressure, 400,000+ people take part worldwide each week.",
+      "factors": {
+        "legacy": 95,
+        "community": 90,
+        "reach": 70,
+        "events": 90,
+        "crossover": 80,
+        "destination": 85
+      },
+      "reach": "IG fragmented by country — UK 220K, Australia 58K, Ireland 22K, no single global account (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.parkrun.com/",
+      "handles": {
+        "instagram": "https://instagram.com/parkrun"
+      },
+      "warning": null,
+      "score": 86
+    },
+    {
+      "rank": 2,
+      "name": "adidas Runners",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "brand-backed",
+      "city": "Berlin",
+      "country": "Germany",
+      "who": "adidas-funded, coach-led free running sessions in 60+ cities worldwide (New York, London, Paris, Berlin, Tokyo); join through the app, no cost.",
+      "why": "The template every sportswear brand copied for building a global run-club network — near a million combined followers.",
+      "factors": {
+        "legacy": 85,
+        "community": 80,
+        "reach": 79,
+        "events": 85,
+        "crossover": 90,
+        "destination": 70
+      },
+      "reach": "IG 932K @adidasrunners; city chapters 3K-9K each (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.adidas.com/us/adidasrunners/",
+      "handles": {
+        "instagram": "https://instagram.com/adidasrunners"
+      },
+      "warning": null,
+      "score": 82
+    },
+    {
+      "rank": 3,
+      "name": "Bondi Icebergs Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "Sydney",
+      "country": "AU",
+      "who": "Winter ocean-swimming club at Bondi's cliff-edge pool; members swim three Sundays a month May-September to keep membership.",
+      "why": "A 1929 institution with over 1,000 adult members and one of the most photographed pools on earth.",
+      "factors": {
+        "legacy": 82,
+        "community": 87,
+        "reach": 40,
+        "events": 82,
+        "crossover": 82,
+        "destination": 92
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.icebergs.com.au",
+      "handles": {
+        "instagram": "https://instagram.com/icebergsclub"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 4,
+      "name": "IndoRunners",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Jakarta",
+      "country": "ID",
+      "who": "Indonesia's biggest running community; Sunday morning and Thursday night group runs in Jakarta plus chapters nationwide.",
+      "why": "With tens of thousands of members across platforms, it's the largest and most established run community in Southeast Asia.",
+      "factors": {
+        "legacy": 87,
+        "community": 92,
+        "reach": 62,
+        "events": 82,
+        "crossover": 72,
+        "destination": 62
+      },
+      "reach": "IG 121K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/indorunners/"
+      },
+      "warning": null,
+      "score": 78
+    },
+    {
+      "rank": 5,
+      "name": "Rapha Cycling Club (RCC)",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "brand-backed",
+      "city": "London",
+      "country": "UK",
+      "who": "Global cycling club run out of 29 Rapha Clubhouses worldwide; join via the RCC app, though new memberships are on a waitlist.",
+      "why": "The clubhouse model it pioneered is now the template every apparel brand copies for cycling community.",
+      "factors": {
+        "legacy": 77,
+        "community": 72,
+        "reach": 62,
+        "events": 82,
+        "crossover": 87,
+        "destination": 82
+      },
+      "reach": "IG 122K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.rapha.cc",
+      "handles": {
+        "instagram": "https://instagram.com/rapha_rcc"
+      },
+      "warning": "New RCC memberships were paused as of late 2025; joining is waitlist-only.",
+      "score": 77
+    },
+    {
+      "rank": 6,
+      "name": "PRRC 1936 (Private Road Running Club)",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Seoul",
+      "country": "KR",
+      "who": "Seoul's OG run crew of designers, DJs and architects; group runs plus member-designed technical gear.",
+      "why": "Widely cited as Asia's most influential run crew, the reference point every regional crew that followed name-checks.",
+      "factors": {
+        "legacy": 82,
+        "community": 87,
+        "reach": 45,
+        "events": 77,
+        "crossover": 87,
+        "destination": 82
+      },
+      "reach": "IG 18K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/prrc1936/"
+      },
+      "warning": null,
+      "score": 77
+    },
+    {
+      "rank": 7,
+      "name": "Patta Running Team",
+      "segment": "UK & Europe Crews",
+      "tier": "brand-backed",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "who": "Running arm of Amsterdam streetwear label Patta, founded 2010 by co-founder Edson Sabajo; runs announced via Instagram and Strava, open to all backgrounds and paces.",
+      "why": "Fused street culture and distance running before that crossover was common — a global reference for run-crew style.",
+      "factors": {
+        "legacy": 85,
+        "community": 80,
+        "reach": 47,
+        "events": 70,
+        "crossover": 90,
+        "destination": 80
+      },
+      "reach": "IG 23K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://pattarunningteam.amsterdam/",
+      "handles": {
+        "instagram": "https://instagram.com/pattarunningteam"
+      },
+      "warning": null,
+      "score": 76
+    },
+    {
+      "rank": 8,
+      "name": "Run Dem Crew",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "London-wide run crew founded 2007 by Charlie Dark; meets every Tuesday at lululemon Spitalfields, open to all, no membership fee.",
+      "why": "One of the clubs that invented modern run-crew culture — a 500-strong family built for people who don't call themselves runners.",
+      "factors": {
+        "legacy": 90,
+        "community": 85,
+        "reach": 40,
+        "events": 70,
+        "crossover": 80,
+        "destination": 75
+      },
+      "reach": "IG ~20K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.rundemcrew.com/",
+      "handles": {
+        "instagram": "https://instagram.com/rundemcrew"
+      },
+      "warning": null,
+      "score": 75
+    },
+    {
+      "rank": 9,
+      "name": "Koreatown Run Club",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Los Angeles",
+      "country": "US",
+      "who": "Weekly Wednesday-night run through K-town, open to anyone who shows up, plus race-day meetups.",
+      "why": "Grew from a handful of friends into one of LA's largest weekly run turnouts and a symbol of the 2020s run-club boom.",
+      "factors": {
+        "legacy": 56,
+        "community": 91,
+        "reach": 53,
+        "events": 81,
+        "crossover": 81,
+        "destination": 81
+      },
+      "reach": "IG 44K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://koreatownrunclub.com",
+      "handles": {
+        "instagram": "https://instagram.com/koreatownrunclub"
+      },
+      "warning": null,
+      "score": 74
+    },
+    {
+      "rank": 10,
+      "name": "Midnight Runners",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "Volunteer-owned nonprofit run crew, born in London around 2013-15 from a late-night run with a speaker; now free chapters in 18 cities worldwide.",
+      "why": "The London night-run-plus-party format it started became a global template, backed by a Mizuno partnership.",
+      "factors": {
+        "legacy": 75,
+        "community": 80,
+        "reach": 40,
+        "events": 70,
+        "crossover": 85,
+        "destination": 80
+      },
+      "reach": "IG ~15K (approx 2026, London chapter)",
+      "reachVerified": false,
+      "website": "https://www.midnightrunners.com/cities/london",
+      "handles": {},
+      "warning": null,
+      "score": 72
+    },
+    {
+      "rank": 11,
+      "name": "November Project",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Boston",
+      "country": "US",
+      "who": "Free outdoor workout movement born in Boston in 2011, mixing running and bodyweight training; no sign-up, just show up.",
+      "why": "Boston's flagship chapter spawned free-workout chapters in dozens of cities and helped define pre-pandemic community fitness culture.",
+      "factors": {
+        "legacy": 86,
+        "community": 76,
+        "reach": 51,
+        "events": 91,
+        "crossover": 61,
+        "destination": 56
+      },
+      "reach": "IG 34K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://november-project.com",
+      "handles": {
+        "instagram": "https://instagram.com/novemberproject"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 12,
+      "name": "Venice Run Club",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Los Angeles",
+      "country": "US",
+      "who": "LA (Venice/Abbot Kinney) community run club with near-daily meetups and its own race, the Abbot Kinney One.",
+      "why": "Explosive 2024-26 growth, packed turnout, and partnerships with On, Oakley, Shokz and Barebells.",
+      "factors": {
+        "legacy": 41,
+        "community": 91,
+        "reach": 52,
+        "events": 86,
+        "crossover": 86,
+        "destination": 76
+      },
+      "reach": "IG 41.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/venicerunclub"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 13,
+      "name": "Bridge Runners",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "New York City",
+      "country": "US",
+      "who": "NYC's original run crew, meeting Wednesdays since the mid-2000s; open group runs, no pace requirement.",
+      "why": "Widely credited as the first modern run crew, the template every later crew copied.",
+      "factors": {
+        "legacy": 91,
+        "community": 71,
+        "reach": 49,
+        "events": 61,
+        "crossover": 76,
+        "destination": 71
+      },
+      "reach": "IG 28K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/bridgerunners"
+      },
+      "warning": null,
+      "score": 71
+    },
+    {
+      "rank": 14,
+      "name": "KRAFT Runners",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Berlin",
+      "country": "Germany",
+      "who": "Founded 2016 by two former Nike Run Club pacers; intense, inclusive interval workouts under the #geilballern banner, now with chapters beyond Berlin.",
+      "why": "Grew a single training habit into a national training-culture brand covered by Highsnobiety.",
+      "factors": {
+        "legacy": 70,
+        "community": 80,
+        "reach": 54,
+        "events": 75,
+        "crossover": 75,
+        "destination": 65
+      },
+      "reach": "IG 48K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/kraftrunners"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 15,
+      "name": "F3 (F3 Nation)",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "independent",
+      "city": "Charlotte",
+      "country": "US",
+      "who": "Free, peer-led outdoor bootcamp for men at 5 a.m., no sign-up, just show up — 5,000+ locations worldwide.",
+      "why": "Basically invented the free, peer-led outdoor workout model that FiA, November Project, and dozens of copycats followed.",
+      "factors": {
+        "legacy": 83,
+        "community": 83,
+        "reach": 40,
+        "events": 88,
+        "crossover": 58,
+        "destination": 58
+      },
+      "reach": "IG ~45K on @f3nation (approx 2026)",
+      "reachVerified": false,
+      "website": "https://f3nation.com",
+      "handles": {
+        "instagram": "https://instagram.com/f3nation"
+      },
+      "warning": null,
+      "score": 70
+    },
+    {
+      "rank": 16,
+      "name": "Harlem Run",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "New York City",
+      "country": "US",
+      "who": "Free Monday/Tuesday/Wednesday runs through Harlem since 2013, plus a Thursday speed session; join by showing up.",
+      "why": "One of the crews that pushed the 2010s NYC run-crew wave into a national health movement.",
+      "factors": {
+        "legacy": 71,
+        "community": 81,
+        "reach": 46,
+        "events": 81,
+        "crossover": 66,
+        "destination": 61
+      },
+      "reach": "IG 20K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.harlemrun.com",
+      "handles": {
+        "instagram": "https://instagram.com/harlemrun"
+      },
+      "warning": null,
+      "score": 69
+    },
+    {
+      "rank": 17,
+      "name": "Your Friendly Runners",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "East London crew that grew from Saturday 10K social runs into multiple weekly meet-ups and its own Hackney clubhouse, Knees Up; open to all.",
+      "why": "Turned a running habit into a full clubhouse brand — the fastest-growing social crew in East London.",
+      "factors": {
+        "legacy": 55,
+        "community": 85,
+        "reach": 50,
+        "events": 80,
+        "crossover": 70,
+        "destination": 65
+      },
+      "reach": "IG 30K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/yourfriendlyrunners"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 18,
+      "name": "Nike Run Club",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "brand-backed",
+      "city": "London",
+      "country": "UK",
+      "who": "Nike-staff-led free weekly group runs from select Nike community stores (London, NYC and others), alongside the NRC coaching app.",
+      "why": "Backed by Nike's global coaching and content machine — the run brand every runner already has on their phone.",
+      "factors": {
+        "legacy": 90,
+        "community": 55,
+        "reach": 60,
+        "events": 55,
+        "crossover": 90,
+        "destination": 55
+      },
+      "reach": "App scale is huge (100M+ downloads); in-person crew presence is fragmented by city, no unified IG (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.nike.com/nrc-app",
+      "handles": {},
+      "warning": "Mostly an app platform; only select cities (e.g. London) run a real weekly store-led session — included per the spec's judgment call, not a pure app entry.",
+      "score": 68
+    },
+    {
+      "rank": 19,
+      "name": "Serpentine Swimming Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "Hyde Park open-water swim club with year-round early-morning swims; the Christmas Day Peter Pan Cup is open to entrants.",
+      "why": "Racing for the Peter Pan Cup every Christmas Day since 1864 makes this the longest-running fixture in open-water swimming.",
+      "factors": {
+        "legacy": 87,
+        "community": 67,
+        "reach": 30,
+        "events": 77,
+        "crossover": 72,
+        "destination": 67
+      },
+      "reach": "IG unknown; active on Facebook (approx 2026)",
+      "reachVerified": false,
+      "website": "https://serpentineswimmingclub.com",
+      "handles": {
+        "facebook": "https://www.facebook.com/SerpentineSwimmingClub"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 20,
+      "name": "South End Rowing Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "San Francisco",
+      "country": "US",
+      "who": "Aquatic Park rowing and open-water swim club since 1873; hosts the public Alcatraz swim and the annual Bridge to Bridge Regatta.",
+      "why": "One of the oldest athletic clubs in the country, kept alive by a century-plus rivalry with its Aquatic Park neighbor.",
+      "factors": {
+        "legacy": 82,
+        "community": 77,
+        "reach": 30,
+        "events": 77,
+        "crossover": 62,
+        "destination": 72
+      },
+      "reach": "IG ~3K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://serc.com",
+      "handles": {},
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 21,
+      "name": "Dolphin Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "San Francisco",
+      "country": "US",
+      "who": "Aquatic Park swim and rowing club founded 1877, right next door to South End Rowing Club; open water swims off the boathouse daily.",
+      "why": "Its decades-long friendly rivalry with South End Rowing Club is a defining piece of San Francisco open-water culture.",
+      "factors": {
+        "legacy": 85,
+        "community": 77,
+        "reach": 30,
+        "events": 75,
+        "crossover": 62,
+        "destination": 72
+      },
+      "reach": "IG ~3K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 22,
+      "name": "The Bar-barians",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "independent",
+      "city": "New York City",
+      "country": "US",
+      "who": "NYC calisthenics crew that trains the Tompkins Square Park bars every Saturday afternoon; no membership, just turn up.",
+      "why": "The crew that put Tompkins Square Park on the map for calisthenics, and still the Saturday draw for the scene.",
+      "factors": {
+        "legacy": 88,
+        "community": 78,
+        "reach": 28,
+        "events": 58,
+        "crossover": 68,
+        "destination": 78
+      },
+      "reach": "IG 2.5K on @therealbarbarians (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/therealbarbarians"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 23,
+      "name": "AFE (Athletics Far East)",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Tokyo",
+      "country": "JP",
+      "who": "Tokyo running-lifestyle crew of creatives, models and designers; group runs plus its own apparel drops.",
+      "why": "Modeled on 1970s club Athletics West, AFE turned Tokyo running into a style subculture other Asian crews now copy.",
+      "factors": {
+        "legacy": 62,
+        "community": 77,
+        "reach": 42,
+        "events": 72,
+        "crossover": 82,
+        "destination": 72
+      },
+      "reach": "IG 12K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/afe_tokyo/"
+      },
+      "warning": null,
+      "score": 68
+    },
+    {
+      "rank": 24,
+      "name": "SATISFY",
+      "segment": "UK & Europe Crews",
+      "tier": "brand-backed",
+      "city": "Paris",
+      "country": "France",
+      "who": "Paris running-fashion label founded 2015 that hosts monthly LSD (Long Slow Distance) group runs in Paris and a rotating list of world cities.",
+      "why": "Turned a Paris-based apparel brand's group run into a global fixture at the intersection of running and fashion, with Paris Fashion Week tie-ins.",
+      "factors": {
+        "legacy": 60,
+        "community": 55,
+        "reach": 75,
+        "events": 40,
+        "crossover": 95,
+        "destination": 85
+      },
+      "reach": "IG 535K (verified 2026-08, brand account)",
+      "reachVerified": true,
+      "website": "https://satisfyrunning.com/",
+      "handles": {
+        "instagram": "https://instagram.com/satisfyrunning"
+      },
+      "warning": "Reach reflects the SATISFY brand account, not a dedicated crew account; the Paris LSD run itself is a monthly meetup, not a large weekly regular group.",
+      "score": 67
+    },
+    {
+      "rank": 25,
+      "name": "Black Girls RUN!",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Atlanta (national)",
+      "country": "US",
+      "who": "National running organization since 2009 with weekly run/walk meetups through dozens of city chapters.",
+      "why": "One of the largest and longest-running Black women's fitness networks in the US, with charity marathon teams at Boston and Chicago.",
+      "factors": {
+        "legacy": 76,
+        "community": 76,
+        "reach": 59,
+        "events": 71,
+        "crossover": 71,
+        "destination": 46
+      },
+      "reach": "IG 88K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://blackgirlsrun.com",
+      "handles": {
+        "instagram": "https://instagram.com/officialblackgirlsrun"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 26,
+      "name": "Harbour Runners",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Hong Kong",
+      "country": "HK",
+      "who": "No-sign-up Wednesday night run crew that has explored Hong Kong on foot since 2010.",
+      "why": "Started as a stress reliever for creative professionals, grew into Hong Kong's most recognized grassroots running community.",
+      "factors": {
+        "legacy": 77,
+        "community": 77,
+        "reach": 41,
+        "events": 72,
+        "crossover": 62,
+        "destination": 67
+      },
+      "reach": "IG 11K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/harbourrunners/"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 27,
+      "name": "Sabai Run Club",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Bangkok",
+      "country": "TH",
+      "who": "Sunday 7:15am mass social run through Bangkok, billed as Asia's largest weekly run club.",
+      "why": "Turnout in the thousands most Sundays makes it the biggest single recurring run session in the region.",
+      "factors": {
+        "legacy": 47,
+        "community": 92,
+        "reach": 55,
+        "events": 82,
+        "crossover": 62,
+        "destination": 62
+      },
+      "reach": "IG 58K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/sabairunclub.bkk/"
+      },
+      "warning": null,
+      "score": 67
+    },
+    {
+      "rank": 28,
+      "name": "Puresport Run Club",
+      "segment": "UK & Europe Crews",
+      "tier": "brand-backed",
+      "city": "London",
+      "country": "UK",
+      "who": "Free weekly run club backed by supplement brand Puresport, with sessions across Battersea, Hackney and Clapham for every pace; expanded to Bristol, Belfast, Manchester and New York.",
+      "why": "Grew into the UK's biggest free weekly run club through 2024-26, with pro-level run leaders and brand-event tie-ins.",
+      "factors": {
+        "legacy": 40,
+        "community": 85,
+        "reach": 50,
+        "events": 90,
+        "crossover": 75,
+        "destination": 60
+      },
+      "reach": "IG ~30K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://puresport.co/pages/clubs",
+      "handles": {
+        "instagram": "https://instagram.com/puresport"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 29,
+      "name": "GORUCK Clubs",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "brand-backed",
+      "city": "Jacksonville Beach",
+      "country": "US",
+      "who": "Community rucking led by ex-military cadre; local clubs meet weekly, plus flagship city-ruck weekends and Challenge events.",
+      "why": "Rucking's biggest name, and its clubs and events are why 'ruck club' is now its own fitness category.",
+      "factors": {
+        "legacy": 73,
+        "community": 68,
+        "reach": 40,
+        "events": 78,
+        "crossover": 68,
+        "destination": 63
+      },
+      "reach": "IG ~120K on @goruck (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.goruck.com",
+      "handles": {
+        "instagram": "https://instagram.com/goruck"
+      },
+      "warning": null,
+      "score": 66
+    },
+    {
+      "rank": 30,
+      "name": "Berlin Braves",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Berlin",
+      "country": "Germany",
+      "who": "Kreuzberg-based sports club with running and basketball teams; membership is so in demand it periodically closes and reopens for short windows.",
+      "why": "Rare case of a run club with a waitlist — culture strong enough that access itself is a status marker.",
+      "factors": {
+        "legacy": 60,
+        "community": 80,
+        "reach": 48,
+        "events": 75,
+        "crossover": 65,
+        "destination": 60
+      },
+      "reach": "IG 24K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://berlinbraves.com/",
+      "handles": {
+        "instagram": "https://instagram.com/berlinbraves"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 31,
+      "name": "Skid Row Running Club",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Los Angeles",
+      "country": "US",
+      "who": "LA nonprofit run/walk crew for people in recovery from substance use and homelessness, meets Mon/Thu.",
+      "why": "Documentary and CNN Heroes coverage built a singular recovery-focused culture with real retention.",
+      "factors": {
+        "legacy": 51,
+        "community": 86,
+        "reach": 37,
+        "events": 71,
+        "crossover": 86,
+        "destination": 56
+      },
+      "reach": "IG 7.4K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/skidrowrunningclub"
+      },
+      "warning": null,
+      "score": 65
+    },
+    {
+      "rank": 32,
+      "name": "Coney Island Polar Bear Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "New York",
+      "country": "US",
+      "who": "The oldest winter bathing club in the US; members swim Sundays November-April, and the public can join the New Year's Day Plunge.",
+      "why": "Founded in 1903, it turned cold-water swimming into a New York civic ritual that raised over $91K for local causes in 2026.",
+      "factors": {
+        "legacy": 85,
+        "community": 62,
+        "reach": 35,
+        "events": 72,
+        "crossover": 67,
+        "destination": 57
+      },
+      "reach": "IG 5.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://coneyislandpolarbearclub.com",
+      "handles": {
+        "instagram": "https://instagram.com/coney_island_polarbear_club"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 33,
+      "name": "Brooklyn Track Club",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "New York",
+      "country": "US",
+      "who": "Brooklyn speed crew running Tuesday track sessions at McCarren Park, morning and evening.",
+      "why": "Nike-linked track culture with regular time trials and a citywide speed-work reputation.",
+      "factors": {
+        "legacy": 56,
+        "community": 76,
+        "reach": 47,
+        "events": 76,
+        "crossover": 71,
+        "destination": 56
+      },
+      "reach": "IG 22.3K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/brooklyntrackclub"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 34,
+      "name": "Namban Rengo",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Tokyo",
+      "country": "JP",
+      "who": "Tokyo's oldest international run club; free Wednesday interval sessions at Yoyogi Park's Oda Field, open to anyone.",
+      "why": "Running since 1989, the template international crew that every later Tokyo club cites as the original.",
+      "factors": {
+        "legacy": 92,
+        "community": 62,
+        "reach": 27,
+        "events": 72,
+        "crossover": 52,
+        "destination": 72
+      },
+      "reach": "IG 2.2K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://namban.org/",
+      "handles": {
+        "instagram": "https://www.instagram.com/nambanrengo/"
+      },
+      "warning": null,
+      "score": 64
+    },
+    {
+      "rank": 35,
+      "name": "Track Mafia",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "Track-focused crew running since 2014, weekly sessions at Paddington Recreation Ground; DJs and playlists, open to anyone with a fitness base.",
+      "why": "A decade in and still the reference point for London's competitive-but-social track-night scene.",
+      "factors": {
+        "legacy": 65,
+        "community": 75,
+        "reach": 46,
+        "events": 70,
+        "crossover": 60,
+        "destination": 55
+      },
+      "reach": "IG 19K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.trackmafia.co.uk/",
+      "handles": {
+        "instagram": "https://instagram.com/trackmafia.uk"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 36,
+      "name": "Unofficial Run Club",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Sydney",
+      "country": "AU",
+      "who": "North Sydney's massive free run-and-pastries club; multiple weekly meetups drawing hundreds of runners.",
+      "why": "Grew from a small group into Australia's biggest run club in under two years, driving the country's run-club boom.",
+      "factors": {
+        "legacy": 27,
+        "community": 92,
+        "reach": 56,
+        "events": 72,
+        "crossover": 77,
+        "destination": 57
+      },
+      "reach": "IG 66K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.unofficialrunclub.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/unofficialrunclub/"
+      },
+      "warning": null,
+      "score": 63
+    },
+    {
+      "rank": 37,
+      "name": "Run Talk Run",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "Free weekly mental-health running group founded in London in 2017 by Jess Robson; gentle 5K pace, no pressure, now 170+ groups worldwide.",
+      "why": "Made talking about mental health while running a movement, with national press and NHS-linked partnerships.",
+      "factors": {
+        "legacy": 60,
+        "community": 75,
+        "reach": 40,
+        "events": 60,
+        "crossover": 80,
+        "destination": 50
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.runtalkrun.com/",
+      "handles": {
+        "instagram": "https://instagram.com/runtalkrun_southlondon"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 38,
+      "name": "Tracksmith Trackhouse",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "brand-backed",
+      "city": "Boston",
+      "country": "US",
+      "who": "Tracksmith's Newbury Street flagship store runs a free weekly program — Sunday long run, Friday social run, a weekly track workout — plus a Boston Marathon-weekend takeover.",
+      "why": "A real storefront with a real weekly training calendar, timed to Boston Marathon culture — the clubhouse model done right.",
+      "factors": {
+        "legacy": 55,
+        "community": 65,
+        "reach": 35,
+        "events": 75,
+        "crossover": 65,
+        "destination": 75
+      },
+      "reach": "IG in the low tens of thousands on the brand account (approx 2026)",
+      "reachVerified": true,
+      "website": "https://www.tracksmith.com/pages/trackhouse",
+      "handles": {},
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 39,
+      "name": "London City Runners",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "Free-to-join London run club with Tue/Thu/Sun runs from Bermondsey and a Couch to 5K programme.",
+      "why": "No brand funding, no membership fee, and still pulls strong regular turnout three times a week.",
+      "factors": {
+        "legacy": 55,
+        "community": 80,
+        "reach": 45,
+        "events": 75,
+        "crossover": 55,
+        "destination": 55
+      },
+      "reach": "IG ~30K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.londoncityrunners.com",
+      "handles": {
+        "instagram": "https://instagram.com/londoncityrunners"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 40,
+      "name": "Serpentine Running Club",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "One of London's largest running and triathlon clubs (1,000+ members), Hyde Park based with sessions across the city.",
+      "why": "Decades-old institution with heavy weekly session volume and its own handicap race series.",
+      "factors": {
+        "legacy": 75,
+        "community": 80,
+        "reach": 30,
+        "events": 80,
+        "crossover": 50,
+        "destination": 45
+      },
+      "reach": "IG ~10K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.serpentine.org.uk",
+      "handles": {},
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 41,
+      "name": "We Run Uptown",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "New York City",
+      "country": "US",
+      "who": "Washington Heights/Inwood crew running Monday (easy) and Wednesday (faster) since 2013; free and open.",
+      "why": "Nike-backed but community-run, and one of the few crews to hold down a single uptown neighborhood for over a decade.",
+      "factors": {
+        "legacy": 61,
+        "community": 76,
+        "reach": 45,
+        "events": 76,
+        "crossover": 61,
+        "destination": 46
+      },
+      "reach": "IG 18K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://werunuptown.com",
+      "handles": {
+        "instagram": "https://instagram.com/wrucrew"
+      },
+      "warning": null,
+      "score": 62
+    },
+    {
+      "rank": 42,
+      "name": "Team RWB (WOD for Warriors)",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "independent",
+      "city": "San Antonio",
+      "country": "US",
+      "who": "Veteran-and-civilian nonprofit with 150+ chapters; weekly local workouts — WODs, rucks, runs — free to join.",
+      "why": "The largest veteran fitness network in the US, built entirely around showing up together each week.",
+      "factors": {
+        "legacy": 68,
+        "community": 78,
+        "reach": 40,
+        "events": 73,
+        "crossover": 58,
+        "destination": 38
+      },
+      "reach": "IG ~35K on @teamrwb (approx 2026)",
+      "reachVerified": false,
+      "website": "https://teamrwb.org",
+      "handles": {
+        "instagram": "https://instagram.com/teamrwb"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 43,
+      "name": "Brighton Swimming Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "Brighton",
+      "country": "UK",
+      "who": "The UK's oldest continuously running swim club, founded 1860; sea-swimming section meets daily, plus water polo and masters sections.",
+      "why": "A 165-year-old club that never really stopped, except during WWII when the beaches were closed.",
+      "factors": {
+        "legacy": 87,
+        "community": 62,
+        "reach": 33,
+        "events": 72,
+        "crossover": 52,
+        "destination": 52
+      },
+      "reach": "IG 4.4K combined across club accounts (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/brightonsc1860"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 44,
+      "name": "Endorphins Running",
+      "segment": "US Crews",
+      "tier": "brand-backed",
+      "city": "New York City (multi-city)",
+      "country": "US",
+      "who": "New Balance-backed running community spanning nine US cities, running 2,000-plus free group runs a year plus a coaching app.",
+      "why": "Scaled a single-city crew into a multi-city brand platform faster than almost any other US running community.",
+      "factors": {
+        "legacy": 41,
+        "community": 66,
+        "reach": 54,
+        "events": 86,
+        "crossover": 76,
+        "destination": 46
+      },
+      "reach": "IG 51K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://endorphinsrunning.com",
+      "handles": {
+        "instagram": "https://instagram.com/endorphinsrunning"
+      },
+      "warning": null,
+      "score": 61
+    },
+    {
+      "rank": 45,
+      "name": "Latinos Run",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "New York",
+      "country": "US",
+      "who": "National Latino-focused run community with local chapters and signature races (Dia de los Muertos 5K, Hispanic Heritage Month Run).",
+      "why": "Strong cultural identity and a calendar of annual events that anchor its chapters.",
+      "factors": {
+        "legacy": 56,
+        "community": 76,
+        "reach": 40,
+        "events": 71,
+        "crossover": 61,
+        "destination": 51
+      },
+      "reach": "IG ~25K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://latinosrun.com",
+      "handles": {
+        "instagram": "https://instagram.com/latinosrun",
+        "facebook": "https://www.facebook.com/groups/latinosrun",
+        "twitter": "https://twitter.com/latinosrun_"
+      },
+      "warning": null,
+      "score": 60
+    },
+    {
+      "rank": 46,
+      "name": "NBRO Running",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "who": "Nonprofit crew born in Norrebro in 2010; free weekly sessions ranging from easy social jogs to speed workouts around Copenhagen's parks and waterfront.",
+      "why": "One of Scandinavia's earliest independent run crews, still fully free and open a decade and a half on.",
+      "factors": {
+        "legacy": 65,
+        "community": 70,
+        "reach": 30,
+        "events": 70,
+        "crossover": 55,
+        "destination": 55
+      },
+      "reach": "IG ~6K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/nbrorunning"
+      },
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 47,
+      "name": "Mikkeller Running Club",
+      "segment": "UK & Europe Crews",
+      "tier": "brand-backed",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "who": "Copenhagen-founded run-and-beer club with active chapters worldwide, weekly runs finishing at breweries.",
+      "why": "A run/beer crossover format that spun up chapters in cities worldwide and drew mainstream press.",
+      "factors": {
+        "legacy": 60,
+        "community": 60,
+        "reach": 40,
+        "events": 60,
+        "crossover": 70,
+        "destination": 60
+      },
+      "reach": "IG ~35K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 59
+    },
+    {
+      "rank": 48,
+      "name": "Achilles International",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "independent",
+      "city": "New York",
+      "country": "US",
+      "who": "Nonprofit pairing disabled athletes with volunteer guides for weekly group workouts and races, through chapters across the US, Canada and New Zealand.",
+      "why": "The one global running org built specifically for para-athletes — its NYC Hope & Possibility race alone draws 8,000-plus people.",
+      "factors": {
+        "legacy": 70,
+        "community": 70,
+        "reach": 30,
+        "events": 65,
+        "crossover": 55,
+        "destination": 50
+      },
+      "reach": "IG presence modest, chapter-level accounts (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.achillesinternational.org/",
+      "handles": {},
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 49,
+      "name": "Front Runners New York",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "independent",
+      "city": "New York",
+      "country": "US",
+      "who": "NYC's LGBTQ+ running and multisport club since 1979, 1,200-plus members, weekly fun runs and coached workouts; part of the worldwide International Front Runners network.",
+      "why": "One of the oldest LGBTQ+ sports clubs anywhere — its Pride Run is the largest Pride charity run in the world.",
+      "factors": {
+        "legacy": 80,
+        "community": 65,
+        "reach": 30,
+        "events": 60,
+        "crossover": 60,
+        "destination": 45
+      },
+      "reach": "IG presence modest, chapter-level (approx 2026)",
+      "reachVerified": false,
+      "website": "https://frny.org/",
+      "handles": {},
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 50,
+      "name": "Black Girls Do Bike",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "National (US)",
+      "country": "US",
+      "who": "National network of 100+ local chapters getting Black women and girls on bikes through regular group rides; join a city chapter directly.",
+      "why": "Grew from one city to over 100 chapters and 170 chapter leaders, with a national meetup drawing riders across the country.",
+      "factors": {
+        "legacy": 57,
+        "community": 77,
+        "reach": 49,
+        "events": 57,
+        "crossover": 62,
+        "destination": 42
+      },
+      "reach": "IG 28K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.blackgirlsdobike.org",
+      "handles": {
+        "instagram": "https://instagram.com/blackgirlsdobike"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 51,
+      "name": "Dashing Whippets",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "New York",
+      "country": "US",
+      "who": "NYC running team with coached weekly runs, training plans, and a membership-based structure.",
+      "why": "Established competitive-community hybrid running in NYC for well over a decade.",
+      "factors": {
+        "legacy": 66,
+        "community": 71,
+        "reach": 35,
+        "events": 66,
+        "crossover": 56,
+        "destination": 46
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://dashingwhippets.org",
+      "handles": {
+        "instagram": "https://instagram.com/dashingwhippets"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 52,
+      "name": "Slow AF Run Club",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Detroit (online)",
+      "country": "US",
+      "who": "Paid online membership community for back-of-the-pack runners, founded by Martinus Evans; in-person meetups at races.",
+      "why": "Built the largest inclusive back-of-the-pack running community by reframing slow running as its own identity, not a deficit.",
+      "factors": {
+        "legacy": 56,
+        "community": 76,
+        "reach": 50,
+        "events": 51,
+        "crossover": 71,
+        "destination": 41
+      },
+      "reach": "IG 33K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://slowafrunclub.com",
+      "handles": {
+        "instagram": "https://instagram.com/slowafrunclub"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 53,
+      "name": "Prospect Park Track Club",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Brooklyn",
+      "country": "US",
+      "who": "Traditional dues-paying club, 40-plus years old, with coached marathon training, speed work, and group runs around Prospect Park.",
+      "why": "Brooklyn's largest and oldest running club, the traditional-club counterweight to the newer crew scene.",
+      "factors": {
+        "legacy": 81,
+        "community": 66,
+        "reach": 30,
+        "events": 71,
+        "crossover": 46,
+        "destination": 41
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://pptc.org",
+      "handles": {
+        "instagram": "https://instagram.com/prospectparktc"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 54,
+      "name": "City Runners",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "brand-backed",
+      "city": "São Paulo",
+      "country": "BR",
+      "who": "Nike-supported São Paulo run crew with weekly group training and city meetups.",
+      "why": "One of the biggest, best-known crew brands in São Paulo's running scene, with real turnout behind the Nike backing.",
+      "factors": {
+        "legacy": 47,
+        "community": 67,
+        "reach": 51,
+        "events": 67,
+        "crossover": 67,
+        "destination": 47
+      },
+      "reach": "IG 36K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/city_runners_team/"
+      },
+      "warning": null,
+      "score": 58
+    },
+    {
+      "rank": 55,
+      "name": "East Side Riders Bike Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "Los Angeles",
+      "country": "US",
+      "who": "Community bike club based in Watts since 2008; weekly rides, bike-safety classes, and neighborhood cleanups anyone can join.",
+      "why": "Built a citywide reputation as 'more than a bike club,' earning Super Bowl LVI and MLS 2024 Legacy Awards.",
+      "factors": {
+        "legacy": 52,
+        "community": 77,
+        "reach": 40,
+        "events": 62,
+        "crossover": 67,
+        "destination": 37
+      },
+      "reach": "IG 10K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://esrbc.org",
+      "handles": {
+        "instagram": "https://instagram.com/eastsideriders"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 56,
+      "name": "FiA (Females in Action)",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "independent",
+      "city": "Charlotte",
+      "country": "US",
+      "who": "F3's sister crew for women: free, peer-led outdoor workouts held rain or shine, plus book clubs and socials.",
+      "why": "Same model as F3 but built by and for women — one of the biggest free fitness sisterhoods going.",
+      "factors": {
+        "legacy": 63,
+        "community": 78,
+        "reach": 30,
+        "events": 83,
+        "crossover": 43,
+        "destination": 38
+      },
+      "reach": "IG ~8K on @fianation (approx 2026)",
+      "reachVerified": false,
+      "website": "https://fianation.com",
+      "handles": {
+        "instagram": "https://instagram.com/fianation"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 57,
+      "name": "WeRun313",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Detroit",
+      "country": "US",
+      "who": "Detroit's self-styled \"premier run club,\" weekly runs partnered with Gazelle Sports.",
+      "why": "Verified growing following and a full calendar of local 5Ks and 8Ks.",
+      "factors": {
+        "legacy": 46,
+        "community": 76,
+        "reach": 50,
+        "events": 66,
+        "crossover": 56,
+        "destination": 46
+      },
+      "reach": "IG 30.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/werun313"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 58,
+      "name": "District Running Collective",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Washington, DC",
+      "country": "US",
+      "who": "Free Wednesday and Saturday urban run crew since 2013; hosts its own District 19 race series each October.",
+      "why": "Built its own signature race and marathon-training program on top of a weekly free crew, rare for an independent group.",
+      "factors": {
+        "legacy": 56,
+        "community": 71,
+        "reach": 30,
+        "events": 76,
+        "crossover": 56,
+        "destination": 46
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.districtrunningcollective.com",
+      "handles": {
+        "instagram": "https://instagram.com/districtrunningcollective"
+      },
+      "warning": null,
+      "score": 57
+    },
+    {
+      "rank": 59,
+      "name": "Black Men Run",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Atlanta (national)",
+      "country": "US",
+      "who": "National nonprofit with locally run weekly chapter runs across dozens of US cities; join via a city chapter.",
+      "why": "Built a nationwide chapter network for Black men's health and running, filling a gap the big race brands didn't.",
+      "factors": {
+        "legacy": 61,
+        "community": 71,
+        "reach": 42,
+        "events": 61,
+        "crossover": 56,
+        "destination": 41
+      },
+      "reach": "IG 13K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://blackmenrun.com",
+      "handles": {
+        "instagram": "https://instagram.com/blackmenrun"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 60,
+      "name": "FIT4MOM (Stroller Strides)",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "brand-backed",
+      "city": "Los Angeles",
+      "country": "US",
+      "who": "Stroller-friendly outdoor workout for moms, run several times a week per neighborhood 'village'; open to all fitness levels.",
+      "why": "The original stroller workout, still the model every mom-fitness crew that followed measures itself against.",
+      "factors": {
+        "legacy": 63,
+        "community": 73,
+        "reach": 45,
+        "events": 68,
+        "crossover": 53,
+        "destination": 28
+      },
+      "reach": "IG ~60K on @fit4mom (approx 2026)",
+      "reachVerified": false,
+      "website": "https://fit4mom.com",
+      "handles": {
+        "instagram": "https://instagram.com/fit4mom"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 61,
+      "name": "Renegade Running",
+      "segment": "US Crews",
+      "tier": "brand-backed",
+      "city": "Oakland",
+      "country": "US",
+      "who": "Run-specialty store and community founded 2020, running training programs, group runs, and an elite team from its Mandela Parkway shop.",
+      "why": "Built a diverse Oakland running culture around a physical storefront and now fields an elite team coached by Nell Rojas.",
+      "factors": {
+        "legacy": 41,
+        "community": 76,
+        "reach": 49,
+        "events": 66,
+        "crossover": 61,
+        "destination": 41
+      },
+      "reach": "IG 27K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://renegade-running.com",
+      "handles": {
+        "instagram": "https://instagram.com/renegade_running"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 62,
+      "name": "Boyle Heights Bridge Runners",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Los Angeles",
+      "country": "US",
+      "who": "Free Wednesday-night crew from Mariachi Plaza across the Sixth Street Bridge since 2013; all levels welcome.",
+      "why": "A grassroots Eastside crew that drew national media (LA Times, Bourdain, Lisa Ling) for turning a run into neighborhood advocacy.",
+      "factors": {
+        "legacy": 56,
+        "community": 71,
+        "reach": 41,
+        "events": 61,
+        "crossover": 61,
+        "destination": 41
+      },
+      "reach": "IG 11K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.boyleheightsbr.org",
+      "handles": {
+        "instagram": "https://instagram.com/boyleheightsbridgerunners"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 63,
+      "name": "Rockwell Run Club",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Manila",
+      "country": "PH",
+      "who": "Makati-based run club with multiple weekly sessions around the Rockwell district for runners of any level.",
+      "why": "Grew from a handful of runners in 2023 into one of Metro Manila's fastest-growing clubs, now working with hotels on run events.",
+      "factors": {
+        "legacy": 42,
+        "community": 77,
+        "reach": 39,
+        "events": 72,
+        "crossover": 57,
+        "destination": 47
+      },
+      "reach": "IG 9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/rockwellrunclub/"
+      },
+      "warning": null,
+      "score": 56
+    },
+    {
+      "rank": 64,
+      "name": "RunnersHai",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Shanghai",
+      "country": "CN",
+      "who": "Shanghai's longest-running social run club; free weekly West Bund sessions with a certified coach plus race meetups.",
+      "why": "The steady anchor of Shanghai's running scene for over a decade; its real community lives on WeChat more than Instagram.",
+      "factors": {
+        "legacy": 72,
+        "community": 62,
+        "reach": 30,
+        "events": 62,
+        "crossover": 42,
+        "destination": 52
+      },
+      "reach": "IG 731, WeChat-first community (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/runnershai_sh/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 65,
+      "name": "Singapore Runners Club",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Singapore",
+      "country": "SG",
+      "who": "Singapore's largest general running club; weekly social runs and relay events across the island.",
+      "why": "The default landing spot for anyone in Singapore looking for a running community to join.",
+      "factors": {
+        "legacy": 57,
+        "community": 67,
+        "reach": 36,
+        "events": 62,
+        "crossover": 52,
+        "destination": 52
+      },
+      "reach": "IG 6.5K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/singaporerunnersclub/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 66,
+      "name": "Urban Swaras Running Club",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Nairobi",
+      "country": "KE",
+      "who": "Nairobi's premier recreational running club; Saturday 7am trail runs at rotating locations since 2006.",
+      "why": "Two decades of steady Saturday trail runs made it the default community for recreational, non-elite runners in Nairobi.",
+      "factors": {
+        "legacy": 77,
+        "community": 67,
+        "reach": 30,
+        "events": 57,
+        "crossover": 42,
+        "destination": 47
+      },
+      "reach": "IG 3.3K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.urbanswaras.co.ke/",
+      "handles": {
+        "instagram": "https://www.instagram.com/urbanswarasrunningclub/"
+      },
+      "warning": null,
+      "score": 55
+    },
+    {
+      "rank": 67,
+      "name": "lululemon Run Club",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "brand-backed",
+      "city": "Vancouver",
+      "country": "Canada",
+      "who": "Free, beginner-friendly run clubs led out of lululemon stores worldwide (San Francisco, NYC, Chicago, San Jose and more), weekly, no purchase needed.",
+      "why": "The retail-brand run-club model — every store doubles as a meeting point, feeding into lululemon's SeaWheeze running events.",
+      "factors": {
+        "legacy": 60,
+        "community": 55,
+        "reach": 30,
+        "events": 60,
+        "crossover": 70,
+        "destination": 45
+      },
+      "reach": "Store-level IG accounts run 500-2.5K each, no unified run-club account (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 68,
+      "name": "GoodGym",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "UK charity that pairs a group run with a volunteer task; free to join, weekly group runs and missions in dozens of towns.",
+      "why": "Turns a workout into a volunteer shift, a genuinely different model that's kept growing for over a decade.",
+      "factors": {
+        "legacy": 58,
+        "community": 68,
+        "reach": 35,
+        "events": 68,
+        "crossover": 53,
+        "destination": 38
+      },
+      "reach": "IG ~15K on @goodgym (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.goodgym.org",
+      "handles": {
+        "instagram": "https://instagram.com/goodgym"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 69,
+      "name": "Major Taylor Cycling Club (NY/NJ)",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "Newark",
+      "country": "US",
+      "who": "Newark-based chapter of the national Major Taylor club network honoring the pioneering Black champion cyclist; weekly calendar rides open to all levels.",
+      "why": "Anchors a decades-old national network of clubs built around diversifying cycling, with an annual Women On Wheels century.",
+      "factors": {
+        "legacy": 72,
+        "community": 62,
+        "reach": 26,
+        "events": 57,
+        "crossover": 57,
+        "destination": 42
+      },
+      "reach": "FB 1.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://majortaylornynj.com",
+      "handles": {
+        "x": "https://x.com/majortaylornyc"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 70,
+      "name": "Old Man Run Club",
+      "segment": "US Crews",
+      "tier": "brand-backed",
+      "city": "New York City",
+      "country": "US",
+      "who": "Saturday-morning long-run crew founded by Public School's Dao-Yi Chow and Eugene Tong; Nike- and Oakley-backed, all paces.",
+      "why": "A fashion-world crew that gave the run-club scene its long-run counterpart to weeknight speed sessions.",
+      "factors": {
+        "legacy": 51,
+        "community": 61,
+        "reach": 44,
+        "events": 56,
+        "crossover": 71,
+        "destination": 41
+      },
+      "reach": "IG 15K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://oldmanrunclub.com",
+      "handles": {
+        "instagram": "https://instagram.com/oldmanrunclub"
+      },
+      "warning": null,
+      "score": 54
+    },
+    {
+      "rank": 71,
+      "name": "Bandit Running",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "brand-backed",
+      "city": "New York",
+      "country": "US",
+      "who": "Brooklyn-founded running brand whose weekly Thursday community runs are now expanding to international cities alongside its apparel line.",
+      "why": "A direct-to-consumer running brand built street-community-first — apparel came after the run club, not before.",
+      "factors": {
+        "legacy": 40,
+        "community": 55,
+        "reach": 69,
+        "events": 55,
+        "crossover": 60,
+        "destination": 40
+      },
+      "reach": "IG 276K brand account @bandit (verified 2026-08); community-run handle much smaller",
+      "reachVerified": true,
+      "website": "https://banditrunning.com/",
+      "handles": {
+        "instagram": "https://instagram.com/bandit"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 72,
+      "name": "La Jolla Cove Swim Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "San Diego",
+      "country": "US",
+      "who": "Open-water swim club at La Jolla Cove since 1916; runs the Pier to Cove Swim and the annual La Jolla Cove Swim each September.",
+      "why": "A century of organizing the rough-water races that put La Jolla on the open-water swimming map.",
+      "factors": {
+        "legacy": 67,
+        "community": 57,
+        "reach": 25,
+        "events": 62,
+        "crossover": 47,
+        "destination": 57
+      },
+      "reach": "IG 1.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.lajollacoveswimclub.com",
+      "handles": {
+        "instagram": "https://instagram.com/ljcovesc"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 73,
+      "name": "The Black Foxes",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "International collective of Black cyclists and outdoors people; organizes group rides and outdoor meetups, join through their events and social channels.",
+      "why": "A newer crew that already has brand backing (Liv Cycling feature) for reclaiming space in outdoor sport.",
+      "factors": {
+        "legacy": 52,
+        "community": 62,
+        "reach": 44,
+        "events": 52,
+        "crossover": 67,
+        "destination": 37
+      },
+      "reach": "IG 16K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/the_blackfoxes"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 74,
+      "name": "Swim Dem Crew",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "London open-water swim collective; members-only sessions Monday evenings and Saturday mornings, membership opens every few months.",
+      "why": "Changed who gets to call themselves a swimmer in London; still one of the most-covered crews in UK swimming for accessibility.",
+      "factors": {
+        "legacy": 53,
+        "community": 73,
+        "reach": 30,
+        "events": 58,
+        "crossover": 53,
+        "destination": 43
+      },
+      "reach": "IG ~9K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.swimdemcrew.co.uk",
+      "handles": {
+        "instagram": "https://instagram.com/swimdemcrew"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 75,
+      "name": "Camp Gladiator",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "brand-backed",
+      "city": "Fort Worth",
+      "country": "US",
+      "who": "Outdoor bootcamp franchise with trainer-led classes most days of the week across hundreds of US sites; two free weeks to try.",
+      "why": "One of the biggest outdoor bootcamp operations in the US, with a near-daily class within reach of almost everyone.",
+      "factors": {
+        "legacy": 53,
+        "community": 63,
+        "reach": 45,
+        "events": 78,
+        "crossover": 48,
+        "destination": 28
+      },
+      "reach": "IG ~30K on @campgladiator (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.campgladiator.com",
+      "handles": {
+        "instagram": "https://instagram.com/campgladiator"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 76,
+      "name": "San Francisco Road Runners Club",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "San Francisco",
+      "country": "US",
+      "who": "Dues-based club, 25-plus years old, with nearly 600 members and pace-grouped runs Tuesday through Sunday.",
+      "why": "SF's largest and most historic road-running club, still running a full weekly calendar of coached sessions.",
+      "factors": {
+        "legacy": 66,
+        "community": 61,
+        "reach": 30,
+        "events": 76,
+        "crossover": 41,
+        "destination": 36
+      },
+      "reach": "IG ~6K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.sfrrc.org",
+      "handles": {
+        "instagram": "https://instagram.com/sfrrc"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 77,
+      "name": "Mumbai Road Runners",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Mumbai",
+      "country": "IN",
+      "who": "Mumbai's long-running road-running community; weekly group runs and training support for members of any level.",
+      "why": "One of India's oldest running clubs, casual and community-oriented rather than results-driven.",
+      "factors": {
+        "legacy": 67,
+        "community": 67,
+        "reach": 37,
+        "events": 57,
+        "crossover": 42,
+        "destination": 42
+      },
+      "reach": "IG 7K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/mumbai_road_runners/"
+      },
+      "warning": null,
+      "score": 53
+    },
+    {
+      "rank": 78,
+      "name": "Peace Runners 773",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Chicago",
+      "country": "US",
+      "who": "Westside Chicago nonprofit run/walk crew meeting Saturdays at the Gold Dome in Garfield Park, plus a Couch to 5K program.",
+      "why": "Deep neighborhood roots and a health-equity mission most crews on this list don't carry.",
+      "factors": {
+        "legacy": 46,
+        "community": 81,
+        "reach": 30,
+        "events": 56,
+        "crossover": 56,
+        "destination": 36
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://peacerunners773.com",
+      "handles": {
+        "instagram": "https://instagram.com/peace_runners773"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 79,
+      "name": "TrailblazHers Run Co.",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Boston",
+      "country": "US",
+      "who": "Run collective for women and non-binary runners of color, founded in Boston with chapters in multiple US cities.",
+      "why": "Real staffed org with mission programming and community activations beyond a single run.",
+      "factors": {
+        "legacy": 46,
+        "community": 71,
+        "reach": 35,
+        "events": 61,
+        "crossover": 56,
+        "destination": 41
+      },
+      "reach": "IG ~20K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://trailblazhersrunco.com",
+      "handles": {
+        "instagram": "https://instagram.com/trailblazhersrunco"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 80,
+      "name": "MNKS Run Crew",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Mexico City",
+      "country": "MX",
+      "who": "Mexico City run crew ('Monkeys') with weekly group runs and long-run training since 2017.",
+      "why": "Grew from three founders into a 40-plus-member fixture of CDMX's running scene.",
+      "factors": {
+        "legacy": 52,
+        "community": 67,
+        "reach": 35,
+        "events": 62,
+        "crossover": 47,
+        "destination": 42
+      },
+      "reach": "IG 5.4K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/mnksruncrew/"
+      },
+      "warning": null,
+      "score": 52
+    },
+    {
+      "rank": 81,
+      "name": "Native Women Running",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "National (US)",
+      "country": "US",
+      "who": "National running collective centering Indigenous women, founded by Verna Volker, with community organizing and advocacy.",
+      "why": "A singular national voice with press features and brand collaborations beyond typical local reach.",
+      "factors": {
+        "legacy": 46,
+        "community": 66,
+        "reach": 40,
+        "events": 51,
+        "crossover": 61,
+        "destination": 36
+      },
+      "reach": "IG ~45K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/nativewomenrunning"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 82,
+      "name": "Chorlton Runners",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Manchester",
+      "country": "UK",
+      "who": "Manchester-area club spanning Chorlton, Whalley Range and Sale, with Sunday long runs and Tue/Fri sessions.",
+      "why": "One of the largest clubs in the North West with genuine cross-suburb community.",
+      "factors": {
+        "legacy": 55,
+        "community": 70,
+        "reach": 30,
+        "events": 70,
+        "crossover": 40,
+        "destination": 35
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://chorltonrunners.co.uk",
+      "handles": {
+        "instagram": "https://instagram.com/chorltonrunners"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 83,
+      "name": "Gugulethu Athletics Club",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Cape Town",
+      "country": "ZA",
+      "who": "Official Western Cape athletics club based in the township of Gugulethu, training runners of all levels, not just competitive athletes.",
+      "why": "A genuine community institution known for its annual reconciliation race and for building running culture where infrastructure is scarce.",
+      "factors": {
+        "legacy": 62,
+        "community": 67,
+        "reach": 25,
+        "events": 57,
+        "crossover": 47,
+        "destination": 42
+      },
+      "reach": "IG ~2K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/gugulethuac/"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 84,
+      "name": "Ghetto Run Crew (Movimento Ghetto Run Crew)",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Rio de Janeiro",
+      "country": "BR",
+      "who": "Zona Norte Rio running collective; free bi-weekly runs from Engenhão stadium, open to all levels.",
+      "why": "Grew out of a women's-empowerment project into one of Rio's most recognized grassroots crews, built on access over pace.",
+      "factors": {
+        "legacy": 57,
+        "community": 72,
+        "reach": 30,
+        "events": 57,
+        "crossover": 47,
+        "destination": 37
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/ghettoruncrew/"
+      },
+      "warning": null,
+      "score": 51
+    },
+    {
+      "rank": 85,
+      "name": "Fulham Running Club",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "England Athletics-registered club running South West London since 2004, with four weekly sessions from intervals to a Saturday parkrun; free and informal.",
+      "why": "Two decades of steady, unglamorous consistency in a scene that mostly chases trend cycles.",
+      "factors": {
+        "legacy": 60,
+        "community": 55,
+        "reach": 29,
+        "events": 70,
+        "crossover": 40,
+        "destination": 40
+      },
+      "reach": "IG 2.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.fulhamrunningclub.org.uk/",
+      "handles": {
+        "instagram": "https://instagram.com/fulhamrunningclub"
+      },
+      "warning": null,
+      "score": 50
+    },
+    {
+      "rank": 86,
+      "name": "Stockholm Run Club",
+      "segment": "UK & Europe Crews",
+      "tier": "brand-backed",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "who": "Weekly run club powered by Adidas Running and Red Bull Sweden, meeting Tuesdays and Sundays.",
+      "why": "Stockholm's most visible brand-backed crew, with consistent scheduling and dual sponsor support.",
+      "factors": {
+        "legacy": 40,
+        "community": 55,
+        "reach": 41,
+        "events": 60,
+        "crossover": 60,
+        "destination": 45
+      },
+      "reach": "IG 11K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/stockholmrunclub"
+      },
+      "warning": null,
+      "score": 50
+    },
+    {
+      "rank": 87,
+      "name": "Lost Boys Track Club",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "New York City",
+      "country": "US",
+      "who": "Decentralized, competitive offshoot of Brooklyn Track Club chasing relay records (sub-2-hour marathon relays, Hood to Coast wins).",
+      "why": "The performance edge of the NYC crew scene — a group of self-organized amateurs beating pro-adjacent relay times.",
+      "factors": {
+        "legacy": 46,
+        "community": 61,
+        "reach": 43,
+        "events": 51,
+        "crossover": 61,
+        "destination": 31
+      },
+      "reach": "IG 14K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/lostboystrackclub"
+      },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 88,
+      "name": "Bakline",
+      "segment": "US Crews",
+      "tier": "brand-backed",
+      "city": "Brooklyn",
+      "country": "US",
+      "who": "Brooklyn running and sportswear brand since 2008 that runs its own training groups and events alongside its gear line.",
+      "why": "One of the earliest brand-run-club hybrids in NYC, blending street-culture design with an actual running community.",
+      "factors": {
+        "legacy": 56,
+        "community": 56,
+        "reach": 41,
+        "events": 51,
+        "crossover": 56,
+        "destination": 31
+      },
+      "reach": "IG 11K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.bakline.nyc",
+      "handles": {
+        "instagram": "https://instagram.com/baklinerunning"
+      },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 89,
+      "name": "Delhi Run Collective",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Delhi",
+      "country": "IN",
+      "who": "Membership-based Delhi run club with structured weekly sessions across the city.",
+      "why": "Built a more curated, retention-focused running community in a city where most groups are informal chat threads.",
+      "factors": {
+        "legacy": 37,
+        "community": 62,
+        "reach": 42,
+        "events": 67,
+        "crossover": 47,
+        "destination": 37
+      },
+      "reach": "IG 12K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://delhiruncollective.com/",
+      "handles": {
+        "instagram": "https://www.instagram.com/delhiruncollective/"
+      },
+      "warning": null,
+      "score": 49
+    },
+    {
+      "rank": 90,
+      "name": "CIBBOWS",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "New York",
+      "country": "US",
+      "who": "Coney Island Brighton Beach Open Water Swimmers; weekly Saturday and Sunday training swims at Grimaldo's Chair, plus an annual ocean race series.",
+      "why": "Twenty years of turning Brooklyn's beaches into a serious open-water training ground.",
+      "factors": {
+        "legacy": 52,
+        "community": 57,
+        "reach": 25,
+        "events": 67,
+        "crossover": 42,
+        "destination": 42
+      },
+      "reach": "IG 1.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://cibbows.org",
+      "handles": {
+        "instagram": "https://instagram.com/cibbows"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 91,
+      "name": "Run for Chinatown",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "New York City",
+      "country": "US",
+      "who": "Monday-night group run/walk from Columbus Park since 2021, started to bring foot traffic back to Manhattan's Chinatown.",
+      "why": "A pandemic-recovery crew that turned into one of the clearest examples of running as neighborhood economic support.",
+      "factors": {
+        "legacy": 36,
+        "community": 66,
+        "reach": 37,
+        "events": 56,
+        "crossover": 56,
+        "destination": 36
+      },
+      "reach": "IG 7.4K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://runforchinatown.org",
+      "handles": {
+        "instagram": "https://instagram.com/runforchinatown"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 92,
+      "name": "CorrerAyuda",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Buenos Aires",
+      "country": "AR",
+      "who": "Palermo-based running team combining group training with charity fundraising runs.",
+      "why": "Built a loyal following by pairing serious training culture with a give-back mission distinct in Buenos Aires' scene.",
+      "factors": {
+        "legacy": 42,
+        "community": 62,
+        "reach": 43,
+        "events": 57,
+        "crossover": 47,
+        "destination": 37
+      },
+      "reach": "IG 14K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/correrayuda/"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 93,
+      "name": "Melbourne Runners",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Melbourne",
+      "country": "AU",
+      "who": "Melbourne's largest general running community since 2016; weekly social group runs across the city.",
+      "why": "The long-running default running community for Melbourne, less trend-driven than newer crews but consistently strong.",
+      "factors": {
+        "legacy": 47,
+        "community": 62,
+        "reach": 40,
+        "events": 57,
+        "crossover": 42,
+        "destination": 37
+      },
+      "reach": "IG 10K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/melbourne.runners/"
+      },
+      "warning": null,
+      "score": 48
+    },
+    {
+      "rank": 94,
+      "name": "Dublin Track Club",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Dublin",
+      "country": "Ireland",
+      "who": "Structured track-training club in Dublin with regular sessions for distance runners of varying levels.",
+      "why": "The steady, training-focused counterpart to Dublin's more social run groups.",
+      "factors": {
+        "legacy": 50,
+        "community": 55,
+        "reach": 34,
+        "events": 60,
+        "crossover": 40,
+        "destination": 40
+      },
+      "reach": "IG 4.8K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.dublintrackclub.com/",
+      "handles": {
+        "instagram": "https://instagram.com/dublintrackclub"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "rank": 95,
+      "name": "Pioneers Run Crew",
+      "segment": "US Crews",
+      "tier": "independent",
+      "city": "Boston",
+      "country": "US",
+      "who": "Boston run crew centering runners of color with regular weekly group runs.",
+      "why": "A steady, known presence in Boston's diversity-in-running scene.",
+      "factors": {
+        "legacy": 41,
+        "community": 66,
+        "reach": 32,
+        "events": 56,
+        "crossover": 46,
+        "destination": 36
+      },
+      "reach": "IG ~6K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/pioneersruncrew"
+      },
+      "warning": null,
+      "score": 47
+    },
+    {
+      "rank": 96,
+      "name": "Back on My Feet",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "independent",
+      "city": "Philadelphia",
+      "country": "US",
+      "who": "National nonprofit running structured morning running teams that help people experiencing homelessness build stability, with chapters in multiple US cities, founded 2007.",
+      "why": "A running org measured in housing and job outcomes, not race times — a genuinely distinct mission among run clubs.",
+      "factors": {
+        "legacy": 60,
+        "community": 55,
+        "reach": 25,
+        "events": 55,
+        "crossover": 45,
+        "destination": 25
+      },
+      "reach": "IG presence modest (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 46
+    },
+    {
+      "rank": 97,
+      "name": "Team In Training",
+      "segment": "Global Orgs & Brand Crews",
+      "tier": "independent",
+      "city": "New York",
+      "country": "US",
+      "who": "Coached endurance-training program for marathons, half marathons and triathlons in cities nationwide, with weekly group training runs, in exchange for fundraising for blood-cancer research.",
+      "why": "Running since 1988, one of the longest-standing charity-endurance programs, turning first-timers into marathoners for a cause.",
+      "factors": {
+        "legacy": 70,
+        "community": 45,
+        "reach": 30,
+        "events": 55,
+        "crossover": 45,
+        "destination": 25
+      },
+      "reach": "IG presence modest (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": "Charity fundraising-training program — you join a coached season tied to fundraising, not a drop-in crew.",
+      "score": 46
+    },
+    {
+      "rank": 98,
+      "name": "DivaDance",
+      "segment": "Social Fitness & Workout Crews",
+      "tier": "brand-backed",
+      "city": "Austin",
+      "country": "US",
+      "who": "Adult dance-fitness crew with 50+ studios across the US and Mexico; weekly classes plus member-only social events.",
+      "why": "Grew from one studio to 50+ cities on word-of-mouth community, not a franchise-gym sales model.",
+      "factors": {
+        "legacy": 43,
+        "community": 68,
+        "reach": 35,
+        "events": 63,
+        "crossover": 38,
+        "destination": 23
+      },
+      "reach": "IG ~20K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://divadance.com",
+      "handles": {},
+      "warning": null,
+      "score": 46
+    },
+    {
+      "rank": 99,
+      "name": "Bournville Harriers",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Birmingham",
+      "country": "UK",
+      "who": "Established Birmingham-area athletics club with regular weekly sessions and competitive teams.",
+      "why": "Decades-long Midlands athletics institution with lasting local standing.",
+      "factors": {
+        "legacy": 60,
+        "community": 55,
+        "reach": 30,
+        "events": 60,
+        "crossover": 35,
+        "destination": 30
+      },
+      "reach": "IG ~4K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 46
+    },
+    {
+      "rank": 100,
+      "name": "Advent Running",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "London",
+      "country": "UK",
+      "who": "London social run crew known for early sunrise group runs and pop-up sessions around the city.",
+      "why": "Fast-growing name in London's crew scene, built on distinctive sunrise sessions.",
+      "factors": {
+        "legacy": 35,
+        "community": 65,
+        "reach": 35,
+        "events": 55,
+        "crossover": 45,
+        "destination": 40
+      },
+      "reach": "IG ~15K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "score": 46
+    }
+  ],
+  "bubblingUnder": [
+    {
+      "name": "K I I N Paris Run Club",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Paris",
+      "country": "France",
+      "who": "Community run club meeting Wednesdays and Sundays at Le Peloton Cafe, open to every level.",
+      "why": "A cafe-anchored, all-levels crew that's become a fixture of Paris's fast-growing social-running scene.",
+      "factors": {
+        "legacy": 35,
+        "community": 55,
+        "reach": 37,
+        "events": 60,
+        "crossover": 40,
+        "destination": 40
+      },
+      "reach": "IG 7.2K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/we.are.kiin"
+      },
+      "warning": null,
+      "score": 45
+    },
+    {
+      "name": "Chicago Tri Club",
+      "segment": "Ride, Swim & Multi-Sport",
+      "tier": "independent",
+      "city": "Chicago",
+      "country": "US",
+      "who": "Social, all-levels triathlon club running swim-bike-run training sessions and a first-timer program; join through membership on their site.",
+      "why": "Chicago's go-to multi-sport club, built around training toward the city's own marquee triathlon.",
+      "factors": {
+        "legacy": 52,
+        "community": 52,
+        "reach": 25,
+        "events": 62,
+        "crossover": 42,
+        "destination": 32
+      },
+      "reach": "IG 1.4K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://chicagotriclub.com",
+      "handles": {
+        "instagram": "https://instagram.com/chicagotriclub"
+      },
+      "warning": null,
+      "score": 45
+    },
+    {
+      "name": "Rotterdam Running Crew",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "who": "Open weekly run club welcoming beginners through advanced runners around Rotterdam.",
+      "why": "The steady, low-key anchor of Rotterdam's growing but still small run-club scene.",
+      "factors": {
+        "legacy": 40,
+        "community": 55,
+        "reach": 35,
+        "events": 60,
+        "crossover": 35,
+        "destination": 35
+      },
+      "reach": "IG 5.9K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/rotterdamrunningcrew"
+      },
+      "warning": null,
+      "score": 44
+    },
+    {
+      "name": "Yapperz Club",
+      "segment": "UK & Europe Crews",
+      "tier": "independent",
+      "city": "Milan",
+      "country": "Italy",
+      "who": "Milan crew for beginner, slow and chatty runners, with a Tuesday 'Turbo Yap' and a relaxed Sunday run at a talking pace.",
+      "why": "A fresh, distinctly branded answer to performance-driven run culture, built around chat over pace.",
+      "factors": {
+        "legacy": 30,
+        "community": 60,
+        "reach": 25,
+        "events": 60,
+        "crossover": 45,
+        "destination": 35
+      },
+      "reach": "IG 1.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": null,
+      "handles": {
+        "instagram": "https://instagram.com/yapperzclub"
+      },
+      "warning": null,
+      "score": 43
+    },
+    {
+      "name": "Eko Runners Club",
+      "segment": "Asia, LatAm, Africa & Oceania",
+      "tier": "independent",
+      "city": "Lagos",
+      "country": "NG",
+      "who": "Lagos running community with regular group runs and health-focused meetups across the mainland.",
+      "why": "One of the more visible grassroots crews in a city where organized running culture is still young.",
+      "factors": {
+        "legacy": 32,
+        "community": 57,
+        "reach": 25,
+        "events": 52,
+        "crossover": 37,
+        "destination": 32
+      },
+      "reach": "IG ~4K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {
+        "instagram": "https://www.instagram.com/ekorunnersclub/"
+      },
+      "warning": null,
+      "score": 40
+    }
+  ]
+}

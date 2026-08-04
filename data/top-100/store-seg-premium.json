@@ -1,0 +1,318 @@
+[
+  {
+    "name": "Erewhon Beverly Blvd (Fairfax)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Los Angeles",
+    "country": "US",
+    "who": "The chain's original store, a 1968 macrobiotic shop turned ultra-premium celebrity grocery flagship at 7660 Beverly Blvd since 1991.",
+    "why": "The most photographed, most celebrity-trafficked health food store in the country, credited with inventing the $20 smoothie era.",
+    "factors": {
+      "legacy": 85,
+      "selection": 90,
+      "experience": 95,
+      "community": 60,
+      "reach": 72,
+      "destination": 95
+    },
+    "reach": "IG 661K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://erewhonmarket.com",
+    "handles": {
+      "instagram": "https://instagram.com/erewhon"
+    },
+    "warning": null
+  },
+  {
+    "name": "Erewhon Calabasas",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Los Angeles",
+    "country": "US",
+    "who": "The chain's 2014 second-generation location in the Kardashian-adjacent Calabasas foothills, one of Erewhon's largest stores with a spacious hot bar.",
+    "why": "Independently iconic as a celebrity-spotting destination in its own right, distinct in clientele and layout from the Fairfax original.",
+    "factors": {
+      "legacy": 55,
+      "selection": 88,
+      "experience": 85,
+      "community": 50,
+      "reach": 72,
+      "destination": 80
+    },
+    "reach": "IG 661K (verified 2026-08, brand account)",
+    "reachVerified": true,
+    "website": "https://erewhonmarket.com",
+    "handles": {
+      "instagram": "https://instagram.com/erewhon"
+    },
+    "warning": null
+  },
+  {
+    "name": "Whole Foods Market (Austin flagship)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Austin",
+    "country": "US",
+    "who": "The mothership flagship store blocks from the original 1980 North Lamar location where four Austin natural-food retailers launched the entire natural-supermarket format.",
+    "why": "The store that invented the natural-foods supermarket as a category, surviving a 1981 flood to build what became a $20B+ business.",
+    "factors": {
+      "legacy": 92,
+      "selection": 65,
+      "experience": 68,
+      "community": 45,
+      "reach": 76,
+      "destination": 55
+    },
+    "reach": "IG 3M (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.wholefoodsmarket.com",
+    "handles": {
+      "instagram": "https://instagram.com/wholefoods"
+    },
+    "warning": null
+  },
+  {
+    "name": "Lassens Natural Foods & Vitamins (La Brea, LA)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Los Angeles",
+    "country": "US",
+    "who": "California vitamin-and-natural-foods chain founded 1971 in Camarillo by Oda Lassen; the La Brea, LA store is its best-known city outpost, minutes from Erewhon's original.",
+    "why": "A family-run, three-generation vitamin-shop institution that predates the celebrity-grocer wave by decades.",
+    "factors": {
+      "legacy": 68,
+      "selection": 55,
+      "experience": 50,
+      "community": 55,
+      "reach": 32,
+      "destination": 40
+    },
+    "reach": "IG ~10K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.lassens.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Bristol Farms (Rolling Hills Estates original)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Rolling Hills Estates",
+    "country": "US",
+    "who": "Upscale Southern California supermarket chain founded 1982 by former wholesale butchers who modeled it on Harrods' food halls; the original store still operates in Rolling Hills Estates.",
+    "why": "The white-tablecloth end of health-adjacent grocery, long favored by affluent South Bay and Beverly Hills shoppers for its butcher counters and produce theatre.",
+    "factors": {
+      "legacy": 58,
+      "selection": 62,
+      "experience": 68,
+      "community": 45,
+      "reach": 40,
+      "destination": 45
+    },
+    "reach": "IG ~15K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.bristolfarms.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Lazy Acres Natural Market (Santa Barbara original)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Santa Barbara",
+    "country": "US",
+    "who": "Independent organic grocer founded 1991 in Santa Barbara, now a small West Coast banner under the same ownership group (Good Food Holdings) as Bristol Farms and New Seasons.",
+    "why": "A quieter, neighborhood-scaled organic grocer often named alongside Erewhon and Lassens as an LA-region alternative.",
+    "factors": {
+      "legacy": 55,
+      "selection": 60,
+      "experience": 55,
+      "community": 55,
+      "reach": 32,
+      "destination": 42
+    },
+    "reach": "IG ~10K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.lazyacres.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Moon Juice (Melrose Ave, LA)",
+    "segment": "US Premium & Celebrity",
+    "tier": "independent",
+    "city": "Los Angeles",
+    "country": "US",
+    "who": "Adaptogen-and-cold-press-juice shop opened 2011 by Amanda Chantal Bacon; the original storefront that launched the 'dust' wellness-supplement category.",
+    "why": "A tiny shop that became a reference point for the entire US adaptogen and wellness-tonic industry.",
+    "factors": {
+      "legacy": 55,
+      "selection": 78,
+      "experience": 72,
+      "community": 42,
+      "reach": 66,
+      "destination": 60
+    },
+    "reach": "IG 428K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://moonjuice.com",
+    "handles": {
+      "instagram": "https://instagram.com/moonjuice"
+    },
+    "warning": null
+  },
+  {
+    "name": "Natural Grocers (Golden/Lakewood, CO origin)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Lakewood",
+    "country": "US",
+    "who": "Founded 1955 as door-to-door 'Vitamin Cottage' by Margaret and Philip Isely; first storefront opened in Lakewood, CO in 1963, now headquartered nearby in Golden with 165+ US stores.",
+    "why": "One of the true origin points of the US health-food-store industry, still education-focused after seven decades.",
+    "factors": {
+      "legacy": 82,
+      "selection": 55,
+      "experience": 45,
+      "community": 55,
+      "reach": 47,
+      "destination": 35
+    },
+    "reach": "IG ~40K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.naturalgrocers.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Sprouts Farmers Market (Chandler, AZ original)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Chandler",
+    "country": "US",
+    "who": "First Sprouts store, opened 2002 by the Boney family (descendants of a 1943 San Diego produce stand); grew into a 400+ store national chain.",
+    "why": "Proved a mainstream, no-frills organic-and-bulk format could scale nationally without soda aisles or junk-food end caps.",
+    "factors": {
+      "legacy": 65,
+      "selection": 48,
+      "experience": 42,
+      "community": 42,
+      "reach": 65,
+      "destination": 30
+    },
+    "reach": "IG ~350K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.sprouts.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Jimbo's Naturally (North Park, San Diego original)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "San Diego",
+    "country": "US",
+    "who": "Organic grocer opened 1984 by Jimbo Someck after leaving a food co-op; the original North Park store anchors a respected six-store San Diego chain now 40+ years old.",
+    "why": "A San Diego institution known for dropping plastic bags in 2008 and strict local/regenerative-organic sourcing standards.",
+    "factors": {
+      "legacy": 62,
+      "selection": 66,
+      "experience": 50,
+      "community": 60,
+      "reach": 40,
+      "destination": 35
+    },
+    "reach": "IG ~15K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://jimbos.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Mother's Market & Kitchen (Costa Mesa original)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Costa Mesa",
+    "country": "US",
+    "who": "Organic grocer-and-kitchen opened 1978 by the MacGurn family with backing from a local yoga center; the original Costa Mesa store anchors an 11-store Southern California chain.",
+    "why": "One of the longest-running organic grocers in the US, built around a yoga/wellness community rather than as a retail play from day one.",
+    "factors": {
+      "legacy": 72,
+      "selection": 55,
+      "experience": 55,
+      "community": 62,
+      "reach": 42,
+      "destination": 35
+    },
+    "reach": "IG ~20K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.mothersmarket.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Down to Earth Organic and Natural (King St, Honolulu)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Honolulu",
+    "country": "US",
+    "who": "Hawaii's homegrown organic-and-vegetarian grocer, founded 1977 in Wailuku, Maui; the King Street, Honolulu store opened the same year and remains the flagship after a 2008 renovation.",
+    "why": "The islands' definitive health-food retailer, running community farmers' markets and free senior meals since its earliest days.",
+    "factors": {
+      "legacy": 65,
+      "selection": 60,
+      "experience": 55,
+      "community": 65,
+      "reach": 40,
+      "destination": 48
+    },
+    "reach": "IG ~15K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.downtoearth.org",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "New Seasons Market (Raleigh Hills, Portland original)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Portland",
+    "country": "US",
+    "who": "Grocery chain founded 1999 by three Portland grocery veterans; the Raleigh Hills store was the first of what grew into roughly 20 Pacific Northwest locations.",
+    "why": "Defined Portland's local-first, sustainability-first grocery identity a decade before it became a national trend.",
+    "factors": {
+      "legacy": 55,
+      "selection": 56,
+      "experience": 55,
+      "community": 60,
+      "reach": 42,
+      "destination": 30
+    },
+    "reach": "IG ~20K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.newseasonsmarket.com",
+    "handles": {},
+    "warning": null
+  },
+  {
+    "name": "Central Market (North Lamar, Austin original)",
+    "segment": "US Premium & Celebrity",
+    "tier": "chain-flagship",
+    "city": "Austin",
+    "country": "US",
+    "who": "H-E-B's gourmet/natural-foods banner, opened 1994 on North Lamar in Austin, within blocks of Whole Foods' birthplace; built around scratch bakeries, in-house butchers, and market-style produce.",
+    "why": "Shows a regional chain can build a genuinely premium, foodie-driven natural-foods format without going fully corporate-national.",
+    "factors": {
+      "legacy": 55,
+      "selection": 70,
+      "experience": 72,
+      "community": 45,
+      "reach": 44,
+      "destination": 40
+    },
+    "reach": "IG ~25K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.centralmarket.com",
+    "handles": {},
+    "warning": null
+  }
+]

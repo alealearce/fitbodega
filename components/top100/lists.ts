@@ -38,4 +38,22 @@ export const TOP100_LISTS = [
     navLabel: "Recovery Spaces",
     desc: "Bathhouses, saunas & thermal lagoons",
   },
+  {
+    slug: "/top-100-run-clubs",
+    title: "Top 100 Run Clubs & Fitness Crews",
+    navLabel: "Run Clubs & Crews",
+    desc: "The communities people show up for",
+  },
+  {
+    slug: "/top-100-health-food-stores",
+    title: "Top 100 Health Food Stores",
+    navLabel: "Health Food Stores",
+    desc: "Grocers, co-ops & farm shops",
+  },
+  {
+    slug: "/top-100-nutritionists",
+    title: "Top 100 Nutritionists",
+    navLabel: "Nutritionists",
+    desc: "Credentialed dietitians & researchers",
+  },
 ] as const;

@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Koreatown Run Club",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "Los Angeles",
+    "country": "US",
+    "who": "Weekly Wednesday-night run through K-town, open to anyone who shows up, plus race-day meetups.",
+    "why": "Grew from a handful of friends into one of LA's largest weekly run turnouts and a symbol of the 2020s run-club boom.",
+    "factors": {
+      "legacy": 55,
+      "community": 90,
+      "reach": 60,
+      "events": 80,
+      "crossover": 80,
+      "destination": 80
+    },
+    "reach": "IG 44K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://koreatownrunclub.com",
+    "handles": {
+      "instagram": "https://instagram.com/koreatownrunclub"
+    },
+    "warning": null
+  },
+  {
+    "name": "Bridge Runners",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "New York City",
+    "country": "US",
+    "who": "NYC's original run crew, meeting Wednesdays since the mid-2000s; open group runs, no pace requirement.",
+    "why": "Widely credited as the first modern run crew, the template every later crew copied.",
+    "factors": {
+      "legacy": 90,
+      "community": 70,
+      "reach": 40,
+      "events": 60,
+      "crossover": 75,
+      "destination": 70
+    },
+    "reach": "IG 28K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/bridgerunners"
+    },
+    "warning": null
+  },
+  {
+    "name": "Harlem Run",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "New York City",
+    "country": "US",
+    "who": "Free Monday/Tuesday/Wednesday runs through Harlem since 2013, plus a Thursday speed session; join by showing up.",
+    "why": "One of the crews that pushed the 2010s NYC run-crew wave into a national health movement.",
+    "factors": {
+      "legacy": 70,
+      "community": 80,
+      "reach": 40,
+      "events": 80,
+      "crossover": 65,
+      "destination": 60
+    },
+    "reach": "IG 20K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.harlemrun.com",
+    "handles": {
+      "instagram": "https://instagram.com/harlemrun"
+    },
+    "warning": null
+  },
+  {
+    "name": "Black Men Run",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "Atlanta (national)",
+    "country": "US",
+    "who": "National nonprofit with locally run weekly chapter runs across dozens of US cities; join via a city chapter.",
+    "why": "Built a nationwide chapter network for Black men's health and running, filling a gap the big race brands didn't.",
+    "factors": {
+      "legacy": 60,
+      "community": 70,
+      "reach": 30,
+      "events": 60,
+      "crossover": 55,
+      "destination": 40
+    },
+    "reach": "IG 13K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://blackmenrun.com",
+    "handles": {
+      "instagram": "https://instagram.com/blackmenrun"
+    },
+    "warning": null
+  },
+  {
+    "name": "Black Girls RUN!",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "Atlanta (national)",
+    "country": "US",
+    "who": "National running organization since 2009 with weekly run/walk meetups through dozens of city chapters.",
+    "why": "One of the largest and longest-running Black women's fitness networks in the US, with charity marathon teams at Boston and Chicago.",
+    "factors": {
+      "legacy": 75,
+      "community": 75,
+      "reach": 50,
+      "events": 70,
+      "crossover": 70,
+      "destination": 45
+    },
+    "reach": "IG 88K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://blackgirlsrun.com",
+    "handles": {
+      "instagram": "https://instagram.com/officialblackgirlsrun"
+    },
+    "warning": null
+  },
+  {
+    "name": "Slow AF Run Club",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "Detroit (online)",
+    "country": "US",
+    "who": "Paid online membership community for back-of-the-pack runners, founded by Martinus Evans; in-person meetups at races.",
+    "why": "Built the largest inclusive back-of-the-pack running community by reframing slow running as its own identity, not a deficit.",
+    "factors": {
+      "legacy": 55,
+      "community": 75,
+      "reach": 40,
+      "events": 50,
+      "crossover": 70,
+      "destination": 40
+    },
+    "reach": "IG 33K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://slowafrunclub.com",
+    "handles": {
+      "instagram": "https://instagram.com/slowafrunclub"
+    },
+    "warning": null
+  },
+  {
+    "name": "November Project",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "Boston",
+    "country": "US",
+    "who": "Free outdoor workout movement born in Boston in 2011, mixing running and bodyweight training; no sign-up, just show up.",
+    "why": "Boston's flagship chapter spawned free-workout chapters in dozens of cities and helped define pre-pandemic community fitness culture.",
+    "factors": {
+      "legacy": 85,
+      "community": 75,
+      "reach": 40,
+      "events": 90,
+      "crossover": 60,
+      "destination": 55
+    },
+    "reach": "IG 34K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://november-project.com",
+    "handles": {
+      "instagram": "https://instagram.com/novemberproject"
+    },
+    "warning": null
+  },
+  {
+    "name": "District Running Collective",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "Washington, DC",
+    "country": "US",
+    "who": "Free Wednesday and Saturday urban run crew since 2013; hosts its own District 19 race series each October.",
+    "why": "Built its own signature race and marathon-training program on top of a weekly free crew, rare for an independent group.",
+    "factors": {
+      "legacy": 55,
+      "community": 70,
+      "reach": 30,
+      "events": 75,
+      "crossover": 55,
+      "destination": 45
+    },
+    "reach": "IG ~15K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.districtrunningcollective.com",
+    "handles": {
+      "instagram": "https://instagram.com/districtrunningcollective"
+    },
+    "warning": null
+  },
+  {
+    "name": "Prospect Park Track Club",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "Brooklyn",
+    "country": "US",
+    "who": "Traditional dues-paying club, 40-plus years old, with coached marathon training, speed work, and group runs around Prospect Park.",
+    "why": "Brooklyn's largest and oldest running club, the traditional-club counterweight to the newer crew scene.",
+    "factors": {
+      "legacy": 80,
+      "community": 65,
+      "reach": 30,
+      "events": 70,
+      "crossover": 45,
+      "destination": 40
+    },
+    "reach": "IG ~8K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://pptc.org",
+    "handles": {
+      "instagram": "https://instagram.com/prospectparktc"
+    },
+    "warning": null
+  },
+  {
+    "name": "San Francisco Road Runners Club",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "San Francisco",
+    "country": "US",
+    "who": "Dues-based club, 25-plus years old, with nearly 600 members and pace-grouped runs Tuesday through Sunday.",
+    "why": "SF's largest and most historic road-running club, still running a full weekly calendar of coached sessions.",
+    "factors": {
+      "legacy": 65,
+      "community": 60,
+      "reach": 30,
+      "events": 75,
+      "crossover": 40,
+      "destination": 35
+    },
+    "reach": "IG ~6K (approx 2026)",
+    "reachVerified": false,
+    "website": "https://www.sfrrc.org",
+    "handles": {
+      "instagram": "https://instagram.com/sfrrc"
+    },
+    "warning": null
+  },
+  {
+    "name": "We Run Uptown",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "New York City",
+    "country": "US",
+    "who": "Washington Heights/Inwood crew running Monday (easy) and Wednesday (faster) since 2013; free and open.",
+    "why": "Nike-backed but community-run, and one of the few crews to hold down a single uptown neighborhood for over a decade.",
+    "factors": {
+      "legacy": 60,
+      "community": 75,
+      "reach": 40,
+      "events": 75,
+      "crossover": 60,
+      "destination": 45
+    },
+    "reach": "IG 18K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://werunuptown.com",
+    "handles": {
+      "instagram": "https://instagram.com/wrucrew"
+    },
+    "warning": null
+  },
+  {
+    "name": "Renegade Running",
+    "segment": "US Crews",
+    "tier": "brand-backed",
+    "city": "Oakland",
+    "country": "US",
+    "who": "Run-specialty store and community founded 2020, running training programs, group runs, and an elite team from its Mandela Parkway shop.",
+    "why": "Built a diverse Oakland running culture around a physical storefront and now fields an elite team coached by Nell Rojas.",
+    "factors": {
+      "legacy": 40,
+      "community": 75,
+      "reach": 40,
+      "events": 65,
+      "crossover": 60,
+      "destination": 40
+    },
+    "reach": "IG 27K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://renegade-running.com",
+    "handles": {
+      "instagram": "https://instagram.com/renegade_running"
+    },
+    "warning": null
+  },
+  {
+    "name": "Boyle Heights Bridge Runners",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "Los Angeles",
+    "country": "US",
+    "who": "Free Wednesday-night crew from Mariachi Plaza across the Sixth Street Bridge since 2013; all levels welcome.",
+    "why": "A grassroots Eastside crew that drew national media (LA Times, Bourdain, Lisa Ling) for turning a run into neighborhood advocacy.",
+    "factors": {
+      "legacy": 55,
+      "community": 70,
+      "reach": 30,
+      "events": 60,
+      "crossover": 60,
+      "destination": 40
+    },
+    "reach": "IG 11K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.boyleheightsbr.org",
+    "handles": {
+      "instagram": "https://instagram.com/boyleheightsbridgerunners"
+    },
+    "warning": null
+  },
+  {
+    "name": "Run for Chinatown",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "New York City",
+    "country": "US",
+    "who": "Monday-night group run/walk from Columbus Park since 2021, started to bring foot traffic back to Manhattan's Chinatown.",
+    "why": "A pandemic-recovery crew that turned into one of the clearest examples of running as neighborhood economic support.",
+    "factors": {
+      "legacy": 35,
+      "community": 65,
+      "reach": 30,
+      "events": 55,
+      "crossover": 55,
+      "destination": 35
+    },
+    "reach": "IG 7.4K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://runforchinatown.org",
+    "handles": {
+      "instagram": "https://instagram.com/runforchinatown"
+    },
+    "warning": null
+  },
+  {
+    "name": "Lost Boys Track Club",
+    "segment": "US Crews",
+    "tier": "independent",
+    "city": "New York City",
+    "country": "US",
+    "who": "Decentralized, competitive offshoot of Brooklyn Track Club chasing relay records (sub-2-hour marathon relays, Hood to Coast wins).",
+    "why": "The performance edge of the NYC crew scene — a group of self-organized amateurs beating pro-adjacent relay times.",
+    "factors": {
+      "legacy": 45,
+      "community": 60,
+      "reach": 30,
+      "events": 50,
+      "crossover": 60,
+      "destination": 30
+    },
+    "reach": "IG 14K (verified 2026-08)",
+    "reachVerified": true,
+    "website": null,
+    "handles": {
+      "instagram": "https://instagram.com/lostboystrackclub"
+    },
+    "warning": null
+  },
+  {
+    "name": "Bakline",
+    "segment": "US Crews",
+    "tier": "brand-backed",
+    "city": "Brooklyn",
+    "country": "US",
+    "who": "Brooklyn running and sportswear brand since 2008 that runs its own training groups and events alongside its gear line.",
+    "why": "One of the earliest brand-run-club hybrids in NYC, blending street-culture design with an actual running community.",
+    "factors": {
+      "legacy": 55,
+      "community": 55,
+      "reach": 30,
+      "events": 50,
+      "crossover": 55,
+      "destination": 30
+    },
+    "reach": "IG 11K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.bakline.nyc",
+    "handles": {
+      "instagram": "https://instagram.com/baklinerunning"
+    },
+    "warning": null
+  },
+  {
+    "name": "Old Man Run Club",
+    "segment": "US Crews",
+    "tier": "brand-backed",
+    "city": "New York City",
+    "country": "US",
+    "who": "Saturday-morning long-run crew founded by Public School's Dao-Yi Chow and Eugene Tong; Nike- and Oakley-backed, all paces.",
+    "why": "A fashion-world crew that gave the run-club scene its long-run counterpart to weeknight speed sessions.",
+    "factors": {
+      "legacy": 50,
+      "community": 60,
+      "reach": 40,
+      "events": 55,
+      "crossover": 70,
+      "destination": 40
+    },
+    "reach": "IG 15K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://oldmanrunclub.com",
+    "handles": {
+      "instagram": "https://instagram.com/oldmanrunclub"
+    },
+    "warning": null
+  },
+  {
+    "name": "Endorphins Running",
+    "segment": "US Crews",
+    "tier": "brand-backed",
+    "city": "New York City (multi-city)",
+    "country": "US",
+    "who": "New Balance-backed running community spanning nine US cities, running 2,000-plus free group runs a year plus a coaching app.",
+    "why": "Scaled a single-city crew into a multi-city brand platform faster than almost any other US running community.",
+    "factors": {
+      "legacy": 40,
+      "community": 65,
+      "reach": 50,
+      "events": 85,
+      "crossover": 75,
+      "destination": 45
+    },
+    "reach": "IG 51K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://endorphinsrunning.com",
+    "handles": {
+      "instagram": "https://instagram.com/endorphinsrunning"
+    },
+    "warning": null
+  },
+  {
+    "name": "Midnight Runners",
+    "segment": "US Crews",
+    "tier": "brand-backed",
+    "city": "New York City",
+    "country": "US",
+    "who": "US chapter of the global Midnight Runners movement: runs mixed with music and bootcamp-style stops, volunteer-led.",
+    "why": "Brought the UK-born run-and-party format to New York, leaning on social atmosphere over pace or mileage.",
+    "factors": {
+      "legacy": 45,
+      "community": 55,
+      "reach": 30,
+      "events": 65,
+      "crossover": 55,
+      "destination": 35
+    },
+    "reach": "IG 6.1K (verified 2026-08)",
+    "reachVerified": true,
+    "website": "https://www.midnightrunners.com/cities/new-york",
+    "handles": {
+      "instagram": "https://instagram.com/midnightrunnersnewyork"
+    },
+    "warning": null
+  }
+]
