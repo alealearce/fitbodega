@@ -117,6 +117,10 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ report });
   } catch (err) {
     console.error("[top100-audit] error:", err);
-    return NextResponse.json({ error: "Audit failed — try again in a minute." }, { status: 500 });
+    // TEMP DEBUG — remove after diagnosing the prod-only failure
+    return NextResponse.json(
+      { error: "Audit failed — try again in a minute.", detail: String(err).slice(0, 300) },
+      { status: 500 }
+    );
   }
 }
