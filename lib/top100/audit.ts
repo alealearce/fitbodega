@@ -174,10 +174,17 @@ export async function generateAudit(input: AuditInput): Promise<AuditReport> {
     system: SYSTEM,
   });
 
-  const text = msg.content[0].type === "text" ? msg.content[0].text : "";
+  const textBlock = msg.content.find((b) => b.type === "text");
+  const text = textBlock && textBlock.type === "text" ? textBlock.text : "";
   const jsonStart = text.indexOf("{");
   const jsonEnd = text.lastIndexOf("}");
-  if (jsonStart === -1 || jsonEnd === -1) throw new Error("audit: no JSON in model output");
+  if (jsonStart === -1 || jsonEnd === -1) {
+    throw new Error(
+      `audit: no JSON in model output. stop=${msg.stop_reason} blocks=${msg.content
+        .map((b) => b.type)
+        .join(",")} head="${text.slice(0, 160)}"`
+    );
+  }
   const report = JSON.parse(text.slice(jsonStart, jsonEnd + 1)) as AuditReport;
 
   if (!report.headline || !Array.isArray(report.recommendations) || report.recommendations.length < 4) {
