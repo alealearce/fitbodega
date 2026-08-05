@@ -17,7 +17,7 @@
     },
     "disclaimer": "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; programs, prices, and properties change — check before you book.",
     "series": "The FitBodega 100",
-    "updated": "2026-08-04",
+    "updated": "2026-08-05",
     "reviewCadence": "monthly"
   },
   "entries": [
@@ -611,7 +611,7 @@
       "handles": {
         "instagram": "https://www.instagram.com/amanpuri/"
       },
-      "warning": null,
+      "warning": "Closed for seasonal renovation 15 May - 13 September 2026; reopens 14 September 2026.",
       "takeaway": "Book a multi-day wellness immersion of Pilates, Muay Thai and yoga alongside a standard luxury stay — not fitness-only.",
       "score": 75
     },
@@ -1502,12 +1502,12 @@
     },
     {
       "rank": 56,
-      "name": "VIVAMAYR Altaussee",
+      "name": "MAYRLIFE Altaussee",
       "segment": "Medical & Longevity Clinics",
       "tier": "wellness-resort",
       "city": "Altaussee, Styria",
       "country": "AT",
-      "who": "VIVAMAYR's smaller alpine-lake outpost, same Mayr-cure medical program in a quieter mountain setting; from ~$650/night.",
+      "who": "VIVAMAYR's smaller alpine-lake outpost, same Mayr-cure medical program in a quieter mountain setting; from ~$650/night (formerly VIVAMAYR Altaussee).",
       "why": "Extends the VIVAMAYR medical method to a second, more secluded Austrian lake location.",
       "factors": {
         "program": 73,

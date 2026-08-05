@@ -300,31 +300,6 @@
     "takeaway": "Book a float tank session at your nearest neighborhood centre — expect a small storefront, not a destination facility."
   },
   {
-    "name": "The Well",
-    "segment": "Modern Recovery & Social Wellness",
-    "tier": "modern",
-    "city": "New York City",
-    "country": "US",
-    "who": "Members-first wellness club combining spa, integrative medical practice, and fitness studio; day visits bookable alongside membership.",
-    "why": "A designed, membership-driven wellness club; broad medical-adjacent offering more than a focused heat/cold ritual.",
-    "factors": {
-      "legacy": 30,
-      "experience": 55,
-      "facility": 65,
-      "community": 55,
-      "reach": 32,
-      "destination": 35
-    },
-    "reach": "IG 6K (verified 2026-08)",
-    "reachVerified": true,
-    "website": "https://www.the-well.com/new-york",
-    "handles": {
-      "instagram": "https://www.instagram.com/thewell_ny/"
-    },
-    "warning": null,
-    "takeaway": "Book a day visit if you're not a member, but expect a broad medical-wellness menu, not one signature ritual."
-  },
-  {
     "name": "The PEAQ Club",
     "segment": "Modern Recovery & Social Wellness",
     "tier": "modern",

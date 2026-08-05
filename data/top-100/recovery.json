@@ -17,12 +17,39 @@
     },
     "disclaimer": "Details are editorial estimates (2026) and the ranking is reviewed monthly. Inclusion is not an endorsement; venues renovate, change access rules, and close — check before you travel.",
     "series": "The FitBodega 100",
-    "updated": "2026-08-04",
+    "updated": "2026-08-05",
     "reviewCadence": "monthly"
   },
   "entries": [
     {
       "rank": 1,
+      "name": "Friedrichsbad",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Baden-Baden",
+      "country": "DE",
+      "who": "1877 Roman-Irish bathing house running a fixed 17-step nude circuit, day and session tickets.",
+      "why": "The definitive European Roman-Irish bath ritual, still run in an unchanged Belle Epoque hall.",
+      "factors": {
+        "legacy": 90,
+        "experience": 85,
+        "facility": 87,
+        "community": 70,
+        "reach": 42,
+        "destination": 80
+      },
+      "reach": "IG 18K (verified 2026-08, shared account with Caracalla Spa)",
+      "reachVerified": true,
+      "website": "https://www.carasana.de/en/friedrichsbad/",
+      "handles": {
+        "instagram": "https://instagram.com/caracallatherme_friedrichsbad"
+      },
+      "warning": null,
+      "takeaway": "Commit to the full 17-step nude circuit in order — it's the definitive Roman-Irish bathing ritual, unchanged since 1877.",
+      "score": 77
+    },
+    {
+      "rank": 2,
       "name": "Blue Lagoon",
       "segment": "Lagoons, Springs & Thermal Resorts",
       "tier": "modern",
@@ -49,33 +76,6 @@
       "score": 77
     },
     {
-      "rank": 2,
-      "name": "Friedrichsbad",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "heritage",
-      "city": "Baden-Baden",
-      "country": "DE",
-      "who": "1877 Roman-Irish bathing house running a fixed 17-step nude circuit, day and session tickets.",
-      "why": "The definitive European Roman-Irish bath ritual, still run in an unchanged Belle Epoque hall.",
-      "factors": {
-        "legacy": 89,
-        "experience": 84,
-        "facility": 86,
-        "community": 69,
-        "reach": 42,
-        "destination": 79
-      },
-      "reach": "IG 18K (verified 2026-08, shared account with Caracalla Spa)",
-      "reachVerified": true,
-      "website": "https://www.carasana.de/en/friedrichsbad/",
-      "handles": {
-        "instagram": "https://instagram.com/caracallatherme_friedrichsbad"
-      },
-      "warning": null,
-      "takeaway": "Commit to the full 17-step nude circuit in order — it's the definitive Roman-Irish bathing ritual, unchanged since 1877.",
-      "score": 76
-    },
-    {
       "rank": 3,
       "name": "Szechenyi Thermal Bath",
       "segment": "Historic Bathhouses & Thermal Palaces",
@@ -85,12 +85,12 @@
       "who": "Neo-Baroque thermal bath complex with 15+ indoor and outdoor pools, open daily on a walk-in day-ticket model.",
       "why": "Budapest's largest and most photographed bath, the default bucket-list soak in the city.",
       "factors": {
-        "legacy": 84,
-        "experience": 79,
-        "facility": 84,
-        "community": 69,
+        "legacy": 85,
+        "experience": 80,
+        "facility": 85,
+        "community": 70,
         "reach": 38,
-        "destination": 84
+        "destination": 85
       },
       "reach": "IG 12K (verified 2026-08)",
       "reachVerified": true,
@@ -100,7 +100,7 @@
       },
       "warning": null,
       "takeaway": "Go at opening, rotate warm pools to cold plunge, and treat the chess players as part of the architecture.",
-      "score": 74
+      "score": 75
     },
     {
       "rank": 4,
@@ -112,12 +112,12 @@
       "who": "1808 Russian banya palace with Baroque-decorated halls, several ticket classes for day/session bathing.",
       "why": "Russia's most famous banya and the historic reference point for the entire banya tradition.",
       "factors": {
-        "legacy": 86,
-        "experience": 74,
-        "facility": 84,
-        "community": 79,
+        "legacy": 87,
+        "experience": 75,
+        "facility": 85,
+        "community": 80,
         "reach": 42,
-        "destination": 69
+        "destination": 70
       },
       "reach": "IG 20K (verified 2026-08)",
       "reachVerified": true,
@@ -127,10 +127,37 @@
       },
       "warning": null,
       "takeaway": "Pick a ticket class and go for the full banya experience — this 1808 palace set the standard for Russian bathing.",
-      "score": 73
+      "score": 74
     },
     {
       "rank": 5,
+      "name": "Terme di Saturnia",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Saturnia",
+      "country": "IT",
+      "who": "Sulfur hot-spring resort on an Etruscan/Roman thermal site, five-star spa with day-access tickets.",
+      "why": "A thermal source used for millennia, now anchoring one of Italy's best-known spa resorts.",
+      "factors": {
+        "legacy": 83,
+        "experience": 80,
+        "facility": 80,
+        "community": 50,
+        "reach": 59,
+        "destination": 80
+      },
+      "reach": "IG 136K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.termedisaturnia.it",
+      "handles": {
+        "instagram": "https://instagram.com/termedisaturnia"
+      },
+      "warning": null,
+      "takeaway": "Buy the day-access ticket to the sulfur springs — you're soaking in water used continuously since Etruscan and Roman times.",
+      "score": 73
+    },
+    {
+      "rank": 6,
       "name": "The Oriental Spa, Mandarin Oriental Bangkok",
       "segment": "Hotel & Destination Spas",
       "tier": "heritage",
@@ -155,33 +182,6 @@
       "warning": null,
       "takeaway": "Book ahead as a non-resident guest and take the private ferry across the river — arriving is part of the ritual.",
       "score": 73
-    },
-    {
-      "rank": 6,
-      "name": "Terme di Saturnia",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "heritage",
-      "city": "Saturnia",
-      "country": "IT",
-      "who": "Sulfur hot-spring resort on an Etruscan/Roman thermal site, five-star spa with day-access tickets.",
-      "why": "A thermal source used for millennia, now anchoring one of Italy's best-known spa resorts.",
-      "factors": {
-        "legacy": 82,
-        "experience": 79,
-        "facility": 79,
-        "community": 49,
-        "reach": 59,
-        "destination": 79
-      },
-      "reach": "IG 136K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.termedisaturnia.it",
-      "handles": {
-        "instagram": "https://instagram.com/termedisaturnia"
-      },
-      "warning": null,
-      "takeaway": "Buy the day-access ticket to the sulfur springs — you're soaking in water used continuously since Etruscan and Roman times.",
-      "score": 72
     },
     {
       "rank": 7,
@@ -291,6 +291,60 @@
     },
     {
       "rank": 11,
+      "name": "Cagaloglu Hamami",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Istanbul",
+      "country": "TR",
+      "who": "1741 Ottoman hamam near Hagia Sophia with a grand marble hararet chamber, walk-in sessions and treatments.",
+      "why": "Nearly 300 years of continuous hamam service in one of Istanbul's grandest bath halls.",
+      "factors": {
+        "legacy": 90,
+        "experience": 70,
+        "facility": 80,
+        "community": 55,
+        "reach": 40,
+        "destination": 75
+      },
+      "reach": "IG 15K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.cagalogluhamami.com.tr",
+      "handles": {
+        "instagram": "https://instagram.com/cagalogluhamam"
+      },
+      "warning": null,
+      "takeaway": "Walk in for a session in the marble hararet chamber — this hamam has run continuously here since 1741.",
+      "score": 70
+    },
+    {
+      "rank": 12,
+      "name": "La Mamounia Spa",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Marrakech",
+      "country": "MA",
+      "who": "Legendary hotel spa with twin hammams; non-guests book a Pass Detente day package (treatment/hammam plus lunch).",
+      "why": "Marrakech's most iconic hotel spa, pairing 1920s glamour with a traditional hammam ritual.",
+      "factors": {
+        "legacy": 65,
+        "experience": 75,
+        "facility": 87,
+        "community": 40,
+        "reach": 68,
+        "destination": 83
+      },
+      "reach": "IG 370K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.mamounia.com",
+      "handles": {
+        "instagram": "https://instagram.com/lamamouniamarrakech"
+      },
+      "warning": "General day pass is gone; non-guest access now requires booking a treatment, hammam, or the paid Pass Detente package.",
+      "takeaway": "Book the Pass Detente package in advance — a plain day pass no longer exists, so the hammam ritual comes bundled.",
+      "score": 70
+    },
+    {
+      "rank": 13,
       "name": "Bathhouse",
       "segment": "Modern Recovery & Social Wellness",
       "tier": "modern",
@@ -317,7 +371,7 @@
       "score": 70
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "Therme Erding",
       "segment": "Sauna Culture",
       "tier": "modern",
@@ -344,34 +398,7 @@
       "score": 70
     },
     {
-      "rank": 13,
-      "name": "Cagaloglu Hamami",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "heritage",
-      "city": "Istanbul",
-      "country": "TR",
-      "who": "1741 Ottoman hamam near Hagia Sophia with a grand marble hararet chamber, walk-in sessions and treatments.",
-      "why": "Nearly 300 years of continuous hamam service in one of Istanbul's grandest bath halls.",
-      "factors": {
-        "legacy": 89,
-        "experience": 69,
-        "facility": 79,
-        "community": 54,
-        "reach": 40,
-        "destination": 74
-      },
-      "reach": "IG 15K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.cagalogluhamami.com.tr",
-      "handles": {
-        "instagram": "https://instagram.com/cagalogluhamam"
-      },
-      "warning": null,
-      "takeaway": "Walk in for a session in the marble hararet chamber — this hamam has run continuously here since 1741.",
-      "score": 69
-    },
-    {
-      "rank": 14,
+      "rank": 15,
       "name": "QC Terme Bagni Vecchi di Bormio",
       "segment": "Historic Bathhouses & Thermal Palaces",
       "tier": "heritage",
@@ -380,12 +407,12 @@
       "who": "Roman/medieval-origin Alpine thermal complex with historic bathing caves plus QC Terme's spa circuit, day tickets.",
       "why": "Thermal bathing on a site used since Roman times, now QC Terme's flagship historic property.",
       "factors": {
-        "legacy": 76,
-        "experience": 79,
-        "facility": 82,
-        "community": 49,
+        "legacy": 77,
+        "experience": 80,
+        "facility": 83,
+        "community": 50,
         "reach": 45,
-        "destination": 74
+        "destination": 75
       },
       "reach": "IG ~15K (approx 2026)",
       "reachVerified": false,
@@ -393,33 +420,6 @@
       "handles": {},
       "warning": null,
       "takeaway": "Buy the day ticket and seek out the historic bathing caves — this site has been used since Roman times.",
-      "score": 69
-    },
-    {
-      "rank": 15,
-      "name": "La Mamounia Spa",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "modern",
-      "city": "Marrakech",
-      "country": "MA",
-      "who": "Legendary hotel spa with twin hammams; non-guests book a Pass Detente day package (treatment/hammam plus lunch).",
-      "why": "Marrakech's most iconic hotel spa, pairing 1920s glamour with a traditional hammam ritual.",
-      "factors": {
-        "legacy": 64,
-        "experience": 74,
-        "facility": 86,
-        "community": 39,
-        "reach": 68,
-        "destination": 82
-      },
-      "reach": "IG 370K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.mamounia.com",
-      "handles": {
-        "instagram": "https://instagram.com/lamamouniamarrakech"
-      },
-      "warning": "General day pass is gone; non-guest access now requires booking a treatment, hammam, or the paid Pass Detente package.",
-      "takeaway": "Book the Pass Detente package in advance — a plain day pass no longer exists, so the hammam ritual comes bundled.",
       "score": 69
     },
     {
@@ -667,12 +667,12 @@
       "who": "1580 Mimar Sinan-designed hamam in Tophane, restored single-dome hararet, walk-in sessions and treatments.",
       "why": "A Sinan-designed bathhouse restored to its original grandeur, an architecture-first hamam experience.",
       "factors": {
-        "legacy": 84,
-        "experience": 69,
-        "facility": 84,
-        "community": 49,
+        "legacy": 85,
+        "experience": 70,
+        "facility": 85,
+        "community": 50,
         "reach": 34,
-        "destination": 69
+        "destination": 70
       },
       "reach": "IG 7.9K (verified 2026-08)",
       "reachVerified": true,
@@ -682,7 +682,7 @@
       },
       "warning": null,
       "takeaway": "Walk in for a session and look up — the restored single-dome hararet is the reason to come.",
-      "score": 66
+      "score": 67
     },
     {
       "rank": 26,
@@ -694,12 +694,12 @@
       "who": "1556 twin hamam commissioned by Hurrem Sultan between Hagia Sophia and the Blue Mosque, guided day sessions.",
       "why": "A sultan-commissioned double hamam standing on Istanbul's single most historic square.",
       "factors": {
-        "legacy": 86,
-        "experience": 69,
-        "facility": 82,
-        "community": 44,
+        "legacy": 87,
+        "experience": 70,
+        "facility": 83,
+        "community": 45,
         "reach": 30,
-        "destination": 76
+        "destination": 77
       },
       "reach": "IG ~10K (approx 2026)",
       "reachVerified": false,
@@ -709,7 +709,7 @@
       },
       "warning": null,
       "takeaway": "Book the guided day session — you're bathing in a sultan-commissioned hamam between Hagia Sophia and the Blue Mosque.",
-      "score": 66
+      "score": 67
     },
     {
       "rank": 27,
@@ -721,12 +721,12 @@
       "who": "16th-century Ottoman-era bathhouse with a domed octagonal pool, day tickets plus weekend night bathing.",
       "why": "The best-preserved Turkish bath in Budapest, with the tradition's defining domed-pool architecture.",
       "factors": {
-        "legacy": 84,
-        "experience": 69,
-        "facility": 76,
-        "community": 64,
+        "legacy": 85,
+        "experience": 70,
+        "facility": 77,
+        "community": 65,
         "reach": 25,
-        "destination": 66
+        "destination": 67
       },
       "reach": "IG 1.5K (verified 2026-08)",
       "reachVerified": true,
@@ -736,10 +736,37 @@
       },
       "warning": null,
       "takeaway": "Go for a day ticket, or try weekend night bathing, under the best-preserved Ottoman-era domed pool in Budapest.",
-      "score": 65
+      "score": 66
     },
     {
       "rank": 28,
+      "name": "Cemberlitas Hamami",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Istanbul",
+      "country": "TR",
+      "who": "1584 Sinan-designed hamam next to the Grand Bazaar, twin men's/women's sections, walk-in sessions.",
+      "why": "Often called the best-known Turkish bath in Istanbul, a Sinan landmark still bathing tourists and locals daily.",
+      "factors": {
+        "legacy": 87,
+        "experience": 67,
+        "facility": 80,
+        "community": 50,
+        "reach": 25,
+        "destination": 73
+      },
+      "reach": "IG 2.6K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.cemberlitashamami.com.tr",
+      "handles": {
+        "instagram": "https://instagram.com/cemberlitashamami"
+      },
+      "warning": null,
+      "takeaway": "Walk in to either the men's or women's section — this Sinan-designed hamam is Istanbul's best-known Turkish bath.",
+      "score": 65
+    },
+    {
+      "rank": 29,
       "name": "Esalen Institute Hot Springs",
       "segment": "Lagoons, Springs & Thermal Resorts",
       "tier": "heritage",
@@ -764,7 +791,7 @@
       "score": 65
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "vabali spa Berlin",
       "segment": "Sauna Culture",
       "tier": "modern",
@@ -791,7 +818,7 @@
       "score": 65
     },
     {
-      "rank": 30,
+      "rank": 31,
       "name": "Spa Castle New York",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -818,7 +845,7 @@
       "score": 64
     },
     {
-      "rank": 31,
+      "rank": 32,
       "name": "Wat Pho Thai Traditional Massage School",
       "segment": "Asian Spa Culture",
       "tier": "heritage",
@@ -843,34 +870,59 @@
       "score": 64
     },
     {
-      "rank": 32,
-      "name": "Cemberlitas Hamami",
+      "rank": 33,
+      "name": "Royal Mansour Hammam",
       "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "heritage",
-      "city": "Istanbul",
-      "country": "TR",
-      "who": "1584 Sinan-designed hamam next to the Grand Bazaar, twin men's/women's sections, walk-in sessions.",
-      "why": "Often called the best-known Turkish bath in Istanbul, a Sinan landmark still bathing tourists and locals daily.",
+      "tier": "modern",
+      "city": "Marrakech",
+      "country": "MA",
+      "who": "Palace-hotel hammam in marble treatment suites; non-guests can book the hammam and treatments by advance reservation.",
+      "why": "The most architecturally lavish hammam in Marrakech, set inside a five-star riad-palace.",
       "factors": {
-        "legacy": 86,
-        "experience": 66,
-        "facility": 79,
-        "community": 49,
-        "reach": 25,
-        "destination": 72
+        "legacy": 40,
+        "experience": 80,
+        "facility": 90,
+        "community": 35,
+        "reach": 65,
+        "destination": 77
       },
-      "reach": "IG 2.6K (verified 2026-08)",
+      "reach": "IG 267K (verified 2026-08)",
       "reachVerified": true,
-      "website": "https://www.cemberlitashamami.com.tr",
+      "website": "https://www.royalmansour.com/en/marrakech/spa-wellness/hammam/",
       "handles": {
-        "instagram": "https://instagram.com/cemberlitashamami"
+        "instagram": "https://instagram.com/royalmansourmarrakech"
       },
-      "warning": null,
-      "takeaway": "Walk in to either the men's or women's section — this Sinan-designed hamam is Istanbul's best-known Turkish bath.",
+      "warning": "Hammam and spa treatments are bookable by non-guests; pool and garden access stays reserved for hotel guests.",
+      "takeaway": "Reserve the hammam or a treatment well ahead as a non-guest — the pool and garden stay guests-only.",
       "score": 64
     },
     {
-      "rank": 33,
+      "rank": 34,
+      "name": "Orbeliani Baths (Chreli-Abano)",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Tbilisi",
+      "country": "GE",
+      "who": "Historic domed sulfur bathhouse in Abanotubani, renovated and reopened 2017, private rooms plus communal hall, day bookings.",
+      "why": "The most photogenic of Tbilisi's brick-domed sulfur bathhouses, still fed by the city's natural hot springs.",
+      "factors": {
+        "legacy": 80,
+        "experience": 70,
+        "facility": 80,
+        "community": 55,
+        "reach": 30,
+        "destination": 60
+      },
+      "reach": "IG ~8K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "takeaway": "Book either a private room or the communal hall — it's still fed by Tbilisi's own natural sulfur hot springs.",
+      "score": 64
+    },
+    {
+      "rank": 35,
       "name": "Bota Bota, spa-sur-l'eau",
       "segment": "Hotel & Destination Spas",
       "tier": "modern",
@@ -897,7 +949,7 @@
       "score": 64
     },
     {
-      "rank": 34,
+      "rank": 36,
       "name": "Nordik Spa-Nature",
       "segment": "Hotel & Destination Spas",
       "tier": "modern",
@@ -915,7 +967,7 @@
       },
       "reach": "IG 102K (verified 2026-08)",
       "reachVerified": true,
-      "website": "https://www.nordikspa-nature.com/en/",
+      "website": "https://chelsea.lenordik.com",
       "handles": {
         "instagram": "https://instagram.com/nordikchelsea"
       },
@@ -924,7 +976,7 @@
       "score": 64
     },
     {
-      "rank": 35,
+      "rank": 37,
       "name": "Sainokawara Rotenburo (Kusatsu Onsen)",
       "segment": "Lagoons, Springs & Thermal Resorts",
       "tier": "heritage",
@@ -949,7 +1001,7 @@
       "score": 64
     },
     {
-      "rank": 36,
+      "rank": 38,
       "name": "Tropical Islands Resort",
       "segment": "Sauna Culture",
       "tier": "modern",
@@ -974,58 +1026,6 @@
       "warning": null,
       "takeaway": "Stay overnight if you can, and catch a professional Aufguss pour in one of the seven temple-themed sauna areas.",
       "score": 64
-    },
-    {
-      "rank": 37,
-      "name": "Royal Mansour Hammam",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "modern",
-      "city": "Marrakech",
-      "country": "MA",
-      "who": "Palace-hotel hammam in marble treatment suites; non-guests can book the hammam and treatments by advance reservation.",
-      "why": "The most architecturally lavish hammam in Marrakech, set inside a five-star riad-palace.",
-      "factors": {
-        "legacy": 39,
-        "experience": 79,
-        "facility": 89,
-        "community": 34,
-        "reach": 65,
-        "destination": 76
-      },
-      "reach": "IG 267K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.royalmansour.com/en/marrakech/spa-wellness/hammam/",
-      "handles": {
-        "instagram": "https://instagram.com/royalmansourmarrakech"
-      },
-      "warning": "Hammam and spa treatments are bookable by non-guests; pool and garden access stays reserved for hotel guests.",
-      "takeaway": "Reserve the hammam or a treatment well ahead as a non-guest — the pool and garden stay guests-only.",
-      "score": 63
-    },
-    {
-      "rank": 38,
-      "name": "Orbeliani Baths (Chreli-Abano)",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "heritage",
-      "city": "Tbilisi",
-      "country": "GE",
-      "who": "Historic domed sulfur bathhouse in Abanotubani, renovated and reopened 2017, private rooms plus communal hall, day bookings.",
-      "why": "The most photogenic of Tbilisi's brick-domed sulfur bathhouses, still fed by the city's natural hot springs.",
-      "factors": {
-        "legacy": 79,
-        "experience": 69,
-        "facility": 79,
-        "community": 54,
-        "reach": 30,
-        "destination": 59
-      },
-      "reach": "IG ~8K (approx 2026)",
-      "reachVerified": false,
-      "website": null,
-      "handles": {},
-      "warning": null,
-      "takeaway": "Book either a private room or the communal hall — it's still fed by Tbilisi's own natural sulfur hot springs.",
-      "score": 63
     },
     {
       "rank": 39,
@@ -1299,12 +1299,12 @@
     },
     {
       "rank": 49,
-      "name": "ESPA Life at Corinthia",
+      "name": "Biome by Corinthia London",
       "segment": "Hotel & Destination Spas",
       "tier": "modern",
       "city": "London",
       "country": "GB",
-      "who": "Three-floor, 20,000 sq ft basement spa under a five-star hotel; day-guest treatments plus a paid annual membership for repeat access.",
+      "who": "Three-floor, 20,000 sq ft basement spa under a five-star hotel; day-guest treatments plus a paid annual membership for repeat access (formerly ESPA Life at Corinthia).",
       "why": "Repeat winner of 'Best UK Spa' awards and the flagship showcase for the global ESPA brand.",
       "factors": {
         "legacy": 45,
@@ -1343,7 +1343,7 @@
       },
       "reach": "IG 304K (verified 2026-08)",
       "reachVerified": true,
-      "website": "https://www.thermebucuresti.ro",
+      "website": "https://thermebucharest.ro",
       "handles": {
         "instagram": "https://www.instagram.com/therme_bucuresti/"
       },
@@ -1457,6 +1457,60 @@
     },
     {
       "rank": 55,
+      "name": "Thermae Bath Spa",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Bath",
+      "country": "GB",
+      "who": "2006-built spa on the UK's only natural hot springs, open-air rooftop pool, day sessions and treatments.",
+      "why": "The sole legal way to bathe in the naturally hot water that made the city of Bath a Roman and Georgian spa town.",
+      "factors": {
+        "legacy": 55,
+        "experience": 65,
+        "facility": 75,
+        "community": 45,
+        "reach": 51,
+        "destination": 70
+      },
+      "reach": "IG 56K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.thermaebathspa.com",
+      "handles": {
+        "instagram": "https://instagram.com/thermaebathspa"
+      },
+      "warning": null,
+      "takeaway": "Book a day session for the rooftop pool — the only legal way to bathe in Bath's own hot water.",
+      "score": 60
+    },
+    {
+      "rank": 56,
+      "name": "Hammam Al Andalus",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Granada",
+      "country": "ES",
+      "who": "Moorish-revival hammam built 2004 in Granada's Albaicin, hot/cold bath circuit plus treatments, day sessions.",
+      "why": "Recreated Andalusian hammam architecture that revived Spain's Moorish bathing culture for modern visitors.",
+      "factors": {
+        "legacy": 50,
+        "experience": 70,
+        "facility": 75,
+        "community": 50,
+        "reach": 54,
+        "destination": 60
+      },
+      "reach": "IG 73K (verified 2026-08)",
+      "reachVerified": true,
+      "website": "https://www.hammamalandalus.com",
+      "handles": {
+        "instagram": "https://instagram.com/hammamalandalus"
+      },
+      "warning": null,
+      "takeaway": "Book a day session and work the hot-cold bath circuit — a modern recreation of Granada's Moorish bathing architecture.",
+      "score": 60
+    },
+    {
+      "rank": 57,
       "name": "Dior Spa, Hôtel Plaza Athénée",
       "segment": "Hotel & Destination Spas",
       "tier": "modern",
@@ -1481,7 +1535,7 @@
       "score": 60
     },
     {
-      "rank": 56,
+      "rank": 58,
       "name": "Oslo Badstuforening",
       "segment": "Sauna Culture",
       "tier": "modern",
@@ -1508,7 +1562,7 @@
       "score": 60
     },
     {
-      "rank": 57,
+      "rank": 59,
       "name": "Aquafield",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -1532,60 +1586,6 @@
       },
       "warning": null,
       "takeaway": "Come as a couple or family — it's a jjimjilbang built as a day resort, anchored by Korea's longest infinity pool.",
-      "score": 59
-    },
-    {
-      "rank": 58,
-      "name": "Thermae Bath Spa",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "modern",
-      "city": "Bath",
-      "country": "GB",
-      "who": "2006-built spa on the UK's only natural hot springs, open-air rooftop pool, day sessions and treatments.",
-      "why": "The sole legal way to bathe in the naturally hot water that made the city of Bath a Roman and Georgian spa town.",
-      "factors": {
-        "legacy": 54,
-        "experience": 64,
-        "facility": 74,
-        "community": 44,
-        "reach": 51,
-        "destination": 69
-      },
-      "reach": "IG 56K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.thermaebathspa.com",
-      "handles": {
-        "instagram": "https://instagram.com/thermaebathspa"
-      },
-      "warning": null,
-      "takeaway": "Book a day session for the rooftop pool — the only legal way to bathe in Bath's own hot water.",
-      "score": 59
-    },
-    {
-      "rank": 59,
-      "name": "Hammam Al Andalus",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "modern",
-      "city": "Granada",
-      "country": "ES",
-      "who": "Moorish-revival hammam built 2004 in Granada's Albaicin, hot/cold bath circuit plus treatments, day sessions.",
-      "why": "Recreated Andalusian hammam architecture that revived Spain's Moorish bathing culture for modern visitors.",
-      "factors": {
-        "legacy": 49,
-        "experience": 69,
-        "facility": 74,
-        "community": 49,
-        "reach": 54,
-        "destination": 59
-      },
-      "reach": "IG 73K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.hammamalandalus.com",
-      "handles": {
-        "instagram": "https://instagram.com/hammamalandalus"
-      },
-      "warning": null,
-      "takeaway": "Book a day session and work the hot-cold bath circuit — a modern recreation of Granada's Moorish bathing architecture.",
       "score": 59
     },
     {
@@ -1831,6 +1831,56 @@
     },
     {
       "rank": 69,
+      "name": "Lukacs Baths",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Budapest",
+      "country": "HU",
+      "who": "Medicinal thermal bath and pool complex favored by locals, open daily with standard day access.",
+      "why": "The regulars' alternative to Szechenyi, now more prominent while Gellert and Kiraly sit closed.",
+      "factors": {
+        "legacy": 75,
+        "experience": 60,
+        "facility": 60,
+        "community": 63,
+        "reach": 30,
+        "destination": 45
+      },
+      "reach": "IG ~5K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://www.lukacsfurdo.hu/en",
+      "handles": {},
+      "warning": null,
+      "takeaway": "Go for the standard day ticket if you want the locals' bath, not the tourist one.",
+      "score": 57
+    },
+    {
+      "rank": 70,
+      "name": "Amalienbad",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Vienna",
+      "country": "AT",
+      "who": "1926 Art Deco/Art Nouveau public bathhouse and pool with sauna and wellness area, daily day tickets.",
+      "why": "The grandest surviving bathhouse of 'Red Vienna,' a working monument to 1920s municipal bathing culture.",
+      "factors": {
+        "legacy": 75,
+        "experience": 50,
+        "facility": 80,
+        "community": 50,
+        "reach": 30,
+        "destination": 50
+      },
+      "reach": "IG ~3K (approx 2026)",
+      "reachVerified": false,
+      "website": null,
+      "handles": {},
+      "warning": null,
+      "takeaway": "Buy a day ticket to a working monument, not a museum — a 1926 Art Deco bathhouse still in daily use.",
+      "score": 57
+    },
+    {
+      "rank": 71,
       "name": "King Spa & Sauna Dallas",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -1857,7 +1907,7 @@
       "score": 56
     },
     {
-      "rank": 70,
+      "rank": 72,
       "name": "Wi Spa",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -1882,7 +1932,7 @@
       "score": 56
     },
     {
-      "rank": 71,
+      "rank": 73,
       "name": "Spa Castle Texas",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -1904,56 +1954,6 @@
       "handles": {},
       "warning": "Reopened July 4, 2026 after a year-long renovation closure -- very new to its current form.",
       "takeaway": "It just reopened in July 2026 after renovation, so expect a genuinely fresh build, not a worn-in bathhouse.",
-      "score": 56
-    },
-    {
-      "rank": 72,
-      "name": "Lukacs Baths",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "heritage",
-      "city": "Budapest",
-      "country": "HU",
-      "who": "Medicinal thermal bath and pool complex favored by locals, open daily with standard day access.",
-      "why": "The regulars' alternative to Szechenyi, now more prominent while Gellert and Kiraly sit closed.",
-      "factors": {
-        "legacy": 74,
-        "experience": 59,
-        "facility": 59,
-        "community": 62,
-        "reach": 30,
-        "destination": 44
-      },
-      "reach": "IG ~5K (approx 2026)",
-      "reachVerified": false,
-      "website": "https://www.lukacsfurdo.hu/en",
-      "handles": {},
-      "warning": null,
-      "takeaway": "Go for the standard day ticket if you want the locals' bath, not the tourist one.",
-      "score": 56
-    },
-    {
-      "rank": 73,
-      "name": "Amalienbad",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "heritage",
-      "city": "Vienna",
-      "country": "AT",
-      "who": "1926 Art Deco/Art Nouveau public bathhouse and pool with sauna and wellness area, daily day tickets.",
-      "why": "The grandest surviving bathhouse of 'Red Vienna,' a working monument to 1920s municipal bathing culture.",
-      "factors": {
-        "legacy": 74,
-        "experience": 49,
-        "facility": 79,
-        "community": 49,
-        "reach": 30,
-        "destination": 49
-      },
-      "reach": "IG ~3K (approx 2026)",
-      "reachVerified": false,
-      "website": null,
-      "handles": {},
-      "warning": null,
-      "takeaway": "Buy a day ticket to a working monument, not a museum — a 1926 Art Deco bathhouse still in daily use.",
       "score": 56
     },
     {
@@ -2087,6 +2087,33 @@
     },
     {
       "rank": 79,
+      "name": "Caracalla Spa",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "modern",
+      "city": "Baden-Baden",
+      "country": "DE",
+      "who": "1985-built swimwear-required thermal pool and sauna complex next to Friedrichsbad, day access.",
+      "why": "The contemporary counterpart that carries Baden-Baden's thermal tradition to a broader, mixed-swimwear public.",
+      "factors": {
+        "legacy": 45,
+        "experience": 65,
+        "facility": 70,
+        "community": 50,
+        "reach": 42,
+        "destination": 55
+      },
+      "reach": "IG 18K (verified 2026-08, shared account with Friedrichsbad)",
+      "reachVerified": true,
+      "website": "https://www.carasana.de/en/caracalla/",
+      "handles": {
+        "instagram": "https://instagram.com/caracallatherme_friedrichsbad"
+      },
+      "warning": null,
+      "takeaway": "Bring swimwear — unlike its neighbor Friedrichsbad, this thermal complex is mixed and clothed, not a nude circuit.",
+      "score": 55
+    },
+    {
+      "rank": 80,
       "name": "Saxon Spa",
       "segment": "Hotel & Destination Spas",
       "tier": "modern",
@@ -2113,7 +2140,7 @@
       "score": 55
     },
     {
-      "rank": 80,
+      "rank": 81,
       "name": "The Standard Spa, Miami Beach",
       "segment": "Hotel & Destination Spas",
       "tier": "modern",
@@ -2140,7 +2167,7 @@
       "score": 55
     },
     {
-      "rank": 81,
+      "rank": 82,
       "name": "Ojo Caliente Mineral Springs",
       "segment": "Lagoons, Springs & Thermal Resorts",
       "tier": "heritage",
@@ -2165,7 +2192,7 @@
       "score": 55
     },
     {
-      "rank": 82,
+      "rank": 83,
       "name": "Banff Upper Hot Springs",
       "segment": "Lagoons, Springs & Thermal Resorts",
       "tier": "heritage",
@@ -2190,7 +2217,7 @@
       "score": 55
     },
     {
-      "rank": 83,
+      "rank": 84,
       "name": "Polynesian Spa",
       "segment": "Lagoons, Springs & Thermal Resorts",
       "tier": "heritage",
@@ -2217,7 +2244,7 @@
       "score": 55
     },
     {
-      "rank": 84,
+      "rank": 85,
       "name": "Solaniwa Onsen Osaka Bay Tower",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -2242,7 +2269,7 @@
       "score": 54
     },
     {
-      "rank": 85,
+      "rank": 86,
       "name": "King Spa & Sauna Chicago",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -2269,7 +2296,7 @@
       "score": 54
     },
     {
-      "rank": 86,
+      "rank": 87,
       "name": "Yunomori Onsen & Spa",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -2293,33 +2320,6 @@
       },
       "warning": null,
       "takeaway": "Pick any branch for a proper communal onsen soak — this introduced authentic Japanese hot-bath culture to Bangkok.",
-      "score": 54
-    },
-    {
-      "rank": 87,
-      "name": "Caracalla Spa",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "modern",
-      "city": "Baden-Baden",
-      "country": "DE",
-      "who": "1985-built swimwear-required thermal pool and sauna complex next to Friedrichsbad, day access.",
-      "why": "The contemporary counterpart that carries Baden-Baden's thermal tradition to a broader, mixed-swimwear public.",
-      "factors": {
-        "legacy": 44,
-        "experience": 64,
-        "facility": 69,
-        "community": 49,
-        "reach": 42,
-        "destination": 54
-      },
-      "reach": "IG 18K (verified 2026-08, shared account with Friedrichsbad)",
-      "reachVerified": true,
-      "website": "https://www.carasana.de/en/caracalla/",
-      "handles": {
-        "instagram": "https://instagram.com/caracallatherme_friedrichsbad"
-      },
-      "warning": null,
-      "takeaway": "Bring swimwear — unlike its neighbor Friedrichsbad, this thermal complex is mixed and clothed, not a nude circuit.",
       "score": 54
     },
     {
@@ -2374,6 +2374,31 @@
     },
     {
       "rank": 90,
+      "name": "Veli Bej Bath",
+      "segment": "Historic Bathhouses & Thermal Palaces",
+      "tier": "heritage",
+      "city": "Budapest",
+      "country": "HU",
+      "who": "16th-century Ottoman bathhouse restored and reopened in 2012, small domed pool plus four side pools, daily day tickets.",
+      "why": "A quiet, authentic Ottoman-era bath that has gained weight now that Gellert and Kiraly are shut for renovation.",
+      "factors": {
+        "legacy": 77,
+        "experience": 55,
+        "facility": 60,
+        "community": 50,
+        "reach": 25,
+        "destination": 40
+      },
+      "reach": "IG ~2K (approx 2026)",
+      "reachVerified": false,
+      "website": "https://bathsbudapest.com/veli-bej-bath",
+      "handles": {},
+      "warning": null,
+      "takeaway": "Go for the quiet, smaller domed pool over the big tourist baths — an authentic Ottoman bath worth the day ticket.",
+      "score": 53
+    },
+    {
+      "rank": 91,
       "name": "Banya No.1",
       "segment": "Historic Bathhouses & Thermal Palaces",
       "tier": "modern",
@@ -2382,12 +2407,12 @@
       "who": "Russian-style banya and spa club opened 2016 (Hoxton flagship), public sessions plus membership.",
       "why": "Brought authentic banya ritual culture to a Western capital and has since expanded to Paris and Tbilisi.",
       "factors": {
-        "legacy": 34,
-        "experience": 64,
-        "facility": 59,
-        "community": 69,
+        "legacy": 35,
+        "experience": 65,
+        "facility": 60,
+        "community": 70,
         "reach": 43,
-        "destination": 49
+        "destination": 50
       },
       "reach": "IG 21K (verified 2026-08)",
       "reachVerified": true,
@@ -2400,13 +2425,13 @@
       "score": 53
     },
     {
-      "rank": 91,
-      "name": "Myvatn Nature Baths",
+      "rank": 92,
+      "name": "Earth Lagoon Myvatn",
       "segment": "Lagoons, Springs & Thermal Resorts",
       "tier": "modern",
       "city": "Myvatn",
       "country": "IS",
-      "who": "Sulphur-rich geothermal lake bath in Iceland's volcanic north, with two natural-steam caves on site.",
+      "who": "Sulphur-rich geothermal lake bath in Iceland's volcanic north, with two natural-steam caves on site (formerly Myvatn Nature Baths).",
       "why": "Same mineral-blue water and drive-up day access as Blue Lagoon, at a fraction of the price and the crowd.",
       "factors": {
         "legacy": 44,
@@ -2427,7 +2452,7 @@
       "score": 53
     },
     {
-      "rank": 92,
+      "rank": 93,
       "name": "Nimbus Co",
       "segment": "Modern Recovery & Social Wellness",
       "tier": "modern",
@@ -2452,31 +2477,6 @@
       "warning": null,
       "takeaway": "Book a communal room over a private suite for the local scene — this founded Australia's contrast-therapy movement in 2016.",
       "score": 53
-    },
-    {
-      "rank": 93,
-      "name": "Veli Bej Bath",
-      "segment": "Historic Bathhouses & Thermal Palaces",
-      "tier": "heritage",
-      "city": "Budapest",
-      "country": "HU",
-      "who": "16th-century Ottoman bathhouse restored and reopened in 2012, small domed pool plus four side pools, daily day tickets.",
-      "why": "A quiet, authentic Ottoman-era bath that has gained weight now that Gellert and Kiraly are shut for renovation.",
-      "factors": {
-        "legacy": 76,
-        "experience": 54,
-        "facility": 59,
-        "community": 49,
-        "reach": 25,
-        "destination": 39
-      },
-      "reach": "IG ~2K (approx 2026)",
-      "reachVerified": false,
-      "website": "https://bathsbudapest.com/veli-bej-bath",
-      "handles": {},
-      "warning": null,
-      "takeaway": "Go for the quiet, smaller domed pool over the big tourist baths — an authentic Ottoman bath worth the day ticket.",
-      "score": 52
     },
     {
       "rank": 94,
@@ -2790,32 +2790,6 @@
       "score": 50
     },
     {
-      "name": "The Well",
-      "segment": "Modern Recovery & Social Wellness",
-      "tier": "modern",
-      "city": "New York City",
-      "country": "US",
-      "who": "Members-first wellness club combining spa, integrative medical practice, and fitness studio; day visits bookable alongside membership.",
-      "why": "A designed, membership-driven wellness club; broad medical-adjacent offering more than a focused heat/cold ritual.",
-      "factors": {
-        "legacy": 36,
-        "experience": 61,
-        "facility": 71,
-        "community": 61,
-        "reach": 32,
-        "destination": 41
-      },
-      "reach": "IG 6K (verified 2026-08)",
-      "reachVerified": true,
-      "website": "https://www.the-well.com/new-york",
-      "handles": {
-        "instagram": "https://www.instagram.com/thewell_ny/"
-      },
-      "warning": null,
-      "takeaway": "Book a day visit if you're not a member, but expect a broad medical-wellness menu, not one signature ritual.",
-      "score": 50
-    },
-    {
       "name": "Let's Relax Spa",
       "segment": "Asian Spa Culture",
       "tier": "modern",
@@ -2918,30 +2892,6 @@
       "warning": null,
       "takeaway": "Book a beach session at Golden Gardens, Alki, or Leschi — it's a small grassroots ritual, not a polished facility.",
       "score": 47
-    },
-    {
-      "name": "No. 8 Hot Springs Club",
-      "segment": "Asian Spa Culture",
-      "tier": "modern",
-      "city": "Beijing",
-      "country": "CN",
-      "who": "Chaoyang District 24-hour hot-spring bathhouse and lifestyle club with pools, saunas, dining and overnight sleep zones.",
-      "why": "A representative modern Chinese bath palace / tangquan club, illustrating Beijing's thriving 24-hour bathhouse culture.",
-      "factors": {
-        "legacy": 36,
-        "experience": 61,
-        "facility": 63,
-        "community": 56,
-        "reach": 20,
-        "destination": 41
-      },
-      "reach": "IG minimal -- market runs on WeChat/Xiaohongshu, not Instagram (approx 2026)",
-      "reachVerified": false,
-      "website": null,
-      "handles": {},
-      "warning": null,
-      "takeaway": "Go for a full overnight stay if you can — pools, saunas, dining, and sleep zones all run around the clock.",
-      "score": 46
     },
     {
       "name": "Pause Studio",
