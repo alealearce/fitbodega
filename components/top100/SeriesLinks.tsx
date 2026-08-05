@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { TOP100_LISTS } from "./lists";
+import MeasureUpCta from "./MeasureUpCta";
 
 export default function SeriesLinks({ current }: { current: string }) {
   const others = TOP100_LISTS.filter((l) => l.slug !== current);
@@ -8,6 +9,9 @@ export default function SeriesLinks({ current }: { current: string }) {
   return (
     <section className="py-20 lg:py-24 bg-bg">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="mb-16">
+          <MeasureUpCta />
+        </div>
         <div className="flex items-center gap-3 mb-4">
           <span className="w-7 h-[3px] bg-primary" aria-hidden />
           <p className="font-sans text-label-md uppercase text-primary">More of the series</p>

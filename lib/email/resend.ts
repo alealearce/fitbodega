@@ -367,3 +367,55 @@ export async function sendEscalationEmail({
     html: baseTemplate('Conversation Needs Follow-Up', body),
   });
 }
+
+// ── FitBodega 100 Audit Report ─────────────────────────────────────────────
+
+export async function sendAuditEmail(
+  to: string,
+  report: {
+    headline: string;
+    assessment: string;
+    recommendations: Array<{
+      title: string;
+      detail: string;
+      exemplarName: string;
+      exemplarRank: number;
+      listSlug: string;
+      listLabel: string;
+      study: string;
+    }>;
+    nextStep: string;
+  }
+) {
+  const recs = report.recommendations
+    .map(
+      (r, i) => `
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 20px;border:1px solid ${BORDER};">
+      <tr><td style="padding:18px;background-color:${BG};">
+        <p style="margin:0 0 6px;font-size:12px;font-family:Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#666;">0${i + 1}</p>
+        <p style="margin:0 0 8px;font-size:16px;font-family:Arial,sans-serif;font-weight:700;">${r.title}</p>
+        <p style="margin:0 0 10px;font-size:14px;font-family:Arial,sans-serif;line-height:1.6;">${r.detail}</p>
+        <p style="margin:0;font-size:13px;font-family:Arial,sans-serif;line-height:1.6;color:#444;">
+          <strong>Study:</strong> <a href="${SITE.url}${r.listSlug}" style="color:${INK};">${r.exemplarName}</a>
+          (#${r.exemplarRank}, ${r.listLabel}) &mdash; ${r.study}
+        </p>
+      </td></tr>
+    </table>`
+    )
+    .join('');
+
+  const body = `
+    <p style="margin:0 0 16px;font-size:15px;font-family:Arial,sans-serif;line-height:1.6;">${report.assessment}</p>
+    ${recs}
+    <p style="margin:0 0 24px;font-size:14px;font-family:Arial,sans-serif;line-height:1.6;">${report.nextStep}</p>
+    ${buttonHtml(`${SITE.url}/submit`, 'List Your Space')}
+    <p style="margin:24px 0 0;font-size:12px;font-family:Arial,sans-serif;color:#888;line-height:1.6;">Benchmarks reference the FitBodega 100 &mdash; world rankings of training culture, reviewed monthly. <a href="${SITE.url}/top-100" style="color:#888;">See the rankings</a>.</p>
+  `;
+
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to,
+    subject: `${report.headline} — your FitBodega 100 audit`,
+    html: baseTemplate(report.headline, body),
+  });
+}

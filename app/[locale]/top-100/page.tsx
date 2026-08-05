@@ -3,6 +3,7 @@ import Link from "next/link";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import { TOP100_LISTS } from "@/components/top100/lists";
 import Top100Card from "@/components/top100/Top100Card";
+import MeasureUpCta from "@/components/top100/MeasureUpCta";
 import influencers from "@/data/top-100/fitness-influencers.json";
 import gyms from "@/data/top-100/gyms.json";
 import retreats from "@/data/top-100/retreats.json";
@@ -176,6 +177,13 @@ export default function Top100HubPage() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ── Measure up — lead engine ── */}
+      <section className="pb-20 lg:pb-24 bg-bg">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <MeasureUpCta />
         </div>
       </section>
 
