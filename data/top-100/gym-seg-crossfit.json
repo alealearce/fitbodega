@@ -125,31 +125,6 @@
     "takeaway": "Learn from a coaching staff stacked with CrossFit Games veterans led by nine-time competitor Travis Mayer."
   },
   {
-    "name": "Royal Docks CrossFit",
-    "segment": "CrossFit & Functional",
-    "tier": "independent",
-    "city": "London",
-    "country": "GB",
-    "who": "East London box next to the ExCeL centre, one of the UK's most competition-focused CrossFit gyms.",
-    "why": "A regular stop for touring elite athletes training in London, including Mat Fraser, Tia-Clair Toomey and Rich Froning.",
-    "factors": {
-      "legacy": 55,
-      "talent": 55,
-      "facility": 55,
-      "community": 60,
-      "reach": 40,
-      "destination": 70
-    },
-    "reach": "IG 8.4K (verified 2026-08)",
-    "reachVerified": true,
-    "website": "http://www.royaldockscrossfit.com",
-    "handles": {
-      "instagram": "https://instagram.com/royaldocksfitness"
-    },
-    "warning": null,
-    "takeaway": "A regular stop for touring elite athletes — you might share a WOD with a Games champion passing through London."
-  },
-  {
     "name": "CrossFit Reykjavik",
     "segment": "CrossFit & Functional",
     "tier": "independent",
@@ -363,31 +338,6 @@
     },
     "warning": null,
     "takeaway": "Ask about the 2017 CrossFit Games Affiliate Cup banner — a genuine national title from one of Utah's first affiliates."
-  },
-  {
-    "name": "Second City CrossFit",
-    "segment": "CrossFit & Functional",
-    "tier": "independent",
-    "city": "Chicago, Illinois",
-    "country": "US",
-    "who": "One of Chicago's longest-running CrossFit boxes, a community fixture of the city's functional-fitness scene.",
-    "why": "Represents the deep bench of veteran, non-flagship urban boxes that anchor CrossFit's everyday culture in major US cities.",
-    "factors": {
-      "legacy": 50,
-      "talent": 35,
-      "facility": 45,
-      "community": 50,
-      "reach": 30,
-      "destination": 30
-    },
-    "reach": "IG 4.1K (verified 2026-08)",
-    "reachVerified": true,
-    "website": null,
-    "handles": {
-      "instagram": "https://instagram.com/secondcityfitness"
-    },
-    "warning": null,
-    "takeaway": "Experience CrossFit's everyday culture at one of Chicago's longest-running, non-flagship community boxes."
   },
   {
     "name": "Atlas Training Club",

@@ -359,29 +359,6 @@
     "takeaway": "See the pool and reformer studio leading Virgin Active's shift toward a hospitality-led, studio-rich club format."
   },
   {
-    "name": "Gymbox Covent Garden",
-    "segment": "Boutique & Luxury",
-    "tier": "chain-flagship",
-    "city": "London",
-    "country": "GB",
-    "who": "Original flagship of the UK's theatrical HIIT and boxing chain, known for stunt-style class production.",
-    "why": "Redefined UK boutique group fitness with dramatic class concepts (fire, black-light boxing) well before the format went mainstream.",
-    "factors": {
-      "legacy": 45,
-      "talent": 30,
-      "facility": 55,
-      "community": 60,
-      "reach": 40,
-      "destination": 40
-    },
-    "reach": "IG ~30K (approx 2026)",
-    "reachVerified": false,
-    "website": "https://www.gymbox.com/",
-    "handles": {},
-    "warning": null,
-    "takeaway": "Book a stunt-style class — fire, black-light boxing — the theatrical format that redefined UK group fitness early."
-  },
-  {
     "name": "SoulCycle Tribeca",
     "segment": "Boutique & Luxury",
     "tier": "chain-flagship",
@@ -428,29 +405,6 @@
     },
     "warning": null,
     "takeaway": "Expect a nightclub, not a gym floor — DJ booths and light shows are built into every workout here."
-  },
-  {
-    "name": "F45 Training Bondi Beach",
-    "segment": "Boutique & Luxury",
-    "tier": "chain-flagship",
-    "city": "Sydney",
-    "country": "AU",
-    "who": "One of the earliest F45 studios, in the beachside neighborhood where the global team-training franchise was founded.",
-    "why": "Ground zero for a chain that scaled to thousands of studios worldwide and went public on Nasdaq off the strength of this format.",
-    "factors": {
-      "legacy": 55,
-      "talent": 30,
-      "facility": 40,
-      "community": 55,
-      "reach": 40,
-      "destination": 40
-    },
-    "reach": "IG unverified for this specific studio; global F45 brand account is far larger (2026)",
-    "reachVerified": false,
-    "website": "https://f45training.com/au/studio/bondibeach/",
-    "handles": {},
-    "warning": null,
-    "takeaway": "Visit the beachside studio where the F45 team-training format began before scaling to a Nasdaq listing."
   },
   {
     "name": "Rumble Boxing New York",
