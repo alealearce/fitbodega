@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { SITE } from "@/lib/config/site";
 
 export const metadata: Metadata = {
-  title: "About — In Support of the Athletes",
+  title: "About — In Support of the Ones That Keep Us Moving",
   description: `${SITE.name} cares about everything that keeps us moving and the ones that help us get there — the spaces, the coaches, the stories, and the rankings.`,
   alternates: { canonical: `${SITE.url}/about` },
 };
@@ -33,9 +33,9 @@ export default function AboutPage() {
             <p className="font-sans text-label-md uppercase text-primary">The Story</p>
           </div>
           <h1 className="font-serif text-display-xl uppercase text-on-surface max-w-5xl">
-            In support of the athletes
+            In support of the ones
             <br />
-            and the ones that keep us moving<span className="text-primary">.</span>
+            that <span className="text-primary">keep us moving</span>.
           </h1>
           <div className="max-w-2xl mt-10 space-y-6 font-sans text-lg text-on-surface-variant leading-relaxed">
             <p>
