@@ -130,11 +130,31 @@ const DATA = [
     why: "Claims 1,000+ client transformations in two years by coaching conditions, not just calories.",
     takeaway: "Specialize in the client the industry finds too complicated.",
     f: [60, 55, 55, 70, 75] },
-  { name: "Phaedra Wright", seg: "Studio Founders", ig: "vipfitnessandlifestyle", followers: 48700, reachLabel: "IG 49K",
+  { name: "Phaedra Wright", seg: "Studio Founders", ig: "phaedrafitness", followers: 174300, reachLabel: "IG 174K + studio 49K",
     who: "Founder and CEO of VIP Fitness & Lifestyle on West Broadway, running her transformation studio since 2011.",
-    why: "A 14-year-old brick-and-mortar coaching business with a 49K audience — proof the studio and the feed can grow each other.",
+    why: "A 14-year-old brick-and-mortar coaching business plus a personal account near 175K — proof the studio and the feed can grow each other.",
     takeaway: "The studio gives the content a home; the content fills the studio.",
     f: [55, 70, 60, 70, 70] },
+  { name: "Jazmin Gillespie", seg: "Bodybuilding & Physique", ig: "missjazzy_fit", followers: 753000, reachLabel: "IG 753K",
+    who: "Vancouver certified trainer and international figure competitor with a 3rd-degree black belt in karate, coaching in person at P.R. Fitness Studio and online.",
+    why: "The biggest physique following in the city — a mother of two training 5-7 days a week and showing exactly how the shoulders and quads got built.",
+    takeaway: "Short, brutal, consistent sessions beat long occasional ones — and film them.",
+    f: [65, 70, 55, 60, 75] },
+  { name: "Tanvi Parikh", seg: "Online Coaching", ig: "iwillgetlean", followers: 257200, reachLabel: "IG 257K",
+    who: "Vancouver coach behind I Will Get Lean, focused on fat loss for women with insulin resistance.",
+    why: "Took one under-served metabolic problem and built a quarter-million-strong audience around solving it.",
+    takeaway: "Pick the problem your audience has been told is their fault, and solve it.",
+    f: [60, 55, 55, 65, 70] },
+  { name: "Sapphire Amegago", seg: "Creators", ig: "actuallysapphire", followers: 210100, reachLabel: "IG 210K",
+    who: "Vancouver fitness creator documenting the training life that followed a 60-pound weight loss.",
+    why: "One of the city's largest fitness audiences, built on the most relatable arc in the gym: the journey, not the destination.",
+    takeaway: "Document the journey in public; the audience arrives mid-story.",
+    f: [65, 40, 50, 40, 70] },
+  { name: "Kelsey Ellis", seg: "Inclusive Fitness", ig: "healthy_with_kelsey", followers: 158400, reachLabel: "IG 158K",
+    who: "Vancouver certified trainer and body-positive fitness voice behind Healthy With Kelsey, known for curvy-girl running content.",
+    why: "Carries the weight-inclusive training conversation to a six-figure audience — the running content reaches people the industry told to stay home.",
+    takeaway: "Represent the client the ads ignore and they will find you.",
+    f: [65, 70, 65, 55, 70] },
   { name: "Abtin Javidi", seg: "Physique Coaching", ig: "abtin_javidi", followers: 26700, reachLabel: "IG 27K",
     who: "Vancouver bodybuilding prep coach — Body Classic champion with an MBA and ISSA and DotFit certifications.",
     why: "Runs a stage-prep coaching business where the before-and-afters are his own competitors.",
@@ -260,6 +280,26 @@ const DATA = [
     why: "The practitioner model — regulated credential, small roster, deep results — over the influencer model.",
     takeaway: "A regulated title is a credibility floor no follower count buys.",
     f: [45, 70, 40, 45, 55] },
+  { name: "Daniela Dib", seg: "Studio Founders", ig: "danieladibfitness", followers: 56300, reachLabel: "IG 31K + TikTok 25K",
+    who: "Former SoulCycle instructor in New York and LA who came home to open DibFit Cycle, a boutique cycling studio on Homer Street downtown.",
+    why: "Brought big-market spin pedigree back to Vancouver and built the studio around her own name and following — local press covered the opening.",
+    takeaway: "Train in the biggest market you can, then bring the standard home.",
+    f: [60, 70, 60, 75, 70] },
+  { name: "Clara Roberts-Oss", seg: "Yoga & Pilates", ig: "clararobertsoss", followers: 9373, reachLabel: "IG 9.4K",
+    who: "Vancouver Vinyasa teacher since 2006, founder of the Lila School of Vinyasa Yoga and the Practice with Clara online studio.",
+    why: "Teaches teachers through her own school, runs a subscription studio, and headlines stages like Wanderlust Whistler — a full yoga business built on two decades of practice.",
+    takeaway: "A school and a subscription outlast any studio schedule.",
+    f: [55, 75, 60, 70, 75] },
+  { name: "Gracie", seg: "Creators", ig: "wellnessbygracie", followers: 89300, reachLabel: "TikTok 84K + IG 5K",
+    who: "Vancouver fitness creator whose gym-humor and relatable training content built an 84K TikTok following, with KEEPTHATPUMP, Magnum Nutraceuticals, and FitnessAI sponsorships.",
+    why: "Proof the next wave of local fitness influence is being built on TikTok, not Instagram.",
+    takeaway: "Humor lowers the barrier to the gym better than another form-check reel.",
+    f: [65, 40, 40, 50, 65] },
+  { name: "Brittney Parker", seg: "Personal Training", ig: "brittneyparkerr", followers: 8441, reachLabel: "IG 8.4K",
+    who: "Certified trainer coaching at House Concepts in Vancouver House and Rize Fitness in Yaletown, with a mind-body angle rooted in her own mental-health story.",
+    why: "A working downtown coach whose brand is the honest middle of training — strength, rehab, and the head game.",
+    takeaway: "Your story is the differentiator; the certifications are just the floor.",
+    f: [55, 60, 45, 50, 60] },
   { name: "Pedro Perotti", seg: "Personal Training", ig: "pedroperotti", followers: null, reachLabel: "IG", r: 25,
     who: "Owner of 7M Personal Training, twice featured by Daily Hive for workouts shot along the Seawall and Stanley Park.",
     why: "Nearly a decade of local-press-worthy training content set against the city's best backdrops.",
@@ -267,29 +307,39 @@ const DATA = [
     f: [45, 55, 45, 45, 55] },
 ];
 
+// [name, why, profileUrl] — link goes to whichever profile holds their reach.
 const BUBBLING = [
-  ["Arian Kanani", "84K following, Sensei Academy mentorship — home city unconfirmed"],
-  ["Ash Newlove", "140K on TikTok for nutrition coaching — BC-based, city unconfirmed"],
-  ["Sara Fiorvento", "351K strength creator — signals point to a move to Australia"],
-  ["Nat (@nattybeefit)", "tops a BC influencer roundup — city unconfirmed"],
-  ["Ana Restrepo", "bilingual fitness creator — BC-wide, city unconfirmed"],
-  ["Easton Elliott", "transformation bodybuilder — BC-wide, city unconfirmed"],
-  ["Mitch (@mitchprocoach)", "men's physique competitor and online coach"],
-  ["Gage Brunet", "Orangetheory Canada coach, Popeye's Supplements ambassador"],
-  ["Ibby Ali", "New Edge Fitness founder, boot-camp community builder"],
-  ["Karina (@lemoncrystals)", "trainer-nutritionist at Quayside Sweat, North Van"],
-  ["Sofi Manko", "ex-elite gymnast, MANKO activewear founder"],
-  ["Elnaz Imani", "bodybuilding and functional coach at Kalev Fitness"],
-  ["Mira Lutsky", "Core Community Pilates founder, ex-Equinox launch team"],
-  ["Kate (@coachkate70)", "masters CrossFit athlete, 192nd worldwide 55-59"],
-  ["Wawa (@wawa.fitness)", "CPU/BCPA 93kg competitive powerlifter"],
-  ["Jadyn Shen", "bilingual ACE trainer"],
-  ["Rhea (@fitwithrhea)", "Lagree instructor"],
-  ["Jessica Lee (@jackedbyjess_)", "women's strength coach"],
-  ["Dave Smith", "Orangetheory coach developer"],
+  ["Arian Kanani", "84K following, Sensei Academy mentorship — home city unconfirmed", "https://instagram.com/iamariankanani"],
+  ["Ash Newlove", "140K on TikTok for nutrition coaching — BC-based, city unconfirmed", "https://www.tiktok.com/@sweat_effect"],
+  ["Sara Fiorvento", "351K strength creator — signals point to a move to Australia", "https://instagram.com/fitsarax"],
+  ["Nat", "tops a BC influencer roundup — city unconfirmed", "https://instagram.com/nattybeefit"],
+  ["Ana Restrepo", "bilingual fitness creator — BC-wide, city unconfirmed", "https://instagram.com/anarestrepofit"],
+  ["Easton Elliott", "transformation bodybuilder — BC-wide, city unconfirmed", "https://instagram.com/eastonelliottfit"],
+  ["Mitch", "men's physique competitor and online coach", "https://instagram.com/mitchprocoach"],
+  ["Gage Brunet", "Orangetheory Canada coach, Popeye's Supplements ambassador", "https://instagram.com/gagebrunet29"],
+  ["Ibby Ali", "New Edge Fitness founder, boot-camp community builder", "https://instagram.com/ibbyali_"],
+  ["Karina", "trainer-nutritionist at Quayside Sweat, North Van", "https://instagram.com/lemoncrystals"],
+  ["Sofi Manko", "ex-elite gymnast, MANKO activewear founder", "https://instagram.com/fit.bysofi"],
+  ["Elnaz Imani", "bodybuilding and functional coach at Kalev Fitness", "https://instagram.com/elifit.canada"],
+  ["Mira Lutsky", "Core Community Pilates founder, ex-Equinox launch team", null],
+  ["Kate", "masters CrossFit athlete, 192nd worldwide 55-59", "https://instagram.com/coachkate70"],
+  ["Wawa", "CPU/BCPA 93kg competitive powerlifter", "https://instagram.com/wawa.fitness"],
+  ["Jadyn Shen", "bilingual ACE trainer", "https://instagram.com/jadyn.fitness"],
+  ["Rhea", "Lagree instructor", "https://instagram.com/fitwithrhea"],
+  ["Jessica Lee", "women's strength coach", "https://instagram.com/jackedbyjess_"],
+  ["Dave Smith", "Orangetheory coach developer", "https://instagram.com/davesmith.otf"],
+  // Surfaced by the Feedspot/Modash validation sweep (2026-08-05) — tracked
+  // for the next review pending residency + fact verification.
+  ["Kyla", "IFBB Pro bikini posing and contest-prep coach, 17K", "https://instagram.com/kylakinna.ifbbpro"],
+  ["Alina Trubina", "fitness coach and nutritionist, 13K — city unconfirmed", "https://instagram.com/alinka_citrus"],
+  ["Tarek Elshorbagy", "Evolve Strength Vancouver trainer, 13K", "https://instagram.com/tarek_shorbagy"],
+  ["Geoff Bagshaw", "Equinox West Georgia group fitness manager, 11K", "https://instagram.com/geoffbagshaw"],
+  ["Sapna Lingam", "fat-loss and body-sculpting trainer, 10K — city unconfirmed", "https://instagram.com/shredwithsapna"],
+  ["Maria Lee", "vegan bodybuilding PT studio owner in Richmond", "https://instagram.com/meatfreemarialee.pt"],
+  ["Ian McWalter", "Canada's Top Fitness Trainer 2022 — city unconfirmed", "https://instagram.com/ianmcfit"],
 ];
 
-const rows = DATA.filter(d => !d.skip).map(d => {
+const scored = DATA.filter(d => !d.skip).map(d => {
   const r = reachScore(d.followers, d.r);
   const [engagement, credibility, impact, commerce, consistency] = d.f;
   const raw =
@@ -298,6 +348,14 @@ const rows = DATA.filter(d => !d.skip).map(d => {
   const score = Math.round(raw * (d.tier === "amplifier" ? 0.9 : 1));
   return { ...d, score };
 }).sort((a, b) => b.score - a.score);
+
+// Exactly 50 ranked; overflow relegates to Bubbling Under with a profile link.
+const rows = scored.slice(0, 50);
+const relegated = scored.slice(50).map(d => [
+  d.name,
+  `score ${d.score}, relegated at the last review — ${d.seg.toLowerCase()}`,
+  `https://instagram.com/${d.ig}`,
+]);
 
 const TIERS = [
   [1, "## The Podium"],
@@ -322,7 +380,9 @@ rows.forEach((d, i) => {
 });
 
 md += `---\n\n## Bubbling Under\n\nResearched and tracked, currently outside the 50 — because the following is still building, or because we could not pin residency to Metro Vancouver. The review promotes and relegates.\n\n`;
-md += BUBBLING.map(([n, w]) => `- **${n}** — ${w}`).join("\n") + "\n";
+md += [...relegated, ...BUBBLING]
+  .map(([n, w, url]) => `- **${url ? `[${n}](${url})` : n}** — ${w}`)
+  .join("\n") + "\n";
 
 writeFileSync(new URL("./van50-entries.md", import.meta.url), md);
 console.log(`entries: ${rows.length}`);
