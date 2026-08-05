@@ -51,8 +51,8 @@ export default function AboutPage() {
               turned Sunday mornings into a movement.
             </p>
             <p className="text-on-surface">
-              {SITE.name} exists to put those people on the record — a magazine for
-              fitness and recovery culture.
+              {SITE.name} is a directory and magazine for fitness and recovery
+              culture.
             </p>
             <p>
               The directory is the index. The Journal is the stories. The FitBodega
