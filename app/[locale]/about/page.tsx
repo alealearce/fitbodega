@@ -4,8 +4,8 @@ import { ArrowUpRight } from "lucide-react";
 import { SITE } from "@/lib/config/site";
 
 export const metadata: Metadata = {
-  title: "About — The Local Fitness Magazine",
-  description: `${SITE.name} showcases Vancouver's fitness and recovery talent — the spaces, the coaches, and the stories behind them.`,
+  title: "About — In Support of the Athletes",
+  description: `${SITE.name} cares about everything that keeps us moving and the ones that help us get there — the spaces, the coaches, the stories, and the rankings.`,
   alternates: { canonical: `${SITE.url}/about` },
 };
 
@@ -33,25 +33,30 @@ export default function AboutPage() {
             <p className="font-sans text-label-md uppercase text-primary">The Story</p>
           </div>
           <h1 className="font-serif text-display-xl uppercase text-on-surface max-w-5xl">
-            Local talent deserves
+            In support of the athletes
             <br />
-            a bigger stage<span className="text-primary">.</span>
+            and the ones that keep us moving<span className="text-primary">.</span>
           </h1>
           <div className="max-w-2xl mt-10 space-y-6 font-sans text-lg text-on-surface-variant leading-relaxed">
             <p>
-              Every city has them. The gym that started in a garage. The coach who
-              rebuilt a hundred bodies before anyone knew their name. The sauna house
-              two friends opened because nothing like it existed here yet. The run
-              crew that turned Sunday mornings into a movement.
+              We care about everything that keeps us moving. The training and the
+              recovery. The cold plunge after the hard session. The meal that fuels
+              tomorrow. The run that clears your head.
+            </p>
+            <p>
+              And we care about the ones that help us get there. The gym that started
+              in a garage. The coach who rebuilt a hundred bodies before anyone knew
+              their name. The sauna house two friends opened because nothing like it
+              existed here yet. The dietitian, the store owner, the run crew that
+              turned Sunday mornings into a movement.
             </p>
             <p className="text-on-surface">
               {SITE.name} exists to put those people on the record — a magazine for
               fitness and recovery culture.
             </p>
             <p>
-              The directory is the index. The Journal is the stories: how these
-              spaces got started, how they train, what they&apos;ve learned, and where
-              they&apos;re going.
+              The directory is the index. The Journal is the stories. The FitBodega
+              100 is the top players in the game.
             </p>
           </div>
         </div>
@@ -158,7 +163,7 @@ export default function AboutPage() {
       {/* ── How it works — two pillars, typographic ── */}
       <section className="py-24 lg:py-32 bg-bg">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16">
+          <div className="grid lg:grid-cols-3 gap-16">
             <div>
               <p className="font-sans text-label-sm text-on-surface-variant mb-4">01</p>
               <h3 className="font-serif text-3xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface">
@@ -190,6 +195,23 @@ export default function AboutPage() {
                 className="inline-flex items-center gap-2 mt-7 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
               >
                 Read the Journal
+                <ArrowUpRight size={15} />
+              </Link>
+            </div>
+            <div>
+              <p className="font-sans text-label-sm text-on-surface-variant mb-4">03</p>
+              <h3 className="font-serif text-3xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface">
+                The FitBodega 100
+              </h3>
+              <p className="font-sans text-base text-on-surface-variant leading-relaxed mt-5 max-w-md">
+                The top players in the game. World rankings of the people, places,
+                and spaces that define training culture.
+              </p>
+              <Link
+                href="/top-100"
+                className="inline-flex items-center gap-2 mt-7 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
+              >
+                See the rankings
                 <ArrowUpRight size={15} />
               </Link>
             </div>
