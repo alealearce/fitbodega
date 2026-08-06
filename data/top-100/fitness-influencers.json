@@ -17,7 +17,7 @@
     },
     "disclaimer": "Follower counts are approximate (2026) and the ranking is reviewed monthly. Educational and editorial — inclusion is not an endorsement, and scores measure influence, not advice quality.",
     "series": "The FitBodega 100",
-    "updated": "2026-08-04",
+    "updated": "2026-08-06",
     "reviewCadence": "monthly"
   },
   "entries": [
@@ -1689,6 +1689,33 @@
     },
     {
       "rank": 63,
+      "name": "Bryan Johnson",
+      "segment": "Science & Coaching",
+      "tier": "amplifier",
+      "country": "US",
+      "who": "Tech entrepreneur running the 'Don't Die' Blueprint longevity protocol on himself, publishing exhaustive personal training and biomarker data.",
+      "why": "The biggest voice in longevity: turned his own body into a public experiment, publishes every blood panel and biomarker, and his 'Don't Die' Netflix documentary pushed protocol culture into the mainstream.",
+      "factors": {
+        "reach": 66,
+        "engagement": 72,
+        "credibility": 69,
+        "impact": 83,
+        "commerce": 67,
+        "consistency": 71
+      },
+      "reach": "IG 3M (verified 2026-08) · Blueprint brand account 64K",
+      "reachVerified": true,
+      "website": "https://blueprint.bryanjohnson.com",
+      "handles": {
+        "instagram": "https://instagram.com/bryanjohnson_",
+        "x": "https://x.com/bryan_johnson"
+      },
+      "warning": null,
+      "takeaway": "Track and publish your own detailed biomarker data — transparency about your own body drives interest.",
+      "score": 64
+    },
+    {
+      "rank": 64,
       "name": "Nick Walker",
       "segment": "Bodybuilding & Physique",
       "tier": "core",
@@ -1714,7 +1741,7 @@
       "score": 63
     },
     {
-      "rank": 64,
+      "rank": 65,
       "name": "Sara Sigmundsdottir",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -1740,7 +1767,7 @@
       "score": 63
     },
     {
-      "rank": 65,
+      "rank": 66,
       "name": "Mark Rippetoe",
       "segment": "Science & Coaching",
       "tier": "core",
@@ -1767,7 +1794,7 @@
       "score": 63
     },
     {
-      "rank": 66,
+      "rank": 67,
       "name": "Kelly Starrett",
       "segment": "Science & Coaching",
       "tier": "core",
@@ -1794,7 +1821,7 @@
       "score": 63
     },
     {
-      "rank": 67,
+      "rank": 68,
       "name": "Tren Twins",
       "segment": "Bodybuilding & Physique",
       "tier": "core",
@@ -1821,7 +1848,7 @@
       "score": 62
     },
     {
-      "rank": 68,
+      "rank": 69,
       "name": "Bradley Martyn",
       "segment": "Bodybuilding & Physique",
       "tier": "core",
@@ -1848,7 +1875,7 @@
       "score": 62
     },
     {
-      "rank": 69,
+      "rank": 70,
       "name": "Joey Swoll",
       "segment": "Bodybuilding & Physique",
       "tier": "core",
@@ -1875,7 +1902,7 @@
       "score": 62
     },
     {
-      "rank": 70,
+      "rank": 71,
       "name": "Laura Horvath",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -1901,7 +1928,7 @@
       "score": 62
     },
     {
-      "rank": 71,
+      "rank": 72,
       "name": "Don Saladino",
       "segment": "Mainstream & Celebrity Trainers",
       "tier": "core",
@@ -1928,7 +1955,7 @@
       "score": 62
     },
     {
-      "rank": 72,
+      "rank": 73,
       "name": "Eugene Teo",
       "segment": "Science & Coaching",
       "tier": "core",
@@ -1955,7 +1982,7 @@
       "score": 62
     },
     {
-      "rank": 73,
+      "rank": 74,
       "name": "Greg Nuckols",
       "segment": "Science & Coaching",
       "tier": "core",
@@ -1982,7 +2009,7 @@
       "score": 62
     },
     {
-      "rank": 74,
+      "rank": 75,
       "name": "Dr. Gabrielle Lyon",
       "segment": "Science & Coaching",
       "tier": "core",
@@ -2009,7 +2036,7 @@
       "score": 62
     },
     {
-      "rank": 75,
+      "rank": 76,
       "name": "Grow with Jo",
       "segment": "Women's Fitness",
       "tier": "core",
@@ -2036,7 +2063,7 @@
       "score": 62
     },
     {
-      "rank": 76,
+      "rank": 77,
       "name": "Tammy Hembrow",
       "segment": "Women's Fitness",
       "tier": "core",
@@ -2063,7 +2090,7 @@
       "score": 62
     },
     {
-      "rank": 77,
+      "rank": 78,
       "name": "David Laid",
       "segment": "Bodybuilding & Physique",
       "tier": "core",
@@ -2090,7 +2117,7 @@
       "score": 61
     },
     {
-      "rank": 78,
+      "rank": 79,
       "name": "Alexander Roncevic",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -2116,7 +2143,7 @@
       "score": 61
     },
     {
-      "rank": 79,
+      "rank": 80,
       "name": "FitnessFAQs (Daniel Vadnal)",
       "segment": "Hybrid, Endurance & Calisthenics",
       "tier": "core",
@@ -2143,7 +2170,7 @@
       "score": 61
     },
     {
-      "rank": 80,
+      "rank": 81,
       "name": "Jillian Michaels",
       "segment": "Mainstream & Celebrity Trainers",
       "tier": "core",
@@ -2169,7 +2196,7 @@
       "score": 61
     },
     {
-      "rank": 81,
+      "rank": 82,
       "name": "Lucy Wyndham-Read",
       "segment": "Mainstream & Celebrity Trainers",
       "tier": "core",
@@ -2196,7 +2223,7 @@
       "score": 61
     },
     {
-      "rank": 82,
+      "rank": 83,
       "name": "Stephanie Buttermore",
       "segment": "Women's Fitness",
       "tier": "core",
@@ -2223,7 +2250,7 @@
       "score": 61
     },
     {
-      "rank": 83,
+      "rank": 84,
       "name": "Will Tennyson",
       "segment": "Bodybuilding & Physique",
       "tier": "core",
@@ -2250,7 +2277,7 @@
       "score": 60
     },
     {
-      "rank": 84,
+      "rank": 85,
       "name": "Jeffrey Adler",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -2276,7 +2303,7 @@
       "score": 60
     },
     {
-      "rank": 85,
+      "rank": 86,
       "name": "Brooke Wells",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -2302,7 +2329,7 @@
       "score": 60
     },
     {
-      "rank": 86,
+      "rank": 87,
       "name": "Marston Sawyers",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -2329,7 +2356,7 @@
       "score": 60
     },
     {
-      "rank": 87,
+      "rank": 88,
       "name": "Craig Richey",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -2353,7 +2380,7 @@
       "score": 60
     },
     {
-      "rank": 88,
+      "rank": 89,
       "name": "Wim Hof",
       "segment": "Hybrid, Endurance & Calisthenics",
       "tier": "amplifier",
@@ -2379,7 +2406,7 @@
       "score": 60
     },
     {
-      "rank": 89,
+      "rank": 90,
       "name": "Terry Crews",
       "segment": "Mainstream & Celebrity Trainers",
       "tier": "amplifier",
@@ -2405,7 +2432,7 @@
       "score": 60
     },
     {
-      "rank": 90,
+      "rank": 91,
       "name": "Harley Pasternak",
       "segment": "Mainstream & Celebrity Trainers",
       "tier": "core",
@@ -2432,7 +2459,7 @@
       "score": 60
     },
     {
-      "rank": 91,
+      "rank": 92,
       "name": "growingannanas (Anna Engelschall)",
       "segment": "Mainstream & Celebrity Trainers",
       "tier": "core",
@@ -2458,7 +2485,7 @@
       "score": 60
     },
     {
-      "rank": 92,
+      "rank": 93,
       "name": "Menno Henselmans",
       "segment": "Science & Coaching",
       "tier": "core",
@@ -2485,7 +2512,7 @@
       "score": 60
     },
     {
-      "rank": 93,
+      "rank": 94,
       "name": "Meg Squats",
       "segment": "Science & Coaching",
       "tier": "core",
@@ -2512,7 +2539,7 @@
       "score": 60
     },
     {
-      "rank": 94,
+      "rank": 95,
       "name": "Sydney Cummings",
       "segment": "Women's Fitness",
       "tier": "core",
@@ -2539,7 +2566,7 @@
       "score": 60
     },
     {
-      "rank": 95,
+      "rank": 96,
       "name": "Heather Robertson",
       "segment": "Women's Fitness",
       "tier": "core",
@@ -2566,7 +2593,7 @@
       "score": 60
     },
     {
-      "rank": 96,
+      "rank": 97,
       "name": "Alex Eubank",
       "segment": "Bodybuilding & Physique",
       "tier": "core",
@@ -2593,7 +2620,7 @@
       "score": 59
     },
     {
-      "rank": 97,
+      "rank": 98,
       "name": "Jesse James West",
       "segment": "Bodybuilding & Physique",
       "tier": "core",
@@ -2620,7 +2647,7 @@
       "score": 59
     },
     {
-      "rank": 98,
+      "rank": 99,
       "name": "James Sprague",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -2646,7 +2673,7 @@
       "score": 59
     },
     {
-      "rank": 99,
+      "rank": 100,
       "name": "Noah Ohlsen",
       "segment": "CrossFit, Hyrox & Competitive",
       "tier": "core",
@@ -2670,9 +2697,10 @@
       "warning": null,
       "takeaway": "Show up every year without fail — durability earns respect that single peak performances don't.",
       "score": 59
-    },
+    }
+  ],
+  "bubblingUnder": [
     {
-      "rank": 100,
       "name": "Lazar Novović",
       "segment": "Hybrid, Endurance & Calisthenics",
       "tier": "core",
@@ -2694,9 +2722,7 @@
       "warning": null,
       "takeaway": "Demonstrate one extreme, verifiable strength feat — a single striking clip can carry a whole discipline.",
       "score": 59
-    }
-  ],
-  "bubblingUnder": [
+    },
     {
       "name": "Mark Wahlberg",
       "segment": "Mainstream & Celebrity Trainers",
@@ -2771,32 +2797,6 @@
       },
       "warning": null,
       "takeaway": "Bridge old-school gym coaching with modern video breakdowns of barbell technique.",
-      "score": 59
-    },
-    {
-      "name": "Bryan Johnson",
-      "segment": "Science & Coaching",
-      "tier": "amplifier",
-      "country": "US",
-      "who": "Tech entrepreneur running the 'Don't Die' Blueprint longevity protocol on himself, publishing exhaustive personal training and biomarker data.",
-      "why": "Turned his own body into a public longevity experiment; Blueprint training and diet updates regularly go viral well outside fitness media.",
-      "factors": {
-        "reach": 66,
-        "engagement": 72,
-        "credibility": 52,
-        "impact": 75,
-        "commerce": 67,
-        "consistency": 65
-      },
-      "reach": "IG 3M (verified 2026-08) · Blueprint brand account 64K",
-      "reachVerified": true,
-      "website": "https://blueprint.bryanjohnson.com",
-      "handles": {
-        "instagram": "https://instagram.com/bryanjohnson_",
-        "x": "https://x.com/bryan_johnson"
-      },
-      "warning": null,
-      "takeaway": "Track and publish your own detailed biomarker data — transparency about your own body drives interest.",
       "score": 59
     },
     {

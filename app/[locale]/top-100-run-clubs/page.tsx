@@ -12,6 +12,7 @@ import {
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import SeriesLinks from "@/components/top100/SeriesLinks";
 import Top100Ledger, { type LedgerEntry } from "@/components/top100/Ledger";
+import BubblingUnder from "@/components/top100/BubblingUnder";
 import { getClaimedMap } from "@/lib/top100/claims";
 import data from "@/data/top-100/runclubs.json";
 
@@ -179,14 +180,7 @@ export default async function Top100RunClubsPage() {
               Researched and scored, currently outside the 100. The monthly review promotes and
               relegates.
             </p>
-            <div className="flex flex-wrap gap-x-6 gap-y-3">
-              {bubbling.map((b) => (
-                <span key={b.name} className="font-sans text-sm">
-                  <span className="text-on-surface font-medium">{b.name}</span>{" "}
-                  <span className="text-on-surface-variant tabular-nums">{b.score}</span>
-                </span>
-              ))}
-            </div>
+            <BubblingUnder entries={bubbling} />
           </div>
         </section>
       )}
