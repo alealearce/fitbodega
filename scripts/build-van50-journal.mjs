@@ -377,6 +377,7 @@ rows.forEach((d, i) => {
   md += `${d.who} ${d.why}\n\n`;
   md += `**Reach:** ${reach} · **Score: ${d.score}**\n\n`;
   md += `**Steal this:** ${d.takeaway}\n\n`;
+  md += `[Claim your profile →](/top-100/claim?list=van50&rank=${rank})\n\n`;
 });
 
 md += `---\n\n## Bubbling Under\n\nResearched and tracked, currently outside the 50 — because the following is still building, or because we could not pin residency to Metro Vancouver. The review promotes and relegates.\n\n`;
@@ -385,5 +386,35 @@ md += [...relegated, ...BUBBLING]
   .join("\n") + "\n";
 
 writeFileSync(new URL("./van50-entries.md", import.meta.url), md);
-console.log(`entries: ${rows.length}`);
+
+// Registry JSON for the claim loop (lib/top100/registry.ts 'van50') — the
+// claim page, API, and badge read entries from here by (list, rank), and the
+// badge resolves current rank by name. Re-emit on every review so ranks stay
+// in sync with the published post.
+const registryJson = {
+  meta: {
+    title: "Top 50 Fitness Influencers in Vancouver 2026",
+    updated: new Date().toISOString().slice(0, 10),
+  },
+  entries: rows.map((d, i) => ({
+    rank: i + 1,
+    name: d.name,
+    segment: d.seg,
+    tier: d.tier ?? "creator",
+    city: "Vancouver, British Columbia",
+    country: "CA",
+    who: d.who,
+    why: d.why,
+    takeaway: d.takeaway,
+    score: d.score,
+    reach: d.reachLabel ?? null,
+    website: d.website ?? null,
+    handles: { instagram: `https://instagram.com/${d.ig}` },
+  })),
+};
+writeFileSync(
+  new URL("../data/top-100/van50.json", import.meta.url),
+  JSON.stringify(registryJson, null, 1) + "\n",
+);
+console.log(`entries: ${rows.length} (md + van50.json)`);
 console.log(rows.map((d, i) => `${i + 1}. ${d.name} ${d.score}`).join("\n"));

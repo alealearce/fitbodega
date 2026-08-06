@@ -9,6 +9,7 @@ import coaches from "@/data/top-100/coaches.json";
 import nutritionists from "@/data/top-100/nutritionists.json";
 import hyrox from "@/data/top-100/hyrox.json";
 import influencers from "@/data/top-100/fitness-influencers.json";
+import van50 from "@/data/top-100/van50.json";
 
 // The nine claimable lists of the FitBodega 100. Retreats map to
 // 'recovery' — the closest directory home for wellness resorts. The two
@@ -42,7 +43,8 @@ export type ClaimableListId =
   | "coaches"
   | "nutritionists"
   | "hyrox"
-  | "influencers";
+  | "influencers"
+  | "van50";
 
 export const CLAIMABLE_LISTS: Record<
   ClaimableListId,
@@ -116,6 +118,15 @@ export const CLAIMABLE_LISTS: Record<
     page: "/top-100-fitness-influencers",
     listingType: "trainer",
     data: influencers as unknown as ListData,
+  },
+  // City list published as a journal post, not a ledger page — claim links
+  // are embedded in the post markdown by scripts/build-van50-journal.mjs.
+  van50: {
+    title: "Top 50 Fitness Influencers in Vancouver 2026",
+    badgeLabel: "TOP 50 VANCOUVER INFLUENCERS",
+    page: "/top-50-fitness-influencers-vancouver",
+    listingType: "trainer",
+    data: van50 as unknown as ListData,
   },
 };
 
