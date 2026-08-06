@@ -6,6 +6,7 @@ import { SITE } from "@/lib/config/site";
 import { getListingUrl } from "@/lib/utils/listingUrl";
 import { CLAIMABLE_LISTS, getEntry, isClaimableList } from "@/lib/top100/registry";
 import ClaimTop100Form from "./ClaimTop100Form";
+import ClaimSearch from "./ClaimSearch";
 
 export const metadata = {
   title: `Claim your Top 100 profile — ${SITE.name}`,
@@ -23,6 +24,12 @@ export default async function ClaimTop100Page({
   // No list/rank — the hero "Claim your profile" buttons land here.
   // Claims are per-entry, so point the visitor at their list first.
   if (!isClaimableList(list) || !Number.isInteger(rank)) {
+    const searchIndex = Object.entries(CLAIMABLE_LISTS).flatMap(([id, c]) =>
+      c.data.entries.map((e) => ({ n: e.name, l: id, r: e.rank })),
+    );
+    const listMeta = Object.fromEntries(
+      Object.entries(CLAIMABLE_LISTS).map(([id, c]) => [id, { title: c.title, page: c.page }]),
+    );
     return (
       <div className="min-h-screen bg-bg px-6 py-24">
         <div className="max-w-xl mx-auto">
@@ -35,11 +42,12 @@ export default async function ClaimTop100Page({
           <h1 className="font-serif text-display-sm uppercase text-on-surface mb-4">
             Find your name first
           </h1>
-          <p className="font-sans text-sm text-on-surface-variant mb-10">
-            Open your list, find your card, and hit &ldquo;Claim your profile&rdquo; — each
-            claim is tied to an exact rank. Approved claims can update everything on the
-            profile, including the picture.
+          <p className="font-sans text-sm text-on-surface-variant mb-8">
+            Search your name to jump straight to your claim — every list is covered,
+            the Vancouver 50 included. Approved claims can update everything on the
+            profile, including the picture. Or browse your list below.
           </p>
+          <ClaimSearch items={searchIndex} lists={listMeta} />
           <div className="space-y-5">
             {Object.entries(CLAIMABLE_LISTS).map(([id, c]) => (
               <Link

@@ -10,7 +10,7 @@ export default function HeroClaimLines() {
         rel="noopener"
         className="px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
       >
-        Claim your profile
+        Claim your profile to update it
       </a>
       <a
         href="/measure-up"
@@ -19,7 +19,7 @@ export default function HeroClaimLines() {
         className="px-8 py-4 font-sans text-sm font-bold tracking-wide uppercase text-primary hover:bg-surface-input transition-colors"
         style={{ boxShadow: "inset 0 0 0 1px rgba(209,252,0,0.4)" }}
       >
-        Not on the list? Get your report
+        Not on the list? Compare your business with the Top 100
       </a>
     </div>
   );
