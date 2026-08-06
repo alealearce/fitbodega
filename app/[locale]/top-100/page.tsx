@@ -4,6 +4,7 @@ import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import { TOP100_LISTS } from "@/components/top100/lists";
 import Top100Card from "@/components/top100/Top100Card";
 import MeasureUpCta from "@/components/top100/MeasureUpCta";
+import HeroClaimLines from "@/components/top100/HeroClaimLines";
 import influencers from "@/data/top-100/fitness-influencers.json";
 import gyms from "@/data/top-100/gyms.json";
 import retreats from "@/data/top-100/retreats.json";
@@ -60,7 +61,7 @@ export default function Top100HubPage() {
       ...l,
       updated: d?.meta.updated,
       scoreName: d?.meta.scoreModel.name,
-      tracked: (d?.entries.length ?? 0) + (d?.bubblingUnder?.length ?? 0),
+      ranked: d?.entries.length ?? 0,
       top3: d?.entries.slice(0, 3).map((e) => e.name) ?? [],
     };
   });
@@ -68,7 +69,7 @@ export default function Top100HubPage() {
     (max, l) => (l.updated && l.updated > max ? l.updated : max),
     ""
   );
-  const totalTracked = lists.reduce((s, l) => s + l.tracked, 0);
+  const totalRanked = lists.reduce((s, l) => s + l.ranked, 0);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -103,12 +104,14 @@ export default function Top100HubPage() {
             The FitBodega <span className="text-primary">100</span>
           </h1>
           <p className="font-sans text-base lg:text-lg text-on-surface-variant mt-6 max-w-2xl">
-            The people, places, and spaces that define training culture — ranked. Every list runs
-            on the same architecture: six weighted factors, a hard editorial gate, research
-            calibrated across segments, and a monthly review that promotes and relegates.
+            The people, places, and spaces that define training culture. We&rsquo;ve developed an
+            algorithm based on reach (Instagram, YouTube, TikTok full weight; X half), engagement,
+            credibility, commerce, and consistency — and a monthly review that promotes and
+            relegates.
           </p>
+          <HeroClaimLines />
           <p className="font-sans text-label-sm uppercase text-on-surface-variant mt-8">
-            {totalTracked.toLocaleString()} ranked & tracked · Reviewed monthly · Updated {latestUpdated}
+            {totalRanked.toLocaleString()} ranked · Reviewed monthly · Updated {latestUpdated}
           </p>
         </div>
       </section>
@@ -118,13 +121,10 @@ export default function Top100HubPage() {
           cropped "100" numeral textures every card. ── */}
       <section className="py-20 lg:py-24 bg-surface-low">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-4">
+          <div className="flex items-center gap-3 mb-10">
             <span className="w-7 h-[3px] bg-primary" aria-hidden />
             <p className="font-sans text-label-md uppercase text-primary">The rankings</p>
           </div>
-          <h2 className="font-serif text-display-md uppercase text-on-surface mb-14">
-            The Index
-          </h2>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {lists.map((l, i) => (
@@ -164,7 +164,7 @@ export default function Top100HubPage() {
               </p>
               <p className="font-sans text-sm text-on-surface-variant mt-3">
                 Coaches must actually coach. Nutritionists must hold real credentials. Gyms must
-                be places you can walk into. Fame alone gets nobody in.
+                be places you can walk into.
               </p>
             </div>
             <div className="bg-surface-card px-6 py-7">

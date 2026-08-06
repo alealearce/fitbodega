@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import SeriesLinks from "@/components/top100/SeriesLinks";
+import HeroClaimLines from "@/components/top100/HeroClaimLines";
 import Top100Ledger, { type LedgerEntry } from "@/components/top100/Ledger";
 import BubblingUnder from "@/components/top100/BubblingUnder";
 import { getClaimedMap } from "@/lib/top100/claims";
@@ -99,6 +100,7 @@ export default async function Top100OnlineFitnessCoachesPage() {
           <p className="font-sans text-base lg:text-lg text-on-surface-variant mt-6 max-w-2xl">
             {meta.subtitle}
           </p>
+          <HeroClaimLines />
           <p className="font-sans text-label-sm uppercase text-on-surface-variant mt-8">
             Reviewed {meta.reviewCadence} · Updated {meta.updated}
           </p>
