@@ -235,7 +235,9 @@ const DATA = [
     why: "Competes in the sports she coaches and owns the floor she coaches on — full-stack credibility under one roof.",
     takeaway: "Own the gym, lift the meets, coach the members — the loop sells itself.",
     f: [50, 70, 55, 55, 60] },
-  { name: "Sandra Kilmartin", seg: "Sports Nutrition", ig: "sandrakilmartin", followers: 2338, reachLabel: "IG 2.3K", r: 27,
+  // 2026-08-05: @sandrakilmartin removed on IG — now posts as @nosweatnutrition
+  // ("Sandra Frail & Team"). Followers/reach re-score deferred to monthly review.
+  { name: "Sandra Kilmartin", seg: "Sports Nutrition", ig: "nosweatnutrition", followers: 2338, reachLabel: "IG 2.3K", r: 27,
     who: "Sports dietitian with the IOC Diploma in Sports Nutrition, ultrarunner, and founder of No Sweat Nutrition serving Vancouver and the Sea to Sky.",
     why: "The fueling expert behind local endurance athletes — Olympic-committee-credentialed in a field crowded with certificates.",
     takeaway: "The smallest audiences can hold the highest-value clients.",
