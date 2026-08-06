@@ -24,11 +24,22 @@ export default async function ClaimTop100Page({
   // No list/rank — the hero "Claim your profile" buttons land here.
   // Claims are per-entry, so point the visitor at their list first.
   if (!isClaimableList(list) || !Number.isInteger(rank)) {
-    const searchIndex = Object.entries(CLAIMABLE_LISTS).flatMap(([id, c]) =>
-      c.data.entries.map((e) => ({ n: e.name, l: id, r: e.rank })),
-    );
+    const searchIndex = Object.entries(CLAIMABLE_LISTS).flatMap(([id, c]) => [
+      ...c.data.entries.map((e) => ({ n: e.name, l: id, r: e.rank })),
+      // Bubbling Under names carry no rank — the search links them to the
+      // list's on-the-radar section instead of a claim flow.
+      ...(c.data.bubblingUnder ?? []).map((b) => ({ n: b.name, l: id })),
+    ]);
     const listMeta = Object.fromEntries(
-      Object.entries(CLAIMABLE_LISTS).map(([id, c]) => [id, { title: c.title, page: c.page }]),
+      Object.entries(CLAIMABLE_LISTS).map(([id, c]) => [
+        id,
+        {
+          title: c.title,
+          page: c.page,
+          // The Vancouver 50 is a journal post with no radar anchor.
+          radar: id === "van50" ? c.page : `${c.page}#bubbling-under`,
+        },
+      ]),
     );
     return (
       <div className="min-h-screen bg-bg px-6 py-24">

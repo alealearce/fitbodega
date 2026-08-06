@@ -4,10 +4,11 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Search } from "lucide-react";
 
-// Name search over every ranked entry (all Top 100 lists + the Vancouver 50).
-// A hit links straight into that entry's claim flow.
-type Item = { n: string; l: string; r: number };
-type ListMeta = { title: string; page: string };
+// Name search over every tracked name (all Top 100 lists + the Vancouver 50).
+// Ranked hits link straight into that entry's claim flow; Bubbling Under
+// hits (no rank) link to the list's on-the-radar section.
+type Item = { n: string; l: string; r?: number };
+type ListMeta = { title: string; page: string; radar: string };
 
 export default function ClaimSearch({
   items,
@@ -48,13 +49,17 @@ export default function ClaimSearch({
         <div className="mt-3 space-y-1">
           {results.map((i) => (
             <Link
-              key={`${i.l}-${i.r}`}
-              href={`/top-100/claim?list=${i.l}&rank=${i.r}`}
+              key={`${i.l}-${i.r ?? i.n}`}
+              href={
+                i.r
+                  ? `/top-100/claim?list=${i.l}&rank=${i.r}`
+                  : lists[i.l]?.radar ?? "/top-100"
+              }
               className="flex items-baseline justify-between gap-4 bg-surface-card hover:bg-surface-input transition-colors px-5 py-4"
             >
               <span className="font-sans text-sm font-bold text-on-surface">{i.n}</span>
               <span className="font-sans text-label-sm uppercase text-on-surface-variant text-right">
-                No. {i.r} · {lists[i.l]?.title}
+                {i.r ? `No. ${i.r}` : "On the radar"} · {lists[i.l]?.title}
               </span>
             </Link>
           ))}

@@ -168,7 +168,7 @@ export default async function Top100NutritionistsPage() {
 
       {/* ── Bubbling under ── */}
       {bubbling.length > 0 && (
-        <section className="py-20 lg:py-24 bg-surface-low">
+        <section id="bubbling-under" className="py-20 lg:py-24 bg-surface-low">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="flex items-center gap-3 mb-4">
               <span className="w-7 h-[3px] bg-primary" aria-hidden />

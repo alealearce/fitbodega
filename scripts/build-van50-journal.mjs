@@ -413,6 +413,8 @@ const registryJson = {
     website: d.website ?? null,
     handles: { instagram: `https://instagram.com/${d.ig}` },
   })),
+  // Names only — the claim-landing search lists these as "on the radar".
+  bubblingUnder: [...relegated, ...BUBBLING].map(([name]) => ({ name })),
 };
 writeFileSync(
   new URL("../data/top-100/van50.json", import.meta.url),

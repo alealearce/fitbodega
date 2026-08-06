@@ -32,6 +32,7 @@ export type Top100Entry = {
 type ListData = {
   meta: { title: string; updated: string };
   entries: Top100Entry[];
+  bubblingUnder?: { name: string }[];
 };
 
 export type ClaimableListId =
