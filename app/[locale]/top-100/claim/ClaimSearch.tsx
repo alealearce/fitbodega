@@ -5,8 +5,8 @@ import Link from "next/link";
 import { Search } from "lucide-react";
 
 // Name search over every tracked name (all Top 100 lists + the Vancouver 50).
-// Ranked hits link straight into that entry's claim flow; Bubbling Under
-// hits (no rank) link to the list's on-the-radar section.
+// Ranked hits link to the entry's row on its list (where the claim CTA
+// lives); Bubbling Under hits (no rank) link to the on-the-radar section.
 type Item = { n: string; l: string; r?: number };
 type ListMeta = { title: string; page: string; radar: string };
 
@@ -52,7 +52,7 @@ export default function ClaimSearch({
               key={`${i.l}-${i.r ?? i.n}`}
               href={
                 i.r
-                  ? `/top-100/claim?list=${i.l}&rank=${i.r}`
+                  ? `${lists[i.l]?.page ?? "/top-100"}#rank-${i.r}`
                   : lists[i.l]?.radar ?? "/top-100"
               }
               className="flex items-baseline justify-between gap-4 bg-surface-card hover:bg-surface-input transition-colors px-5 py-4"

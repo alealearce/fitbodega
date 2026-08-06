@@ -54,9 +54,9 @@ export default async function ClaimTop100Page({
             Find your name first
           </h1>
           <p className="font-sans text-sm text-on-surface-variant mb-8">
-            Search your name to jump straight to your claim — every list is covered,
-            the Vancouver 50 included. Approved claims can update everything on the
-            profile, including the picture. Or browse your list below.
+            Search your name to jump to your spot on the list — every list is covered,
+            the Vancouver 50 included. Your card has the claim link; approved claims can
+            update everything on the profile, including the picture. Or browse below.
           </p>
           <ClaimSearch items={searchIndex} lists={listMeta} />
           <div className="space-y-5">

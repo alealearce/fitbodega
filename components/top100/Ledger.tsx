@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight, AlertTriangle, Zap, MapPin, BadgeCheck, ArrowUpRight } from "lucide-react";
+import OpenAnchoredRow from "./OpenAnchoredRow";
 
 // The FitBodega 100 reading experience, shared by all nine list pages:
 // podium cards for 1-3, large-type tier for 4-10, decade landmarks, score
@@ -194,7 +195,8 @@ export default function Top100Ledger({
   const renderPodium = (e: LedgerEntry, i: number) => (
     <div
       key={e.rank}
-      className={`relative overflow-hidden flex flex-col p-7 lg:p-8 min-h-[340px] ${
+      id={`rank-${e.rank}`}
+      className={`relative overflow-hidden flex flex-col p-7 lg:p-8 min-h-[340px] scroll-mt-24 ${
         i === 0 ? "bg-primary" : "bg-surface-card"
       }`}
     >
@@ -273,7 +275,7 @@ export default function Top100Ledger({
     const chip = config.tierChips?.[e.tier];
     const note = config.tierNotes?.[e.tier];
     return (
-      <details key={e.rank} className="group relative">
+      <details key={e.rank} id={`rank-${e.rank}`} className="group relative scroll-mt-24">
         <summary className="list-none [&::-webkit-details-marker]:hidden cursor-pointer select-none flex items-baseline gap-4 lg:gap-6 py-5 px-6 lg:px-8 -mx-6 lg:-mx-8 hover:bg-surface-low transition-colors duration-300">
           <span className="font-sans text-label-sm text-on-surface-variant w-8 flex-shrink-0 tabular-nums">
             {String(e.rank).padStart(3, "0")}
@@ -360,6 +362,7 @@ export default function Top100Ledger({
 
   return (
     <>
+      <OpenAnchoredRow />
       {/* Podium — 1, 2, 3 */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-16">
         {entries.slice(0, 3).map(renderPodium)}
