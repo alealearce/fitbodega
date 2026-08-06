@@ -326,6 +326,97 @@ export async function sendAdminClaimRequest(opts: {
   });
 }
 
+// ── Top 100 claim request — a ranked business wants its profile ────────────
+
+export async function sendAdminTop100ClaimRequest(opts: {
+  listTitle: string;
+  listPage: string;
+  rank: number;
+  entryName: string;
+  entryWebsite: string | null;
+  listingId: string;
+  listingSlug: string;
+  claimerEmail: string;
+  claimerUserId: string;
+  relationship: string;
+  certificationId: string | null;
+  domainMatch: boolean;
+  sameNameListingSlug: string | null;
+}) {
+  const {
+    listTitle, listPage, rank, entryName, entryWebsite, listingId, listingSlug,
+    claimerEmail, claimerUserId, relationship, certificationId, domainMatch,
+    sameNameListingSlug,
+  } = opts;
+  const subject = `Top 100 claim: ${entryName} (#${rank}, ${listTitle})`;
+  const matchLine = domainMatch
+    ? `<span style="color:#1a7f37;font-weight:700;">MATCH</span> — claimer email domain matches the entry's website`
+    : `<span style="color:#b42318;font-weight:700;">NO MATCH</span> — verify ownership before approving`;
+  const body = `
+    <p style="margin:0 0 16px;">A ranked business has claimed its Top 100 profile. A pending listing was created from the ranking data — approving the listing in the admin approves the claim and sends the badge.</p>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 24px;border:1px solid ${BORDER};border-radius:0;overflow:hidden;">
+      <tr><td style="padding:16px;background-color:${BG};">
+        <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Entry:</strong> ${entryName} — #${rank}, <a href="${SITE.url}${listPage}" style="color:${INK};">${listTitle}</a></p>
+        <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Entry website:</strong> ${entryWebsite ?? '—'}</p>
+        <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Domain check:</strong> ${matchLine}</p>
+        <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Claimer:</strong> <a href="mailto:${claimerEmail}" style="color:${INK};">${claimerEmail}</a> (user ${claimerUserId})</p>
+        <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Certification ID:</strong> ${certificationId ?? '—'}</p>
+        <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Pending listing:</strong> ${listingSlug} (${listingId})</p>
+        ${sameNameListingSlug ? `<p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;color:#b42318;"><strong>Heads up:</strong> a listing with the same name already exists (${sameNameListingSlug}) — check for a duplicate before approving.</p>` : ''}
+        <p style="margin:0;font-size:14px;font-family:Arial,sans-serif;"><strong>Relationship:</strong><br/>${relationship.replace(/\n/g, '<br/>')}</p>
+      </td></tr>
+    </table>
+    <p style="margin:0;text-align:center;">
+      ${buttonHtml(`${SITE.url}/admin`, 'Review in Admin')}
+    </p>
+  `;
+
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: ADMIN_EMAIL,
+    subject,
+    html: baseTemplate('Top 100 Claim Request', body),
+    replyTo: claimerEmail,
+  });
+}
+
+// ── Top 100 badge — sent to the owner when their claim is approved ─────────
+
+export async function sendTop100BadgeEmail(opts: {
+  to: string;
+  entryName: string;
+  listTitle: string;
+  listPage: string;
+  rank: number;
+  badgeUrl: string;
+  embedCode: string;
+  profileUrl: string;
+}) {
+  const { to, entryName, listTitle, listPage, rank, badgeUrl, embedCode, profileUrl } = opts;
+  const subject = `Your Top 100 profile is live — ranked #${rank}`;
+  const body = `
+    <p style="margin:0 0 16px;">Your claim for <strong>${entryName}</strong> is approved. Your profile is live on ${SITE.name}, and your ranking badge is ready.</p>
+    <p style="margin:0 0 24px;font-size:14px;"><strong>${listTitle}</strong> — Ranked #${rank}</p>
+    <p style="margin:0 0 24px;text-align:center;">
+      <a href="${SITE.url}${listPage}"><img src="${badgeUrl}" alt="${SITE.name} ${listTitle} — Ranked #${rank}" width="360" height="88" style="border:0;max-width:100%;" /></a>
+    </p>
+    <p style="margin:0 0 8px;font-size:14px;"><strong>Put it on your website</strong> — paste this where you want the badge. It links back to the ranking and your rank updates automatically with the monthly review:</p>
+    <pre style="margin:0 0 24px;padding:14px;background-color:#f4f4f4;border:1px solid ${BORDER};font-size:11px;overflow-x:auto;white-space:pre-wrap;word-break:break-all;font-family:Courier,monospace;">${embedCode.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
+    <p style="margin:0 0 16px;font-size:14px;">Next: add photos and finish your profile — listings with photos appear on the ranking itself.</p>
+    <p style="margin:0 0 24px;text-align:center;">
+      ${buttonHtml(`${SITE.url}/dashboard`, 'Finish Your Profile')}
+    </p>
+    <p style="margin:0;font-size:13px;color:#888;">Your live profile: <a href="${profileUrl}" style="color:${INK};">${profileUrl}</a></p>
+  `;
+
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to,
+    subject,
+    html: baseTemplate('Ranked. Claimed. Live.', body),
+  });
+}
+
 // ── Chatbot escalation — sent when Coach can't help or a password reset is requested ──
 
 export async function sendEscalationEmail({

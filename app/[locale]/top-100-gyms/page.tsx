@@ -12,6 +12,7 @@ import {
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import SeriesLinks from "@/components/top100/SeriesLinks";
 import Top100Ledger, { type LedgerEntry } from "@/components/top100/Ledger";
+import { getClaimedMap } from "@/lib/top100/claims";
 import data from "@/data/top-100/gyms.json";
 
 const WEIGHT_ICONS: Record<string, LucideIcon> = {
@@ -53,9 +54,13 @@ type Meta = {
   scoreModel: { name: string; gate: string; weights: Record<string, number>; notes: string };
 };
 
-export default function Top100GymsPage() {
+// Claimed-state comes from Supabase — revalidate hourly.
+export const revalidate = 3600;
+
+export default async function Top100GymsPage() {
   const meta = data.meta as unknown as Meta;
   const entries = data.entries as unknown as LedgerEntry[];
+  const claimed = await getClaimedMap("gyms");
   const bubbling = (data.bubblingUnder ?? []) as unknown as Bubbling[];
   const weights = meta.scoreModel.weights;
 
@@ -148,6 +153,7 @@ export default function Top100GymsPage() {
           <h2 className="font-serif text-display-md uppercase text-on-surface mb-14">The 100</h2>
           <Top100Ledger
             entries={entries}
+            claim={{ list: "gyms", claimed }}
             config={{
               scoreName: meta.scoreModel.name,
               kicker: "Know before you go",

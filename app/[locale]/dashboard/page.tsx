@@ -1,11 +1,13 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
-import { createClient } from "@/lib/supabase/server";
+import { createClient, createAdminClient } from "@/lib/supabase/server";
 import type { Listing } from "@/lib/supabase/types";
 import Badge from "@/components/ui/Badge";
+import BadgeEmbed from "@/components/dashboard/BadgeEmbed";
 import { getListingUrl } from "@/lib/utils/listingUrl";
 import { SITE } from "@/lib/config/site";
 import FMark from "@/components/ui/FMark";
+import { CLAIMABLE_LISTS, getEntryByName, isClaimableList } from "@/lib/top100/registry";
 
 export const metadata = {
   title: `My Dashboard — ${SITE.name}`,
@@ -42,6 +44,52 @@ export default async function DashboardPage() {
     Listing,
     "id" | "name" | "slug" | "type" | "status" | "view_count" | "rating_avg" | "rating_count" | "is_featured" | "is_verified" | "plan"
   >[];
+
+  // Approved Top 100 claims on this owner's live listings → ranking badges.
+  // top100_claims is service-role only, so look it up with the admin client
+  // scoped to the ids we just loaded.
+  const liveIds = items.filter((l) => l.status === "approved").map((l) => l.id);
+  let badges: {
+    key: string;
+    listingSlug: string;
+    listingName: string;
+    listTitle: string;
+    listPage: string;
+    rank: number;
+    badgeUrl: string;
+    embedCode: string;
+  }[] = [];
+
+  if (liveIds.length > 0) {
+    const admin = createAdminClient();
+    const { data: claims } = await admin
+      .from("top100_claims")
+      .select("list_id, entry_name, rank_at_claim, listing_id")
+      .in("listing_id", liveIds)
+      .eq("status", "approved");
+
+    badges = (claims ?? []).flatMap((c) => {
+      if (!isClaimableList(c.list_id)) return [];
+      const config = CLAIMABLE_LISTS[c.list_id];
+      const listing = items.find((l) => l.id === c.listing_id);
+      if (!listing) return [];
+      const rank = getEntryByName(c.list_id, c.entry_name)?.rank ?? c.rank_at_claim;
+      const badgeUrl = `${SITE.url}/api/badge/${listing.slug}?list=${c.list_id}`;
+      const embedCode = `<a href="${SITE.url}${config.page}" target="_blank" rel="noopener"><img src="${badgeUrl}" alt="FitBodega ${config.title} — ${listing.name}, ranked #${rank}" width="360" height="88" style="border:0" /></a>`;
+      return [
+        {
+          key: `${c.list_id}-${c.listing_id}`,
+          listingSlug: listing.slug,
+          listingName: listing.name,
+          listTitle: config.title,
+          listPage: config.page,
+          rank,
+          badgeUrl,
+          embedCode,
+        },
+      ];
+    });
+  }
 
   return (
     <div className="min-h-screen bg-bg px-6 py-16">
@@ -153,6 +201,38 @@ export default async function DashboardPage() {
                 </div>
               </div>
             ))}
+          </div>
+        )}
+
+        {/* Top 100 badges — approved ranked claims only */}
+        {badges.length > 0 && (
+          <div className="mt-12">
+            <h2 className="font-serif text-xl uppercase font-extrabold text-on-surface mb-2">
+              Your Top 100 Badge
+            </h2>
+            <p className="font-sans text-sm text-on-surface-variant mb-6 max-w-lg">
+              Paste this on your website — it shows your current rank and links
+              back to the list. The rank updates automatically with the monthly
+              review.
+            </p>
+            <div className="space-y-6">
+              {badges.map((b) => (
+                <div key={b.key} className="bg-surface-card p-6">
+                  <p className="font-sans text-label-sm uppercase text-on-surface-variant mb-4">
+                    {b.listTitle} — Ranked #{b.rank}
+                  </p>
+                  {/* eslint-disable-next-line @next/next/no-img-element -- badge is our own SVG endpoint, no optimization wanted */}
+                  <img
+                    src={b.badgeUrl}
+                    alt={`FitBodega ${b.listTitle} — ${b.listingName}, ranked #${b.rank}`}
+                    width={360}
+                    height={88}
+                    className="mb-5 max-w-full h-auto"
+                  />
+                  <BadgeEmbed embedCode={b.embedCode} />
+                </div>
+              ))}
+            </div>
           </div>
         )}
 

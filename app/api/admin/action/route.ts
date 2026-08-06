@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient, createAdminClient } from '@/lib/supabase/server';
-import { sendApprovalEmail, sendRejectionEmail, sendSpotlightLiveEmail } from '@/lib/email/resend';
+import { sendApprovalEmail, sendRejectionEmail, sendSpotlightLiveEmail, sendTop100BadgeEmail } from '@/lib/email/resend';
 import { SITE, isAdminEmail } from '@/lib/config/site';
 import { getListingUrl } from '@/lib/utils/listingUrl';
 import { runMemberSpotlight } from '@/lib/social/story';
+import { CLAIMABLE_LISTS, getEntryByName, isClaimableList } from '@/lib/top100/registry';
 
 // Approve runs the spotlight pipeline inline (Claude + Blotato) — allow time.
 export const maxDuration = 300;
@@ -67,10 +68,45 @@ export async function POST(req: NextRequest) {
           console.error('[admin/approve] spotlight threw:', err);
         }
 
+        // Top 100 claim: approving the listing approves the claim and sends
+        // the badge email instead of the generic approval email.
+        let badgeSent = false;
+        const { data: approvedClaims } = await supabase
+          .from('top100_claims')
+          .update({ status: 'approved' })
+          .eq('listing_id', id)
+          .eq('status', 'pending')
+          .select('list_id, entry_name, rank_at_claim, claimer_email');
+
+        if (listing?.slug && approvedClaims?.length) {
+          const claim = approvedClaims[0];
+          if (isClaimableList(claim.list_id)) {
+            const config = CLAIMABLE_LISTS[claim.list_id];
+            const rank = getEntryByName(claim.list_id, claim.entry_name)?.rank ?? claim.rank_at_claim;
+            const badgeUrl = `${SITE.url}/api/badge/${listing.slug}?list=${claim.list_id}`;
+            const profileUrl = `${SITE.url}${getListingUrl(listing.type, listing.slug)}`;
+            const embedCode = `<a href="${SITE.url}${config.page}" target="_blank" rel="noopener"><img src="${badgeUrl}" alt="FitBodega ${config.title} — ${claim.entry_name}, ranked #${rank}" width="360" height="88" style="border:0" /></a>`;
+            // Awaited — un-awaited promises die when Vercel freezes the function.
+            await sendTop100BadgeEmail({
+              to: claim.claimer_email,
+              entryName: claim.entry_name,
+              listTitle: config.title,
+              listPage: config.page,
+              rank,
+              badgeUrl,
+              embedCode,
+              profileUrl,
+            }).then(() => { badgeSent = true; }).catch((err) =>
+              console.error('[admin/approve] badge email error:', err)
+            );
+          }
+        }
+
         // Send approval email to listing owner (one email covers listing +
-        // spotlight). Awaited — un-awaited promises die when Vercel freezes
-        // the function after the response is sent.
-        if (listing?.email && listing?.name && listing?.slug) {
+        // spotlight). Skipped when the badge email already told them.
+        // Awaited — un-awaited promises die when Vercel freezes the
+        // function after the response is sent.
+        if (!badgeSent && listing?.email && listing?.name && listing?.slug) {
           const listingUrl = `${SITE.url}${getListingUrl(listing.type, listing.slug)}`;
           await sendApprovalEmail(listing.email, listing.name, listing.name, listingUrl, storyUrl).catch((err) =>
             console.error('[admin/approve] approval email error:', err)
@@ -98,6 +134,13 @@ export async function POST(req: NextRequest) {
             { status: 500 }
           );
         }
+
+        // Rejecting the listing frees any pending Top 100 claim slot.
+        await supabase
+          .from('top100_claims')
+          .update({ status: 'rejected' })
+          .eq('listing_id', id)
+          .eq('status', 'pending');
 
         // Send rejection email. Awaited — see note on the approval email above.
         if (listing?.email && listing?.name) {

@@ -1,4 +1,6 @@
-import { ChevronRight, AlertTriangle, Zap, MapPin } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+import { ChevronRight, AlertTriangle, Zap, MapPin, BadgeCheck, ArrowUpRight } from "lucide-react";
 
 // The FitBodega 100 reading experience, shared by all nine list pages:
 // podium cards for 1-3, large-type tier for 4-10, decade landmarks, score
@@ -33,6 +35,16 @@ export type LedgerConfig = {
   showCity?: boolean;
 };
 
+// Claimed profiles, keyed by entry name: directory URL + photo. Entries in
+// the map light up (photo, Claimed mark, profile link); the rest get a
+// claim CTA when `claim` is configured on the ledger.
+export type ClaimedMap = Record<string, { url: string; image?: string | null }>;
+
+export type LedgerClaim = {
+  list: string; // claimable list id, e.g. "gyms"
+  claimed: ClaimedMap;
+};
+
 const DEFAULT_HANDLE_LABELS: Record<string, string> = {
   instagram: "Instagram",
   youtube: "YouTube",
@@ -59,14 +71,29 @@ function monogram(name: string): string {
 export default function Top100Ledger({
   entries,
   config,
+  claim,
 }: {
   entries: LedgerEntry[];
   config: LedgerConfig;
+  claim?: LedgerClaim;
 }) {
   const labels = { ...DEFAULT_HANDLE_LABELS, ...config.handleLabels };
 
+  const claimInfo = (e: LedgerEntry) => claim?.claimed[e.name] ?? null;
+  const claimHref = (e: LedgerEntry) =>
+    claim ? `/top-100/claim?list=${claim.list}&rank=${e.rank}` : null;
+
   const renderLinks = (e: LedgerEntry) => (
     <div className="flex flex-wrap gap-x-5 gap-y-1.5 font-sans text-sm">
+      {claimInfo(e) && (
+        <Link
+          href={claimInfo(e)!.url}
+          className="inline-flex items-center gap-1.5 text-primary font-bold hover:underline"
+        >
+          <BadgeCheck size={14} aria-hidden />
+          FitBodega profile
+        </Link>
+      )}
       {e.website && (
         <a
           href={e.website}
@@ -131,6 +158,39 @@ export default function Top100Ledger({
       </div>
     ) : null;
 
+  // "Yours? Claim this profile" — only when the ledger is claim-enabled and
+  // the entry hasn't been claimed yet.
+  const renderClaimCta = (e: LedgerEntry, lime?: boolean) =>
+    claim && !claimInfo(e) ? (
+      <Link
+        href={claimHref(e)!}
+        className={`mt-5 inline-flex items-center gap-1.5 font-sans text-label-sm uppercase transition-colors duration-300 ${
+          lime
+            ? "text-primary-on/70 hover:text-primary-on"
+            : "text-on-surface-variant hover:text-primary"
+        }`}
+      >
+        Yours? Claim this profile
+        <ArrowUpRight size={13} aria-hidden />
+      </Link>
+    ) : null;
+
+  // Claimed entries trade the typographic monogram for their real photo.
+  const renderAvatar = (e: LedgerEntry, sizeClass: string, monogramClass: string) => {
+    const image = claimInfo(e)?.image;
+    return image ? (
+      <Image
+        src={image}
+        alt={e.name}
+        width={48}
+        height={48}
+        className={`${sizeClass} object-cover`}
+      />
+    ) : (
+      <div className={`${sizeClass} ${monogramClass}`}>{monogram(e.name)}</div>
+    );
+  };
+
   const renderPodium = (e: LedgerEntry, i: number) => (
     <div
       key={e.rank}
@@ -168,11 +228,22 @@ export default function Top100Ledger({
         </div>
       </div>
       <div className="relative mt-auto pt-10">
-        <div className={`inline-flex w-12 h-12 items-center justify-center font-serif font-extrabold text-lg mb-4 ${i === 0 ? "bg-primary-on text-primary" : "bg-surface-input text-on-surface"}`}>
-          {monogram(e.name)}
+        <div className="mb-4">
+          {renderAvatar(
+            e,
+            "inline-flex w-12 h-12 items-center justify-center",
+            `font-serif font-extrabold text-lg ${i === 0 ? "bg-primary-on text-primary" : "bg-surface-input text-on-surface"}`
+          )}
         </div>
         <h3 className={`font-serif text-3xl lg:text-4xl font-extrabold uppercase tracking-tight leading-[1.02] ${i === 0 ? "text-primary-on" : "text-on-surface"}`}>
           {e.name}
+          {claimInfo(e) && (
+            <BadgeCheck
+              size={20}
+              className={`inline-block ml-2 align-baseline ${i === 0 ? "text-primary-on" : "text-primary"}`}
+              aria-label="Claimed profile"
+            />
+          )}
         </h3>
         <p className={`font-sans text-sm mt-3 ${i === 0 ? "text-primary-on/80" : "text-on-surface"}`}>{e.who}</p>
         <p className={`font-sans text-sm italic mt-1.5 ${i === 0 ? "text-primary-on/60" : "text-on-surface-variant"}`}>{e.why}</p>
@@ -180,6 +251,7 @@ export default function Top100Ledger({
         <div className={`mt-4 ${i === 0 ? "[&_a]:!text-primary-on [&_span]:!text-primary-on/60" : ""}`}>
           {renderLinks(e)}
         </div>
+        {renderClaimCta(e, i === 0)}
       </div>
     </div>
   );
@@ -207,13 +279,24 @@ export default function Top100Ledger({
             {String(e.rank).padStart(3, "0")}
           </span>
           {big && (
-            <span className="hidden sm:flex flex-shrink-0 self-center w-11 h-11 items-center justify-center font-serif font-extrabold text-base bg-surface-input text-on-surface group-hover:bg-primary group-hover:text-primary-on transition-colors duration-300">
-              {monogram(e.name)}
+            <span className="hidden sm:block flex-shrink-0 self-center">
+              {renderAvatar(
+                e,
+                "flex w-11 h-11 items-center justify-center",
+                "font-serif font-extrabold text-base bg-surface-input text-on-surface group-hover:bg-primary group-hover:text-primary-on transition-colors duration-300"
+              )}
             </span>
           )}
           <span className="min-w-0 flex-1 flex flex-wrap items-baseline gap-x-3 gap-y-1">
             <h3 className={`inline font-serif font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300 ${big ? "text-2xl lg:text-4xl" : "text-lg lg:text-2xl"}`}>
               {e.name}
+              {claimInfo(e) && (
+                <BadgeCheck
+                  size={big ? 18 : 15}
+                  className="inline-block ml-1.5 align-baseline text-primary"
+                  aria-label="Claimed profile"
+                />
+              )}
             </h3>
             <span className="hidden sm:inline font-sans text-label-sm uppercase text-on-surface-variant">
               {config.showCity ? e.city ?? e.segment : e.segment}
@@ -269,6 +352,7 @@ export default function Top100Ledger({
           {renderTakeaway(e)}
           {renderFactors(e)}
           <div className="mt-5">{renderLinks(e)}</div>
+          {renderClaimCta(e)}
         </div>
       </details>
     );
