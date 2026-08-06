@@ -19,7 +19,52 @@ export default async function ClaimTop100Page({
 }) {
   const list = searchParams.list ?? "";
   const rank = Number.parseInt(searchParams.rank ?? "", 10);
-  if (!isClaimableList(list) || !Number.isInteger(rank)) notFound();
+
+  // No list/rank — the hero "Claim your profile" buttons land here.
+  // Claims are per-entry, so point the visitor at their list first.
+  if (!isClaimableList(list) || !Number.isInteger(rank)) {
+    return (
+      <div className="min-h-screen bg-bg px-6 py-24">
+        <div className="max-w-xl mx-auto">
+          <div className="flex items-center gap-3 mb-3">
+            <span className="w-7 h-[3px] bg-primary" aria-hidden />
+            <p className="font-sans text-label-md uppercase text-primary">
+              Claim your Top 100 profile
+            </p>
+          </div>
+          <h1 className="font-serif text-display-sm uppercase text-on-surface mb-4">
+            Find your name first
+          </h1>
+          <p className="font-sans text-sm text-on-surface-variant mb-10">
+            Open your list, find your card, and hit &ldquo;Claim your profile&rdquo; — each
+            claim is tied to an exact rank. Approved claims can update everything on the
+            profile, including the picture.
+          </p>
+          <div className="space-y-5">
+            {Object.entries(CLAIMABLE_LISTS).map(([id, c]) => (
+              <Link
+                key={id}
+                href={c.page}
+                className="block font-sans text-sm font-bold uppercase tracking-wide text-on-surface hover:text-primary transition-colors"
+              >
+                {c.title}
+              </Link>
+            ))}
+          </div>
+          <p className="font-sans text-sm text-on-surface-variant mt-10">
+            Not ranked yet?{" "}
+            <Link
+              href="/measure-up"
+              className="text-primary font-bold underline underline-offset-4"
+            >
+              Get a free report
+            </Link>{" "}
+            that compares your business with the Top 100.
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   const entry = getEntry(list, rank);
   if (!entry) notFound();

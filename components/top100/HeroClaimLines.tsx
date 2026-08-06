@@ -1,20 +1,26 @@
-import Link from "next/link";
-
-// Lime hero lines shared by the Top 100 hub and every list page:
-// claim your profile, or get the Measure Up report if you're not ranked.
+// Lime hero CTAs shared by the Top 100 hub and every list page: claim your
+// profile (via the /top-100/claim list finder), or get the Measure Up report
+// if you're not ranked. Both open in a new tab so the reader keeps the ranking.
 export default function HeroClaimLines() {
   return (
-    <div className="mt-6 max-w-2xl space-y-2">
-      <p className="font-sans text-sm lg:text-base text-primary">
-        Claim your profile to make any updates — including your picture.
-      </p>
-      <p className="font-sans text-sm lg:text-base text-primary">
-        Not on the list… yet? Add your IG and URL{" "}
-        <Link href="/measure-up" className="font-bold underline underline-offset-4">
-          here
-        </Link>{" "}
-        to receive a report that compares your business with the Top 100.
-      </p>
+    <div className="mt-8 flex flex-wrap gap-3">
+      <a
+        href="/top-100/claim"
+        target="_blank"
+        rel="noopener"
+        className="px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
+      >
+        Claim your profile
+      </a>
+      <a
+        href="/measure-up"
+        target="_blank"
+        rel="noopener"
+        className="px-8 py-4 font-sans text-sm font-bold tracking-wide uppercase text-primary hover:bg-surface-input transition-colors"
+        style={{ boxShadow: "inset 0 0 0 1px rgba(209,252,0,0.4)" }}
+      >
+        Not on the list? Get your report
+      </a>
     </div>
   );
 }
