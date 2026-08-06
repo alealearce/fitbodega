@@ -120,8 +120,8 @@ export const CLAIMABLE_LISTS: Record<
     listingType: "trainer",
     data: influencers as unknown as ListData,
   },
-  // City list published as a journal post, not a ledger page — claim links
-  // are embedded in the post markdown by scripts/build-van50-journal.mjs.
+  // City edition — ledger page at /top-50-fitness-influencers-vancouver
+  // (static route shadows the old journal-post slug; same URL, same claims).
   van50: {
     title: "Top 50 Fitness Influencers in Vancouver 2026",
     badgeLabel: "TOP 50 VANCOUVER INFLUENCERS",
