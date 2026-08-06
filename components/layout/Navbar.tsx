@@ -16,6 +16,7 @@ const DIRECTORY_ITEMS = [
   { label: "Nutritionists",      href: "/nutritionists",      desc: "Sports dietitians & nutrition coaching" },
   { label: "Health Food Stores", href: "/health-food-stores", desc: "Supplements & whole-food fuel" },
   { label: "Youth Sports",       href: "/youth-sports",       desc: "Soccer clubs, academies & camps" },
+  { label: "Add Your Business",  href: "/submit",             desc: "Get listed in the directory" },
 ];
 
 type DropdownItem = { label: string; href: string; desc: string };
