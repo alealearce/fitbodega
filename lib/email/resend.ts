@@ -593,3 +593,98 @@ export async function sendAuditEmail(
     html: baseTemplate(report.headline, body),
   });
 }
+
+// ── Deal Radar ─────────────────────────────────────────────────────────────
+// Weekly brand-deal digest. CASL rules: double opt-in (confirmation email
+// before any digest), and a working one-click unsubscribe in every send.
+
+export async function sendDealRadarConfirmation(to: string, confirmUrl: string) {
+  const body = `
+    <p style="margin:0 0 16px;">You asked to receive <strong>Deal Radar</strong> — the ${SITE.name} weekly digest of open brand deals, UGC gigs, and brands actively spending on creator ads.</p>
+    <p style="margin:0 0 24px;">Confirm your subscription to start receiving it. If you didn't request this, ignore this email and nothing will be sent.</p>
+    <p style="margin:0 0 8px;text-align:center;">${buttonHtml(confirmUrl, 'Confirm Subscription')}</p>
+  `;
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to,
+    subject: `Confirm your Deal Radar subscription`,
+    html: baseTemplate('Confirm Your Subscription', body),
+  });
+}
+
+// Renders the digest body once; the per-subscriber unsubscribe link is
+// substituted at send time via the %%UNSUB_URL%% placeholder.
+export interface DigestEmailItem {
+  brandName: string;
+  line: string;          // one-line description (deliverables / evidence note)
+  compensation: string | null;
+  pitchAngle: string | null;
+  url: string | null;
+}
+
+export function buildDealRadarDigestHtml(opts: {
+  weekSlug: string;
+  introCopy: string;
+  spending: DigestEmailItem[];
+  collabs: DigestEmailItem[];
+  postUrl: string;
+}): string {
+  const itemHtml = (i: DigestEmailItem) => `
+    <tr><td style="padding:0 0 20px;">
+      <p style="margin:0 0 4px;font-size:16px;font-weight:700;color:${INK};">${i.brandName}${i.compensation ? ` &mdash; ${i.compensation}` : ''}</p>
+      <p style="margin:0 0 4px;font-size:14px;color:#2d2d2d;line-height:1.6;">${i.line}</p>
+      ${i.pitchAngle ? `<p style="margin:0 0 4px;font-size:14px;color:#2d2d2d;line-height:1.6;"><strong>The pitch:</strong> ${i.pitchAngle}</p>` : ''}
+      ${i.url ? `<p style="margin:0;font-size:13px;"><a href="${i.url}" style="color:${INK};">View source</a></p>` : ''}
+    </td></tr>`;
+
+  const section = (title: string, items: DigestEmailItem[]) => items.length === 0 ? '' : `
+    <p style="margin:32px 0 4px;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#888;">&#9632;&nbsp; ${title}</p>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin:12px 0 0;">${items.map(itemHtml).join('')}</table>`;
+
+  const body = `
+    <p style="margin:0 0 16px;white-space:pre-line;">${opts.introCopy}</p>
+    ${section('Open Collabs — apply now', opts.collabs)}
+    ${section('Spending Now — pitch them', opts.spending)}
+    <p style="margin:32px 0 0;text-align:center;">${buttonHtml(opts.postUrl, 'Read the full edition')}</p>
+    <p style="margin:24px 0 0;font-size:12px;color:#888;text-align:center;">You receive Deal Radar because you subscribed with double opt-in.<br/><a href="%%UNSUB_URL%%" style="color:#888;">Unsubscribe with one click</a></p>
+  `;
+  return baseTemplate(`Deal Radar — Week of ${opts.weekSlug}`, body);
+}
+
+export async function sendDealRadarDigest(opts: {
+  to: string;
+  subject: string;
+  htmlTemplate: string;    // from buildDealRadarDigestHtml, contains %%UNSUB_URL%%
+  unsubscribeUrl: string;
+}) {
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: opts.to,
+    subject: opts.subject,
+    html: opts.htmlTemplate.replaceAll('%%UNSUB_URL%%', opts.unsubscribeUrl),
+    headers: {
+      'List-Unsubscribe': `<${opts.unsubscribeUrl}>`,
+      'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
+    },
+  });
+}
+
+export async function sendDealRadarDraftReady(opts: {
+  weekSlug: string;
+  counts: { total: number; listed: number; signals: number };
+  errors: string[];
+}) {
+  const body = `
+    <p style="margin:0 0 16px;">The Deal Radar draft for the week of <strong>${opts.weekSlug}</strong> is ready for review.</p>
+    <p style="margin:0 0 16px;">${opts.counts.total} opportunities collected &mdash; ${opts.counts.listed} open collabs, ${opts.counts.signals} spend signals.</p>
+    ${opts.errors.length ? `<p style="margin:0 0 16px;color:#b00;">Source errors: ${opts.errors.join('; ')}</p>` : ''}
+    <p style="margin:0 0 16px;">Nothing sends until you approve it.</p>
+    <p style="margin:0;text-align:center;">${buttonHtml(`${SITE.url}/admin/deal-radar`, 'Review the draft')}</p>
+  `;
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: ADMIN_EMAIL,
+    subject: `Deal Radar draft ready — week of ${opts.weekSlug}`,
+    html: baseTemplate('Deal Radar Draft Ready', body),
+  });
+}

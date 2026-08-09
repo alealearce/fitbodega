@@ -20,6 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/creators`,                          changeFrequency: "monthly", priority: 0.9 },
     ...hubRoutes,
     { url: `${base}/community`,                         changeFrequency: "daily",   priority: 0.8 },
+    { url: `${base}/deals`,                             changeFrequency: "weekly",  priority: 0.9 },
     { url: `${base}/top-100`,                           changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/measure-up`,                        changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/top-100-fitness-influencers`,       changeFrequency: "monthly", priority: 0.9 },
@@ -39,7 +40,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const supabase = createAdminClient();
 
-  const [listingsRes, postsRes] = await Promise.all([
+  const [listingsRes, postsRes, digestsRes] = await Promise.all([
     supabase
       .from("listings")
       .select("slug, type, updated_at")
@@ -48,6 +49,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       .from("blog_posts")
       .select("slug, updated_at")
       .eq("is_published", true),
+    supabase
+      .from("dr_weekly_digests")
+      .select("week_slug, published_at")
+      .eq("status", "published"),
   ]);
 
   const listingRoutes: MetadataRoute.Sitemap = (listingsRes.data ?? []).map((l) => ({
@@ -66,5 +71,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...listingRoutes, ...blogRoutes];
+  const dealRoutes: MetadataRoute.Sitemap = (digestsRes.data ?? []).map((d) => ({
+    url: `${base}/deals/${d.week_slug}`,
+    lastModified: d.published_at ? new Date(d.published_at) : undefined,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...listingRoutes, ...blogRoutes, ...dealRoutes];
 }

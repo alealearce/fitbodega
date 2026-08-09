@@ -1,0 +1,51 @@
+# Supabase project config for fitbodega (ckjtzptxlokflojiwtbq) — pushed with
+# `supabase config push` (needs RESEND_API_KEY exported from .env.local).
+# Only the [auth] surface is managed here; schema lives in supabase/migrations.
+#
+# NOTE: config push replaces the whole [auth] section, so every value below
+# mirrors the remote (read 2026-07-22 via push-diff). Undeclared keys fall back
+# to CLI defaults — do not remove lines without checking the remote first.
+
+project_id = "fitbodega"
+
+[auth]
+site_url = "https://fitbodega.com"
+additional_redirect_urls = [
+  "https://fitbodega.com/**",
+  "https://*.vercel.app/**",
+  "http://localhost:3006/**",
+]
+
+[auth.rate_limit]
+# Raised from 2/hr (2026-07-22): custom SMTP allows a higher auth-email rate.
+email_sent = 30
+
+[auth.mfa.totp]
+enroll_enabled = true
+verify_enabled = true
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+secure_password_change = false
+max_frequency = "1m0s"
+otp_length = 8
+otp_expiry = 3600
+
+[auth.email.smtp]
+enabled = true
+host = "smtp.resend.com"
+port = 465
+user = "resend"
+pass = "env(RESEND_API_KEY)"
+admin_email = "hello@fitbodega.com"
+sender_name = "FitBodega"
+
+[auth.email.template.confirmation]
+subject = "Confirm your email — FitBodega"
+content_path = "./supabase/email-templates/confirm-signup.html"
+
+[auth.email.template.recovery]
+subject = "Reset your password — FitBodega"
+content_path = "./supabase/email-templates/reset-password.html"

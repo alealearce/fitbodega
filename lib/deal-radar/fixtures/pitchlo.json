@@ -1,0 +1,44 @@
+[
+  {
+    "source": "pitchlo",
+    "sourceType": "listed_deal",
+    "brandName": "Pranarom",
+    "brandUrl": "https://pranarom.com",
+    "sourceUrl": "https://www.pitchlo.com/jobs/e0c6d8a6-7ab0-4753-ba79-7fca929d471f",
+    "offerType": "paid",
+    "compensationText": "$150 fixed per video",
+    "deliverables": "Short-form video featuring seasonal wellness products; educational tone. US only.",
+    "platforms": ["short-form video"],
+    "activeAdCount": null,
+    "postedAt": "2026-08-07",
+    "meta": { "location": "US only" }
+  },
+  {
+    "source": "pitchlo",
+    "sourceType": "listed_deal",
+    "brandName": "STRIIPZ",
+    "brandUrl": "https://striipz.com",
+    "sourceUrl": "https://www.pitchlo.com/jobs/4cd988fb-7867-4790-b90b-0cc3d8c81273",
+    "offerType": "paid",
+    "compensationText": "$100 + 15% commission",
+    "deliverables": "4 vertical UGC videos, 30-45s each, fully edited",
+    "platforms": ["tiktok", "instagram", "facebook", "youtube shorts"],
+    "activeAdCount": null,
+    "postedAt": "2026-08-04",
+    "meta": {}
+  },
+  {
+    "source": "pitchlo",
+    "sourceType": "listed_deal",
+    "brandName": "MoveMatch",
+    "brandUrl": null,
+    "sourceUrl": "https://www.pitchlo.com/jobs/38012a6a-ae7b-424a-b23e-43ce5e932f13",
+    "offerType": "paid",
+    "compensationText": "$400",
+    "deliverables": "App Store preview video, 15-30s, motion graphics included",
+    "platforms": ["app store"],
+    "activeAdCount": null,
+    "postedAt": "2026-07-26",
+    "meta": { "category": "fitness app" }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "source": "casting_boards",
+    "sourceType": "listed_deal",
+    "brandName": "Summit Strength Co",
+    "brandUrl": "https://summitstrength.example.com",
+    "sourceUrl": "https://www.projectcasting.com/job/example-fitness-ugc-campaign",
+    "offerType": "paid",
+    "compensationText": "$250 per video",
+    "deliverables": "2 vertical UGC videos for paid social, raw footage delivery",
+    "platforms": ["instagram", "tiktok"],
+    "activeAdCount": null,
+    "postedAt": "2026-08-05",
+    "meta": { "deadline": "2026-08-20" }
+  }
+]

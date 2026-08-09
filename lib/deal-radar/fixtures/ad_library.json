@@ -1,0 +1,20 @@
+[
+  {
+    "source": "ad_library",
+    "sourceType": "spend_signal",
+    "brandName": "Tasty Gains",
+    "brandUrl": "https://tastygains.example.com",
+    "sourceUrl": "https://www.facebook.com/ads/library/?id=4415102662065459",
+    "offerType": "unknown",
+    "compensationText": null,
+    "deliverables": null,
+    "platforms": ["facebook", "instagram"],
+    "activeAdCount": 6,
+    "postedAt": "2026-01-19",
+    "meta": {
+      "evidence": "observed",
+      "matchedKeywords": ["creatine"],
+      "sampleAdCopy": "Want to take Creatine for the growth & recovery, but struggling to take powder every day?"
+    }
+  }
+]

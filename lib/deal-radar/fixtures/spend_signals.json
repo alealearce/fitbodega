@@ -1,0 +1,38 @@
+[
+  {
+    "source": "spend_signals",
+    "sourceType": "spend_signal",
+    "brandName": "David Protein",
+    "brandUrl": "https://davidprotein.com",
+    "sourceUrl": "https://motionapp.com/library/david-protein",
+    "offerType": "unknown",
+    "compensationText": null,
+    "deliverables": null,
+    "platforms": ["instagram", "facebook"],
+    "activeAdCount": 404,
+    "postedAt": "2026-08-01",
+    "meta": {
+      "evidence": "observed",
+      "evidenceNote": "~404 active Meta ads, ~35 new creatives/week, UGC-testimonial heavy (Motion tracker)",
+      "pitchAngle": "Recipe and food-pairing UGC that treats the bar as an ingredient - the exact format they buy weekly."
+    }
+  },
+  {
+    "source": "spend_signals",
+    "sourceType": "spend_signal",
+    "brandName": "WHOOP",
+    "brandUrl": "https://whoop.com",
+    "sourceUrl": "https://www.gomarble.ai/library/brands/whoop/",
+    "offerType": "unknown",
+    "compensationText": null,
+    "deliverables": null,
+    "platforms": ["facebook", "instagram", "threads"],
+    "activeAdCount": 282,
+    "postedAt": "2026-08-01",
+    "meta": {
+      "evidence": "observed",
+      "evidenceNote": "282 active Meta ads, free-trial funnel; only 32% are video (GoMarble tracker)",
+      "pitchAngle": "Day-in-the-life creator video aimed at the free-trial page - the format gap in their own library."
+    }
+  }
+]

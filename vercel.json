@@ -15,6 +15,10 @@
     {
       "path": "/api/admin/daily-blog",
       "schedule": "7 18 * * *"
+    },
+    {
+      "path": "/api/deal-radar/collect",
+      "schedule": "0 13 * * 1"
     }
   ]
 }
