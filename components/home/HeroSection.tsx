@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 
 /**
  * Hero — "The Brutalist Sanctuary", magazine-first.
@@ -51,14 +50,6 @@ export default function HeroSection() {
             I&apos;m a Creator
           </Link>
         </div>
-
-        <Link
-          href="/search"
-          className="mt-8 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface-variant hover:text-primary transition-colors duration-300"
-        >
-          Explore the directory
-          <ArrowUpRight size={15} />
-        </Link>
       </div>
     </section>
   );
