@@ -27,8 +27,8 @@ export default function HeroSection() {
         </div>
 
         <h1 className="font-serif text-display-xl uppercase tracking-tight text-on-surface max-w-5xl">
-          Where fitness brands meet the creators{" "}
-          <span className="text-primary">shaping training culture</span>.
+          Where brands meet{" "}
+          <span className="text-primary">training culture</span>.
         </h1>
 
         <p className="font-sans text-lg text-on-surface-variant leading-relaxed max-w-xl mt-8">
