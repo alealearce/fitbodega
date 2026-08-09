@@ -4,16 +4,16 @@ import { ArrowUpRight } from "lucide-react";
 import { SITE } from "@/lib/config/site";
 
 export const metadata: Metadata = {
-  title: "About — In Support of the Ones That Keep Us Moving",
-  description: `${SITE.name} cares about everything that keeps us moving and the ones that help us get there — the spaces, the coaches, the stories, and the rankings.`,
+  title: "About — The Fitness Creator Network",
+  description: `${SITE.name} is a professional marketing team with a passion for fitness — connecting training culture with its creators through rankings, stories, and campaigns backed by 15 years in paid media.`,
   alternates: { canonical: `${SITE.url}/about` },
 };
 
 /**
  * About — a manifesto, not an SEO asset.
- * FitBodega is a magazine for the city's fitness talent: the directory is
- * the index, The Journal is the stories, and the FitBodega Vancouver FC
- * sponsorship photos are the receipts.
+ * FitBodega is a marketing team for training culture: the 100 is the
+ * ranking, The Journal is the stories, and the FitBodega Vancouver FC
+ * sponsorship photos are the receipts — we've sponsored fitness before.
  */
 export default function AboutPage() {
   return (
@@ -33,30 +33,23 @@ export default function AboutPage() {
             <p className="font-sans text-label-md uppercase text-primary">The Story</p>
           </div>
           <h1 className="font-serif text-display-xl uppercase text-on-surface max-w-5xl">
-            In support of the ones
+            Connecting training culture
             <br />
-            that <span className="text-primary">keep us moving</span>.
+            with <span className="text-primary">its creators</span>.
           </h1>
           <div className="max-w-2xl mt-10 space-y-6 font-sans text-lg text-on-surface-variant leading-relaxed">
             <p>
-              We care about everything that keeps us moving. The training and the
-              recovery. The cold plunge after the hard session. The meal that fuels
-              tomorrow. The run that clears your head.
+              {SITE.name} is a marketing team — professional, experienced, and
+              obsessed with fitness. Fifteen years in customer acquisition and
+              paid media across Google and Meta, now pointed at the world we
+              train in.
             </p>
             <p>
-              And we care about the ones that help us get there. The gym that started
-              in a garage. The coach who rebuilt a hundred bodies before anyone knew
-              their name. The sauna house two friends opened because nothing like it
-              existed here yet. The dietitian, the store owner, the run crew that
-              turned Sunday mornings into a movement.
+              We rank the creators shaping training culture, tell their stories
+              in the Journal, and connect them with the brands that fuel it.
             </p>
             <p className="text-on-surface">
-              {SITE.name} is a directory and magazine for fitness and recovery
-              culture.
-            </p>
-            <p>
-              The directory is the index. The Journal is the stories. The FitBodega
-              100 is the top players in the game.
+              {SITE.name} is the fitness creator network.
             </p>
           </div>
         </div>
@@ -67,10 +60,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-7 h-[3px] bg-primary" aria-hidden />
-            <p className="font-sans text-label-md uppercase text-primary">We&apos;ve backed local talent before</p>
+            <p className="font-sans text-label-md uppercase text-primary">We&apos;ve sponsored fitness before</p>
           </div>
           <p className="font-sans text-lg text-on-surface-variant leading-relaxed max-w-2xl mt-6">
-            In 2024 we sponsored{" "}
+            This isn&apos;t theory — we&apos;ve done the work. In 2024 we sponsored{" "}
             <a
               href="https://www.instagram.com/fitbodegavancouverfc/"
               target="_blank"
@@ -79,10 +72,9 @@ export default function AboutPage() {
             >
               FitBodega Vancouver FC
             </a>{" "}
-            — a squad of Vancouver players who carried our name to The Soccer
-            Tournament, training at home and competing against teams backed by
-            football legends. These photos are from that run. Supporting the
-            city&apos;s athletes is where this whole thing started.
+            — kits, content, and a squad of Vancouver players who carried our
+            name to The Soccer Tournament, competing against teams backed by
+            football legends.
           </p>
 
           {/* Editorial photo composition — asymmetric, sharp, full-bleed */}
@@ -160,24 +152,24 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── How it works — two pillars, typographic ── */}
+      {/* ── How it works — three pillars, typographic ── */}
       <section className="py-24 lg:py-32 bg-bg">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-16">
             <div>
               <p className="font-sans text-label-sm text-on-surface-variant mb-4">01</p>
               <h3 className="font-serif text-3xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface">
-                The Directory
+                The FitBodega 100
               </h3>
               <p className="font-sans text-base text-on-surface-variant leading-relaxed mt-5 max-w-md">
-                Recovery studios, gyms, coaches, clubs, nutritionists, health food
-                stores, and youth sports.
+                The ranking. Who&apos;s rising, who&apos;s credible, and who&apos;s
+                worth a brand&apos;s attention — reviewed monthly.
               </p>
               <Link
-                href="/recovery"
+                href="/top-100"
                 className="inline-flex items-center gap-2 mt-7 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
               >
-                Explore the network
+                See the rankings
                 <ArrowUpRight size={15} />
               </Link>
             </div>
@@ -187,8 +179,8 @@ export default function AboutPage() {
                 The Journal
               </h3>
               <p className="font-sans text-base text-on-surface-variant leading-relaxed mt-5 max-w-md">
-                The magazine. Origin stories, training philosophies, and the people
-                behind the city&apos;s best spaces.
+                The stories. Creators, coaches, and the industry shaping training
+                culture — and what&apos;s next.
               </p>
               <Link
                 href="/community"
@@ -201,17 +193,17 @@ export default function AboutPage() {
             <div>
               <p className="font-sans text-label-sm text-on-surface-variant mb-4">03</p>
               <h3 className="font-serif text-3xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface">
-                The FitBodega 100
+                The Directory
               </h3>
               <p className="font-sans text-base text-on-surface-variant leading-relaxed mt-5 max-w-md">
-                The top players in the game. World rankings of the people, places,
-                and spaces that define training culture.
+                The world they train in. Recovery studios, gyms, coaches, clubs,
+                nutritionists, stores, and youth sports.
               </p>
               <Link
-                href="/top-100"
+                href="/recovery"
                 className="inline-flex items-center gap-2 mt-7 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
               >
-                See the rankings
+                Explore the network
                 <ArrowUpRight size={15} />
               </Link>
             </div>
@@ -219,24 +211,41 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── CTA — tell your story ── */}
+      {/* ── CTA — two doors ── */}
       <section className="bg-lime-gradient">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32">
           <h2 className="font-serif text-display-lg uppercase text-primary-on max-w-3xl">
-            Got a space?
+            Building a brand?
             <br />
-            Are you a coach?
+            Creating fitness content?
           </h2>
           <p className="font-sans text-lg text-primary-on/80 max-w-xl mt-6">
-            Join the network and put yourself in front of the people looking for
-            it — and let us help you grow your story.
+            Brands get creator campaigns run like media buys. Creators get
+            ranked, featured, and first look at deals.
           </p>
+          <div className="flex flex-wrap items-center gap-4 mt-10">
+            <Link
+              href="/for-brands"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
+            >
+              For Brands
+              <ArrowUpRight size={16} />
+            </Link>
+            <Link
+              href="/creators"
+              className="inline-flex items-center gap-2 px-8 py-4 text-primary-on font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-80"
+              style={{ boxShadow: "inset 0 0 0 1px rgba(22,25,0,0.4)" }}
+            >
+              For Creators
+              <ArrowUpRight size={16} />
+            </Link>
+          </div>
           <Link
             href="/submit"
-            className="inline-flex items-center gap-2 mt-10 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
+            className="mt-8 inline-flex items-center gap-2 font-sans text-label-md uppercase text-primary-on/70 hover:text-primary-on transition-colors duration-300"
           >
-            List Your Business
-            <ArrowUpRight size={16} />
+            Own a gym or studio? List your space
+            <ArrowUpRight size={14} />
           </Link>
         </div>
       </section>

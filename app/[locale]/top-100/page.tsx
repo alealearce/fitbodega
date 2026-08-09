@@ -69,8 +69,6 @@ export default function Top100HubPage() {
     (max, l) => (l.updated && l.updated > max ? l.updated : max),
     ""
   );
-  const totalRanked = lists.reduce((s, l) => s + l.ranked, 0);
-
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -111,7 +109,7 @@ export default function Top100HubPage() {
           </p>
           <HeroClaimLines />
           <p className="font-sans text-label-sm uppercase text-on-surface-variant mt-8">
-            {totalRanked.toLocaleString()} ranked · Reviewed monthly · Updated {latestUpdated}
+            Updated {latestUpdated}
           </p>
         </div>
       </section>
@@ -190,19 +188,19 @@ export default function Top100HubPage() {
       {/* ── Outro CTA ── */}
       <section className="pb-20 lg:pb-24 bg-bg">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="bg-primary px-8 py-12 lg:px-14 lg:py-16">
-            <h2 className="font-serif text-display-md uppercase text-primary-on max-w-2xl">
+          <div className="bg-surface-card px-8 py-12 lg:px-14 lg:py-16">
+            <h2 className="font-serif text-display-md uppercase text-on-surface max-w-2xl">
               Belong on one of these?
             </h2>
-            <p className="font-sans text-base text-primary-on/80 mt-4 max-w-xl">
+            <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
               Corrections, disputes, and names we should be tracking:{" "}
-              <a href={`mailto:${SITE.email}`} className="font-bold underline underline-offset-4">
+              <a href={`mailto:${SITE.email}`} className="font-bold underline underline-offset-4 text-on-surface">
                 {SITE.email}
               </a>
             </p>
             <Link
               href="/submit"
-              className="inline-block mt-8 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
+              className="inline-block mt-8 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
             >
               List your space on FitBodega
             </Link>

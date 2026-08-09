@@ -62,7 +62,9 @@ Full creative rationale: `/Users/alejandroarce/Claude Code/FITBODEGA.COM/IMAGES/
 
 ## Brand & voice
 
-- Site: FitBodega — "The Fitness & Recovery Network". Vancouver-first, network open worldwide.
+- Site: FitBodega — "The Fitness Creator Network" (repositioned 2026-08-08: creator–brand
+  connector; two doors /for-brands + /creators; directory stays as "The Index"). Vancouver-first,
+  network open worldwide.
 - Six listing types (ids are code contracts): `recovery`, `gym`, `trainer`, `nutritionist`, `store`, `youth`.
 - Hub routes: `/recovery`, `/gyms`, `/trainers`, `/nutritionists`, `/health-food-stores`, `/youth-sports`.
 - Blog = "The Journal" (index at `/community`, posts at ROOT `/:slug` — never `/community/:slug` or `/blog/:slug`).

@@ -284,6 +284,89 @@ export async function sendAdminNewListing(
   });
 }
 
+// ── Admin: New Creator Application ────────────────────────────────────────
+
+export async function sendAdminCreatorApplication(opts: {
+  name: string;
+  email: string;
+  platform: string;
+  handle: string;
+  followerRange: string;
+  niche: string;
+  hasBrandDeals: boolean;
+  bestPostUrl: string;
+}) {
+  const subject = `New creator application: ${opts.name}`;
+  const body = `
+    <p style="margin:0 0 16px;">A new creator has applied to join the ${SITE.name} network.</p>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 24px;border:1px solid ${BORDER};border-radius:0;overflow:hidden;">
+      <tr>
+        <td style="padding:16px;background-color:${BG};">
+          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Name:</strong> ${opts.name}</p>
+          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Email:</strong> <a href="mailto:${opts.email}" style="color:${INK};">${opts.email}</a></p>
+          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Platform:</strong> ${opts.platform} — ${opts.handle}</p>
+          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Followers:</strong> ${opts.followerRange}</p>
+          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Niche:</strong> ${opts.niche}</p>
+          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Brand deals before:</strong> ${opts.hasBrandDeals ? 'Yes' : 'No'}</p>
+          <p style="margin:0;font-size:14px;font-family:Arial,sans-serif;"><strong>Best recent post:</strong> <a href="${opts.bestPostUrl}" style="color:${INK};">${opts.bestPostUrl}</a></p>
+        </td>
+      </tr>
+    </table>
+  `;
+
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: ADMIN_EMAIL,
+    subject,
+    html: baseTemplate('New Creator Application', body),
+  });
+}
+
+// ── Admin: New Brand Inquiry ──────────────────────────────────────────────
+
+export async function sendAdminBrandInquiry(opts: {
+  name: string;
+  email: string;
+  company: string;
+  website: string;
+  category: string;
+  targetMarket: string;
+  likedCreators: string;
+  budgetRange: string;
+  notes: string;
+}) {
+  const subject = `New brand inquiry: ${opts.company}`;
+  const row = (label: string, value: string) =>
+    value
+      ? `<p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>${label}:</strong> ${value}</p>`
+      : '';
+  const body = `
+    <p style="margin:0 0 16px;">A brand has asked about creator campaigns through ${SITE.name}.</p>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 24px;border:1px solid ${BORDER};border-radius:0;overflow:hidden;">
+      <tr>
+        <td style="padding:16px;background-color:${BG};">
+          ${row('Name', opts.name)}
+          ${row('Email', `<a href="mailto:${opts.email}" style="color:${INK};">${opts.email}</a>`)}
+          ${row('Brand', opts.company)}
+          ${row('Website', opts.website ? `<a href="${opts.website}" style="color:${INK};">${opts.website}</a>` : '')}
+          ${row('Sells', opts.category)}
+          ${row('Target market', opts.targetMarket)}
+          ${row('Creators they like', opts.likedCreators)}
+          ${row('Budget', opts.budgetRange)}
+          ${row('Notes', opts.notes)}
+        </td>
+      </tr>
+    </table>
+  `;
+
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: ADMIN_EMAIL,
+    subject,
+    html: baseTemplate('New Brand Inquiry', body),
+  });
+}
+
 // ── Admin: Listing Claim Request ──────────────────────────────────────────
 
 export async function sendAdminClaimRequest(opts: {

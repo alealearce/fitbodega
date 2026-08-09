@@ -15,6 +15,8 @@ const FOOTER_LINKS = {
     { label: "Youth Sports",       href: "/youth-sports" },
   ],
   network: [
+    { label: "For Brands",        href: "/for-brands" },
+    { label: "For Creators",      href: "/creators" },
     { label: "The FitBodega 100", href: "/top-100" },
     { label: "The Journal",       href: "/community" },
     { label: "About",             href: "/about" },

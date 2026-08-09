@@ -6,6 +6,7 @@ import { COPY, SITE } from "@/lib/config/site";
 import type { Listing, BlogPost } from "@/lib/supabase/types";
 import type { Metadata } from "next";
 import HeroSection from "@/components/home/HeroSection";
+import AuditForm from "@/components/top100/AuditForm";
 import ListingCard from "@/components/directory/ListingCard";
 import { TOP100_LISTS } from "@/components/top100/lists";
 import Top100Card from "@/components/top100/Top100Card";
@@ -67,7 +68,124 @@ export default async function HomePage() {
     <>
       <HeroSection />
 
-      {/* ── Member Spotlight banner — join the network, get featured ── */}
+      {/* ── For Brands — creator campaigns run like media buys ── */}
+      <section className="py-24 lg:py-32 bg-surface-low">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="w-7 h-[3px] bg-primary" aria-hidden />
+              <p className="font-sans text-label-md uppercase text-primary">
+                {COPY.brandsSection.kicker}
+              </p>
+            </div>
+            <h2 className="font-serif text-display-md uppercase text-on-surface">
+              {COPY.brandsSection.title}
+            </h2>
+            <p className="font-sans text-base text-on-surface-variant leading-relaxed mt-5">
+              {COPY.brandsSection.body}
+            </p>
+            <Link
+              href="/for-brands"
+              className="inline-flex items-center gap-2 mt-9 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
+            >
+              {COPY.brandsSection.cta}
+              <ArrowUpRight size={16} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── The FitBodega 100 — featured poster cards + view-all bar ── */}
+      <section className="py-24 lg:py-32 bg-bg">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                <p className="font-sans text-label-md uppercase text-primary">Ranked monthly</p>
+              </div>
+              <h2 className="font-serif text-display-md uppercase text-on-surface">
+                The FitBodega 100
+              </h2>
+              <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
+                We rank creators for a living. The FitBodega 100 tracks who&apos;s rising,
+                who&apos;s credible, and who&apos;s worth a brand&apos;s attention — updated
+                monthly.
+              </p>
+            </div>
+            <Link
+              href="/top-100"
+              className="flex-shrink-0 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
+            >
+              The full index
+              <ArrowUpRight size={16} />
+            </Link>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {FEATURED_TOP100.map((f, i) => (
+              <Top100Card
+                key={f.slug}
+                slug={f.slug}
+                navLabel={f.navLabel}
+                top3={f.top3}
+                lime={i === 1}
+                indexLabel={`${String(i + 1).padStart(2, "0")} / ${String(TOP100_LISTS.length).padStart(2, "0")}`}
+              />
+            ))}
+          </div>
+
+          {/* View-all bar — same watermark language, full width */}
+          <Link
+            href="/top-100"
+            className="group relative overflow-hidden mt-3 flex items-center justify-between gap-6 bg-surface-card hover:bg-primary transition-colors duration-300 px-7 py-8 lg:px-10 lg:py-10"
+          >
+            <span
+              aria-hidden
+              className="pointer-events-none select-none absolute -top-16 right-6 font-serif font-extrabold leading-none tracking-tighter text-[11rem] text-on-surface/[0.05] group-hover:text-primary-on/10 transition-colors duration-300"
+            >
+              100
+            </span>
+            <span className="relative font-serif text-xl lg:text-3xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary-on transition-colors duration-300">
+              View all {TOP100_LISTS.length} rankings
+            </span>
+            <ArrowUpRight
+              size={22}
+              className="relative flex-shrink-0 text-outline-variant group-hover:text-primary-on group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
+            />
+          </Link>
+        </div>
+      </section>
+
+      {/* ── Measure up — the audit tool, full form in a box ── */}
+      <section className="pb-24 lg:pb-32 bg-bg">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="relative overflow-hidden bg-surface-card p-8 lg:p-14">
+            <span
+              aria-hidden
+              className="pointer-events-none select-none absolute -top-14 right-6 font-serif font-extrabold leading-none tracking-tighter text-[13rem] text-on-surface/[0.04]"
+            >
+              100
+            </span>
+            <div className="relative">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                <p className="font-sans text-label-md uppercase text-primary">Not in the top 100... yet?</p>
+              </div>
+              <h2 className="font-serif text-display-md uppercase text-on-surface">
+                How do you measure up?
+              </h2>
+              <p className="font-sans text-base text-on-surface-variant mt-4 mb-12 max-w-2xl">
+                Free audit of your presence, benchmarked against the FitBodega 100 — concrete
+                improvements, each one showing how a name from the rankings handles it.
+              </p>
+              <AuditForm />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Creator Spotlight banner — join the network, get featured ── */}
       <section className="bg-primary">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-10 lg:py-12 grid gap-6 lg:grid-cols-[auto_1fr_auto] lg:items-center lg:gap-12">
           <div>
@@ -85,12 +203,117 @@ export default async function HomePage() {
             {COPY.spotlightBanner.body}
           </p>
           <Link
-            href="/submit"
+            href="/creators"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90 whitespace-nowrap"
           >
             {COPY.spotlightBanner.cta}
             <ArrowUpRight size={16} />
           </Link>
+        </div>
+      </section>
+
+      {/* ── The Journal — Bodega Labs ── */}
+      <section className="py-24 lg:py-32 bg-surface-low">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                <p className="font-sans text-label-md uppercase text-primary">
+                  {COPY.communitySection.kicker}
+                </p>
+              </div>
+              <h2 className="font-serif text-display-md uppercase text-on-surface">
+                {COPY.communitySection.title}
+              </h2>
+              <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
+                {COPY.communitySection.subtitle}
+              </p>
+            </div>
+            <Link
+              href="/community"
+              className="flex-shrink-0 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
+            >
+              {COPY.communitySection.cta}
+              <ArrowUpRight size={15} />
+            </Link>
+          </div>
+
+          {posts.length > 0 && (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+              {posts.map(post => (
+                <BlogCard key={post.id} post={post} />
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* ── The Index — asymmetric split: sticky intro left, typographic
+          rows right. Hovering a row slides in a giant ghost category word,
+          echoing the FitBodega 100 watermark language. ── */}
+      <section className="py-24 lg:py-32 bg-bg">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid lg:grid-cols-[1fr_2fr] gap-10 lg:gap-16">
+            <div className="lg:sticky lg:top-28 lg:self-start">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                <p className="font-sans text-label-md uppercase text-primary">
+                  The Directory
+                </p>
+              </div>
+              <h2 className="font-serif text-display-md uppercase text-on-surface">
+                The Index
+              </h2>
+              <p className="font-sans text-base text-on-surface-variant mt-5 max-w-sm">
+                The gyms, recovery studios, coaches, clubs, and stores of the network — seven
+                categories, every listing reviewed.
+              </p>
+              <Link
+                href="/search"
+                className="mt-8 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
+              >
+                Search the network
+                <ArrowUpRight size={16} />
+              </Link>
+            </div>
+
+            <div>
+              {CATEGORIES.map((cat, i) => (
+                <Link
+                  key={cat.href}
+                  href={cat.href}
+                  className="group relative overflow-hidden flex items-baseline justify-between gap-6 py-7 hover:bg-surface-low -mx-6 lg:mx-0 px-6 transition-colors duration-300"
+                >
+                  {/* Ghost word — slides in on hover */}
+                  <span
+                    aria-hidden
+                    className="pointer-events-none select-none absolute inset-y-0 right-0 flex items-center font-serif font-extrabold uppercase tracking-tighter leading-none whitespace-nowrap text-7xl lg:text-8xl text-primary/[0.07] opacity-0 translate-x-10 group-hover:opacity-100 group-hover:translate-x-4 transition-all duration-500"
+                  >
+                    {cat.name}
+                  </span>
+
+                  <div className="relative flex items-baseline gap-6 min-w-0">
+                    <span className="font-sans text-label-sm text-on-surface-variant flex-shrink-0 tabular-nums">
+                      {String(i + 1).padStart(2, "0")} / {String(CATEGORIES.length).padStart(2, "0")}
+                    </span>
+                    <div className="min-w-0">
+                      <h3 className="font-serif text-2xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
+                        {cat.name}
+                      </h3>
+                      <p className="font-sans text-sm text-on-surface-variant mt-2 max-w-lg">
+                        {cat.desc}
+                      </p>
+                    </div>
+                  </div>
+                  <ArrowUpRight
+                    size={22}
+                    className="relative flex-shrink-0 text-outline-variant group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
+                  />
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -154,172 +377,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── The Index — asymmetric split: sticky intro left, typographic
-          rows right. Hovering a row slides in a giant ghost category word,
-          echoing the FitBodega 100 watermark language. ── */}
-      <section className="py-24 lg:py-32 bg-bg">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid lg:grid-cols-[1fr_2fr] gap-10 lg:gap-16">
-            <div className="lg:sticky lg:top-28 lg:self-start">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="w-7 h-[3px] bg-primary" aria-hidden />
-                <p className="font-sans text-label-md uppercase text-primary">
-                  The Directory
-                </p>
-              </div>
-              <h2 className="font-serif text-display-md uppercase text-on-surface">
-                The Index
-              </h2>
-              <p className="font-sans text-base text-on-surface-variant mt-5 max-w-sm">
-                Seven categories, one standard. Every space in the network is reviewed before it
-                lists.
-              </p>
-              <Link
-                href="/search"
-                className="mt-8 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
-              >
-                Search the network
-                <ArrowUpRight size={16} />
-              </Link>
-            </div>
-
-            <div>
-              {CATEGORIES.map((cat, i) => (
-                <Link
-                  key={cat.href}
-                  href={cat.href}
-                  className="group relative overflow-hidden flex items-baseline justify-between gap-6 py-7 hover:bg-surface-low -mx-6 lg:mx-0 px-6 transition-colors duration-300"
-                >
-                  {/* Ghost word — slides in on hover */}
-                  <span
-                    aria-hidden
-                    className="pointer-events-none select-none absolute inset-y-0 right-0 flex items-center font-serif font-extrabold uppercase tracking-tighter leading-none whitespace-nowrap text-7xl lg:text-8xl text-primary/[0.07] opacity-0 translate-x-10 group-hover:opacity-100 group-hover:translate-x-4 transition-all duration-500"
-                  >
-                    {cat.name}
-                  </span>
-
-                  <div className="relative flex items-baseline gap-6 min-w-0">
-                    <span className="font-sans text-label-sm text-on-surface-variant flex-shrink-0 tabular-nums">
-                      {String(i + 1).padStart(2, "0")} / {String(CATEGORIES.length).padStart(2, "0")}
-                    </span>
-                    <div className="min-w-0">
-                      <h3 className="font-serif text-2xl lg:text-4xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
-                        {cat.name}
-                      </h3>
-                      <p className="font-sans text-sm text-on-surface-variant mt-2 max-w-lg">
-                        {cat.desc}
-                      </p>
-                    </div>
-                  </div>
-                  <ArrowUpRight
-                    size={22}
-                    className="relative flex-shrink-0 text-outline-variant group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
-                  />
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── The FitBodega 100 — featured poster cards + view-all bar ── */}
-      <section className="py-24 lg:py-32 bg-surface-low">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <span className="w-7 h-[3px] bg-primary" aria-hidden />
-                <p className="font-sans text-label-md uppercase text-primary">Ranked monthly</p>
-              </div>
-              <h2 className="font-serif text-display-md uppercase text-on-surface">
-                The FitBodega 100
-              </h2>
-              <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
-                The people, places, and spaces that define training culture.
-              </p>
-            </div>
-            <Link
-              href="/top-100"
-              className="flex-shrink-0 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
-            >
-              The full index
-              <ArrowUpRight size={16} />
-            </Link>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {FEATURED_TOP100.map((f, i) => (
-              <Top100Card
-                key={f.slug}
-                slug={f.slug}
-                navLabel={f.navLabel}
-                top3={f.top3}
-                lime={i === 1}
-                indexLabel={`${String(i + 1).padStart(2, "0")} / ${String(TOP100_LISTS.length).padStart(2, "0")}`}
-              />
-            ))}
-          </div>
-
-          {/* View-all bar — same watermark language, full width */}
-          <Link
-            href="/top-100"
-            className="group relative overflow-hidden mt-3 flex items-center justify-between gap-6 bg-surface-card hover:bg-primary transition-colors duration-300 px-7 py-8 lg:px-10 lg:py-10"
-          >
-            <span
-              aria-hidden
-              className="pointer-events-none select-none absolute -top-16 right-6 font-serif font-extrabold leading-none tracking-tighter text-[11rem] text-on-surface/[0.05] group-hover:text-primary-on/10 transition-colors duration-300"
-            >
-              100
-            </span>
-            <span className="relative font-serif text-xl lg:text-3xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary-on transition-colors duration-300">
-              View all {TOP100_LISTS.length} rankings
-            </span>
-            <ArrowUpRight
-              size={22}
-              className="relative flex-shrink-0 text-outline-variant group-hover:text-primary-on group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
-            />
-          </Link>
-        </div>
-      </section>
-
-      {/* ── The Journal — Bodega Labs ── */}
-      <section className="py-24 lg:py-32 bg-bg">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <span className="w-7 h-[3px] bg-primary" aria-hidden />
-                <p className="font-sans text-label-md uppercase text-primary">
-                  {COPY.communitySection.kicker}
-                </p>
-              </div>
-              <h2 className="font-serif text-display-md uppercase text-on-surface">
-                {COPY.communitySection.title}
-              </h2>
-              <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
-                {COPY.communitySection.subtitle}
-              </p>
-            </div>
-            <Link
-              href="/community"
-              className="flex-shrink-0 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
-            >
-              {COPY.communitySection.cta}
-              <ArrowUpRight size={15} />
-            </Link>
-          </div>
-
-          {posts.length > 0 && (
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-              {posts.map(post => (
-                <BlogCard key={post.id} post={post} />
-              ))}
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* ── Access CTA — full lime block, mockup-style ── */}
+      {/* ── Access CTA — full lime block, two doors ── */}
       <section className="bg-lime-gradient">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32">
           <h2 className="font-serif text-display-lg uppercase text-primary-on max-w-3xl">
@@ -328,12 +386,29 @@ export default async function HomePage() {
           <p className="font-sans text-lg text-primary-on/80 max-w-xl mt-6">
             {COPY.submitCta.subtitle}
           </p>
+          <div className="flex flex-wrap items-center gap-4 mt-10">
+            <Link
+              href="/for-brands"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
+            >
+              {COPY.submitCta.ctaBrands}
+              <ArrowUpRight size={16} />
+            </Link>
+            <Link
+              href="/creators"
+              className="inline-flex items-center gap-2 px-8 py-4 text-primary-on font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-80"
+              style={{ boxShadow: "inset 0 0 0 1px rgba(22,25,0,0.4)" }}
+            >
+              {COPY.submitCta.ctaCreators}
+              <ArrowUpRight size={16} />
+            </Link>
+          </div>
           <Link
             href="/submit"
-            className="inline-flex items-center gap-2 mt-10 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
+            className="mt-8 inline-flex items-center gap-2 font-sans text-label-md uppercase text-primary-on/70 hover:text-primary-on transition-colors duration-300"
           >
-            {COPY.submitCta.cta}
-            <ArrowUpRight size={16} />
+            {COPY.submitCta.listLink}
+            <ArrowUpRight size={14} />
           </Link>
         </div>
       </section>

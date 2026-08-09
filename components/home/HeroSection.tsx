@@ -3,8 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 /**
  * Hero — "The Brutalist Sanctuary", magazine-first.
- * A single statement in the void (the same line as the About manifesto)
- * with three ways in: the Journal, the 100, and a quiet directory link.
+ * Two doors — Brands and Creators — with a quiet directory link.
  * Category wayfinding lives in the Index section below, not here.
  */
 export default function HeroSection() {
@@ -23,44 +22,43 @@ export default function HeroSection() {
         <div className="flex items-center gap-3 mb-8">
           <span className="w-7 h-[3px] bg-primary" aria-hidden />
           <p className="font-sans text-label-md uppercase text-primary">
-            The Fitness &amp; Recovery Network
+            The Fitness Creator Network
           </p>
         </div>
 
         <h1 className="font-serif text-display-xl uppercase tracking-tight text-on-surface max-w-5xl">
-          The ones that
-          <br />
-          <span className="text-primary">keep us moving</span>.
+          Where fitness brands meet the creators{" "}
+          <span className="text-primary">shaping training culture</span>.
         </h1>
 
         <p className="font-sans text-lg text-on-surface-variant leading-relaxed max-w-xl mt-8">
-          A magazine for training culture — the stories behind the spaces, the world rankings
-          of the FitBodega 100, and a curated directory of the people and places that get us
-          there.
+          FitBodega ranks the creators, tells their stories, and connects them with the brands
+          that fuel training culture.
         </p>
 
         <div className="flex flex-wrap items-center gap-4 mt-10">
           <Link
-            href="/community"
+            href="/for-brands"
             className="px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
           >
-            Read the Journal
+            I&apos;m a Brand
           </Link>
           <Link
-            href="/top-100"
+            href="/creators"
             className="px-8 py-4 text-on-surface font-sans text-sm font-bold tracking-wide uppercase hover:text-primary transition-colors"
             style={{ boxShadow: "inset 0 0 0 1px rgba(72,72,71,0.3)" }}
           >
-            The FitBodega 100
-          </Link>
-          <Link
-            href="/search"
-            className="inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface-variant hover:text-primary transition-colors duration-300"
-          >
-            Search the directory
-            <ArrowUpRight size={15} />
+            I&apos;m a Creator
           </Link>
         </div>
+
+        <Link
+          href="/search"
+          className="mt-8 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface-variant hover:text-primary transition-colors duration-300"
+        >
+          Explore the directory
+          <ArrowUpRight size={15} />
+        </Link>
       </div>
     </section>
   );

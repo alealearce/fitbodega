@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils/cn";
 import { createClient } from "@/lib/supabase/client";
 
 const DIRECTORY_ITEMS = [
+  { label: "Creators",           href: "/creators",           desc: "Join the fitness creator network" },
   { label: "Recovery",           href: "/recovery",           desc: "Saunas, cold plunge & bodywork studios" },
   { label: "Gyms & Studios",     href: "/gyms",               desc: "Training floors & fitness studios" },
   { label: "Coaches",            href: "/trainers",           desc: "Personal trainers & performance coaches" },
@@ -16,7 +17,7 @@ const DIRECTORY_ITEMS = [
   { label: "Nutritionists",      href: "/nutritionists",      desc: "Sports dietitians & nutrition coaching" },
   { label: "Health Food Stores", href: "/health-food-stores", desc: "Supplements & whole-food fuel" },
   { label: "Youth Sports",       href: "/youth-sports",       desc: "Soccer clubs, academies & camps" },
-  { label: "Add Your Business",  href: "/submit",             desc: "Get listed in the directory" },
+  { label: "List Your Space",    href: "/submit",             desc: "Get listed in the directory" },
 ];
 
 type DropdownItem = { label: string; href: string; desc: string };
@@ -154,6 +155,7 @@ export default function Navbar() {
                 setOpen={setDirectoryOpen}
                 innerRef={directoryRef}
               />
+              <NavLink href="/for-brands">For Brands</NavLink>
               <NavLink href="/top-100">Top 100</NavLink>
               <NavLink href="/community">Journal</NavLink>
               <NavLink href="/about">About</NavLink>
@@ -179,10 +181,10 @@ export default function Navbar() {
                 </Link>
               )}
               <Link
-                href="/submit"
+                href="/for-brands"
                 className="px-5 py-2.5 bg-primary text-primary-on font-sans text-label-sm uppercase transition-opacity duration-300 hover:opacity-90"
               >
-                List Your Space
+                Work With Us
               </Link>
             </div>
 
@@ -242,6 +244,7 @@ export default function Navbar() {
               </div>
 
               <div className="pt-4">
+                <MobileNavLink href="/for-brands" onClick={() => setMobileOpen(false)}>For Brands</MobileNavLink>
                 <MobileNavLink href="/top-100" onClick={() => setMobileOpen(false)}>Top 100</MobileNavLink>
                 <MobileNavLink href="/community" onClick={() => setMobileOpen(false)}>Journal</MobileNavLink>
                 <MobileNavLink href="/about" onClick={() => setMobileOpen(false)}>About</MobileNavLink>
@@ -257,11 +260,11 @@ export default function Navbar() {
                 {isAuthed ? "Dashboard" : "Sign In"}
               </Link>
               <Link
-                href="/submit"
+                href="/for-brands"
                 onClick={() => setMobileOpen(false)}
                 className="text-center py-3.5 bg-primary text-primary-on font-sans text-label-sm uppercase transition-opacity hover:opacity-90"
               >
-                List Your Space
+                Work With Us
               </Link>
             </div>
           </div>

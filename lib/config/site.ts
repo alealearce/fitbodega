@@ -22,8 +22,8 @@ export const COLORS = {
 export const SITE = {
   name:        "FitBodega",
   shortName:   "FitBodega",
-  tagline:     "The Fitness & Recovery Network",
-  description: "The curated directory for recovery studios, gyms, coaches, nutritionists, and health food stores — starting in Vancouver. Sauna, cold plunge, strength, and everything your training demands.",
+  tagline:     "The Fitness Creator Network",
+  description: "FitBodega connects fitness brands with the creators shaping training culture — monthly rankings, Journal profiles, and creator campaigns run like performance marketing. Plus the curated directory of gyms, recovery studios, and coaches.",
   domain:      "fitbodega.com",
   url:         "https://fitbodega.com",
   email:       "hello@fitbodega.com",
@@ -95,7 +95,7 @@ export const COPY = {
   },
   searchPlaceholder: "Search by city, coach, gym, cold plunge...",
   featuredSection: {
-    kicker:   "Partners",
+    kicker:   "Featured in the Index",
     title:    "Featured spaces",
     subtitle: "Curated high-performance sanctuaries.",
     cta:      "View all",
@@ -103,22 +103,30 @@ export const COPY = {
   communitySection: {
     kicker:   "The Magazine",
     title:    "The Journal",
-    subtitle: "The stories behind the city's spaces — how they started, how they train, where they're going.",
+    subtitle: "The stories behind the creators, coaches, and the industry shaping training culture — and what's next.",
     cta:      "Read the Journal",
   },
+  brandsSection: {
+    kicker:   "For Brands",
+    title:    "Measured creator campaigns.",
+    body:     "Most creator marketing is bought on vibes. We select creators from our network, negotiate the deal, run paid amplification on their content, and report performance the way a media buyer would — cost per result, not impressions. Built and run by a 15-year customer-acquisition operator.",
+    cta:      "Work with us",
+  },
   spotlightBanner: {
-    kicker:   "Member Spotlight",
-    headline: "JOIN. GET FEATURED.",
-    body:     "Every member and business who joins the network gets introduced — a spotlight in The Journal and a feature across our social channels. Your voice in the network.",
-    cta:      "Claim Your Spotlight",
+    kicker:   "Creator Spotlight",
+    headline: "GET RANKED. GET FEATURED.",
+    body:     "Creators who join the network get considered for the FitBodega 100, profiled in the Journal, featured across our channels — and first look when brand campaigns come through the network.",
+    cta:      "Join as a Creator",
   },
   submitCta: {
-    title:    "READY TO BE FOUND?",
-    subtitle: "Own a recovery studio, gym, or practice? Join the curated network — claim your space in the directory.",
-    cta:      "Submit Your Space",
+    title:    "TWO WAYS IN.",
+    subtitle: "Building a fitness brand? Let's talk creators. Creating fitness content? Claim your place in the network.",
+    ctaBrands:   "For Brands",
+    ctaCreators: "For Creators",
+    listLink:    "Own a gym or studio? List your space",
   },
   footer: {
-    tagline: "The Fitness & Recovery Network",
+    tagline: "The Fitness Creator Network",
   },
 } as const;
 
