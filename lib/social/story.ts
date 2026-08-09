@@ -48,7 +48,7 @@ type GeneratedStory = {
   pull_quote: string;
 };
 
-const SYSTEM_PROMPT = `You are the automated editorial system for FitBodega (fitbodega.com) — the curated fitness and recovery network: recovery studios, gyms, coaches, nutritionists, health food stores, and youth sports programs.
+const SYSTEM_PROMPT = `You are the automated editorial system for FitBodega (fitbodega.com) — the fitness creator network, whose curated directory covers recovery studios, gyms, coaches, nutritionists, health food stores, and youth sports programs.
 
 You are writing a "Welcome + Member Spotlight" post for a member who just joined the network. This is NOT a "story" — never use the word "story" anywhere in the title or copy. The public framing is a welcome + spotlight.
 

@@ -198,13 +198,18 @@ export default function SubmitPage() {
         <div className="max-w-3xl mx-auto px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-7 h-[3px] bg-primary" aria-hidden />
-            <p className="font-sans text-label-md uppercase text-primary">Join the Directory</p>
+            <p className="font-sans text-label-md uppercase text-primary">The Index</p>
           </div>
           <h1 className="font-serif text-display-md uppercase text-on-surface mb-4">
             Put your space on the map
           </h1>
           <p className="font-sans text-lg text-on-surface-variant leading-relaxed">
-            List your recovery studio, gym, coaching practice, nutrition service, health food store, or youth program in the curated network — free to apply, reviewed by our team.
+            List your recovery studio, gym, coaching practice, nutrition service, health food
+            store, or youth program in the Index — the curated directory of the fitness creator
+            network. Free to apply, reviewed by our team. Creating fitness content instead?{" "}
+            <a href="/creators" className="text-on-surface underline underline-offset-4 decoration-primary hover:text-primary transition-colors duration-300">
+              Join as a creator
+            </a>.
           </p>
         </div>
       </section>

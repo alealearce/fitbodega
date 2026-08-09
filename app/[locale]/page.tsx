@@ -370,7 +370,7 @@ export default async function HomePage() {
           ) : (
             <EmptyState
               title="The network is growing"
-              description="Be among the first to list your space in the curated directory."
+              description="Be among the first to list your space in the Index."
               cta={{ label: "List Your Space", href: "/submit" }}
             />
           )}

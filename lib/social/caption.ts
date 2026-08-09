@@ -62,7 +62,7 @@ async function ask(system: string, user: string): Promise<string | null> {
 
 export type BlogContent = { points: string[]; caption: string };
 
-const BLOG_SYS = `You write for ${SITE.name}'s Instagram — the curated fitness and recovery network.
+const BLOG_SYS = `You write for ${SITE.name}'s Instagram — the fitness creator network.
 Voice: confident, terse, editorial. No exclamation marks, no "amazing/awesome", no hedging, no emojis.
 Return ONLY minified JSON: {"points":["...","...","..."],"hook":"..."}.
 - points: EXACTLY 3 takeaways from the post, each a punchy standalone line, max ~90 characters, no numbering, no trailing period required.
@@ -120,7 +120,7 @@ const TYPE_LABEL: Record<string, string> = {
   youth:        'Youth Sports Program',
 };
 
-const SHOW_SYS = `You write confident, terse Instagram captions for ${SITE.name} spotlighting a member of the fitness and recovery network.
+const SHOW_SYS = `You write confident, terse Instagram captions for ${SITE.name} spotlighting a member of the fitness creator network.
 Voice: calm authority, editorial, celebratory but not gushing. No exclamation marks, no hedging.
 Write 2–4 short lines that make a reader want to discover this listing. No hashtags, no links, no @handles — those are appended separately. No emojis. Output ONLY the caption text.`;
 
@@ -183,7 +183,7 @@ export function igHandle(raw: string): string {
 
 // ─────────────────────────── member spotlight ────────────────────────────────
 
-const STORY_SYS = `You write confident, terse Instagram captions for ${SITE.name} welcoming a new member to the fitness and recovery network.
+const STORY_SYS = `You write confident, terse Instagram captions for ${SITE.name} welcoming a new member to the fitness creator network.
 Voice: calm authority, editorial, warm but not gushing. No exclamation marks, no "amazing/awesome", no hedging.
 Write 2–4 short lines introducing this member and why they matter. No hashtags, no links, no @handles — those are appended separately. No emojis. Never use the word "story". Output ONLY the caption text.`;
 

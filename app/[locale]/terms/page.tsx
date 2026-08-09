@@ -44,7 +44,7 @@ export default function TermsPage() {
 
             <LegalSection title="2. What We Are — and What We Are Not">
               <p>
-                {SITE.name} is a curated directory for recovery studios, gyms, coaches, nutritionists, health food stores, clubs, and youth sports programs — starting in Vancouver and open worldwide. We allow fitness and recovery businesses to create listings and allow the public to discover them.
+                {SITE.name} is the fitness creator network — creator rankings (the FitBodega 100), editorial (The Journal), creator and brand programs, and a curated directory for recovery studios, gyms, coaches, nutritionists, health food stores, clubs, and youth sports programs — starting in Vancouver and open worldwide. We allow fitness and recovery businesses to create listings and allow the public to discover them.
               </p>
               <p>
                 <strong className="text-on-surface">We are a directory only.</strong> We are not a party to any interaction, booking, membership, purchase, training program, treatment, or other engagement between you and any listed business. Any transaction you enter into with a listed business is solely between you and that business, on that business&apos;s own terms. We do not operate, own, inspect, supervise, or control any listed business or the services it provides.

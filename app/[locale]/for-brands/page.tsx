@@ -26,9 +26,29 @@ const SERVICES = [
   },
 ];
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Creator Marketing for Fitness Brands",
+  serviceType: "Influencer marketing",
+  description:
+    "Creator campaigns run like performance marketing — creator selection, deal negotiation, paid amplification, and reporting for fitness and wellness brands.",
+  url: `${SITE.url}/for-brands`,
+  provider: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+  },
+  areaServed: "Worldwide",
+};
+
 export default function ForBrandsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* ── Hero ── */}
       <section className="relative overflow-hidden bg-bg">
         <div

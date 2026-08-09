@@ -283,7 +283,7 @@ function ShowcaseCta({ name, handle }: { name: string; handle: string }) {
         Discover {name} on FitBodega
       </div>
       <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '32px', color: MUTED, marginTop: '34px', textAlign: 'center', maxWidth: '760px' }}>
-        The curated fitness and recovery network.
+        The fitness creator network.
       </div>
       <div style={{ display: 'flex', alignItems: 'center', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '30px', padding: '22px 46px', marginTop: '50px' }}>
         fitbodega.com

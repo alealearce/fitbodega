@@ -23,14 +23,24 @@ export async function GET() {
 
 > ${SITE.description}
 
-${SITE.name} is a curated directory connecting people with verified recovery studios, gyms, coaches, nutritionists, health food stores, and youth sports programs — starting in Vancouver, open worldwide. Every listing includes contact details, location, specialties, and (where supplied) imagery and reviews.
+${SITE.name} is the fitness creator network. We rank the creators shaping training culture (the FitBodega 100, reviewed monthly), profile them in the Journal, and connect fitness brands with creators for measured campaigns. The network also runs a curated directory of verified recovery studios, gyms, coaches, nutritionists, health food stores, clubs, and youth sports programs — starting in Vancouver, open worldwide.
 
 ## About
 
-- [About ${SITE.name}](${BASE}/about): Mission, story, and how listings are verified.
-- [The Journal](${BASE}/community): Training, recovery, and nutrition articles.
+- [About ${SITE.name}](${BASE}/about): Mission, story, and the team behind the network.
+- [The Journal](${BASE}/community): Stories on the creators, coaches, and industry shaping training culture.
 
-## Browse the Network
+## Rankings
+
+- [The FitBodega 100](${BASE}/top-100): Monthly world rankings across nine lists — influencers, gyms, retreats, coaches, and more.
+- [Measure Up](${BASE}/measure-up): Free audit of any fitness presence, benchmarked against the 100.
+
+## For Brands & Creators
+
+- [For Brands](${BASE}/for-brands): Creator campaigns run like performance marketing — selection, deals, paid amplification, reporting.
+- [For Creators](${BASE}/creators): Apply to join the network — rankings, Journal profiles, and first look at brand deals.
+
+## Browse the Directory
 
 ${categoryLines}
 
@@ -40,7 +50,7 @@ ${categoryLines}
 
 ## For Space Owners
 
-- [List Your Space](${BASE}/submit): Add a recovery studio, gym, coaching practice, nutrition service, store, or youth program.
+- [List Your Space](${BASE}/submit): Add a recovery studio, gym, coaching practice, nutrition service, store, or youth program to the Index.
 - [Sign in](${BASE}/login): Manage your listings.
 
 ## API / Agent Access

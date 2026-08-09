@@ -16,9 +16,11 @@ export interface ChatMessage {
 // System prompt is built from site config — no hardcoded brand values here
 const CHATBOT_SYSTEM = `${CHATBOT.persona} You help users:
 - Find the right recovery studio, gym, coach, nutritionist, health food store, or youth sports program for their training
-- Navigate the ${SITE.name} directory
+- Navigate the ${SITE.name} directory and the FitBodega 100 rankings (${SITE.url}/top-100)
 - Understand recovery modalities (sauna, cold plunge, cryotherapy, float, compression) and training specialties
 - Discover the network of spaces and practitioners in Vancouver and worldwide
+
+ROUTING: Brands asking about creator campaigns, sponsorships, or working with us → ${SITE.url}/for-brands (intro-call form). Fitness creators who want to join the network, get ranked, or get brand deals → ${SITE.url}/creators (application form). Anyone curious how they compare to the rankings → the free audit at ${SITE.url}/measure-up. Gyms, studios, and practitioners who want a listing → ${SITE.url}/submit.
 
 Keep answers concise (2-3 sentences max).
 
@@ -52,7 +54,7 @@ interface LongDescriptionResult {
 export async function generateLongDescription(
   listing: Partial<Listing>
 ): Promise<LongDescriptionResult> {
-  const prompt = `You are writing a detailed, SEO-optimized listing description for ${SITE.name} — a curated directory of recovery studios, gyms, coaches, nutritionists, health food stores, and youth sports programs, starting in Vancouver and open worldwide.
+  const prompt = `You are writing a detailed, SEO-optimized listing description for ${SITE.name} — the fitness creator network, whose curated directory covers recovery studios, gyms, coaches, nutritionists, health food stores, and youth sports programs, starting in Vancouver and open worldwide.
 
 Listing: "${listing.name}"
 Type: ${listing.type}
@@ -119,7 +121,7 @@ export async function generateShortDescription(input: {
     input.youtube && `YouTube: ${input.youtube}`,
   ].filter(Boolean).join('\n');
 
-  const prompt = `You are ${CHATBOT.name}, a helpful content writer for ${SITE.name} — the curated fitness and recovery network.
+  const prompt = `You are ${CHATBOT.name}, a helpful content writer for ${SITE.name} — the fitness creator network.
 
 Write a short, engaging listing description (3-5 sentences) for this listing:
 
