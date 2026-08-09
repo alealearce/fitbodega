@@ -8,8 +8,9 @@ import type { DrOpportunity, DrWeeklyDigest } from "@/lib/deal-radar/types";
 import { weekSlugToTitleDate } from "@/lib/deal-radar/week";
 import { createAdminClient, createClient } from "@/lib/supabase/server";
 
-// One Deal Radar edition — the SEO permalink. Draft editions render only for
-// a logged-in admin (?preview=1 from the review screen).
+// One Deal Radar edition — the SEO permalink, rendered as the same ledger
+// as the /deals showcase. Draft editions render only for a logged-in admin
+// (?preview=1 from the review screen).
 
 export const dynamic = "force-dynamic";
 
@@ -98,30 +99,37 @@ export default async function DealsPostPage({ params, searchParams }: PageProps)
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="max-w-4xl mx-auto px-6 py-24">
-        {digest.status !== "published" && (
-          <div className="bg-surface-input p-4 mb-10">
-            <p className="font-sans text-label-sm uppercase text-error">
-              Draft preview — not published, not indexed
-            </p>
+
+      {/* Masthead */}
+      <div className="bg-surface-low">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-24 pb-16">
+          {digest.status !== "published" && (
+            <div className="bg-surface-input p-4 mb-10 max-w-md">
+              <p className="font-sans text-label-sm uppercase text-error">
+                Draft preview — not published, not indexed
+              </p>
+            </div>
+          )}
+          <div className="flex items-center gap-3 mb-4">
+            <span className="w-7 h-[3px] bg-primary" aria-hidden />
+            <p className="font-sans text-label-md uppercase text-primary">The Deal Radar</p>
           </div>
-        )}
-
-        <div className="flex items-center gap-3 mb-4">
-          <span className="w-7 h-[3px] bg-primary" aria-hidden />
-          <p className="font-sans text-label-md uppercase text-primary">The Deal Radar</p>
+          <h1 className="font-serif text-display-lg lg:text-display-xl uppercase tracking-tight text-on-surface max-w-4xl">
+            Week of {weekSlugToTitleDate(slug)}
+          </h1>
         </div>
-        <h1 className="font-serif text-display-md uppercase font-extrabold tracking-tight text-on-surface mb-10">
-          Week of {weekSlugToTitleDate(slug)}
-        </h1>
+      </div>
 
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
         <DigestContent digest={digest} opportunities={opportunities} />
 
-        <div className="bg-surface-low p-8 mt-8">
-          <p className="font-sans text-label-md uppercase text-primary mb-2">
-            Get this in your inbox
-          </p>
-          <p className="font-sans text-sm text-on-surface-variant mb-4">
+        {/* Subscribe CTA */}
+        <div className="bg-surface-low p-8 lg:p-10 mt-20 max-w-3xl">
+          <div className="flex items-center gap-3 mb-2">
+            <span className="w-7 h-[3px] bg-primary" aria-hidden />
+            <p className="font-sans text-label-md uppercase text-primary">Get this in your inbox</p>
+          </div>
+          <p className="font-sans text-sm text-on-surface-variant mb-5">
             One email a week. Human-curated, double opt-in, one-click unsubscribe.
           </p>
           <DealRadarSubscribeForm />

@@ -7,9 +7,9 @@ import type { DrOpportunity, DrWeeklyDigest } from "@/lib/deal-radar/types";
 import { weekSlugToTitleDate } from "@/lib/deal-radar/week";
 import { createAdminClient } from "@/lib/supabase/server";
 
-// Deal Radar showcase. The current edition renders in full; every earlier
-// week collapses into a date-labeled dropdown, readable inline. Permalinks
-// live at /deals/[week-slug] (the SEO surface).
+// Deal Radar showcase. The current edition renders in full as a ledger
+// (same reading grammar as the FitBodega 100); every earlier week collapses
+// into a date-labeled dropdown. Permalinks live at /deals/[week-slug].
 
 export const revalidate = 3600;
 
@@ -50,41 +50,44 @@ export default async function DealsShowcasePage() {
 
   return (
     <div className="min-h-screen bg-bg">
-      <div className="max-w-4xl mx-auto px-6 py-24">
-        {/* Masthead */}
-        <div className="flex items-center gap-3 mb-4">
-          <span className="w-7 h-[3px] bg-primary" aria-hidden />
-          <p className="font-sans text-label-md uppercase text-primary">The Deal Radar</p>
+      {/* Masthead — section shift, aggressive display type */}
+      <div className="bg-surface-low">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-24 pb-16">
+          <div className="flex items-center gap-3 mb-4">
+            <span className="w-7 h-[3px] bg-primary" aria-hidden />
+            <p className="font-sans text-label-md uppercase text-primary">The Deal Radar</p>
+          </div>
+          <h1 className="font-serif text-display-lg lg:text-display-xl uppercase tracking-tight text-on-surface max-w-4xl">
+            Fitness brand deals, every week
+          </h1>
+          <p className="font-sans text-base lg:text-lg text-on-surface-variant mt-6 max-w-2xl">
+            Open collab listings you can apply to today. Brands actively spending on creator ads,
+            with the pitch angle to reach them. Curated and verified by hand before it ships.
+          </p>
+          <div className="mt-10 max-w-xl">
+            <p className="font-sans text-label-md uppercase text-primary mb-4">Get it in your inbox</p>
+            <DealRadarSubscribeForm />
+          </div>
         </div>
-        <h1 className="font-serif text-display-lg uppercase font-extrabold tracking-tight text-on-surface mb-6">
-          Fitness brand deals, every week
-        </h1>
-        <p className="font-sans text-base text-on-surface-variant max-w-2xl mb-12">
-          Open collab listings you can apply to today. Brands actively spending on creator ads,
-          with the pitch angle to reach them. Curated and verified by hand before it ships.
-        </p>
+      </div>
 
-        {/* Subscribe */}
-        <div className="bg-surface-low p-8 mb-20">
-          <p className="font-sans text-label-md uppercase text-primary mb-4">Get it in your inbox</p>
-          <DealRadarSubscribeForm />
-        </div>
-
-        {/* Current edition, in full */}
+      {/* Current edition */}
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
         {!latest ? (
           <p className="font-sans text-sm text-on-surface-variant">First edition ships soon.</p>
         ) : (
-          <article className="mb-24">
-            <p className="font-sans text-label-sm uppercase text-on-surface-variant mb-2">
-              Current edition
-            </p>
-            <h2 className="font-serif text-display-sm uppercase font-extrabold tracking-tight text-on-surface mb-10">
+          <article>
+            <div className="flex items-center gap-3 mb-4">
+              <span className="w-7 h-[3px] bg-primary" aria-hidden />
+              <p className="font-sans text-label-md uppercase text-primary">Current edition</p>
+            </div>
+            <h2 className="font-serif text-display-sm lg:text-display-md uppercase font-extrabold tracking-tight text-on-surface mb-12">
               Week of {weekSlugToTitleDate(latest.week_slug)}
             </h2>
             <DigestContent digest={latest} opportunities={oppsFor(latest.id)} />
             <Link
               href={`/deals/${latest.week_slug}`}
-              className="font-sans text-sm text-on-surface-variant hover:text-primary uppercase"
+              className="mt-12 inline-block font-sans text-sm text-on-surface-variant hover:text-primary uppercase"
             >
               Permalink for this edition
             </Link>
@@ -93,35 +96,29 @@ export default async function DealsShowcasePage() {
 
         {/* Past editions — date-labeled dropdowns */}
         {past.length > 0 && (
-          <section>
+          <section className="mt-24">
             <div className="flex items-center gap-3 mb-8">
               <span className="w-7 h-[3px] bg-primary" aria-hidden />
               <h2 className="font-sans text-label-md uppercase text-primary">Past editions</h2>
             </div>
             {past.map((d) => (
               <details key={d.id} className="group bg-surface-card mb-6">
-                <summary className="cursor-pointer list-none p-6 flex items-center justify-between hover:bg-surface-input">
-                  <span className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface">
+                <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden p-6 lg:p-8 flex items-center justify-between hover:bg-surface-input transition-colors duration-300">
+                  <span className="font-serif text-xl lg:text-2xl font-extrabold uppercase tracking-tight text-on-surface">
                     Week of {weekSlugToTitleDate(d.week_slug)}
                   </span>
-                  <span
-                    className="font-sans text-label-sm uppercase text-primary group-open:hidden"
-                    aria-hidden
-                  >
+                  <span className="font-sans text-label-sm uppercase text-primary group-open:hidden" aria-hidden>
                     Read
                   </span>
-                  <span
-                    className="font-sans text-label-sm uppercase text-on-surface-variant hidden group-open:inline"
-                    aria-hidden
-                  >
+                  <span className="font-sans text-label-sm uppercase text-on-surface-variant hidden group-open:inline" aria-hidden>
                     Close
                   </span>
                 </summary>
-                <div className="px-6 pb-8 pt-2">
+                <div className="px-6 lg:px-8 pb-10 pt-4">
                   <DigestContent digest={d} opportunities={oppsFor(d.id)} />
                   <Link
                     href={`/deals/${d.week_slug}`}
-                    className="font-sans text-sm text-on-surface-variant hover:text-primary uppercase"
+                    className="mt-8 inline-block font-sans text-sm text-on-surface-variant hover:text-primary uppercase"
                   >
                     Permalink for this edition
                   </Link>
