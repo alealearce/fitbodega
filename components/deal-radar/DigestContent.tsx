@@ -4,9 +4,10 @@ import type { DrOpportunity, DrWeeklyDigest } from "@/lib/deal-radar/types";
 
 // The Deal Radar reading experience — same grammar as the FitBodega 100
 // Ledger (components/top100/Ledger.tsx): podium cards for the top three,
-// collapsible ledger rows with score bars, monogram/favicon avatars, ghost
-// numerals. One unified ranking by score; each row carries its signal chip
-// (APPLY NOW for open collabs, PITCH THEM for spend signals).
+// collapsible ledger rows, monogram/favicon avatars, ghost numerals.
+// Ordering is by internal score but the score itself is NOT shown (owner
+// call 2026-08-19 — unexplained numbers confuse the page). APPLY NOW chip
+// on open collabs only; spend signals carry no chip.
 
 interface Props {
   digest: DrWeeklyDigest;
@@ -27,7 +28,9 @@ function faviconUrl(domain: string | null): string | null {
 function segmentText(o: DrOpportunity): string {
   if (o.source_type === "listed_deal") return o.compensation_text ?? o.offer_type ?? "Open collab";
   const evidence = (o.meta?.evidence as string | undefined) ?? "signal";
-  return o.active_ad_count ? `${o.active_ad_count} active ads · ${evidence}` : `Creator-ad spend · ${evidence}`;
+  return o.active_ad_count
+    ? `${o.active_ad_count} active ads · ${evidence}`
+    : `Spending on creator content · ${evidence}`;
 }
 
 function detailText(o: DrOpportunity): string | null {
@@ -99,10 +102,6 @@ function Platforms({ o, lime }: { o: DrOpportunity; lime?: boolean }) {
   );
 }
 
-function chipFor(o: DrOpportunity): { label: string } {
-  return o.source_type === "listed_deal" ? { label: "Apply now" } : { label: "Pitch them" };
-}
-
 function Podium({ o, i }: { o: DrOpportunity; i: number }) {
   const lime = i === 0;
   const rank = i + 1;
@@ -120,17 +119,14 @@ function Podium({ o, i }: { o: DrOpportunity; i: number }) {
             {String(rank).padStart(2, "0")}
           </span>
           <p className={`font-sans text-label-sm uppercase mt-2 ${lime ? "text-primary-on/70" : "text-on-surface-variant"}`}>
-            {chipFor(o).label} · {segmentText(o)}
+            {segmentText(o)}
           </p>
         </div>
-        <div className="text-right">
-          <span className={`font-serif text-3xl font-extrabold tabular-nums leading-none ${lime ? "text-primary-on/80" : "text-primary"}`} title="Deal Radar score">
-            {o.score}
-          </span>
-          <p className={`font-sans text-[10px] uppercase tracking-[0.12em] mt-1.5 ${lime ? "text-primary-on/60" : "text-on-surface-variant"}`}>
-            Score
+        {o.source_type === "listed_deal" && (
+          <p className={`font-sans text-label-sm uppercase ${lime ? "text-primary-on/80" : "text-primary"}`}>
+            Apply now
           </p>
-        </div>
+        )}
       </div>
       <div className="relative mt-auto pt-10">
         <div className="mb-4">
@@ -179,10 +175,9 @@ function Row({ o, rank }: { o: DrOpportunity; rank: number }) {
           <span className="hidden sm:inline font-sans text-label-sm uppercase text-on-surface-variant">
             {segmentText(o)}
           </span>
-          <span className="font-sans text-label-sm uppercase text-primary">{chipFor(o).label}</span>
-        </span>
-        <span className="flex-shrink-0 font-sans text-base lg:text-lg font-bold tabular-nums text-primary" title="Deal Radar score">
-          {o.score}
+          {o.source_type === "listed_deal" && (
+            <span className="font-sans text-label-sm uppercase text-primary">Apply now</span>
+          )}
         </span>
         <ChevronRight
           size={16}
@@ -190,12 +185,6 @@ function Row({ o, rank }: { o: DrOpportunity; rank: number }) {
           aria-hidden
         />
       </summary>
-      {/* Score bar — the ledger reads as a bar chart while skimming */}
-      <span
-        aria-hidden
-        className="pointer-events-none absolute left-6 lg:left-8 -mx-6 lg:-mx-8 bottom-0 h-[2px] bg-primary/30 group-open:bg-primary transition-colors duration-300"
-        style={{ width: `${o.score}%` }}
-      />
       <div className="pb-8 pt-1 pl-12 lg:pl-14 pr-2 max-w-3xl">
         <p className="font-sans text-label-sm uppercase text-on-surface-variant mb-2 sm:hidden">{segmentText(o)}</p>
         {evidence && (

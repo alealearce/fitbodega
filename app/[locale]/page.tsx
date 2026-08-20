@@ -102,7 +102,7 @@ export default async function HomePage() {
                 Deals on the board
               </h2>
               <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
-                Open collabs and spend signals, vetted by hand and ranked by signal strength.
+                Open collabs, ambassador programs, and brands actively hiring creators.
                 Updated every Monday, plus brand-posted deals as they clear review.
               </p>
             </div>
@@ -479,7 +479,9 @@ export default async function HomePage() {
 function DealRow({ deal, index }: { deal: DrOpportunity; index: number }) {
   const pay =
     deal.compensation_text ??
-    (deal.active_ad_count ? `${deal.active_ad_count} active creator ads` : "Spend signal");
+    (deal.active_ad_count
+      ? `${deal.active_ad_count} active creator ads`
+      : "Spending on creator content");
   return (
     <Link
       href="/deals"
@@ -511,12 +513,9 @@ function DealRow({ deal, index }: { deal: DrOpportunity; index: number }) {
         <span className="hidden sm:inline font-sans text-label-sm uppercase text-on-surface-variant">
           {pay}
         </span>
-        <span className="font-sans text-label-sm uppercase text-primary">
-          {deal.source_type === "listed_deal" ? "Apply now" : "Pitch them"}
-        </span>
-      </span>
-      <span className="flex-shrink-0 font-sans text-base lg:text-lg font-bold tabular-nums text-primary">
-        {deal.score}
+        {deal.source_type === "listed_deal" && (
+          <span className="font-sans text-label-sm uppercase text-primary">Apply now</span>
+        )}
       </span>
       <ArrowUpRight
         size={18}

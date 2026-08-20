@@ -2,7 +2,7 @@ import Link from "next/link";
 
 /**
  * Hero — "The Brutalist Sanctuary", magazine-first.
- * The marketplace statement: creators find deals, brands post them.
+ * Network positioning, marketplace doors: creators find deals, brands post them.
  * Category wayfinding lives in the Index section below, not here.
  */
 export default function HeroSection() {
@@ -21,17 +21,18 @@ export default function HeroSection() {
         <div className="flex items-center gap-3 mb-8">
           <span className="w-7 h-[3px] bg-primary" aria-hidden />
           <p className="font-sans text-label-md uppercase text-primary">
-            The Fitness Creator Marketplace
+            The Fitness Creator Network
           </p>
         </div>
 
         <h1 className="font-serif text-display-xl uppercase tracking-tight text-on-surface max-w-5xl">
-          Where creators find <span className="text-primary">brand deals</span>.
+          Where brands meet{" "}
+          <span className="text-primary">training culture</span>.
         </h1>
 
         <p className="font-sans text-lg text-on-surface-variant leading-relaxed max-w-xl mt-8">
-          Open collabs, UGC briefs, and ambassador programs — vetted by hand, ranked by
-          signal, updated every week. Brands post free. Creators take them free.
+          FitBodega ranks the creators and connects them to collabs and ambassador programs
+          from the brands that fuel training culture.
         </p>
 
         <div className="flex flex-wrap items-center gap-4 mt-10">

@@ -644,7 +644,7 @@ export function buildDealRadarDigestHtml(opts: {
   const body = `
     <p style="margin:0 0 16px;white-space:pre-line;">${opts.introCopy}</p>
     ${section('Open Collabs — apply now', opts.collabs)}
-    ${section('Spending Now — pitch them', opts.spending)}
+    ${section('Spending Now', opts.spending)}
     <p style="margin:32px 0 0;text-align:center;">${buttonHtml(opts.postUrl, 'Read the full edition')}</p>
     <p style="margin:24px 0 0;font-size:12px;color:#888;text-align:center;">You receive Deal Radar because you subscribed with double opt-in.<br/><a href="%%UNSUB_URL%%" style="color:#888;">Unsubscribe with one click</a></p>
   `;
