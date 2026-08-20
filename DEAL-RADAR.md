@@ -97,3 +97,17 @@ in more than one source. Per-row rationale is stored in `score_breakdown`.
 on `fingerprint`), `dr_subscribers`, `dr_email_log` (per-subscriber send
 results), `dr_source_configs`, `dr_runs` (per-source run log — first place to
 look when a Monday draft is thin). All service-role only.
+
+## Brand-posted deals (added 2026-08-19 — the marketplace loop)
+
+Brands post deals free at `/for-brands` → `dr_deal_submissions` (pending) →
+admin email → approve or reject at `/admin/deal-radar`. Approval creates a
+`dr_opportunities` row (source `brand_direct`, status `included`,
+`week_id null`) that goes live on the `/deals` board immediately, merged and
+ranked with the current edition. Managed campaigns are deliberately in the
+background: footer link + `/about#managed-campaigns` only.
+
+Fingerprints are unique per `(fingerprint, week_id)` — a brand recurring
+across weeks gets a new row each week with `meta.weeksSeen` counting the
+recurrence (the raw material for a standing brand ranking). Published
+editions are immutable; collection can never move rows out of them.
