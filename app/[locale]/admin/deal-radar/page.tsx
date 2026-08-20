@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { isAdminEmail, SITE } from "@/lib/config/site";
-import type { DrOpportunity, DrRun, DrWeeklyDigest } from "@/lib/deal-radar/types";
+import type { DrDealSubmission, DrOpportunity, DrRun, DrWeeklyDigest } from "@/lib/deal-radar/types";
 import { weekSlugToTitleDate } from "@/lib/deal-radar/week";
 import { createAdminClient, createClient } from "@/lib/supabase/server";
 import DealRadarClient from "./DealRadarClient";
@@ -50,6 +50,13 @@ export default async function DealRadarAdminPage() {
     .select("id", { count: "exact", head: true })
     .eq("status", "active");
 
+  const { data: submissionData } = await admin
+    .from("dr_deal_submissions")
+    .select("*")
+    .eq("status", "pending")
+    .order("created_at", { ascending: true });
+  const submissions = (submissionData ?? []) as DrDealSubmission[];
+
   return (
     <div className="min-h-screen bg-bg px-6 py-16">
       <div className="max-w-5xl mx-auto">
@@ -73,6 +80,7 @@ export default async function DealRadarAdminPage() {
             opportunities={opportunities}
             runs={runs}
             activeSubscribers={activeSubs ?? 0}
+            submissions={submissions}
           />
         ) : (
           <div className="bg-surface-card p-8">

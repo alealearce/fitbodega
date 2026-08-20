@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
-import { createClient } from "@/lib/supabase/server";
+import { createAdminClient, createClient } from "@/lib/supabase/server";
 import { COPY, SITE } from "@/lib/config/site";
 import type { Listing, BlogPost } from "@/lib/supabase/types";
+import type { DrOpportunity } from "@/lib/deal-radar/types";
 import type { Metadata } from "next";
 import HeroSection from "@/components/home/HeroSection";
 import AuditForm from "@/components/top100/AuditForm";
@@ -64,29 +66,85 @@ export default async function HomePage() {
   const listings: Listing[] = listingsRes.data ?? [];
   const posts: BlogPost[]   = postsRes.data ?? [];
 
+  // Top of the deal board: the latest published edition's deals plus
+  // brand-posted board deals (week_id null), best score first.
+  const adminDb = createAdminClient();
+  const { data: latestDigest } = await adminDb
+    .from("dr_weekly_digests")
+    .select("id")
+    .eq("status", "published")
+    .order("week_slug", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+  const { data: dealRows } = await adminDb
+    .from("dr_opportunities")
+    .select("*")
+    .eq("status", "included")
+    .or(latestDigest ? `week_id.eq.${latestDigest.id},week_id.is.null` : "week_id.is.null")
+    .order("score", { ascending: false })
+    .limit(5);
+  const deals = (dealRows ?? []) as DrOpportunity[];
+
   return (
     <>
       <HeroSection />
 
-      {/* ── For Brands — creator campaigns run like media buys ── */}
+      {/* ── The Deal Radar — the marketplace board, top five this week ── */}
       <section className="py-24 lg:py-32 bg-surface-low">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="w-7 h-[3px] bg-primary" aria-hidden />
-              <p className="font-sans text-label-md uppercase text-primary">
-                {COPY.brandsSection.kicker}
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-7 h-[3px] bg-primary" aria-hidden />
+                <p className="font-sans text-label-md uppercase text-primary">The Deal Radar</p>
+              </div>
+              <h2 className="font-serif text-display-md uppercase text-on-surface">
+                Deals on the board
+              </h2>
+              <p className="font-sans text-base text-on-surface-variant mt-4 max-w-xl">
+                Open collabs and spend signals, vetted by hand and ranked by signal strength.
+                Updated every Monday, plus brand-posted deals as they clear review.
               </p>
             </div>
-            <h2 className="font-serif text-display-md uppercase text-on-surface">
-              {COPY.brandsSection.title}
-            </h2>
-            <p className="font-sans text-base text-on-surface-variant leading-relaxed mt-5">
-              {COPY.brandsSection.body}
-            </p>
+            <Link
+              href="/deals"
+              className="flex-shrink-0 inline-flex items-center gap-2 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
+            >
+              The full board
+              <ArrowUpRight size={16} />
+            </Link>
+          </div>
+
+          {deals.length > 0 && (
+            <div className="mb-12">
+              {deals.map((deal, i) => (
+                <DealRow key={deal.id} deal={deal} index={i} />
+              ))}
+            </div>
+          )}
+
+          {/* Brand door — post a deal, free */}
+          <div className="relative overflow-hidden bg-surface-card px-7 py-8 lg:px-10 lg:py-10 flex flex-col lg:flex-row lg:items-center gap-6 lg:gap-12">
+            <span
+              aria-hidden
+              className="pointer-events-none select-none absolute -top-10 right-6 font-serif font-extrabold leading-none tracking-tighter text-[9rem] text-on-surface/[0.04]"
+            >
+              FREE
+            </span>
+            <div className="relative flex-1">
+              <p className="font-sans text-label-sm uppercase text-primary mb-2">
+                {COPY.brandsSection.kicker}
+              </p>
+              <p className="font-serif text-2xl lg:text-3xl font-extrabold uppercase tracking-tight text-on-surface">
+                {COPY.brandsSection.title}
+              </p>
+              <p className="font-sans text-sm text-on-surface-variant mt-3 max-w-2xl">
+                {COPY.brandsSection.body}
+              </p>
+            </div>
             <Link
               href="/for-brands"
-              className="inline-flex items-center gap-2 mt-9 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90"
+              className="relative inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase transition-opacity duration-400 hover:opacity-90 whitespace-nowrap self-start lg:self-auto"
             >
               {COPY.brandsSection.cta}
               <ArrowUpRight size={16} />
@@ -413,6 +471,58 @@ export default async function HomePage() {
         </div>
       </section>
     </>
+  );
+}
+
+// ── Deal Row — compact board row: rank, favicon, brand, pay, score ──────────
+
+function DealRow({ deal, index }: { deal: DrOpportunity; index: number }) {
+  const pay =
+    deal.compensation_text ??
+    (deal.active_ad_count ? `${deal.active_ad_count} active creator ads` : "Spend signal");
+  return (
+    <Link
+      href="/deals"
+      className="group flex items-baseline gap-4 lg:gap-6 py-5 px-6 lg:px-8 -mx-6 lg:-mx-8 hover:bg-surface-card transition-colors duration-300"
+    >
+      <span className="font-sans text-label-sm text-on-surface-variant w-8 flex-shrink-0 tabular-nums">
+        {String(index + 1).padStart(3, "0")}
+      </span>
+      <span className="hidden sm:flex flex-shrink-0 self-center w-11 h-11 items-center justify-center bg-surface-input p-2">
+        {deal.brand_domain ? (
+          <Image
+            src={`https://www.google.com/s2/favicons?domain=${deal.brand_domain}&sz=128`}
+            alt=""
+            width={48}
+            height={48}
+            className="w-full h-full object-contain"
+            unoptimized
+          />
+        ) : (
+          <span className="font-serif font-extrabold text-base text-on-surface">
+            {deal.brand_name.slice(0, 2).toUpperCase()}
+          </span>
+        )}
+      </span>
+      <span className="min-w-0 flex-1 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+        <span className="font-serif text-xl lg:text-3xl font-extrabold uppercase tracking-tight text-on-surface group-hover:text-primary transition-colors duration-300">
+          {deal.brand_name}
+        </span>
+        <span className="hidden sm:inline font-sans text-label-sm uppercase text-on-surface-variant">
+          {pay}
+        </span>
+        <span className="font-sans text-label-sm uppercase text-primary">
+          {deal.source_type === "listed_deal" ? "Apply now" : "Pitch them"}
+        </span>
+      </span>
+      <span className="flex-shrink-0 font-sans text-base lg:text-lg font-bold tabular-nums text-primary">
+        {deal.score}
+      </span>
+      <ArrowUpRight
+        size={18}
+        className="flex-shrink-0 self-center text-outline-variant group-hover:text-primary transition-colors duration-300"
+      />
+    </Link>
   );
 }
 

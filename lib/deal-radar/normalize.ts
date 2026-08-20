@@ -69,8 +69,12 @@ export function scoreOpportunity(
   return { score, breakdown };
 }
 
-// Upsert raw opportunities into dr_opportunities for a given week. Returns
-// counts for the run report.
+// Upsert raw opportunities into dr_opportunities for a given week. Dedupe is
+// PER WEEK — an offer already in this week's draft is updated (and boosted
+// when a second source confirms it); an offer known only from earlier weeks
+// gets a NEW row here, with the recurrence recorded in meta.weeksSeen.
+// Published editions are never touched: they are immutable snapshots, and
+// cross-week recurrence is the raw material for a standing brand ranking.
 export async function normalizeAndStore(
   supabase: SupabaseClient,
   raws: RawOpportunity[],
@@ -86,16 +90,17 @@ export async function normalizeAndStore(
     const fingerprint = fingerprintOf(raw);
     const { score, breakdown } = scoreOpportunity(raw, config.weights, config.keywords);
 
-    const { data: existing } = await supabase
+    const { data: sameWeek } = await supabase
       .from('dr_opportunities')
-      .select('id, source, score, score_breakdown, meta')
+      .select('id, source, score, meta')
       .eq('fingerprint', fingerprint)
+      .eq('week_id', weekId)
       .maybeSingle();
 
-    if (existing) {
-      // Same offer seen again. A different source means independent
+    if (sameWeek) {
+      // Seen again within this week. A different source means independent
       // confirmation: boost instead of duplicating.
-      const crossSource = existing.source !== raw.source;
+      const crossSource = sameWeek.source !== raw.source;
       const newBreakdown = { ...breakdown } as Record<string, number>;
       let newScore = score;
       if (crossSource) {
@@ -107,15 +112,27 @@ export async function normalizeAndStore(
         .from('dr_opportunities')
         .update({
           last_seen_at: now,
-          week_id: weekId,
-          score: Math.max(existing.score as number, newScore),
+          score: Math.max(sameWeek.score as number, newScore),
           score_breakdown: newBreakdown,
           active_ad_count: raw.activeAdCount,
-          meta: { ...(existing.meta as Record<string, unknown>), ...raw.meta },
+          meta: { ...(sameWeek.meta as Record<string, unknown>), ...raw.meta },
         })
-        .eq('id', existing.id);
+        .eq('id', sameWeek.id);
       updated++;
     } else {
+      // Recurrence across weeks: count prior rows and carry first_seen_at
+      // forward so the brand's history survives edition boundaries.
+      const { data: prior } = await supabase
+        .from('dr_opportunities')
+        .select('first_seen_at')
+        .eq('fingerprint', fingerprint)
+        .order('first_seen_at', { ascending: true })
+        .limit(1);
+      const { count: priorCount } = await supabase
+        .from('dr_opportunities')
+        .select('id', { count: 'exact', head: true })
+        .eq('fingerprint', fingerprint);
+
       await supabase.from('dr_opportunities').insert({
         brand_name: raw.brandName,
         brand_domain: normalizeDomain(raw.brandUrl),
@@ -127,11 +144,11 @@ export async function normalizeAndStore(
         deliverables: raw.deliverables,
         platforms: raw.platforms,
         active_ad_count: raw.activeAdCount,
-        meta: raw.meta,
+        meta: { ...raw.meta, ...(priorCount ? { weeksSeen: (priorCount ?? 0) + 1 } : {}) },
         fingerprint,
         score,
         score_breakdown: breakdown,
-        first_seen_at: now,
+        first_seen_at: prior?.[0]?.first_seen_at ?? now,
         last_seen_at: now,
         status: 'new',
         week_id: weekId,

@@ -155,6 +155,7 @@ export default function Navbar() {
                 setOpen={setDirectoryOpen}
                 innerRef={directoryRef}
               />
+              <NavLink href="/deals">Deals</NavLink>
               <NavLink href="/for-brands">For Brands</NavLink>
               <NavLink href="/top-100">Top 100</NavLink>
               <NavLink href="/community">Journal</NavLink>
@@ -184,7 +185,7 @@ export default function Navbar() {
                 href="/for-brands"
                 className="px-5 py-2.5 bg-primary text-primary-on font-sans text-label-sm uppercase transition-opacity duration-300 hover:opacity-90"
               >
-                Work With Us
+                Post a Deal
               </Link>
             </div>
 
@@ -244,6 +245,7 @@ export default function Navbar() {
               </div>
 
               <div className="pt-4">
+                <MobileNavLink href="/deals" onClick={() => setMobileOpen(false)}>Deals</MobileNavLink>
                 <MobileNavLink href="/for-brands" onClick={() => setMobileOpen(false)}>For Brands</MobileNavLink>
                 <MobileNavLink href="/top-100" onClick={() => setMobileOpen(false)}>Top 100</MobileNavLink>
                 <MobileNavLink href="/community" onClick={() => setMobileOpen(false)}>Journal</MobileNavLink>
@@ -264,7 +266,7 @@ export default function Navbar() {
                 onClick={() => setMobileOpen(false)}
                 className="text-center py-3.5 bg-primary text-primary-on font-sans text-label-sm uppercase transition-opacity hover:opacity-90"
               >
-                Work With Us
+                Post a Deal
               </Link>
             </div>
           </div>

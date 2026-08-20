@@ -211,6 +211,32 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── Managed campaigns — deliberately in the background for now ── */}
+      <section id="managed-campaigns" className="py-24 lg:py-32 bg-surface-low scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="w-7 h-[3px] bg-primary" aria-hidden />
+              <p className="font-sans text-label-md uppercase text-primary">Managed campaigns</p>
+            </div>
+            <h2 className="font-serif text-display-sm uppercase text-on-surface">
+              When a listing is not enough
+            </h2>
+            <p className="font-sans text-base text-on-surface-variant leading-relaxed mt-5">
+              The marketplace is self-serve and free. For brands that want the work done,
+              we also run a small number of managed creator campaigns — creator selection
+              from the network, deal negotiation, paid amplification of the content, and
+              reporting in plain numbers. Built and run by a 15-year customer-acquisition
+              operator. Write to{" "}
+              <a href={`mailto:${SITE.supportEmail}`} className="text-on-surface hover:text-primary underline">
+                {SITE.supportEmail}
+              </a>{" "}
+              with what you sell and who buys it.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* ── CTA — two doors ── */}
       <section className="bg-lime-gradient">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32">

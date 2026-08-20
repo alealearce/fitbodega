@@ -2,7 +2,7 @@ import Link from "next/link";
 
 /**
  * Hero — "The Brutalist Sanctuary", magazine-first.
- * Two doors — Brands and Creators — with a quiet directory link.
+ * The marketplace statement: creators find deals, brands post them.
  * Category wayfinding lives in the Index section below, not here.
  */
 export default function HeroSection() {
@@ -21,33 +21,32 @@ export default function HeroSection() {
         <div className="flex items-center gap-3 mb-8">
           <span className="w-7 h-[3px] bg-primary" aria-hidden />
           <p className="font-sans text-label-md uppercase text-primary">
-            The Fitness Creator Network
+            The Fitness Creator Marketplace
           </p>
         </div>
 
         <h1 className="font-serif text-display-xl uppercase tracking-tight text-on-surface max-w-5xl">
-          Where brands meet{" "}
-          <span className="text-primary">training culture</span>.
+          Where creators find <span className="text-primary">brand deals</span>.
         </h1>
 
         <p className="font-sans text-lg text-on-surface-variant leading-relaxed max-w-xl mt-8">
-          FitBodega ranks the creators, tells their stories, and connects them with the brands
-          that fuel training culture.
+          Open collabs, UGC briefs, and ambassador programs — vetted by hand, ranked by
+          signal, updated every week. Brands post free. Creators take them free.
         </p>
 
         <div className="flex flex-wrap items-center gap-4 mt-10">
           <Link
-            href="/for-brands"
+            href="/deals"
             className="px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
           >
-            I&apos;m a Brand
+            Find deals
           </Link>
           <Link
-            href="/creators"
+            href="/for-brands"
             className="px-8 py-4 text-on-surface font-sans text-sm font-bold tracking-wide uppercase hover:text-primary transition-colors"
             style={{ boxShadow: "inset 0 0 0 1px rgba(72,72,71,0.3)" }}
           >
-            I&apos;m a Creator
+            Post a deal
           </Link>
         </div>
       </div>

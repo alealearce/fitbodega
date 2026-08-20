@@ -14,7 +14,33 @@
 
 // 'research' is ingest-only: opportunities found by a human/agent research
 // session (open ambassador programs, marketplace finds) with no fetcher.
-export type DrSourceId = 'pitchlo' | 'casting_boards' | 'spend_signals' | 'ad_library' | 'research';
+// 'brand_direct' is marketplace-only: deals brands post themselves at
+// /for-brands, admin-approved onto the live /deals board (week_id null).
+export type DrSourceId =
+  | 'pitchlo'
+  | 'casting_boards'
+  | 'spend_signals'
+  | 'ad_library'
+  | 'research'
+  | 'brand_direct';
+
+// A brand-submitted deal awaiting review (dr_deal_submissions row).
+export interface DrDealSubmission {
+  id: string;
+  created_at: string;
+  brand_name: string;
+  brand_website: string | null;
+  contact_email: string;
+  offer_type: 'paid' | 'gifted' | 'commission';
+  compensation_text: string;
+  deliverables: string;
+  platforms: string[];
+  apply_url: string | null;
+  notes: string | null;
+  status: 'pending' | 'approved' | 'rejected';
+  reviewed_at: string | null;
+  opportunity_id: string | null;
+}
 export type DrSourceType = 'spend_signal' | 'listed_deal';
 export type DrOfferType = 'paid' | 'gifted' | 'commission' | 'unknown';
 export type DrOpportunityStatus = 'new' | 'included' | 'skipped' | 'expired';

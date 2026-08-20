@@ -15,7 +15,7 @@ import { createAdminClient } from '@/lib/supabase/server';
 //     -d '{"items": [ ...RawOpportunity[] ]}'
 
 const ItemSchema = z.object({
-  source: z.enum(['pitchlo', 'casting_boards', 'spend_signals', 'ad_library', 'research']),
+  source: z.enum(['pitchlo', 'casting_boards', 'spend_signals', 'ad_library', 'research', 'brand_direct']),
   sourceType: z.enum(['spend_signal', 'listed_deal']),
   brandName: z.string().min(1),
   brandUrl: z.string().nullable(),

@@ -1,10 +1,11 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { DrOpportunity, DrRun, DrWeeklyDigest } from "@/lib/deal-radar/types";
+import type { DrDealSubmission, DrOpportunity, DrRun, DrWeeklyDigest } from "@/lib/deal-radar/types";
 
 // Draft review: include/skip toggles per opportunity, editable intro copy,
-// and the single Approve & Publish action. All copy is validated here by a
+// brand deal submissions (approve puts them live on the /deals board), and
+// the single Approve & Publish action. All copy is validated here by a
 // human before anything sends.
 
 interface Props {
@@ -12,9 +13,11 @@ interface Props {
   opportunities: DrOpportunity[];
   runs: DrRun[];
   activeSubscribers: number;
+  submissions: DrDealSubmission[];
 }
 
-export default function DealRadarClient({ digest, opportunities, runs, activeSubscribers }: Props) {
+export default function DealRadarClient({ digest, opportunities, runs, activeSubscribers, submissions }: Props) {
+  const [pendingSubs, setPendingSubs] = useState(submissions);
   const [items, setItems] = useState(opportunities);
   const [intro, setIntro] = useState(digest.intro_copy ?? "");
   const [introSaved, setIntroSaved] = useState(true);
@@ -141,11 +144,92 @@ export default function DealRadarClient({ digest, opportunities, runs, activeSub
   const listed = items.filter((i) => i.source_type === "listed_deal");
   const spend = items.filter((i) => i.source_type === "spend_signal");
 
+  async function reviewSubmission(id: string, decision: "approved" | "rejected") {
+    setBusy(true);
+    const res = await fetch("/api/deal-radar/admin", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "review_submission", submissionId: id, decision }),
+    });
+    setBusy(false);
+    if (res.ok) {
+      setPendingSubs((prev) => prev.filter((s) => s.id !== id));
+      setMessage(decision === "approved" ? "Approved — live on the /deals board now." : "Rejected.");
+    } else {
+      const data = await res.json().catch(() => ({}));
+      setMessage(`Review failed: ${data.error ?? res.status}`);
+    }
+  }
+
   return (
     <div>
       {message && (
         <div className="bg-surface-input p-4 mb-8">
           <p className="font-sans text-sm text-on-surface">{message}</p>
+        </div>
+      )}
+
+      {/* Brand deal submissions — approval puts them live immediately */}
+      {pendingSubs.length > 0 && (
+        <div className="mb-12">
+          <div className="flex items-center gap-3 mb-4">
+            <span className="w-7 h-[3px] bg-primary" aria-hidden />
+            <p className="font-sans text-label-md uppercase text-error">
+              Brand submissions awaiting review ({pendingSubs.length})
+            </p>
+          </div>
+          {pendingSubs.map((s) => (
+            <div key={s.id} className="bg-surface-card p-6 mb-6">
+              <div className="flex flex-wrap items-start justify-between gap-4">
+                <div className="min-w-0">
+                  <p className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface">
+                    {s.brand_name}
+                  </p>
+                  <p className="font-sans text-label-sm uppercase text-on-surface-variant mt-1">
+                    {s.offer_type} · {s.platforms.join(" · ") || "no platforms given"}
+                  </p>
+                  <p className="font-sans text-sm text-primary mt-2">{s.compensation_text}</p>
+                  <p className="font-sans text-sm text-on-surface-variant mt-1">{s.deliverables}</p>
+                  {s.notes && <p className="font-sans text-sm text-on-surface-variant mt-1">Notes: {s.notes}</p>}
+                  <p className="font-sans text-sm text-on-surface-variant mt-2">
+                    {s.contact_email}
+                    {s.brand_website && (
+                      <>
+                        {" · "}
+                        <a href={s.brand_website} target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary underline">
+                          {s.brand_website}
+                        </a>
+                      </>
+                    )}
+                    {s.apply_url && (
+                      <>
+                        {" · "}
+                        <a href={s.apply_url} target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary underline">
+                          apply link
+                        </a>
+                      </>
+                    )}
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => reviewSubmission(s.id, "approved")}
+                    disabled={busy}
+                    className="font-sans text-label-sm uppercase px-4 py-2.5 bg-primary text-primary-on hover:opacity-90 disabled:opacity-40"
+                  >
+                    Approve — go live
+                  </button>
+                  <button
+                    onClick={() => reviewSubmission(s.id, "rejected")}
+                    disabled={busy}
+                    className="font-sans text-label-sm uppercase px-4 py-2.5 bg-surface-input text-error hover:bg-surface-bright disabled:opacity-40"
+                  >
+                    Reject
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       )}
 

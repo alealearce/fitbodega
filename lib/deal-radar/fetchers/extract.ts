@@ -58,9 +58,12 @@ export async function extractListings(opts: {
   pageText: string;
   todayIso: string;
 }): Promise<RawOpportunity[]> {
+  // 12K output headroom: a busy board page holds 30+ listings and the
+  // structured-output JSON was getting truncated mid-string at 4K
+  // (pitchlo run failure, 2026-08-17).
   const response = await anthropic.messages.create({
     model: 'claude-opus-5',
-    max_tokens: 4096,
+    max_tokens: 12000,
     output_config: {
       format: {
         type: 'json_schema',
@@ -102,6 +105,7 @@ export async function extractListings(opts: {
         content: `Today is ${opts.todayIso}. Below is the plain-text content of a public creator-marketplace page (${opts.pageUrl}). Extract every brand deal / UGC / collab listing you can identify.
 
 Rules:
+- At most 25 listings; prefer the most recent when there are more.
 - Only data present in the text. Never invent brands, pay figures, or URLs.
 - sourceUrl: resolve [href:...] markers against ${opts.pageUrl} when relative.
 - postedAt: convert relative dates ("3 days ago") to ISO YYYY-MM-DD using today's date. Null if absent.

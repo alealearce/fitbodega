@@ -46,7 +46,20 @@ export default async function DealsShowcasePage() {
   const allOpps = (oppData ?? []) as DrOpportunity[];
   const oppsFor = (id: string) => allOpps.filter((o) => o.week_id === id);
 
+  // Brand-posted board deals (week_id null) join the current board directly —
+  // they go live on approval, between editions.
+  const { data: boardData } = await supabase
+    .from("dr_opportunities")
+    .select("*")
+    .is("week_id", null)
+    .eq("status", "included")
+    .order("score", { ascending: false });
+  const boardDeals = (boardData ?? []) as DrOpportunity[];
+
   const [latest, ...past] = digests;
+  const currentBoard = latest
+    ? [...boardDeals, ...oppsFor(latest.id)].sort((a, b) => b.score - a.score)
+    : boardDeals;
 
   return (
     <div className="min-h-screen bg-bg">
@@ -73,24 +86,46 @@ export default async function DealsShowcasePage() {
 
       {/* Current edition */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
-        {!latest ? (
+        {currentBoard.length === 0 ? (
           <p className="font-sans text-sm text-on-surface-variant">First edition ships soon.</p>
         ) : (
           <article>
             <div className="flex items-center gap-3 mb-4">
               <span className="w-7 h-[3px] bg-primary" aria-hidden />
-              <p className="font-sans text-label-md uppercase text-primary">Current edition</p>
+              <p className="font-sans text-label-md uppercase text-primary">On the board now</p>
             </div>
-            <h2 className="font-serif text-display-sm lg:text-display-md uppercase font-extrabold tracking-tight text-on-surface mb-12">
-              Week of {weekSlugToTitleDate(latest.week_slug)}
+            <h2 className="font-serif text-display-sm lg:text-display-md uppercase font-extrabold tracking-tight text-on-surface mb-4">
+              {latest ? `Week of ${weekSlugToTitleDate(latest.week_slug)}` : "Open deals"}
             </h2>
-            <DigestContent digest={latest} opportunities={oppsFor(latest.id)} />
-            <Link
-              href={`/deals/${latest.week_slug}`}
-              className="mt-12 inline-block font-sans text-sm text-on-surface-variant hover:text-primary uppercase"
-            >
-              Permalink for this edition
-            </Link>
+            <p className="font-sans text-sm text-on-surface-variant mb-12 max-w-2xl">
+              Hiring creators?{" "}
+              <Link href="/for-brands" className="text-on-surface hover:text-primary underline">
+                Post your deal free
+              </Link>{" "}
+              — reviewed by hand, live on this board.
+            </p>
+            <DigestContent
+              digest={
+                latest ?? {
+                  id: "board",
+                  created_at: "",
+                  week_slug: "",
+                  status: "published",
+                  intro_copy: null,
+                  published_at: null,
+                  post_url: null,
+                }
+              }
+              opportunities={currentBoard}
+            />
+            {latest && (
+              <Link
+                href={`/deals/${latest.week_slug}`}
+                className="mt-12 inline-block font-sans text-sm text-on-surface-variant hover:text-primary uppercase"
+              >
+                Permalink for this edition
+              </Link>
+            )}
           </article>
         )}
 

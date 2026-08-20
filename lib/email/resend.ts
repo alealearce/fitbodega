@@ -688,3 +688,28 @@ export async function sendDealRadarDraftReady(opts: {
     html: baseTemplate('Deal Radar Draft Ready', body),
   });
 }
+
+export async function sendAdminDealSubmission(opts: {
+  brandName: string;
+  contactEmail: string;
+  offerType: string;
+  compensation: string;
+  deliverables: string;
+  website: string | null;
+}) {
+  const body = `
+    <p style="margin:0 0 16px;">New brand deal submitted for the Deal Radar board:</p>
+    <p style="margin:0 0 6px;"><strong>${opts.brandName}</strong>${opts.website ? ` &mdash; <a href="${opts.website}" style="color:${INK};">${opts.website}</a>` : ''}</p>
+    <p style="margin:0 0 6px;">${opts.offerType} &mdash; ${opts.compensation}</p>
+    <p style="margin:0 0 6px;">${opts.deliverables}</p>
+    <p style="margin:0 0 16px;">Contact: ${opts.contactEmail}</p>
+    <p style="margin:0 0 16px;">Nothing is live until you approve it.</p>
+    <p style="margin:0;text-align:center;">${buttonHtml(`${SITE.url}/admin/deal-radar`, 'Review submission')}</p>
+  `;
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: ADMIN_EMAIL,
+    subject: `Deal Radar submission — ${opts.brandName}`,
+    html: baseTemplate('New Deal Submission', body),
+  });
+}

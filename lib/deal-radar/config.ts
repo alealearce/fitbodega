@@ -24,6 +24,7 @@ export const DEFAULT_SOURCES: DrSourceToggles = {
   spend_signals: true,
   ad_library: false,
   research: false, // ingest-only, never a fetcher
+  brand_direct: false, // marketplace submissions, never a fetcher
 };
 
 export const MULTI_SOURCE_BOOST = 10;
