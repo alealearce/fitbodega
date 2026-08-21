@@ -185,7 +185,9 @@ async function runTop100Spotlight(supabase: ReturnType<typeof createAdminClient>
   const slideUrls = [
     slideUrl({
       type: 'top100', slide: '0', rank: String(e.rank), name: e.name, who: e.who,
-      list: e.listTitle, reach: e.reach ?? undefined, segment: e.segment ?? undefined,
+      list: e.listTitle, segment: e.segment ?? undefined,
+      // The chip shows the number alone; the verification date stays on the site.
+      reach: e.reach ? e.reach.replace(/\s*\(verified[^)]*\)/i, '').trim() : undefined,
     }),
     slideUrl({
       type: 'top100', slide: '1', rank: String(e.rank), name: e.name, why: e.why,

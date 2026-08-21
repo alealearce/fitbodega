@@ -148,7 +148,7 @@ export function spotlightCaption(e: SpotlightEntry): string {
     e.who ? '' : null,
     e.why,
     e.reach ? '' : null,
-    e.reach ? `Reach: ${e.reach}` : null,
+    e.reach ? `Reach: ${e.reach.replace(/\s*\(verified[^)]*\)/i, '').trim()}` : null,
     follow ? `Follow: ${follow}` : null,
     e.takeaway ? '' : null,
     e.takeaway ? `Steal this: ${e.takeaway}` : null,

@@ -353,10 +353,7 @@ function Top100Cta({ list, url }: { list: string; url: string }) {
       <div style={{ display: 'flex', textAlign: 'center', fontFamily: 'Manrope', fontWeight: 800, fontSize: '52px', lineHeight: 1.12, color: WHITE, marginTop: '22px', maxWidth: '860px', textTransform: 'uppercase', letterSpacing: '-1px' }}>
         See the full {list}
       </div>
-      <div style={{ display: 'flex', textAlign: 'center', fontFamily: 'Manrope', fontWeight: 500, fontSize: '30px', color: MUTED, marginTop: '30px', maxWidth: '780px' }}>
-        Who is rising, who is credible, and who is worth a brand&apos;s attention.
-      </div>
-      <div style={{ display: 'flex', alignItems: 'center', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '28px', padding: '22px 44px', marginTop: '48px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '28px', padding: '22px 44px', marginTop: '52px' }}>
         {url}
       </div>
     </div>
