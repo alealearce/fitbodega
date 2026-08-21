@@ -12,10 +12,14 @@ publishes it at `/deals`.
    "draft ready" email goes to hello@fitbodega.com.
 2. **Review** at `/admin/deal-radar` (login as an admin email). Toggle each
    opportunity Include/Skip, edit the intro copy, use Preview post.
-3. **Approve & Publish** — the one button that does anything outward:
+3. **Approve & Publish** — the only step that does anything outward:
    publishes `/deals/[week-slug]`, emails every `active` subscriber (logged
    per subscriber in `dr_email_log`), expires the un-triaged leftovers.
-   Nothing ever sends without this click.
+   Two ways to trigger it, both requiring the owner's say-so: the button at
+   `/admin/deal-radar` (logged-in admin session), or a POST carrying
+   `Authorization: Bearer $ADMIN_SECRET` — same auth as the ingest endpoint,
+   for publishing from a terminal after approval given elsewhere. Publishing
+   twice is refused (409), so neither path can double-send.
 
 The `/deals` page shows the current edition in full; earlier weeks collapse
 into date-labeled dropdowns. Each edition also has an SEO permalink at

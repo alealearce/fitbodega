@@ -11,7 +11,9 @@ import {
 import { createAdminClient, createClient } from '@/lib/supabase/server';
 
 // Approve & Publish — the ONLY path that sends the digest email and makes
-// the post live at /deals/[week-slug]. Requires the logged-in admin session.
+// the post live at /deals/[week-slug]. Auth: the logged-in admin session
+// (the /admin/deal-radar button) or an ADMIN_SECRET bearer (publish on the
+// owner's explicit approval given elsewhere, e.g. in chat).
 // Sequence: mark approved -> publish post (status 'published' makes the page
 // render) -> send batch to active subscribers with per-subscriber logging.
 // Send results land in dr_email_log; partial failures are reported, not
@@ -19,10 +21,16 @@ import { createAdminClient, createClient } from '@/lib/supabase/server';
 
 export const maxDuration = 300;
 
-export async function POST(req: NextRequest) {
+async function isAuthorized(req: NextRequest): Promise<boolean> {
+  const bearer = req.headers.get('authorization');
+  if (process.env.ADMIN_SECRET && bearer === `Bearer ${process.env.ADMIN_SECRET}`) return true;
   const authClient = await createClient();
   const { data: { user } } = await authClient.auth.getUser();
-  if (!user || !isAdminEmail(user.email)) {
+  return Boolean(user && isAdminEmail(user.email));
+}
+
+export async function POST(req: NextRequest) {
+  if (!(await isAuthorized(req))) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
