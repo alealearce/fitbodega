@@ -70,10 +70,17 @@ function loadList(file: string): { title: string; entries: RawEntry[] } {
 
 /**
  * Pick the next entry to spotlight: walk the round-robin sequence
- * (list 1 rank 1, list 2 rank 1, ... list 5 rank 1, list 1 rank 2, ...)
- * and return the first whose refSlug is not in `posted`.
+ * (list 1 rank 1, list 2 rank 1, ... list 9 rank 1, list 1 rank 2, ...)
+ * and return the first entry that has NOT been published to every required
+ * platform. A partial failure (first live run: Instagram rejected the post,
+ * the other three published) therefore completes on the next run instead of
+ * being skipped — the caller passes the already-published platforms as
+ * `skip` to publishCarousel.
  */
-export function nextSpotlight(posted: Set<string>): SpotlightEntry | null {
+export function nextSpotlight(
+  publishedByRef: Map<string, Set<string>>,
+  requiredPlatforms: string[]
+): { entry: SpotlightEntry; publishedPlatforms: Set<string> } | null {
   const lists = LISTS.map((l) => ({ ...l, ...loadList(l.file) }));
   const maxRank = Math.max(...lists.map((l) => l.entries.length));
 
@@ -82,8 +89,9 @@ export function nextSpotlight(posted: Set<string>): SpotlightEntry | null {
       const entry = list.entries[i];
       if (!entry) continue;
       const refSlug = `${list.key}#${entry.rank}`;
-      if (posted.has(refSlug)) continue;
-      return {
+      const done = publishedByRef.get(refSlug) ?? new Set<string>();
+      if (requiredPlatforms.every((pf) => done.has(pf))) continue;
+      const e: SpotlightEntry = {
         listKey: list.key,
         listTags: list.tags,
         listTitle: list.title,
@@ -103,6 +111,7 @@ export function nextSpotlight(posted: Set<string>): SpotlightEntry | null {
         handles: entry.handles ?? {},
         refSlug,
       };
+      return { entry: e, publishedPlatforms: done };
     }
   }
   return null;

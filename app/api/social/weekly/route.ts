@@ -5,7 +5,7 @@ import { coverImageUrl, writePost } from '@/lib/content/generate';
 import { buildBlogContent } from '@/lib/social/caption';
 import { publishCarousel, slideUrl } from '@/lib/social/carousel';
 import { nextSpotlight, spotlightCaption } from '@/lib/social/top100';
-import type { Platform } from '@/lib/social/blotato';
+import { configuredPlatforms, type Platform } from '@/lib/social/blotato';
 import { createAdminClient } from '@/lib/supabase/server';
 
 /**
@@ -170,12 +170,18 @@ async function runJournalShare(
 
 async function runTop100Spotlight(supabase: ReturnType<typeof createAdminClient>, dry: boolean) {
   const { data: done } = await supabase
-    .from('social_posts').select('ref_slug')
+    .from('social_posts').select('ref_slug, platform')
     .eq('kind', 'top100').eq('status', 'published');
-  const posted = new Set<string>((done ?? []).map((r) => r.ref_slug as string));
+  const publishedByRef = new Map<string, Set<string>>();
+  for (const r of done ?? []) {
+    const key = r.ref_slug as string;
+    if (!publishedByRef.has(key)) publishedByRef.set(key, new Set());
+    publishedByRef.get(key)!.add(r.platform as string);
+  }
 
-  const e = nextSpotlight(posted);
-  if (!e) return { ok: true, kind: 'top100', noop: true, reason: 'every list entry has been posted' };
+  const picked = nextSpotlight(publishedByRef, configuredPlatforms());
+  if (!picked) return { ok: true, kind: 'top100', noop: true, reason: 'every list entry has been posted' };
+  const e = picked.entry;
 
   const url = `${SITE.url}${e.listPath}`;
   const caption = spotlightCaption(e);
@@ -207,7 +213,8 @@ async function runTop100Spotlight(supabase: ReturnType<typeof createAdminClient>
     return { ok: true, kind: 'top100', dry: true, entry: { list: e.listKey, rank: e.rank, name: e.name }, caption, slideUrls };
   }
   const results = await publishCarousel(supabase, {
-    kind: 'top100', refId: null, refSlug: e.refSlug, slideUrls, caption, url, skip: new Set(),
+    kind: 'top100', refId: null, refSlug: e.refSlug, slideUrls, caption, url,
+    skip: new Set(Array.from(picked.publishedPlatforms)) as Set<Platform>,
   });
   return { ok: Object.values(results).some((r) => r.status.startsWith('published')), kind: 'top100', entry: { list: e.listKey, rank: e.rank, name: e.name }, results };
 }
