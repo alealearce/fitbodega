@@ -18,6 +18,13 @@ export interface SpotlightEntry {
   why: string;
   takeaway: string | null;
   reach: string | null;
+  segment: string | null;
+  country: string | null;
+  score: number | null;
+  factors: Record<string, number> | null;
+  warning: string | null;
+  website: string | null;
+  handles: Record<string, string>;   // platform -> profile URL
   refSlug: string;      // idempotency key: '<listKey>#<rank>'
 }
 
@@ -45,6 +52,13 @@ interface RawEntry {
   why?: string;
   takeaway?: string | null;
   reach?: string | null;
+  segment?: string | null;
+  country?: string | null;
+  score?: number | string | null;
+  factors?: Record<string, number> | null;
+  warning?: string | null;
+  website?: string | null;
+  handles?: Record<string, string> | null;
 }
 
 function loadList(file: string): { title: string; entries: RawEntry[] } {
@@ -80,6 +94,13 @@ export function nextSpotlight(posted: Set<string>): SpotlightEntry | null {
         why: entry.why ?? '',
         takeaway: entry.takeaway ?? null,
         reach: entry.reach ?? null,
+        segment: entry.segment ?? null,
+        country: entry.country ?? null,
+        score: entry.score != null ? Number(entry.score) : null,
+        factors: entry.factors ?? null,
+        warning: entry.warning ?? null,
+        website: entry.website ?? null,
+        handles: entry.handles ?? {},
         refSlug,
       };
     }
@@ -87,20 +108,54 @@ export function nextSpotlight(posted: Set<string>): SpotlightEntry | null {
   return null;
 }
 
+/** '@handle' from a profile URL — 'https://instagram.com/cbum' -> '@cbum'. */
+export function handleTag(url: string): string | null {
+  try {
+    const path = new URL(url).pathname.replace(/\/+$/, '');
+    const last = path.split('/').filter(Boolean).pop();
+    if (!last) return null;
+    return last.startsWith('@') ? last : `@${last}`;
+  } catch {
+    return null;
+  }
+}
+
+const PLATFORM_LABEL: Record<string, string> = {
+  instagram: 'IG', youtube: 'YouTube', tiktok: 'TikTok', twitter: 'X', x: 'X',
+};
+
 /**
- * Caption for the spotlight carousel — plain facts from the list, no hype.
- * Hashtags are capped at five (owner rule): three base + two per-list.
+ * Caption for the spotlight carousel — the full card, in text: who, why,
+ * reach, the takeaway, and the entry's own handles tagged. Everything comes
+ * from the published list; hashtags capped at five (owner rule).
  */
 export function spotlightCaption(e: SpotlightEntry): string {
   const url = `${SITE.url}${e.listPath}`;
   const tags = ['#fitness', '#trainingculture', '#fitbodega100', ...e.listTags].slice(0, 5);
-  return [
+
+  const follow = Object.entries(e.handles)
+    .map(([platform, link]) => {
+      const tag = handleTag(link);
+      return tag ? `${tag} (${PLATFORM_LABEL[platform.toLowerCase()] ?? platform})` : null;
+    })
+    .filter(Boolean)
+    .join(' · ');
+
+  const lines: (string | null)[] = [
     `#${e.rank} on the ${e.listTitle} — ${e.name}.`,
     '',
+    e.who || null,
+    e.who ? '' : null,
     e.why,
+    e.reach ? '' : null,
+    e.reach ? `Reach: ${e.reach}` : null,
+    follow ? `Follow: ${follow}` : null,
+    e.takeaway ? '' : null,
+    e.takeaway ? `Steal this: ${e.takeaway}` : null,
     '',
     `The full list, reviewed monthly: ${url}`,
     '',
     tags.join(' '),
-  ].join('\n');
+  ];
+  return lines.filter((l): l is string => l !== null).join('\n');
 }

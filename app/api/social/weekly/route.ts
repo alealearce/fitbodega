@@ -179,10 +179,26 @@ async function runTop100Spotlight(supabase: ReturnType<typeof createAdminClient>
 
   const url = `${SITE.url}${e.listPath}`;
   const caption = spotlightCaption(e);
+  const factorsParam = e.factors
+    ? Object.entries(e.factors).map(([k, v]) => `${k}:${v}`).join('|')
+    : undefined;
   const slideUrls = [
-    slideUrl({ type: 'top100', slide: '0', rank: String(e.rank), name: e.name, who: e.who, list: e.listTitle }),
-    slideUrl({ type: 'top100', slide: '1', rank: String(e.rank), name: e.name, why: e.why, take: e.takeaway ?? undefined }),
-    slideUrl({ type: 'top100', slide: '2', list: e.listTitle, url: `${SITE.domain}${e.listPath}` }),
+    slideUrl({
+      type: 'top100', slide: '0', rank: String(e.rank), name: e.name, who: e.who,
+      list: e.listTitle, reach: e.reach ?? undefined, segment: e.segment ?? undefined,
+    }),
+    slideUrl({
+      type: 'top100', slide: '1', rank: String(e.rank), name: e.name, why: e.why,
+      score: e.score != null ? String(e.score) : undefined, factors: factorsParam,
+    }),
+    // The takeaway gets its own card; skipped when the list has none.
+    ...(e.takeaway
+      ? [slideUrl({
+          type: 'top100', slide: '2', rank: String(e.rank), name: e.name,
+          take: e.takeaway, warn: e.warning ?? undefined,
+        })]
+      : []),
+    slideUrl({ type: 'top100', slide: '3', list: e.listTitle, url: `${SITE.domain}${e.listPath}` }),
   ];
 
   if (dry) {

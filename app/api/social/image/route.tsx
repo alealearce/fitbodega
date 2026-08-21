@@ -11,11 +11,13 @@
  *     2  cta    — read on The Journal + link
  *     params: title, points (a|b|c), category, url
  *
- *   ?type=top100&slide=0..2
- *     0  person — ghost rank numeral, name, who they are
- *     1  why    — the one-line case from the list
- *     2  cta    — see the full list + URL
- *     params: rank, name, who, why, take, list, url
+ *   ?type=top100&slide=0..3
+ *     0  person — ghost rank numeral, name, who, reach, segment
+ *     1  why    — the case from the list + factor bars + score
+ *     2  steal  — the takeaway as its own lime card (+ warning if any)
+ *     3  cta    — see the full list + URL
+ *     params: rank, name, who, why, take, warn, list, url, reach, segment,
+ *             score, factors (k:v|k:v)
  *
  *   ?type=showcase&slide=0..3
  *     0  hero   — listing photo, "FEATURED [TYPE]" pill, name, city
@@ -214,7 +216,7 @@ function BlogCta({ title, url }: { title: string; url: string }) {
 // so the rank numeral is the visual. Everything shown comes from the curated
 // list JSON — the post can only claim what the ranking page already claims.
 
-function Top100Person({ rank, name, who, list }: { rank: number; name: string; who: string; list: string }) {
+function Top100Person({ rank, name, who, list, reach, segment }: { rank: number; name: string; who: string; list: string; reach: string; segment: string }) {
   return (
     <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', background: BG, padding: '76px 78px', position: 'relative', overflow: 'hidden' }}>
       <div style={{ display: 'flex', position: 'absolute', right: '-40px', bottom: '-90px', fontFamily: 'Manrope', fontWeight: 800, fontSize: '560px', lineHeight: 1, color: '#1a1a1a', letterSpacing: '-24px' }}>
@@ -231,17 +233,45 @@ function Top100Person({ rank, name, who, list }: { rank: number; name: string; w
         <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: `${fit(name, 92, 76, 60)}px`, lineHeight: 1.04, color: WHITE, letterSpacing: '-3px', textTransform: 'uppercase' }}>
           {name}
         </div>
-        <div style={{ display: 'flex', width: '72px', height: '3px', background: LIME, marginTop: '38px' }} />
+        {segment && (
+          <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '26px', letterSpacing: '2px', color: MUTED, marginTop: '20px', textTransform: 'uppercase' }}>
+            {segment}
+          </div>
+        )}
+        <div style={{ display: 'flex', width: '72px', height: '3px', background: LIME, marginTop: '34px' }} />
         <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '32px', lineHeight: 1.4, color: MUTED, marginTop: '26px', maxWidth: '860px' }}>
           {who}
         </div>
+        {reach && (
+          <div style={{ display: 'flex', alignItems: 'center', marginTop: '34px' }}>
+            <div style={{ display: 'flex', background: SURFACE_CARD, color: WHITE, fontFamily: 'Manrope', fontWeight: 800, fontSize: '30px', padding: '16px 30px', letterSpacing: '1px' }}>
+              {reach.toUpperCase()}
+            </div>
+          </div>
+        )}
       </div>
       <ShareSave />
     </div>
   );
 }
 
-function Top100Why({ rank, name, why, take }: { rank: number; name: string; why: string; take: string | null }) {
+function FactorBar({ label, value }: { label: string; value: number }) {
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: '22px' }}>
+      <div style={{ display: 'flex', width: '250px', fontFamily: 'Manrope', fontWeight: 700, fontSize: '25px', letterSpacing: '2px', color: MUTED, textTransform: 'uppercase' }}>
+        {label}
+      </div>
+      <div style={{ display: 'flex', flex: 1, height: '14px', background: '#262626' }}>
+        <div style={{ display: 'flex', width: `${Math.max(2, Math.min(100, value))}%`, height: '14px', background: LIME }} />
+      </div>
+      <div style={{ display: 'flex', width: '64px', justifyContent: 'flex-end', fontFamily: 'Manrope', fontWeight: 800, fontSize: '27px', color: WHITE }}>
+        {value}
+      </div>
+    </div>
+  );
+}
+
+function Top100Why({ rank, name, why, score, factors }: { rank: number; name: string; why: string; score: number | null; factors: [string, number][] }) {
   return (
     <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', background: SURFACE_LOW, padding: '76px 78px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
@@ -249,22 +279,66 @@ function Top100Why({ rank, name, why, take }: { rank: number; name: string; why:
         <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '3px', color: MUTED }}>{`#${rank} · ${name.toUpperCase()}`}</div>
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center' }}>
-        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: '40px', color: LIME, textTransform: 'uppercase', letterSpacing: '-1px', marginBottom: '30px' }}>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: '38px', color: LIME, textTransform: 'uppercase', letterSpacing: '-1px', marginBottom: '26px' }}>
           Why they rank
         </div>
-        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '44px', lineHeight: 1.3, color: WHITE, letterSpacing: '-1px' }}>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: `${why.length > 160 ? 36 : 42}px`, lineHeight: 1.3, color: WHITE, letterSpacing: '-1px' }}>
           {why}
         </div>
-        {take && (
-          <div style={{ display: 'flex', flexDirection: 'column', marginTop: '44px' }}>
-            <div style={{ display: 'flex', width: '56px', height: '3px', background: LIME, marginBottom: '18px' }} />
-            <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '30px', lineHeight: 1.4, color: MUTED }}>
-              {take}
+        {factors.length > 0 && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginTop: '52px' }}>
+            {factors.map(([k, v]) => (
+              <FactorBar key={k} label={k} value={v} />
+            ))}
+          </div>
+        )}
+        {score !== null && (
+          <div style={{ display: 'flex', alignItems: 'center', gap: '22px', marginTop: '40px' }}>
+            <div style={{ display: 'flex', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '34px', padding: '16px 28px' }}>
+              {score}
+            </div>
+            <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '3px', color: MUTED, textTransform: 'uppercase' }}>
+              FitBodega score / 100
             </div>
           </div>
         )}
       </div>
       <ShareSave />
+    </div>
+  );
+}
+
+function Top100Steal({ rank, name, take, warn }: { rank: number; name: string; take: string; warn: string | null }) {
+  return (
+    <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', background: LIME, padding: '76px 78px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 76, height: 76, background: BG, color: LIME, fontFamily: 'Manrope', fontWeight: 800, fontSize: 32 }}>
+          FB
+        </div>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '3px', color: LIME_TEXT, opacity: 0.75 }}>{`#${rank} · ${name.toUpperCase()}`}</div>
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center' }}>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: '44px', color: LIME_TEXT, textTransform: 'uppercase', letterSpacing: '-1px', marginBottom: '30px' }}>
+          Steal this
+        </div>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: `${take.length > 120 ? 44 : 54}px`, lineHeight: 1.18, color: LIME_TEXT, letterSpacing: '-1.5px' }}>
+          {take}
+        </div>
+        {warn && (
+          <div style={{ display: 'flex', flexDirection: 'column', marginTop: '48px' }}>
+            <div style={{ display: 'flex', width: '56px', height: '3px', background: LIME_TEXT, marginBottom: '18px' }} />
+            <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '26px', letterSpacing: '2px', color: LIME_TEXT, opacity: 0.75, textTransform: 'uppercase', marginBottom: '12px' }}>
+              Know before you go
+            </div>
+            <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '28px', lineHeight: 1.4, color: LIME_TEXT }}>
+              {warn}
+            </div>
+          </div>
+        )}
+      </div>
+      <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '22px', letterSpacing: '3px', color: LIME_TEXT, opacity: 0.65, textTransform: 'uppercase' }}>
+        From the FitBodega 100 — ranked monthly
+      </div>
     </div>
   );
 }
@@ -622,13 +696,25 @@ export async function GET(req: NextRequest) {
     const name = q.get('name') || 'Ranked Creator';
     const who = q.get('who') || '';
     const why = q.get('why') || '';
-    const take = q.get('take') || null;
+    const take = q.get('take') || '';
+    const warn = q.get('warn') || null;
     const list = q.get('list') || 'The FitBodega 100';
     const url = q.get('url') || 'fitbodega.com/top-100';
+    const reach = q.get('reach') || '';
+    const segment = q.get('segment') || '';
+    const scoreRaw = q.get('score');
+    const score = scoreRaw ? Number(scoreRaw) : null;
+    // factors arrive as "reach:85|engagement:74|..."
+    const factors: [string, number][] = (q.get('factors') || '')
+      .split('|')
+      .map((pair) => pair.split(':'))
+      .filter((kv): kv is [string, string] => kv.length === 2 && !Number.isNaN(Number(kv[1])))
+      .map(([k, v]) => [k, Number(v)]);
 
     let node: JSX.Element;
-    if (slide === 0) node = <Top100Person rank={rank} name={name} who={who} list={list} />;
-    else if (slide === 1) node = <Top100Why rank={rank} name={name} why={why} take={take} />;
+    if (slide === 0) node = <Top100Person rank={rank} name={name} who={who} list={list} reach={reach} segment={segment} />;
+    else if (slide === 1) node = <Top100Why rank={rank} name={name} why={why} score={score} factors={factors} />;
+    else if (slide === 2) node = <Top100Steal rank={rank} name={name} take={take} warn={warn} />;
     else node = <Top100Cta list={list} url={url} />;
     return new ImageResponse(node, opts);
   }
