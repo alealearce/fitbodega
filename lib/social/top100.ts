@@ -142,7 +142,8 @@ export function spotlightCaption(e: SpotlightEntry): string {
     .join(' · ');
 
   const lines: (string | null)[] = [
-    `#${e.rank} on the ${e.listTitle} — ${e.name}.`,
+    // 'No. 1', not '#1' — Instagram counts a leading #1 as a sixth hashtag.
+    `No. ${e.rank} on the ${e.listTitle} — ${e.name}.`,
     '',
     e.who || null,
     e.who ? '' : null,
