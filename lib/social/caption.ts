@@ -67,9 +67,10 @@ export type BlogContent = { points: string[]; caption: string };
 
 const BLOG_SYS = `You write for ${SITE.name}'s Instagram — the fitness creator network.
 Voice: confident, terse, editorial. No exclamation marks, no "amazing/awesome", no hedging, no emojis.
+ADVICE-FIRST, NEVER FAILURE-FIRST (owner rule): the hook and every point state what to do or what works — never what people do wrong, never "brands waste money on X". Lead with the move, not the mistake.
 Return ONLY minified JSON: {"points":["...","...","..."],"hook":"..."}.
-- points: EXACTLY 3 takeaways from the post, each a punchy standalone line, max ~90 characters, no numbering, no trailing period required.
-- hook: 1–2 short scroll-stopping caption lines. No hashtags, no links, no emojis.`;
+- points: EXACTLY 3 takeaways from the post, each a punchy standalone instruction, max ~90 characters, no numbering, no trailing period required.
+- hook: 1–2 short caption lines that state the piece's core advice. No hashtags, no links, no emojis.`;
 
 function fallbackPoints(post: Pick<BlogPost, 'excerpt' | 'content'>): string[] {
   const source = (post.excerpt || post.content || '').replace(/[#*_>`]/g, ' ');
