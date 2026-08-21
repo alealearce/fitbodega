@@ -337,7 +337,7 @@ function Top100Steal({ rank, name, take, warn }: { rank: number; name: string; t
         )}
       </div>
       <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '22px', letterSpacing: '3px', color: LIME_TEXT, opacity: 0.65, textTransform: 'uppercase' }}>
-        From the FitBodega 100 — ranked monthly
+        From the FitBodega 100
       </div>
     </div>
   );
@@ -347,10 +347,7 @@ function Top100Cta({ list, url }: { list: string; url: string }) {
   return (
     <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: BG, padding: '78px' }}>
       <Mark size={140} />
-      <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '4px', color: LIME, marginTop: '54px', textTransform: 'uppercase' }}>
-        Ranked Monthly
-      </div>
-      <div style={{ display: 'flex', textAlign: 'center', fontFamily: 'Manrope', fontWeight: 800, fontSize: '52px', lineHeight: 1.12, color: WHITE, marginTop: '22px', maxWidth: '860px', textTransform: 'uppercase', letterSpacing: '-1px' }}>
+      <div style={{ display: 'flex', textAlign: 'center', fontFamily: 'Manrope', fontWeight: 800, fontSize: '52px', lineHeight: 1.12, color: WHITE, marginTop: '54px', maxWidth: '860px', textTransform: 'uppercase', letterSpacing: '-1px' }}>
         See the full {list}
       </div>
       <div style={{ display: 'flex', alignItems: 'center', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '28px', padding: '22px 44px', marginTop: '52px' }}>

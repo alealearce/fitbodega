@@ -153,7 +153,7 @@ export function spotlightCaption(e: SpotlightEntry): string {
     e.takeaway ? '' : null,
     e.takeaway ? `Steal this: ${e.takeaway}` : null,
     '',
-    `The full list, reviewed monthly: ${url}`,
+    `The full list: ${url}`,
     '',
     tags.join(' '),
   ];
