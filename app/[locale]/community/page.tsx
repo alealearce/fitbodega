@@ -5,9 +5,13 @@ import { createClient } from "@/lib/supabase/server";
 import type { BlogPost } from "@/lib/supabase/types";
 import { SITE, COPY, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import FMark from "@/components/ui/FMark";
+import JournalSearch from "@/components/journal/JournalSearch";
 
-// Ids must match the categories emitted by /api/admin/daily-blog.
+// for_creators / for_brands are the Tue/Thu editorial tracks (see
+// CONTENT-STRATEGY.md); the rest match /api/admin/daily-blog output.
 const BLOG_CATEGORIES = [
+  { id: "for_creators",     label: "For Creators" },
+  { id: "for_brands",       label: "For Brands" },
   { id: "member_spotlight", label: "Member Spotlight" },
   { id: "mission",          label: "The Network" },
   { id: "finding_training", label: "Finding a Space" },
@@ -20,11 +24,11 @@ const BLOG_CATEGORIES = [
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: `The Journal — ${SITE.name}`,
+  title: "The Journal",
   description: "Training, recovery, and nutrition intel — researched, tested, written straight. Guides for finding the right recovery studio, gym, or coach.",
   alternates: { canonical: `${SITE.url}/community` },
   openGraph: {
-    title: `The Journal — ${SITE.name}`,
+    title: "The Journal",
     description: "Training, recovery, and nutrition intel — researched, tested, written straight.",
     url: `${SITE.url}/community`,
     images: [DEFAULT_OG_IMAGE],
@@ -37,9 +41,10 @@ export const metadata: Metadata = {
 export default async function CommunityPage({
   searchParams,
 }: {
-  searchParams: { category?: string };
+  searchParams: { category?: string; q?: string };
 }) {
   const supabase = await createClient();
+  const q = (searchParams.q ?? "").trim().slice(0, 100);
 
   let query = supabase
     .from("blog_posts")
@@ -51,12 +56,21 @@ export default async function CommunityPage({
   if (searchParams.category) {
     query = query.eq("category", searchParams.category);
   }
+  if (q) {
+    // Escape the PostgREST or() reserved characters, then match title,
+    // excerpt, or body.
+    const safe = q.replace(/[%_,()]/g, " ").trim();
+    query = query.or(
+      `title.ilike.%${safe}%,excerpt.ilike.%${safe}%,content.ilike.%${safe}%`
+    );
+  }
 
   const { data } = await query;
 
   const posts: BlogPost[] = data ?? [];
-  const featured = posts[0] ?? null;
-  const rest     = posts.slice(1);
+  // Search results read as a flat list; the featured treatment is for browsing.
+  const featured = q ? null : posts[0] ?? null;
+  const rest     = q ? posts : posts.slice(1);
 
   return (
     <>
@@ -75,6 +89,16 @@ export default async function CommunityPage({
           <p className="font-sans text-lg text-on-surface-variant max-w-xl leading-relaxed">
             {COPY.communitySection.subtitle}
           </p>
+          <div className="mt-8">
+            <JournalSearch initialQuery={q} />
+          </div>
+          {q && (
+            <p className="font-sans text-sm text-on-surface-variant mt-4">
+              {posts.length === 0
+                ? `Nothing in the Journal matches "${q}".`
+                : `${posts.length} ${posts.length === 1 ? "piece" : "pieces"} matching "${q}"`}
+            </p>
+          )}
         </div>
       </section>
 
@@ -109,8 +133,8 @@ export default async function CommunityPage({
         </div>
       </section>
 
-      {/* Featured Post */}
-      {featured ? (
+      {/* Featured Post — browsing only; search results render as a flat grid */}
+      {q ? null : featured ? (
         <section className="pb-16 bg-bg">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <Link

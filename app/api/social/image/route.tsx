@@ -11,6 +11,12 @@
  *     2  cta    — read on The Journal + link
  *     params: title, points (a|b|c), category, url
  *
+ *   ?type=top100&slide=0..2
+ *     0  person — ghost rank numeral, name, who they are
+ *     1  why    — the one-line case from the list
+ *     2  cta    — see the full list + URL
+ *     params: rank, name, who, why, take, list, url
+ *
  *   ?type=showcase&slide=0..3
  *     0  hero   — listing photo, "FEATURED [TYPE]" pill, name, city
  *     1  why    — what makes them stand out (bold-sans template)
@@ -195,6 +201,86 @@ function BlogCta({ title, url }: { title: string; url: string }) {
       </div>
       <div style={{ display: 'flex', textAlign: 'center', fontFamily: 'Manrope', fontWeight: 500, fontSize: '30px', color: MUTED, marginTop: '30px', maxWidth: '780px' }}>
         &ldquo;{title}&rdquo;
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '28px', padding: '22px 44px', marginTop: '48px' }}>
+        {url}
+      </div>
+    </div>
+  );
+}
+
+// ════════════════════════ TOP-100 SPOTLIGHT (typographic) ════════════════════
+// No photos on purpose: we hold no image rights for the people on the lists,
+// so the rank numeral is the visual. Everything shown comes from the curated
+// list JSON — the post can only claim what the ranking page already claims.
+
+function Top100Person({ rank, name, who, list }: { rank: number; name: string; who: string; list: string }) {
+  return (
+    <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', background: BG, padding: '76px 78px', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ display: 'flex', position: 'absolute', right: '-40px', bottom: '-90px', fontFamily: 'Manrope', fontWeight: 800, fontSize: '560px', lineHeight: 1, color: '#1a1a1a', letterSpacing: '-24px' }}>
+        {rank}
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <Logo compact />
+        <LimePill label={`#${rank}`} fontSize={30} />
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center' }}>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '4px', color: LIME, marginBottom: '26px', textTransform: 'uppercase' }}>
+          {list}
+        </div>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: `${fit(name, 92, 76, 60)}px`, lineHeight: 1.04, color: WHITE, letterSpacing: '-3px', textTransform: 'uppercase' }}>
+          {name}
+        </div>
+        <div style={{ display: 'flex', width: '72px', height: '3px', background: LIME, marginTop: '38px' }} />
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '32px', lineHeight: 1.4, color: MUTED, marginTop: '26px', maxWidth: '860px' }}>
+          {who}
+        </div>
+      </div>
+      <ShareSave />
+    </div>
+  );
+}
+
+function Top100Why({ rank, name, why, take }: { rank: number; name: string; why: string; take: string | null }) {
+  return (
+    <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', background: SURFACE_LOW, padding: '76px 78px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <Logo compact />
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '3px', color: MUTED }}>{`#${rank} · ${name.toUpperCase()}`}</div>
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center' }}>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 800, fontSize: '40px', color: LIME, textTransform: 'uppercase', letterSpacing: '-1px', marginBottom: '30px' }}>
+          Why they rank
+        </div>
+        <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '44px', lineHeight: 1.3, color: WHITE, letterSpacing: '-1px' }}>
+          {why}
+        </div>
+        {take && (
+          <div style={{ display: 'flex', flexDirection: 'column', marginTop: '44px' }}>
+            <div style={{ display: 'flex', width: '56px', height: '3px', background: LIME, marginBottom: '18px' }} />
+            <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 500, fontSize: '30px', lineHeight: 1.4, color: MUTED }}>
+              {take}
+            </div>
+          </div>
+        )}
+      </div>
+      <ShareSave />
+    </div>
+  );
+}
+
+function Top100Cta({ list, url }: { list: string; url: string }) {
+  return (
+    <div style={{ width: W, height: H, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: BG, padding: '78px' }}>
+      <Mark size={140} />
+      <div style={{ display: 'flex', fontFamily: 'Manrope', fontWeight: 700, fontSize: '24px', letterSpacing: '4px', color: LIME, marginTop: '54px', textTransform: 'uppercase' }}>
+        Ranked Monthly
+      </div>
+      <div style={{ display: 'flex', textAlign: 'center', fontFamily: 'Manrope', fontWeight: 800, fontSize: '52px', lineHeight: 1.12, color: WHITE, marginTop: '22px', maxWidth: '860px', textTransform: 'uppercase', letterSpacing: '-1px' }}>
+        See the full {list}
+      </div>
+      <div style={{ display: 'flex', textAlign: 'center', fontFamily: 'Manrope', fontWeight: 500, fontSize: '30px', color: MUTED, marginTop: '30px', maxWidth: '780px' }}>
+        Who is rising, who is credible, and who is worth a brand&apos;s attention.
       </div>
       <div style={{ display: 'flex', alignItems: 'center', background: LIME, color: LIME_TEXT, fontFamily: 'Manrope', fontWeight: 800, fontSize: '28px', padding: '22px 44px', marginTop: '48px' }}>
         {url}
@@ -529,6 +615,22 @@ export async function GET(req: NextRequest) {
       <BlogCover title={title} category={category} slug={slug} />,
       { width: CW, height: CH, fonts, headers: { 'Cache-Control': 'public, max-age=86400, s-maxage=86400' } },
     );
+  }
+
+  if (type === 'top100') {
+    const rank = Number(q.get('rank') ?? 1);
+    const name = q.get('name') || 'Ranked Creator';
+    const who = q.get('who') || '';
+    const why = q.get('why') || '';
+    const take = q.get('take') || null;
+    const list = q.get('list') || 'The FitBodega 100';
+    const url = q.get('url') || 'fitbodega.com/top-100';
+
+    let node: JSX.Element;
+    if (slide === 0) node = <Top100Person rank={rank} name={name} who={who} list={list} />;
+    else if (slide === 1) node = <Top100Why rank={rank} name={name} why={why} take={take} />;
+    else node = <Top100Cta list={list} url={url} />;
+    return new ImageResponse(node, opts);
   }
 
   if (type === 'showcase') {

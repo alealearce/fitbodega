@@ -3,7 +3,8 @@ import { createAdminClient } from '@/lib/supabase/server';
 import { SITE } from '@/lib/config/site';
 import { getListingUrl } from '@/lib/utils/listingUrl';
 import { buildBlogContent, buildShowcaseCaption, showcaseBlurb, igHandle } from '@/lib/social/caption';
-import { configuredPlatforms, SINGLE_IMAGE_ONLY, isConfigured, uploadAll, publish, clampCaption, type Platform } from '@/lib/social/blotato';
+import { configuredPlatforms, isConfigured, type Platform } from '@/lib/social/blotato';
+import { publishCarousel, slideUrl, type PlatformOutcome } from '@/lib/social/carousel';
 import { sendFeaturedEmail } from '@/lib/email/resend';
 import type { Listing } from '@/lib/supabase/types';
 
@@ -23,8 +24,6 @@ import type { Listing } from '@/lib/supabase/types';
 
 export const maxDuration = 300;
 
-const IMG_BASE = process.env.SOCIAL_PUBLIC_BASE_URL || SITE.url;
-
 // Weekday → preferred showcase type (falls through when that category is thin).
 // getUTCDay: 0 Sun … 6 Sat.  Sunday = no preference (community roundup).
 const WEEKDAY_TYPE: Record<number, Listing['type'] | undefined> = {
@@ -33,60 +32,6 @@ const WEEKDAY_TYPE: Record<number, Listing['type'] | undefined> = {
 const TYPE_LABEL: Record<string, string> = {
   recovery: 'Recovery Studio', gym: 'Gym', trainer: 'Coach', club: 'Club', nutritionist: 'Nutritionist', store: 'Health Food Store', youth: 'Youth Sports',
 };
-
-function enc(v: string): string {
-  return encodeURIComponent(v);
-}
-function slideUrl(params: Record<string, string | undefined>): string {
-  const q = Object.entries(params)
-    .filter(([, v]) => v !== undefined && v !== '')
-    .map(([k, v]) => `${k}=${enc(String(v))}`)
-    .join('&');
-  return `${IMG_BASE}/api/social/image?${q}`;
-}
-
-type PlatformOutcome = { status: string; id?: string; error?: string };
-
-async function publishCarousel(
-  supabase: ReturnType<typeof createAdminClient>,
-  opts: { kind: 'blog' | 'showcase'; refId: string; refSlug: string; slideUrls: string[]; caption: string; url: string; skip: Set<Platform> }
-): Promise<Record<string, PlatformOutcome>> {
-  const results: Record<string, PlatformOutcome> = {};
-  const platforms = configuredPlatforms().filter((p) => !opts.skip.has(p));
-  for (const p of configuredPlatforms()) if (opts.skip.has(p)) results[p] = { status: 'already_published' };
-  if (platforms.length === 0) return results;
-
-  // Upload the slides once, then reuse the hosted URLs for every platform.
-  const uploaded = await uploadAll(opts.slideUrls);
-  if (!uploaded.ok) {
-    for (const p of platforms) {
-      results[p] = { status: 'failed', error: `media upload: ${uploaded.error}` };
-      await supabase.from('social_posts').insert({
-        kind: opts.kind, ref_id: opts.refId, ref_slug: opts.refSlug, platform: p,
-        caption: opts.caption, image_urls: opts.slideUrls, status: 'failed', error_message: `media upload: ${uploaded.error}`,
-      });
-    }
-    return results;
-  }
-
-  const multi = uploaded.urls.length > 1;
-  for (const p of platforms) {
-    // Single-image-only platforms (Threads) get just the first slide of a carousel.
-    const firstOnly = multi && SINGLE_IMAGE_ONLY.includes(p);
-    const media = firstOnly ? [uploaded.urls[0]] : uploaded.urls;
-    const cap = clampCaption(opts.caption, p, opts.url); // respect per-platform char limits (X, Bluesky…)
-    const outcome = await publish(p, media, cap);
-    results[p] = outcome.ok
-      ? { status: firstOnly ? 'published_first_slide' : 'published', id: outcome.id }
-      : { status: 'failed', error: outcome.error };
-    await supabase.from('social_posts').insert({
-      kind: opts.kind, ref_id: opts.refId, ref_slug: opts.refSlug, platform: p,
-      external_id: outcome.ok ? outcome.id : null, caption: cap, image_urls: media,
-      status: outcome.ok ? 'published' : 'failed', error_message: outcome.ok ? null : outcome.error,
-    });
-  }
-  return results;
-}
 
 // ───────────────────────────── blog digest ──────────────────────────────────
 

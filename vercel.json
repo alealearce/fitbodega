@@ -13,12 +13,16 @@
       "schedule": "0 14 * * *"
     },
     {
-      "path": "/api/admin/daily-blog",
-      "schedule": "7 18 * * *"
-    },
-    {
       "path": "/api/deal-radar/collect",
       "schedule": "0 13 * * 1"
+    },
+    {
+      "path": "/api/social/weekly",
+      "schedule": "0 16 * * 1,3"
+    },
+    {
+      "path": "/api/social/weekly",
+      "schedule": "0 16 * * 2,4"
     }
   ]
 }
