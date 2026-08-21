@@ -49,6 +49,9 @@ Idempotency key: `social_posts` kind `top100`, ref_slug `<list>#<rank>`.
 
 - **Honesty over impressiveness.** Never invent people, campaigns, rates,
   or results. List pieces name real people only after real research.
+- **Advice-first, never failure-first.** Every piece tells the reader what
+  to do and how; it never leads with what everyone does wrong. One brief
+  contrast per section at most, and only in service of the instruction.
 - **First-person pieces carry the owner's actual experience** ("what 15
   years of buying ads taught me") — drafted from his notes, never invented.
 - Rate/number pieces cite sources (public rate surveys, named studies,
