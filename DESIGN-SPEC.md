@@ -62,9 +62,17 @@ Full creative rationale: `/Users/alejandroarce/Claude Code/FITBODEGA.COM/IMAGES/
 
 ## Brand & voice
 
-- Site: FitBodega — "The Fitness Creator Network" (repositioned 2026-08-08: creator–brand
-  connector; two doors /for-brands + /creators; directory stays as "The Index"). Vancouver-first,
-  network open worldwide.
+- Site: FitBodega — "The Fitness Creator Network" (repositioned 2026-08-20: the connector —
+  rank the creators, track the brands paying for creator content, put the two together).
+  Primary nav: Deals · Top 100 · Journal · For Brands · For Creators · About. The directory is
+  a supporting benefit ("get featured in the network"), not the lead story: its category pages
+  stay live and indexed but are promoted only from the footer and the Get Featured sections.
+  Homepage and top-level pages read geographically neutral; city pages carry the local copy.
+- One primary CTA per page. Site-wide default: the creator email signup ("Join the Deal
+  Radar", /creators#join). /for-brands is the exception — post a deal.
+- Honest framing beats impressive framing: never imply inventory, scale, or track record that
+  does not exist. Empty states are designed, not disguised (see the Deal Radar board), and
+  numbers only ship when they are real (PROOF_BAR in lib/config/site.ts is off by default).
 - Six listing types (ids are code contracts): `recovery`, `gym`, `trainer`, `nutritionist`, `store`, `youth`.
 - Hub routes: `/recovery`, `/gyms`, `/trainers`, `/nutritionists`, `/health-food-stores`, `/youth-sports`.
 - Blog = "The Journal" (index at `/community`, posts at ROOT `/:slug` — never `/community/:slug` or `/blog/:slug`).

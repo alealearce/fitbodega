@@ -284,44 +284,6 @@ export async function sendAdminNewListing(
   });
 }
 
-// ── Admin: New Creator Application ────────────────────────────────────────
-
-export async function sendAdminCreatorApplication(opts: {
-  name: string;
-  email: string;
-  platform: string;
-  handle: string;
-  followerRange: string;
-  niche: string;
-  hasBrandDeals: boolean;
-  bestPostUrl: string;
-}) {
-  const subject = `New creator application: ${opts.name}`;
-  const body = `
-    <p style="margin:0 0 16px;">A new creator has applied to join the ${SITE.name} network.</p>
-    <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 24px;border:1px solid ${BORDER};border-radius:0;overflow:hidden;">
-      <tr>
-        <td style="padding:16px;background-color:${BG};">
-          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Name:</strong> ${opts.name}</p>
-          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Email:</strong> <a href="mailto:${opts.email}" style="color:${INK};">${opts.email}</a></p>
-          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Platform:</strong> ${opts.platform} — ${opts.handle}</p>
-          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Followers:</strong> ${opts.followerRange}</p>
-          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Niche:</strong> ${opts.niche}</p>
-          <p style="margin:0 0 8px;font-size:14px;font-family:Arial,sans-serif;"><strong>Brand deals before:</strong> ${opts.hasBrandDeals ? 'Yes' : 'No'}</p>
-          <p style="margin:0;font-size:14px;font-family:Arial,sans-serif;"><strong>Best recent post:</strong> <a href="${opts.bestPostUrl}" style="color:${INK};">${opts.bestPostUrl}</a></p>
-        </td>
-      </tr>
-    </table>
-  `;
-
-  return getResend().emails.send({
-    from: FROM_EMAIL,
-    to: ADMIN_EMAIL,
-    subject,
-    html: baseTemplate('New Creator Application', body),
-  });
-}
-
 // ── Admin: New Brand Inquiry ──────────────────────────────────────────────
 
 export async function sendAdminBrandInquiry(opts: {
@@ -559,8 +521,11 @@ export async function sendAuditEmail(
       study: string;
     }>;
     nextStep: string;
-  }
+  },
+  // Creators get pushed to the network profile; spaces to the listing form.
+  entityType?: string
 ) {
+  const isCreator = entityType === 'creator' || entityType === 'athlete';
   const recs = report.recommendations
     .map(
       (r, i) => `
@@ -582,7 +547,12 @@ export async function sendAuditEmail(
     <p style="margin:0 0 16px;font-size:15px;font-family:Arial,sans-serif;line-height:1.6;">${report.assessment}</p>
     ${recs}
     <p style="margin:0 0 24px;font-size:14px;font-family:Arial,sans-serif;line-height:1.6;">${report.nextStep}</p>
-    ${buttonHtml(`${SITE.url}/submit`, 'List Your Space')}
+    ${
+      isCreator
+        ? `<p style="margin:0 0 16px;font-size:14px;font-family:Arial,sans-serif;line-height:1.6;">One more step worth taking: complete a network profile. It is what makes you visible to brands browsing FitBodega, and it puts you in the pool for the FitBodega 100.</p>
+    ${buttonHtml(`${SITE.url}/creators#join`, 'Complete my profile')}`
+        : buttonHtml(`${SITE.url}/submit`, 'List Your Space')
+    }
     <p style="margin:24px 0 0;font-size:12px;font-family:Arial,sans-serif;color:#888;line-height:1.6;">Benchmarks reference the FitBodega 100 &mdash; world rankings of training culture, reviewed monthly. <a href="${SITE.url}/top-100" style="color:#888;">See the rankings</a>.</p>
   `;
 
@@ -711,5 +681,54 @@ export async function sendAdminDealSubmission(opts: {
     to: ADMIN_EMAIL,
     subject: `Deal Radar submission — ${opts.brandName}`,
     html: baseTemplate('New Deal Submission', body),
+  });
+}
+
+// ── Creator network profile ────────────────────────────────────────────────
+// Sent when a creator finishes step 2. Carries the private edit link — the
+// only way back into a profile, since profiles have no account behind them.
+
+export async function sendCreatorProfileSaved(opts: {
+  to: string;
+  name: string;
+  editUrl: string;
+  isNew: boolean;
+}) {
+  const body = `
+    <p style="margin:0 0 16px;">${opts.isNew ? `Your profile is live in the ${SITE.name} creator network, ${opts.name}.` : `Your ${SITE.name} profile is updated, ${opts.name}.`}</p>
+    <p style="margin:0 0 24px;">Brands browsing the network can see it, and every profile is considered for the FitBodega 100. Keep this link — it is how you edit your profile later.</p>
+    <p style="margin:0 0 8px;text-align:center;">${buttonHtml(opts.editUrl, 'Edit my profile')}</p>
+    <p style="margin:24px 0 0;font-size:13px;color:#888;">Anyone with this link can edit your profile, so keep it to yourself.</p>
+  `;
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: opts.to,
+    subject: opts.isNew ? `You're in the ${SITE.name} creator network` : `Your ${SITE.name} profile is updated`,
+    html: baseTemplate(opts.isNew ? 'Profile Live' : 'Profile Updated', body),
+  });
+}
+
+export async function sendAdminCreatorProfile(opts: {
+  name: string;
+  email: string;
+  niche: string;
+  audienceSize: string;
+  platform: string;
+  handles: string;
+}) {
+  const body = `
+    <p style="margin:0 0 16px;"><strong>${opts.name}</strong> completed a creator profile.</p>
+    <p style="margin:0 0 8px;">Email: ${opts.email}</p>
+    <p style="margin:0 0 8px;">Niche: ${opts.niche}</p>
+    <p style="margin:0 0 8px;">Audience: ${opts.audienceSize}</p>
+    <p style="margin:0 0 8px;">Primary platform: ${opts.platform}</p>
+    <p style="margin:0 0 24px;">Links: ${opts.handles}</p>
+    <p style="margin:0 0 8px;text-align:center;">${buttonHtml(`${SITE.url}/admin`, 'Open the admin')}</p>
+  `;
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: ADMIN_EMAIL,
+    subject: `New creator profile — ${opts.name}`,
+    html: baseTemplate('New Creator Profile', body),
   });
 }

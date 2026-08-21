@@ -1,98 +1,30 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, ChevronDown, User, LayoutDashboard } from "lucide-react";
+import { Menu, X, User, LayoutDashboard } from "lucide-react";
 import { SITE } from "@/lib/config/site";
 import { cn } from "@/lib/utils/cn";
 import { createClient } from "@/lib/supabase/client";
 
-const DIRECTORY_ITEMS = [
-  { label: "Creators",           href: "/creators",           desc: "Join the fitness creator network" },
-  { label: "Recovery",           href: "/recovery",           desc: "Saunas, cold plunge & bodywork studios" },
-  { label: "Gyms & Studios",     href: "/gyms",               desc: "Training floors & fitness studios" },
-  { label: "Coaches",            href: "/trainers",           desc: "Personal trainers & performance coaches" },
-  { label: "Clubs",              href: "/clubs",              desc: "Run crews, ride groups & swim clubs" },
-  { label: "Nutritionists",      href: "/nutritionists",      desc: "Sports dietitians & nutrition coaching" },
-  { label: "Health Food Stores", href: "/health-food-stores", desc: "Supplements & whole-food fuel" },
-  { label: "Youth Sports",       href: "/youth-sports",       desc: "Soccer clubs, academies & camps" },
-  { label: "List Your Space",    href: "/submit",             desc: "Get listed in the directory" },
+// Primary nav, 2026-08-20: the network first, the directory last — one link to
+// its landing page instead of the old mega-menu. Category pages stay live and
+// indexed, reached from /directory and the footer.
+const NAV_ITEMS = [
+  { label: "Deals",        href: "/deals" },
+  { label: "Top 100",      href: "/top-100" },
+  { label: "For Brands",   href: "/for-brands" },
+  { label: "For Creators", href: "/creators" },
+  { label: "Journal",      href: "/community" },
+  { label: "About",        href: "/about" },
+  { label: "Directory",    href: "/directory" },
 ];
 
-type DropdownItem = { label: string; href: string; desc: string };
-
-function NavDropdown({
-  label,
-  items,
-  open,
-  setOpen,
-  innerRef,
-}: {
-  label: string;
-  items: DropdownItem[];
-  open: boolean;
-  setOpen: (v: boolean | ((v: boolean) => boolean)) => void;
-  innerRef: React.RefObject<HTMLDivElement>;
-}) {
-  return (
-    <div
-      ref={innerRef}
-      className="relative"
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
-    >
-      <button
-        onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1 font-sans text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors duration-300"
-      >
-        {label}
-        <ChevronDown
-          size={13}
-          className={cn("transition-transform duration-300", open && "rotate-180")}
-        />
-      </button>
-
-      {/* Dropdown Panel — Level 2 tonal block, sharp. The gap between
-          trigger and panel is padding (not margin) so the pointer
-          never leaves the wrapper while crossing it. */}
-      <div
-        className={cn(
-          "absolute top-full left-1/2 -translate-x-1/2 pt-4 w-72",
-          "transition-all duration-300 origin-top",
-          open ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-2 pointer-events-none"
-        )}
-      >
-        <div className="bg-surface-input overflow-hidden p-2 max-h-[70vh] overflow-y-auto">
-          {items.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              onClick={() => setOpen(false)}
-              className="flex items-start gap-3 px-4 py-3 hover:bg-surface-bright transition-colors duration-200 group"
-            >
-              <div>
-                <p className="font-sans text-sm font-bold text-on-surface group-hover:text-primary transition-colors">
-                  {item.label}
-                </p>
-                <p className="font-sans text-xs text-on-surface-variant mt-0.5">
-                  {item.desc}
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export default function Navbar() {
-  const [scrolled,      setScrolled]      = useState(false);
-  const [mobileOpen,    setMobileOpen]    = useState(false);
-  const [directoryOpen, setDirectoryOpen] = useState(false);
-  const [isAuthed,      setIsAuthed]      = useState(false);
-  const directoryRef = useRef<HTMLDivElement>(null);
+  const [scrolled,   setScrolled]   = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [isAuthed,   setIsAuthed]   = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -107,17 +39,6 @@ export default function Navbar() {
       setIsAuthed(!!session?.user);
     });
     return () => sub.subscription.unsubscribe();
-  }, []);
-
-  // Close dropdowns on outside click
-  useEffect(() => {
-    const handler = (e: MouseEvent) => {
-      if (directoryRef.current && !directoryRef.current.contains(e.target as Node)) {
-        setDirectoryOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handler);
-    return () => document.removeEventListener("mousedown", handler);
   }, []);
 
   return (
@@ -147,23 +68,16 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-8">
-              <NavDropdown
-                label="Directory"
-                items={DIRECTORY_ITEMS}
-                open={directoryOpen}
-                setOpen={setDirectoryOpen}
-                innerRef={directoryRef}
-              />
-              <NavLink href="/deals">Deals</NavLink>
-              <NavLink href="/for-brands">For Brands</NavLink>
-              <NavLink href="/top-100">Top 100</NavLink>
-              <NavLink href="/community">Journal</NavLink>
-              <NavLink href="/about">About</NavLink>
+            <nav className="hidden lg:flex items-center gap-5 xl:gap-7">
+              {NAV_ITEMS.map((item) => (
+                <NavLink key={item.href} href={item.href}>
+                  {item.label}
+                </NavLink>
+              ))}
             </nav>
 
-            {/* Desktop Actions */}
-            <div className="hidden lg:flex items-center gap-5">
+            {/* Desktop Actions — creator signup is the dominant one */}
+            <div className="hidden lg:flex items-center gap-3 xl:gap-4">
               {isAuthed ? (
                 <Link
                   href="/dashboard"
@@ -183,9 +97,16 @@ export default function Navbar() {
               )}
               <Link
                 href="/for-brands"
-                className="px-5 py-2.5 bg-primary text-primary-on font-sans text-label-sm uppercase transition-opacity duration-300 hover:opacity-90"
+                className="px-4 py-2.5 font-sans text-label-sm uppercase text-on-surface hover:text-primary transition-colors duration-300"
+                style={{ boxShadow: "inset 0 0 0 1px rgba(72,72,71,0.3)" }}
               >
                 Post a Deal
+              </Link>
+              <Link
+                href="/creators#join"
+                className="px-6 py-2.5 bg-primary text-primary-on font-sans text-label-sm uppercase font-bold transition-opacity duration-300 hover:opacity-90"
+              >
+                Join the Radar
               </Link>
             </div>
 
@@ -227,46 +148,34 @@ export default function Navbar() {
         >
           <div className="flex flex-col h-full pt-20 pb-8 px-6 overflow-y-auto">
             <nav className="flex flex-col gap-1">
-              {/* Directory Group */}
-              <div className="pb-1">
-                <p className="font-sans text-label-sm uppercase text-on-surface-variant px-3 mb-2">
-                  Directory
-                </p>
-                {DIRECTORY_ITEMS.map(item => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setMobileOpen(false)}
-                    className="flex items-center gap-3 px-3 py-2.5 font-sans text-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-card transition-colors"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-
-              <div className="pt-4">
-                <MobileNavLink href="/deals" onClick={() => setMobileOpen(false)}>Deals</MobileNavLink>
-                <MobileNavLink href="/for-brands" onClick={() => setMobileOpen(false)}>For Brands</MobileNavLink>
-                <MobileNavLink href="/top-100" onClick={() => setMobileOpen(false)}>Top 100</MobileNavLink>
-                <MobileNavLink href="/community" onClick={() => setMobileOpen(false)}>Journal</MobileNavLink>
-                <MobileNavLink href="/about" onClick={() => setMobileOpen(false)}>About</MobileNavLink>
-              </div>
+              {NAV_ITEMS.map((item) => (
+                <MobileNavLink key={item.href} href={item.href} onClick={() => setMobileOpen(false)}>
+                  {item.label}
+                </MobileNavLink>
+              ))}
             </nav>
 
-            <div className="mt-auto flex flex-col gap-3 pt-6">
+            <div className="mt-auto flex flex-col gap-3 pt-8">
               <Link
-                href={isAuthed ? "/dashboard" : "/login"}
+                href="/creators#join"
                 onClick={() => setMobileOpen(false)}
-                className="text-center py-3.5 font-sans text-label-sm uppercase text-on-surface bg-surface-card hover:bg-surface-input transition-colors"
+                className="text-center py-3.5 bg-primary text-primary-on font-sans text-label-sm uppercase font-bold transition-opacity hover:opacity-90"
               >
-                {isAuthed ? "Dashboard" : "Sign In"}
+                Join the Radar
               </Link>
               <Link
                 href="/for-brands"
                 onClick={() => setMobileOpen(false)}
-                className="text-center py-3.5 bg-primary text-primary-on font-sans text-label-sm uppercase transition-opacity hover:opacity-90"
+                className="text-center py-3.5 font-sans text-label-sm uppercase text-on-surface bg-surface-card hover:bg-surface-input transition-colors"
               >
                 Post a Deal
+              </Link>
+              <Link
+                href={isAuthed ? "/dashboard" : "/login"}
+                onClick={() => setMobileOpen(false)}
+                className="text-center py-3.5 font-sans text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors"
+              >
+                {isAuthed ? "Dashboard" : "Sign In"}
               </Link>
             </div>
           </div>

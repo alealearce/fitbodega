@@ -14,21 +14,32 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
   }
 
-  const parsed = z.object({ email: z.string().email() }).safeParse(await req.json());
+  const parsed = z
+    .object({
+      email: z.string().email(),
+      first_name: z.string().max(60).optional().or(z.literal('')),
+    })
+    .safeParse(await req.json());
   if (!parsed.success) {
     return NextResponse.json({ error: 'Invalid input' }, { status: 400 });
   }
   const email = parsed.data.email.toLowerCase();
+  const firstName = parsed.data.first_name?.trim() || null;
 
   const supabase = createAdminClient();
   const { data: existing } = await supabase
     .from('dr_subscribers')
-    .select('id, status, confirm_token')
+    .select('id, status, confirm_token, first_name')
     .eq('email', email)
     .maybeSingle();
 
   // Already active or unsubscribed: silently succeed, never leak state.
-  if (existing?.status === 'active') return NextResponse.json({ ok: true });
+  if (existing?.status === 'active') {
+    if (firstName && !existing.first_name) {
+      await supabase.from('dr_subscribers').update({ first_name: firstName }).eq('id', existing.id);
+    }
+    return NextResponse.json({ ok: true });
+  }
 
   let confirmToken = existing?.confirm_token as string | undefined;
   if (existing && existing.status === 'unsubscribed') {
@@ -36,13 +47,23 @@ export async function POST(req: NextRequest) {
     confirmToken = crypto.randomUUID();
     await supabase
       .from('dr_subscribers')
-      .update({ status: 'pending', confirm_token: confirmToken })
+      .update({
+        status: 'pending',
+        confirm_token: confirmToken,
+        first_name: firstName ?? existing.first_name,
+      })
       .eq('id', existing.id);
   } else if (!existing) {
     confirmToken = crypto.randomUUID();
     const { error } = await supabase
       .from('dr_subscribers')
-      .insert({ email, status: 'pending', source: 'site', confirm_token: confirmToken });
+      .insert({
+        email,
+        first_name: firstName,
+        status: 'pending',
+        source: 'site',
+        confirm_token: confirmToken,
+      });
     if (error) return NextResponse.json({ error: 'Could not subscribe' }, { status: 500 });
   }
 

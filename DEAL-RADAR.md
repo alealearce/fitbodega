@@ -111,3 +111,32 @@ Fingerprints are unique per `(fingerprint, week_id)` — a brand recurring
 across weeks gets a new row each week with `meta.weeksSeen` counting the
 recurrence (the raw material for a standing brand ranking). Published
 editions are immutable; collection can never move rows out of them.
+
+## The board, in two sections (added 2026-08-20)
+
+`/deals` and the homepage preview both render `components/deal-radar/DealBoard.tsx`,
+which splits the same `dr_opportunities` rows three ways via
+`lib/deal-radar/board.ts`:
+
+- **Section A — On the board.** Things a creator can act on. Brand-posted
+  deals (`source = 'brand_direct'`) come first, with a designed empty state
+  when none have cleared review — never padded with radar rows. Below them,
+  open listings found elsewhere (pitchlo, casting boards, brand program
+  pages), each card naming the host you apply on.
+- **Section B — The Radar.** Spend intelligence: brands buying creator content
+  somewhere else. Labelled as intelligence, and every row says "no deal posted
+  here". `meta.pitchAngle` renders as "How they work with creators".
+
+Filters are client-side: Section A by offer type, platform, and pay-stated;
+Section B by ad volume and evidence type. Published editions still render
+through `DigestContent` so an archived week reads as it was published.
+
+## Creator profiles (added 2026-08-20)
+
+Step 1 is the Deal Radar email (`dr_subscribers`, double opt-in, now with an
+optional `first_name`). Step 2 is a `creator_profiles` row — no auth account,
+keyed to the email, edited through the token link mailed on save
+(`/creators/profile?token=…`). Only completed profiles appear in the public
+browse at `/creators/network`; subscribers without one keep getting the email
+and get a single prompt on the dashboard. A token-less POST to a taken email
+mails the edit link to the owner and changes nothing.

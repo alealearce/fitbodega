@@ -1,26 +1,29 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import DealRadarSubscribeForm from "@/components/deal-radar/DealRadarSubscribeForm";
+import DealBoard from "@/components/deal-radar/DealBoard";
 import DigestContent from "@/components/deal-radar/DigestContent";
+import JoinTheRadar from "@/components/creators/JoinTheRadar";
 import { SITE } from "@/lib/config/site";
+import { splitBoard } from "@/lib/deal-radar/board";
 import type { DrOpportunity, DrWeeklyDigest } from "@/lib/deal-radar/types";
 import { weekSlugToTitleDate } from "@/lib/deal-radar/week";
 import { createAdminClient } from "@/lib/supabase/server";
 
-// Deal Radar showcase. The current edition renders in full as a ledger
-// (same reading grammar as the FitBodega 100); every earlier week collapses
-// into a date-labeled dropdown. Permalinks live at /deals/[week-slug].
+// The board, in two labelled sections: deals a creator can act on (Section A,
+// brand-posted first) and brands we track spending on creator content
+// elsewhere (Section B). Past editions stay readable below, as published.
 
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: `Deal Radar — Fitness Brand Deals & Collabs for Creators | ${SITE.name}`,
+  title: "Deal Radar — Fitness Brand Deals & Creator-Ad Spend",
   description:
-    "A weekly, human-curated list of open fitness brand deals, UGC gigs, and brands actively spending on creator ads. Free for creators.",
+    "Open fitness brand deals you can apply to, kept separate from weekly intelligence on the brands paying for creator content. Free for creators.",
   alternates: { canonical: `${SITE.url}/deals` },
   openGraph: {
-    title: "Deal Radar — Fitness Brand Deals & Collabs",
-    description: "Open brand deals and spend signals for fitness creators, every week.",
+    title: "Deal Radar — Fitness Brand Deals & Creator-Ad Spend",
+    description:
+      "Deals you can take, and the brands buying creator content elsewhere. Two sections, never mixed.",
     url: `${SITE.url}/deals`,
   },
 };
@@ -57,13 +60,12 @@ export default async function DealsShowcasePage() {
   const boardDeals = (boardData ?? []) as DrOpportunity[];
 
   const [latest, ...past] = digests;
-  const currentBoard = latest
-    ? [...boardDeals, ...oppsFor(latest.id)].sort((a, b) => b.score - a.score)
-    : boardDeals;
+  const currentBoard = latest ? [...boardDeals, ...oppsFor(latest.id)] : boardDeals;
+  const board = splitBoard(currentBoard);
 
   return (
     <div className="min-h-screen bg-bg">
-      {/* Masthead — section shift, aggressive display type */}
+      {/* Masthead — the offer, then the one action this page wants */}
       <div className="bg-surface-low">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-24 pb-16">
           <div className="flex items-center gap-3 mb-4">
@@ -74,62 +76,51 @@ export default async function DealsShowcasePage() {
             Fitness brand deals, every week
           </h1>
           <p className="font-sans text-base lg:text-lg text-on-surface-variant mt-6 max-w-2xl">
-            Open collab listings you can apply to today. Brands actively spending on creator ads,
-            with the pitch angle to reach them. Curated and verified by hand before it ships.
+            On the board is what you can take today — deals brands posted here, plus open
+            listings we found, each one naming where you apply. The Radar is intelligence: the
+            brands paying for creator content somewhere else, tracked weekly.
           </p>
-          <div className="mt-10 max-w-xl">
-            <p className="font-sans text-label-md uppercase text-primary mb-4">Get it in your inbox</p>
-            <DealRadarSubscribeForm />
+          <div className="mt-10 max-w-2xl">
+            <p className="font-sans text-label-md uppercase text-primary mb-4">
+              Get it in your inbox
+            </p>
+            <JoinTheRadar id="join" />
           </div>
         </div>
       </div>
 
-      {/* Current edition */}
+      {/* Current board */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
-        {currentBoard.length === 0 ? (
-          <p className="font-sans text-sm text-on-surface-variant">First edition ships soon.</p>
-        ) : (
-          <article>
-            <div className="flex items-center gap-3 mb-4">
-              <span className="w-7 h-[3px] bg-primary" aria-hidden />
-              <p className="font-sans text-label-md uppercase text-primary">On the board now</p>
-            </div>
-            <h2 className="font-serif text-display-sm lg:text-display-md uppercase font-extrabold tracking-tight text-on-surface mb-4">
-              {latest ? `Week of ${weekSlugToTitleDate(latest.week_slug)}` : "Open deals"}
-            </h2>
-            <p className="font-sans text-sm text-on-surface-variant mb-12 max-w-2xl">
-              Hiring creators?{" "}
-              <Link href="/for-brands" className="text-on-surface hover:text-primary underline">
-                Post your deal free
-              </Link>{" "}
-              — reviewed by hand, live on this board.
-            </p>
-            <DigestContent
-              digest={
-                latest ?? {
-                  id: "board",
-                  created_at: "",
-                  week_slug: "",
-                  status: "published",
-                  intro_copy: null,
-                  published_at: null,
-                  post_url: null,
-                }
-              }
-              opportunities={currentBoard}
-            />
-            {latest && (
-              <Link
-                href={`/deals/${latest.week_slug}`}
-                className="mt-12 inline-block font-sans text-sm text-on-surface-variant hover:text-primary uppercase"
-              >
-                Permalink for this edition
-              </Link>
-            )}
-          </article>
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
+          <h2 className="font-serif text-display-sm lg:text-display-md uppercase font-extrabold tracking-tight text-on-surface">
+            {latest ? `Week of ${weekSlugToTitleDate(latest.week_slug)}` : "The board"}
+          </h2>
+          <p className="font-sans text-sm text-on-surface-variant max-w-sm">
+            Hiring creators?{" "}
+            <Link href="/for-brands" className="text-on-surface hover:text-primary underline">
+              Post your deal free
+            </Link>{" "}
+            — reviewed by hand, live on this board.
+          </p>
+        </div>
+
+        <DealBoard
+          posted={board.posted}
+          found={board.found}
+          radar={board.radar}
+          variant="full"
+        />
+
+        {latest && (
+          <Link
+            href={`/deals/${latest.week_slug}`}
+            className="mt-16 inline-block font-sans text-sm text-on-surface-variant hover:text-primary uppercase"
+          >
+            Permalink for this edition
+          </Link>
         )}
 
-        {/* Past editions — date-labeled dropdowns */}
+        {/* Past editions — as published, date-labeled dropdowns */}
         {past.length > 0 && (
           <section className="mt-24">
             <div className="flex items-center gap-3 mb-8">

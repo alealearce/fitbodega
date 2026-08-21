@@ -63,7 +63,7 @@ export default function AboutPage() {
             <p className="font-sans text-label-md uppercase text-primary">We&apos;ve sponsored fitness before</p>
           </div>
           <p className="font-sans text-lg text-on-surface-variant leading-relaxed max-w-2xl mt-6">
-            This isn&apos;t theory — we&apos;ve done the work. In 2024 we sponsored{" "}
+            In 2024 we sponsored{" "}
             <a
               href="https://www.instagram.com/fitbodegavancouverfc/"
               target="_blank"
@@ -200,7 +200,7 @@ export default function AboutPage() {
                 nutritionists, stores, and youth sports.
               </p>
               <Link
-                href="/recovery"
+                href="/directory"
                 className="inline-flex items-center gap-2 mt-7 font-sans text-label-md uppercase text-on-surface hover:text-primary transition-colors duration-300"
               >
                 Explore the network

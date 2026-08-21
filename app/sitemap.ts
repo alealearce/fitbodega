@@ -1,7 +1,12 @@
 import type { MetadataRoute } from "next";
 import { SITE, LISTING_TYPES } from "@/lib/config/site";
+import { isNetworkOpen } from "@/lib/creators/network";
 import { createAdminClient } from "@/lib/supabase/server";
 import { getListingUrl } from "@/lib/utils/listingUrl";
+
+// The sitemap reads live data (published deal editions, whether the creator
+// browse is open), so it must not be frozen at build time.
+export const revalidate = 3600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = SITE.url;
@@ -17,6 +22,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: base,                                        changeFrequency: "weekly",  priority: 1.0 },
     { url: `${base}/for-brands`,                        changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/directory`,                         changeFrequency: "weekly",  priority: 0.9 },
     { url: `${base}/creators`,                          changeFrequency: "monthly", priority: 0.9 },
     ...hubRoutes,
     { url: `${base}/community`,                         changeFrequency: "daily",   priority: 0.8 },
@@ -37,6 +43,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/privacy`,                           changeFrequency: "yearly",  priority: 0.3 },
     { url: `${base}/terms`,                             changeFrequency: "yearly",  priority: 0.3 },
   ];
+
+  // The creator browse enters the sitemap only once it holds real profiles.
+  if (await isNetworkOpen()) {
+    staticRoutes.push({
+      url: `${base}/creators/network`,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    });
+  }
 
   const supabase = createAdminClient();
 

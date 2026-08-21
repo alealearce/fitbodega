@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Instagram, Mail } from "lucide-react";
 import { SITE, COPY } from "@/lib/config/site";
+import { isNetworkOpen } from "@/lib/creators/network";
 import NewsletterSignup from "@/components/newsletter/NewsletterSignup";
 
 const FOOTER_LINKS = {
@@ -15,15 +16,16 @@ const FOOTER_LINKS = {
     { label: "Youth Sports",       href: "/youth-sports" },
   ],
   network: [
-    { label: "Deal Radar",         href: "/deals" },
-    { label: "Post a Deal",        href: "/for-brands" },
-    { label: "For Creators",       href: "/creators" },
-    { label: "The FitBodega 100",  href: "/top-100" },
-    { label: "The Journal",        href: "/community" },
-    { label: "About",              href: "/about" },
-    { label: "Managed Campaigns",  href: "/about#managed-campaigns" },
-    { label: "List Your Space",    href: "/submit" },
-    { label: "Sign In",            href: "/login" },
+    { label: "Deal Radar",          href: "/deals" },
+    { label: "Join the Radar",      href: "/creators#join" },
+    { label: "Post a Deal",         href: "/for-brands" },
+    { label: "For Creators",        href: "/creators" },
+    { label: "The FitBodega 100",   href: "/top-100" },
+    { label: "The Journal",         href: "/community" },
+    { label: "About",               href: "/about" },
+    { label: "Managed Campaigns",   href: "/about#managed-campaigns" },
+    { label: "List Your Space",     href: "/submit" },
+    { label: "Sign In",             href: "/login" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },
@@ -35,7 +37,16 @@ const FOOTER_LINKS = {
  * Footer — Level 1 tonal shift from the page void. No divider lines;
  * whitespace and surface contrast do the sectioning.
  */
-export default function Footer() {
+export default async function Footer() {
+  // The creator browse is only linked once it holds real profiles.
+  const networkOpen = await isNetworkOpen();
+  const networkLinks = networkOpen
+    ? [
+        ...FOOTER_LINKS.network.slice(0, 4),
+        { label: "The Creator Network", href: "/creators/network" },
+        ...FOOTER_LINKS.network.slice(4),
+      ]
+    : FOOTER_LINKS.network;
   return (
     <footer className="bg-surface-low">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
@@ -94,7 +105,7 @@ export default function Footer() {
                 The Network
               </h4>
               <ul className="space-y-3.5">
-                {FOOTER_LINKS.network.map(link => (
+                {networkLinks.map(link => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
@@ -109,7 +120,12 @@ export default function Footer() {
 
             <div>
               <h4 className="font-sans text-label-sm uppercase text-on-surface-variant mb-6">
-                Directory
+                <Link
+                  href="/directory"
+                  className="hover:text-on-surface transition-colors duration-300"
+                >
+                  Directory
+                </Link>
               </h4>
               <ul className="space-y-3.5">
                 {FOOTER_LINKS.directory.map(link => (

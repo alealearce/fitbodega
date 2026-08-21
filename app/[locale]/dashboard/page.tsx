@@ -45,6 +45,19 @@ export default async function DashboardPage() {
     "id" | "name" | "slug" | "type" | "status" | "view_count" | "rating_avg" | "rating_count" | "is_featured" | "is_verified" | "plan"
   >[];
 
+  // Radar subscribers who never finished a profile get one quiet prompt here —
+  // a line at the top of the dashboard, not a wall in front of it.
+  const admin = createAdminClient();
+  const emailLower = (user.email ?? "").toLowerCase();
+  let promptProfile = false;
+  if (emailLower) {
+    const [{ data: subscriber }, { data: profile }] = await Promise.all([
+      admin.from("dr_subscribers").select("id").eq("email", emailLower).maybeSingle(),
+      admin.from("creator_profiles").select("id").eq("email", emailLower).maybeSingle(),
+    ]);
+    promptProfile = Boolean(subscriber) && !profile;
+  }
+
   // Approved Top 100 claims on this owner's live listings → ranking badges.
   // top100_claims is service-role only, so look it up with the admin client
   // scoped to the ids we just loaded.
@@ -112,6 +125,23 @@ export default async function DashboardPage() {
             + Submit New Listing
           </Link>
         </div>
+
+        {/* Radar subscriber, no profile yet — one prompt, dismissible by ignoring it */}
+        {promptProfile && (
+          <div className="bg-surface-card p-6 lg:p-8 mb-10 flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-8">
+            <p className="font-sans text-sm text-on-surface-variant leading-relaxed flex-1">
+              You&apos;re on the Deal Radar but you don&apos;t have a creator profile yet. The
+              profile is what makes you visible to brands browsing the network — about three
+              minutes.
+            </p>
+            <Link
+              href="/creators#join"
+              className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-on font-sans text-sm font-bold uppercase tracking-wide transition-opacity duration-300 hover:opacity-90 whitespace-nowrap"
+            >
+              Complete my profile
+            </Link>
+          </div>
+        )}
 
         {/* Empty state */}
         {items.length === 0 && (

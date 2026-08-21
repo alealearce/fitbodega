@@ -87,18 +87,19 @@ export const CHATBOT = {
 // ── Homepage Copy ────────────────────────────────────────────────────────────
 export const COPY = {
   hero: {
-    kicker:      "Explore the network",
-    headline:    "CURATED\nSPACES.",
-    subheadline: "Recovery studios, gyms, coaches, and nutrition — hand-picked for those who demand absolute excellence from their training and recovery.",
-    cta:         "Explore Spaces",
-    ctaSecondary:"Join the Network",
+    kicker:      "The Fitness Creator Network",
+    headline:    "Where brands meet training culture.",
+    subheadline: "FitBodega ranks fitness creators and tracks the brands actively paying for creator content — then connects the two.",
+    cta:         "Join the Deal Radar",
+    ctaSecondary:"Post a deal",
   },
   searchPlaceholder: "Search by city, coach, gym, cold plunge...",
-  featuredSection: {
-    kicker:   "Featured in the Index",
-    title:    "Featured spaces",
-    subtitle: "Curated high-performance sanctuaries.",
-    cta:      "View all",
+  loopSection: {
+    // The title rides the kicker line — no separate display heading here.
+    title:   "How the Deal Radar works",
+    body:    "Brands post deals on our network. Once our team approves a deal by hand, we email the creators who have joined the Deal Radar, and they take it. Free on both sides.",
+    intel:   "We also track where brands are already spending, so creators know who's buying even before a deal is posted here.",
+    cta:     "See the full board",
   },
   communitySection: {
     kicker:   "The Magazine",
@@ -106,28 +107,36 @@ export const COPY = {
     subtitle: "The stories behind the creators, coaches, and the industry shaping training culture — and what's next.",
     cta:      "Read the Journal",
   },
-  brandsSection: {
-    kicker:   "For Brands",
-    title:    "Post your deal. Free.",
-    body:     "Hiring fitness creators? Put your UGC brief, paid collab, or ambassador program on the board. Every deal is reviewed by hand, ranked with everything else we track, and sent to subscribed creators in the weekly Deal Radar email.",
-    cta:      "Post a deal",
-  },
   spotlightBanner: {
     kicker:   "Creator Spotlight",
     headline: "GET RANKED. GET FEATURED.",
-    body:     "Creators who join the network get considered for the FitBodega 100, profiled in the Journal, featured across our channels — and first look when brand deals come through the network.",
-    cta:      "Join as a Creator",
+    body:     "Complete a profile and brands browsing the network can find you. Profiles are the shortlist for the FitBodega 100, for Journal features, and for our social channels.",
+    cta:      "Complete your profile",
   },
-  submitCta: {
-    title:    "THE LOOP.",
-    subtitle: "Brands post deals. Creators take them. Free on both sides, reviewed by hand in the middle.",
-    ctaBrands:   "Post a Deal",
-    ctaCreators: "For Creators",
-    listLink:    "Own a gym or studio? List your space",
+  getFeaturedSection: {
+    kicker:   "For gyms, studios & coaches",
+    title:    "Get featured in the network",
+    body:     "Gyms, studios, coaches, and recovery spaces that join the network get a reviewed listing. Stand-out spaces are showcased in the Journal and across FitBodega's social channels.",
+    cta:      "List your space",
   },
   footer: {
     tagline: "The Fitness Creator Network",
   },
+} as const;
+
+// ── Proof bar ────────────────────────────────────────────────────────────────
+// Homepage numbers. Ships OFF and stays off until every figure below is a real
+// number worth showing — no placeholders, no rounding up, nothing rendered
+// while `enabled` is false. Turn it on by setting enabled to true and filling
+// each stat's `value` from the live data.
+export const PROOF_BAR = {
+  enabled: false,
+  stats: [
+    { key: "creators", label: "Creators on the Radar", value: "" },
+    { key: "brands",   label: "Brands tracked",        value: "" },
+    { key: "deals",    label: "Deals sent",            value: "" },
+    { key: "weeks",    label: "Weeks published",       value: "" },
+  ],
 } as const;
 
 // ── Newsletter ───────────────────────────────────────────────────────────────

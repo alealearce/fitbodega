@@ -4,17 +4,43 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight, Loader2 } from "lucide-react";
 
+// Creator first — the audit leads with creators now, but every business type
+// stays selectable and every path still captures an email.
 const TYPES: { id: string; label: string }[] = [
+  { id: "creator", label: "Content Creator" },
+  { id: "athlete", label: "Athlete" },
   { id: "coach", label: "Coach / Trainer" },
   { id: "gym", label: "Gym / Studio" },
-  { id: "creator", label: "Content Creator" },
   { id: "recovery", label: "Recovery Space" },
   { id: "store", label: "Health Food Store" },
   { id: "club", label: "Run Club / Crew" },
   { id: "nutritionist", label: "Nutritionist" },
   { id: "retreat", label: "Retreat / Resort" },
-  { id: "athlete", label: "Athlete" },
 ];
+
+// One line of supporting copy, adapted to what the visitor selected.
+const SUPPORT_LINE: Record<string, string> = {
+  creator:
+    "We read your handle and your site the way a brand does, then benchmark it against the FitBodega 100 creators.",
+  athlete:
+    "We read your handle and your site the way a brand does, then benchmark it against the FitBodega 100 creators.",
+  coach:
+    "Benchmarked against the Top 100 online fitness coaches — how the ranked names present, package, and get found.",
+  gym:
+    "Benchmarked against the Top 100 gyms — how the ranked spaces present, package, and get found.",
+  recovery:
+    "Benchmarked against the Top 100 recovery spaces — how the ranked spaces present, package, and get found.",
+  store:
+    "Benchmarked against the Top 100 health food stores — how the ranked stores present, package, and get found.",
+  club:
+    "Benchmarked against the Top 100 run clubs — how the ranked crews present, grow, and get found.",
+  nutritionist:
+    "Benchmarked against the Top 100 nutritionists — how the ranked names present, package, and get found.",
+  retreat:
+    "Benchmarked against the Top 100 fitness retreats — how the ranked places present, package, and get found.",
+};
+
+const CREATOR_TYPES = ["creator", "athlete"];
 
 type Recommendation = {
   title: string;
@@ -36,7 +62,7 @@ const inputClass =
   "w-full bg-surface-input px-5 py-4 font-sans text-sm text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:shadow-[inset_0_0_0_1px_rgba(209,252,0,0.4)]";
 
 export default function AuditForm() {
-  const [entityType, setEntityType] = useState("coach");
+  const [entityType, setEntityType] = useState("creator");
   const [instagram, setInstagram] = useState("");
   const [website, setWebsite] = useState("");
   const [goal, setGoal] = useState("");
@@ -122,13 +148,30 @@ export default function AuditForm() {
 
         <div className="mt-12 bg-primary p-8 lg:p-10 max-w-3xl">
           <p className="font-sans text-base text-primary-on/90 max-w-xl">{report.nextStep}</p>
-          <Link
-            href="/submit"
-            className="inline-flex items-center gap-2 mt-6 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
-          >
-            List your space
-            <ArrowUpRight size={16} />
-          </Link>
+          {CREATOR_TYPES.includes(entityType) ? (
+            <>
+              <p className="font-sans text-base text-primary-on/90 max-w-xl mt-4">
+                One more step worth taking: complete a network profile. It is what makes you
+                visible to brands browsing FitBodega, and it puts you in the pool for the
+                FitBodega 100.
+              </p>
+              <Link
+                href="/creators#join"
+                className="inline-flex items-center gap-2 mt-6 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
+              >
+                Complete my profile
+                <ArrowUpRight size={16} />
+              </Link>
+            </>
+          ) : (
+            <Link
+              href="/submit"
+              className="inline-flex items-center gap-2 mt-6 px-8 py-4 bg-bg text-on-surface font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
+            >
+              List your space
+              <ArrowUpRight size={16} />
+            </Link>
+          )}
         </div>
         <p className="font-sans text-xs text-on-surface-variant/70 mt-6 max-w-2xl">
           A copy is in your inbox. Benchmarks reference the FitBodega 100 — editorial rankings,
@@ -157,6 +200,10 @@ export default function AuditForm() {
           </button>
         ))}
       </div>
+
+      <p className="font-sans text-sm text-on-surface-variant max-w-xl mb-8 -mt-4">
+        {SUPPORT_LINE[entityType]}
+      </p>
 
       <div className="space-y-3">
         <input

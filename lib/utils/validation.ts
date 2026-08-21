@@ -34,6 +34,12 @@ const FIELD_LABELS: Record<string, string> = {
   social_youtube: 'YouTube link',
   social_tiktok: 'TikTok link',
   certification_id: 'Certification ID',
+  niche: 'Niche',
+  location: 'Location',
+  audience_size: 'Audience size',
+  primary_platform: 'Platform',
+  content_examples: 'Content examples',
+  note: 'One line about your work',
 };
 
 /** Turn a zod issue into copy that says which field and what to do. */

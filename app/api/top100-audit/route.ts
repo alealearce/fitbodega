@@ -109,7 +109,7 @@ export async function POST(req: NextRequest) {
 
     // Always await sends on Vercel — un-awaited promises die at freeze.
     try {
-      await sendAuditEmail(email, report);
+      await sendAuditEmail(email, report, entity_type);
     } catch (e) {
       console.error("[top100-audit] email error:", e);
     }

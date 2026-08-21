@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import AuditForm from "@/components/top100/AuditForm";
 
-const PAGE_TITLE = "Measure Up — Free Audit Against the FitBodega 100";
+const PAGE_TITLE = "Measure Up — Free Creator Audit Against the FitBodega 100";
 const PAGE_DESC =
-  "Enter your Instagram or website and get a free, personalized audit: concrete improvements, each one anchored to how a FitBodega 100 name handles it.";
+  "A free audit of your creator presence, benchmarked against the FitBodega 100: concrete improvements, each one anchored to how a ranked name handles it. Gyms, studios, and coaches can run it too.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -41,9 +41,10 @@ export default function MeasureUpPage() {
             How do you <span className="text-primary">measure up</span>?
           </h1>
           <p className="font-sans text-base lg:text-lg text-on-surface-variant mt-6 max-w-2xl">
-            The FitBodega 100 ranks the people, places, and spaces that define training culture.
-            Tell us who you are and we&apos;ll send you a free audit — concrete improvements, each
-            one showing how a name from the rankings handles it.
+            The FitBodega 100 ranks the creators, coaches, and spaces that define training
+            culture. Tell us who you are and we&apos;ll read your presence the way a brand does —
+            a free audit with concrete improvements, each one showing how a ranked name handles
+            it.
           </p>
         </div>
       </section>
