@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
-import { SITE } from "@/lib/config/site";
+import { DEFAULT_OG_IMAGE, SITE } from "@/lib/config/site";
 import type { Listing } from "@/lib/supabase/types";
 import ListingCard from "@/components/directory/ListingCard";
 import SearchBar from "@/components/directory/SearchBar";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: PAGE_TITLE,
   description: PAGE_DESC,
   alternates: { canonical: `${SITE.url}/directory` },
-  openGraph: { title: PAGE_TITLE, description: PAGE_DESC, url: `${SITE.url}/directory` },
+  openGraph: { title: PAGE_TITLE, description: PAGE_DESC, url: `${SITE.url}/directory`, images: [DEFAULT_OG_IMAGE] },
 };
 
 const CATEGORIES = [

@@ -3,7 +3,7 @@ import Link from "next/link";
 import DealBoard from "@/components/deal-radar/DealBoard";
 import DigestContent from "@/components/deal-radar/DigestContent";
 import JoinTheRadar from "@/components/creators/JoinTheRadar";
-import { SITE } from "@/lib/config/site";
+import { DEFAULT_OG_IMAGE, SITE } from "@/lib/config/site";
 import { splitBoard } from "@/lib/deal-radar/board";
 import type { DrOpportunity, DrWeeklyDigest } from "@/lib/deal-radar/types";
 import { weekSlugToTitleDate } from "@/lib/deal-radar/week";
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     description:
       "Deals you can take, and the brands buying creator content elsewhere. Two sections, never mixed.",
     url: `${SITE.url}/deals`,
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 

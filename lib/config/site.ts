@@ -23,7 +23,7 @@ export const SITE = {
   name:        "FitBodega",
   shortName:   "FitBodega",
   tagline:     "The Fitness Creator Network",
-  description: "The fitness creator marketplace: brand deals, UGC briefs, and ambassador programs creators can take today — free to browse, free for brands to post. Plus the FitBodega 100 rankings, the Journal, and the curated directory of gyms, recovery studios, and coaches.",
+  description: "FitBodega ranks fitness creators and tracks the brands paying for creator content — then connects the two. Weekly deal board, the FitBodega 100, free for both sides.",
   domain:      "fitbodega.com",
   url:         "https://fitbodega.com",
   email:       "hello@fitbodega.com",

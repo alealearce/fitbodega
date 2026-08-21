@@ -33,7 +33,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!data) return { title: "Post Not Found" };
 
   const metaTitle = data.meta_title ?? data.title;
-  const metaDesc = data.meta_description ?? data.excerpt ?? `Read "${data.title}" on ${SITE.name}`;
+  const rawDesc = data.meta_description ?? data.excerpt ?? `Read "${data.title}" on ${SITE.name}`;
+  // Excerpt fallbacks run long; search engines truncate at ~160 chars anyway.
+  const metaDesc =
+    rawDesc.length <= 160 ? rawDesc : `${rawDesc.slice(0, 157).replace(/\s+\S*$/, "")}...`;
 
   return {
     title: metaTitle,

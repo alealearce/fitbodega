@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { createAdminClient, createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/server";
 import { COPY, SITE } from "@/lib/config/site";
 import type { BlogPost } from "@/lib/supabase/types";
 import type { DrOpportunity } from "@/lib/deal-radar/types";
@@ -38,10 +38,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function HomePage() {
-  const supabase = await createClient();
+export const revalidate = 3600;
 
-  const { data: postsRes } = await supabase
+export default async function HomePage() {
+  const adminDb = createAdminClient();
+
+  const { data: postsRes } = await adminDb
     .from("blog_posts")
     .select("*")
     .eq("is_published", true)
@@ -51,7 +53,6 @@ export default async function HomePage() {
 
   // The board: brand-posted deals (week_id null) plus the latest published
   // edition. Split into "you can take this" and "this is intelligence" below.
-  const adminDb = createAdminClient();
   const { data: latestDigest } = await adminDb
     .from("dr_weekly_digests")
     .select("id")
