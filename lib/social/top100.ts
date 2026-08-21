@@ -68,20 +68,69 @@ function loadList(file: string): { title: string; entries: RawEntry[] } {
   return { title: raw.meta.title, entries: raw.entries };
 }
 
+// ── Deterministic shuffle ────────────────────────────────────────────────────
+// The sequence is seeded, not stored: every run derives the same order, so
+// idempotency still comes solely from the social_posts log. Within each list
+// the ranks are shuffled, and the top ten are pushed to the END of that
+// list's sequence — the deep cuts run first and the No. 1s stay hidden to
+// build curiosity (owner call 2026-08-20). Lists still round-robin so two
+// neighboring posts never come from the same list.
+
+function hashStr(str: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function mulberry32(seed: number): () => number {
+  let a = seed;
+  return () => {
+    a |= 0; a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function seededShuffle<T>(arr: T[], seed: string): T[] {
+  const rand = mulberry32(hashStr(seed));
+  const out = [...arr];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+const TOP_HOLDBACK = 10; // ranks 1-10 post last within each list
+
+function spotlightOrder(listKey: string, entries: RawEntry[]): RawEntry[] {
+  const deep = entries.filter((e) => Number(e.rank) > TOP_HOLDBACK);
+  const top = entries.filter((e) => Number(e.rank) <= TOP_HOLDBACK);
+  return [
+    ...seededShuffle(deep, `fitbodega-spotlight-${listKey}`),
+    ...seededShuffle(top, `fitbodega-spotlight-top-${listKey}`),
+  ];
+}
+
 /**
- * Pick the next entry to spotlight: walk the round-robin sequence
- * (list 1 rank 1, list 2 rank 1, ... list 9 rank 1, list 1 rank 2, ...)
- * and return the first entry that has NOT been published to every required
- * platform. A partial failure (first live run: Instagram rejected the post,
- * the other three published) therefore completes on the next run instead of
- * being skipped — the caller passes the already-published platforms as
- * `skip` to publishCarousel.
+ * Pick the next entry to spotlight: round-robin across the lists, each list
+ * walking its own seeded-shuffle order (deep ranks first, top ten last).
+ * Returns the first entry NOT yet published to every required platform, with
+ * what already published — so a partial failure completes on the next run
+ * instead of being skipped.
  */
 export function nextSpotlight(
   publishedByRef: Map<string, Set<string>>,
   requiredPlatforms: string[]
 ): { entry: SpotlightEntry; publishedPlatforms: Set<string> } | null {
-  const lists = LISTS.map((l) => ({ ...l, ...loadList(l.file) }));
+  const lists = LISTS.map((l) => {
+    const loaded = loadList(l.file);
+    return { ...l, title: loaded.title, entries: spotlightOrder(l.key, loaded.entries) };
+  });
   const maxRank = Math.max(...lists.map((l) => l.entries.length));
 
   for (let i = 0; i < maxRank; i++) {
