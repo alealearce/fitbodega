@@ -16,8 +16,11 @@ import { SITE } from '@/lib/config/site';
 const MODEL = 'claude-haiku-4-5-20251001';
 const MAX_HASHTAGS = 5; // Blotato/IG reject overly-tagged posts; keep it tight.
 
-const BASE_TAGS = ['#fitness', '#recovery', '#training', '#vancouverfitness', '#fitbodega'];
+// Geographic neutrality (2026-08-20 repositioning): no city tags.
+const BASE_TAGS = ['#fitness', '#trainingculture', '#fitbodega'];
 const CATEGORY_TAGS: Record<string, string[]> = {
+  for_creators: ['#fitnesscreator', '#creatoreconomy'],
+  for_brands: ['#influencermarketing', '#creatormarketing'],
   mission: ['#trainingforall', '#recoveryaccess', '#fitnesscommunity'],
   finding_training: ['#gymsforbeginners', '#findyourgym'],
   gym_guides: ['#gym', '#strengthtraining'],
