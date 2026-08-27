@@ -61,11 +61,14 @@ async function checkResend(): Promise<Status> {
   }
 }
 
-// The daily-blog cron publishes one post a day (18:07 UTC). If the newest
-// published post is older than 36h, today's run failed — this catches a
-// silently dead blog (invalid Anthropic key, exhausted credits, retired
-// model id), which presence-only env checks cannot see.
-const BLOG_MAX_AGE_MS = 36 * 60 * 60 * 1000;
+// The weekly content cron publishes a Journal post Tue and Thu at 16:00 UTC
+// (the daily blog was retired 2026-08-19). The longest healthy gap is the
+// weekend: Thu 16:00 → Tue 16:00 is 120h, so anything under 126h is normal
+// and anything over means a run was missed — this catches a silently dead
+// blog (invalid Anthropic key, exhausted credits, retired model id), which
+// presence-only env checks cannot see. A missed Tuesday trips the Wednesday
+// check; a missed Thursday trips the following Monday's.
+const BLOG_MAX_AGE_MS = 126 * 60 * 60 * 1000;
 
 async function checkBlogFresh(): Promise<Status> {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
