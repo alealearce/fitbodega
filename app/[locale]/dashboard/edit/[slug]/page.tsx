@@ -10,11 +10,12 @@ export const metadata = {
   robots: { index: false },
 };
 
-export default async function DashboardEditPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function DashboardEditPage(
+  props: {
+    params: Promise<{ slug: string }>;
+  }
+) {
+  const params = await props.params;
   const supabase = await createClient();
   const {
     data: { user },

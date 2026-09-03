@@ -34,6 +34,7 @@
 
 import { ImageResponse } from 'next/og';
 import { NextRequest } from 'next/server';
+import type { JSX } from 'react';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';

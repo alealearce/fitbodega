@@ -6,10 +6,8 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 const nextConfig = {
   // Ensure the social-card logo PNGs are bundled into the serverless function
   // (the image route reads them from public/social via fs at render time).
-  experimental: {
-    outputFileTracingIncludes: {
-      '/api/social/image': ['./public/social/**'],
-    },
+  outputFileTracingIncludes: {
+    '/api/social/image': ['./public/social/**'],
   },
 
   images: {

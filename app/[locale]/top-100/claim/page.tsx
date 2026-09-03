@@ -13,11 +13,12 @@ export const metadata = {
   robots: { index: false },
 };
 
-export default async function ClaimTop100Page({
-  searchParams,
-}: {
-  searchParams: { list?: string; rank?: string };
-}) {
+export default async function ClaimTop100Page(
+  props: {
+    searchParams: Promise<{ list?: string; rank?: string }>;
+  }
+) {
+  const searchParams = await props.searchParams;
   const list = searchParams.list ?? "";
   const rank = Number.parseInt(searchParams.rank ?? "", 10);
 
