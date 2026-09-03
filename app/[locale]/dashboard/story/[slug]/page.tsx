@@ -2,12 +2,11 @@ import { redirect, notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
-import { SITE } from "@/lib/config/site";
 import type { Listing } from "@/lib/supabase/types";
 import StoryEditor from "./StoryEditor";
 
 export const metadata = {
-  title: `Your Spotlight — ${SITE.name}`,
+  title: "Your Spotlight",
   robots: { index: false },
 };
 

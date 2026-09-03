@@ -9,7 +9,7 @@ import ClaimTop100Form from "./ClaimTop100Form";
 import ClaimSearch from "./ClaimSearch";
 
 export const metadata = {
-  title: `Claim your Top 100 profile — ${SITE.name}`,
+  title: "Claim your Top 100 profile",
   robots: { index: false },
 };
 

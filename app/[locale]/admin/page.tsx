@@ -5,7 +5,7 @@ import type { Listing } from "@/lib/supabase/types";
 import AdminClient from "./AdminClient";
 
 export const metadata = {
-  title: `Admin — ${SITE.name}`,
+  title: "Admin",
   robots: { index: false },
 };
 

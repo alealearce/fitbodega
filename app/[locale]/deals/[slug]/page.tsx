@@ -45,10 +45,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = `Fitness Brand Deals & Collabs — Week of ${weekSlugToTitleDate(slug)}`;
   const description = `This week's open fitness brand deals, UGC gigs, and brands actively spending on creator ads. Curated for fitness creators by ${SITE.name}.`;
   return {
-    title: `${title} | ${SITE.name}`,
+    title,
     description,
     alternates: { canonical: `${SITE.url}/deals/${slug}` },
     openGraph: { title, description, url: `${SITE.url}/deals/${slug}`, type: "article" },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 

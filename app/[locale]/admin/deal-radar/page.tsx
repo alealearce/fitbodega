@@ -6,7 +6,7 @@ import { createAdminClient, createClient } from "@/lib/supabase/server";
 import DealRadarClient from "./DealRadarClient";
 
 export const metadata = {
-  title: `Deal Radar Admin — ${SITE.name}`,
+  title: "Deal Radar Admin",
   robots: { index: false },
 };
 

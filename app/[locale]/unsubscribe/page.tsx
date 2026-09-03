@@ -5,7 +5,7 @@ import { SITE } from "@/lib/config/site";
 import FMark from "@/components/ui/FMark";
 
 export const metadata = {
-  title: `Unsubscribed — ${SITE.name}`,
+  title: "Unsubscribed",
   robots: { index: false },
 };
 

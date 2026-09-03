@@ -20,7 +20,7 @@ const PAGE_DESC =
   "Top-100 world rankings of the people, places, and spaces that define training culture. One scoring system, hard editorial gates, reviewed monthly.";
 
 export const metadata: Metadata = {
-  title: "The FitBodega 100",
+  title: { absolute: "The FitBodega 100" },
   description: PAGE_DESC,
   alternates: { canonical: `${SITE.url}/top-100` },
   openGraph: {
@@ -31,6 +31,12 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

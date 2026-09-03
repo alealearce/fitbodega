@@ -10,7 +10,7 @@ import FMark from "@/components/ui/FMark";
 import { CLAIMABLE_LISTS, getEntryByName, isClaimableList } from "@/lib/top100/registry";
 
 export const metadata = {
-  title: `My Dashboard — ${SITE.name}`,
+  title: "My Dashboard",
   robots: { index: false },
 };
 

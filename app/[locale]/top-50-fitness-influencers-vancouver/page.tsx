@@ -54,6 +54,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    images: [DEFAULT_OG_IMAGE.url],
+  },
 };
 
 // Claimed-state comes from Supabase — revalidate hourly.

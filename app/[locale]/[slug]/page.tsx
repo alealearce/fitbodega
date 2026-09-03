@@ -52,6 +52,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: data.published_at ?? undefined,
       images: data.cover_image ? [{ url: data.cover_image }] : [DEFAULT_OG_IMAGE],
     },
+    twitter: {
+      card: "summary_large_image",
+      title: metaTitle,
+      description: metaDesc,
+      images: data.cover_image ? [data.cover_image] : [DEFAULT_OG_IMAGE.url],
+    },
   };
 }
 

@@ -4,7 +4,7 @@ import { SITE } from "@/lib/config/site";
 import ClaimForm from "./ClaimForm";
 
 export const metadata = {
-  title: `Claim your listing — ${SITE.name}`,
+  title: "Claim your listing",
   robots: { index: false },
 };
 

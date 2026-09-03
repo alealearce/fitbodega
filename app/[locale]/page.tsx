@@ -30,7 +30,7 @@ const FEATURED_TOP100 = [
 ];
 
 export const metadata: Metadata = {
-  title: `${SITE.name} — ${SITE.tagline}`,
+  title: { absolute: `${SITE.name} — ${SITE.tagline}` },
   description: SITE.description,
   alternates: { canonical: SITE.url },
   openGraph: {

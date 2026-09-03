@@ -39,6 +39,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: canonical,
       images: data.images?.[0] ? [{ url: data.images[0] }] : [DEFAULT_OG_IMAGE],
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${data.name}${location ? ` — ${location}` : ""}`,
+      description: data.tagline ?? data.description ?? "",
+      images: data.images?.[0] ? [data.images[0]] : [DEFAULT_OG_IMAGE.url],
+    },
   };
 }
 
