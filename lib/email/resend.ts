@@ -25,15 +25,26 @@ function baseTemplate(title: string, bodyHtml: string): string {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${title}</title>
+  <style>
+    /* Phones: the card goes edge to edge and padding tightens so type keeps
+       its real size instead of the whole email shrinking to fit. */
+    @media only screen and (max-width: 600px) {
+      .fb-outer { padding: 16px 8px !important; }
+      .fb-card { width: 100% !important; max-width: 100% !important; }
+      .fb-header { padding: 24px 20px !important; }
+      .fb-body { padding: 28px 20px 24px !important; }
+      .fb-footer { padding: 20px 20px 24px !important; }
+    }
+  </style>
 </head>
 <body style="margin:0;padding:0;background-color:${BG};font-family:Arial,Helvetica,sans-serif;">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:${BG};padding:40px 20px;">
+  <table width="100%" cellpadding="0" cellspacing="0" class="fb-outer" style="background-color:${BG};padding:40px 20px;">
     <tr>
       <td align="center">
-        <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background-color:#ffffff;border:1px solid ${BORDER};border-radius:0;overflow:hidden;">
+        <table width="100%" cellpadding="0" cellspacing="0" class="fb-card" style="width:100%;max-width:600px;background-color:#ffffff;border:1px solid ${BORDER};border-radius:0;overflow:hidden;">
           <!-- Header -->
           <tr>
-            <td style="background-color:${INK};padding:32px 40px;text-align:left;">
+            <td class="fb-header" style="background-color:${INK};padding:32px 40px;text-align:left;">
               <p style="margin:0;font-size:24px;font-weight:800;letter-spacing:-0.5px;text-transform:uppercase;font-family:Arial,sans-serif;">
                 <span style="color:#ffffff;">FIT</span><span style="color:${LIME};">BODEGA</span>
               </p>
@@ -42,13 +53,13 @@ function baseTemplate(title: string, bodyHtml: string): string {
           </tr>
           <!-- Body -->
           <tr>
-            <td style="padding:40px 40px 32px;color:#2d2d2d;font-size:16px;line-height:1.7;">
+            <td class="fb-body" style="padding:40px 40px 32px;color:#2d2d2d;font-size:16px;line-height:1.7;">
               ${bodyHtml}
             </td>
           </tr>
           <!-- Footer -->
           <tr>
-            <td style="padding:24px 40px;border-top:1px solid ${BORDER};text-align:center;">
+            <td class="fb-footer" style="padding:24px 40px;border-top:1px solid ${BORDER};text-align:center;">
               <p style="margin:0;font-size:12px;color:#888;font-family:Arial,sans-serif;">
                 ${SITE.name} &mdash; ${SITE.tagline}<br/>
                 <a href="${SITE.url}" style="color:${INK};text-decoration:none;">${SITE.domain}</a>
