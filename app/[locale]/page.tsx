@@ -75,6 +75,9 @@ export default async function HomePage() {
       {/* ── The Loop — how the two sides meet, in plain words ── */}
       <section className="bg-lime-gradient">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-14 lg:py-16">
+          <p className="font-serif text-3xl lg:text-5xl font-extrabold uppercase tracking-tight text-primary-on max-w-4xl mb-12">
+            {COPY.belief}
+          </p>
           <div className="flex items-center gap-3">
             <span className="w-7 h-[3px] bg-primary-on" aria-hidden />
             <h2 className="font-sans text-label-md uppercase text-primary-on">
@@ -84,8 +87,19 @@ export default async function HomePage() {
           <p className="font-sans text-lg text-primary-on/80 max-w-2xl mt-6">
             {COPY.loopSection.body}
           </p>
-          <p className="font-sans text-base text-primary-on/70 max-w-2xl mt-4">
+          <ol className="mt-8 max-w-2xl space-y-3">
+            {COPY.loopSection.steps.map((s, i) => (
+              <li key={s.action} className="font-sans text-base text-primary-on flex gap-4">
+                <span className="font-serif font-extrabold tabular-nums text-primary-on/60 w-6 flex-shrink-0">{String(i + 1).padStart(2, "0")}</span>
+                <span><span className="font-bold">{s.action}:</span> {s.result}</span>
+              </li>
+            ))}
+          </ol>
+          <p className="font-sans text-base text-primary-on/70 max-w-2xl mt-6">
             {COPY.loopSection.intel}
+          </p>
+          <p className="font-sans text-sm font-bold uppercase tracking-wide text-primary-on max-w-2xl mt-6">
+            {COPY.loopSection.promise}
           </p>
           <Link
             href="/deals"
@@ -186,14 +200,15 @@ export default async function HomePage() {
             <div className="relative">
               <div className="flex items-center gap-3 mb-4">
                 <span className="w-7 h-[3px] bg-primary" aria-hidden />
-                <p className="font-sans text-label-md uppercase text-primary">Are you a creator not in the top 100... yet?</p>
+                <p className="font-sans text-label-md uppercase text-primary">Free for creators on the Radar</p>
               </div>
               <h2 className="font-serif text-display-md uppercase text-on-surface">
                 How do you measure up?
               </h2>
               <p className="font-sans text-base text-on-surface-variant mt-4 mb-12 max-w-2xl">
-                A free audit of your creator presence, benchmarked against the FitBodega 100 —
-                concrete improvements, each one showing how a ranked name handles it.
+                Not in the top 100 yet? Get a free audit of your creator presence, benchmarked
+                against the FitBodega 100: concrete improvements, each one showing how a ranked
+                name handles it. It comes with joining the Radar.
               </p>
               <AuditForm />
             </div>
@@ -305,6 +320,16 @@ export default async function HomePage() {
                   <ArrowUpRight size={16} />
                 </Link>
               </div>
+              <p className="font-sans text-sm text-on-surface-variant mt-10">
+                {COPY.getFeaturedSection.partner}{" "}
+                <a
+                  href={`mailto:${SITE.email}?subject=Co-host%20a%20deal%20drop`}
+                  className="text-on-surface hover:text-primary underline"
+                >
+                  {COPY.getFeaturedSection.partnerCta}
+                </a>
+                .
+              </p>
             </div>
           </div>
         </div>

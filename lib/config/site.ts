@@ -89,16 +89,26 @@ export const COPY = {
   hero: {
     kicker:      "The Fitness Creator Network",
     headline:    "Where brands meet training culture.",
-    subheadline: "FitBodega ranks fitness creators and tracks the brands actively paying for creator content — then connects the two.",
+    subheadline: "FitBodega ranks fitness creators and tracks the brands actively paying for creator content — then connects the two. Creators get paid work in their inbox every Monday. Brands get creators who actually train.",
     cta:         "Join the Deal Radar",
     ctaSecondary:"Post a deal",
   },
+  // One core belief. It sits above the loop and is the reason the site exists.
+  belief: "Brands should pay the people who actually train.",
   searchPlaceholder: "Search by city, coach, gym, cold plunge...",
   loopSection: {
     // The title rides the kicker line — no separate display heading here.
     title:   "How the Deal Radar works",
     body:    "Brands post deals on our network. Once our team approves a deal by hand, we email the creators who have joined the Deal Radar, and they take it. Free on both sides.",
     intel:   "We also track where brands are already spending, so creators know who's buying even before a deal is posted here.",
+    // If this, then that. Three actions, three results.
+    steps: [
+      { action: "Join the Radar",        result: "the week's deals land in your inbox every Monday." },
+      { action: "Complete a profile",    result: "you're On the Radar, and brands browsing the network can find you." },
+      { action: "Get ranked in the 100", result: "a Journal feature and a shout on our channels." },
+    ],
+    // The promise. A free product still gets a guarantee.
+    promise: "Every deal is read by a person before it reaches you. No spam, and you leave in one click.",
     cta:     "See the full board",
   },
   communitySection: {
@@ -110,7 +120,7 @@ export const COPY = {
   spotlightBanner: {
     kicker:   "Creator Spotlight",
     headline: "GET RANKED. GET FEATURED.",
-    body:     "Complete a profile and brands browsing the network can find you. Profiles are the shortlist for the FitBodega 100, for Journal features, and for our social channels.",
+    body:     "Complete a profile and you're On the Radar: brands browsing the network can find you. Profiles are the shortlist for the FitBodega 100 (100 spots, updated monthly), for Journal features, and for our social channels.",
     cta:      "Complete your profile",
   },
   getFeaturedSection: {
@@ -118,6 +128,9 @@ export const COPY = {
     title:    "Get featured in the network",
     body:     "Gyms, studios, coaches, and recovery spaces that join the network get a reviewed listing. Stand-out spaces are showcased in the Journal and across FitBodega's social channels.",
     cta:      "List your space",
+    // Partnerships: the door for anyone with a community of people who train.
+    partner:  "Run a gym, a run club, or a brand with a community? Co-host a deal drop with us and we send it to your people and ours.",
+    partnerCta: "Let's collaborate",
   },
   footer: {
     tagline: "The Fitness Creator Network",
