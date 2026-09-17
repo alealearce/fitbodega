@@ -75,6 +75,9 @@ export function normalizeHandle(raw: string | null | undefined): string | null {
   if (!s) return null;
   s = s.replace(/^https?:\/\//i, '').replace(/^www\./i, '');
   s = s.replace(/^(instagram|tiktok|youtube)\.com\//i, '');
+  // Pasted share links carry tracking (?stkn=…, ?si=…, ?utm_source=qr):
+  // drop the query and fragment before the path so only the handle remains.
+  s = s.replace(/[?#].*$/, '');
   s = s.replace(/^@/, '').replace(/\/.*$/, '').trim();
   return s || null;
 }

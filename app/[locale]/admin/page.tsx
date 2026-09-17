@@ -2,7 +2,8 @@ import { redirect } from "next/navigation";
 import { createClient, createAdminClient } from "@/lib/supabase/server";
 import { isAdminEmail, SITE } from "@/lib/config/site";
 import type { Listing } from "@/lib/supabase/types";
-import AdminClient from "./AdminClient";
+import { NETWORK_MIN_PROFILES } from "@/lib/creators/network";
+import AdminClient, { type AdminCreator } from "./AdminClient";
 
 export const metadata = {
   title: "Admin",
@@ -31,6 +32,12 @@ type AdminListing = Pick<
 const LISTING_COLUMNS =
   "id, name, slug, type, status, is_featured, is_verified, city, country, plan, created_at, founder_story, founder_images, story_opt_out, story_post_id";
 
+// Creator network profiles have no approval step: rows land as 'live' and the
+// browse opens on its own at NETWORK_MIN_PROFILES. This tab is the only place
+// to see them and the only lever (hide/show) — see lib/creators/network.ts.
+const CREATOR_COLUMNS =
+  "id, created_at, email, name, niche, location, audience_size, primary_platform, instagram, tiktok, youtube, website, note, status";
+
 export default async function AdminPage() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
@@ -44,6 +51,7 @@ export default async function AdminPage() {
     { data: pendingData },
     { data: allData, count: allCount },
     { count: approvedCount },
+    { data: creatorData },
   ] = await Promise.all([
     adminSupabase
       .from("listings")
@@ -62,12 +70,19 @@ export default async function AdminPage() {
       .from("listings")
       .select("id", { count: "exact", head: true })
       .eq("status", "approved"),
+
+    adminSupabase
+      .from("creator_profiles")
+      .select(CREATOR_COLUMNS)
+      .order("created_at", { ascending: false })
+      .limit(500),
   ]);
 
   const pending = (pendingData ?? []) as AdminListing[];
   const all = (allData ?? []) as AdminListing[];
   const totalListings = allCount ?? all.length;
   const totalApproved = approvedCount ?? all.filter((l) => l.status === "approved").length;
+  const creators = (creatorData ?? []) as AdminCreator[];
 
   return (
     <div className="min-h-screen bg-bg px-6 py-16">
@@ -103,7 +118,7 @@ export default async function AdminPage() {
         </div>
 
         {/* Interactive tables */}
-        <AdminClient pending={pending} all={all} />
+        <AdminClient pending={pending} all={all} creators={creators} networkMin={NETWORK_MIN_PROFILES} />
       </div>
     </div>
   );

@@ -1,8 +1,9 @@
 "use client";
 
 import { Fragment, useState } from "react";
-import { Check, Trash2, ChevronDown, ChevronUp } from "lucide-react";
+import { Check, Trash2, ChevronDown, ChevronUp, Star, Eye, EyeOff, ExternalLink } from "lucide-react";
 import type { Listing } from "@/lib/supabase/types";
+import { handleUrl, type CreatorProfile } from "@/lib/creators/profile";
 import Badge from "@/components/ui/Badge";
 import { FOUNDER_QUESTIONS } from "@/lib/config/site";
 import { ineligibleReason, answeredCount } from "@/lib/social/eligibility";
@@ -26,9 +27,30 @@ type AdminListing = Pick<
   | "story_post_id"
 >;
 
+export type AdminCreator = Pick<
+  CreatorProfile,
+  | "id"
+  | "created_at"
+  | "email"
+  | "name"
+  | "niche"
+  | "location"
+  | "audience_size"
+  | "primary_platform"
+  | "instagram"
+  | "tiktok"
+  | "youtube"
+  | "website"
+  | "note"
+  | "status"
+>;
+
 interface Props {
   pending: AdminListing[];
   all: AdminListing[];
+  creators: AdminCreator[];
+  /** Live-profile count at which /creators/network opens (NETWORK_MIN_PROFILES). */
+  networkMin: number;
 }
 
 type ActionResult = { ok: boolean; storyStatus?: string; storyUrl?: string; reason?: string; error?: string };
@@ -36,12 +58,13 @@ type ActionResult = { ok: boolean; storyStatus?: string; storyUrl?: string; reas
 async function callAction(
   action: string,
   id: string,
-  value?: boolean
+  value?: boolean,
+  extra?: Record<string, string>
 ): Promise<ActionResult> {
   const res = await fetch("/api/admin/action", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ action, id, value }),
+    body: JSON.stringify({ action, id, value, ...extra }),
   });
   const data = (await res.json().catch(() => ({}))) as Partial<ActionResult>;
   return { ok: res.ok && data.ok !== false, ...data };
@@ -99,12 +122,26 @@ function StoryDetail({ listing }: { listing: AdminListing }) {
   );
 }
 
-export default function AdminClient({ pending: initialPending, all: initialAll }: Props) {
+export default function AdminClient({ pending: initialPending, all: initialAll, creators: initialCreators, networkMin }: Props) {
   const [pending, setPending] = useState(initialPending);
   const [all, setAll] = useState(initialAll);
+  const [creators, setCreators] = useState(initialCreators);
   const [busy, setBusy] = useState<string | null>(null);
-  const [tab, setTab] = useState<"pending" | "all">("pending");
+  const [tab, setTab] = useState<"pending" | "all" | "creators">("pending");
   const [expanded, setExpanded] = useState<string | null>(null);
+
+  const liveCreators = creators.filter((c) => c.status === "live").length;
+
+  const setCreatorStatus = async (id: string, status: "live" | "hidden") => {
+    setBusy(id + "-creator");
+    const { ok, error } = await callAction("creator_status", id, undefined, { status });
+    if (ok) {
+      setCreators((prev) => prev.map((c) => (c.id === id ? { ...c, status } : c)));
+    } else {
+      window.alert(`Could not update creator: ${error ?? "unknown error"}`);
+    }
+    setBusy(null);
+  };
 
   const approve = async (id: string) => {
     setBusy(id);
@@ -200,7 +237,7 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
     <div>
       {/* Tabs */}
       <div className="flex gap-2 mb-8">
-        {(["pending", "all"] as const).map((t) => (
+        {(["pending", "all", "creators"] as const).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
@@ -210,7 +247,11 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
                 : "bg-surface-low text-on-surface-variant hover:bg-secondary-container"
             }`}
           >
-            {t === "pending" ? `Pending (${pending.length})` : `All Listings (${all.length})`}
+            {t === "pending"
+              ? `Pending (${pending.length})`
+              : t === "all"
+              ? `All Listings (${all.length})`
+              : `Creators (${creators.length})`}
           </button>
         ))}
       </div>
@@ -393,7 +434,7 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
                             : "bg-surface-low text-on-surface-variant hover:bg-secondary-container"
                         }`}
                       >
-                        {listing.is_featured ? "★ Featured" : "Feature"}
+                        {listing.is_featured ? (<><Star size={12} className="inline -mt-0.5 mr-1" />Featured</>) : "Feature"}
                       </button>
                       <button
                         onClick={() => toggleVerified(listing.id, listing.is_verified)}
@@ -404,7 +445,7 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
                             : "bg-surface-low text-on-surface-variant hover:bg-secondary-container"
                         }`}
                       >
-                        {listing.is_verified ? "✓ Verified" : "Verify"}
+                        {listing.is_verified ? (<><Check size={12} className="inline -mt-0.5 mr-1" />Verified</>) : "Verify"}
                       </button>
                       {listing.status === "approved" && (
                         listing.story_post_id ? (
@@ -434,6 +475,110 @@ export default function AdminClient({ pending: initialPending, all: initialAll }
               ))}
             </tbody>
           </table>
+        </div>
+      )}
+
+      {/* Creators tab */}
+      {tab === "creators" && (
+        <div>
+          <p className="font-sans text-sm text-on-surface-variant mb-4">
+            Creator profiles go live the moment they are saved — there is no approval step.
+            The public browse at /creators/network opens on its own once {networkMin} are live
+            ({liveCreators} live now{liveCreators >= networkMin ? ", browse is open" : ", browse still closed"}).
+            Hide pulls a profile from the browse; it does not email the creator.
+          </p>
+          {creators.length === 0 ? (
+            <div className="text-center py-16">
+              <p className="font-sans text-on-surface-variant">No creator profiles yet.</p>
+            </div>
+          ) : (
+            <div className="overflow-x-auto rounded-2xl shadow-card bg-surface-card">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b border-outline-variant/20">
+                    {["Creator", "Niche", "Audience", "Links", "Submitted", "Status"].map((h) => (
+                      <th
+                        key={h}
+                        className="text-left font-sans text-xs font-semibold text-on-surface-variant uppercase tracking-wide px-5 py-3"
+                      >
+                        {h}
+                      </th>
+                    ))}
+                    <th className="px-5 py-3" />
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-outline-variant/10">
+                  {creators.map((c) => {
+                    const links: { label: string; href: string }[] = [];
+                    if (c.instagram) links.push({ label: `IG @${c.instagram}`, href: handleUrl("instagram", c.instagram) });
+                    if (c.tiktok) links.push({ label: `TikTok @${c.tiktok}`, href: handleUrl("tiktok", c.tiktok) });
+                    if (c.youtube) links.push({ label: `YouTube @${c.youtube}`, href: handleUrl("youtube", c.youtube) });
+                    if (c.website) links.push({ label: c.website.replace(/^https?:\/\/(www\.)?/, ""), href: c.website });
+                    return (
+                      <tr key={c.id} className="hover:bg-surface-low transition-colors align-top">
+                        <td className="px-5 py-4">
+                          <p className="font-sans font-semibold text-sm text-on-surface">{c.name}</p>
+                          <a href={`mailto:${c.email}`} className="font-sans text-xs text-on-surface-variant hover:text-on-surface">
+                            {c.email}
+                          </a>
+                          {c.location && (
+                            <p className="font-sans text-xs text-on-surface-variant mt-0.5">{c.location}</p>
+                          )}
+                        </td>
+                        <td className="px-5 py-4 max-w-xs">
+                          <p className="font-sans text-sm text-on-surface">{c.niche}</p>
+                          {c.note && (
+                            <p className="font-sans text-xs text-on-surface-variant mt-1">&ldquo;{c.note}&rdquo;</p>
+                          )}
+                        </td>
+                        <td className="px-5 py-4 whitespace-nowrap">
+                          <p className="font-sans text-sm text-on-surface">{c.audience_size}</p>
+                          <p className="font-sans text-xs text-on-surface-variant mt-0.5">{c.primary_platform}</p>
+                        </td>
+                        <td className="px-5 py-4">
+                          <div className="flex flex-col gap-1">
+                            {links.map((l) => (
+                              <a
+                                key={l.href}
+                                href={l.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1 font-sans text-xs text-primary hover:underline"
+                              >
+                                {l.label}
+                                <ExternalLink size={10} />
+                              </a>
+                            ))}
+                          </div>
+                        </td>
+                        <td className="px-5 py-4 whitespace-nowrap">
+                          <span className="font-sans text-xs text-on-surface-variant">
+                            {new Date(c.created_at).toLocaleDateString()}
+                          </span>
+                        </td>
+                        <td className="px-5 py-4">
+                          <Badge variant={c.status === "live" ? "approved" : "rejected"}>{c.status}</Badge>
+                        </td>
+                        <td className="px-5 py-4">
+                          <button
+                            onClick={() => setCreatorStatus(c.id, c.status === "live" ? "hidden" : "live")}
+                            disabled={busy === c.id + "-creator"}
+                            className={`inline-flex items-center gap-1 px-3 py-1 rounded-full font-sans text-xs font-semibold transition-colors disabled:opacity-50 ${
+                              c.status === "live"
+                                ? "bg-red-50 text-red-600 ring-1 ring-red-200 hover:bg-red-100"
+                                : "bg-green-100 text-green-700 hover:bg-green-200"
+                            }`}
+                          >
+                            {busy === c.id + "-creator" ? "..." : c.status === "live" ? (<><EyeOff size={12} /> Hide</>) : (<><Eye size={12} /> Show</>)}
+                          </button>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
       )}
     </div>

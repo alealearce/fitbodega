@@ -9,7 +9,7 @@ import { CLAIMABLE_LISTS, getEntryByName, isClaimableList } from '@/lib/top100/r
 // Approve runs the spotlight pipeline inline (Claude + Blotato) — allow time.
 export const maxDuration = 300;
 
-const VALID_ACTIONS = ['approve', 'reject', 'feature', 'verify', 'delete', 'story'] as const;
+const VALID_ACTIONS = ['approve', 'reject', 'feature', 'verify', 'delete', 'story', 'creator_status'] as const;
 type AdminAction = typeof VALID_ACTIONS[number];
 
 export async function POST(req: NextRequest) {
@@ -20,10 +20,11 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const { action, id, reason } = await req.json() as {
+    const { action, id, reason, status } = await req.json() as {
       action: string;
       id: string;
       reason?: string;
+      status?: string;
     };
 
     if (!VALID_ACTIONS.includes(action as AdminAction) || !id) {
@@ -222,6 +223,23 @@ export async function POST(req: NextRequest) {
           );
         }
         return NextResponse.json({ ok: true, storyStatus: 'published', storyUrl: result.storyUrl });
+      }
+
+      case 'creator_status': {
+        // Creator network moderation: 'hidden' pulls a profile from the
+        // browse (spam, or the creator asked off); 'live' puts it back.
+        if (status !== 'live' && status !== 'hidden') {
+          return NextResponse.json({ error: 'status must be live or hidden' }, { status: 400 });
+        }
+        const { error: creatorError } = await supabase
+          .from('creator_profiles')
+          .update({ status, updated_at: new Date().toISOString() })
+          .eq('id', id);
+        if (creatorError) {
+          console.error('[admin/creator_status] update error:', creatorError);
+          return NextResponse.json({ error: creatorError.message }, { status: 500 });
+        }
+        break;
       }
 
       case 'delete': {
