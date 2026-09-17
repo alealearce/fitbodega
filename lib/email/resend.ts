@@ -710,12 +710,35 @@ export async function sendCreatorProfileSaved(opts: {
     <p style="margin:0 0 24px;">Brands browsing the network can see it, and every profile is considered for the FitBodega 100. Keep this link — it is how you edit your profile later.</p>
     <p style="margin:0 0 8px;text-align:center;">${buttonHtml(opts.editUrl, 'Edit my profile')}</p>
     <p style="margin:24px 0 0;font-size:13px;color:#888;">Anyone with this link can edit your profile, so keep it to yourself.</p>
+    ${opts.isNew ? `
+    <p style="margin:32px 0 8px;"><strong>Next: your Creator Spotlight.</strong> Every creator in the network gets introduced: a spotlight in The Journal, featured across the ${SITE.name} channels. Create an account with this same email, answer six short questions in your own words and add a photo. We shape it into your introduction.</p>
+    <p style="margin:0 0 8px;text-align:center;">${buttonHtml(`${SITE.url}/signup?next=${encodeURIComponent('/dashboard/creator-spotlight')}`, 'Add my spotlight')}</p>` : ''}
   `;
   return getResend().emails.send({
     from: FROM_EMAIL,
     to: opts.to,
     subject: opts.isNew ? `You're in the ${SITE.name} creator network` : `Your ${SITE.name} profile is updated`,
     html: baseTemplate(opts.isNew ? 'Profile Live' : 'Profile Updated', body),
+  });
+}
+
+export async function sendAdminCreatorSpotlightReady(opts: {
+  name: string;
+  email: string;
+  answered: number;
+  photos: number;
+}) {
+  const body = `
+    <p style="margin:0 0 16px;"><strong>${opts.name}</strong> finished their Creator Spotlight and it qualifies.</p>
+    <p style="margin:0 0 8px;">Email: ${opts.email}</p>
+    <p style="margin:0 0 24px;">${opts.answered} questions answered, ${opts.photos} photo${opts.photos === 1 ? '' : 's'}. Publish it from the Creators tab — the Spotlight button writes the Journal post and posts the carousel.</p>
+    <p style="margin:0 0 8px;text-align:center;">${buttonHtml(`${SITE.url}/admin`, 'Open the admin')}</p>
+  `;
+  return getResend().emails.send({
+    from: FROM_EMAIL,
+    to: ADMIN_EMAIL,
+    subject: `Creator Spotlight ready — ${opts.name}`,
+    html: baseTemplate('Spotlight Ready', body),
   });
 }
 

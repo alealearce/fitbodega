@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import { Eye, EyeOff } from "lucide-react";
 import FMark from "@/components/ui/FMark";
@@ -16,6 +16,9 @@ const labelClass = "block font-sans text-label-sm uppercase text-on-surface-vari
 
 export default function LoginPage() {
   const router = useRouter();
+  // ?next= from emails and the creator flow — same-site paths only.
+  const rawNext = useSearchParams().get("next") ?? "";
+  const nextPath = rawNext.startsWith("/") && !rawNext.startsWith("//") ? rawNext : "/dashboard";
   const [email,    setEmail]    = useState("");
   const [password, setPassword] = useState("");
   const [showPw,   setShowPw]   = useState(false);
@@ -36,7 +39,7 @@ export default function LoginPage() {
       return;
     }
 
-    router.push("/dashboard");
+    router.push(nextPath);
   };
 
   return (

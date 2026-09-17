@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import { Eye, EyeOff } from "lucide-react";
 import FMark from "@/components/ui/FMark";
@@ -16,6 +16,9 @@ const labelClass = "block font-sans text-label-sm uppercase text-on-surface-vari
 
 export default function SignupPage() {
   const router = useRouter();
+  // ?next= from emails and the creator flow — same-site paths only.
+  const rawNext = useSearchParams().get("next") ?? "";
+  const nextPath = rawNext.startsWith("/") && !rawNext.startsWith("//") ? rawNext : "/dashboard";
   const [email,    setEmail]    = useState("");
   const [password, setPassword] = useState("");
   const [confirm,  setConfirm]  = useState("");
@@ -45,7 +48,7 @@ export default function SignupPage() {
       email,
       password,
       options: {
-        emailRedirectTo: `${window.location.origin}/api/auth/callback?next=/dashboard`,
+        emailRedirectTo: `${window.location.origin}/api/auth/callback?next=${encodeURIComponent(nextPath)}`,
       },
     });
 
@@ -56,7 +59,7 @@ export default function SignupPage() {
     }
 
     if (data.session) {
-      router.push("/dashboard");
+      router.push(nextPath);
       return;
     }
 
@@ -75,7 +78,7 @@ export default function SignupPage() {
             Create your account
           </h1>
           <p className="font-sans text-sm text-on-surface-variant">
-            Sign up to list and manage your space
+            Sign up to manage your listing or creator profile
           </p>
         </div>
 

@@ -36,7 +36,7 @@ const LISTING_COLUMNS =
 // browse opens on its own at NETWORK_MIN_PROFILES. This tab is the only place
 // to see them and the only lever (hide/show) — see lib/creators/network.ts.
 const CREATOR_COLUMNS =
-  "id, created_at, email, name, niche, location, audience_size, primary_platform, instagram, tiktok, youtube, website, note, status";
+  "id, created_at, email, name, niche, location, audience_size, primary_platform, instagram, tiktok, youtube, website, note, status, spotlight_story, spotlight_images, spotlight_opt_out, spotlight_post_id";
 
 export default async function AdminPage() {
   const supabase = await createClient();

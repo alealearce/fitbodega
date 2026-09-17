@@ -8,6 +8,8 @@ import { getListingUrl } from "@/lib/utils/listingUrl";
 import { SITE } from "@/lib/config/site";
 import FMark from "@/components/ui/FMark";
 import { CLAIMABLE_LISTS, getEntryByName, isClaimableList } from "@/lib/top100/registry";
+import type { CreatorProfile } from "@/lib/creators/profile";
+import { creatorIneligibleReason } from "@/lib/social/eligibility";
 
 export const metadata = {
   title: "My Dashboard",
@@ -49,14 +51,34 @@ export default async function DashboardPage() {
   // a line at the top of the dashboard, not a wall in front of it.
   const admin = createAdminClient();
   const emailLower = (user.email ?? "").toLowerCase();
+  type DashboardCreator = Pick<
+    CreatorProfile,
+    "id" | "name" | "niche" | "audience_size" | "primary_platform" | "status" | "edit_token" | "spotlight_story" | "spotlight_images" | "spotlight_opt_out" | "spotlight_post_id"
+  >;
   let promptProfile = false;
+  let creator: DashboardCreator | null = null;
   if (emailLower) {
     const [{ data: subscriber }, { data: profile }] = await Promise.all([
       admin.from("dr_subscribers").select("id").eq("email", emailLower).maybeSingle(),
-      admin.from("creator_profiles").select("id").eq("email", emailLower).maybeSingle(),
+      admin
+        .from("creator_profiles")
+        .select("id, name, niche, audience_size, primary_platform, status, edit_token, spotlight_story, spotlight_images, spotlight_opt_out, spotlight_post_id")
+        .eq("email", emailLower)
+        .maybeSingle(),
     ]);
     promptProfile = Boolean(subscriber) && !profile;
+    // The edit token is the profile's key; only a confirmed email may see it.
+    creator = profile && user.email_confirmed_at ? (profile as DashboardCreator) : null;
   }
+  const creatorSpotlightState = creator
+    ? creator.spotlight_post_id
+      ? "Spotlight published"
+      : creator.spotlight_opt_out
+      ? "Spotlight: opted out"
+      : creatorIneligibleReason(creator)
+      ? "Spotlight: not finished"
+      : "Spotlight: submitted, publishing soon"
+    : "";
 
   // Approved Top 100 claims on this owner's live listings → ranking badges.
   // top100_claims is service-role only, so look it up with the admin client
@@ -143,8 +165,47 @@ export default async function DashboardPage() {
           </div>
         )}
 
+        {/* Creator profile — matched by confirmed email; profiles are token-keyed, not owner-keyed */}
+        {creator && (
+          <div className="bg-surface-card p-6 lg:p-8 mb-10">
+            <div className="flex items-center gap-3 mb-3">
+              <span className="w-7 h-[3px] bg-primary" aria-hidden />
+              <p className="font-sans text-label-md uppercase text-primary">Creator Profile</p>
+            </div>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+              <div className="flex-1 min-w-0">
+                <div className="flex flex-wrap items-center gap-2 mb-1">
+                  <h2 className="font-serif text-lg text-on-surface truncate">{creator.name}</h2>
+                  <Badge variant={creator.status === "live" ? "approved" : "rejected"}>
+                    {creator.status === "live" ? "In the network" : "Hidden"}
+                  </Badge>
+                </div>
+                <div className="flex flex-wrap gap-4 mt-2">
+                  <span className="font-sans text-xs text-on-surface-variant">{creator.niche}</span>
+                  <span className="font-sans text-xs text-on-surface-variant">{creator.audience_size} on {creator.primary_platform}</span>
+                  <span className="font-sans text-xs text-on-surface-variant">{creatorSpotlightState}</span>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 flex-shrink-0">
+                <Link
+                  href="/dashboard/creator-spotlight"
+                  className="inline-flex items-center justify-center px-5 py-2 rounded-full font-sans text-sm font-semibold bg-secondary-container text-primary hover:bg-secondary-container/80 transition-all duration-300"
+                >
+                  Spotlight
+                </Link>
+                <Link
+                  href={`/creators/profile?token=${encodeURIComponent(creator.edit_token)}`}
+                  className="inline-flex items-center justify-center px-5 py-2 rounded-full font-sans text-sm font-semibold bg-secondary-container text-primary hover:bg-secondary-container/80 transition-all duration-300"
+                >
+                  Edit
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Empty state */}
-        {items.length === 0 && (
+        {items.length === 0 && !creator && (
           <div className="bg-surface-card p-12 text-center">
             <FMark className="inline-block h-9 w-8 text-primary mb-5" />
             <h2 className="font-serif text-xl uppercase font-extrabold text-on-surface mb-3">

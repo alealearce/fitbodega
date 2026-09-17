@@ -5,8 +5,8 @@ import { Check, Trash2, ChevronDown, ChevronUp, Star, Eye, EyeOff, ExternalLink 
 import type { Listing } from "@/lib/supabase/types";
 import { handleUrl, type CreatorProfile } from "@/lib/creators/profile";
 import Badge from "@/components/ui/Badge";
-import { FOUNDER_QUESTIONS } from "@/lib/config/site";
-import { ineligibleReason, answeredCount } from "@/lib/social/eligibility";
+import { FOUNDER_QUESTIONS, CREATOR_QUESTIONS } from "@/lib/config/site";
+import { ineligibleReason, answeredCount, creatorIneligibleReason, creatorAnsweredCount } from "@/lib/social/eligibility";
 
 type AdminListing = Pick<
   Listing,
@@ -43,7 +43,52 @@ export type AdminCreator = Pick<
   | "website"
   | "note"
   | "status"
+  | "spotlight_story"
+  | "spotlight_images"
+  | "spotlight_opt_out"
+  | "spotlight_post_id"
 >;
+
+/** Compact Creator Spotlight readiness summary for a creator row. */
+function creatorSpotlightSummary(c: AdminCreator): { label: string; ready: boolean } {
+  if (c.spotlight_opt_out) return { label: "Spotlight: opted out", ready: false };
+  if (c.spotlight_post_id) return { label: "Spotlight: published", ready: true };
+  const answered = creatorAnsweredCount(c);
+  if (creatorIneligibleReason(c)) return { label: `Spotlight: not ready (${answered}/${CREATOR_QUESTIONS.length} answered, ${c.spotlight_images?.length ?? 0} photos)`, ready: false };
+  return { label: `Spotlight: ready to publish (${answered}/${CREATOR_QUESTIONS.length} answered)`, ready: true };
+}
+
+/** Expanded creator row: the creator's answers + spotlight photos. */
+function CreatorSpotlightDetail({ c }: { c: AdminCreator }) {
+  if (c.spotlight_opt_out) {
+    return <p className="font-sans text-sm text-on-surface-variant">This creator opted out of the spotlight.</p>;
+  }
+  const answers = CREATOR_QUESTIONS.map((q) => ({
+    label: q.label,
+    value: c.spotlight_story?.[q.key]?.trim() ?? "",
+  })).filter((a) => a.value);
+  if (answers.length === 0 && (c.spotlight_images?.length ?? 0) === 0) {
+    return <p className="font-sans text-sm text-on-surface-variant">No spotlight answers or photos yet.</p>;
+  }
+  return (
+    <div className="space-y-4">
+      {answers.map((a) => (
+        <div key={a.label}>
+          <p className="font-sans text-label-sm uppercase text-on-surface-variant mb-1">{a.label}</p>
+          <p className="font-sans text-sm text-on-surface leading-relaxed">&ldquo;{a.value}&rdquo;</p>
+        </div>
+      ))}
+      {(c.spotlight_images?.length ?? 0) > 0 && (
+        <div className="flex gap-3 pt-2">
+          {c.spotlight_images.map((url, i) => (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img key={url} src={url} alt={`Spotlight photo ${i + 1}`} className="w-24 h-24 object-cover bg-surface-input" />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 interface Props {
   pending: AdminListing[];
@@ -131,6 +176,20 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
   const [expanded, setExpanded] = useState<string | null>(null);
 
   const liveCreators = creators.filter((c) => c.status === "live").length;
+
+  const publishCreatorSpotlight = async (id: string) => {
+    setBusy(id + "-creator-spotlight");
+    const result = await callAction("creator_spotlight", id);
+    if (result.ok && result.storyStatus === "published") {
+      setCreators((prev) => prev.map((c) => (c.id === id ? { ...c, spotlight_post_id: "pending-refresh" } : c)));
+      window.alert(`Spotlight published: ${result.storyUrl ?? ""}${result.error ? `\n\nSocial posting reported: ${result.error}` : ""}`);
+    } else if (result.ok && result.storyStatus === "skipped") {
+      window.alert(`Spotlight skipped: ${result.reason ?? "not eligible"}`);
+    } else {
+      window.alert(`Spotlight failed: ${result.error ?? "unknown error"}`);
+    }
+    setBusy(null);
+  };
 
   const setCreatorStatus = async (id: string, status: "live" | "hidden") => {
     setBusy(id + "-creator");
@@ -515,7 +574,8 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
                     if (c.youtube) links.push({ label: `YouTube @${c.youtube}`, href: handleUrl("youtube", c.youtube) });
                     if (c.website) links.push({ label: c.website.replace(/^https?:\/\/(www\.)?/, ""), href: c.website });
                     return (
-                      <tr key={c.id} className="hover:bg-surface-low transition-colors align-top">
+                      <Fragment key={c.id}>
+                      <tr className="hover:bg-surface-low transition-colors align-top">
                         <td className="px-5 py-4">
                           <p className="font-sans font-semibold text-sm text-on-surface">{c.name}</p>
                           <a href={`mailto:${c.email}`} className="font-sans text-xs text-on-surface-variant hover:text-on-surface">
@@ -524,6 +584,15 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
                           {c.location && (
                             <p className="font-sans text-xs text-on-surface-variant mt-0.5">{c.location}</p>
                           )}
+                          <button
+                            onClick={() => setExpanded(expanded === c.id ? null : c.id)}
+                            className={`inline-flex items-center gap-1 font-sans text-xs mt-1.5 transition-colors ${
+                              creatorSpotlightSummary(c).ready ? "text-primary" : "text-on-surface-variant"
+                            } hover:text-on-surface`}
+                          >
+                            {creatorSpotlightSummary(c).label}
+                            {expanded === c.id ? <ChevronUp size={12} /> : <ChevronDown size={12} />}
+                          </button>
                         </td>
                         <td className="px-5 py-4 max-w-xs">
                           <p className="font-sans text-sm text-on-surface">{c.niche}</p>
@@ -560,6 +629,20 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
                           <Badge variant={c.status === "live" ? "approved" : "rejected"}>{c.status}</Badge>
                         </td>
                         <td className="px-5 py-4">
+                          <div className="flex flex-wrap items-center gap-2">
+                          {c.spotlight_post_id ? (
+                            <span className="px-3 py-1 rounded-full font-sans text-xs font-semibold bg-primary/10 text-primary">
+                              Spotlight live
+                            </span>
+                          ) : creatorSpotlightSummary(c).ready && c.status === "live" ? (
+                            <button
+                              onClick={() => publishCreatorSpotlight(c.id)}
+                              disabled={busy === c.id + "-creator-spotlight"}
+                              className="px-3 py-1 rounded-full font-sans text-xs font-semibold bg-green-100 text-green-700 hover:bg-green-200 transition-colors disabled:opacity-50"
+                            >
+                              {busy === c.id + "-creator-spotlight" ? "Publishing..." : "Spotlight"}
+                            </button>
+                          ) : null}
                           <button
                             onClick={() => setCreatorStatus(c.id, c.status === "live" ? "hidden" : "live")}
                             disabled={busy === c.id + "-creator"}
@@ -571,8 +654,17 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
                           >
                             {busy === c.id + "-creator" ? "..." : c.status === "live" ? (<><EyeOff size={12} /> Hide</>) : (<><Eye size={12} /> Show</>)}
                           </button>
+                          </div>
                         </td>
                       </tr>
+                      {expanded === c.id && (
+                        <tr>
+                          <td colSpan={7} className="px-5 py-5 bg-surface-low">
+                            <CreatorSpotlightDetail c={c} />
+                          </td>
+                        </tr>
+                      )}
+                      </Fragment>
                     );
                   })}
                 </tbody>

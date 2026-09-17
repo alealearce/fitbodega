@@ -5,6 +5,7 @@ import { createClient } from "@/lib/supabase/server";
 import type { BlogPost, Listing } from "@/lib/supabase/types";
 import { SITE, DEFAULT_OG_IMAGE } from "@/lib/config/site";
 import { getListingUrl } from "@/lib/utils/listingUrl";
+import { primaryLink, type CreatorProfile } from "@/lib/creators/profile";
 import { Clock, Calendar, ArrowLeft, ArrowUpRight } from "lucide-react";
 
 /**
@@ -98,6 +99,18 @@ export default async function ArticlePage({ params }: Props) {
       .maybeSingle();
     member = m ?? null;
   }
+  // Creator Spotlight cross-link: the featured creator, via spotlight_post_id.
+  let creator: Pick<CreatorProfile, "name" | "niche" | "primary_platform" | "instagram" | "tiktok" | "youtube" | "website"> | null = null;
+  if (post.category === "member_spotlight" && !member) {
+    const { data: c } = await supabase
+      .from("creator_profiles")
+      .select("name, niche, primary_platform, instagram, tiktok, youtube, website")
+      .eq("spotlight_post_id", post.id)
+      .eq("status", "live")
+      .maybeSingle();
+    creator = c ?? null;
+  }
+  const creatorLink = creator ? primaryLink(creator) : null;
 
   const date = new Date(post.published_at ?? post.created_at).toLocaleDateString("en-US", {
     year: "numeric", month: "long", day: "numeric",
@@ -240,6 +253,39 @@ export default async function ArticlePage({ params }: Props) {
                 Visit Their Profile
                 <ArrowUpRight size={14} />
               </Link>
+            </div>
+          ) : creator ? (
+            <div className="mt-14 p-8 bg-surface-low">
+              <p className="font-sans text-label-md uppercase text-primary mb-3">
+                In the Creator Network
+              </p>
+              <p className="font-serif text-xl font-extrabold uppercase tracking-tight text-on-surface mb-2">
+                {creator.name}
+              </p>
+              <p className="font-sans text-sm text-on-surface-variant mb-6">
+                {creator.niche}. Brands: {creator.name} is open to work through the {SITE.name} creator network.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                {creatorLink && (
+                  <a
+                    href={creatorLink.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-primary text-primary-on font-sans text-label-sm uppercase px-6 py-3.5 hover:opacity-90 transition-opacity"
+                  >
+                    {creatorLink.label}
+                    <ArrowUpRight size={14} />
+                  </a>
+                )}
+                <Link
+                  href="/for-brands"
+                  className="inline-flex items-center gap-2 font-sans text-label-sm uppercase px-6 py-3.5 text-on-surface hover:text-primary transition-colors"
+                  style={{ boxShadow: "inset 0 0 0 1px rgba(72,72,71,0.3)" }}
+                >
+                  Work with creators
+                  <ArrowUpRight size={14} />
+                </Link>
+              </div>
             </div>
           ) : (
             <div className="mt-14 p-8 bg-surface-low">

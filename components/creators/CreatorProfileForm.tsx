@@ -112,13 +112,30 @@ export default function CreatorProfileForm({
           Brands browsing the network can see your profile, and every profile is considered
           for the FitBodega 100. We emailed you a private link for editing it later.
         </p>
-        <Link
-          href="/deals"
-          className="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
-        >
-          See the board
-          <ArrowUpRight size={16} />
-        </Link>
+        {mode === "create" ? (
+          <>
+            <p className="font-sans text-base text-on-surface leading-relaxed max-w-md mt-6">
+              Next: your Creator Spotlight. Six short questions and a photo, and we introduce
+              you in The Journal and across our channels. Create an account with this same
+              email to fill it in.
+            </p>
+            <Link
+              href={`/signup?next=${encodeURIComponent("/dashboard/creator-spotlight")}`}
+              className="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
+            >
+              Add my spotlight
+              <ArrowUpRight size={16} />
+            </Link>
+          </>
+        ) : (
+          <Link
+            href="/deals"
+            className="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90 transition-opacity"
+          >
+            See the board
+            <ArrowUpRight size={16} />
+          </Link>
+        )}
       </div>
     );
   }

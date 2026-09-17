@@ -4,12 +4,13 @@ import { sendApprovalEmail, sendRejectionEmail, sendSpotlightLiveEmail, sendTop1
 import { SITE, isAdminEmail } from '@/lib/config/site';
 import { getListingUrl } from '@/lib/utils/listingUrl';
 import { runMemberSpotlight } from '@/lib/social/story';
+import { runCreatorSpotlight } from '@/lib/social/creatorSpotlight';
 import { CLAIMABLE_LISTS, getEntryByName, isClaimableList } from '@/lib/top100/registry';
 
 // Approve runs the spotlight pipeline inline (Claude + Blotato) — allow time.
 export const maxDuration = 300;
 
-const VALID_ACTIONS = ['approve', 'reject', 'feature', 'verify', 'delete', 'story', 'creator_status'] as const;
+const VALID_ACTIONS = ['approve', 'reject', 'feature', 'verify', 'delete', 'story', 'creator_status', 'creator_spotlight'] as const;
 type AdminAction = typeof VALID_ACTIONS[number];
 
 export async function POST(req: NextRequest) {
@@ -240,6 +241,29 @@ export async function POST(req: NextRequest) {
           return NextResponse.json({ error: creatorError.message }, { status: 500 });
         }
         break;
+      }
+
+      case 'creator_spotlight': {
+        // Publish a creator's spotlight: Journal post + carousel. Idempotent:
+        // runCreatorSpotlight skips when spotlight_post_id is already set.
+        const result = await runCreatorSpotlight(id);
+        if (!result.ok) {
+          return NextResponse.json({ ok: false, storyStatus: 'failed', error: result.error }, { status: 500 });
+        }
+        if (result.skipped) {
+          return NextResponse.json({ ok: true, storyStatus: 'skipped', reason: result.skipped });
+        }
+        const { data: creator } = await supabase
+          .from('creator_profiles')
+          .select('name, email')
+          .eq('id', id)
+          .single();
+        if (creator?.email && creator?.name && result.spotlightUrl) {
+          await sendSpotlightLiveEmail(creator.email, creator.name, result.spotlightUrl).catch((err) =>
+            console.error('[admin/creator_spotlight] email error:', err)
+          );
+        }
+        return NextResponse.json({ ok: true, storyStatus: 'published', storyUrl: result.spotlightUrl, error: result.error });
       }
 
       case 'delete': {

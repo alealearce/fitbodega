@@ -1,3 +1,4 @@
+import type { CreatorQuestionKey } from '@/lib/config/site';
 // Creator network profile — the shared contract between the public form
 // (components/creators/CreatorProfileForm.tsx), the API route
 // (app/api/creators/profile/route.ts), and the browse page.
@@ -43,6 +44,13 @@ export interface CreatorProfile {
   status: 'live' | 'hidden';
   edit_token: string;
   subscriber_id: string | null;
+  // Creator Spotlight (dashboard form → admin publish). Mirrors the listing
+  // founder_story / founder_images / story_opt_out / story_post_id set.
+  spotlight_story: Partial<Record<CreatorQuestionKey, string>> | null;
+  spotlight_images: string[];
+  spotlight_opt_out: boolean;
+  spotlight_post_id: string | null;
+  user_id: string | null;
 }
 
 // What the browse page and brand-facing views may read. Email and edit_token
@@ -86,4 +94,18 @@ export function handleUrl(platform: 'instagram' | 'tiktok' | 'youtube', handle: 
   if (platform === 'instagram') return `https://instagram.com/${handle}`;
   if (platform === 'tiktok') return `https://tiktok.com/@${handle}`;
   return `https://youtube.com/@${handle}`;
+}
+
+/** The creator's main link: primary platform first, then whatever else they gave. */
+export function primaryLink(p: Pick<CreatorProfile, 'primary_platform' | 'instagram' | 'tiktok' | 'youtube' | 'website'>): { label: string; url: string } | null {
+  const order: ('instagram' | 'tiktok' | 'youtube')[] = ['instagram', 'tiktok', 'youtube'];
+  const primary = p.primary_platform.toLowerCase() as 'instagram' | 'tiktok' | 'youtube';
+  const ordered = order.includes(primary) ? [primary, ...order.filter((k) => k !== primary)] : order;
+  const labels = { instagram: 'Instagram', tiktok: 'TikTok', youtube: 'YouTube' };
+  for (const k of ordered) {
+    const h = p[k];
+    if (h) return { label: `${labels[k]} @${h}`, url: handleUrl(k, h) };
+  }
+  if (p.website) return { label: 'their website', url: p.website };
+  return null;
 }

@@ -76,6 +76,18 @@ export const FOUNDER_QUESTIONS = [
 ] as const;
 export type FounderQuestionKey = (typeof FOUNDER_QUESTIONS)[number]["key"];
 
+// Creator Spotlight — the creator-network twin of the Member Spotlight. Same
+// rule (3 answers + 1 photo), different questions: these are read by brands.
+export const CREATOR_QUESTIONS = [
+  { key: "origin",     label: "What first got you training, and what keeps you at it?" },
+  { key: "content",    label: "What do you make, and who is it for?" },
+  { key: "hard_truth", label: "What's the hardest part of building a fitness audience that most people never see?" },
+  { key: "brands",     label: "Which products do you actually use, and what makes a brand partnership a yes for you?" },
+  { key: "why_you",    label: "Why should a brand work with you and not anyone else? Say it straight." },
+  { key: "feeling",    label: "What do you want people to feel after watching you?" },
+] as const;
+export type CreatorQuestionKey = (typeof CREATOR_QUESTIONS)[number]["key"];
+
 // ── AI Chatbot ───────────────────────────────────────────────────────────────
 export const CHATBOT = {
   name:     "Coach",
