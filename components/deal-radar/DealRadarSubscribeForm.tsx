@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useBotGate } from "@/components/BotGate";
 
 // Deal Radar subscribe form. Double opt-in: submitting sends a confirmation
 // email; the address only goes active after the link is clicked. Drop this
@@ -8,6 +9,7 @@ import { useState } from "react";
 
 export default function DealRadarSubscribeForm() {
   const [email, setEmail] = useState("");
+  const gate = useBotGate();
   const [state, setState] = useState<"idle" | "busy" | "done" | "error">("idle");
 
   async function submit(e: React.FormEvent) {
@@ -18,7 +20,7 @@ export default function DealRadarSubscribeForm() {
       const res = await fetch("/api/deal-radar/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, ...gate.payload() }),
       });
       setState(res.ok ? "done" : "error");
     } catch {
@@ -36,6 +38,7 @@ export default function DealRadarSubscribeForm() {
 
   return (
     <form onSubmit={submit} className="flex flex-col sm:flex-row gap-3">
+      {gate.field}
       <input
         type="email"
         required

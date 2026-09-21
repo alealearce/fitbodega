@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useBotGate } from "@/components/BotGate";
 import { Send } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import { NEWSLETTER } from "@/lib/config/site";
@@ -13,6 +14,7 @@ export default function NewsletterSignup({ variant = "inline" }: Props) {
   const [email,     setEmail]     = useState("");
   const [status,    setStatus]    = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message,   setMessage]   = useState("");
+  const gate = useBotGate();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -22,7 +24,7 @@ export default function NewsletterSignup({ variant = "inline" }: Props) {
       const res = await fetch("/api/newsletter/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, ...gate.payload() }),
       });
       const data = await res.json();
       if (res.ok) {
@@ -55,6 +57,7 @@ export default function NewsletterSignup({ variant = "inline" }: Props) {
   if (variant === "compact") {
     return (
       <form onSubmit={handleSubmit} className="flex items-center bg-surface-input">
+        {gate.field}
         <input
           type="email"
           value={email}
@@ -80,6 +83,7 @@ export default function NewsletterSignup({ variant = "inline" }: Props) {
         {NEWSLETTER.title}
       </p>
       <form onSubmit={handleSubmit} className="flex gap-2">
+        {gate.field}
         <input
           type="email"
           value={email}

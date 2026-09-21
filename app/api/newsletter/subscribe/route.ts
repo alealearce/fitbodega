@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { createAdminClient } from '@/lib/supabase/server';
 import { sendNewsletterConfirmation } from '@/lib/email/resend';
 import { rateLimit } from '@/lib/rateLimit';
+import { refusedByGate } from '@/lib/botGate';
 import { SITE } from '@/lib/config/site';
 import { randomUUID } from 'crypto';
 
@@ -19,6 +20,10 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
+    // Bots get the same answer a new subscriber gets; nothing is stored or sent.
+    if (refusedByGate(body, 'newsletter')) {
+      return NextResponse.json({ ok: true });
+    }
     const parsed = SubscribeSchema.safeParse(body);
 
     if (!parsed.success) {

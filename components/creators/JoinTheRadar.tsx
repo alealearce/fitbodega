@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useBotGate } from "@/components/BotGate";
 import { ArrowUpRight } from "lucide-react";
 import CreatorProfileForm, { emptyProfile } from "@/components/creators/CreatorProfileForm";
 
@@ -21,6 +22,7 @@ export default function JoinTheRadar({
 }) {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
+  const gate = useBotGate();
   const [state, setState] = useState<"idle" | "busy" | "error">("idle");
   const [step, setStep] = useState<1 | 2>(1);
   const [skipped, setSkipped] = useState(false);
@@ -36,7 +38,7 @@ export default function JoinTheRadar({
       const res = await fetch("/api/deal-radar/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, first_name: firstName }),
+        body: JSON.stringify({ email, first_name: firstName, ...gate.payload() }),
       });
       if (!res.ok) {
         setState("error");
@@ -110,6 +112,7 @@ export default function JoinTheRadar({
         onSubmit={submit}
         className={variant === "compact" ? "flex flex-col sm:flex-row gap-3" : "space-y-3"}
       >
+        {gate.field}
         <input
           type="text"
           maxLength={60}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useBotGate } from "@/components/BotGate";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
@@ -25,6 +26,7 @@ export default function SignupPage() {
   const [showPw,   setShowPw]   = useState(false);
   const [status,   setStatus]   = useState<FormState>("idle");
   const [message,  setMessage]  = useState("");
+  const gate = useBotGate();
 
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -42,6 +44,19 @@ export default function SignupPage() {
     }
 
     setStatus("loading");
+
+    // Bot gate (lib/botGate.ts). A refused submission sees what a person sees
+    // and no account is made. If the gate is unreachable, the signup goes ahead.
+    const verdict = await fetch("/api/bot-gate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(gate.payload()),
+    }).then((r) => r.json()).catch(() => ({ ok: true }));
+    if (!verdict.ok) {
+      setStatus("success");
+      setMessage("Check your email to confirm your account.");
+      return;
+    }
 
     const supabase = createClient();
     const { data, error } = await supabase.auth.signUp({
@@ -86,6 +101,7 @@ export default function SignupPage() {
         <div className="bg-surface-low p-8 space-y-5">
 
           <form onSubmit={handleSignup} className="space-y-4">
+            {gate.field}
             {/* Email */}
             <div>
               <label className={labelClass}>Email</label>

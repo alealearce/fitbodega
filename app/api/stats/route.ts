@@ -35,6 +35,29 @@ async function count(table: string, filter: string): Promise<number | null> {
   }
 }
 
+/** Accounts with a recorded sign-in, from the auth admin API (paged). */
+async function signedInCount(): Promise<number | null> {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !key) return null;
+  try {
+    let total = 0;
+    for (let page = 1; page <= 50; page++) {
+      const res = await fetch(`${url}/auth/v1/admin/users?page=${page}&per_page=200`, {
+        headers: { apikey: key, Authorization: `Bearer ${key}` },
+        signal: AbortSignal.timeout(6000),
+      });
+      if (!res.ok) return null;
+      const users: { last_sign_in_at?: string | null }[] = (await res.json()).users ?? [];
+      total += users.filter((u) => u.last_sign_in_at).length;
+      if (users.length < 200) break;
+    }
+    return total;
+  } catch {
+    return null;
+  }
+}
+
 const METRICS: [string, string, string][] = [
   ['listings_total', 'listings', ''],
   ['listings_verified', 'listings', 'is_verified=eq.true'],
@@ -54,6 +77,12 @@ export async function GET() {
   const values = await Promise.all(METRICS.map(([, t, f]) => count(t, f)));
   const metrics: Record<string, number | null> = {};
   METRICS.forEach(([name], i) => { metrics[name] = values[i]; });
+  // Members = accounts that have signed in at least once. profiles_total counts
+  // every signup, and bots hit the form from Jul 2026 on (44 of 47 rows by
+  // 2026-09-21). A confirmed email is no better a test: company mail filters
+  // open the confirmation link on their own. The arce admin's members card
+  // reads this.
+  metrics.profiles_signed_in = await signedInCount();
   const payload = { site: SITE_ID, ts: new Date().toISOString(), metrics };
   cache = { at: Date.now(), payload };
   return NextResponse.json(payload);

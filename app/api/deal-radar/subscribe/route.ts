@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { SITE } from '@/lib/config/site';
 import { sendDealRadarConfirmation } from '@/lib/email/resend';
 import { rateLimit } from '@/lib/rateLimit';
+import { refusedByGate } from '@/lib/botGate';
 import { createAdminClient } from '@/lib/supabase/server';
 
 // Deal Radar subscribe — CASL double opt-in. A new address starts 'pending'
@@ -14,12 +15,18 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
   }
 
+  const body = await req.json().catch(() => ({}));
+  // Bots get the same answer a new subscriber gets; nothing is stored or sent.
+  if (refusedByGate(body, 'deal-radar')) {
+    return NextResponse.json({ ok: true });
+  }
+
   const parsed = z
     .object({
       email: z.string().email(),
       first_name: z.string().max(60).optional().or(z.literal('')),
     })
-    .safeParse(await req.json());
+    .safeParse(body);
   if (!parsed.success) {
     return NextResponse.json({ error: 'Invalid input' }, { status: 400 });
   }
