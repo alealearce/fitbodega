@@ -40,6 +40,8 @@ const METRICS: [string, string, string][] = [
   ['listings_verified', 'listings', 'is_verified=eq.true'],
   ['leads_total', 'leads', ''],
   ['newsletter_subscribers', 'newsletter_subscribers', ''],
+  // Accounts. The arce admin's Site Health card reads this as the member count.
+  ['profiles_total', 'profiles', ''],
   ['blog_posts_published', 'blog_posts', 'is_published=eq.true'],
   ['reviews_total', 'reviews', ''],
   ['social_posts_published', 'social_posts', 'status=eq.published'],
