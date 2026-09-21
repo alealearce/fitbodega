@@ -6,3 +6,6 @@ node_modules/
 .DS_Store
 tsconfig.tsbuildinfo
 .db-password
+
+# One-off scripts and their data (workspace convention). Never commit: may hold personal data.
+_archive/
