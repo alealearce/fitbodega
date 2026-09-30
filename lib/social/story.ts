@@ -24,7 +24,7 @@ import type { Listing } from '@/lib/supabase/types';
 
 export { isStoryEligible };
 
-const MODEL = 'claude-sonnet-4-5-20250929';
+const MODEL = 'claude-sonnet-5-5';
 const IMG_BASE = process.env.SOCIAL_PUBLIC_BASE_URL || SITE.url;
 
 const TYPE_LABEL: Record<string, string> = {

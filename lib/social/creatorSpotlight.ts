@@ -20,7 +20,7 @@ import { configuredPlatforms, SINGLE_IMAGE_ONLY, uploadAll, publish, clampCaptio
 import { creatorIneligibleReason } from '@/lib/social/eligibility';
 import { slugify } from '@/lib/utils/slug';
 
-const MODEL = 'claude-sonnet-4-5-20250929';
+const MODEL = 'claude-sonnet-5-5';
 const IMG_BASE = process.env.SOCIAL_PUBLIC_BASE_URL || SITE.url;
 const NETWORK_URL = `${SITE.url}/creators/network`;
 

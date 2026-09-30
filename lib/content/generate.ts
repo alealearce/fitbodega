@@ -8,7 +8,7 @@ import type { BacklogTopic } from '@/lib/content/backlog';
 // the contract; a piece that needs to break them belongs in a working
 // session, not in this file.
 
-const MODEL = 'claude-sonnet-4-5-20250929';
+const MODEL = 'claude-sonnet-5-5';
 
 const TRACK_AUDIENCE: Record<BacklogTopic['track'], string> = {
   for_creators:

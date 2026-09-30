@@ -11,7 +11,7 @@ import { SITE } from '@/lib/config/site';
 
 export const maxDuration = 300; // 5 min — Claude generation can be slow
 
-const MODEL = 'claude-sonnet-4-5-20250929';
+const MODEL = 'claude-sonnet-5-5';
 
 const SYSTEM_PROMPT = `You are the automated editorial system for FitBodega (fitbodega.com) — the fitness creator network: creator rankings, editorial, and a curated directory of recovery studios, gyms, coaches, nutritionists, and health food stores, starting in Vancouver and open worldwide.
 
