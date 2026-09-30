@@ -61,7 +61,7 @@ export async function POST(req: NextRequest) {
     // Send notification email to the listing owner (or listing email if no owner)
     const recipientEmail = listing.email;
     if (recipientEmail) {
-      sendLeadEmail(
+      await sendLeadEmail(
         recipientEmail,
         sender_name,
         sender_email,
