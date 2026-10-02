@@ -107,7 +107,7 @@ async function generatePost(p: CreatorProfile): Promise<GeneratedSpotlight> {
     max_tokens: 4096,
     system: SYSTEM_PROMPT,
     tools: [SPOTLIGHT_TOOL],
-    tool_choice: { type: 'tool', name: 'publish_spotlight' },
+    tool_choice: { type: 'auto' },
     messages: [{ role: 'user', content: buildUserPrompt(p) }],
   });
   const toolBlock = message.content.find((b) => b.type === 'tool_use');

@@ -93,7 +93,7 @@ export async function writePost(topic: BacklogTopic): Promise<GeneratedPost> {
     max_tokens: 8192,
     system: systemPrompt(topic.track),
     tools: [PUBLISH_TOOL],
-    tool_choice: { type: 'tool', name: 'publish_post' },
+    tool_choice: { type: 'auto' },
     messages: [
       {
         role: 'user',

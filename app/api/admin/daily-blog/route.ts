@@ -264,7 +264,7 @@ Pick a fresh keyword (rotate content types A–E; prefer types under-represented
       max_tokens: 8192,
       system: systemPrompt,
       tools: [PUBLISH_TOOL],
-      tool_choice: { type: 'tool', name: 'publish_post' },
+      tool_choice: { type: 'auto' },
       messages: [{ role: 'user', content: userPrompt }],
     });
     const toolBlock = message.content.find((b) => b.type === 'tool_use');
