@@ -12,7 +12,10 @@ no review step (owner decision 2026-10-07).
    are scored and deduped into `dr_opportunities`, and Claude writes the intro.
 2. **Publish, same run** — `lib/deal-radar/publish.ts` marks every collected
    opportunity `included`, publishes `/deals/[week-slug]`, and emails every
-   `active` subscriber (logged per subscriber in `dr_email_log`). The owner
+   `active` subscriber (logged per subscriber in `dr_email_log`). The email
+   carries the top 5 open collabs and top 3 spending brands by score, then
+   "N more deals" and a button to the page (`EMAIL_TOP_*` in publish.ts);
+   the page has every deal. The owner
    reads it as a subscriber: hi@arce.ca is an `active` row in
    `dr_subscribers`. If the intro failed, a plain one-line intro goes out.
    If nothing was collected, nothing publishes.

@@ -17,6 +17,11 @@ import {
 import type { DrOpportunity, DrSubscriber } from './types';
 import { weekSlugToTitleDate } from './week';
 
+// The email shows the best of each kind by score and links to the page for
+// the rest (owner decision 2026-10-07: the full list made a long, flat email).
+const EMAIL_TOP_COLLABS = 5;
+const EMAIL_TOP_SPENDING = 3;
+
 export type PublishResult =
   | { ok: true; postUrl: string; included: number; subscribers: number; sent: number; failed: number }
   | { ok: false; status: number; error: string };
@@ -98,8 +103,9 @@ export async function publishDigest(
   const htmlTemplate = buildDealRadarDigestHtml({
     weekSlug: weekSlugToTitleDate(digest.week_slug),
     introCopy,
-    collabs: included.filter((o) => o.source_type === 'listed_deal').map(toItem),
-    spending: included.filter((o) => o.source_type === 'spend_signal').map(toItem),
+    collabs: included.filter((o) => o.source_type === 'listed_deal').slice(0, EMAIL_TOP_COLLABS).map(toItem),
+    spending: included.filter((o) => o.source_type === 'spend_signal').slice(0, EMAIL_TOP_SPENDING).map(toItem),
+    totalCount: included.length,
     postUrl,
   });
   const subject = `Deal Radar — ${included.length} fitness brand deals, week of ${weekSlugToTitleDate(digest.week_slug)}`;

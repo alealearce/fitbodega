@@ -593,7 +593,8 @@ export async function sendDealRadarConfirmation(to: string, confirmUrl: string) 
   });
 }
 
-// Renders the digest body once; the per-subscriber unsubscribe link is
+// The email carries the highlights and links to the full edition; the
+// page has every deal. Renders the body once; the per-subscriber unsubscribe link is
 // substituted at send time via the %%UNSUB_URL%% placeholder.
 export interface DigestEmailItem {
   brandName: string;
@@ -606,8 +607,9 @@ export interface DigestEmailItem {
 export function buildDealRadarDigestHtml(opts: {
   weekSlug: string;
   introCopy: string;
-  spending: DigestEmailItem[];
+  spending: DigestEmailItem[];   // the highlights only, best first
   collabs: DigestEmailItem[];
+  totalCount: number;            // every deal in the edition, shown or not
   postUrl: string;
 }): string {
   const itemHtml = (i: DigestEmailItem) => `
@@ -622,11 +624,14 @@ export function buildDealRadarDigestHtml(opts: {
     <p style="margin:32px 0 4px;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#888;">&#9632;&nbsp; ${title}</p>
     <table width="100%" cellpadding="0" cellspacing="0" style="margin:12px 0 0;">${items.map(itemHtml).join('')}</table>`;
 
+  const more = opts.totalCount - opts.collabs.length - opts.spending.length;
+
   const body = `
     <p style="margin:0 0 16px;white-space:pre-line;">${opts.introCopy}</p>
     ${section('Open Collabs — apply now', opts.collabs)}
     ${section('Spending Now', opts.spending)}
-    <p style="margin:32px 0 0;text-align:center;">${buttonHtml(opts.postUrl, 'Read the full edition')}</p>
+    ${more > 0 ? `<p style="margin:32px 0 0;text-align:center;font-size:15px;color:${INK};"><strong>${more} more ${more === 1 ? 'deal' : 'deals'}</strong> on the full list, ranked.</p>` : ''}
+    <p style="margin:${more > 0 ? '16px' : '32px'} 0 0;text-align:center;">${buttonHtml(opts.postUrl, more > 0 ? `See all ${opts.totalCount} deals` : 'Read the full edition')}</p>
     <p style="margin:24px 0 0;font-size:12px;color:#888;text-align:center;">You receive Deal Radar because you subscribed with double opt-in.<br/><a href="%%UNSUB_URL%%" style="color:#888;">Unsubscribe with one click</a></p>
   `;
   return baseTemplate(`Deal Radar — Week of ${opts.weekSlug}`, body);
