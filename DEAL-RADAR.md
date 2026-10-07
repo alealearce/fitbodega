@@ -105,7 +105,9 @@ in more than one source. Per-row rationale is stored in `score_breakdown`.
 ## Tables
 
 `dr_weekly_digests` (draft → published), `dr_opportunities` (scored, deduped
-on `fingerprint`), `dr_subscribers`, `dr_email_log` (per-subscriber send
+on `fingerprint`: the listing's own URL for a listed deal, brand + offer for
+everything else — since 2026-10-07; the old wording-based key stored a
+listing twice when a week was collected twice), `dr_subscribers`, `dr_email_log` (per-subscriber send
 results), `dr_source_configs`, `dr_runs` (per-source run log — first place to
 look when a Monday edition is thin). All service-role only.
 

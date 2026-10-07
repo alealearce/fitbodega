@@ -1,5 +1,6 @@
-// Normalizer: RawOpportunity -> dr_opportunities rows. Dedupe on
-// brand_domain (or slugged name) + offer fingerprint; a brand seen by
+// Normalizer: RawOpportunity -> dr_opportunities rows. Dedupe on the
+// listing URL when a listing has its own, otherwise on brand_domain (or
+// slugged name) + offer fingerprint; a brand seen by
 // several sources keeps one row and gets a score boost.
 
 import type { SupabaseClient } from '@supabase/supabase-js';
@@ -21,7 +22,25 @@ function slug(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-export function fingerprintOf(raw: RawOpportunity): string {
+// A listing's own URL, normalized, or null when it has none.
+function listingUrlKey(raw: RawOpportunity): string | null {
+  if (raw.sourceType !== 'listed_deal' || !raw.sourceUrl) return null;
+  try {
+    const u = new URL(raw.sourceUrl);
+    return `${u.hostname.toLowerCase().replace(/^www\./, '')}${u.pathname.replace(/\/+$/, '').toLowerCase()}`;
+  } catch {
+    return null;
+  }
+}
+
+export function fingerprintOf(raw: RawOpportunity, opts: { byListingUrl?: boolean } = {}): string {
+  // A listing with its own URL is keyed on that URL. The deliverables text
+  // is rewritten by the model on every run, so keying on it stored the same
+  // listing twice when a week was collected twice (2026-10-07).
+  if (opts.byListingUrl) {
+    const urlKey = listingUrlKey(raw);
+    if (urlKey) return `url|${urlKey}`;
+  }
   const brandKey = normalizeDomain(raw.brandUrl) ?? slug(raw.brandName);
   // Offer fingerprint: type + first words of deliverables keeps re-posts of
   // the same offer deduped while distinct offers from one brand stay apart.
@@ -86,8 +105,17 @@ export async function normalizeAndStore(
   let boosted = 0;
   const now = new Date().toISOString();
 
+  // A URL carried by several items in one batch is a board page, not a
+  // listing: those items keep the brand + offer key.
+  const urlCounts = new Map<string, number>();
   for (const raw of raws) {
-    const fingerprint = fingerprintOf(raw);
+    const key = listingUrlKey(raw);
+    if (key) urlCounts.set(key, (urlCounts.get(key) ?? 0) + 1);
+  }
+
+  for (const raw of raws) {
+    const urlKey = listingUrlKey(raw);
+    const fingerprint = fingerprintOf(raw, { byListingUrl: urlKey !== null && urlCounts.get(urlKey) === 1 });
     const { score, breakdown } = scoreOpportunity(raw, config.weights, config.keywords);
 
     const { data: sameWeek } = await supabase
