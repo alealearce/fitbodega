@@ -650,23 +650,28 @@ export async function sendDealRadarDigest(opts: {
   });
 }
 
-export async function sendDealRadarDraftReady(opts: {
+// Sent only when the Monday run needs a look: a source failed, a send
+// failed, or the edition did not publish.
+export async function sendDealRadarRunReport(opts: {
   weekSlug: string;
   counts: { total: number; listed: number; signals: number };
   errors: string[];
+  publishError: string | null;
+  sent: number;
+  failed: number;
 }) {
   const body = `
-    <p style="margin:0 0 16px;">The Deal Radar draft for the week of <strong>${opts.weekSlug}</strong> is ready for review.</p>
+    <p style="margin:0 0 16px;">Deal Radar, week of <strong>${opts.weekSlug}</strong>: ${opts.publishError ? 'the edition did <strong>not</strong> publish' : 'the edition published, with problems'}.</p>
     <p style="margin:0 0 16px;">${opts.counts.total} opportunities collected &mdash; ${opts.counts.listed} open collabs, ${opts.counts.signals} spend signals.</p>
+    ${opts.publishError ? `<p style="margin:0 0 16px;color:#b00;">Publish error: ${opts.publishError}</p>` : `<p style="margin:0 0 16px;">Emails sent: ${opts.sent}. Failed: ${opts.failed}.</p>`}
     ${opts.errors.length ? `<p style="margin:0 0 16px;color:#b00;">Source errors: ${opts.errors.join('; ')}</p>` : ''}
-    <p style="margin:0 0 16px;">Nothing sends until you approve it.</p>
-    <p style="margin:0;text-align:center;">${buttonHtml(`${SITE.url}/admin/deal-radar`, 'Review the draft')}</p>
+    <p style="margin:0;text-align:center;">${buttonHtml(`${SITE.url}/admin/deal-radar`, 'Open Deal Radar admin')}</p>
   `;
   return getResend().emails.send({
     from: FROM_EMAIL,
     to: ADMIN_EMAIL,
-    subject: `Deal Radar draft ready — week of ${opts.weekSlug}`,
-    html: baseTemplate('Deal Radar Draft Ready', body),
+    subject: `Deal Radar needs a look — week of ${opts.weekSlug}`,
+    html: baseTemplate('Deal Radar Run Report', body),
   });
 }
 

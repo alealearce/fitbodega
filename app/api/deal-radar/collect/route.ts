@@ -4,19 +4,21 @@ import { loadConfig } from '@/lib/deal-radar/config';
 import { generateIntroCopy } from '@/lib/deal-radar/copy';
 import { runFetchers } from '@/lib/deal-radar/fetchers';
 import { normalizeAndStore } from '@/lib/deal-radar/normalize';
+import { publishDigest } from '@/lib/deal-radar/publish';
 import type { DrOpportunity } from '@/lib/deal-radar/types';
 import { currentWeekSlug } from '@/lib/deal-radar/week';
-import { sendDealRadarDraftReady } from '@/lib/email/resend';
+import { sendDealRadarRunReport } from '@/lib/email/resend';
 
-// Weekly cron: collect opportunities, score them, create the week's DRAFT
-// digest, and email the admin to review. Nothing publishes or sends to
-// subscribers from this route — that only happens from the admin's
-// Approve & Publish action.
+// Weekly cron: collect opportunities, score them, then publish the week's
+// edition and email it to active subscribers. No review step (owner
+// decision 2026-10-07). The admin gets a note only when a source failed,
+// a send failed, or nothing published.
 //
 // Runs Mondays 06:00 PT (see vercel.json). Manual trigger:
 //   curl -X POST -H "Authorization: Bearer $CRON_SECRET" \
 //     https://fitbodega.com/api/deal-radar/collect
-// Add ?fixtures=1 to run from fixture data with zero external calls.
+// Add ?fixtures=1 to run from fixture data with zero external calls; a
+// fixture run stops at the draft and never publishes or emails.
 
 export const maxDuration = 300;
 
@@ -68,13 +70,13 @@ async function collect(req: NextRequest) {
     .order('score', { ascending: false });
   const opportunities = (opps ?? []) as DrOpportunity[];
 
-  // Prewrite the intro; the admin edits it before approval.
+  // Write the intro. If this fails, publishDigest falls back to a plain line.
   let introCopy = '';
   try {
     introCopy = await generateIntroCopy(weekSlug, opportunities);
     await supabase.from('dr_weekly_digests').update({ intro_copy: introCopy }).eq('id', weekId!);
   } catch {
-    // Intro generation is best-effort; the admin can write it by hand.
+    // Best-effort.
   }
 
   const { data: runs } = await supabase
@@ -92,10 +94,26 @@ async function collect(req: NextRequest) {
     signals: opportunities.filter((o) => o.source_type === 'spend_signal').length,
   };
 
-  // Await the notification — Vercel freezes the function otherwise.
-  await sendDealRadarDraftReady({ weekSlug, counts, errors });
+  // Fixture runs stop at the draft: fake deals must never publish or email.
+  if (useFixtures) {
+    return NextResponse.json({ ok: true, weekSlug, weekId, counts, stored, errors, published: null });
+  }
 
-  return NextResponse.json({ ok: true, weekSlug, weekId, counts, stored, errors });
+  const published = await publishDigest(supabase, weekId!, { includeAll: true });
+
+  // Await the notification — Vercel freezes the function otherwise.
+  if (!published.ok || published.failed > 0 || errors.length > 0) {
+    await sendDealRadarRunReport({
+      weekSlug,
+      counts,
+      errors,
+      publishError: published.ok ? null : published.error,
+      sent: published.ok ? published.sent : 0,
+      failed: published.ok ? published.failed : 0,
+    });
+  }
+
+  return NextResponse.json({ ok: published.ok, weekSlug, weekId, counts, stored, errors, published });
 }
 
 export async function POST(req: NextRequest) {

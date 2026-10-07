@@ -1,25 +1,32 @@
 # Deal Radar — Runbook
 
-Weekly pipeline that finds fitness brand deal/collab opportunities, drafts a
-digest, and — only after human approval — sends it to subscribers and
-publishes it at `/deals`.
+Weekly pipeline that finds fitness brand deal/collab opportunities, publishes
+them at `/deals` and emails the edition to subscribers. It runs on its own:
+no review step (owner decision 2026-10-07).
 
 ## The weekly loop
 
 1. **Monday 06:00 PT** — Vercel cron hits `GET /api/deal-radar/collect`
-   (auth: `CRON_SECRET`). Fetchers run, results are scored and deduped into
-   `dr_opportunities`, a `draft` row lands in `dr_weekly_digests`, and a
-   "draft ready" email goes to hello@fitbodega.com.
-2. **Review** at `/admin/deal-radar` (login as an admin email). Toggle each
-   opportunity Include/Skip, edit the intro copy, use Preview post.
-3. **Approve & Publish** — the only step that does anything outward:
-   publishes `/deals/[week-slug]`, emails every `active` subscriber (logged
-   per subscriber in `dr_email_log`), expires the un-triaged leftovers.
-   Two ways to trigger it, both requiring the owner's say-so: the button at
-   `/admin/deal-radar` (logged-in admin session), or a POST carrying
-   `Authorization: Bearer $ADMIN_SECRET` — same auth as the ingest endpoint,
-   for publishing from a terminal after approval given elsewhere. Publishing
-   twice is refused (409), so neither path can double-send.
+   (auth: `CRON_SECRET`). The fetchers run at the same time (in sequence they
+   took ~270s and the 300s limit cut the run off; fixed 2026-10-07), results
+   are scored and deduped into `dr_opportunities`, and Claude writes the intro.
+2. **Publish, same run** — `lib/deal-radar/publish.ts` marks every collected
+   opportunity `included`, publishes `/deals/[week-slug]`, and emails every
+   `active` subscriber (logged per subscriber in `dr_email_log`). The owner
+   reads it as a subscriber: hi@arce.ca is an `active` row in
+   `dr_subscribers`. If the intro failed, a plain one-line intro goes out.
+   If nothing was collected, nothing publishes.
+3. **Problems only** — hello@fitbodega.com gets a "Deal Radar needs a look"
+   email when a source failed, a send failed, or the edition did not publish.
+   A clean run sends no admin email.
+
+A published week is refused on a second run (409), so a retry cannot
+double-send.
+
+**By hand:** `/admin/deal-radar` still works for a week the cron did not
+publish: Include/Skip, edit the intro, Approve & Publish (admin session, or
+POST `/api/deal-radar/publish` with `Authorization: Bearer $ADMIN_SECRET`).
+Brand submissions from `/for-brands` still wait for approval there.
 
 The `/deals` page shows the current edition in full; earlier weeks collapse
 into date-labeled dropdowns. Each edition also has an SEO permalink at
@@ -57,10 +64,10 @@ land in the current week's draft.
 ## Manual runs
 
 ```bash
-# Live collection now (creates/updates this week's draft):
+# Live collection now — PUBLISHES and EMAILS this week's edition:
 curl -X POST -H "Authorization: Bearer $CRON_SECRET" https://fitbodega.com/api/deal-radar/collect
 
-# Fixture run — zero external calls, end-to-end locally:
+# Fixture run — zero external calls, stops at the draft, never publishes:
 curl -X POST -H "Authorization: Bearer $CRON_SECRET" "http://localhost:3000/api/deal-radar/collect?fixtures=1"
 ```
 
@@ -100,7 +107,7 @@ in more than one source. Per-row rationale is stored in `score_breakdown`.
 `dr_weekly_digests` (draft → published), `dr_opportunities` (scored, deduped
 on `fingerprint`), `dr_subscribers`, `dr_email_log` (per-subscriber send
 results), `dr_source_configs`, `dr_runs` (per-source run log — first place to
-look when a Monday draft is thin). All service-role only.
+look when a Monday edition is thin). All service-role only.
 
 ## Brand-posted deals (added 2026-08-19 — the marketplace loop)
 

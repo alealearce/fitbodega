@@ -5,8 +5,8 @@ import type { DrDealSubmission, DrOpportunity, DrRun, DrWeeklyDigest } from "@/l
 
 // Draft review: include/skip toggles per opportunity, editable intro copy,
 // brand deal submissions (approve puts them live on the /deals board), and
-// the single Approve & Publish action. All copy is validated here by a
-// human before anything sends.
+// the Approve & Publish action for a week the Monday cron did not publish
+// (the cron publishes on its own since 2026-10-07).
 
 interface Props {
   digest: DrWeeklyDigest;
