@@ -21,33 +21,37 @@ export async function runFetchers(
   config: DealRadarConfig,
   opts: { useFixtures: boolean }
 ): Promise<RawOpportunity[]> {
-  const collected: RawOpportunity[] = [];
+  // Sources run at the same time: in sequence they took ~270s and the
+  // collect route (maxDuration 300) was cut off before it could store.
+  const enabled = ALL_FETCHERS.filter((fetcher) => config.sources[fetcher.id]);
 
-  for (const fetcher of ALL_FETCHERS) {
-    if (!config.sources[fetcher.id]) continue;
+  const results = await Promise.all(
+    enabled.map(async (fetcher) => {
+      const startedAt = new Date().toISOString();
+      const t0 = Date.now();
+      let items: RawOpportunity[] = [];
+      let error: string | null = null;
 
-    const startedAt = new Date().toISOString();
-    const t0 = Date.now();
-    let items: RawOpportunity[] = [];
-    let error: string | null = null;
+      try {
+        items = await fetcher.fetch({ keywords: config.keywords, useFixtures: opts.useFixtures });
+      } catch (e) {
+        error = e instanceof Error ? e.message : String(e);
+      }
 
-    try {
-      items = await fetcher.fetch({ keywords: config.keywords, useFixtures: opts.useFixtures });
-      collected.push(...items);
-    } catch (e) {
-      error = e instanceof Error ? e.message : String(e);
-    }
+      await supabase.from('dr_runs').insert({
+        started_at: startedAt,
+        finished_at: new Date().toISOString(),
+        source: fetcher.id,
+        items_found: items.length,
+        errors: error ? [error] : [],
+        duration_ms: Date.now() - t0,
+        ok: error === null,
+      });
 
-    await supabase.from('dr_runs').insert({
-      started_at: startedAt,
-      finished_at: new Date().toISOString(),
-      source: fetcher.id,
-      items_found: items.length,
-      errors: error ? [error] : [],
-      duration_ms: Date.now() - t0,
-      ok: error === null,
-    });
-  }
+      return items;
+    })
+  );
 
-  return collected;
+  // Flatten in source order so dedupe sees the same order as before.
+  return results.flat();
 }
