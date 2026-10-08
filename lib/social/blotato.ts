@@ -45,6 +45,10 @@ const PLATFORM_ENV: Record<Platform, { account: string; requires?: string[] }> =
 
 const ORDER: Platform[] = ['instagram', 'facebook', 'linkedin', 'twitter', 'threads', 'bluesky', 'pinterest'];
 
+// Paused 2026-10-08 (owner): 30 days of posts drew ~0 impressions on X and
+// Pinterest, and Pinterest rejected pins. Empty this list to turn them back on.
+const PAUSED: Platform[] = ['twitter', 'pinterest'];
+
 // Platforms that only accept a SINGLE image via Blotato — excluded from any
 // multi-image carousel post (Threads rejects the extra slides).
 export const SINGLE_IMAGE_ONLY: Platform[] = ['threads'];
@@ -69,6 +73,7 @@ export const PLATFORM_LIMITS: Record<Platform, number> = {
 /** Which platforms are fully wired up (account id + any extra ids present). */
 export function configuredPlatforms(): Platform[] {
   return ORDER.filter((p) => {
+    if (PAUSED.includes(p)) return false;
     const cfg = PLATFORM_ENV[p];
     if (!env(cfg.account)) return false;
     return (cfg.requires ?? []).every((r) => env(r));
