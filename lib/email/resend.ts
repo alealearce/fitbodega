@@ -609,6 +609,7 @@ export function buildDealRadarDigestHtml(opts: {
   introCopy: string;
   spending: DigestEmailItem[];   // the highlights only, best first
   collabs: DigestEmailItem[];
+  otherWork?: DigestEmailItem[]; // paid gigs that are not creator or on-camera work
   totalCount: number;            // every deal in the edition, shown or not
   postUrl: string;
 }): string {
@@ -624,11 +625,13 @@ export function buildDealRadarDigestHtml(opts: {
     <p style="margin:32px 0 4px;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#888;">&#9632;&nbsp; ${title}</p>
     <table width="100%" cellpadding="0" cellspacing="0" style="margin:12px 0 0;">${items.map(itemHtml).join('')}</table>`;
 
-  const more = opts.totalCount - opts.collabs.length - opts.spending.length;
+  const otherWork = opts.otherWork ?? [];
+  const more = opts.totalCount - opts.collabs.length - otherWork.length - opts.spending.length;
 
   const body = `
     <p style="margin:0 0 16px;white-space:pre-line;">${opts.introCopy}</p>
     ${section('Open Collabs — apply now', opts.collabs)}
+    ${section('Other Paid Work', otherWork)}
     ${section('Spending Now', opts.spending)}
     ${more > 0 ? `<p style="margin:32px 0 0;text-align:center;font-size:15px;color:${INK};"><strong>${more} more ${more === 1 ? 'deal' : 'deals'}</strong> on the full list, ranked.</p>` : ''}
     <p style="margin:${more > 0 ? '16px' : '32px'} 0 0;text-align:center;">${buttonHtml(opts.postUrl, more > 0 ? `See all ${opts.totalCount} deals` : 'Read the full edition')}</p>

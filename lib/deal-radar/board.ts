@@ -1,4 +1,4 @@
-import type { DrOpportunity } from '@/lib/deal-radar/types';
+import type { DrOpportunity, DrWorkType } from '@/lib/deal-radar/types';
 
 // The board splits three ways, and the split is the point.
 //
@@ -50,5 +50,25 @@ export function applyHost(o: DrOpportunity): string | null {
     return new URL(o.source_url).hostname.replace(/^www\./, '');
   } catch {
     return null;
+  }
+}
+
+// The kind of work a listed deal pays for. Null for spend signals and for
+// rows collected before work types existed.
+export function workTypeOf(o: DrOpportunity): DrWorkType | null {
+  const t = o.meta?.workType;
+  return t === 'creator' || t === 'talent' || t === 'freelance' ? t : null;
+}
+
+export function workLabel(o: DrOpportunity): string | null {
+  switch (workTypeOf(o)) {
+    case 'creator':
+      return 'Creator content';
+    case 'talent':
+      return 'On-camera talent';
+    case 'freelance':
+      return 'Freelance gig';
+    default:
+      return null;
   }
 }

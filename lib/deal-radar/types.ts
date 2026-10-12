@@ -43,6 +43,10 @@ export interface DrDealSubmission {
 }
 export type DrSourceType = 'spend_signal' | 'listed_deal';
 export type DrOfferType = 'paid' | 'gifted' | 'commission' | 'unknown';
+// What a listed deal pays the person to do (meta.workType, set at extraction
+// since 2026-10-12). Every kind stays on the board as long as it is a way to
+// earn (owner decision 2026-10-12); rows from before that date have none.
+export type DrWorkType = 'creator' | 'talent' | 'freelance';
 export type DrOpportunityStatus = 'new' | 'included' | 'skipped' | 'expired';
 export type DrDigestStatus = 'draft' | 'approved' | 'published';
 export type DrSubscriberStatus = 'pending' | 'active' | 'unsubscribed';

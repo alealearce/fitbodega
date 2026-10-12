@@ -14,6 +14,7 @@ import {
   sendDealRadarDigest,
   type DigestEmailItem,
 } from '@/lib/email/resend';
+import { workTypeOf } from './board';
 import type { DrOpportunity, DrSubscriber } from './types';
 import { weekSlugToTitleDate } from './week';
 
@@ -21,6 +22,9 @@ import { weekSlugToTitleDate } from './week';
 // the rest (owner decision 2026-10-07: the full list made a long, flat email).
 const EMAIL_TOP_COLLABS = 5;
 const EMAIL_TOP_SPENDING = 3;
+// Paid work that is not creator or on-camera work (editing, store work).
+// It stays in the edition but never leads the collabs (owner decision 2026-10-12).
+const EMAIL_TOP_OTHER_WORK = 3;
 
 export type PublishResult =
   | { ok: true; postUrl: string; included: number; subscribers: number; sent: number; failed: number }
@@ -100,10 +104,12 @@ export async function publishDigest(
     url: o.source_url,
   });
 
+  const listed = included.filter((o) => o.source_type === 'listed_deal');
   const htmlTemplate = buildDealRadarDigestHtml({
     weekSlug: weekSlugToTitleDate(digest.week_slug),
     introCopy,
-    collabs: included.filter((o) => o.source_type === 'listed_deal').slice(0, EMAIL_TOP_COLLABS).map(toItem),
+    collabs: listed.filter((o) => workTypeOf(o) !== 'freelance').slice(0, EMAIL_TOP_COLLABS).map(toItem),
+    otherWork: listed.filter((o) => workTypeOf(o) === 'freelance').slice(0, EMAIL_TOP_OTHER_WORK).map(toItem),
     spending: included.filter((o) => o.source_type === 'spend_signal').slice(0, EMAIL_TOP_SPENDING).map(toItem),
     totalCount: included.length,
     postUrl,

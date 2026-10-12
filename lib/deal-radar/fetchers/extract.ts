@@ -3,7 +3,7 @@
 // requests with a 1s gap.
 
 import Anthropic from '@anthropic-ai/sdk';
-import type { DrOfferType, DrSourceId, DrSourceType, RawOpportunity } from '../types';
+import type { DrOfferType, DrSourceId, DrSourceType, DrWorkType, RawOpportunity } from '../types';
 
 const USER_AGENT = 'FitBodegaDealRadar/1.0 (+https://fitbodega.com/deals; hello@fitbodega.com)';
 
@@ -47,6 +47,7 @@ interface ExtractedItem {
   postedAt: string | null;
   expired: boolean;
   fitnessNiche: boolean;
+  workType: DrWorkType;
 }
 
 // Turn page text into structured listings. The model only ever sees plain
@@ -85,10 +86,11 @@ export async function extractListings(opts: {
                   postedAt: { type: ['string', 'null'] },
                   expired: { type: 'boolean' },
                   fitnessNiche: { type: 'boolean' },
+                  workType: { type: 'string', enum: ['creator', 'talent', 'freelance', 'none'] },
                 },
                 required: [
                   'brandName', 'brandUrl', 'sourceUrl', 'offerType', 'compensationText',
-                  'deliverables', 'platforms', 'postedAt', 'expired', 'fitnessNiche',
+                  'deliverables', 'platforms', 'postedAt', 'expired', 'fitnessNiche', 'workType',
                 ],
                 additionalProperties: false,
               },
@@ -102,7 +104,7 @@ export async function extractListings(opts: {
     messages: [
       {
         role: 'user',
-        content: `Today is ${opts.todayIso}. Below is the plain-text content of a public creator-marketplace page (${opts.pageUrl}). Extract every brand deal / UGC / collab listing you can identify.
+        content: `Today is ${opts.todayIso}. Below is the plain-text content of a public creator-marketplace page (${opts.pageUrl}). Extract every listing that is a way to earn: brand deals, UGC, collabs, casting calls and other paid gigs.
 
 Rules:
 - At most 25 listings; prefer the most recent when there are more.
@@ -111,6 +113,11 @@ Rules:
 - postedAt: convert relative dates ("3 days ago") to ISO YYYY-MM-DD using today's date. Null if absent.
 - expired: true when a stated deadline is in the past or the listing is marked closed.
 - fitnessNiche: true only for fitness, wellness, supplements, activewear, recovery, wearables, sports nutrition, or health food.
+- workType: what the person is paid to do.
+  "creator": make or post content for the brand (UGC, sponsored posts, ambassador or affiliate programs).
+  "talent": appear on camera or in person for someone else's production (casting calls, models, actors, hosts, trainers).
+  "freelance": any other paid work (editing, writing product pages, social media management, design, store or admin work).
+  "none": not a way to earn (surveys, giveaways, courses, ads for a tool, anything with no pay, product or commission).
 
 PAGE TEXT:
 ${opts.pageText.slice(0, 60000)}`,
@@ -123,7 +130,7 @@ ${opts.pageText.slice(0, 60000)}`,
   const parsed = JSON.parse(block.text) as { items: ExtractedItem[] };
 
   return parsed.items
-    .filter((i) => !i.expired && i.fitnessNiche && i.brandName)
+    .filter((i) => !i.expired && i.fitnessNiche && i.brandName && i.workType !== 'none')
     .map((i) => ({
       source: opts.source,
       sourceType: opts.sourceType,
@@ -136,7 +143,7 @@ ${opts.pageText.slice(0, 60000)}`,
       platforms: i.platforms.map((p) => p.toLowerCase()),
       activeAdCount: null,
       postedAt: i.postedAt,
-      meta: {},
+      meta: { workType: i.workType },
     }));
 }
 

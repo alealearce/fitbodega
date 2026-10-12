@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, ChevronRight } from "lucide-react";
-import { applyHost, originLabel } from "@/lib/deal-radar/board";
+import { applyHost, originLabel, workLabel } from "@/lib/deal-radar/board";
 import type { DrOpportunity } from "@/lib/deal-radar/types";
 
 // The board, in two sections that never blur into each other.
@@ -102,6 +102,7 @@ function DealRow({ o, rank }: { o: DrOpportunity; rank: number }) {
               postedHere ? "text-primary" : "text-on-surface-variant"
             }`}
           >
+            {workLabel(o) ? `${workLabel(o)} · ` : ""}
             {originLabel(o)}
             {host && !postedHere ? ` · apply on ${host}` : ""}
           </span>
