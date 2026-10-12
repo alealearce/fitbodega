@@ -47,7 +47,7 @@ interface ExtractedItem {
   postedAt: string | null;
   expired: boolean;
   fitnessNiche: boolean;
-  workType: DrWorkType;
+  workType: DrWorkType | 'none';
 }
 
 // Turn page text into structured listings. The model only ever sees plain
