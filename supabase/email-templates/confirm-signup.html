@@ -15,9 +15,9 @@
 
     <p style="margin:0 0 16px;">Welcome to <strong>FitBodega</strong> — the curated fitness and recovery network.</p>
     <p style="margin:0 0 24px;">Confirm your email address to activate your account.</p>
-    <p style="margin:0 0 24px;text-align:center;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background-color:#d1fc00;color:#161900;padding:14px 32px;border-radius:0;text-decoration:none;font-family:Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;">Confirm Email</a></p>
+    <p style="margin:0 0 24px;text-align:center;"><a href="https://fitbodega.com/api/auth/callback?token_hash={{ .TokenHash }}&type=email&next={{ .RedirectTo }}" style="display:inline-block;background-color:#d1fc00;color:#161900;padding:14px 32px;border-radius:0;text-decoration:none;font-family:Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;">Confirm Email</a></p>
     <p style="margin:0 0 8px;font-size:13px;color:#888;">If the button doesn't work, copy and paste this link:</p>
-   <p style="margin:0 0 16px;font-size:13px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#0e0e0e;">{{ .ConfirmationURL }}</a></p>
+   <p style="margin:0 0 16px;font-size:13px;word-break:break-all;"><a href="https://fitbodega.com/api/auth/callback?token_hash={{ .TokenHash }}&type=email&next={{ .RedirectTo }}" style="color:#0e0e0e;">https://fitbodega.com/api/auth/callback?token_hash={{ .TokenHash }}&type=email&next={{ .RedirectTo }}</a></p>
     <p style="margin:0;font-size:13px;color:#888;">If you didn't create a FitBodega account, you can safely ignore this email.</p>
         </td></tr>
         <tr><td style="padding:24px 40px;border-top:1px solid #e8e8e8;text-align:center;">

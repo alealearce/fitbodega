@@ -14,16 +14,22 @@ const inputClass =
 
 const labelClass = "block font-sans text-label-sm uppercase text-on-surface-variant mb-2";
 
+const LINK_ERROR =
+  "That email link has expired or was already used. Sign in below, or reset your password for a new link.";
+
 export default function LoginPage() {
   const router = useRouter();
   // ?next= from emails and the creator flow — same-site paths only.
-  const rawNext = useSearchParams().get("next") ?? "";
+  const searchParams = useSearchParams();
+  const rawNext = searchParams.get("next") ?? "";
   const nextPath = rawNext.startsWith("/") && !rawNext.startsWith("//") ? rawNext : "/dashboard";
   const [email,    setEmail]    = useState("");
   const [password, setPassword] = useState("");
   const [showPw,   setShowPw]   = useState(false);
-  const [status,   setStatus]   = useState<FormState>("idle");
-  const [message,  setMessage]  = useState("");
+  // The auth callback sends a failed email link here with ?error=.
+  const linkFailed = searchParams.has("error");
+  const [status,   setStatus]   = useState<FormState>(linkFailed ? "error" : "idle");
+  const [message,  setMessage]  = useState(linkFailed ? LINK_ERROR : "");
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
