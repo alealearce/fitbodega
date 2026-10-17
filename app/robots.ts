@@ -21,12 +21,12 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/admin', '/dashboard'],
+        disallow: ['/api/', '/admin', '/dashboard', '/search'],
       },
       ...aiAgents.map((userAgent) => ({
         userAgent,
         allow: ['/', '/llms.txt', '/llms-full.txt'],
-        disallow: ['/api/', '/admin', '/dashboard'],
+        disallow: ['/api/', '/admin', '/dashboard', '/search'],
       })),
     ],
     sitemap: `${SITE.url}/sitemap.xml`,
