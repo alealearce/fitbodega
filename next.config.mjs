@@ -49,7 +49,7 @@ const nextConfig = {
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "font-src 'self' https://fonts.gstatic.com",
       "img-src 'self' https: data: blob:",
-      "connect-src 'self' https://*.supabase.co wss://*.supabase.co https://*.vercel-insights.com",
+      "connect-src 'self' https://*.supabase.co wss://*.supabase.co https://*.vercel-insights.com https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.google.com https://stats.g.doubleclick.net",
       "frame-src 'none'",
       "worker-src 'self' blob:",
       "base-uri 'self'",

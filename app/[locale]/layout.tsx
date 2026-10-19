@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import { routing } from "@/routing";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -127,6 +128,14 @@ export default async function LocaleLayout({
           <Footer />
           <ChatWidget />
         </NextIntlClientProvider>
+        {/* GA4 loads after window.onload, off the LCP path. */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FN4407JKL3"
+          strategy="lazyOnload"
+        />
+        <Script id="gtag-init" strategy="lazyOnload">
+          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-FN4407JKL3');`}
+        </Script>
       </body>
     </html>
   );
