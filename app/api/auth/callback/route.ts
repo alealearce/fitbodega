@@ -20,7 +20,7 @@ const CALLBACK_PATH = '/api/auth/callback';
  * The templates pass the client's redirect URL as `next={{ .RedirectTo }}`.
  * resolveNext turns that back into a same-site path.
  */
-export async function GET(request: NextRequest) {
+async function verify(request: NextRequest) {
   const { searchParams, origin } = new URL(request.url);
 
   const code       = searchParams.get('code');
@@ -95,4 +95,33 @@ function resolveNext(raw: string | null, origin: string): string {
   if (bareHost(url.hostname) !== bareHost(new URL(origin).hostname)) return '/';
   if (url.pathname === CALLBACK_PATH) return resolveNext(url.searchParams.get('next'), origin);
   return url.pathname + url.search;
+}
+
+// Mail scanners (Outlook Safe Links and the like) open every link in an email
+// before the person does, and a token_hash works once. When GET verified, the
+// scanner used the link up and the person's own click failed ("Email link is
+// invalid or has expired", VendorRoster 2026-10-20). Now a GET, and the HEAD
+// Next answers with GET, only shows a Continue button. The button POSTs back
+// to this same URL and only the POST verifies. Scanners don't submit forms.
+const CONTINUE_PAGE = `<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Continue</title><style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#fff;color:#111;font:16px/1.5 system-ui,-apple-system,sans-serif}
+main{padding:24px;text-align:center;max-width:360px}h1{font-size:22px;margin:0 0 8px}p{margin:0 0 24px;color:#555}
+button{font:inherit;font-weight:600;padding:12px 32px;border:0;border-radius:6px;background:#111;color:#fff;cursor:pointer}
+@media (prefers-color-scheme:dark){body{background:#111;color:#eee}p{color:#aaa}button{background:#eee;color:#111}}
+</style></head><body><main><h1>One more step</h1><p>Press Continue to finish.</p>
+<form method="post"><button type="submit">Continue</button></form></main></body></html>`;
+
+export async function GET(request: NextRequest) {
+  if (!new URL(request.url).searchParams.get('token_hash')) return verify(request);
+  return new NextResponse(CONTINUE_PAGE, {
+    headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store', 'x-robots-tag': 'noindex' },
+  });
+}
+
+export async function POST(request: NextRequest) {
+  const res = await verify(request);
+  // 303 so the browser follows with a GET; verify's 307 would re-send the POST.
+  return res.headers.get('location') ? new NextResponse(null, { status: 303, headers: res.headers }) : res;
 }
