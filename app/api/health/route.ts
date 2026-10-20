@@ -113,6 +113,8 @@ export async function GET() {
   const failed = Object.entries(checks).filter(([, s]) => s === 'fail').map(([k]) => k);
   const ok = failed.length === 0;
   const httpStatus = ok ? 200 : 503;
+  // The body names the failed checks but monitors throw it away; the log keeps it.
+  if (!ok) console.error('[health] failed checks:', failed.join(', '));
 
   const payload = {
     status: ok ? 'ok' : 'error', // legacy field kept for any existing consumer
