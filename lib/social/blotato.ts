@@ -176,6 +176,12 @@ function accountIdFor(platform: Platform): string {
   return id;
 }
 
+// No emojis in anything we post (owner rule, 2026-10-22). The last guard before Blotato.
+const EMOJI = /[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}\u{200D}]/gu;
+export function stripEmoji(text: string): string {
+  return text.replace(EMOJI, '').replace(/^[ \t]+|[ \t]+$/gm, '').replace(/[ \t]{2,}/g, ' ');
+}
+
 /**
  * Publish a (single- or multi-image carousel) post to one platform.
  * `mediaUrls` must be Blotato-hosted URLs from uploadMedia/uploadAll.
@@ -185,7 +191,7 @@ export async function publish(platform: Platform, mediaUrls: string[], caption: 
     const json = await blotatoPost('/v2/posts', {
       post: {
         accountId: accountIdFor(platform),
-        content: { text: caption, mediaUrls, platform },
+        content: { text: stripEmoji(caption), mediaUrls, platform },
         target: targetFor(platform),
       },
     });
