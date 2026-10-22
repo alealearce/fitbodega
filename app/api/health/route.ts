@@ -61,6 +61,26 @@ async function checkResend(): Promise<Status> {
   }
 }
 
+// Anthropic key present AND still accepted. Anthropic disables a key it thinks
+// leaked without asking (it did on 2026-10-22), and a presence-only check kept
+// reporting 'ok'. GET /v1/models costs no tokens and answers 401 for a dead key.
+// Only a rejected key fails: a 429, 5xx or timeout is Anthropic's side, not the
+// key, so it reports 'skipped' instead of paging. Can't see exhausted credits.
+async function checkAnthropic(): Promise<Status> {
+  const key = process.env.ANTHROPIC_API_KEY;
+  if (!key) return 'fail';
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/models?limit=1', {
+      headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01' },
+      signal: AbortSignal.timeout(6000),
+    });
+    if (res.ok) return 'ok';
+    return res.status === 401 || res.status === 403 ? 'fail' : 'skipped';
+  } catch {
+    return 'skipped';
+  }
+}
+
 // The weekly content cron publishes a Journal post Tue and Thu at 16:00 UTC
 // (the daily blog was retired 2026-08-19). The longest healthy gap is the
 // weekend: Thu 16:00 → Tue 16:00 is 120h, so anything under 126h is normal
@@ -93,18 +113,18 @@ export async function GET() {
     return NextResponse.json({ ...cache.payload, cached: true }, { status: cache.httpStatus });
   }
 
-  const [database, resend, blog] = await Promise.all([
+  const [database, resend, anthropic, blog] = await Promise.all([
     checkDatabase(),
     checkResend(),
+    checkAnthropic(),
     checkBlogFresh(),
   ]);
 
   const checks: Record<string, Status> = {
     database,
     resend,
+    anthropic,
     blog,
-    // Presence-only (never the value): validating these would cost tokens/charges.
-    anthropic: process.env.ANTHROPIC_API_KEY ? 'ok' : 'fail',
     siteUrl: /^https:\/\//.test(process.env.NEXT_PUBLIC_SITE_URL ?? '') ? 'ok' : 'fail',
     // 'skipped' when the site doesn't use Stripe (e.g. no key configured yet).
     stripe: process.env.STRIPE_SECRET_KEY ? 'ok' : 'skipped',
