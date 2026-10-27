@@ -555,7 +555,7 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
               <table className="w-full">
                 <thead>
                   <tr className="border-b border-outline-variant/20">
-                    {["Spotlight", "Creator", "Niche", "Audience", "Links", "Submitted", "Status"].map((h) => (
+                    {["Creator", "Niche", "Audience", "Links", "Submitted", "Status"].map((h) => (
                       <th
                         key={h}
                         className="text-left font-sans text-xs font-semibold text-on-surface-variant uppercase tracking-wide px-5 py-3"
@@ -563,6 +563,7 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
                         {h}
                       </th>
                     ))}
+                    <th className="px-5 py-3" />
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-outline-variant/10">
@@ -571,29 +572,10 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
                     if (c.instagram) links.push({ label: `IG @${c.instagram}`, href: handleUrl("instagram", c.instagram) });
                     if (c.tiktok) links.push({ label: `TikTok @${c.tiktok}`, href: handleUrl("tiktok", c.tiktok) });
                     if (c.youtube) links.push({ label: `YouTube @${c.youtube}`, href: handleUrl("youtube", c.youtube) });
-                    // Label drops ?query/#fragment: pasted share links (?xtok=…&utm_source=qr) widened the table past the screen.
-                    if (c.website) links.push({ label: c.website.replace(/^https?:\/\/(www\.)?/, "").replace(/[?#].*$/, ""), href: c.website });
+                    if (c.website) links.push({ label: c.website.replace(/^https?:\/\/(www\.)?/, ""), href: c.website });
                     return (
                       <Fragment key={c.id}>
                       <tr className="hover:bg-surface-low transition-colors align-top">
-                        {/* First column so the publish action never sits off-screen on a narrow window. */}
-                        <td className="px-5 py-4 whitespace-nowrap">
-                          {c.spotlight_post_id ? (
-                            <span className="px-3 py-1 rounded-full font-sans text-xs font-semibold bg-primary/10 text-primary">
-                              Spotlight live
-                            </span>
-                          ) : creatorSpotlightSummary(c).ready && c.status === "live" ? (
-                            <button
-                              onClick={() => publishCreatorSpotlight(c.id)}
-                              disabled={busy === c.id + "-creator-spotlight"}
-                              className="px-3 py-1 rounded-full font-sans text-xs font-semibold bg-green-100 text-green-700 hover:bg-green-200 transition-colors disabled:opacity-50"
-                            >
-                              {busy === c.id + "-creator-spotlight" ? "Publishing..." : "Spotlight"}
-                            </button>
-                          ) : (
-                            <span className="font-sans text-xs text-on-surface-variant">Not ready</span>
-                          )}
-                        </td>
                         <td className="px-5 py-4">
                           <p className="font-sans font-semibold text-sm text-on-surface">{c.name}</p>
                           <a href={`mailto:${c.email}`} className="font-sans text-xs text-on-surface-variant hover:text-on-surface">
@@ -643,10 +625,24 @@ export default function AdminClient({ pending: initialPending, all: initialAll, 
                             {new Date(c.created_at).toLocaleDateString()}
                           </span>
                         </td>
-                        {/* Hide/Show sits under the badge: a separate last column pushed the table past a laptop screen. */}
                         <td className="px-5 py-4">
-                          <div className="flex flex-col items-start gap-2">
                           <Badge variant={c.status === "live" ? "approved" : "rejected"}>{c.status}</Badge>
+                        </td>
+                        <td className="px-5 py-4">
+                          <div className="flex flex-wrap items-center gap-2">
+                          {c.spotlight_post_id ? (
+                            <span className="px-3 py-1 rounded-full font-sans text-xs font-semibold bg-primary/10 text-primary">
+                              Spotlight live
+                            </span>
+                          ) : creatorSpotlightSummary(c).ready && c.status === "live" ? (
+                            <button
+                              onClick={() => publishCreatorSpotlight(c.id)}
+                              disabled={busy === c.id + "-creator-spotlight"}
+                              className="px-3 py-1 rounded-full font-sans text-xs font-semibold bg-green-100 text-green-700 hover:bg-green-200 transition-colors disabled:opacity-50"
+                            >
+                              {busy === c.id + "-creator-spotlight" ? "Publishing..." : "Spotlight"}
+                            </button>
+                          ) : null}
                           <button
                             onClick={() => setCreatorStatus(c.id, c.status === "live" ? "hidden" : "live")}
                             disabled={busy === c.id + "-creator"}
