@@ -103,6 +103,8 @@ function resolveNext(raw: string | null, origin: string): string {
 // invalid or has expired", VendorRoster 2026-10-20). Now a GET, and the HEAD
 // Next answers with GET, only shows a Continue button. The button POSTs back
 // to this same URL and only the POST verifies. Scanners don't submit forms.
+// The button turns off on the first press: a token_hash works once, so a second
+// press failed and sent a person who was already through to the login error.
 const CONTINUE_PAGE = `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
 <title>Continue</title><style>
@@ -111,7 +113,7 @@ main{padding:24px;text-align:center;max-width:360px}h1{font-size:22px;margin:0 0
 button{font:inherit;font-weight:600;padding:12px 32px;border:0;border-radius:6px;background:#111;color:#fff;cursor:pointer}
 @media (prefers-color-scheme:dark){body{background:#111;color:#eee}p{color:#aaa}button{background:#eee;color:#111}}
 </style></head><body><main><h1>One more step</h1><p>Press Continue to finish.</p>
-<form method="post"><button type="submit">Continue</button></form></main></body></html>`;
+<form method="post" onsubmit="this.querySelector('button').disabled=true"><button type="submit">Continue</button></form></main></body></html>`;
 
 export async function GET(request: NextRequest) {
   if (!new URL(request.url).searchParams.get('token_hash')) return verify(request);
