@@ -21,6 +21,11 @@ import { createAdminClient } from '@/lib/supabase/server';
  *             the share carousel (title, TL;DR, link). Session-written
  *             pieces (auto:false in lib/content/backlog.ts) preempt the
  *             writer simply by being scheduled.
+ *             RETIRED 2026-11-02: the Tue/Thu cron is gone from vercel.json
+ *             (backlog empty, posts drew no search traffic). The journal
+ *             kind still runs by hand with ?kind=journal; nothing flips a
+ *             scheduled post live any more, so publish hand-written posts
+ *             directly.
  *
  * Auth: Authorization: Bearer ${CRON_SECRET} (Vercel Cron sets this).
  * Manual/testing params:

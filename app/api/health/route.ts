@@ -90,7 +90,16 @@ async function checkAnthropic(): Promise<Status> {
 // check; a missed Thursday trips the following Monday's.
 const BLOG_MAX_AGE_MS = 126 * 60 * 60 * 1000;
 
+// The Tue/Thu Journal writer was retired 2026-11-02: its backlog ran out on
+// Oct 22, and the 17 posts it wrote drew 1 engaged session and 0 search
+// visits in 14 days. With nothing publishing on a schedule, a freshness check
+// would page the owner about a job that is off on purpose, so it reports
+// 'skipped'. Delete this early return AND re-add the 2,4 cron in vercel.json
+// together if the writer ever comes back.
+const BLOG_CRON_RETIRED: boolean = true;
+
 async function checkBlogFresh(): Promise<Status> {
+  if (BLOG_CRON_RETIRED) return 'skipped';
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (!url || !key) return 'fail';

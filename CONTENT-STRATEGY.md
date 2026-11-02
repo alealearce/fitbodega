@@ -8,15 +8,22 @@ creator get paid or helps a brand buy creator content well. Set 2026-08-20.
 | Day | Channel | What |
 |-----|---------|------|
 | Mon | Social (4 platforms) | Top-100 spotlight: one person, then see-the-full-list |
-| Tue | Journal + social | Post **for creators** publishes, share carousel goes out |
 | Wed | Social | Top-100 spotlight |
-| Thu | Journal + social | Post **for brands** publishes, share carousel goes out |
 
-Blog posts land ONLY Tuesday and Thursday. The daily AI blog cron is
-retired (removed from vercel.json 2026-08-20; the route stays for manual
-use). Two posts a week, written properly, beats seven written by nobody.
+**The Tue/Thu Journal writer was RETIRED 2026-11-02 (owner: "Retire the
+Journal").** It wrote all 17 `auto: true` backlog topics (Aug 21 to Oct 22),
+then went quiet. In the 14 days to Nov 2 those 17 posts drew 1 engaged
+session and 0 organic search visits, while /top-100-gyms alone drew 24.
+The 2,4 cron is out of vercel.json and `/api/health` reports `blog:
+'skipped'` (`BLOG_CRON_RETIRED`). The posts stay live. Spotlights (member,
+creator) still publish to the Journal when they happen. To bring the writer
+back: add new `auto: true` topics, re-add the cron, delete the flag, all in
+one commit.
 
-## How a weekly post happens (fully automated — owner decision 2026-08-20)
+The daily AI blog cron is retired too (removed from vercel.json 2026-08-20;
+the route stays for manual use).
+
+## How a weekly post happened (retired 2026-11-02, kept for a restart)
 
 The `/api/social/weekly` cron (Tue/Thu, 9am PT — 16:00 UTC, so winter runs
 land 8am PST) does everything:
