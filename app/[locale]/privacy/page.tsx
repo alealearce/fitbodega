@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE.url}/privacy` },
 };
 
-const LAST_UPDATED = "July 2026";
+const LAST_UPDATED = "November 3, 2026";
 
 export default function PrivacyPage() {
   return (
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
 
             <LegalSection title="1. Introduction">
               <p>
-                {SITE.name} (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) operates {SITE.url}. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+                {SITE.name} is operated by 1428093 B.C. LTD., a British Columbia company (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). We operate {SITE.url}. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
               </p>
               <p>
                 By using our services, you agree to the collection and use of information in accordance with this policy. If you have questions, contact us at{" "}
@@ -156,6 +156,7 @@ export default function PrivacyPage() {
                 If you have questions or concerns about this Privacy Policy, please contact us:
               </p>
               <div className="mt-3 space-y-1">
+                <p className="font-semibold text-on-surface">1428093 B.C. LTD.</p>
                 <p className="font-semibold text-on-surface">{SITE.name}</p>
                 <p>
                   <a href={`mailto:${SITE.email}`} className="text-primary hover:underline">

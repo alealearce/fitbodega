@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE.url}/terms` },
 };
 
-const LAST_UPDATED = "July 2026";
+const LAST_UPDATED = "November 3, 2026";
 
 export default function TermsPage() {
   return (
@@ -35,7 +35,7 @@ export default function TermsPage() {
 
             <LegalSection title="1. Acceptance of Terms">
               <p>
-                By accessing or using {SITE.name} (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) at {SITE.url}, you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our services.
+                {SITE.name} is operated by 1428093 B.C. LTD., a British Columbia company (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). By accessing or using {SITE.name} at {SITE.url}, you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our services.
               </p>
               <p>
                 We reserve the right to modify these terms at any time. Continued use of the service after changes constitutes your acceptance of the new terms.
@@ -160,6 +160,7 @@ export default function TermsPage() {
                 If you have questions about these Terms of Use, please contact us:
               </p>
               <div className="mt-3 space-y-1">
+                <p className="font-semibold text-on-surface">1428093 B.C. LTD.</p>
                 <p className="font-semibold text-on-surface">{SITE.name}</p>
                 <p>
                   <a href={`mailto:${SITE.email}`} className="text-primary hover:underline">
