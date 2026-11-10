@@ -117,7 +117,10 @@ async function generateStoryPost(listing: Listing): Promise<GeneratedStory> {
   const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const message = await anthropic.messages.create({
     model: MODEL,
-    max_tokens: 4096,
+    // Sonnet 5.5 thinks by default and thinking counts toward max_tokens; at 4096
+    // with no effort set, the post could be cut off mid tool call (2026-11-10).
+    max_tokens: 8192,
+    output_config: { effort: 'low' },
     system: SYSTEM_PROMPT,
     tools: [SPOTLIGHT_TOOL],
     tool_choice: { type: 'auto' },
@@ -128,8 +131,11 @@ async function generateStoryPost(listing: Listing): Promise<GeneratedStory> {
     throw new Error(`Model did not return a spotlight post (stop_reason: ${message.stop_reason})`);
   }
   const post = toolBlock.input as GeneratedStory;
+  if (message.stop_reason === 'max_tokens') {
+    throw new Error(`Spotlight post cut off at max_tokens (output tokens: ${message.usage?.output_tokens})`);
+  }
   if (!post?.title || !post?.content || !post?.pull_quote) {
-    throw new Error('Model returned an incomplete spotlight post');
+    throw new Error(`Model returned an incomplete spotlight post (stop_reason: ${message.stop_reason})`);
   }
   return post;
 }
