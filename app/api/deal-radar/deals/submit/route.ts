@@ -1,12 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { sendAdminDealSubmission } from '@/lib/email/resend';
+import { decideSubmission } from '@/lib/deal-radar/submissions';
+import type { DrDealSubmission } from '@/lib/deal-radar/types';
 import { rateLimit } from '@/lib/rateLimit';
 import { createAdminClient } from '@/lib/supabase/server';
 
 // Public: a brand posts a deal to the marketplace (form at /for-brands).
-// Lands in dr_deal_submissions as 'pending'; the admin approves at
-// /admin/deal-radar before anything appears on the board. Free for now.
+// Lands in dr_deal_submissions and is decided in the same request (owner
+// decision 2026-11-13): a deal that passes the check goes live on the board
+// at once, one that fails is rejected. Only a check that could not run
+// leaves the row 'pending' for the admin. See lib/deal-radar/submissions.ts.
+// Free for now.
+
+export const maxDuration = 60;
 
 const SubmissionSchema = z.object({
   brandName: z.string().min(2).max(120),
@@ -33,7 +40,7 @@ export async function POST(req: NextRequest) {
   const s = parsed.data;
 
   const supabase = createAdminClient();
-  const { error } = await supabase.from('dr_deal_submissions').insert({
+  const { data: row, error } = await supabase.from('dr_deal_submissions').insert({
     brand_name: s.brandName,
     brand_website: s.brandWebsite || null,
     contact_email: s.contactEmail.toLowerCase(),
@@ -43,12 +50,17 @@ export async function POST(req: NextRequest) {
     platforms: s.platforms.map((p) => p.toLowerCase()),
     apply_url: s.applyUrl || null,
     notes: s.notes || null,
-  });
-  if (error) {
+  }).select('*').single();
+  if (error || !row) {
     return NextResponse.json({ error: 'Could not submit' }, { status: 500 });
   }
 
+  const verdict = await decideSubmission(supabase, row as DrDealSubmission);
+
+  // Await the email: Vercel freezes the function once the response is sent.
   await sendAdminDealSubmission({
+    decision: verdict.decision,
+    reason: verdict.reason,
     brandName: s.brandName,
     contactEmail: s.contactEmail,
     offerType: s.offerType,
@@ -57,5 +69,7 @@ export async function POST(req: NextRequest) {
     website: s.brandWebsite || null,
   });
 
-  return NextResponse.json({ ok: true });
+  // The form tells a brand when its deal went live. It gets no reason for a
+  // decline, so a spammer cannot tune a submission against the check.
+  return NextResponse.json({ ok: true, live: verdict.decision === 'approved' });
 }

@@ -4,9 +4,9 @@ import { isAdminEmail } from '@/lib/config/site';
 import { publishDigest } from '@/lib/deal-radar/publish';
 import { createAdminClient, createClient } from '@/lib/supabase/server';
 
-// Approve & Publish for a draft triaged by hand at /admin/deal-radar. The
-// Monday cron publishes on its own (see collect/route.ts); this route is
-// for a week the cron did not publish. Auth: the logged-in admin session or
+// Publish now, from /admin/deal-radar. The Monday cron publishes on its own
+// (see collect/route.ts); this route is for a week the cron did not
+// publish. Like the cron, it includes every collected deal. Auth: the logged-in admin session or
 // an ADMIN_SECRET bearer. The work is in lib/deal-radar/publish.ts.
 
 export const maxDuration = 300;
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
   const parsed = z.object({ digestId: z.string().uuid() }).safeParse(await req.json());
   if (!parsed.success) return NextResponse.json({ error: 'Invalid input' }, { status: 400 });
 
-  const result = await publishDigest(createAdminClient(), parsed.data.digestId, { includeAll: false });
+  const result = await publishDigest(createAdminClient(), parsed.data.digestId, { includeAll: true });
   if (!result.ok) return NextResponse.json({ error: result.error }, { status: result.status });
   return NextResponse.json(result);
 }

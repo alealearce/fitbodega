@@ -3,7 +3,8 @@
 import { useState } from "react";
 
 // Post-a-deal form — the brand door into the marketplace. Free. Submissions
-// go to dr_deal_submissions and are reviewed by hand before going live.
+// are checked on arrival: a deal that passes is live on the board at once
+// (lib/deal-radar/submissions.ts), and the form says which way it went.
 
 const PLATFORM_OPTIONS = ["instagram", "tiktok", "youtube", "x", "podcast", "blog"];
 
@@ -22,7 +23,7 @@ export default function PostDealForm() {
     notes: "",
   });
   const [platforms, setPlatforms] = useState<string[]>([]);
-  const [state, setState] = useState<"idle" | "busy" | "done" | "error">("idle");
+  const [state, setState] = useState<"idle" | "busy" | "live" | "done" | "error">("idle");
 
   function set(field: string, value: string) {
     setForm((f) => ({ ...f, [field]: value }));
@@ -37,10 +38,31 @@ export default function PostDealForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...form, platforms }),
       });
-      setState(res.ok ? "done" : "error");
+      if (!res.ok) return setState("error");
+      const data = await res.json().catch(() => ({}));
+      setState(data.live ? "live" : "done");
     } catch {
       setState("error");
     }
+  }
+
+  if (state === "live") {
+    return (
+      <div className="bg-surface-card p-8">
+        <p className="font-serif text-2xl font-extrabold uppercase tracking-tight text-on-surface mb-3">
+          Your deal is live
+        </p>
+        <p className="font-sans text-sm text-on-surface-variant">
+          It passed the check and is on the board now, where fitness creators can apply.
+        </p>
+        <a
+          href="/deals"
+          className="inline-block mt-6 px-8 py-4 bg-primary text-primary-on font-sans text-sm font-bold tracking-wide uppercase hover:opacity-90"
+        >
+          See it on the board
+        </a>
+      </div>
+    );
   }
 
   if (state === "done") {
@@ -50,9 +72,8 @@ export default function PostDealForm() {
           Deal received
         </p>
         <p className="font-sans text-sm text-on-surface-variant">
-          Every deal is reviewed by hand before it goes on the board — usually within one
-          business day. You will hear from us at the email you gave if anything needs
-          clarifying.
+          Every deal is checked before it goes on the board, and this one did not go up
+          on its own. If it belongs there, you will see it on the board soon.
         </p>
       </div>
     );

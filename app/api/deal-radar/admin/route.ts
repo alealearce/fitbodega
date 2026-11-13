@@ -1,14 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { isAdminEmail } from '@/lib/config/site';
-import { loadConfig } from '@/lib/deal-radar/config';
-import { fingerprintOf, normalizeDomain, scoreOpportunity } from '@/lib/deal-radar/normalize';
-import type { RawOpportunity } from '@/lib/deal-radar/types';
+import { putOnBoard } from '@/lib/deal-radar/submissions';
+import type { DrDealSubmission } from '@/lib/deal-radar/types';
 import { createAdminClient, createClient } from '@/lib/supabase/server';
 
-// Admin draft actions: include/skip toggles, intro edits, and brand deal
-// submission review (approve puts the deal live on the /deals board;
-// week_id null marks board deals, distinct from weekly editions). Auth is
+// Admin actions: intro edits on a draft, and overrides on brand deal
+// submissions. Submissions decide themselves when they arrive
+// (lib/deal-radar/submissions.ts); review_submission is how the owner
+// reverses a call or settles one the check could not make. Approving puts
+// the deal live on the /deals board (week_id null marks board deals,
+// distinct from weekly editions); rejecting a live one takes it down. Auth is
 // the logged-in admin session (same gate as /admin). Publishing lives in
 // its own route: /api/deal-radar/publish.
 
@@ -63,57 +65,30 @@ export async function POST(req: NextRequest) {
       .eq('status', 'draft');
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   } else if (body.action === 'review_submission') {
-    const { data: sub } = await supabase
+    const { data } = await supabase
       .from('dr_deal_submissions')
       .select('*')
       .eq('id', body.submissionId)
-      .eq('status', 'pending')
       .maybeSingle();
-    if (!sub) return NextResponse.json({ error: 'Submission not found or already reviewed' }, { status: 404 });
+    const sub = data as DrDealSubmission | null;
+    if (!sub) return NextResponse.json({ error: 'Submission not found' }, { status: 404 });
+    if (sub.status === body.decision) return NextResponse.json({ ok: true });
 
     let opportunityId: string | null = null;
     if (body.decision === 'approved') {
-      // Approval puts the deal straight on the live board: source
-      // brand_direct, status included, week_id null (board, not an edition).
-      const raw: RawOpportunity = {
-        source: 'brand_direct',
-        sourceType: 'listed_deal',
-        brandName: sub.brand_name,
-        brandUrl: sub.brand_website,
-        sourceUrl: sub.apply_url ?? sub.brand_website,
-        offerType: sub.offer_type,
-        compensationText: sub.compensation_text,
-        deliverables: sub.deliverables,
-        platforms: sub.platforms,
-        activeAdCount: null,
-        postedAt: new Date().toISOString().slice(0, 10),
-        meta: { contactEmail: sub.contact_email, notes: sub.notes ?? undefined },
-      };
-      const config = await loadConfig(supabase);
-      const { score, breakdown } = scoreOpportunity(raw, config.weights, config.keywords);
-      const { data: opp, error: oppError } = await supabase
+      const placed = await putOnBoard(supabase, sub, { by: 'admin' });
+      if (!placed.ok) return NextResponse.json({ error: placed.error }, { status: 500 });
+      opportunityId = placed.opportunityId;
+    } else if (sub.opportunity_id) {
+      // Rejecting a deal that is live: delete its board row, so the same
+      // deal can be put back later without tripping the fingerprint index.
+      const { error: delError } = await supabase
         .from('dr_opportunities')
-        .insert({
-          brand_name: raw.brandName,
-          brand_domain: normalizeDomain(raw.brandUrl),
-          source_type: raw.sourceType,
-          source: raw.source,
-          source_url: raw.sourceUrl,
-          offer_type: raw.offerType,
-          compensation_text: raw.compensationText,
-          deliverables: raw.deliverables,
-          platforms: raw.platforms,
-          meta: raw.meta,
-          fingerprint: fingerprintOf(raw),
-          score,
-          score_breakdown: breakdown,
-          status: 'included',
-          week_id: null,
-        })
-        .select('id')
-        .single();
-      if (oppError) return NextResponse.json({ error: oppError.message }, { status: 500 });
-      opportunityId = opp.id;
+        .delete()
+        .eq('id', sub.opportunity_id)
+        .eq('source', 'brand_direct')
+        .is('week_id', null);
+      if (delError) return NextResponse.json({ error: delError.message }, { status: 500 });
     }
 
     const { error } = await supabase

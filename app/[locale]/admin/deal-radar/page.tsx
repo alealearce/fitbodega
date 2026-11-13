@@ -53,8 +53,8 @@ export default async function DealRadarAdminPage() {
   const { data: submissionData } = await admin
     .from("dr_deal_submissions")
     .select("*")
-    .eq("status", "pending")
-    .order("created_at", { ascending: true });
+    .order("created_at", { ascending: false })
+    .limit(30);
   const submissions = (submissionData ?? []) as DrDealSubmission[];
 
   return (
@@ -69,7 +69,9 @@ export default async function DealRadarAdminPage() {
             {digest ? `Week of ${weekSlugToTitleDate(digest.week_slug)}` : "No draft yet"}
           </h1>
           <p className="font-sans text-sm text-on-surface-variant mt-2">
-            Review every word before it goes out. Nothing sends without your approval.
+            This runs on its own. The Monday edition publishes every deal it collects, and
+            deals brands post are checked and put live, or declined, as they arrive. Change
+            any call below.
             {typeof activeSubs === "number" ? ` ${activeSubs} active subscribers.` : ""}
           </p>
         </div>
@@ -85,7 +87,7 @@ export default async function DealRadarAdminPage() {
         ) : (
           <div className="bg-surface-card p-8">
             <p className="font-sans text-sm text-on-surface-variant">
-              The Monday collection has not produced a draft yet. Trigger one manually:
+              The Monday collection has not run yet. To run it now (this publishes and emails subscribers):
             </p>
             <p className="font-sans text-sm text-on-surface mt-3">
               curl -X POST -H &quot;Authorization: Bearer $CRON_SECRET&quot; {SITE.url}/api/deal-radar/collect

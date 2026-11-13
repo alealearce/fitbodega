@@ -8,6 +8,15 @@ function getResend() {
 const FROM_EMAIL = SITE.fromEmail;
 const ADMIN_EMAIL = SITE.supportEmail;
 
+// For text that strangers typed into a public form.
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
 // ── Brand styles (inline, for email client compatibility) ──────────────────
 // Emails stay light/email-safe for deliverability; the header carries the
 // dark FitBodega wordmark treatment. Square corners throughout — no
@@ -684,6 +693,8 @@ export async function sendDealRadarRunReport(opts: {
 }
 
 export async function sendAdminDealSubmission(opts: {
+  decision: 'approved' | 'rejected' | 'held';
+  reason: string;
   brandName: string;
   contactEmail: string;
   offerType: string;
@@ -691,20 +702,28 @@ export async function sendAdminDealSubmission(opts: {
   deliverables: string;
   website: string | null;
 }) {
+  // Submissions decide themselves (lib/deal-radar/submissions.ts). This
+  // email reports the call; only 'held' asks the owner to do anything.
+  const outcome = {
+    approved: { subject: 'live', line: 'It passed the check and is live on the board now.', button: 'See the board', url: `${SITE.url}/deals` },
+    rejected: { subject: 'declined', line: 'It did not pass the check and is not shown.', button: 'Change this call', url: `${SITE.url}/admin/deal-radar` },
+    held: { subject: 'needs you', line: 'The check could not run, so this one is waiting for you.', button: 'Decide it', url: `${SITE.url}/admin/deal-radar` },
+  }[opts.decision];
   const body = `
-    <p style="margin:0 0 16px;">New brand deal submitted for the Deal Radar board:</p>
-    <p style="margin:0 0 6px;"><strong>${opts.brandName}</strong>${opts.website ? ` &mdash; <a href="${opts.website}" style="color:${INK};">${opts.website}</a>` : ''}</p>
-    <p style="margin:0 0 6px;">${opts.offerType} &mdash; ${opts.compensation}</p>
-    <p style="margin:0 0 6px;">${opts.deliverables}</p>
-    <p style="margin:0 0 16px;">Contact: ${opts.contactEmail}</p>
-    <p style="margin:0 0 16px;">Nothing is live until you approve it.</p>
-    <p style="margin:0;text-align:center;">${buttonHtml(`${SITE.url}/admin/deal-radar`, 'Review submission')}</p>
+    <p style="margin:0 0 16px;">A brand posted a deal to the Deal Radar board. ${outcome.line}</p>
+    <p style="margin:0 0 16px;"><strong>Why:</strong> ${escapeHtml(opts.reason)}</p>
+    <p style="margin:0 0 6px;"><strong>${escapeHtml(opts.brandName)}</strong>${opts.website ? ` &mdash; <a href="${escapeHtml(opts.website)}" style="color:${INK};">${escapeHtml(opts.website)}</a>` : ''}</p>
+    <p style="margin:0 0 6px;">${escapeHtml(opts.offerType)} &mdash; ${escapeHtml(opts.compensation)}</p>
+    <p style="margin:0 0 6px;">${escapeHtml(opts.deliverables)}</p>
+    <p style="margin:0 0 16px;">Contact: ${escapeHtml(opts.contactEmail)}</p>
+    ${opts.decision === 'held' ? '' : `<p style="margin:0 0 16px;">You can reverse this at ${SITE.url}/admin/deal-radar.</p>`}
+    <p style="margin:0;text-align:center;">${buttonHtml(outcome.url, outcome.button)}</p>
   `;
   return getResend().emails.send({
     from: FROM_EMAIL,
     to: ADMIN_EMAIL,
-    subject: `Deal Radar submission — ${opts.brandName}`,
-    html: baseTemplate('New Deal Submission', body),
+    subject: `Deal Radar submission ${outcome.subject} — ${opts.brandName}`,
+    html: baseTemplate('Deal Submission', body),
   });
 }
 

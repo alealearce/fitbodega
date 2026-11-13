@@ -1,7 +1,7 @@
 // Publish one weekly digest: make /deals/[week-slug] live and email the
 // edition to active subscribers. Called by the Monday collect cron (auto,
-// owner decision 2026-10-07: no review step) and by the admin Approve &
-// Publish button for a draft triaged by hand.
+// owner decision 2026-10-07: no review step) and by the admin Publish now
+// button for a week the cron did not publish.
 // Sequence: publish post (status 'published' makes the page render) ->
 // expire what was left out -> send to active subscribers with
 // per-subscriber logging in dr_email_log. Partial failures are reported,

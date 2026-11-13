@@ -12,7 +12,7 @@ import { isNetworkOpen } from "@/lib/creators/network";
 export const metadata: Metadata = {
   title: "Post a Brand Deal — Reach Fitness Creators",
   description:
-    "Post your brand deal, UGC brief, or ambassador program on FitBodega's Deal Radar — free. Reviewed by hand, seen by fitness creators on the board and in the weekly email.",
+    "Post your brand deal, UGC brief, or ambassador program on FitBodega's Deal Radar — free. Checked before it goes live, seen by fitness creators on the board and in the weekly email.",
   alternates: { canonical: `${SITE.url}/for-brands` },
 };
 
@@ -22,7 +22,7 @@ const offerSchema = {
   name: "Post a Brand Deal for Fitness Creators",
   serviceType: "Creator marketplace listing",
   description:
-    "Free listing of fitness brand deals, UGC briefs, and ambassador programs, reviewed by hand and distributed to fitness creators.",
+    "Free listing of fitness brand deals, UGC briefs, and ambassador programs, checked before they go live and distributed to fitness creators.",
   url: `${SITE.url}/for-brands`,
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   provider: { "@type": "Organization", name: SITE.name, url: SITE.url },
@@ -87,7 +87,7 @@ export default async function ForBrandsPage() {
           </h2>
           <p className="font-sans text-base text-on-surface-variant mb-12">
             State the pay plainly — deals with clear compensation rank higher and get taken
-            faster. We review everything by hand before it goes live.
+            faster. Every deal is checked on arrival, and one that passes is live within a minute.
           </p>
           <PostDealForm />
         </div>
@@ -127,7 +127,7 @@ export default async function ForBrandsPage() {
                 <ul className="space-y-5">
                   {[
                     "The people reading the board are fitness creators — that is the only audience this site has.",
-                    "Every deal is read by a person before it goes live, so yours sits next to real offers, not spam.",
+                    "Every deal is checked before it goes live, so yours sits next to real offers, not spam.",
                     "The same creators are ranked in the FitBodega 100 and profiled in the Journal, so you can judge them by more than a follower count.",
                   ].map((line) => (
                     <li key={line} className="font-sans text-sm text-on-surface leading-relaxed">

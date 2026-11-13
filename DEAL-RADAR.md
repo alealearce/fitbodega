@@ -33,9 +33,10 @@ A published week is refused on a second run (409), so a retry cannot
 double-send.
 
 **By hand:** `/admin/deal-radar` still works for a week the cron did not
-publish: Include/Skip, edit the intro, Approve & Publish (admin session, or
-POST `/api/deal-radar/publish` with `Authorization: Bearer $ADMIN_SECRET`).
-Brand submissions from `/for-brands` still wait for approval there.
+publish: edit the intro, Publish now (admin session, or POST
+`/api/deal-radar/publish` with `Authorization: Bearer $ADMIN_SECRET`). It
+includes every collected deal, as the cron does. There is no Include/Skip
+step (owner decision 2026-11-13).
 
 The `/deals` page shows the current edition in full; earlier weeks collapse
 into date-labeled dropdowns. Each edition also has an SEO permalink at
@@ -122,11 +123,27 @@ look when a Monday edition is thin). All service-role only.
 
 ## Brand-posted deals (added 2026-08-19 — the marketplace loop)
 
-Brands post deals free at `/for-brands` → `dr_deal_submissions` (pending) →
-admin email → approve or reject at `/admin/deal-radar`. Approval creates a
-`dr_opportunities` row (source `brand_direct`, status `included`,
-`week_id null`) that goes live on the `/deals` board immediately, merged and
-ranked with the current edition. Managed campaigns are deliberately in the
+Brands post deals free at `/for-brands` → `dr_deal_submissions` → decided in
+the same request by `lib/deal-radar/submissions.ts` (owner decision
+2026-11-13: no approval step, the system decides):
+
+- **approved** → a `dr_opportunities` row (source `brand_direct`, status
+  `included`, `week_id null`) goes live on the `/deals` board at once, merged
+  and ranked with the current edition. The form tells the brand it is live.
+- **rejected** → never shown. Fixed rules catch a bad link, unfilled template
+  text in the offer, and off-topic terms; then Claude judges it against six
+  tests (real pay, fitness brand, nothing asked up front, complete terms, not
+  an ad or link request, no drugs or income promises), with the first screen
+  of the brand's site as evidence.
+- **held** → the check itself failed. The row stays `pending`. The only case
+  that waits for a person.
+
+The admin gets one email per submission with the decision and the reason.
+`/admin/deal-radar` lists the last 30 with Put live / Take down to reverse a
+call. If a deal that should not be live got through, tighten the tests in
+`judgeSubmission`; never add the approval step back.
+
+Managed campaigns are deliberately in the
 background: footer link + `/about#managed-campaigns` only.
 
 Fingerprints are unique per `(fingerprint, week_id)` — a brand recurring
